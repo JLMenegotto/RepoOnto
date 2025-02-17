@@ -11,4 +11,4 @@
 
   * **Ontologia_ABNT_4A.owl**
   * **Ontologia_CSUS_4A.owl**
-  * **Ontologia_BIM_Objetos.owl**
+  * **Ontologia_Objetos_BIM.owl**
