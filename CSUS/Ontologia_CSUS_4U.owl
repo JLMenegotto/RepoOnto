@@ -103,420 +103,638 @@ Class: sus:Tema
 
 Class: sus:Código
 	SubClassOf: sus:Tema
-	Annotations: sus:Disciplina "SUS"@pt
-	Annotations: sus:Tradução "Código Sistema Único de Saúde do Brasil. Caderno SomaSUS."@pt
-	Annotations: sus:Traducción "Código del Sistema Único de Salud del Brasil. Cuaderno SomaSUS."@es
+	Annotations: sus:Disciplina "Arquitetura hospitalar"@pt
+	Annotations: sus:Tradução "Códigos Sistema Único de Saúde do Brasil. Caderno SomaSUS."@pt
+	Annotations: sus:Traducción "Códigos del Sistema Único de Salud del Brasil. Cuaderno SomaSUS."@es
 	Annotations: sus:Interoperabilidade "."@pt
 	Annotations: sus:Natureza "SUS"@pt
 	Annotations: sus:Espécie "SomaSUS"@pt
 	Annotations: sus:Tema "Tema"@pt
 
-Class: sus:Projeto
-	SubClassOf: sus:BIM
-	Annotations: sus:Disciplina "-"@pt
-	Annotations: sus:Tradução "-"@pt
-	Annotations: sus:Traducción "-"@es
-	Annotations: sus:Interoperabilidade "-"@pt
-	Annotations: sus:Natureza "Funcional"@pt
-	Annotations: sus:Espécie "-"@pt
-	Annotations: sus:Tema "-"@pt
+ObjectProperty: sus:p_identificar
+	SubPropertyOf: sus:BIMProp
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: tem_nome"@pt
 
-Class: sus:Funcional
-	SubClassOf: sus:Projeto
-	Annotations: sus:Disciplina "-"@pt
-	Annotations: sus:Tradução "-"@pt
-	Annotations: sus:Traducción "-"@es
-	Annotations: sus:Interoperabilidade "-"@pt
-	Annotations: sus:Natureza "Funcional"@pt
-	Annotations: sus:Espécie "-"@pt
-	Annotations: sus:Tema "-"@pt
+ObjectProperty: sus:tem_nome
+	SubPropertyOf: sus:p_identificar
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: tem_nome"@pt
 
-Class: sus:Ocupação
-	SubClassOf: sus:Funcional
-	Annotations: sus:Disciplina "-"@pt
-	Annotations: sus:Tradução "-"@pt
-	Annotations: sus:Traducción "-"@es
-	Annotations: sus:Interoperabilidade "-"@pt
-	Annotations: sus:Natureza "Funcional"@pt
-	Annotations: sus:Espécie "Ocupação"@pt
-	Annotations: sus:Tema "-"@pt
+ObjectProperty: sus:p_identificar
+	SubPropertyOf: sus:BIMProp
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: tem_código"@pt
 
-Class: sus:Ambiente
-	SubClassOf: sus:Ocupação
-	Annotations: sus:Disciplina "-"@pt
-	Annotations: sus:Tradução "-"@pt
-	Annotations: sus:Traducción "-"@es
-	Annotations: sus:Interoperabilidade "-"@pt
-	Annotations: sus:Natureza "Funcional"@pt
-	Annotations: sus:Espécie "Ocupação"@pt
-	Annotations: sus:Tema "Ambiente"@pt
+ObjectProperty: sus:tem_código
+	SubPropertyOf: sus:p_identificar
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: tem_código"@pt
 
-Class: sus:doSUS
-	SubClassOf: sus:Ambiente
-	Annotations: sus:Disciplina "Funcional"@pt
-	Annotations: sus:Tradução "Ambiente que pertence a hospital da rede do Sistema Único de Saúde do Brasil"@pt
-	Annotations: sus:Traducción "Ambiente que pertenece a un hospital de la red del Sistema Único de Salud del Brasil"@es
-	Annotations: sus:Interoperabilidade "."@pt
-	Annotations: sus:Natureza "Funcional"@pt
-	Annotations: sus:Espécie "Ocupação"@pt
-	Annotations: sus:Tema "Ambiente"@pt
+ObjectProperty: sus:p_identificar
+	SubPropertyOf: sus:BIMProp
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: tem_id"@pt
+	Characteristics: Functional
 
-ObjectProperty: sus:p_sus
+ObjectProperty: sus:tem_id
+	SubPropertyOf: sus:p_identificar
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: tem_id"@pt
+	Characteristics: Functional
+
+ObjectProperty: sus:p_identificar
+	SubPropertyOf: sus:BIMProp
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: tem_uri"@pt
+	Characteristics: Functional
+
+ObjectProperty: sus:tem_uri
+	SubPropertyOf: sus:p_identificar
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: tem_uri"@pt
+	Characteristics: Functional
+
+ObjectProperty: sus:p_identificar
+	SubPropertyOf: sus:BIMProp
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: tem_descrição"@pt
+
+ObjectProperty: sus:tem_descrição
+	SubPropertyOf: sus:p_identificar
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: tem_descrição"@pt
+
+ObjectProperty: sus:p_definir
 	SubPropertyOf: sus:BIMProp
 	Domain: sus:BIM
 	Range: sus:SUS
 	Annotations: rdfs:label "Propriedade de objeto: é_ambiente"@pt
 
 ObjectProperty: sus:é_ambiente
-	SubPropertyOf: sus:p_sus
+	SubPropertyOf: sus:p_definir
 	Domain: sus:BIM
 	Range: sus:SUS
 	Annotations: rdfs:label "Propriedade de objeto: é_ambiente"@pt
 
-ObjectProperty: sus:p_sus
+ObjectProperty: sus:p_definir
 	SubPropertyOf: sus:BIMProp
 	Domain: sus:BIM
 	Range: sus:SUS
 	Annotations: rdfs:label "Propriedade de objeto: é_equipamento"@pt
 
 ObjectProperty: sus:é_equipamento
-	SubPropertyOf: sus:p_sus
+	SubPropertyOf: sus:p_definir
 	Domain: sus:BIM
 	Range: sus:SUS
 	Annotations: rdfs:label "Propriedade de objeto: é_equipamento"@pt
 
-ObjectProperty: sus:p_sus
+ObjectProperty: sus:p_definir
 	SubPropertyOf: sus:BIMProp
 	Domain: sus:BIM
 	Range: sus:SUS
-	Annotations: rdfs:label "Propriedade de objeto: é_unidade_funcional"@pt
+	Annotations: rdfs:label "Propriedade de objeto: é_dispositivo"@pt
 
-ObjectProperty: sus:é_unidade_funcional
-	SubPropertyOf: sus:p_sus
+ObjectProperty: sus:é_dispositivo
+	SubPropertyOf: sus:p_definir
 	Domain: sus:BIM
 	Range: sus:SUS
-	Annotations: rdfs:label "Propriedade de objeto: é_unidade_funcional"@pt
+	Annotations: rdfs:label "Propriedade de objeto: é_dispositivo"@pt
 
-ObjectProperty: sus:p_sus
+ObjectProperty: sus:p_definir
 	SubPropertyOf: sus:BIMProp
 	Domain: sus:BIM
 	Range: sus:SUS
-	Annotations: rdfs:label "Propriedade de objeto: é_volume"@pt
+	Annotations: rdfs:label "Propriedade de objeto: é_mobiliário"@pt
 
-ObjectProperty: sus:é_volume
-	SubPropertyOf: sus:p_sus
+ObjectProperty: sus:é_mobiliário
+	SubPropertyOf: sus:p_definir
 	Domain: sus:BIM
 	Range: sus:SUS
-	Annotations: rdfs:label "Propriedade de objeto: é_volume"@pt
+	Annotations: rdfs:label "Propriedade de objeto: é_mobiliário"@pt
 
-ObjectProperty: sus:p_sus
+ObjectProperty: sus:p_administrar
+	SubPropertyOf: sus:BIMProp
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: é_público"@pt
+
+ObjectProperty: sus:é_público
+	SubPropertyOf: sus:p_administrar
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: é_público"@pt
+
+ObjectProperty: sus:p_administrar
+	SubPropertyOf: sus:BIMProp
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: é_órgão"@pt
+
+ObjectProperty: sus:é_órgão
+	SubPropertyOf: sus:p_administrar
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: é_órgão"@pt
+
+ObjectProperty: sus:p_administrar
+	SubPropertyOf: sus:BIMProp
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: é_unid_administrativa"@pt
+
+ObjectProperty: sus:é_unid_administrativa
+	SubPropertyOf: sus:p_administrar
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: é_unid_administrativa"@pt
+
+ObjectProperty: sus:p_administrar
+	SubPropertyOf: sus:BIMProp
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: é_unid_funcional"@pt
+
+ObjectProperty: sus:é_unid_funcional
+	SubPropertyOf: sus:p_administrar
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: é_unid_funcional"@pt
+
+ObjectProperty: sus:p_administrar
 	SubPropertyOf: sus:BIMProp
 	Domain: sus:BIM
 	Range: sus:SUS
 	Annotations: rdfs:label "Propriedade de objeto: é_setor"@pt
 
 ObjectProperty: sus:é_setor
-	SubPropertyOf: sus:p_sus
+	SubPropertyOf: sus:p_administrar
 	Domain: sus:BIM
 	Range: sus:SUS
 	Annotations: rdfs:label "Propriedade de objeto: é_setor"@pt
 
-ObjectProperty: sus:p_sus
+ObjectProperty: sus:p_administrar
 	SubPropertyOf: sus:BIMProp
 	Domain: sus:BIM
 	Range: sus:SUS
-	Annotations: rdfs:label "Propriedade de objeto: é_temática"@pt
+	Annotations: rdfs:label "Propriedade de objeto: é_divisão"@pt
 
-ObjectProperty: sus:é_temática
-	SubPropertyOf: sus:p_sus
+ObjectProperty: sus:é_divisão
+	SubPropertyOf: sus:p_administrar
 	Domain: sus:BIM
 	Range: sus:SUS
-	Annotations: rdfs:label "Propriedade de objeto: é_temática"@pt
+	Annotations: rdfs:label "Propriedade de objeto: é_divisão"@pt
 
-ObjectProperty: sus:p_sus
+ObjectProperty: sus:p_administrar
 	SubPropertyOf: sus:BIMProp
 	Domain: sus:BIM
 	Range: sus:SUS
-	Annotations: rdfs:label "Propriedade de objeto: é_descrito"@pt
+	Annotations: rdfs:label "Propriedade de objeto: é_departamento"@pt
 
-ObjectProperty: sus:é_descrito
-	SubPropertyOf: sus:p_sus
+ObjectProperty: sus:é_departamento
+	SubPropertyOf: sus:p_administrar
 	Domain: sus:BIM
 	Range: sus:SUS
-	Annotations: rdfs:label "Propriedade de objeto: é_descrito"@pt
+	Annotations: rdfs:label "Propriedade de objeto: é_departamento"@pt
 
-DataProperty: sus:d_sus
+ObjectProperty: sus:p_administrar
+	SubPropertyOf: sus:BIMProp
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: é_tema"@pt
+
+ObjectProperty: sus:é_tema
+	SubPropertyOf: sus:p_administrar
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: é_tema"@pt
+
+ObjectProperty: sus:p_administrar
+	SubPropertyOf: sus:BIMProp
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: é_vol"@pt
+
+ObjectProperty: sus:é_vol
+	SubPropertyOf: sus:p_administrar
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: é_vol"@pt
+
+DataProperty: sus:d_identificar
 	SubPropertyOf: sus:BIMData
 	Domain: sus:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Valor xsd:string da Dataprop: ambiente"@pt
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: nome"@pt
+
+DataProperty: sus:nome
+	SubPropertyOf: sus:d_identificar
+	Domain: sus:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: nome"@pt
+
+DataProperty: sus:d_identificar
+	SubPropertyOf: sus:BIMData
+	Domain: sus:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: código"@pt
+
+DataProperty: sus:código
+	SubPropertyOf: sus:d_identificar
+	Domain: sus:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: código"@pt
+
+DataProperty: sus:d_identificar
+	SubPropertyOf: sus:BIMData
+	Domain: sus:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: id"@pt
+
+DataProperty: sus:id
+	SubPropertyOf: sus:d_identificar
+	Domain: sus:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: id"@pt
+
+DataProperty: sus:d_identificar
+	SubPropertyOf: sus:BIMData
+	Domain: sus:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: uri"@pt
+
+DataProperty: sus:uri
+	SubPropertyOf: sus:d_identificar
+	Domain: sus:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: uri"@pt
+
+DataProperty: sus:d_identificar
+	SubPropertyOf: sus:BIMData
+	Domain: sus:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: descrição"@pt
+
+DataProperty: sus:descrição
+	SubPropertyOf: sus:d_identificar
+	Domain: sus:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: descrição"@pt
+
+DataProperty: sus:d_definir
+	SubPropertyOf: sus:BIMData
+	Domain: sus:BIM
+	Range: xsd:boolean
+	Annotations: rdfs:label "Valor xsd:boolean da Dataprop: ambiente"@pt
 
 DataProperty: sus:ambiente
-	SubPropertyOf: sus:d_sus
+	SubPropertyOf: sus:d_definir
 	Domain: sus:BIM
-	Range: xsd:string
-	Annotations: rdfs:label "Valor xsd:string da Dataprop: ambiente"@pt
+	Range: xsd:boolean
+	Annotations: rdfs:label "Valor xsd:boolean da Dataprop: ambiente"@pt
 
-DataProperty: sus:d_sus
+DataProperty: sus:d_definir
 	SubPropertyOf: sus:BIMData
 	Domain: sus:BIM
-	Range: xsd:string
-	Annotations: rdfs:label "Valor xsd:string da Dataprop: equipamento"@pt
+	Range: xsd:boolean
+	Annotations: rdfs:label "Valor xsd:boolean da Dataprop: equipamento"@pt
 
 DataProperty: sus:equipamento
-	SubPropertyOf: sus:d_sus
+	SubPropertyOf: sus:d_definir
 	Domain: sus:BIM
-	Range: xsd:string
-	Annotations: rdfs:label "Valor xsd:string da Dataprop: equipamento"@pt
+	Range: xsd:boolean
+	Annotations: rdfs:label "Valor xsd:boolean da Dataprop: equipamento"@pt
 
-DataProperty: sus:d_sus
+DataProperty: sus:d_definir
+	SubPropertyOf: sus:BIMData
+	Domain: sus:BIM
+	Range: xsd:boolean
+	Annotations: rdfs:label "Valor xsd:boolean da Dataprop: dispositivo"@pt
+
+DataProperty: sus:dispositivo
+	SubPropertyOf: sus:d_definir
+	Domain: sus:BIM
+	Range: xsd:boolean
+	Annotations: rdfs:label "Valor xsd:boolean da Dataprop: dispositivo"@pt
+
+DataProperty: sus:d_definir
+	SubPropertyOf: sus:BIMData
+	Domain: sus:BIM
+	Range: xsd:boolean
+	Annotations: rdfs:label "Valor xsd:boolean da Dataprop: mobiliário"@pt
+
+DataProperty: sus:mobiliário
+	SubPropertyOf: sus:d_definir
+	Domain: sus:BIM
+	Range: xsd:boolean
+	Annotations: rdfs:label "Valor xsd:boolean da Dataprop: mobiliário"@pt
+
+DataProperty: sus:d_administrar
+	SubPropertyOf: sus:BIMData
+	Domain: sus:BIM
+	Range: xsd:boolean
+	Annotations: rdfs:label "Valor xsd:boolean da Dataprop: público"@pt
+
+DataProperty: sus:público
+	SubPropertyOf: sus:d_administrar
+	Domain: sus:BIM
+	Range: xsd:boolean
+	Annotations: rdfs:label "Valor xsd:boolean da Dataprop: público"@pt
+
+DataProperty: sus:d_administrar
 	SubPropertyOf: sus:BIMData
 	Domain: sus:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Valor xsd:string da Dataprop: unidade_funcional"@pt
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: órgão"@pt
 
-DataProperty: sus:unidade_funcional
-	SubPropertyOf: sus:d_sus
+DataProperty: sus:órgão
+	SubPropertyOf: sus:d_administrar
 	Domain: sus:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Valor xsd:string da Dataprop: unidade_funcional"@pt
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: órgão"@pt
 
-DataProperty: sus:d_sus
+DataProperty: sus:d_administrar
 	SubPropertyOf: sus:BIMData
 	Domain: sus:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Valor xsd:string da Dataprop: volume"@pt
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: unid_administrativa"@pt
 
-DataProperty: sus:volume
-	SubPropertyOf: sus:d_sus
+DataProperty: sus:unid_administrativa
+	SubPropertyOf: sus:d_administrar
 	Domain: sus:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Valor xsd:string da Dataprop: volume"@pt
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: unid_administrativa"@pt
 
-DataProperty: sus:d_sus
+DataProperty: sus:d_administrar
+	SubPropertyOf: sus:BIMData
+	Domain: sus:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: unid_funcional"@pt
+
+DataProperty: sus:unid_funcional
+	SubPropertyOf: sus:d_administrar
+	Domain: sus:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: unid_funcional"@pt
+
+DataProperty: sus:d_administrar
 	SubPropertyOf: sus:BIMData
 	Domain: sus:BIM
 	Range: xsd:string
 	Annotations: rdfs:label "Valor xsd:string da Dataprop: setor"@pt
 
 DataProperty: sus:setor
-	SubPropertyOf: sus:d_sus
+	SubPropertyOf: sus:d_administrar
 	Domain: sus:BIM
 	Range: xsd:string
 	Annotations: rdfs:label "Valor xsd:string da Dataprop: setor"@pt
 
-DataProperty: sus:d_sus
+DataProperty: sus:d_administrar
 	SubPropertyOf: sus:BIMData
 	Domain: sus:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Valor xsd:string da Dataprop: temática"@pt
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: divisão"@pt
 
-DataProperty: sus:temática
-	SubPropertyOf: sus:d_sus
+DataProperty: sus:divisão
+	SubPropertyOf: sus:d_administrar
 	Domain: sus:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Valor xsd:string da Dataprop: temática"@pt
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: divisão"@pt
 
-DataProperty: sus:d_sus
+DataProperty: sus:d_administrar
 	SubPropertyOf: sus:BIMData
 	Domain: sus:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Valor xsd:string da Dataprop: descrito"@pt
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: departamento"@pt
 
-DataProperty: sus:descrito
-	SubPropertyOf: sus:d_sus
+DataProperty: sus:departamento
+	SubPropertyOf: sus:d_administrar
 	Domain: sus:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Valor xsd:string da Dataprop: descrito"@pt
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: departamento"@pt
+
+DataProperty: sus:d_administrar
+	SubPropertyOf: sus:BIMData
+	Domain: sus:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: tema"@pt
+
+DataProperty: sus:tema
+	SubPropertyOf: sus:d_administrar
+	Domain: sus:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: tema"@pt
+
+DataProperty: sus:d_administrar
+	SubPropertyOf: sus:BIMData
+	Domain: sus:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: vol"@pt
+
+DataProperty: sus:vol
+	SubPropertyOf: sus:d_administrar
+	Domain: sus:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: vol"@pt
 
 Individual: sus:UFU.01
 	Types: sus:Código
-	Facts: sus:unidade_funcional    "Atendimento ambulatorial"
-	Facts: sus:temática    "Unidade funcional do SUS"
-	Facts: sus:descrito    "Unidade funcional do SomaSUS - Atendimento ambulatorial"
+	Facts: sus:unid_funcional    "Atendimento ambulatorial"
+	Facts: sus:tema    "Unidade funcional do SUS"
+	Facts: sus:descrição    "Unidade funcional do SomaSUS - Atendimento ambulatorial"
 
 Individual: sus:UFU.02
 	Types: sus:Código
-	Facts: sus:unidade_funcional    "Atendimento imediato"
-	Facts: sus:temática    "Unidade funcional do SUS"
-	Facts: sus:descrito    "Unidade funcional do SomaSUS - Atendimento imediato"
+	Facts: sus:unid_funcional    "Atendimento imediato"
+	Facts: sus:tema    "Unidade funcional do SUS"
+	Facts: sus:descrição    "Unidade funcional do SomaSUS - Atendimento imediato"
 
 Individual: sus:UFU.03
 	Types: sus:Código
-	Facts: sus:unidade_funcional    "Internação"
-	Facts: sus:temática    "Unidade funcional do SUS"
-	Facts: sus:descrito    "Unidade funcional do SomaSUS - Internação"
+	Facts: sus:unid_funcional    "Internação"
+	Facts: sus:tema    "Unidade funcional do SUS"
+	Facts: sus:descrição    "Unidade funcional do SomaSUS - Internação"
 
 Individual: sus:UFU.04.1
 	Types: sus:Código
-	Facts: sus:unidade_funcional    "Apoio ao diagnóstico e a terapia (Reabilitação)"
-	Facts: sus:temática    "Unidade funcional do SUS"
-	Facts: sus:descrito    "Unidade funcional do SomaSUS - Apoio ao diagnóstico e a terapia (Reabilitação)"
+	Facts: sus:unid_funcional    "Apoio ao diagnóstico e a terapia (Reabilitação)"
+	Facts: sus:tema    "Unidade funcional do SUS"
+	Facts: sus:descrição    "Unidade funcional do SomaSUS - Apoio ao diagnóstico e a terapia (Reabilitação)"
 
 Individual: sus:UFU.04.2
 	Types: sus:Código
-	Facts: sus:unidade_funcional    "Imagenologia"
-	Facts: sus:temática    "Unidade funcional do SUS"
-	Facts: sus:descrito    "Unidade funcional do SomaSUS - Imagenologia"
+	Facts: sus:unid_funcional    "Imagenologia"
+	Facts: sus:tema    "Unidade funcional do SUS"
+	Facts: sus:descrição    "Unidade funcional do SomaSUS - Imagenologia"
 
 Individual: sus:UFU.04.3
 	Types: sus:Código
-	Facts: sus:unidade_funcional    "Anatomia patológica e citopatologia"
-	Facts: sus:temática    "Unidade funcional do SUS"
-	Facts: sus:descrito    "Unidade funcional do SomaSUS - Anatomia patológica e citopatologia"
+	Facts: sus:unid_funcional    "Anatomia patológica e citopatologia"
+	Facts: sus:tema    "Unidade funcional do SUS"
+	Facts: sus:descrição    "Unidade funcional do SomaSUS - Anatomia patológica e citopatologia"
 
 Individual: sus:UFU.04.4
 	Types: sus:Código
-	Facts: sus:unidade_funcional    "Hemoterapia e hematologia"
-	Facts: sus:temática    "Unidade funcional do SUS"
-	Facts: sus:descrito    "Unidade funcional do SomaSUS - Hemoterapia e hematologia"
+	Facts: sus:unid_funcional    "Hemoterapia e hematologia"
+	Facts: sus:tema    "Unidade funcional do SUS"
+	Facts: sus:descrição    "Unidade funcional do SomaSUS - Hemoterapia e hematologia"
 
 Individual: sus:UFU.04.5
 	Types: sus:Código
-	Facts: sus:unidade_funcional    "Medicina nuclear"
-	Facts: sus:temática    "Unidade funcional do SUS"
-	Facts: sus:descrito    "Unidade funcional do SomaSUS - Medicina nuclear"
+	Facts: sus:unid_funcional    "Medicina nuclear"
+	Facts: sus:tema    "Unidade funcional do SUS"
+	Facts: sus:descrição    "Unidade funcional do SomaSUS - Medicina nuclear"
 
 Individual: sus:UFU.04.6
 	Types: sus:Código
-	Facts: sus:unidade_funcional    "Patologia clínica"
-	Facts: sus:temática    "Unidade funcional do SUS"
-	Facts: sus:descrito    "Unidade funcional do SomaSUS - Patologia clínica"
+	Facts: sus:unid_funcional    "Patologia clínica"
+	Facts: sus:tema    "Unidade funcional do SUS"
+	Facts: sus:descrição    "Unidade funcional do SomaSUS - Patologia clínica"
 
 Individual: sus:BASI
 	Types: sus:Código
 	Facts: sus:setor    "Ações básicas de saúde"
-	Facts: sus:temática    "Setor do SUS"
-	Facts: sus:descrito    "Setor do SomaSUS - Ações básicas de saúde"
+	Facts: sus:tema    "Setores hospitalares"
+	Facts: sus:descrição    "Setor do SomaSUS - Ações básicas de saúde"
 
 Individual: sus:ENFE
 	Types: sus:Código
 	Facts: sus:setor    "Enfermagem"
-	Facts: sus:temática    "Setor do SUS"
-	Facts: sus:descrito    "Setor do SomaSUS - Enfermagem"
+	Facts: sus:tema    "Setores hospitalares"
+	Facts: sus:descrição    "Setor do SomaSUS - Enfermagem"
 
 Individual: sus:CONS
 	Types: sus:Código
 	Facts: sus:setor    "Consultórios"
-	Facts: sus:temática    "Setor do SUS"
-	Facts: sus:descrito    "Setor do SomaSUS - Consultórios"
+	Facts: sus:tema    "Setores hospitalares"
+	Facts: sus:descrição    "Setor do SomaSUS - Consultórios"
 
 Individual: sus:ICDU
 	Types: sus:Código
 	Facts: sus:setor    "Internação de curta duração"
-	Facts: sus:temática    "Setor do SUS"
-	Facts: sus:descrito    "Setor do SomaSUS - Internação de curta duração"
+	Facts: sus:tema    "Setores hospitalares"
+	Facts: sus:descrição    "Setor do SomaSUS - Internação de curta duração"
 
 Individual: sus:UBBC
 	Types: sus:Código
 	Facts: sus:setor    "Urgências de baixa e média complexidade"
-	Facts: sus:temática    "Setor do SUS"
-	Facts: sus:descrito    "Setor do SomaSUS - Urgências de baixa e média complexidade"
+	Facts: sus:tema    "Setores hospitalares"
+	Facts: sus:descrição    "Setor do SomaSUS - Urgências de baixa e média complexidade"
 
 Individual: sus:UAEM
 	Types: sus:Código
 	Facts: sus:setor    "Urgências de alta complexidade e emergências"
-	Facts: sus:temática    "Setor do SUS"
-	Facts: sus:descrito    "Setor do SomaSUS - Urgências de alta complexidade e emergências"
+	Facts: sus:tema    "Setores hospitalares"
+	Facts: sus:descrição    "Setor do SomaSUS - Urgências de alta complexidade e emergências"
 
 Individual: sus:IGER
 	Types: sus:Código
 	Facts: sus:setor    "Internação geral"
-	Facts: sus:temática    "Setor do SUS"
-	Facts: sus:descrito    "Setor do SomaSUS - Internação geral"
+	Facts: sus:tema    "Setores hospitalares"
+	Facts: sus:descrição    "Setor do SomaSUS - Internação geral"
 
 Individual: sus:NEO
 	Types: sus:Código
 	Facts: sus:setor    "Internação de recém-nascido (Neonatologia)"
-	Facts: sus:temática    "Setor do SUS"
-	Facts: sus:descrito    "Setor do SomaSUS - Internação de recém-nascido (Neonatologia)"
+	Facts: sus:tema    "Setores hospitalares"
+	Facts: sus:descrição    "Setor do SomaSUS - Internação de recém-nascido (Neonatologia)"
 
 Individual: sus:UTI
 	Types: sus:Código
 	Facts: sus:setor    "Internação intensiva – UTI/CTI"
-	Facts: sus:temática    "Setor do SUS"
-	Facts: sus:descrito    "Setor do SomaSUS - Internação intensiva – UTI/CTI"
+	Facts: sus:tema    "Setores hospitalares"
+	Facts: sus:descrição    "Setor do SomaSUS - Internação intensiva – UTI/CTI"
 
 Individual: sus:UTQ
 	Types: sus:Código
 	Facts: sus:setor    "Internação para tratamento intensivo de queimados – UTQ"
-	Facts: sus:temática    "Setor do SUS"
-	Facts: sus:descrito    "Setor do SomaSUS - Internação para tratamento intensivo de queimados – UTQ"
+	Facts: sus:tema    "Setores hospitalares"
+	Facts: sus:descrição    "Setor do SomaSUS - Internação para tratamento intensivo de queimados – UTQ"
 
 Individual: sus:FISI
 	Types: sus:Código
 	Facts: sus:setor    "Fisioterapia"
-	Facts: sus:temática    "Setor do SUS"
-	Facts: sus:descrito    "Setor do SomaSUS - Fisioterapia"
+	Facts: sus:tema    "Setores hospitalares"
+	Facts: sus:descrição    "Setor do SomaSUS - Fisioterapia"
 
 Individual: sus:OCUP
 	Types: sus:Código
 	Facts: sus:setor    "Terapia ocupacional"
-	Facts: sus:temática    "Setor do SUS"
-	Facts: sus:descrito    "Setor do SomaSUS - Terapia ocupacional"
+	Facts: sus:tema    "Setores hospitalares"
+	Facts: sus:descrição    "Setor do SomaSUS - Terapia ocupacional"
 
 Individual: sus:FONO
 	Types: sus:Código
 	Facts: sus:setor    "Fonoaudiologia"
-	Facts: sus:temática    "Setor do SUS"
-	Facts: sus:descrito    "Setor do SomaSUS - Fonoaudiologia"
+	Facts: sus:tema    "Setores hospitalares"
+	Facts: sus:descrição    "Setor do SomaSUS - Fonoaudiologia"
 
 Individual: sus:RADI
 	Types: sus:Código
 	Facts: sus:setor    "Radiologia"
-	Facts: sus:temática    "Setor do SUS"
-	Facts: sus:descrito    "Setor do SomaSUS - Radiologia"
+	Facts: sus:tema    "Setores hospitalares"
+	Facts: sus:descrição    "Setor do SomaSUS - Radiologia"
 
 Individual: sus:HEDI
 	Types: sus:Código
 	Facts: sus:setor    "Hemodinâmica"
-	Facts: sus:temática    "Setor do SUS"
-	Facts: sus:descrito    "Setor do SomaSUS - Hemodinâmica"
+	Facts: sus:tema    "Setores hospitalares"
+	Facts: sus:descrição    "Setor do SomaSUS - Hemodinâmica"
 
 Individual: sus:TOMO
 	Types: sus:Código
 	Facts: sus:setor    "Tomografia"
-	Facts: sus:temática    "Setor do SUS"
-	Facts: sus:descrito    "Setor do SomaSUS - Tomografia"
+	Facts: sus:tema    "Setores hospitalares"
+	Facts: sus:descrição    "Setor do SomaSUS - Tomografia"
 
 Individual: sus:USOM
 	Types: sus:Código
 	Facts: sus:setor    "Ultrassonografia"
-	Facts: sus:temática    "Setor do SUS"
-	Facts: sus:descrito    "Setor do SomaSUS - Ultrassonografia"
+	Facts: sus:tema    "Setores hospitalares"
+	Facts: sus:descrição    "Setor do SomaSUS - Ultrassonografia"
 
 Individual: sus:RMAG
 	Types: sus:Código
 	Facts: sus:setor    "Ressonância magnética"
-	Facts: sus:temática    "Setor do SUS"
-	Facts: sus:descrito    "Setor do SomaSUS - Ressonância magnética"
+	Facts: sus:tema    "Setores hospitalares"
+	Facts: sus:descrição    "Setor do SomaSUS - Ressonância magnética"
 
 Individual: sus:ENDO
 	Types: sus:Código
 	Facts: sus:setor    "Endoscopia digestiva e respiratória"
-	Facts: sus:temática    "Setor do SUS"
-	Facts: sus:descrito    "Setor do SomaSUS - Endoscopia digestiva e respiratória"
+	Facts: sus:tema    "Setores hospitalares"
+	Facts: sus:descrição    "Setor do SomaSUS - Endoscopia digestiva e respiratória"
 
 Individual: sus:APAT
 	Types: sus:Código
 	Facts: sus:setor    "Anatomia patológica"
-	Facts: sus:temática    "Setor do SUS"
-	Facts: sus:descrito    "Setor do SomaSUS - Anatomia patológica"
+	Facts: sus:tema    "Setores hospitalares"
+	Facts: sus:descrição    "Setor do SomaSUS - Anatomia patológica"
 
 Individual: sus:HETE
 	Types: sus:Código
 	Facts: sus:setor    "Hemoterapia e hematologia"
-	Facts: sus:temática    "Setor do SUS"
-	Facts: sus:descrito    "Setor do SomaSUS - Hemoterapia e hematologia"
+	Facts: sus:tema    "Setores hospitalares"
+	Facts: sus:descrição    "Setor do SomaSUS - Hemoterapia e hematologia"
 
 Individual: sus:MNUC
 	Types: sus:Código
 	Facts: sus:setor    "Medicina nuclear"
-	Facts: sus:temática    "Setor do SUS"
-	Facts: sus:descrito    "Setor do SomaSUS - Medicina nuclear"
+	Facts: sus:tema    "Setores hospitalares"
+	Facts: sus:descrição    "Setor do SomaSUS - Medicina nuclear"
 
 Individual: sus:PACLI
 	Types: sus:Código
 	Facts: sus:setor    "Patologia clínica"
-	Facts: sus:temática    "Setor do SUS"
-	Facts: sus:descrito    "Setor do SomaSUS - Patologia clínica"
+	Facts: sus:tema    "Setores hospitalares"
+	Facts: sus:descrição    "Setor do SomaSUS - Patologia clínica"

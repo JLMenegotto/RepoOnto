@@ -103,2823 +103,3041 @@ Class: sus:Tema
 
 Class: sus:Código
 	SubClassOf: sus:Tema
-	Annotations: sus:Disciplina "SUS"@pt
-	Annotations: sus:Tradução "Código Sistema Único de Saúde do Brasil. Caderno SomaSUS."@pt
-	Annotations: sus:Traducción "Código del Sistema Único de Salud del Brasil. Cuaderno SomaSUS."@es
+	Annotations: sus:Disciplina "Arquitetura hospitalar"@pt
+	Annotations: sus:Tradução "Códigos Sistema Único de Saúde do Brasil. Caderno SomaSUS."@pt
+	Annotations: sus:Traducción "Códigos del Sistema Único de Salud del Brasil. Cuaderno SomaSUS."@es
 	Annotations: sus:Interoperabilidade "."@pt
 	Annotations: sus:Natureza "SUS"@pt
 	Annotations: sus:Espécie "SomaSUS"@pt
 	Annotations: sus:Tema "Tema"@pt
 
-Class: sus:Projeto
-	SubClassOf: sus:BIM
-	Annotations: sus:Disciplina "-"@pt
-	Annotations: sus:Tradução "-"@pt
-	Annotations: sus:Traducción "-"@es
-	Annotations: sus:Interoperabilidade "-"@pt
-	Annotations: sus:Natureza "Funcional"@pt
-	Annotations: sus:Espécie "-"@pt
-	Annotations: sus:Tema "-"@pt
+ObjectProperty: sus:p_identificar
+	SubPropertyOf: sus:BIMProp
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: tem_nome"@pt
 
-Class: sus:Hospitalar
-	SubClassOf: sus:Projeto
-	Annotations: sus:Disciplina "-"@pt
-	Annotations: sus:Tradução "-"@pt
-	Annotations: sus:Traducción "-"@es
-	Annotations: sus:Interoperabilidade "-"@pt
-	Annotations: sus:Natureza "Funcional"@pt
-	Annotations: sus:Espécie "-"@pt
-	Annotations: sus:Tema "-"@pt
+ObjectProperty: sus:tem_nome
+	SubPropertyOf: sus:p_identificar
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: tem_nome"@pt
 
-Class: sus:Equipamento_Saúde
-	SubClassOf: sus:Hospitalar
-	Annotations: sus:Disciplina "-"@pt
-	Annotations: sus:Tradução "-"@pt
-	Annotations: sus:Traducción "-"@es
-	Annotations: sus:Interoperabilidade "-"@pt
-	Annotations: sus:Natureza "Funcional"@pt
-	Annotations: sus:Espécie "Equipamento Saúde"@pt
-	Annotations: sus:Tema "-"@pt
+ObjectProperty: sus:p_identificar
+	SubPropertyOf: sus:BIMProp
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: tem_código"@pt
 
-Class: sus:Dispositivo_Médico
-	SubClassOf: sus:Equipamento_Saúde
-	Annotations: sus:Disciplina "-"@pt
-	Annotations: sus:Tradução "-"@pt
-	Annotations: sus:Traducción "-"@es
-	Annotations: sus:Interoperabilidade "-"@pt
-	Annotations: sus:Natureza "Funcional"@pt
-	Annotations: sus:Espécie "Equipamento Saúde"@pt
-	Annotations: sus:Tema "Dispositivo Médico"@pt
+ObjectProperty: sus:tem_código
+	SubPropertyOf: sus:p_identificar
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: tem_código"@pt
 
-Class: sus:Dispositivo_SUS
-	SubClassOf: sus:Dispositivo_Médico
-	Annotations: sus:Disciplina "Hospitalar"@pt
-	Annotations: sus:Tradução "Equipamento ou dispositivo médico do Sistema Único de Saúde do Brasil"@pt
-	Annotations: sus:Traducción "Equipamiento o dispositivo médico de la red del Sistema Único de Salud del Brasil"@es
-	Annotations: sus:Interoperabilidade "."@pt
-	Annotations: sus:Natureza "Funcional"@pt
-	Annotations: sus:Espécie "Equipamento Saúde"@pt
-	Annotations: sus:Tema "Dispositivo Médico"@pt
+ObjectProperty: sus:p_identificar
+	SubPropertyOf: sus:BIMProp
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: tem_id"@pt
+	Characteristics: Functional
 
-ObjectProperty: sus:p_sus
+ObjectProperty: sus:tem_id
+	SubPropertyOf: sus:p_identificar
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: tem_id"@pt
+	Characteristics: Functional
+
+ObjectProperty: sus:p_identificar
+	SubPropertyOf: sus:BIMProp
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: tem_uri"@pt
+	Characteristics: Functional
+
+ObjectProperty: sus:tem_uri
+	SubPropertyOf: sus:p_identificar
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: tem_uri"@pt
+	Characteristics: Functional
+
+ObjectProperty: sus:p_identificar
+	SubPropertyOf: sus:BIMProp
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: tem_descrição"@pt
+
+ObjectProperty: sus:tem_descrição
+	SubPropertyOf: sus:p_identificar
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: tem_descrição"@pt
+
+ObjectProperty: sus:p_definir
 	SubPropertyOf: sus:BIMProp
 	Domain: sus:BIM
 	Range: sus:SUS
 	Annotations: rdfs:label "Propriedade de objeto: é_ambiente"@pt
 
 ObjectProperty: sus:é_ambiente
-	SubPropertyOf: sus:p_sus
+	SubPropertyOf: sus:p_definir
 	Domain: sus:BIM
 	Range: sus:SUS
 	Annotations: rdfs:label "Propriedade de objeto: é_ambiente"@pt
 
-ObjectProperty: sus:p_sus
+ObjectProperty: sus:p_definir
 	SubPropertyOf: sus:BIMProp
 	Domain: sus:BIM
 	Range: sus:SUS
 	Annotations: rdfs:label "Propriedade de objeto: é_equipamento"@pt
 
 ObjectProperty: sus:é_equipamento
-	SubPropertyOf: sus:p_sus
+	SubPropertyOf: sus:p_definir
 	Domain: sus:BIM
 	Range: sus:SUS
 	Annotations: rdfs:label "Propriedade de objeto: é_equipamento"@pt
 
-ObjectProperty: sus:p_sus
+ObjectProperty: sus:p_definir
 	SubPropertyOf: sus:BIMProp
 	Domain: sus:BIM
 	Range: sus:SUS
-	Annotations: rdfs:label "Propriedade de objeto: é_unidade_funcional"@pt
+	Annotations: rdfs:label "Propriedade de objeto: é_dispositivo"@pt
 
-ObjectProperty: sus:é_unidade_funcional
-	SubPropertyOf: sus:p_sus
+ObjectProperty: sus:é_dispositivo
+	SubPropertyOf: sus:p_definir
 	Domain: sus:BIM
 	Range: sus:SUS
-	Annotations: rdfs:label "Propriedade de objeto: é_unidade_funcional"@pt
+	Annotations: rdfs:label "Propriedade de objeto: é_dispositivo"@pt
 
-ObjectProperty: sus:p_sus
+ObjectProperty: sus:p_definir
 	SubPropertyOf: sus:BIMProp
 	Domain: sus:BIM
 	Range: sus:SUS
-	Annotations: rdfs:label "Propriedade de objeto: é_volume"@pt
+	Annotations: rdfs:label "Propriedade de objeto: é_mobiliário"@pt
 
-ObjectProperty: sus:é_volume
-	SubPropertyOf: sus:p_sus
+ObjectProperty: sus:é_mobiliário
+	SubPropertyOf: sus:p_definir
 	Domain: sus:BIM
 	Range: sus:SUS
-	Annotations: rdfs:label "Propriedade de objeto: é_volume"@pt
+	Annotations: rdfs:label "Propriedade de objeto: é_mobiliário"@pt
 
-ObjectProperty: sus:p_sus
+ObjectProperty: sus:p_administrar
+	SubPropertyOf: sus:BIMProp
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: é_público"@pt
+
+ObjectProperty: sus:é_público
+	SubPropertyOf: sus:p_administrar
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: é_público"@pt
+
+ObjectProperty: sus:p_administrar
+	SubPropertyOf: sus:BIMProp
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: é_órgão"@pt
+
+ObjectProperty: sus:é_órgão
+	SubPropertyOf: sus:p_administrar
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: é_órgão"@pt
+
+ObjectProperty: sus:p_administrar
+	SubPropertyOf: sus:BIMProp
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: é_unid_administrativa"@pt
+
+ObjectProperty: sus:é_unid_administrativa
+	SubPropertyOf: sus:p_administrar
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: é_unid_administrativa"@pt
+
+ObjectProperty: sus:p_administrar
+	SubPropertyOf: sus:BIMProp
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: é_unid_funcional"@pt
+
+ObjectProperty: sus:é_unid_funcional
+	SubPropertyOf: sus:p_administrar
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: é_unid_funcional"@pt
+
+ObjectProperty: sus:p_administrar
 	SubPropertyOf: sus:BIMProp
 	Domain: sus:BIM
 	Range: sus:SUS
 	Annotations: rdfs:label "Propriedade de objeto: é_setor"@pt
 
 ObjectProperty: sus:é_setor
-	SubPropertyOf: sus:p_sus
+	SubPropertyOf: sus:p_administrar
 	Domain: sus:BIM
 	Range: sus:SUS
 	Annotations: rdfs:label "Propriedade de objeto: é_setor"@pt
 
-ObjectProperty: sus:p_sus
+ObjectProperty: sus:p_administrar
 	SubPropertyOf: sus:BIMProp
 	Domain: sus:BIM
 	Range: sus:SUS
-	Annotations: rdfs:label "Propriedade de objeto: é_temática"@pt
+	Annotations: rdfs:label "Propriedade de objeto: é_divisão"@pt
 
-ObjectProperty: sus:é_temática
-	SubPropertyOf: sus:p_sus
+ObjectProperty: sus:é_divisão
+	SubPropertyOf: sus:p_administrar
 	Domain: sus:BIM
 	Range: sus:SUS
-	Annotations: rdfs:label "Propriedade de objeto: é_temática"@pt
+	Annotations: rdfs:label "Propriedade de objeto: é_divisão"@pt
 
-ObjectProperty: sus:p_sus
+ObjectProperty: sus:p_administrar
 	SubPropertyOf: sus:BIMProp
 	Domain: sus:BIM
 	Range: sus:SUS
-	Annotations: rdfs:label "Propriedade de objeto: é_descrito"@pt
+	Annotations: rdfs:label "Propriedade de objeto: é_departamento"@pt
 
-ObjectProperty: sus:é_descrito
-	SubPropertyOf: sus:p_sus
+ObjectProperty: sus:é_departamento
+	SubPropertyOf: sus:p_administrar
 	Domain: sus:BIM
 	Range: sus:SUS
-	Annotations: rdfs:label "Propriedade de objeto: é_descrito"@pt
+	Annotations: rdfs:label "Propriedade de objeto: é_departamento"@pt
 
-DataProperty: sus:d_sus
+ObjectProperty: sus:p_administrar
+	SubPropertyOf: sus:BIMProp
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: é_tema"@pt
+
+ObjectProperty: sus:é_tema
+	SubPropertyOf: sus:p_administrar
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: é_tema"@pt
+
+ObjectProperty: sus:p_administrar
+	SubPropertyOf: sus:BIMProp
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: é_vol"@pt
+
+ObjectProperty: sus:é_vol
+	SubPropertyOf: sus:p_administrar
+	Domain: sus:BIM
+	Range: sus:SUS
+	Annotations: rdfs:label "Propriedade de objeto: é_vol"@pt
+
+DataProperty: sus:d_identificar
 	SubPropertyOf: sus:BIMData
 	Domain: sus:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Valor xsd:string da Dataprop: ambiente"@pt
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: nome"@pt
+
+DataProperty: sus:nome
+	SubPropertyOf: sus:d_identificar
+	Domain: sus:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: nome"@pt
+
+DataProperty: sus:d_identificar
+	SubPropertyOf: sus:BIMData
+	Domain: sus:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: código"@pt
+
+DataProperty: sus:código
+	SubPropertyOf: sus:d_identificar
+	Domain: sus:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: código"@pt
+
+DataProperty: sus:d_identificar
+	SubPropertyOf: sus:BIMData
+	Domain: sus:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: id"@pt
+
+DataProperty: sus:id
+	SubPropertyOf: sus:d_identificar
+	Domain: sus:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: id"@pt
+
+DataProperty: sus:d_identificar
+	SubPropertyOf: sus:BIMData
+	Domain: sus:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: uri"@pt
+
+DataProperty: sus:uri
+	SubPropertyOf: sus:d_identificar
+	Domain: sus:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: uri"@pt
+
+DataProperty: sus:d_identificar
+	SubPropertyOf: sus:BIMData
+	Domain: sus:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: descrição"@pt
+
+DataProperty: sus:descrição
+	SubPropertyOf: sus:d_identificar
+	Domain: sus:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: descrição"@pt
+
+DataProperty: sus:d_definir
+	SubPropertyOf: sus:BIMData
+	Domain: sus:BIM
+	Range: xsd:boolean
+	Annotations: rdfs:label "Valor xsd:boolean da Dataprop: ambiente"@pt
 
 DataProperty: sus:ambiente
-	SubPropertyOf: sus:d_sus
+	SubPropertyOf: sus:d_definir
 	Domain: sus:BIM
-	Range: xsd:string
-	Annotations: rdfs:label "Valor xsd:string da Dataprop: ambiente"@pt
+	Range: xsd:boolean
+	Annotations: rdfs:label "Valor xsd:boolean da Dataprop: ambiente"@pt
 
-DataProperty: sus:d_sus
+DataProperty: sus:d_definir
 	SubPropertyOf: sus:BIMData
 	Domain: sus:BIM
-	Range: xsd:string
-	Annotations: rdfs:label "Valor xsd:string da Dataprop: equipamento"@pt
+	Range: xsd:boolean
+	Annotations: rdfs:label "Valor xsd:boolean da Dataprop: equipamento"@pt
 
 DataProperty: sus:equipamento
-	SubPropertyOf: sus:d_sus
+	SubPropertyOf: sus:d_definir
 	Domain: sus:BIM
-	Range: xsd:string
-	Annotations: rdfs:label "Valor xsd:string da Dataprop: equipamento"@pt
+	Range: xsd:boolean
+	Annotations: rdfs:label "Valor xsd:boolean da Dataprop: equipamento"@pt
 
-DataProperty: sus:d_sus
+DataProperty: sus:d_definir
+	SubPropertyOf: sus:BIMData
+	Domain: sus:BIM
+	Range: xsd:boolean
+	Annotations: rdfs:label "Valor xsd:boolean da Dataprop: dispositivo"@pt
+
+DataProperty: sus:dispositivo
+	SubPropertyOf: sus:d_definir
+	Domain: sus:BIM
+	Range: xsd:boolean
+	Annotations: rdfs:label "Valor xsd:boolean da Dataprop: dispositivo"@pt
+
+DataProperty: sus:d_definir
+	SubPropertyOf: sus:BIMData
+	Domain: sus:BIM
+	Range: xsd:boolean
+	Annotations: rdfs:label "Valor xsd:boolean da Dataprop: mobiliário"@pt
+
+DataProperty: sus:mobiliário
+	SubPropertyOf: sus:d_definir
+	Domain: sus:BIM
+	Range: xsd:boolean
+	Annotations: rdfs:label "Valor xsd:boolean da Dataprop: mobiliário"@pt
+
+DataProperty: sus:d_administrar
+	SubPropertyOf: sus:BIMData
+	Domain: sus:BIM
+	Range: xsd:boolean
+	Annotations: rdfs:label "Valor xsd:boolean da Dataprop: público"@pt
+
+DataProperty: sus:público
+	SubPropertyOf: sus:d_administrar
+	Domain: sus:BIM
+	Range: xsd:boolean
+	Annotations: rdfs:label "Valor xsd:boolean da Dataprop: público"@pt
+
+DataProperty: sus:d_administrar
 	SubPropertyOf: sus:BIMData
 	Domain: sus:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Valor xsd:string da Dataprop: unidade_funcional"@pt
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: órgão"@pt
 
-DataProperty: sus:unidade_funcional
-	SubPropertyOf: sus:d_sus
+DataProperty: sus:órgão
+	SubPropertyOf: sus:d_administrar
 	Domain: sus:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Valor xsd:string da Dataprop: unidade_funcional"@pt
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: órgão"@pt
 
-DataProperty: sus:d_sus
+DataProperty: sus:d_administrar
 	SubPropertyOf: sus:BIMData
 	Domain: sus:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Valor xsd:string da Dataprop: volume"@pt
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: unid_administrativa"@pt
 
-DataProperty: sus:volume
-	SubPropertyOf: sus:d_sus
+DataProperty: sus:unid_administrativa
+	SubPropertyOf: sus:d_administrar
 	Domain: sus:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Valor xsd:string da Dataprop: volume"@pt
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: unid_administrativa"@pt
 
-DataProperty: sus:d_sus
+DataProperty: sus:d_administrar
+	SubPropertyOf: sus:BIMData
+	Domain: sus:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: unid_funcional"@pt
+
+DataProperty: sus:unid_funcional
+	SubPropertyOf: sus:d_administrar
+	Domain: sus:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: unid_funcional"@pt
+
+DataProperty: sus:d_administrar
 	SubPropertyOf: sus:BIMData
 	Domain: sus:BIM
 	Range: xsd:string
 	Annotations: rdfs:label "Valor xsd:string da Dataprop: setor"@pt
 
 DataProperty: sus:setor
-	SubPropertyOf: sus:d_sus
+	SubPropertyOf: sus:d_administrar
 	Domain: sus:BIM
 	Range: xsd:string
 	Annotations: rdfs:label "Valor xsd:string da Dataprop: setor"@pt
 
-DataProperty: sus:d_sus
+DataProperty: sus:d_administrar
 	SubPropertyOf: sus:BIMData
 	Domain: sus:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Valor xsd:string da Dataprop: temática"@pt
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: divisão"@pt
 
-DataProperty: sus:temática
-	SubPropertyOf: sus:d_sus
+DataProperty: sus:divisão
+	SubPropertyOf: sus:d_administrar
 	Domain: sus:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Valor xsd:string da Dataprop: temática"@pt
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: divisão"@pt
 
-DataProperty: sus:d_sus
+DataProperty: sus:d_administrar
 	SubPropertyOf: sus:BIMData
 	Domain: sus:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Valor xsd:string da Dataprop: descrito"@pt
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: departamento"@pt
 
-DataProperty: sus:descrito
-	SubPropertyOf: sus:d_sus
+DataProperty: sus:departamento
+	SubPropertyOf: sus:d_administrar
 	Domain: sus:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Valor xsd:string da Dataprop: descrito"@pt
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: departamento"@pt
+
+DataProperty: sus:d_administrar
+	SubPropertyOf: sus:BIMData
+	Domain: sus:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: tema"@pt
+
+DataProperty: sus:tema
+	SubPropertyOf: sus:d_administrar
+	Domain: sus:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: tema"@pt
+
+DataProperty: sus:d_administrar
+	SubPropertyOf: sus:BIMData
+	Domain: sus:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: vol"@pt
+
+DataProperty: sus:vol
+	SubPropertyOf: sus:d_administrar
+	Domain: sus:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Valor xsd:string da Dataprop: vol"@pt
 
 Individual: sus:EQU.001
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Amalgamador"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Amalgamador"
 
 Individual: sus:EQU.002
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Analisador de ouvido médio"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Analisador de ouvido médio"
 
 Individual: sus:EQU.003
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Aparelho fotopolimerizador de resinas"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Aparelho fotopolimerizador de resinas"
 
 Individual: sus:EQU.004
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Analisador automático para hematologia"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Analisador automático para hematologia"
 
 Individual: sus:EQU.005
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Aspirador portátil"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Aspirador portátil"
 
 Individual: sus:EQU.006
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Autoclave odontológica"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Autoclave odontológica"
 
 Individual: sus:EQU.007
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Avental plumbífero"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Avental plumbífero"
 
 Individual: sus:EQU.008
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Balança antropométrica"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Balança antropométrica"
 
 Individual: sus:EQU.009
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Balança pediátrica e neonatal"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Balança pediátrica e neonatal"
 
 Individual: sus:EQU.010
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Biombo"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Biombo"
 
 Individual: sus:EQU.011
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Biombo plumbífero"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Biombo plumbífero"
 
 Individual: sus:EQU.012
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Braçadeira de injeção"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Braçadeira de injeção"
 
 Individual: sus:EQU.013
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Cadeira de rodas"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Cadeira de rodas"
 
 Individual: sus:EQU.014
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Cadeira otorrinológica"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Cadeira otorrinológica"
 
 Individual: sus:EQU.015
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Cadeira oftalmológica"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Cadeira oftalmológica"
 
 Individual: sus:EQU.016
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Geladeira"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Geladeira"
 
 Individual: sus:EQU.017
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Caixa térmica"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Caixa térmica"
 
 Individual: sus:EQU.018
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Cama hospitalar fawler com colchão"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Cama hospitalar fawler com colchão"
 
 Individual: sus:EQU.019
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Carro de curativos"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Carro de curativos"
 
 Individual: sus:EQU.020
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Ceratômetro"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Ceratômetro"
 
 Individual: sus:EQU.021
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Coluna oftalmológica"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Coluna oftalmológica"
 
 Individual: sus:EQU.022
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Conjunto para nebulização contínua"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Conjunto para nebulização contínua"
 
 Individual: sus:EQU.023
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Conjunto odontológico"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Conjunto odontológico"
 
 Individual: sus:EQU.024
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Comadre"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Comadre"
 
 Individual: sus:EQU.025
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Amnioscópio"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Amnioscópio"
 
 Individual: sus:EQU.026
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Capnógrafo"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Capnógrafo"
 
 Individual: sus:EQU.027
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Dinamômetro"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Dinamômetro"
 
 Individual: sus:EQU.028
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Bisturi elétrico ambulatorial"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Bisturi elétrico ambulatorial"
 
 Individual: sus:EQU.029
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Umidificador aquecedor"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Umidificador aquecedor"
 
 Individual: sus:EQU.030
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Escada com dois degraus"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Escada com dois degraus"
 
 Individual: sus:EQU.031
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Esfigmomanômetro"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Esfigmomanômetro"
 
 Individual: sus:EQU.032
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Esfignomanômetro de pedestal"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Esfignomanômetro de pedestal"
 
 Individual: sus:EQU.033
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Cuba em aço inox"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Cuba em aço inox"
 
 Individual: sus:EQU.034
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Espelho frontal de ziegler"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Espelho frontal de ziegler"
 
 Individual: sus:EQU.035
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Balança eletrônica de precisão"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Balança eletrônica de precisão"
 
 Individual: sus:EQU.036
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Estetoscópio"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Estetoscópio"
 
 Individual: sus:EQU.037
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Balcão térmico para alimentos"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Balcão térmico para alimentos"
 
 Individual: sus:EQU.038
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Balde a chute"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Balde a chute"
 
 Individual: sus:EQU.039
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Estimulador transcutâneo"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Estimulador transcutâneo"
 
 Individual: sus:EQU.040
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Bebedouro"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Bebedouro"
 
 Individual: sus:EQU.041
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Glicosímetro"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Glicosímetro"
 
 Individual: sus:EQU.042
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Goniômetro plástico"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Goniômetro plástico"
 
 Individual: sus:EQU.043
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Impressora"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Impressora"
 
 Individual: sus:EQU.044
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Instrumentais cirúrgicos – caixa básica"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Instrumentais cirúrgicos – caixa básica"
 
 Individual: sus:EQU.045
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Lâmpada de fenda"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Lâmpada de fenda"
 
 Individual: sus:EQU.046
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Lanterna clínica"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Lanterna clínica"
 
 Individual: sus:EQU.047
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Lensômetro"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Lensômetro"
 
 Individual: sus:EQU.048
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Lupa binocular"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Lupa binocular"
 
 Individual: sus:EQU.049
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Maca para transporte"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Maca para transporte"
 
 Individual: sus:EQU.050
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Berço hospitalar aquecido"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Berço hospitalar aquecido"
 
 Individual: sus:EQU.051
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Martelo de percussão"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Martelo de percussão"
 
 Individual: sus:EQU.052
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Mesa para exames"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Mesa para exames"
 
 Individual: sus:EQU.053
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Mesa auxiliar para instrumental"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Mesa auxiliar para instrumental"
 
 Individual: sus:EQU.054
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Microcomputador"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Microcomputador"
 
 Individual: sus:EQU.055
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Microscópio para otologia"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Microscópio para otologia"
 
 Individual: sus:EQU.056
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Berço hospitalar com colchão"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Berço hospitalar com colchão"
 
 Individual: sus:EQU.057
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Negatoscópio"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Negatoscópio"
 
 Individual: sus:EQU.058
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Oftalmoscópio binocular indireto"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Oftalmoscópio binocular indireto"
 
 Individual: sus:EQU.059
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Oftalmoscópio"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Oftalmoscópio"
 
 Individual: sus:EQU.060
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Bisturi elétrico"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Bisturi elétrico"
 
 Individual: sus:EQU.061
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Otoscópio"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Otoscópio"
 
 Individual: sus:EQU.062
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Oxímetro de pulso portátil"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Oxímetro de pulso portátil"
 
 Individual: sus:EQU.063
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Papagaio"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Papagaio"
 
 Individual: sus:EQU.064
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Projetor de optotipos"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Projetor de optotipos"
 
 Individual: sus:EQU.065
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Projetor multimídia"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Projetor multimídia"
 
 Individual: sus:EQU.066
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Pupilômetro digital"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Pupilômetro digital"
 
 Individual: sus:EQU.067
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Aparelho de raio x odontológico "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Aparelho de raio x odontológico"
 
 Individual: sus:EQU.068
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Refletor parabólico de luz fria"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Refletor parabólico de luz fria"
 
 Individual: sus:EQU.069
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Refrator de greens"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Refrator de greens"
 
 Individual: sus:EQU.070
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Refrigeradorparavacinas"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Refrigeradorparavacinas"
 
 Individual: sus:EQU.071
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Régua de gases"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Régua de gases"
 
 Individual: sus:EQU.072
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Relógio de parede"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Relógio de parede"
 
 Individual: sus:EQU.073
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Retinoscópio "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Retinoscópio"
 
 Individual: sus:EQU.074
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Retroprojetor"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Retroprojetor"
 
 Individual: sus:EQU.075
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Suporte de hamper"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Suporte de hamper"
 
 Individual: sus:EQU.076
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Suporte de soro de chão"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Suporte de soro de chão"
 
 Individual: sus:EQU.077
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Tela de projeção"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Tela de projeção"
 
 Individual: sus:EQU.078
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Televisor"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Televisor"
 
 Individual: sus:EQU.079
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Tonômetro de aplanação"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Tonômetro de aplanação"
 
 Individual: sus:EQU.080
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Ventilômetro"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Ventilômetro"
 
 Individual: sus:EQU.081
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Videocassete"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Videocassete"
 
 Individual: sus:EQU.082
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Bomba de infusão"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Bomba de infusão"
 
 Individual: sus:EQU.083
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Mesa auxiliar"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Mesa auxiliar"
 
 Individual: sus:EQU.084
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Cama hospitalar infantil com colchão"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Cama hospitalar infantil com colchão"
 
 Individual: sus:EQU.085
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Cardioversor"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Cardioversor"
 
 Individual: sus:EQU.086
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Carro porta talheres e bandeja "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Carro porta talheres e bandeja"
 
 Individual: sus:EQU.087
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Carro de anestesia"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Carro de anestesia"
 
 Individual: sus:EQU.088
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Carro de emergência"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Carro de emergência"
 
 Individual: sus:EQU.089
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Rampa com degraus"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Rampa com degraus"
 
 Individual: sus:EQU.090
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Balcão refrigerado para alimentos"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Balcão refrigerado para alimentos"
 
 Individual: sus:EQU.091
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Colar cervical philadelphia"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Colar cervical philadelphia"
 
 Individual: sus:EQU.092
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Desfibrilador"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Desfibrilador"
 
 Individual: sus:EQU.093
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Detector de batimentos cardíacos fetais"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Detector de batimentos cardíacos fetais"
 
 Individual: sus:EQU.094
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Eletrocardiógrafo"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Eletrocardiógrafo"
 
 Individual: sus:EQU.095
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Mesa para refeição"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Mesa para refeição"
 
 Individual: sus:EQU.096
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Balança analítica"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Balança analítica"
 
 Individual: sus:EQU.097
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Estetoscópio de pinard"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Estetoscópio de pinard"
 
 Individual: sus:EQU.098
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Foco cirúrgico fixo"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Foco cirúrgico fixo"
 
 Individual: sus:EQU.099
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Foco cirúrgico móvel"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Foco cirúrgico móvel"
 
 Individual: sus:EQU.100
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Unidade de fototerapia"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Unidade de fototerapia"
 
 Individual: sus:EQU.101
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Incubadora"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Incubadora"
 
 Individual: sus:EQU.102
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Incubadora de transporte"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Incubadora de transporte"
 
 Individual: sus:EQU.103
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Laringoscópio"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Laringoscópio"
 
 Individual: sus:EQU.104
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Agitador magnético com aquecimento"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Agitador magnético com aquecimento"
 
 Individual: sus:EQU.105
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Maletas de vias aéreas"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Maletas de vias aéreas"
 
 Individual: sus:EQU.106
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Mesa antropométrica"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Mesa antropométrica"
 
 Individual: sus:EQU.107
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Mesa cirúrgica"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Mesa cirúrgica"
 
 Individual: sus:EQU.108
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Mesa de mayo"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Mesa de mayo"
 
 Individual: sus:EQU.109
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Mesa ginecológica"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Mesa ginecológica"
 
 Individual: sus:EQU.110
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Bomba de infusão de seringa "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Bomba de infusão de seringa"
 
 Individual: sus:EQU.111
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Cadeira para coleta com braçadeira acoplada"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Cadeira para coleta com braçadeira acoplada"
 
 Individual: sus:EQU.112
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Monitor de pressão arterial não invasiva"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Monitor de pressão arterial não invasiva"
 
 Individual: sus:EQU.113
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Monitor de pressão intracraniana PIC"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Monitor de pressão intracraniana PIC"
 
 Individual: sus:EQU.114
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Monitor multiparâmetros"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Monitor multiparâmetros"
 
 Individual: sus:EQU.115
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Monitor cardíaco "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Monitor cardíaco"
 
 Individual: sus:EQU.116
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Monitor multiparâmetro com capnografia "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Monitor multiparâmetro com capnografia"
 
 Individual: sus:EQU.117
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Oto oftalmoscópio"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Oto oftalmoscópio"
 
 Individual: sus:EQU.118
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Oxicapnógrafo"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Oxicapnógrafo"
 
 Individual: sus:EQU.119
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Gerador de ozônio"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Gerador de ozônio"
 
 Individual: sus:EQU.120
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Maca de morgani"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Maca de morgani"
 
 Individual: sus:EQU.121
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Ressuscitador manual"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Ressuscitador manual"
 
 Individual: sus:EQU.122
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Escarradeira"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Escarradeira"
 
 Individual: sus:EQU.123
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Serra elétrica para cortar gesso"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Serra elétrica para cortar gesso"
 
 Individual: sus:EQU.124
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Caldeira"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Caldeira"
 
 Individual: sus:EQU.125
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Carro para transporte de material"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Carro para transporte de material"
 
 Individual: sus:EQU.126
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Termômetro clínico"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Termômetro clínico"
 
 Individual: sus:EQU.127
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Umidificador de O "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Umidificador de O"
 
 Individual: sus:EQU.128
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Unidade de cuidados intensivos"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Unidade de cuidados intensivos"
 
 Individual: sus:EQU.129
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Ventilador pulmonar"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Ventilador pulmonar"
 
 Individual: sus:EQU.130
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Lavadora automática de pipetas"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Lavadora automática de pipetas"
 
 Individual: sus:EQU.131
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Estufa de secagem"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Estufa de secagem"
 
 Individual: sus:EQU.132
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Autoclave vertical"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Autoclave vertical"
 
 Individual: sus:EQU.133
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Banho maria sorológico"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Banho maria sorológico"
 
 Individual: sus:EQU.134
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Centrífuga de mesa"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Centrífuga de mesa"
 
 Individual: sus:EQU.135
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Centrífuga de micro hematócrito"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Centrífuga de micro hematócrito"
 
 Individual: sus:EQU.136
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Citocentrífuga"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Citocentrífuga"
 
 Individual: sus:EQU.137
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Monitor de coagulação ativada TCA)"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Monitor de coagulação ativada TCA)"
 
 Individual: sus:EQU.138
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Contador de células sanguíneas"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Contador de células sanguíneas"
 
 Individual: sus:EQU.139
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Analisador para imunoensaio com fluorescência "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Analisador para imunoensaio com fluorescência"
 
 Individual: sus:EQU.140
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Espectrofotômetro"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Espectrofotômetro"
 
 Individual: sus:EQU.141
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Estufa de CO "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Estufa de CO"
 
 Individual: sus:EQU.142
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Estufa bacteriológica"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Estufa bacteriológica"
 
 Individual: sus:EQU.143
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Freezer científico vertical"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Freezer científico vertical"
 
 Individual: sus:EQU.144
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Homogeneizador de sangue"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Homogeneizador de sangue"
 
 Individual: sus:EQU.145
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Microscópio biológico binocular"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Microscópio biológico binocular"
 
 Individual: sus:EQU.146
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Bomba de vácuo e ar comprimido"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Bomba de vácuo e ar comprimido"
 
 Individual: sus:EQU.147
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Trombo elastógrafo"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Trombo elastógrafo"
 
 Individual: sus:EQU.148
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Analisador de gases sanguíneos"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Analisador de gases sanguíneos"
 
 Individual: sus:EQU.149
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Microscópio biológico invertido "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Microscópio biológico invertido"
 
 Individual: sus:EQU.150
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Microscópio para pesquisa em fotomicrografia "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Microscópio para pesquisa em fotomicrografia"
 
 Individual: sus:EQU.151
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Osmômetro"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Osmômetro"
 
 Individual: sus:EQU.152
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Refratômetro"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Refratômetro"
 
 Individual: sus:EQU.153
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Marcapasso cardíaco externo"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Marcapasso cardíaco externo"
 
 Individual: sus:EQU.154
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Máscara de venturi"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Máscara de venturi"
 
 Individual: sus:EQU.155
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Banho maria"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Banho maria"
 
 Individual: sus:EQU.156
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Destilador de água"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Destilador de água"
 
 Individual: sus:EQU.157
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Bandeja para instrumentais"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Bandeja para instrumentais"
 
 Individual: sus:EQU.158
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Conjunto CPAP nasal "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Conjunto CPAP nasal"
 
 Individual: sus:EQU.159
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Maca hospitalar de transporte com cilindro de O "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Maca hospitalar de transporte com cilindro de O"
 
 Individual: sus:EQU.160
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Hemodinâmica"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Hemodinâmica"
 
 Individual: sus:EQU.161
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Autoclave a óxido de etileno"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Autoclave a óxido de etileno"
 
 Individual: sus:EQU.162
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Bebê conforto"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Bebê conforto"
 
 Individual: sus:EQU.163
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Código de equipamento SUS disponível"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Código de equipamento SUS disponível"
 
 Individual: sus:EQU.164
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Divã clínico"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Divã clínico"
 
 Individual: sus:EQU.165
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Eletromiógrafo"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Eletromiógrafo"
 
 Individual: sus:EQU.166
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Cicloergômetro"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Cicloergômetro"
 
 Individual: sus:EQU.167
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Bacia inox"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Bacia inox"
 
 Individual: sus:EQU.168
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Código de equipamento SUS disponível"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Código de equipamento SUS disponível"
 
 Individual: sus:EQU.169
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Jarra inox"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Jarra inox"
 
 Individual: sus:EQU.170
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Esteira ergométrica"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Esteira ergométrica"
 
 Individual: sus:EQU.171
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Central de gases medicinais "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Central de gases medicinais"
 
 Individual: sus:EQU.172
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Audiômetro"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Audiômetro"
 
 Individual: sus:EQU.173
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Audiômetro automático de bekesy"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Audiômetro automático de bekesy"
 
 Individual: sus:EQU.174
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Central de gases – cilindros"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Central de gases – cilindros"
 
 Individual: sus:EQU.175
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Microscópio trinocular com imunofluorescência "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Microscópio trinocular com imunofluorescência"
 
 Individual: sus:EQU.176
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Eletrococleógrafo"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Eletrococleógrafo"
 
 Individual: sus:EQU.177
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Gravador de voz portátil"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Gravador de voz portátil"
 
 Individual: sus:EQU.178
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Audiômetro de tronco cerebral"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Audiômetro de tronco cerebral"
 
 Individual: sus:EQU.179
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Cadeira pendular otoneurológica"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Cadeira pendular otoneurológica"
 
 Individual: sus:EQU.180
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Cadeira rotatória tipo gyrus nistagmógrafo"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Cadeira rotatória tipo gyrus nistagmógrafo"
 
 Individual: sus:EQU.181
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Tambor giratório de barany "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Tambor giratório de barany"
 
 Individual: sus:EQU.182
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Central de óxido nitroso"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Central de óxido nitroso"
 
 Individual: sus:EQU.183
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Central concentradora de oxigênio"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Central concentradora de oxigênio"
 
 Individual: sus:EQU.184
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    " Irrigador termoelétrico"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    " Irrigador termoelétrico"
 
 Individual: sus:EQU.185
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Eletronistagmógrafo de dois canais"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Eletronistagmógrafo de dois canais"
 
 Individual: sus:EQU.186
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Resfriador elétrico"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Resfriador elétrico"
 
 Individual: sus:EQU.187
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Termômetro"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Termômetro"
 
 Individual: sus:EQU.188
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Cronômetro"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Cronômetro"
 
 Individual: sus:EQU.189
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Diapasão"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Diapasão"
 
 Individual: sus:EQU.190
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Eletroencefalógrafo digital"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Eletroencefalógrafo digital"
 
 Individual: sus:EQU.191
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Fotoestimulador digital "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Fotoestimulador digital"
 
 Individual: sus:EQU.192
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Bico de bunsen com válvula reguladora "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Bico de bunsen com válvula reguladora"
 
 Individual: sus:EQU.193
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Código de equipamento SUS disponível"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Código de equipamento SUS disponível"
 
 Individual: sus:EQU.194
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Máquinas cicladoras para diálise peritonial"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Máquinas cicladoras para diálise peritonial"
 
 Individual: sus:EQU.195
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Banho maria tipo metabólico"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Banho maria tipo metabólico"
 
 Individual: sus:EQU.196
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Rotor de punho"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Rotor de punho"
 
 Individual: sus:EQU.197
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Capela de fluxo laminar"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Capela de fluxo laminar"
 
 Individual: sus:EQU.198
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Medidor geiger"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Medidor geiger"
 
 Individual: sus:EQU.199
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Código de equipamento SUS disponível"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Código de equipamento SUS disponível"
 
 Individual: sus:EQU.200
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Termo higrômetro"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Termo higrômetro"
 
 Individual: sus:EQU.201
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Sistema digital de armazenamento de imagens"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Sistema digital de armazenamento de imagens"
 
 Individual: sus:EQU.202
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Coluna cromatográfica"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Coluna cromatográfica"
 
 Individual: sus:EQU.203
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Sistema de eletroforese"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Sistema de eletroforese"
 
 Individual: sus:EQU.204
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Evaporador de tubos rotativo)"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Evaporador de tubos rotativo)"
 
 Individual: sus:EQU.205
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Freezer doméstico"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Freezer doméstico"
 
 Individual: sus:EQU.206
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Código de equipamento SUS disponível"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Código de equipamento SUS disponível"
 
 Individual: sus:EQU.207
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Arco cirúrgico"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Arco cirúrgico"
 
 Individual: sus:EQU.208
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Aquecedor de sangue"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Aquecedor de sangue"
 
 Individual: sus:EQU.209
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Estimulador de nervo periférico"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Estimulador de nervo periférico"
 
 Individual: sus:EQU.210
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Jogo de polias"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Jogo de polias"
 
 Individual: sus:EQU.211
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Código de equipamento SUS disponível"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Código de equipamento SUS disponível"
 
 Individual: sus:EQU.212
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Escada para ombro e dedo"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Escada para ombro e dedo"
 
 Individual: sus:EQU.213
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Bicicleta ergométrica"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Bicicleta ergométrica"
 
 Individual: sus:EQU.214
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Roda de ombro"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Roda de ombro"
 
 Individual: sus:EQU.215
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Jogo de halteres"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Jogo de halteres"
 
 Individual: sus:EQU.216
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Rolo de punho"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Rolo de punho"
 
 Individual: sus:EQU.217
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Código de equipamento SUS disponível"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Código de equipamento SUS disponível"
 
 Individual: sus:EQU.218
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Código de equipamento SUS disponível"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Código de equipamento SUS disponível"
 
 Individual: sus:EQU.219
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Central de vácuo clínico"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Central de vácuo clínico"
 
 Individual: sus:EQU.220
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Jogo de muletas canadenses"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Jogo de muletas canadenses"
 
 Individual: sus:EQU.221
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Motogerador"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Motogerador"
 
 Individual: sus:EQU.222
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Câmara hiperbárica"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Câmara hiperbárica"
 
 Individual: sus:EQU.223
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Aparelho de DVD"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Aparelho de DVD"
 
 Individual: sus:EQU.224
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Analisador automático para Na+ - K+ e Cl "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Analisador automático para Na+ - K+ e Cl"
 
 Individual: sus:EQU.225
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Agitador kline"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Agitador kline"
 
 Individual: sus:EQU.226
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Agitador de plaquetas"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Agitador de plaquetas"
 
 Individual: sus:EQU.227
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Agitador de tubos"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Agitador de tubos"
 
 Individual: sus:EQU.228
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Analisador automático para bioquímica"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Analisador automático para bioquímica"
 
 Individual: sus:EQU.229
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Analisador para Ca++ e pH"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Analisador para Ca++ e pH"
 
 Individual: sus:EQU.230
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Fotômetro de chama"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Fotômetro de chama"
 
 Individual: sus:EQU.231
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Fotômetro para leitura em microplacas"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Fotômetro para leitura em microplacas"
 
 Individual: sus:EQU.232
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Mesa para exames em madeira"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Mesa para exames em madeira"
 
 Individual: sus:EQU.233
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Espectrofotômetro de absorção atômica"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Espectrofotômetro de absorção atômica"
 
 Individual: sus:EQU.234
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Analisador de pH"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Analisador de pH"
 
 Individual: sus:EQU.235
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Secador de lâminas"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Secador de lâminas"
 
 Individual: sus:EQU.236
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Titulador"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Titulador"
 
 Individual: sus:EQU.237
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Pipetador automático"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Pipetador automático"
 
 Individual: sus:EQU.238
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Aparelho de raio x fixo"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Aparelho de raio x fixo"
 
 Individual: sus:EQU.239
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Aparelho de raio x móvel"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Aparelho de raio x móvel"
 
 Individual: sus:EQU.240
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Processadora de filmes"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Processadora de filmes"
 
 Individual: sus:EQU.241
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Mamógrafo"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Mamógrafo"
 
 Individual: sus:EQU.242
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Ultrassom diagnóstico"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Ultrassom diagnóstico"
 
 Individual: sus:EQU.243
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Modelo anatômico"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Modelo anatômico"
 
 Individual: sus:EQU.244
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Suporte para tv e vídeo"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Suporte para tv e vídeo"
 
 Individual: sus:EQU.245
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Tomógrafo computadorizado multislice"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Tomógrafo computadorizado multislice"
 
 Individual: sus:EQU.246
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Código de equipamento SUS disponível"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Código de equipamento SUS disponível"
 
 Individual: sus:EQU.247
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Bomba injetora de contraste"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Bomba injetora de contraste"
 
 Individual: sus:EQU.248
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Bilirrubinômetro"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Bilirrubinômetro"
 
 Individual: sus:EQU.249
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Refrigerador laboratorial "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Refrigerador laboratorial"
 
 Individual: sus:EQU.250
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Relógio de ponto"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Relógio de ponto"
 
 Individual: sus:EQU.251
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Aparelho de fax"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Aparelho de fax"
 
 Individual: sus:EQU.252
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Arquivo deslizante mecânico"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Arquivo deslizante mecânico"
 
 Individual: sus:EQU.253
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Carro de prontuários"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Carro de prontuários"
 
 Individual: sus:EQU.254
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Cofre de segurança"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Cofre de segurança"
 
 Individual: sus:EQU.255
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Código de equipamento SUS disponível"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Código de equipamento SUS disponível"
 
 Individual: sus:EQU.256
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Relógio protocolador de documentos"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Relógio protocolador de documentos"
 
 Individual: sus:EQU.257
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Centrífuga refrigerada"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Centrífuga refrigerada"
 
 Individual: sus:EQU.258
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Pia de escovação"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Pia de escovação"
 
 Individual: sus:EQU.259
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Código de equipamento SUS disponível"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Código de equipamento SUS disponível"
 
 Individual: sus:EQU.260
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Ecocardiógrafo"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Ecocardiógrafo"
 
 Individual: sus:EQU.261
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Escada de canto"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Escada de canto"
 
 Individual: sus:EQU.262
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Espelho de postura"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Espelho de postura"
 
 Individual: sus:EQU.263
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Fita métrica "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Fita métrica"
 
 Individual: sus:EQU.264
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Tatame"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Tatame"
 
 Individual: sus:EQU.265
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Coagulômetro"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Coagulômetro"
 
 Individual: sus:EQU.266
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Deionizador"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Deionizador"
 
 Individual: sus:EQU.267
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Diluidor para contador de células"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Diluidor para contador de células"
 
 Individual: sus:EQU.268
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Afiador de facas"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Afiador de facas"
 
 Individual: sus:EQU.269
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Autoclave rápida"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Autoclave rápida"
 
 Individual: sus:EQU.270
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Banho maria para descongelar plasma"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Banho maria para descongelar plasma"
 
 Individual: sus:EQU.271
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Maca de transferência"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Maca de transferência"
 
 Individual: sus:EQU.272
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Mesa auxiliar com cuba"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Mesa auxiliar com cuba"
 
 Individual: sus:EQU.273
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Cadeira para turbilhão"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Cadeira para turbilhão"
 
 Individual: sus:EQU.274
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Par pronosupinador"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Par pronosupinador"
 
 Individual: sus:EQU.275
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Podoscópio"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Podoscópio"
 
 Individual: sus:EQU.276
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Recursos para crioterapia"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Recursos para crioterapia"
 
 Individual: sus:EQU.277
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Tábua de quadríceps"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Tábua de quadríceps"
 
 Individual: sus:EQU.278
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Tanque de hubbard"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Tanque de hubbard"
 
 Individual: sus:EQU.279
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Tens e Fes"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Tens e Fes"
 
 Individual: sus:EQU.280
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Timer"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Timer"
 
 Individual: sus:EQU.281
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Turbilhão para membros inferiores"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Turbilhão para membros inferiores"
 
 Individual: sus:EQU.282
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Turbilhão para membros superiores"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Turbilhão para membros superiores"
 
 Individual: sus:EQU.283
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Código de equipamento SUS disponível"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Código de equipamento SUS disponível"
 
 Individual: sus:EQU.284
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Mesa cirúrgica obstétrica"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Mesa cirúrgica obstétrica"
 
 Individual: sus:EQU.285
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Cardiotocógrafo"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Cardiotocógrafo"
 
 Individual: sus:EQU.286
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Aparelho de tração lombar e cervical"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Aparelho de tração lombar e cervical"
 
 Individual: sus:EQU.287
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Barra de ling"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Barra de ling"
 
 Individual: sus:EQU.288
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Barras de apoio"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Barras de apoio"
 
 Individual: sus:EQU.289
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Andadeira"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Andadeira"
 
 Individual: sus:EQU.290
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Exercitador de mãos "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Exercitador de mãos"
 
 Individual: sus:EQU.291
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Eletroestimulador com corrente galvânica farádica"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Eletroestimulador com corrente galvânica farádica"
 
 Individual: sus:EQU.292
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Exercitador de membros inferiores"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Exercitador de membros inferiores"
 
 Individual: sus:EQU.293
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Ressonância nuclear magnética "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Ressonância nuclear magnética"
 
 Individual: sus:EQU.294
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Aspirador de pó"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Aspirador de pó"
 
 Individual: sus:EQU.295
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Balança tipo plataforma"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Balança tipo plataforma"
 
 Individual: sus:EQU.296
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Bigorna"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Bigorna"
 
 Individual: sus:EQU.297
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Bomba de vácuo com rotor de paletas"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Bomba de vácuo com rotor de paletas"
 
 Individual: sus:EQU.298
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Cabine para pintura"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Cabine para pintura"
 
 Individual: sus:EQU.299
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Calandra horizontal"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Calandra horizontal"
 
 Individual: sus:EQU.300
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Carregador de bateria"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Carregador de bateria"
 
 Individual: sus:EQU.301
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Carro pallets"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Carro pallets"
 
 Individual: sus:EQU.302
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Carro para transporte de roupa limpa"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Carro para transporte de roupa limpa"
 
 Individual: sus:EQU.303
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Carro para transporte de roupa molhada"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Carro para transporte de roupa molhada"
 
 Individual: sus:EQU.304
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Carro para transporte de roupa seca"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Carro para transporte de roupa seca"
 
 Individual: sus:EQU.305
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Carro para transporte de roupa suja"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Carro para transporte de roupa suja"
 
 Individual: sus:EQU.306
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Centrífuga de roupas"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Centrífuga de roupas"
 
 Individual: sus:EQU.307
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Compressor de ar "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Compressor de ar"
 
 Individual: sus:EQU.308
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Conjunto de ferramentas para eletrônica"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Conjunto de ferramentas para eletrônica"
 
 Individual: sus:EQU.309
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Conjunto de ferramentas para mecânica"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Conjunto de ferramentas para mecânica"
 
 Individual: sus:EQU.310
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Conjunto de ferramentas para refrigeração"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Conjunto de ferramentas para refrigeração"
 
 Individual: sus:EQU.311
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Engraxadeira"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Engraxadeira"
 
 Individual: sus:EQU.312
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Equipamento de solda elétrico"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Equipamento de solda elétrico"
 
 Individual: sus:EQU.313
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Esmerilhadeira de bancada"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Esmerilhadeira de bancada"
 
 Individual: sus:EQU.314
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Esmerilhadeira"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Esmerilhadeira"
 
 Individual: sus:EQU.315
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Ferro elétrico Industrial"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Ferro elétrico Industrial"
 
 Individual: sus:EQU.316
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Código de equipamento SUS disponível"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Código de equipamento SUS disponível"
 
 Individual: sus:EQU.317
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Fonte de alimentação elétrica"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Fonte de alimentação elétrica"
 
 Individual: sus:EQU.318
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Frequencímetro"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Frequencímetro"
 
 Individual: sus:EQU.319
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Fresadora universal"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Fresadora universal"
 
 Individual: sus:EQU.320
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Furadeira de bancada"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Furadeira de bancada"
 
 Individual: sus:EQU.321
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Furadeira de coluna"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Furadeira de coluna"
 
 Individual: sus:EQU.322
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Furadeira elétrica de impacto"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Furadeira elétrica de impacto"
 
 Individual: sus:EQU.323
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Gerador de sinais"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Gerador de sinais"
 
 Individual: sus:EQU.324
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Grampeador"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Grampeador"
 
 Individual: sus:EQU.325
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Grampeador pneumático "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Grampeador pneumático"
 
 Individual: sus:EQU.326
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Guilhotina"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Guilhotina"
 
 Individual: sus:EQU.327
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Lixadeira de disco "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Lixadeira de disco"
 
 Individual: sus:EQU.328
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Macaco hidráulico"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Macaco hidráulico"
 
 Individual: sus:EQU.329
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Máquina de costura industrial"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Máquina de costura industrial"
 
 Individual: sus:EQU.330
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Máquina de overloque"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Máquina de overloque"
 
 Individual: sus:EQU.331
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Carro plataforma"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Carro plataforma"
 
 Individual: sus:EQU.332
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Flangeadeira"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Flangeadeira"
 
 Individual: sus:EQU.333
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Megômetro"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Megômetro"
 
 Individual: sus:EQU.334
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Micrótomo de congelação "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Micrótomo de congelação"
 
 Individual: sus:EQU.335
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Morsa para bancada"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Morsa para bancada"
 
 Individual: sus:EQU.336
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Amperímetro"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Amperímetro"
 
 Individual: sus:EQU.337
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Multímetro"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Multímetro"
 
 Individual: sus:EQU.338
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Multímetro digital"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Multímetro digital"
 
 Individual: sus:EQU.339
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Painel de ferramentas"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Painel de ferramentas"
 
 Individual: sus:EQU.340
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Pistola para pintura"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Pistola para pintura"
 
 Individual: sus:EQU.341
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Plaina elétrica"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Plaina elétrica"
 
 Individual: sus:EQU.342
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Plaina limadora"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Plaina limadora"
 
 Individual: sus:EQU.343
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Policorte"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Policorte"
 
 Individual: sus:EQU.344
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Prensa hidráulica"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Prensa hidráulica"
 
 Individual: sus:EQU.345
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Seladora de embalagens"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Seladora de embalagens"
 
 Individual: sus:EQU.346
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Serra circular de mesa"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Serra circular de mesa"
 
 Individual: sus:EQU.347
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Serra de fita"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Serra de fita"
 
 Individual: sus:EQU.348
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Serra elétrica"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Serra elétrica"
 
 Individual: sus:EQU.349
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Serra tico tico"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Serra tico tico"
 
 Individual: sus:EQU.350
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Tacômetro"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Tacômetro"
 
 Individual: sus:EQU.351
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Torno de bancada"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Torno de bancada"
 
 Individual: sus:EQU.352
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Torno para tubos"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Torno para tubos"
 
 Individual: sus:EQU.353
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Tupia moldureira"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Tupia moldureira"
 
 Individual: sus:EQU.354
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Lavadora de roupas"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Lavadora de roupas"
 
 Individual: sus:EQU.355
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Prensa para roupas"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Prensa para roupas"
 
 Individual: sus:EQU.356
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Osciloscópio"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Osciloscópio"
 
 Individual: sus:EQU.357
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Politriz/lixadeira"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Politriz/lixadeira"
 
 Individual: sus:EQU.358
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Conjunto de solda oxiacetileno"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Conjunto de solda oxiacetileno"
 
 Individual: sus:EQU.359
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Lixadeira de fita"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Lixadeira de fita"
 
 Individual: sus:EQU.360
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Garrote pneumático"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Garrote pneumático"
 
 Individual: sus:EQU.361
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Amaciador de carne"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Amaciador de carne"
 
 Individual: sus:EQU.362
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Aparelho de Karl Fischer "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Aparelho de Karl Fischer"
 
 Individual: sus:EQU.363
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Balança eletrônica "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Balança eletrônica"
 
 Individual: sus:EQU.364
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Batedeira elétrica"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Batedeira elétrica"
 
 Individual: sus:EQU.365
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Batedeira industrial"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Batedeira industrial"
 
 Individual: sus:EQU.366
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Código de equipamento SUS disponível"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Código de equipamento SUS disponível"
 
 Individual: sus:EQU.367
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Cafeteira elétrica"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Cafeteira elétrica"
 
 Individual: sus:EQU.368
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Cafeteira industrial"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Cafeteira industrial"
 
 Individual: sus:EQU.369
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Carro para transporte de material contaminado"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Carro para transporte de material contaminado"
 
 Individual: sus:EQU.370
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Carro fechado para transporte de material"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Carro fechado para transporte de material"
 
 Individual: sus:EQU.371
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Centrífuga para alimentos "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Centrífuga para alimentos"
 
 Individual: sus:EQU.372
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Chapa para grelhados"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Chapa para grelhados"
 
 Individual: sus:EQU.373
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Descascador de alimentos"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Descascador de alimentos"
 
 Individual: sus:EQU.374
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Desumidificador de ambiente"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Desumidificador de ambiente"
 
 Individual: sus:EQU.375
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Estornador de tambor"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Estornador de tambor"
 
 Individual: sus:EQU.376
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Espectrofotômetro ultravioleta"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Espectrofotômetro ultravioleta"
 
 Individual: sus:EQU.377
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Extrator de suco"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Extrator de suco"
 
 Individual: sus:EQU.378
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Filtro de água"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Filtro de água"
 
 Individual: sus:EQU.379
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Fogão industrial"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Fogão industrial"
 
 Individual: sus:EQU.380
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Fogão"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Fogão"
 
 Individual: sus:EQU.381
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Forno elétrico"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Forno elétrico"
 
 Individual: sus:EQU.382
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Forno industrial"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Forno industrial"
 
 Individual: sus:EQU.383
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Forno de micro-ondas "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Forno de micro-ondas"
 
 Individual: sus:EQU.384
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Fritadeira elétrica"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Fritadeira elétrica"
 
 Individual: sus:EQU.385
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Geladeira industrial"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Geladeira industrial"
 
 Individual: sus:EQU.386
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Lavadora de louça"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Lavadora de louça"
 
 Individual: sus:EQU.387
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Lavadora por ultrassom"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Lavadora por ultrassom"
 
 Individual: sus:EQU.388
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Liquidificador industrial"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Liquidificador industrial"
 
 Individual: sus:EQU.389
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Liquidificador"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Liquidificador"
 
 Individual: sus:EQU.390
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Código de equipamento SUS disponível"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Código de equipamento SUS disponível"
 
 Individual: sus:EQU.391
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Código de equipamento SUS disponível"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Código de equipamento SUS disponível"
 
 Individual: sus:EQU.392
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Processador de alimentos"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Processador de alimentos"
 
 Individual: sus:EQU.393
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Código de equipamento SUS disponível"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Código de equipamento SUS disponível"
 
 Individual: sus:EQU.394
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Torneira acionada sem as mãos"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Torneira acionada sem as mãos"
 
 Individual: sus:EQU.395
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Código de equipamento SUS disponível"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Código de equipamento SUS disponível"
 
 Individual: sus:EQU.396
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Triturador de detritos"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Triturador de detritos"
 
 Individual: sus:EQU.397
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Aparelho de corrente interferencial"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Aparelho de corrente interferencial"
 
 Individual: sus:EQU.398
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Ventilador volumétrico móvel "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Ventilador volumétrico móvel"
 
 Individual: sus:EQU.399
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Polarímetro"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Polarímetro"
 
 Individual: sus:EQU.400
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Aparelho de jateamento"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Aparelho de jateamento"
 
 Individual: sus:EQU.401
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Banho de parafina em aço inoxidável"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Banho de parafina em aço inoxidável"
 
 Individual: sus:EQU.402
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Câmara mortuária"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Câmara mortuária"
 
 Individual: sus:EQU.403
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Carro para transporte de cadáveres"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Carro para transporte de cadáveres"
 
 Individual: sus:EQU.404
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Fluorímetro"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Fluorímetro"
 
 Individual: sus:EQU.405
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Mesa de passar roupa"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Mesa de passar roupa"
 
 Individual: sus:EQU.406
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Mesa para autópsia"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Mesa para autópsia"
 
 Individual: sus:EQU.407
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Secadora de roupas"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Secadora de roupas"
 
 Individual: sus:EQU.408
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Código de equipamento SUS disponível"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Código de equipamento SUS disponível"
 
 Individual: sus:EQU.409
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Carro para transporte de detritos"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Carro para transporte de detritos"
 
 Individual: sus:EQU.410
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Estufa para secagem e esterilização"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Estufa para secagem e esterilização"
 
 Individual: sus:EQU.411
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Código de equipamento SUS disponível"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Código de equipamento SUS disponível"
 
 Individual: sus:EQU.412
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Câmara multiformato à laser ou câmara à laser"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Câmara multiformato à laser ou câmara à laser"
 
 Individual: sus:EQU.413
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Carro para transporte de urna funerária"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Carro para transporte de urna funerária"
 
 Individual: sus:EQU.414
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Dobradeira de tubos coluna fixa "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Dobradeira de tubos coluna fixa"
 
 Individual: sus:EQU.415
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Impressora a seco"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Impressora a seco"
 
 Individual: sus:EQU.416
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Aparelho de litotripsia extracorpórea"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Aparelho de litotripsia extracorpórea"
 
 Individual: sus:EQU.417
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Carro para transporte de alimento"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Carro para transporte de alimento"
 
 Individual: sus:EQU.418
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Autoclave para central de esterilização"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Autoclave para central de esterilização"
 
 Individual: sus:EQU.419
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Carro para transporte de medicamentos"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Carro para transporte de medicamentos"
 
 Individual: sus:EQU.420
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Mesa para dobradura de roupas"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Mesa para dobradura de roupas"
 
 Individual: sus:EQU.421
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Lavadora de vidraria para laboratório"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Lavadora de vidraria para laboratório"
 
 Individual: sus:EQU.422
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Carro para transporte de material limpo "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Carro para transporte de material limpo"
 
 Individual: sus:EQU.423
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Código de equipamento SUS disponível"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Código de equipamento SUS disponível"
 
 Individual: sus:EQU.424
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Protetor de tireóide"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Protetor de tireóide"
 
 Individual: sus:EQU.425
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Sistema de videoendoscopia digestiva"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Sistema de videoendoscopia digestiva"
 
 Individual: sus:EQU.426
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Microscópio trinocular"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Microscópio trinocular"
 
 Individual: sus:EQU.427
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Refrator computadorizado "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Refrator computadorizado"
 
 Individual: sus:EQU.428
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Serra para esterno e osso"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Serra para esterno e osso"
 
 Individual: sus:EQU.429
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Topógrafo de córnea"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Topógrafo de córnea"
 
 Individual: sus:EQU.430
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Faixas elásticas"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Faixas elásticas"
 
 Individual: sus:EQU.431
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Ganho de inserção"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Ganho de inserção"
 
 Individual: sus:EQU.432
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Microcentrífuga"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Microcentrífuga"
 
 Individual: sus:EQU.433
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Biômetro"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Biômetro"
 
 Individual: sus:EQU.434
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Extrator de plasma"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Extrator de plasma"
 
 Individual: sus:EQU.435
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Hemoglobinômetro"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Hemoglobinômetro"
 
 Individual: sus:EQU.436
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Máquina de circulação extracorpórea"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Máquina de circulação extracorpórea"
 
 Individual: sus:EQU.437
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Passa chassi"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Passa chassi"
 
 Individual: sus:EQU.438
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Retinógrafo computadorizado"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Retinógrafo computadorizado"
 
 Individual: sus:EQU.439
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Ultrassom oftalmológico"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Ultrassom oftalmológico"
 
 Individual: sus:EQU.440
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Notebook"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Notebook"
 
 Individual: sus:EQU.441
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Moedor de carne"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Moedor de carne"
 
 Individual: sus:EQU.442
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Código de equipamento SUS disponível"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Código de equipamento SUS disponível"
 
 Individual: sus:EQU.443
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Código de equipamento SUS disponível"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Código de equipamento SUS disponível"
 
 Individual: sus:EQU.444
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Aparelho de hemodiálise"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Aparelho de hemodiálise"
 
 Individual: sus:EQU.445
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Banho maria histológico"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Banho maria histológico"
 
 Individual: sus:EQU.446
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Bomba para sucção de leite"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Bomba para sucção de leite"
 
 Individual: sus:EQU.447
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Cadeira para doador de sangue"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Cadeira para doador de sangue"
 
 Individual: sus:EQU.448
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Campímetro computadorizado"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Campímetro computadorizado"
 
 Individual: sus:EQU.449
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Carro de anestesia simples"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Carro de anestesia simples"
 
 Individual: sus:EQU.450
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Espirômetro"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Espirômetro"
 
 Individual: sus:EQU.451
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Estereomicroscópio"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Estereomicroscópio"
 
 Individual: sus:EQU.452
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Jogo de bolas bobath"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Jogo de bolas bobath"
 
 Individual: sus:EQU.453
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Luz infravermelha"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Luz infravermelha"
 
 Individual: sus:EQU.454
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Máquina de gelo"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Máquina de gelo"
 
 Individual: sus:EQU.455
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Máquina fotográfica digital"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Máquina fotográfica digital"
 
 Individual: sus:EQU.456
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Processadora de tecidos "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Processadora de tecidos"
 
 Individual: sus:EQU.457
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Monta carga limpo"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Monta carga limpo"
 
 Individual: sus:EQU.458
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Monta carga sujo"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Monta carga sujo"
 
 Individual: sus:EQU.459
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Acelerador linear de alta energia"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Acelerador linear de alta energia"
 
 Individual: sus:EQU.460
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Paquímetro oftalmológico"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Paquímetro oftalmológico"
 
 Individual: sus:EQU.461
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Sistema de osmose reversa"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Sistema de osmose reversa"
 
 Individual: sus:EQU.462
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "BIPAP"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "BIPAP"
 
 Individual: sus:EQU.463
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Código de equipamento SUS disponível"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Código de equipamento SUS disponível"
 
 Individual: sus:EQU.464
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Cama PPP"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Cama PPP"
 
 Individual: sus:EQU.465
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Carro blindado para transporte de rejeitos radioativos "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Carro blindado para transporte de rejeitos radioativos"
 
 Individual: sus:EQU.466
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Caixa de chumbo"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Caixa de chumbo"
 
 Individual: sus:EQU.467
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "CPAP"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "CPAP"
 
 Individual: sus:EQU.468
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Criostato de mesa"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Criostato de mesa"
 
 Individual: sus:EQU.469
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Jogo de rolos de bobath"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Jogo de rolos de bobath"
 
 Individual: sus:EQU.470
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Leitor ótico"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Leitor ótico"
 
 Individual: sus:EQU.471
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Recipiente para água ultrapura"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Recipiente para água ultrapura"
 
 Individual: sus:EQU.472
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Sistema de aférese"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Sistema de aférese"
 
 Individual: sus:EQU.473
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Código de equipamento SUS disponível"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Código de equipamento SUS disponível"
 
 Individual: sus:EQU.474
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Tração cervical mecânica"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Tração cervical mecânica"
 
 Individual: sus:EQU.475
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Aparelho de som"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Aparelho de som"
 
 Individual: sus:EQU.476
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Código de equipamento SUS disponível"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Código de equipamento SUS disponível"
 
 Individual: sus:EQU.477
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Código de equipamento SUS disponível"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Código de equipamento SUS disponível"
 
 Individual: sus:EQU.478
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Calibrador de doses"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Calibrador de doses"
 
 Individual: sus:EQU.479
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Código de equipamento SUS disponível"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Código de equipamento SUS disponível"
 
 Individual: sus:EQU.480
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Conjunto de proctologia"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Conjunto de proctologia"
 
 Individual: sus:EQU.481
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Estimulador tátil"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Estimulador tátil"
 
 Individual: sus:EQU.482
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Pentacam"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Pentacam"
 
 Individual: sus:EQU.483
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Seladora para bolsa de sangue "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Seladora para bolsa de sangue"
 
 Individual: sus:EQU.484
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Central de ar condicionado "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Central de ar condicionado"
 
 Individual: sus:EQU.485
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Agitador rotativo"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Agitador rotativo"
 
 Individual: sus:EQU.486
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Cabine acústica de campo livre"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Cabine acústica de campo livre"
 
 Individual: sus:EQU.487
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Cromatógrafo"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Cromatógrafo"
 
 Individual: sus:EQU.488
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Colchão térmico"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Colchão térmico"
 
 Individual: sus:EQU.489
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Ecodopler"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Ecodopler"
 
 Individual: sus:EQU.490
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Freezer especial"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Freezer especial"
 
 Individual: sus:EQU.491
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Massageador terapêutico"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Massageador terapêutico"
 
 Individual: sus:EQU.492
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Mesa ortostática elétrica"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Mesa ortostática elétrica"
 
 Individual: sus:EQU.493
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Microscópio cirúrgico "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Microscópio cirúrgico"
 
 Individual: sus:EQU.494
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Microscópio especular de córnea de não contato "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Microscópio especular de córnea de não contato"
 
 Individual: sus:EQU.495
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Código de equipamento SUS disponível"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Código de equipamento SUS disponível"
 
 Individual: sus:EQU.496
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Óculos plumbífero"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Óculos plumbífero"
 
 Individual: sus:EQU.497
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Foto microscópio"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Foto microscópio"
 
 Individual: sus:EQU.498
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Liofilizador"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Liofilizador"
 
 Individual: sus:EQU.499
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Sistema de ergometria"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Sistema de ergometria"
 
 Individual: sus:EQU.500
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Termômetro digital"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Termômetro digital"
 
 Individual: sus:EQU.501
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Sistema de vídeo laparoscopia"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Sistema de vídeo laparoscopia"
 
 Individual: sus:EQU.502
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Sistema de detecção microbial"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Sistema de detecção microbial"
 
 Individual: sus:EQU.503
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Carro para transporte de sangue"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Carro para transporte de sangue"
 
 Individual: sus:EQU.504
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Mesa cirúrgica ortopédica"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Mesa cirúrgica ortopédica"
 
 Individual: sus:EQU.505
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Refrigerador para conservação de sangue "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Refrigerador para conservação de sangue"
 
 Individual: sus:EQU.506
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Régua antropométrica"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Régua antropométrica"
 
 Individual: sus:EQU.507
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Sistema de foto documentação"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Sistema de foto documentação"
 
 Individual: sus:EQU.508
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Código de equipamento SUS disponível"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Código de equipamento SUS disponível"
 
 Individual: sus:EQU.509
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Tijolo de chumbo"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Tijolo de chumbo"
 
 Individual: sus:EQU.510
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Vecto eletronistagmógrafo"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Vecto eletronistagmógrafo"
 
 Individual: sus:EQU.511
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Gama câmara"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Gama câmara"
 
 Individual: sus:EQU.512
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Maca não magnética"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Maca não magnética"
 
 Individual: sus:EQU.513
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Máquina interlock"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Máquina interlock"
 
 Individual: sus:EQU.514
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Sensor de corpos magnéticos"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Sensor de corpos magnéticos"
 
 Individual: sus:EQU.515
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Suporte de cestos"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Suporte de cestos"
 
 Individual: sus:EQU.516
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Visor plumbífero"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Visor plumbífero"
 
 Individual: sus:EQU.517
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Aparelho de densitometria "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Aparelho de densitometria"
 
 Individual: sus:EQU.518
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Sistema de recalque de reservatórios elevados "
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Sistema de recalque de reservatórios elevados"
 
 Individual: sus:EQU.519
 	Types: sus:Código
-	Facts: sus:temática    "Equipamentos SUS"
-	Facts: sus:descrito    "Subestação elétrica"
+	Facts: sus:tema    "Equipamentos SUS"
+	Facts: sus:descrição    "Subestação elétrica"
