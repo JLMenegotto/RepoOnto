@@ -103,7 +103,7 @@ Class: rio:Político
 
 Class: rio:Continente
 	SubClassOf: rio:Político
-	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Disciplina "Urbanismo"@pt
 	Annotations: rio:Tradução "Continente"@pt
 	Annotations: rio:Traducción "Continente"@es
 	Annotations: rio:Interoperabilidade "-"@pt
@@ -153,7 +153,7 @@ Class: rio:Político
 
 Class: rio:SubContinente
 	SubClassOf: rio:Político
-	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Disciplina "Urbanismo"@pt
 	Annotations: rio:Tradução "SubContinente"@pt
 	Annotations: rio:Traducción "SubContinente"@es
 	Annotations: rio:Interoperabilidade "-"@pt
@@ -203,7 +203,7 @@ Class: rio:Político
 
 Class: rio:País
 	SubClassOf: rio:Político
-	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Disciplina "Urbanismo"@pt
 	Annotations: rio:Tradução "País"@pt
 	Annotations: rio:Traducción "País"@es
 	Annotations: rio:Interoperabilidade "-"@pt
@@ -253,7 +253,7 @@ Class: rio:Político
 
 Class: rio:Estado
 	SubClassOf: rio:Político
-	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Disciplina "Urbanismo"@pt
 	Annotations: rio:Tradução "Estado"@pt
 	Annotations: rio:Traducción "Estado"@es
 	Annotations: rio:Interoperabilidade "-"@pt
@@ -303,7 +303,7 @@ Class: rio:Político
 
 Class: rio:Cidade
 	SubClassOf: rio:Político
-	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Disciplina "Urbanismo"@pt
 	Annotations: rio:Tradução "Cidade"@pt
 	Annotations: rio:Traducción "Ciudad"@es
 	Annotations: rio:Interoperabilidade "-"@pt
@@ -353,7 +353,7 @@ Class: rio:Zona.térmica
 
 Class: rio:Polar
 	SubClassOf: rio:Zona.térmica
-	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Disciplina "Urbanismo"@pt
 	Annotations: rio:Tradução "Polar"@pt
 	Annotations: rio:Traducción "Polar"@es
 	Annotations: rio:Interoperabilidade "-"@pt
@@ -403,7 +403,7 @@ Class: rio:Zona.térmica
 
 Class: rio:Equatorial
 	SubClassOf: rio:Zona.térmica
-	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Disciplina "Urbanismo"@pt
 	Annotations: rio:Tradução "Equatorial"@pt
 	Annotations: rio:Traducción "Ecuatorial"@es
 	Annotations: rio:Interoperabilidade "-"@pt
@@ -453,7 +453,7 @@ Class: rio:Zona.térmica
 
 Class: rio:Tropical
 	SubClassOf: rio:Zona.térmica
-	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Disciplina "Urbanismo"@pt
 	Annotations: rio:Tradução "Tropical"@pt
 	Annotations: rio:Traducción "Tropical"@es
 	Annotations: rio:Interoperabilidade "-"@pt
@@ -503,7 +503,7 @@ Class: rio:Zona.térmica
 
 Class: rio:Subtropical
 	SubClassOf: rio:Zona.térmica
-	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Disciplina "Urbanismo"@pt
 	Annotations: rio:Tradução "Subtropical"@pt
 	Annotations: rio:Traducción "Subtropical"@es
 	Annotations: rio:Interoperabilidade "-"@pt
@@ -553,7 +553,7 @@ Class: rio:Zona.térmica
 
 Class: rio:Semiárido
 	SubClassOf: rio:Zona.térmica
-	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Disciplina "Urbanismo"@pt
 	Annotations: rio:Tradução "Semiárido"@pt
 	Annotations: rio:Traducción "Semiárido"@es
 	Annotations: rio:Interoperabilidade "-"@pt
@@ -603,7 +603,7 @@ Class: rio:Zona.térmica
 
 Class: rio:Atlántico
 	SubClassOf: rio:Zona.térmica
-	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Disciplina "Urbanismo"@pt
 	Annotations: rio:Tradução "Atlántico"@pt
 	Annotations: rio:Traducción "Atlántico"@es
 	Annotations: rio:Interoperabilidade "-"@pt
@@ -653,7 +653,7 @@ Class: rio:De.Zoneamento
 
 Class: rio:Area.de.Planejamento
 	SubClassOf: rio:De.Zoneamento
-	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Disciplina "Urbanismo"@pt
 	Annotations: rio:Tradução "Area de Planejamento"@pt
 	Annotations: rio:Traducción "Area de Planeamiento"@es
 	Annotations: rio:Interoperabilidade "-"@pt
@@ -703,7 +703,7 @@ Class: rio:De.Zoneamento
 
 Class: rio:Região.Administrativa
 	SubClassOf: rio:De.Zoneamento
-	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Disciplina "Urbanismo"@pt
 	Annotations: rio:Tradução "Região Administrativa"@pt
 	Annotations: rio:Traducción "Región Administrativa"@es
 	Annotations: rio:Interoperabilidade "-"@pt
@@ -751,11 +751,11 @@ Class: rio:De.Zoneamento
 	Annotations: rio:Espécie "-"@pt
 	Annotations: rio:Tema "-"@pt
 
-Class: rio:Bairro
+Class: rio:Area.Interesse.Especial
 	SubClassOf: rio:De.Zoneamento
-	Annotations: rio:Disciplina "-"@pt
-	Annotations: rio:Tradução "Bairro"@pt
-	Annotations: rio:Traducción "Barrio"@es
+	Annotations: rio:Disciplina "Urbanismo"@pt
+	Annotations: rio:Tradução "Área de Interesse Especial"@pt
+	Annotations: rio:Traducción "Area de Interes Especial"@es
 	Annotations: rio:Interoperabilidade "-"@pt
 	Annotations: rio:Natureza "-"@pt
 	Annotations: rio:Espécie "-"@pt
@@ -792,6 +792,106 @@ Class: rio:Urbano
 	Annotations: rio:Tema "-"@pt
 
 Class: rio:De.Zoneamento
+	SubClassOf: rio:Urbano
+	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Tradução "-"@pt
+	Annotations: rio:Traducción "-"@es
+	Annotations: rio:Interoperabilidade "-"@pt
+	Annotations: rio:Natureza "-"@pt
+	Annotations: rio:Espécie "-"@pt
+	Annotations: rio:Tema "-"@pt
+
+Class: rio:Area.Restringida
+	SubClassOf: rio:De.Zoneamento
+	Annotations: rio:Disciplina "Urbanismo"@pt
+	Annotations: rio:Tradução "Área com restrições de ocupação"@pt
+	Annotations: rio:Traducción "Área con restricciones de ocupación"@es
+	Annotations: rio:Interoperabilidade "-"@pt
+	Annotations: rio:Natureza "-"@pt
+	Annotations: rio:Espécie "-"@pt
+	Annotations: rio:Tema "-"@pt
+
+Class: rio:Projeto
+	SubClassOf: rio:BIM
+	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Tradução "-"@pt
+	Annotations: rio:Traducción "-"@es
+	Annotations: rio:Interoperabilidade "-"@pt
+	Annotations: rio:Natureza "-"@pt
+	Annotations: rio:Espécie "-"@pt
+	Annotations: rio:Tema "-"@pt
+
+Class: rio:Limite
+	SubClassOf: rio:Projeto
+	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Tradução "-"@pt
+	Annotations: rio:Traducción "-"@es
+	Annotations: rio:Interoperabilidade "-"@pt
+	Annotations: rio:Natureza "-"@pt
+	Annotations: rio:Espécie "-"@pt
+	Annotations: rio:Tema "-"@pt
+
+Class: rio:Urbano
+	SubClassOf: rio:Limite
+	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Tradução "-"@pt
+	Annotations: rio:Traducción "-"@es
+	Annotations: rio:Interoperabilidade "-"@pt
+	Annotations: rio:Natureza "-"@pt
+	Annotations: rio:Espécie "-"@pt
+	Annotations: rio:Tema "-"@pt
+
+Class: rio:De.Zoneamento
+	SubClassOf: rio:Urbano
+	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Tradução "-"@pt
+	Annotations: rio:Traducción "-"@es
+	Annotations: rio:Interoperabilidade "-"@pt
+	Annotations: rio:Natureza "-"@pt
+	Annotations: rio:Espécie "-"@pt
+	Annotations: rio:Tema "-"@pt
+
+Class: rio:Bairro
+	SubClassOf: rio:De.Zoneamento
+	Annotations: rio:Disciplina "Urbanismo"@pt
+	Annotations: rio:Tradução "Bairro da cidade"@pt
+	Annotations: rio:Traducción "Barrio de la ciudad"@es
+	Annotations: rio:Interoperabilidade "-"@pt
+	Annotations: rio:Natureza "-"@pt
+	Annotations: rio:Espécie "-"@pt
+	Annotations: rio:Tema "-"@pt
+
+Class: rio:Projeto
+	SubClassOf: rio:BIM
+	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Tradução "-"@pt
+	Annotations: rio:Traducción "-"@es
+	Annotations: rio:Interoperabilidade "-"@pt
+	Annotations: rio:Natureza "-"@pt
+	Annotations: rio:Espécie "-"@pt
+	Annotations: rio:Tema "-"@pt
+
+Class: rio:Limite
+	SubClassOf: rio:Projeto
+	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Tradução "-"@pt
+	Annotations: rio:Traducción "-"@es
+	Annotations: rio:Interoperabilidade "-"@pt
+	Annotations: rio:Natureza "-"@pt
+	Annotations: rio:Espécie "-"@pt
+	Annotations: rio:Tema "-"@pt
+
+Class: rio:Urbano
+	SubClassOf: rio:Limite
+	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Tradução "-"@pt
+	Annotations: rio:Traducción "-"@es
+	Annotations: rio:Interoperabilidade "-"@pt
+	Annotations: rio:Natureza "-"@pt
+	Annotations: rio:Espécie "-"@pt
+	Annotations: rio:Tema "-"@pt
+
+Class: rio:De.Fração
 	SubClassOf: rio:Urbano
 	Annotations: rio:Disciplina "-"@pt
 	Annotations: rio:Tradução "-"@pt
@@ -802,10 +902,10 @@ Class: rio:De.Zoneamento
 	Annotations: rio:Tema "-"@pt
 
 Class: rio:Quadra
-	SubClassOf: rio:De.Zoneamento
-	Annotations: rio:Disciplina "-"@pt
-	Annotations: rio:Tradução "Quadra"@pt
-	Annotations: rio:Traducción "Cuadra"@es
+	SubClassOf: rio:De.Fração
+	Annotations: rio:Disciplina "Urbanismo"@pt
+	Annotations: rio:Tradução "Quadra de um bairro"@pt
+	Annotations: rio:Traducción "Cuadra barrial"@es
 	Annotations: rio:Interoperabilidade "-"@pt
 	Annotations: rio:Natureza "-"@pt
 	Annotations: rio:Espécie "-"@pt
@@ -841,7 +941,7 @@ Class: rio:Urbano
 	Annotations: rio:Espécie "-"@pt
 	Annotations: rio:Tema "-"@pt
 
-Class: rio:De.Zoneamento
+Class: rio:De.Fração
 	SubClassOf: rio:Urbano
 	Annotations: rio:Disciplina "-"@pt
 	Annotations: rio:Tradução "-"@pt
@@ -852,8 +952,8 @@ Class: rio:De.Zoneamento
 	Annotations: rio:Tema "-"@pt
 
 Class: rio:Gleba
-	SubClassOf: rio:De.Zoneamento
-	Annotations: rio:Disciplina "-"@pt
+	SubClassOf: rio:De.Fração
+	Annotations: rio:Disciplina "Urbanismo"@pt
 	Annotations: rio:Tradução "Gleba"@pt
 	Annotations: rio:Traducción "Gleba"@es
 	Annotations: rio:Interoperabilidade "-"@pt
@@ -891,7 +991,7 @@ Class: rio:Urbano
 	Annotations: rio:Espécie "-"@pt
 	Annotations: rio:Tema "-"@pt
 
-Class: rio:De.Zoneamento
+Class: rio:De.Fração
 	SubClassOf: rio:Urbano
 	Annotations: rio:Disciplina "-"@pt
 	Annotations: rio:Tradução "-"@pt
@@ -902,8 +1002,8 @@ Class: rio:De.Zoneamento
 	Annotations: rio:Tema "-"@pt
 
 Class: rio:Loteamento
-	SubClassOf: rio:De.Zoneamento
-	Annotations: rio:Disciplina "-"@pt
+	SubClassOf: rio:De.Fração
+	Annotations: rio:Disciplina "Urbanismo"@pt
 	Annotations: rio:Tradução "Loteamento"@pt
 	Annotations: rio:Traducción "Loteamiento"@es
 	Annotations: rio:Interoperabilidade "-"@pt
@@ -941,7 +1041,57 @@ Class: rio:Urbano
 	Annotations: rio:Espécie "-"@pt
 	Annotations: rio:Tema "-"@pt
 
-Class: rio:De.Zoneamento
+Class: rio:De.Fração
+	SubClassOf: rio:Urbano
+	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Tradução "-"@pt
+	Annotations: rio:Traducción "-"@es
+	Annotations: rio:Interoperabilidade "-"@pt
+	Annotations: rio:Natureza "-"@pt
+	Annotations: rio:Espécie "-"@pt
+	Annotations: rio:Tema "-"@pt
+
+Class: rio:Parcela
+	SubClassOf: rio:De.Fração
+	Annotations: rio:Disciplina "Urbanismo"@pt
+	Annotations: rio:Tradução "Parcela urbana"@pt
+	Annotations: rio:Traducción "Parcela urbana"@es
+	Annotations: rio:Interoperabilidade "-"@pt
+	Annotations: rio:Natureza "-"@pt
+	Annotations: rio:Espécie "-"@pt
+	Annotations: rio:Tema "-"@pt
+
+Class: rio:Projeto
+	SubClassOf: rio:BIM
+	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Tradução "-"@pt
+	Annotations: rio:Traducción "-"@es
+	Annotations: rio:Interoperabilidade "-"@pt
+	Annotations: rio:Natureza "-"@pt
+	Annotations: rio:Espécie "-"@pt
+	Annotations: rio:Tema "-"@pt
+
+Class: rio:Limite
+	SubClassOf: rio:Projeto
+	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Tradução "-"@pt
+	Annotations: rio:Traducción "-"@es
+	Annotations: rio:Interoperabilidade "-"@pt
+	Annotations: rio:Natureza "-"@pt
+	Annotations: rio:Espécie "-"@pt
+	Annotations: rio:Tema "-"@pt
+
+Class: rio:Urbano
+	SubClassOf: rio:Limite
+	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Tradução "-"@pt
+	Annotations: rio:Traducción "-"@es
+	Annotations: rio:Interoperabilidade "-"@pt
+	Annotations: rio:Natureza "-"@pt
+	Annotations: rio:Espécie "-"@pt
+	Annotations: rio:Tema "-"@pt
+
+Class: rio:De.Fração
 	SubClassOf: rio:Urbano
 	Annotations: rio:Disciplina "-"@pt
 	Annotations: rio:Tradução "-"@pt
@@ -952,8 +1102,8 @@ Class: rio:De.Zoneamento
 	Annotations: rio:Tema "-"@pt
 
 Class: rio:Lote
-	SubClassOf: rio:De.Zoneamento
-	Annotations: rio:Disciplina "-"@pt
+	SubClassOf: rio:De.Fração
+	Annotations: rio:Disciplina "Urbanismo"@pt
 	Annotations: rio:Tradução "Lote"@pt
 	Annotations: rio:Traducción "Lote"@es
 	Annotations: rio:Interoperabilidade "-"@pt
@@ -1003,7 +1153,7 @@ Class: rio:De.Construção
 
 Class: rio:Prédio
 	SubClassOf: rio:De.Construção
-	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Disciplina "Urbanismo"@pt
 	Annotations: rio:Tradução "Prédio"@pt
 	Annotations: rio:Traducción "Prédio"@es
 	Annotations: rio:Interoperabilidade "-"@pt
@@ -1053,7 +1203,7 @@ Class: rio:De.Construção
 
 Class: rio:Bloco
 	SubClassOf: rio:De.Construção
-	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Disciplina "Urbanismo"@pt
 	Annotations: rio:Tradução "Bloco"@pt
 	Annotations: rio:Traducción "Block"@es
 	Annotations: rio:Interoperabilidade "-"@pt
@@ -1103,7 +1253,7 @@ Class: rio:De.Construção
 
 Class: rio:Edifício
 	SubClassOf: rio:De.Construção
-	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Disciplina "Urbanismo"@pt
 	Annotations: rio:Tradução "Edifício"@pt
 	Annotations: rio:Traducción "Edificio"@es
 	Annotations: rio:Interoperabilidade "-"@pt
@@ -1153,7 +1303,7 @@ Class: rio:De.Construção
 
 Class: rio:Casa
 	SubClassOf: rio:De.Construção
-	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Disciplina "Urbanismo"@pt
 	Annotations: rio:Tradução "Casa"@pt
 	Annotations: rio:Traducción "Casa"@es
 	Annotations: rio:Interoperabilidade "-"@pt
@@ -1203,7 +1353,7 @@ Class: rio:De.Construção
 
 Class: rio:Galpão
 	SubClassOf: rio:De.Construção
-	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Disciplina "Urbanismo"@pt
 	Annotations: rio:Tradução "Galpão"@pt
 	Annotations: rio:Traducción "Galpón"@es
 	Annotations: rio:Interoperabilidade "-"@pt
@@ -1253,7 +1403,7 @@ Class: rio:De.Construção
 
 Class: rio:Edícula
 	SubClassOf: rio:De.Construção
-	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Disciplina "Urbanismo"@pt
 	Annotations: rio:Tradução "Edícula"@pt
 	Annotations: rio:Traducción "Edícula"@es
 	Annotations: rio:Interoperabilidade "-"@pt
@@ -1303,7 +1453,7 @@ Class: rio:De.Organização
 
 Class: rio:Unidade
 	SubClassOf: rio:De.Organização
-	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Disciplina "Urbanismo"@pt
 	Annotations: rio:Tradução "Unidade"@pt
 	Annotations: rio:Traducción "Unidad"@es
 	Annotations: rio:Interoperabilidade "-"@pt
@@ -1351,9 +1501,9 @@ Class: rio:De.Organização
 	Annotations: rio:Espécie "-"@pt
 	Annotations: rio:Tema "-"@pt
 
-Class: rio:Setor
+Class: rio:SetorUrbano
 	SubClassOf: rio:De.Organização
-	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Disciplina "Urbanismo"@pt
 	Annotations: rio:Tradução "Setor"@pt
 	Annotations: rio:Traducción "Sector"@es
 	Annotations: rio:Interoperabilidade "-"@pt
@@ -1403,7 +1553,7 @@ Class: rio:De.Organização
 
 Class: rio:Divisão
 	SubClassOf: rio:De.Organização
-	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Disciplina "Urbanismo"@pt
 	Annotations: rio:Tradução "Divisão"@pt
 	Annotations: rio:Traducción "División"@es
 	Annotations: rio:Interoperabilidade "-"@pt
@@ -1453,7 +1603,7 @@ Class: rio:De.Organização
 
 Class: rio:Departamento
 	SubClassOf: rio:De.Organização
-	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Disciplina "Urbanismo"@pt
 	Annotations: rio:Tradução "Departamento"@pt
 	Annotations: rio:Traducción "Departamento"@es
 	Annotations: rio:Interoperabilidade "-"@pt
@@ -1503,7 +1653,7 @@ Class: rio:De.Distribuição
 
 Class: rio:Ambiente
 	SubClassOf: rio:De.Distribuição
-	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Disciplina "Urbanismo"@pt
 	Annotations: rio:Tradução "Ambiente"@pt
 	Annotations: rio:Traducción "Ambiente"@es
 	Annotations: rio:Interoperabilidade "-"@pt
@@ -1553,7 +1703,7 @@ Class: rio:De.Distribuição
 
 Class: rio:Apartamento
 	SubClassOf: rio:De.Distribuição
-	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Disciplina "Urbanismo"@pt
 	Annotations: rio:Tradução "Apartamento"@pt
 	Annotations: rio:Traducción "Apartamento"@es
 	Annotations: rio:Interoperabilidade "-"@pt
@@ -1603,7 +1753,7 @@ Class: rio:De.Distribuição
 
 Class: rio:Núcleo.de.Circulação
 	SubClassOf: rio:De.Distribuição
-	Annotations: rio:Disciplina "-"@pt
+	Annotations: rio:Disciplina "Urbanismo"@pt
 	Annotations: rio:Tradução "Núcleo de Circulação"@pt
 	Annotations: rio:Traducción "Nucleo de circulación"@es
 	Annotations: rio:Interoperabilidade "-"@pt
@@ -1671,6 +1821,34 @@ ObjectProperty: rio:p_endereçar
 	SubPropertyOf: rio:BIMProp
 	Domain: rio:BIM
 	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para endereçar: tem_area_planejamento"@pt
+	Characteristics: Functional
+
+ObjectProperty: rio:tem_area_planejamento
+	SubPropertyOf: rio:p_endereçar
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para endereçar: tem_area_planejamento"@pt
+	Characteristics: Functional
+
+ObjectProperty: rio:p_endereçar
+	SubPropertyOf: rio:BIMProp
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para endereçar: tem_região_administrativa"@pt
+	Characteristics: Functional
+
+ObjectProperty: rio:tem_região_administrativa
+	SubPropertyOf: rio:p_endereçar
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para endereçar: tem_região_administrativa"@pt
+	Characteristics: Functional
+
+ObjectProperty: rio:p_endereçar
+	SubPropertyOf: rio:BIMProp
+	Domain: rio:BIM
+	Range: rio:Projeto
 	Annotations: rdfs:label "Propriedade para endereçar: tem_distrito"@pt
 	Characteristics: Functional
 
@@ -1727,70 +1905,56 @@ ObjectProperty: rio:p_endereçar
 	SubPropertyOf: rio:BIMProp
 	Domain: rio:BIM
 	Range: rio:Projeto
-	Annotations: rdfs:label "Propriedade para endereçar: tem_conj"@pt
+	Annotations: rdfs:label "Propriedade para endereçar: tem_cnj"@pt
 	Characteristics: Functional
 
-ObjectProperty: rio:tem_conj
+ObjectProperty: rio:tem_cnj
 	SubPropertyOf: rio:p_endereçar
 	Domain: rio:BIM
 	Range: rio:Projeto
-	Annotations: rdfs:label "Propriedade para endereçar: tem_conj"@pt
+	Annotations: rdfs:label "Propriedade para endereçar: tem_cnj"@pt
 	Characteristics: Functional
 
 ObjectProperty: rio:p_endereçar
 	SubPropertyOf: rio:BIMProp
 	Domain: rio:BIM
 	Range: rio:Projeto
-	Annotations: rdfs:label "Propriedade para endereçar: tem_grpo"@pt
+	Annotations: rdfs:label "Propriedade para endereçar: tem_grp"@pt
 	Characteristics: Functional
 
-ObjectProperty: rio:tem_grpo
+ObjectProperty: rio:tem_grp
 	SubPropertyOf: rio:p_endereçar
 	Domain: rio:BIM
 	Range: rio:Projeto
-	Annotations: rdfs:label "Propriedade para endereçar: tem_grpo"@pt
+	Annotations: rdfs:label "Propriedade para endereçar: tem_grp"@pt
 	Characteristics: Functional
 
 ObjectProperty: rio:p_endereçar
 	SubPropertyOf: rio:BIMProp
 	Domain: rio:BIM
 	Range: rio:Projeto
-	Annotations: rdfs:label "Propriedade para endereçar: tem_bloc"@pt
+	Annotations: rdfs:label "Propriedade para endereçar: tem_bloco"@pt
 	Characteristics: Functional
 
-ObjectProperty: rio:tem_bloc
+ObjectProperty: rio:tem_bloco
 	SubPropertyOf: rio:p_endereçar
 	Domain: rio:BIM
 	Range: rio:Projeto
-	Annotations: rdfs:label "Propriedade para endereçar: tem_bloc"@pt
+	Annotations: rdfs:label "Propriedade para endereçar: tem_bloco"@pt
 	Characteristics: Functional
 
 ObjectProperty: rio:p_endereçar
 	SubPropertyOf: rio:BIMProp
 	Domain: rio:BIM
 	Range: rio:Projeto
-	Annotations: rdfs:label "Propriedade para endereçar: tem_area_planejamento"@pt
+	Annotations: rdfs:label "Propriedade para endereçar: tem_andar"@pt
 	Characteristics: Functional
 
-ObjectProperty: rio:tem_area_planejamento
+ObjectProperty: rio:tem_andar
 	SubPropertyOf: rio:p_endereçar
 	Domain: rio:BIM
 	Range: rio:Projeto
-	Annotations: rdfs:label "Propriedade para endereçar: tem_area_planejamento"@pt
-	Characteristics: Functional
-
-ObjectProperty: rio:p_endereçar
-	SubPropertyOf: rio:BIMProp
-	Domain: rio:BIM
-	Range: rio:Projeto
-	Annotations: rdfs:label "Propriedade para endereçar: tem_região_administrativa"@pt
-	Characteristics: Functional
-
-ObjectProperty: rio:tem_região_administrativa
-	SubPropertyOf: rio:p_endereçar
-	Domain: rio:BIM
-	Range: rio:Projeto
-	Annotations: rdfs:label "Propriedade para endereçar: tem_região_administrativa"@pt
+	Annotations: rdfs:label "Propriedade para endereçar: tem_andar"@pt
 	Characteristics: Functional
 
 ObjectProperty: rio:p_endereçar
@@ -1935,42 +2099,28 @@ ObjectProperty: rio:p_classificar
 	SubPropertyOf: rio:BIMProp
 	Domain: rio:BIM
 	Range: rio:Projeto
-	Annotations: rdfs:label "Propriedade para classificar: é_categoria"@pt
+	Annotations: rdfs:label "Propriedade para classificar: é_categoria_revit"@pt
 	Characteristics: Functional
 
-ObjectProperty: rio:é_categoria
+ObjectProperty: rio:é_categoria_revit
 	SubPropertyOf: rio:p_classificar
 	Domain: rio:BIM
 	Range: rio:Projeto
-	Annotations: rdfs:label "Propriedade para classificar: é_categoria"@pt
+	Annotations: rdfs:label "Propriedade para classificar: é_categoria_revit"@pt
 	Characteristics: Functional
 
 ObjectProperty: rio:p_classificar
 	SubPropertyOf: rio:BIMProp
 	Domain: rio:BIM
 	Range: rio:Projeto
-	Annotations: rdfs:label "Propriedade para classificar: é_classe"@pt
+	Annotations: rdfs:label "Propriedade para classificar: é_classe_ifc"@pt
 	Characteristics: Functional
 
-ObjectProperty: rio:é_classe
+ObjectProperty: rio:é_classe_ifc
 	SubPropertyOf: rio:p_classificar
 	Domain: rio:BIM
 	Range: rio:Projeto
-	Annotations: rdfs:label "Propriedade para classificar: é_classe"@pt
-	Characteristics: Functional
-
-ObjectProperty: rio:p_classificar
-	SubPropertyOf: rio:BIMProp
-	Domain: rio:BIM
-	Range: rio:Projeto
-	Annotations: rdfs:label "Propriedade para classificar: é_tipo"@pt
-	Characteristics: Functional
-
-ObjectProperty: rio:é_tipo
-	SubPropertyOf: rio:p_classificar
-	Domain: rio:BIM
-	Range: rio:Projeto
-	Annotations: rdfs:label "Propriedade para classificar: é_tipo"@pt
+	Annotations: rdfs:label "Propriedade para classificar: é_classe_ifc"@pt
 	Characteristics: Functional
 
 ObjectProperty: rio:p_classificar
@@ -2067,41 +2217,101 @@ ObjectProperty: rio:tem_uri
 	Annotations: rdfs:label "Propriedade para identificar: tem_uri"@pt
 	Characteristics: Functional
 
-ObjectProperty: rio:p_identificar
+ObjectProperty: rio:p_catalogar
 	SubPropertyOf: rio:BIMProp
 	Domain: rio:BIM
 	Range: rio:Projeto
-	Annotations: rdfs:label "Propriedade para identificar: tem_tema"@pt
+	Annotations: rdfs:label "Propriedade para catalogar: tem_modelo"@pt
+
+ObjectProperty: rio:tem_modelo
+	SubPropertyOf: rio:p_catalogar
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para catalogar: tem_modelo"@pt
+
+ObjectProperty: rio:p_catalogar
+	SubPropertyOf: rio:BIMProp
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para catalogar: tem_tema"@pt
 
 ObjectProperty: rio:tem_tema
-	SubPropertyOf: rio:p_identificar
+	SubPropertyOf: rio:p_catalogar
 	Domain: rio:BIM
 	Range: rio:Projeto
-	Annotations: rdfs:label "Propriedade para identificar: tem_tema"@pt
+	Annotations: rdfs:label "Propriedade para catalogar: tem_tema"@pt
 
-ObjectProperty: rio:p_identificar
+ObjectProperty: rio:p_catalogar
 	SubPropertyOf: rio:BIMProp
 	Domain: rio:BIM
 	Range: rio:Projeto
-	Annotations: rdfs:label "Propriedade para identificar: tem_vol"@pt
+	Annotations: rdfs:label "Propriedade para catalogar: tem_tipo"@pt
+
+ObjectProperty: rio:tem_tipo
+	SubPropertyOf: rio:p_catalogar
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para catalogar: tem_tipo"@pt
+
+ObjectProperty: rio:p_catalogar
+	SubPropertyOf: rio:BIMProp
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para catalogar: tem_série"@pt
+
+ObjectProperty: rio:tem_série
+	SubPropertyOf: rio:p_catalogar
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para catalogar: tem_série"@pt
+
+ObjectProperty: rio:p_catalogar
+	SubPropertyOf: rio:BIMProp
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para catalogar: tem_linha"@pt
+
+ObjectProperty: rio:tem_linha
+	SubPropertyOf: rio:p_catalogar
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para catalogar: tem_linha"@pt
+
+ObjectProperty: rio:p_catalogar
+	SubPropertyOf: rio:BIMProp
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para catalogar: tem_item"@pt
+
+ObjectProperty: rio:tem_item
+	SubPropertyOf: rio:p_catalogar
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para catalogar: tem_item"@pt
+
+ObjectProperty: rio:p_catalogar
+	SubPropertyOf: rio:BIMProp
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para catalogar: tem_vol"@pt
 
 ObjectProperty: rio:tem_vol
-	SubPropertyOf: rio:p_identificar
+	SubPropertyOf: rio:p_catalogar
 	Domain: rio:BIM
 	Range: rio:Projeto
-	Annotations: rdfs:label "Propriedade para identificar: tem_vol"@pt
+	Annotations: rdfs:label "Propriedade para catalogar: tem_vol"@pt
 
-ObjectProperty: rio:p_identificar
+ObjectProperty: rio:p_catalogar
 	SubPropertyOf: rio:BIMProp
 	Domain: rio:BIM
 	Range: rio:Projeto
-	Annotations: rdfs:label "Propriedade para identificar: tem_descrição"@pt
+	Annotations: rdfs:label "Propriedade para catalogar: tem_descrição"@pt
 
 ObjectProperty: rio:tem_descrição
-	SubPropertyOf: rio:p_identificar
+	SubPropertyOf: rio:p_catalogar
 	Domain: rio:BIM
 	Range: rio:Projeto
-	Annotations: rdfs:label "Propriedade para identificar: tem_descrição"@pt
+	Annotations: rdfs:label "Propriedade para catalogar: tem_descrição"@pt
 
 ObjectProperty: rio:p_definir
 	SubPropertyOf: rio:BIMProp
@@ -2191,6 +2401,18 @@ ObjectProperty: rio:p_administrar
 	SubPropertyOf: rio:BIMProp
 	Domain: rio:BIM
 	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para administrar: é_privado"@pt
+
+ObjectProperty: rio:é_privado
+	SubPropertyOf: rio:p_administrar
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para administrar: é_privado"@pt
+
+ObjectProperty: rio:p_administrar
+	SubPropertyOf: rio:BIMProp
+	Domain: rio:BIM
+	Range: rio:Projeto
 	Annotations: rdfs:label "Propriedade para administrar: é_órgão"@pt
 
 ObjectProperty: rio:é_órgão
@@ -2198,6 +2420,18 @@ ObjectProperty: rio:é_órgão
 	Domain: rio:BIM
 	Range: rio:Projeto
 	Annotations: rdfs:label "Propriedade para administrar: é_órgão"@pt
+
+ObjectProperty: rio:p_administrar
+	SubPropertyOf: rio:BIMProp
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para administrar: é_unid_académica"@pt
+
+ObjectProperty: rio:é_unid_académica
+	SubPropertyOf: rio:p_administrar
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para administrar: é_unid_académica"@pt
 
 ObjectProperty: rio:p_administrar
 	SubPropertyOf: rio:BIMProp
@@ -2227,13 +2461,25 @@ ObjectProperty: rio:p_administrar
 	SubPropertyOf: rio:BIMProp
 	Domain: rio:BIM
 	Range: rio:Projeto
-	Annotations: rdfs:label "Propriedade para administrar: é_zona"@pt
+	Annotations: rdfs:label "Propriedade para administrar: é_departamento"@pt
 
-ObjectProperty: rio:é_zona
+ObjectProperty: rio:é_departamento
 	SubPropertyOf: rio:p_administrar
 	Domain: rio:BIM
 	Range: rio:Projeto
-	Annotations: rdfs:label "Propriedade para administrar: é_zona"@pt
+	Annotations: rdfs:label "Propriedade para administrar: é_departamento"@pt
+
+ObjectProperty: rio:p_administrar
+	SubPropertyOf: rio:BIMProp
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para administrar: é_divisão"@pt
+
+ObjectProperty: rio:é_divisão
+	SubPropertyOf: rio:p_administrar
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para administrar: é_divisão"@pt
 
 ObjectProperty: rio:p_administrar
 	SubPropertyOf: rio:BIMProp
@@ -2263,25 +2509,13 @@ ObjectProperty: rio:p_administrar
 	SubPropertyOf: rio:BIMProp
 	Domain: rio:BIM
 	Range: rio:Projeto
-	Annotations: rdfs:label "Propriedade para administrar: é_divisão"@pt
+	Annotations: rdfs:label "Propriedade para administrar: é_zona"@pt
 
-ObjectProperty: rio:é_divisão
+ObjectProperty: rio:é_zona
 	SubPropertyOf: rio:p_administrar
 	Domain: rio:BIM
 	Range: rio:Projeto
-	Annotations: rdfs:label "Propriedade para administrar: é_divisão"@pt
-
-ObjectProperty: rio:p_administrar
-	SubPropertyOf: rio:BIMProp
-	Domain: rio:BIM
-	Range: rio:Projeto
-	Annotations: rdfs:label "Propriedade para administrar: é_departamento"@pt
-
-ObjectProperty: rio:é_departamento
-	SubPropertyOf: rio:p_administrar
-	Domain: rio:BIM
-	Range: rio:Projeto
-	Annotations: rdfs:label "Propriedade para administrar: é_departamento"@pt
+	Annotations: rdfs:label "Propriedade para administrar: é_zona"@pt
 
 ObjectProperty: rio:p_contratar
 	SubPropertyOf: rio:BIMProp
@@ -2295,29 +2529,29 @@ ObjectProperty: rio:é_contrato
 	Range: rio:Projeto
 	Annotations: rdfs:label "Propriedade para contratar: é_contrato"@pt
 
+ObjectProperty: rio:p_administrar
+	SubPropertyOf: rio:BIMProp
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para administrar: é_contratado"@pt
+
+ObjectProperty: rio:é_contratado
+	SubPropertyOf: rio:p_administrar
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para administrar: é_contratado"@pt
+
 ObjectProperty: rio:p_contratar
 	SubPropertyOf: rio:BIMProp
 	Domain: rio:BIM
 	Range: rio:Projeto
-	Annotations: rdfs:label "Propriedade para contratar: é_empresa"@pt
+	Annotations: rdfs:label "Propriedade para contratar: é_contratante"@pt
 
-ObjectProperty: rio:é_empresa
+ObjectProperty: rio:é_contratante
 	SubPropertyOf: rio:p_contratar
 	Domain: rio:BIM
 	Range: rio:Projeto
-	Annotations: rdfs:label "Propriedade para contratar: é_empresa"@pt
-
-ObjectProperty: rio:p_contratar
-	SubPropertyOf: rio:BIMProp
-	Domain: rio:BIM
-	Range: rio:Projeto
-	Annotations: rdfs:label "Propriedade para contratar: é_contratista"@pt
-
-ObjectProperty: rio:é_contratista
-	SubPropertyOf: rio:p_contratar
-	Domain: rio:BIM
-	Range: rio:Projeto
-	Annotations: rdfs:label "Propriedade para contratar: é_contratista"@pt
+	Annotations: rdfs:label "Propriedade para contratar: é_contratante"@pt
 
 ObjectProperty: rio:p_contratar
 	SubPropertyOf: rio:BIMProp
@@ -2330,6 +2564,18 @@ ObjectProperty: rio:é_subcontratista
 	Domain: rio:BIM
 	Range: rio:Projeto
 	Annotations: rdfs:label "Propriedade para contratar: é_subcontratista"@pt
+
+ObjectProperty: rio:p_contratar
+	SubPropertyOf: rio:BIMProp
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para contratar: é_empresa"@pt
+
+ObjectProperty: rio:é_empresa
+	SubPropertyOf: rio:p_contratar
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para contratar: é_empresa"@pt
 
 ObjectProperty: rio:p_contratar
 	SubPropertyOf: rio:BIMProp
@@ -2395,18 +2641,6 @@ ObjectProperty: rio:p_durar
 	SubPropertyOf: rio:BIMProp
 	Domain: rio:BIM
 	Range: rio:Projeto
-	Annotations: rdfs:label "Propriedade para durar: tem_duração"@pt
-
-ObjectProperty: rio:tem_duração
-	SubPropertyOf: rio:p_durar
-	Domain: rio:BIM
-	Range: rio:Projeto
-	Annotations: rdfs:label "Propriedade para durar: tem_duração"@pt
-
-ObjectProperty: rio:p_durar
-	SubPropertyOf: rio:BIMProp
-	Domain: rio:BIM
-	Range: rio:Projeto
 	Annotations: rdfs:label "Propriedade para durar: tem_data"@pt
 	Characteristics: Functional
 
@@ -2449,6 +2683,20 @@ ObjectProperty: rio:p_durar
 	SubPropertyOf: rio:BIMProp
 	Domain: rio:BIM
 	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para durar: tem_duração"@pt
+	Characteristics: Functional
+
+ObjectProperty: rio:tem_duração
+	SubPropertyOf: rio:p_durar
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para durar: tem_duração"@pt
+	Characteristics: Functional
+
+ObjectProperty: rio:p_durar
+	SubPropertyOf: rio:BIMProp
+	Domain: rio:BIM
+	Range: rio:Projeto
 	Annotations: rdfs:label "Propriedade para durar: tem_horário"@pt
 	Characteristics: Functional
 
@@ -2465,6 +2713,7 @@ ObjectProperty: rio:p_planejar
 	Range: rio:Projeto
 	Annotations: rdfs:label "Propriedade para planejar: é_posterior_a"@pt
 	Characteristics: Transitive
+	Characteristics: Asymmetric
 
 ObjectProperty: rio:é_posterior_a
 	SubPropertyOf: rio:p_planejar
@@ -2472,6 +2721,7 @@ ObjectProperty: rio:é_posterior_a
 	Range: rio:Projeto
 	Annotations: rdfs:label "Propriedade para planejar: é_posterior_a"@pt
 	Characteristics: Transitive
+	Characteristics: Asymmetric
 
 ObjectProperty: rio:p_planejar
 	SubPropertyOf: rio:BIMProp
@@ -2479,6 +2729,7 @@ ObjectProperty: rio:p_planejar
 	Range: rio:Projeto
 	Annotations: rdfs:label "Propriedade para planejar: é_anterior_a"@pt
 	Characteristics: Transitive
+	Characteristics: Asymmetric
 
 ObjectProperty: rio:é_anterior_a
 	SubPropertyOf: rio:p_planejar
@@ -2486,6 +2737,7 @@ ObjectProperty: rio:é_anterior_a
 	Range: rio:Projeto
 	Annotations: rdfs:label "Propriedade para planejar: é_anterior_a"@pt
 	Characteristics: Transitive
+	Characteristics: Asymmetric
 
 ObjectProperty: rio:p_planejar
 	SubPropertyOf: rio:BIMProp
@@ -2493,6 +2745,7 @@ ObjectProperty: rio:p_planejar
 	Range: rio:Projeto
 	Annotations: rdfs:label "Propriedade para planejar: é_concomitante_com"@pt
 	Characteristics: Transitive
+	Characteristics: Symmetric
 
 ObjectProperty: rio:é_concomitante_com
 	SubPropertyOf: rio:p_planejar
@@ -2500,6 +2753,7 @@ ObjectProperty: rio:é_concomitante_com
 	Range: rio:Projeto
 	Annotations: rdfs:label "Propriedade para planejar: é_concomitante_com"@pt
 	Characteristics: Transitive
+	Characteristics: Symmetric
 
 ObjectProperty: rio:p_planejar
 	SubPropertyOf: rio:BIMProp
@@ -2507,6 +2761,7 @@ ObjectProperty: rio:p_planejar
 	Range: rio:Projeto
 	Annotations: rdfs:label "Propriedade para planejar: é_simultâneo_a"@pt
 	Characteristics: Transitive
+	Characteristics: Symmetric
 
 ObjectProperty: rio:é_simultâneo_a
 	SubPropertyOf: rio:p_planejar
@@ -2514,6 +2769,7 @@ ObjectProperty: rio:é_simultâneo_a
 	Range: rio:Projeto
 	Annotations: rdfs:label "Propriedade para planejar: é_simultâneo_a"@pt
 	Characteristics: Transitive
+	Characteristics: Symmetric
 
 ObjectProperty: rio:p_planejar
 	SubPropertyOf: rio:BIMProp
@@ -2683,6 +2939,250 @@ ObjectProperty: rio:é_regulamento
 	Range: rio:Projeto
 	Annotations: rdfs:label "Propriedade para normatizar: é_regulamento"@pt
 
+ObjectProperty: rio:p_medir
+	SubPropertyOf: rio:BIMProp
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_volume"@pt
+	Characteristics: Functional
+
+ObjectProperty: rio:tem_volume
+	SubPropertyOf: rio:p_medir
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_volume"@pt
+	Characteristics: Functional
+
+ObjectProperty: rio:p_medir
+	SubPropertyOf: rio:BIMProp
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_área"@pt
+	Characteristics: Functional
+
+ObjectProperty: rio:tem_área
+	SubPropertyOf: rio:p_medir
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_área"@pt
+	Characteristics: Functional
+
+ObjectProperty: rio:p_medir
+	SubPropertyOf: rio:BIMProp
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_área_bruta"@pt
+	Characteristics: Functional
+
+ObjectProperty: rio:tem_área_bruta
+	SubPropertyOf: rio:p_medir
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_área_bruta"@pt
+	Characteristics: Functional
+
+ObjectProperty: rio:p_medir
+	SubPropertyOf: rio:BIMProp
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_área_útil"@pt
+	Characteristics: Functional
+
+ObjectProperty: rio:tem_área_útil
+	SubPropertyOf: rio:p_medir
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_área_útil"@pt
+	Characteristics: Functional
+
+ObjectProperty: rio:p_medir
+	SubPropertyOf: rio:BIMProp
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_altura"@pt
+	Characteristics: Functional
+
+ObjectProperty: rio:tem_altura
+	SubPropertyOf: rio:p_medir
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_altura"@pt
+	Characteristics: Functional
+
+ObjectProperty: rio:p_medir
+	SubPropertyOf: rio:BIMProp
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_comprimento"@pt
+	Characteristics: Functional
+
+ObjectProperty: rio:tem_comprimento
+	SubPropertyOf: rio:p_medir
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_comprimento"@pt
+	Characteristics: Functional
+
+ObjectProperty: rio:p_medir
+	SubPropertyOf: rio:BIMProp
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_largura"@pt
+	Characteristics: Functional
+
+ObjectProperty: rio:tem_largura
+	SubPropertyOf: rio:p_medir
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_largura"@pt
+	Characteristics: Functional
+
+ObjectProperty: rio:p_medir
+	SubPropertyOf: rio:BIMProp
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_profundidade"@pt
+	Characteristics: Functional
+
+ObjectProperty: rio:tem_profundidade
+	SubPropertyOf: rio:p_medir
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_profundidade"@pt
+	Characteristics: Functional
+
+ObjectProperty: rio:p_medir
+	SubPropertyOf: rio:BIMProp
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_espessura"@pt
+	Characteristics: Functional
+
+ObjectProperty: rio:tem_espessura
+	SubPropertyOf: rio:p_medir
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_espessura"@pt
+	Characteristics: Functional
+
+ObjectProperty: rio:p_medir
+	SubPropertyOf: rio:BIMProp
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_pédireito"@pt
+	Characteristics: Functional
+
+ObjectProperty: rio:tem_pédireito
+	SubPropertyOf: rio:p_medir
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_pédireito"@pt
+	Characteristics: Functional
+
+ObjectProperty: rio:p_medir
+	SubPropertyOf: rio:BIMProp
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_diámetro"@pt
+	Characteristics: Functional
+
+ObjectProperty: rio:tem_diámetro
+	SubPropertyOf: rio:p_medir
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_diámetro"@pt
+	Characteristics: Functional
+
+ObjectProperty: rio:p_medir
+	SubPropertyOf: rio:BIMProp
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_diámetro_interno"@pt
+	Characteristics: Functional
+
+ObjectProperty: rio:tem_diámetro_interno
+	SubPropertyOf: rio:p_medir
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_diámetro_interno"@pt
+	Characteristics: Functional
+
+ObjectProperty: rio:p_medir
+	SubPropertyOf: rio:BIMProp
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_diámetro_externo"@pt
+	Characteristics: Functional
+
+ObjectProperty: rio:tem_diámetro_externo
+	SubPropertyOf: rio:p_medir
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_diámetro_externo"@pt
+	Characteristics: Functional
+
+ObjectProperty: rio:p_medir
+	SubPropertyOf: rio:BIMProp
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_raio"@pt
+	Characteristics: Functional
+
+ObjectProperty: rio:tem_raio
+	SubPropertyOf: rio:p_medir
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_raio"@pt
+	Characteristics: Functional
+
+ObjectProperty: rio:p_contar
+	SubPropertyOf: rio:BIMProp
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para contar: tem_quantidade"@pt
+
+ObjectProperty: rio:tem_quantidade
+	SubPropertyOf: rio:p_contar
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para contar: tem_quantidade"@pt
+
+ObjectProperty: rio:p_contar
+	SubPropertyOf: rio:BIMProp
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para contar: tem_módulo"@pt
+
+ObjectProperty: rio:tem_módulo
+	SubPropertyOf: rio:p_contar
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para contar: tem_módulo"@pt
+
+ObjectProperty: rio:p_pesar
+	SubPropertyOf: rio:BIMProp
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para pesar: tem_densidade"@pt
+
+ObjectProperty: rio:tem_densidade
+	SubPropertyOf: rio:p_pesar
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para pesar: tem_densidade"@pt
+
+ObjectProperty: rio:p_pesar
+	SubPropertyOf: rio:BIMProp
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para pesar: tem_peso"@pt
+
+ObjectProperty: rio:tem_peso
+	SubPropertyOf: rio:p_pesar
+	Domain: rio:BIM
+	Range: rio:Projeto
+	Annotations: rdfs:label "Propriedade para pesar: tem_peso"@pt
+
 DataProperty: rio:d_endereçar
 	SubPropertyOf: rio:BIMData
 	Domain: rio:BIM
@@ -2730,6 +3230,30 @@ DataProperty: rio:cidade
 	Domain: rio:BIM
 	Range: xsd:string
 	Annotations: rdfs:label "Dado para endereçar: cidade ( xsd:string )"@pt
+
+DataProperty: rio:d_endereçar
+	SubPropertyOf: rio:BIMData
+	Domain: rio:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para endereçar: area_planejamento ( xsd:string )"@pt
+
+DataProperty: rio:area_planejamento
+	SubPropertyOf: rio:d_endereçar
+	Domain: rio:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para endereçar: area_planejamento ( xsd:string )"@pt
+
+DataProperty: rio:d_endereçar
+	SubPropertyOf: rio:BIMData
+	Domain: rio:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para endereçar: região_administrativa ( xsd:string )"@pt
+
+DataProperty: rio:região_administrativa
+	SubPropertyOf: rio:d_endereçar
+	Domain: rio:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para endereçar: região_administrativa ( xsd:string )"@pt
 
 DataProperty: rio:d_endereçar
 	SubPropertyOf: rio:BIMData
@@ -2783,61 +3307,49 @@ DataProperty: rio:d_endereçar
 	SubPropertyOf: rio:BIMData
 	Domain: rio:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para endereçar: conj ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para endereçar: cnj ( xsd:string )"@pt
 
-DataProperty: rio:conj
+DataProperty: rio:cnj
 	SubPropertyOf: rio:d_endereçar
 	Domain: rio:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para endereçar: conj ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para endereçar: cnj ( xsd:string )"@pt
 
 DataProperty: rio:d_endereçar
 	SubPropertyOf: rio:BIMData
 	Domain: rio:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para endereçar: grpo ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para endereçar: grp ( xsd:string )"@pt
 
-DataProperty: rio:grpo
+DataProperty: rio:grp
 	SubPropertyOf: rio:d_endereçar
 	Domain: rio:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para endereçar: grpo ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para endereçar: grp ( xsd:string )"@pt
 
 DataProperty: rio:d_endereçar
 	SubPropertyOf: rio:BIMData
 	Domain: rio:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para endereçar: bloc ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para endereçar: bloco ( xsd:string )"@pt
 
-DataProperty: rio:bloc
+DataProperty: rio:bloco
 	SubPropertyOf: rio:d_endereçar
 	Domain: rio:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para endereçar: bloc ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para endereçar: bloco ( xsd:string )"@pt
 
 DataProperty: rio:d_endereçar
 	SubPropertyOf: rio:BIMData
 	Domain: rio:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para endereçar: area_planejamento ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para endereçar: andar ( xsd:string )"@pt
 
-DataProperty: rio:area_planejamento
+DataProperty: rio:andar
 	SubPropertyOf: rio:d_endereçar
 	Domain: rio:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para endereçar: area_planejamento ( xsd:string )"@pt
-
-DataProperty: rio:d_endereçar
-	SubPropertyOf: rio:BIMData
-	Domain: rio:BIM
-	Range: xsd:string
-	Annotations: rdfs:label "Dado para endereçar: região_administrativa ( xsd:string )"@pt
-
-DataProperty: rio:região_administrativa
-	SubPropertyOf: rio:d_endereçar
-	Domain: rio:BIM
-	Range: xsd:string
-	Annotations: rdfs:label "Dado para endereçar: região_administrativa ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para endereçar: andar ( xsd:string )"@pt
 
 DataProperty: rio:d_endereçar
 	SubPropertyOf: rio:BIMData
@@ -2975,37 +3487,25 @@ DataProperty: rio:d_classificar
 	SubPropertyOf: rio:BIMData
 	Domain: rio:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para classificar: categoria ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para classificar: categoria_revit ( xsd:string )"@pt
 
-DataProperty: rio:categoria
+DataProperty: rio:categoria_revit
 	SubPropertyOf: rio:d_classificar
 	Domain: rio:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para classificar: categoria ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para classificar: categoria_revit ( xsd:string )"@pt
 
 DataProperty: rio:d_classificar
 	SubPropertyOf: rio:BIMData
 	Domain: rio:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para classificar: classe ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para classificar: classe_ifc ( xsd:string )"@pt
 
-DataProperty: rio:classe
+DataProperty: rio:classe_ifc
 	SubPropertyOf: rio:d_classificar
 	Domain: rio:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para classificar: classe ( xsd:string )"@pt
-
-DataProperty: rio:d_classificar
-	SubPropertyOf: rio:BIMData
-	Domain: rio:BIM
-	Range: xsd:string
-	Annotations: rdfs:label "Dado para classificar: tipo ( xsd:string )"@pt
-
-DataProperty: rio:tipo
-	SubPropertyOf: rio:d_classificar
-	Domain: rio:BIM
-	Range: xsd:string
-	Annotations: rdfs:label "Dado para classificar: tipo ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para classificar: classe_ifc ( xsd:string )"@pt
 
 DataProperty: rio:d_classificar
 	SubPropertyOf: rio:BIMData
@@ -3091,41 +3591,101 @@ DataProperty: rio:uri
 	Range: xsd:string
 	Annotations: rdfs:label "Dado para identificar: uri ( xsd:string )"@pt
 
-DataProperty: rio:d_identificar
+DataProperty: rio:d_catalogar
 	SubPropertyOf: rio:BIMData
 	Domain: rio:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para identificar: tema ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para catalogar: modelo ( xsd:string )"@pt
+
+DataProperty: rio:modelo
+	SubPropertyOf: rio:d_catalogar
+	Domain: rio:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para catalogar: modelo ( xsd:string )"@pt
+
+DataProperty: rio:d_catalogar
+	SubPropertyOf: rio:BIMData
+	Domain: rio:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para catalogar: tema ( xsd:string )"@pt
 
 DataProperty: rio:tema
-	SubPropertyOf: rio:d_identificar
+	SubPropertyOf: rio:d_catalogar
 	Domain: rio:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para identificar: tema ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para catalogar: tema ( xsd:string )"@pt
 
-DataProperty: rio:d_identificar
+DataProperty: rio:d_catalogar
 	SubPropertyOf: rio:BIMData
 	Domain: rio:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para identificar: vol ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para catalogar: tipo ( xsd:string )"@pt
+
+DataProperty: rio:tipo
+	SubPropertyOf: rio:d_catalogar
+	Domain: rio:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para catalogar: tipo ( xsd:string )"@pt
+
+DataProperty: rio:d_catalogar
+	SubPropertyOf: rio:BIMData
+	Domain: rio:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para catalogar: série ( xsd:string )"@pt
+
+DataProperty: rio:série
+	SubPropertyOf: rio:d_catalogar
+	Domain: rio:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para catalogar: série ( xsd:string )"@pt
+
+DataProperty: rio:d_catalogar
+	SubPropertyOf: rio:BIMData
+	Domain: rio:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para catalogar: linha ( xsd:string )"@pt
+
+DataProperty: rio:linha
+	SubPropertyOf: rio:d_catalogar
+	Domain: rio:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para catalogar: linha ( xsd:string )"@pt
+
+DataProperty: rio:d_catalogar
+	SubPropertyOf: rio:BIMData
+	Domain: rio:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para catalogar: item ( xsd:string )"@pt
+
+DataProperty: rio:item
+	SubPropertyOf: rio:d_catalogar
+	Domain: rio:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para catalogar: item ( xsd:string )"@pt
+
+DataProperty: rio:d_catalogar
+	SubPropertyOf: rio:BIMData
+	Domain: rio:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para catalogar: vol ( xsd:string )"@pt
 
 DataProperty: rio:vol
-	SubPropertyOf: rio:d_identificar
+	SubPropertyOf: rio:d_catalogar
 	Domain: rio:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para identificar: vol ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para catalogar: vol ( xsd:string )"@pt
 
-DataProperty: rio:d_identificar
+DataProperty: rio:d_catalogar
 	SubPropertyOf: rio:BIMData
 	Domain: rio:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para identificar: descrição ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para catalogar: descrição ( xsd:string )"@pt
 
 DataProperty: rio:descrição
-	SubPropertyOf: rio:d_identificar
+	SubPropertyOf: rio:d_catalogar
 	Domain: rio:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para identificar: descrição ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para catalogar: descrição ( xsd:string )"@pt
 
 DataProperty: rio:d_definir
 	SubPropertyOf: rio:BIMData
@@ -3215,6 +3775,18 @@ DataProperty: rio:d_administrar
 	SubPropertyOf: rio:BIMData
 	Domain: rio:BIM
 	Range: xsd:string
+	Annotations: rdfs:label "Dado para administrar: privado ( xsd:string )"@pt
+
+DataProperty: rio:privado
+	SubPropertyOf: rio:d_administrar
+	Domain: rio:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para administrar: privado ( xsd:string )"@pt
+
+DataProperty: rio:d_administrar
+	SubPropertyOf: rio:BIMData
+	Domain: rio:BIM
+	Range: xsd:string
 	Annotations: rdfs:label "Dado para administrar: órgão ( xsd:string )"@pt
 
 DataProperty: rio:órgão
@@ -3222,6 +3794,18 @@ DataProperty: rio:órgão
 	Domain: rio:BIM
 	Range: xsd:string
 	Annotations: rdfs:label "Dado para administrar: órgão ( xsd:string )"@pt
+
+DataProperty: rio:d_administrar
+	SubPropertyOf: rio:BIMData
+	Domain: rio:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para administrar: unid_académica ( xsd:string )"@pt
+
+DataProperty: rio:unid_académica
+	SubPropertyOf: rio:d_administrar
+	Domain: rio:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para administrar: unid_académica ( xsd:string )"@pt
 
 DataProperty: rio:d_administrar
 	SubPropertyOf: rio:BIMData
@@ -3251,13 +3835,25 @@ DataProperty: rio:d_administrar
 	SubPropertyOf: rio:BIMData
 	Domain: rio:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para administrar: zona ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para administrar: departamento ( xsd:string )"@pt
 
-DataProperty: rio:zona
+DataProperty: rio:departamento
 	SubPropertyOf: rio:d_administrar
 	Domain: rio:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para administrar: zona ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para administrar: departamento ( xsd:string )"@pt
+
+DataProperty: rio:d_administrar
+	SubPropertyOf: rio:BIMData
+	Domain: rio:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para administrar: divisão ( xsd:string )"@pt
+
+DataProperty: rio:divisão
+	SubPropertyOf: rio:d_administrar
+	Domain: rio:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para administrar: divisão ( xsd:string )"@pt
 
 DataProperty: rio:d_administrar
 	SubPropertyOf: rio:BIMData
@@ -3287,25 +3883,13 @@ DataProperty: rio:d_administrar
 	SubPropertyOf: rio:BIMData
 	Domain: rio:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para administrar: divisão ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para administrar: zona ( xsd:string )"@pt
 
-DataProperty: rio:divisão
+DataProperty: rio:zona
 	SubPropertyOf: rio:d_administrar
 	Domain: rio:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para administrar: divisão ( xsd:string )"@pt
-
-DataProperty: rio:d_administrar
-	SubPropertyOf: rio:BIMData
-	Domain: rio:BIM
-	Range: xsd:string
-	Annotations: rdfs:label "Dado para administrar: departamento ( xsd:string )"@pt
-
-DataProperty: rio:departamento
-	SubPropertyOf: rio:d_administrar
-	Domain: rio:BIM
-	Range: xsd:string
-	Annotations: rdfs:label "Dado para administrar: departamento ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para administrar: zona ( xsd:string )"@pt
 
 DataProperty: rio:d_contratar
 	SubPropertyOf: rio:BIMData
@@ -3319,29 +3903,29 @@ DataProperty: rio:contrato
 	Range: xsd:string
 	Annotations: rdfs:label "Dado para contratar: contrato ( xsd:string )"@pt
 
+DataProperty: rio:d_administrar
+	SubPropertyOf: rio:BIMData
+	Domain: rio:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para administrar: contratado ( xsd:string )"@pt
+
+DataProperty: rio:contratado
+	SubPropertyOf: rio:d_administrar
+	Domain: rio:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para administrar: contratado ( xsd:string )"@pt
+
 DataProperty: rio:d_contratar
 	SubPropertyOf: rio:BIMData
 	Domain: rio:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para contratar: empresa ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para contratar: contratante ( xsd:string )"@pt
 
-DataProperty: rio:empresa
+DataProperty: rio:contratante
 	SubPropertyOf: rio:d_contratar
 	Domain: rio:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para contratar: empresa ( xsd:string )"@pt
-
-DataProperty: rio:d_contratar
-	SubPropertyOf: rio:BIMData
-	Domain: rio:BIM
-	Range: xsd:string
-	Annotations: rdfs:label "Dado para contratar: contratista ( xsd:string )"@pt
-
-DataProperty: rio:contratista
-	SubPropertyOf: rio:d_contratar
-	Domain: rio:BIM
-	Range: xsd:string
-	Annotations: rdfs:label "Dado para contratar: contratista ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para contratar: contratante ( xsd:string )"@pt
 
 DataProperty: rio:d_contratar
 	SubPropertyOf: rio:BIMData
@@ -3354,6 +3938,18 @@ DataProperty: rio:subcontratista
 	Domain: rio:BIM
 	Range: xsd:string
 	Annotations: rdfs:label "Dado para contratar: subcontratista ( xsd:string )"@pt
+
+DataProperty: rio:d_contratar
+	SubPropertyOf: rio:BIMData
+	Domain: rio:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para contratar: empresa ( xsd:string )"@pt
+
+DataProperty: rio:empresa
+	SubPropertyOf: rio:d_contratar
+	Domain: rio:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para contratar: empresa ( xsd:string )"@pt
 
 DataProperty: rio:d_contratar
 	SubPropertyOf: rio:BIMData
@@ -3419,18 +4015,6 @@ DataProperty: rio:d_durar
 	SubPropertyOf: rio:BIMData
 	Domain: rio:BIM
 	Range: xsd:dateTime
-	Annotations: rdfs:label "Dado para durar: duração ( xsd:dateTime )"@pt
-
-DataProperty: rio:duração
-	SubPropertyOf: rio:d_durar
-	Domain: rio:BIM
-	Range: xsd:dateTime
-	Annotations: rdfs:label "Dado para durar: duração ( xsd:dateTime )"@pt
-
-DataProperty: rio:d_durar
-	SubPropertyOf: rio:BIMData
-	Domain: rio:BIM
-	Range: xsd:dateTime
 	Annotations: rdfs:label "Dado para durar: data ( xsd:dateTime )"@pt
 
 DataProperty: rio:data
@@ -3462,6 +4046,18 @@ DataProperty: rio:data_final
 	Domain: rio:BIM
 	Range: xsd:dateTime
 	Annotations: rdfs:label "Dado para durar: data_final ( xsd:dateTime )"@pt
+
+DataProperty: rio:d_durar
+	SubPropertyOf: rio:BIMData
+	Domain: rio:BIM
+	Range: xsd:dateTime
+	Annotations: rdfs:label "Dado para durar: duração ( xsd:dateTime )"@pt
+
+DataProperty: rio:duração
+	SubPropertyOf: rio:d_durar
+	Domain: rio:BIM
+	Range: xsd:dateTime
+	Annotations: rdfs:label "Dado para durar: duração ( xsd:dateTime )"@pt
 
 DataProperty: rio:d_durar
 	SubPropertyOf: rio:BIMData
@@ -3690,6 +4286,223 @@ DataProperty: rio:regulamento
 	Domain: rio:BIM
 	Range: xsd:string
 	Annotations: rdfs:label "Dado para normatizar: regulamento ( xsd:string )"@pt
+
+DataProperty: rio:d_medir
+	SubPropertyOf: rio:BIMData
+	Domain: rio:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: volume ( xsd:double )"@pt
+
+DataProperty: rio:volume
+	SubPropertyOf: rio:d_medir
+	Domain: rio:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: volume ( xsd:double )"@pt
+
+DataProperty: rio:d_medir
+	SubPropertyOf: rio:BIMData
+	Domain: rio:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: área ( xsd:double )"@pt
+
+DataProperty: rio:área
+	SubPropertyOf: rio:d_medir
+	Domain: rio:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: área ( xsd:double )"@pt
+
+DataProperty: rio:d_medir
+	SubPropertyOf: rio:BIMData
+	Domain: rio:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: área_bruta ( xsd:double )"@pt
+
+DataProperty: rio:área_bruta
+	SubPropertyOf: rio:d_medir
+	Domain: rio:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: área_bruta ( xsd:double )"@pt
+
+DataProperty: rio:d_medir
+	SubPropertyOf: rio:BIMData
+	Domain: rio:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: área_útil ( xsd:double )"@pt
+
+DataProperty: rio:área_útil
+	SubPropertyOf: rio:d_medir
+	Domain: rio:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: área_útil ( xsd:double )"@pt
+
+DataProperty: rio:d_medir
+	SubPropertyOf: rio:BIMData
+	Domain: rio:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: altura ( xsd:double )"@pt
+
+DataProperty: rio:altura
+	SubPropertyOf: rio:d_medir
+	Domain: rio:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: altura ( xsd:double )"@pt
+
+DataProperty: rio:d_medir
+	SubPropertyOf: rio:BIMData
+	Domain: rio:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: comprimento ( xsd:double )"@pt
+
+DataProperty: rio:comprimento
+	SubPropertyOf: rio:d_medir
+	Domain: rio:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: comprimento ( xsd:double )"@pt
+
+DataProperty: rio:d_medir
+	SubPropertyOf: rio:BIMData
+	Domain: rio:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: largura ( xsd:double )"@pt
+
+DataProperty: rio:largura
+	SubPropertyOf: rio:d_medir
+	Domain: rio:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: largura ( xsd:double )"@pt
+
+DataProperty: rio:d_medir
+	SubPropertyOf: rio:BIMData
+	Domain: rio:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: profundidade ( xsd:double )"@pt
+
+DataProperty: rio:profundidade
+	SubPropertyOf: rio:d_medir
+	Domain: rio:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: profundidade ( xsd:double )"@pt
+
+DataProperty: rio:d_medir
+	SubPropertyOf: rio:BIMData
+	Domain: rio:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: espessura ( xsd:double )"@pt
+
+DataProperty: rio:espessura
+	SubPropertyOf: rio:d_medir
+	Domain: rio:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: espessura ( xsd:double )"@pt
+
+DataProperty: rio:d_medir
+	SubPropertyOf: rio:BIMData
+	Domain: rio:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: pédireito ( xsd:double )"@pt
+
+DataProperty: rio:pédireito
+	SubPropertyOf: rio:d_medir
+	Domain: rio:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: pédireito ( xsd:double )"@pt
+
+DataProperty: rio:d_medir
+	SubPropertyOf: rio:BIMData
+	Domain: rio:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: diámetro ( xsd:double )"@pt
+
+DataProperty: rio:diámetro
+	SubPropertyOf: rio:d_medir
+	Domain: rio:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: diámetro ( xsd:double )"@pt
+
+DataProperty: rio:d_medir
+	SubPropertyOf: rio:BIMData
+	Domain: rio:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: diámetro_interno ( xsd:double )"@pt
+
+DataProperty: rio:diámetro_interno
+	SubPropertyOf: rio:d_medir
+	Domain: rio:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: diámetro_interno ( xsd:double )"@pt
+
+DataProperty: rio:d_medir
+	SubPropertyOf: rio:BIMData
+	Domain: rio:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: diámetro_externo ( xsd:double )"@pt
+
+DataProperty: rio:diámetro_externo
+	SubPropertyOf: rio:d_medir
+	Domain: rio:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: diámetro_externo ( xsd:double )"@pt
+
+DataProperty: rio:d_medir
+	SubPropertyOf: rio:BIMData
+	Domain: rio:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: raio ( xsd:double )"@pt
+
+DataProperty: rio:raio
+	SubPropertyOf: rio:d_medir
+	Domain: rio:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: raio ( xsd:double )"@pt
+
+DataProperty: rio:d_contar
+	SubPropertyOf: rio:BIMData
+	Domain: rio:BIM
+	Range: xsd:integer
+	Annotations: rdfs:label "Dado para contar: quantidade ( xsd:integer )"@pt
+
+DataProperty: rio:quantidade
+	SubPropertyOf: rio:d_contar
+	Domain: rio:BIM
+	Range: xsd:integer
+	Annotations: rdfs:label "Dado para contar: quantidade ( xsd:integer )"@pt
+
+DataProperty: rio:d_contar
+	SubPropertyOf: rio:BIMData
+	Domain: rio:BIM
+	Range: xsd:integer
+	Annotations: rdfs:label "Dado para contar: módulo ( xsd:integer )"@pt
+
+DataProperty: rio:módulo
+	SubPropertyOf: rio:d_contar
+	Domain: rio:BIM
+	Range: xsd:integer
+	Annotations: rdfs:label "Dado para contar: módulo ( xsd:integer )"@pt
+
+DataProperty: rio:d_pesar
+	SubPropertyOf: rio:BIMData
+	Domain: rio:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para pesar: densidade ( xsd:double )"@pt
+
+DataProperty: rio:densidade
+	SubPropertyOf: rio:d_pesar
+	Domain: rio:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para pesar: densidade ( xsd:double )"@pt
+
+DataProperty: rio:d_pesar
+	SubPropertyOf: rio:BIMData
+	Domain: rio:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para pesar: peso ( xsd:double )"@pt
+
+DataProperty: rio:peso
+	SubPropertyOf: rio:d_pesar
+	Domain: rio:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para pesar: peso ( xsd:double )"@pt
+EquivalentClasses:  rio:Lote 	 , rio:Parcela 	 
 
 Individual: rio:América
 	Types: rio:Continente
