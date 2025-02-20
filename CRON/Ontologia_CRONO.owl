@@ -67,38 +67,38 @@ Class: bim:Projeto
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Temporal
+Class: bim:Evento
 	SubClassOf: bim:Projeto
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Evento
-	SubClassOf: bim:Temporal
-	Annotations: bim:Disciplina "-"@pt
-	Annotations: bim:Tradução "-"@pt
-	Annotations: bim:Traducción "-"@es
-	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
-	Annotations: bim:Tema "-"@pt
-
-Class: bim:Microevento
+Class: bim:Temporal
 	SubClassOf: bim:Evento
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
+	Annotations: bim:Tema "-"@pt
+
+Class: bim:Microevento
+	SubClassOf: bim:Temporal
+	Annotations: bim:Disciplina "-"@pt
+	Annotations: bim:Tradução "-"@pt
+	Annotations: bim:Traducción "-"@es
+	Annotations: bim:Interoperabilidade "-"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
 	Annotations: bim:Tema "Microevento"@pt
 
 Class: bim:Pulso
@@ -107,8 +107,8 @@ Class: bim:Pulso
 	Annotations: bim:Tradução "Pulso"@pt
 	Annotations: bim:Traducción "Pulso"@es
 	Annotations: bim:Interoperabilidade "."@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
 	Annotations: bim:Tema "Microevento"@pt
 
 Class: bim:Projeto
@@ -117,38 +117,38 @@ Class: bim:Projeto
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Temporal
+Class: bim:Evento
 	SubClassOf: bim:Projeto
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Evento
-	SubClassOf: bim:Temporal
-	Annotations: bim:Disciplina "-"@pt
-	Annotations: bim:Tradução "-"@pt
-	Annotations: bim:Traducción "-"@es
-	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
-	Annotations: bim:Tema "-"@pt
-
-Class: bim:Microevento
+Class: bim:Temporal
 	SubClassOf: bim:Evento
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
+	Annotations: bim:Tema "-"@pt
+
+Class: bim:Microevento
+	SubClassOf: bim:Temporal
+	Annotations: bim:Disciplina "-"@pt
+	Annotations: bim:Tradução "-"@pt
+	Annotations: bim:Traducción "-"@es
+	Annotations: bim:Interoperabilidade "-"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
 	Annotations: bim:Tema "Microevento"@pt
 
 Class: bim:Tick
@@ -157,8 +157,8 @@ Class: bim:Tick
 	Annotations: bim:Tradução "Tick"@pt
 	Annotations: bim:Traducción "Tick"@es
 	Annotations: bim:Interoperabilidade "."@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
 	Annotations: bim:Tema "Microevento"@pt
 
 Class: bim:Projeto
@@ -167,38 +167,38 @@ Class: bim:Projeto
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Temporal
+Class: bim:Evento
 	SubClassOf: bim:Projeto
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Evento
-	SubClassOf: bim:Temporal
-	Annotations: bim:Disciplina "-"@pt
-	Annotations: bim:Tradução "-"@pt
-	Annotations: bim:Traducción "-"@es
-	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
-	Annotations: bim:Tema "-"@pt
-
-Class: bim:Macroevento
+Class: bim:Temporal
 	SubClassOf: bim:Evento
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
+	Annotations: bim:Tema "-"@pt
+
+Class: bim:Macroevento
+	SubClassOf: bim:Temporal
+	Annotations: bim:Disciplina "-"@pt
+	Annotations: bim:Tradução "-"@pt
+	Annotations: bim:Traducción "-"@es
+	Annotations: bim:Interoperabilidade "-"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
 	Annotations: bim:Tema "Macroevento"@pt
 
 Class: bim:Era
@@ -207,8 +207,8 @@ Class: bim:Era
 	Annotations: bim:Tradução "Era"@pt
 	Annotations: bim:Traducción "Era"@es
 	Annotations: bim:Interoperabilidade "."@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
 	Annotations: bim:Tema "Macroevento"@pt
 
 Class: bim:Projeto
@@ -217,38 +217,38 @@ Class: bim:Projeto
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Temporal
+Class: bim:Evento
 	SubClassOf: bim:Projeto
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Evento
-	SubClassOf: bim:Temporal
-	Annotations: bim:Disciplina "-"@pt
-	Annotations: bim:Tradução "-"@pt
-	Annotations: bim:Traducción "-"@es
-	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
-	Annotations: bim:Tema "-"@pt
-
-Class: bim:Macroevento
+Class: bim:Temporal
 	SubClassOf: bim:Evento
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
+	Annotations: bim:Tema "-"@pt
+
+Class: bim:Macroevento
+	SubClassOf: bim:Temporal
+	Annotations: bim:Disciplina "-"@pt
+	Annotations: bim:Tradução "-"@pt
+	Annotations: bim:Traducción "-"@es
+	Annotations: bim:Interoperabilidade "-"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
 	Annotations: bim:Tema "Macroevento"@pt
 
 Class: bim:Época
@@ -257,8 +257,8 @@ Class: bim:Época
 	Annotations: bim:Tradução "Época"@pt
 	Annotations: bim:Traducción "Época"@es
 	Annotations: bim:Interoperabilidade "."@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
 	Annotations: bim:Tema "Macroevento"@pt
 
 Class: bim:Projeto
@@ -267,38 +267,38 @@ Class: bim:Projeto
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Temporal
+Class: bim:Evento
 	SubClassOf: bim:Projeto
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Evento
-	SubClassOf: bim:Temporal
-	Annotations: bim:Disciplina "-"@pt
-	Annotations: bim:Tradução "-"@pt
-	Annotations: bim:Traducción "-"@es
-	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
-	Annotations: bim:Tema "-"@pt
-
-Class: bim:Macroevento
+Class: bim:Temporal
 	SubClassOf: bim:Evento
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
+	Annotations: bim:Tema "-"@pt
+
+Class: bim:Macroevento
+	SubClassOf: bim:Temporal
+	Annotations: bim:Disciplina "-"@pt
+	Annotations: bim:Tradução "-"@pt
+	Annotations: bim:Traducción "-"@es
+	Annotations: bim:Interoperabilidade "-"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
 	Annotations: bim:Tema "Macroevento"@pt
 
 Class: bim:Século
@@ -307,8 +307,8 @@ Class: bim:Século
 	Annotations: bim:Tradução "Século"@pt
 	Annotations: bim:Traducción "Siglo"@es
 	Annotations: bim:Interoperabilidade "."@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
 	Annotations: bim:Tema "Macroevento"@pt
 
 Class: bim:Projeto
@@ -317,38 +317,38 @@ Class: bim:Projeto
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Temporal
+Class: bim:Evento
 	SubClassOf: bim:Projeto
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Evento
-	SubClassOf: bim:Temporal
-	Annotations: bim:Disciplina "-"@pt
-	Annotations: bim:Tradução "-"@pt
-	Annotations: bim:Traducción "-"@es
-	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
-	Annotations: bim:Tema "-"@pt
-
-Class: bim:Macroevento
+Class: bim:Temporal
 	SubClassOf: bim:Evento
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
+	Annotations: bim:Tema "-"@pt
+
+Class: bim:Macroevento
+	SubClassOf: bim:Temporal
+	Annotations: bim:Disciplina "-"@pt
+	Annotations: bim:Tradução "-"@pt
+	Annotations: bim:Traducción "-"@es
+	Annotations: bim:Interoperabilidade "-"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
 	Annotations: bim:Tema "Macroevento"@pt
 
 Class: bim:Década
@@ -357,8 +357,8 @@ Class: bim:Década
 	Annotations: bim:Tradução "Década"@pt
 	Annotations: bim:Traducción "Década"@es
 	Annotations: bim:Interoperabilidade "."@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
 	Annotations: bim:Tema "Macroevento"@pt
 
 Class: bim:Projeto
@@ -367,38 +367,38 @@ Class: bim:Projeto
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Temporal
+Class: bim:Evento
 	SubClassOf: bim:Projeto
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Evento
-	SubClassOf: bim:Temporal
-	Annotations: bim:Disciplina "-"@pt
-	Annotations: bim:Tradução "-"@pt
-	Annotations: bim:Traducción "-"@es
-	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
-	Annotations: bim:Tema "-"@pt
-
-Class: bim:Calendário
+Class: bim:Temporal
 	SubClassOf: bim:Evento
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
+	Annotations: bim:Tema "-"@pt
+
+Class: bim:Calendário
+	SubClassOf: bim:Temporal
+	Annotations: bim:Disciplina "-"@pt
+	Annotations: bim:Tradução "-"@pt
+	Annotations: bim:Traducción "-"@es
+	Annotations: bim:Interoperabilidade "-"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
 	Annotations: bim:Tema "Calendário"@pt
 
 Class: bim:Semana
@@ -407,8 +407,8 @@ Class: bim:Semana
 	Annotations: bim:Tradução "Semana"@pt
 	Annotations: bim:Traducción "Semana"@es
 	Annotations: bim:Interoperabilidade "."@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
 	Annotations: bim:Tema "Calendário"@pt
 
 Class: bim:Projeto
@@ -417,38 +417,38 @@ Class: bim:Projeto
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Temporal
+Class: bim:Evento
 	SubClassOf: bim:Projeto
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Evento
-	SubClassOf: bim:Temporal
-	Annotations: bim:Disciplina "-"@pt
-	Annotations: bim:Tradução "-"@pt
-	Annotations: bim:Traducción "-"@es
-	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
-	Annotations: bim:Tema "-"@pt
-
-Class: bim:Calendário
+Class: bim:Temporal
 	SubClassOf: bim:Evento
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
+	Annotations: bim:Tema "-"@pt
+
+Class: bim:Calendário
+	SubClassOf: bim:Temporal
+	Annotations: bim:Disciplina "-"@pt
+	Annotations: bim:Tradução "-"@pt
+	Annotations: bim:Traducción "-"@es
+	Annotations: bim:Interoperabilidade "-"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
 	Annotations: bim:Tema "Calendário"@pt
 
 Class: bim:Ano
@@ -457,8 +457,8 @@ Class: bim:Ano
 	Annotations: bim:Tradução "Ano"@pt
 	Annotations: bim:Traducción "Año"@es
 	Annotations: bim:Interoperabilidade "."@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
 	Annotations: bim:Tema "Calendário"@pt
 
 Class: bim:Projeto
@@ -467,38 +467,38 @@ Class: bim:Projeto
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Temporal
+Class: bim:Evento
 	SubClassOf: bim:Projeto
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Evento
-	SubClassOf: bim:Temporal
-	Annotations: bim:Disciplina "-"@pt
-	Annotations: bim:Tradução "-"@pt
-	Annotations: bim:Traducción "-"@es
-	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
-	Annotations: bim:Tema "-"@pt
-
-Class: bim:Calendário
+Class: bim:Temporal
 	SubClassOf: bim:Evento
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
+	Annotations: bim:Tema "-"@pt
+
+Class: bim:Calendário
+	SubClassOf: bim:Temporal
+	Annotations: bim:Disciplina "-"@pt
+	Annotations: bim:Tradução "-"@pt
+	Annotations: bim:Traducción "-"@es
+	Annotations: bim:Interoperabilidade "-"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
 	Annotations: bim:Tema "Calendário"@pt
 
 Class: bim:Mês
@@ -507,8 +507,8 @@ Class: bim:Mês
 	Annotations: bim:Tradução "Mês"@pt
 	Annotations: bim:Traducción "Mês"@es
 	Annotations: bim:Interoperabilidade "."@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
 	Annotations: bim:Tema "Calendário"@pt
 
 Class: bim:Projeto
@@ -517,38 +517,38 @@ Class: bim:Projeto
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Temporal
+Class: bim:Evento
 	SubClassOf: bim:Projeto
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Evento
-	SubClassOf: bim:Temporal
-	Annotations: bim:Disciplina "-"@pt
-	Annotations: bim:Tradução "-"@pt
-	Annotations: bim:Traducción "-"@es
-	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
-	Annotations: bim:Tema "-"@pt
-
-Class: bim:Calendário
+Class: bim:Temporal
 	SubClassOf: bim:Evento
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
+	Annotations: bim:Tema "-"@pt
+
+Class: bim:Calendário
+	SubClassOf: bim:Temporal
+	Annotations: bim:Disciplina "-"@pt
+	Annotations: bim:Tradução "-"@pt
+	Annotations: bim:Traducción "-"@es
+	Annotations: bim:Interoperabilidade "-"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
 	Annotations: bim:Tema "Calendário"@pt
 
 Class: bim:Dia
@@ -557,8 +557,8 @@ Class: bim:Dia
 	Annotations: bim:Tradução "Dia"@pt
 	Annotations: bim:Traducción "Día"@es
 	Annotations: bim:Interoperabilidade "."@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
 	Annotations: bim:Tema "Calendário"@pt
 
 Class: bim:Projeto
@@ -567,38 +567,38 @@ Class: bim:Projeto
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Temporal
+Class: bim:Evento
 	SubClassOf: bim:Projeto
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Evento
-	SubClassOf: bim:Temporal
-	Annotations: bim:Disciplina "-"@pt
-	Annotations: bim:Tradução "-"@pt
-	Annotations: bim:Traducción "-"@es
-	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
-	Annotations: bim:Tema "-"@pt
-
-Class: bim:Horário
+Class: bim:Temporal
 	SubClassOf: bim:Evento
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
+	Annotations: bim:Tema "-"@pt
+
+Class: bim:Horário
+	SubClassOf: bim:Temporal
+	Annotations: bim:Disciplina "-"@pt
+	Annotations: bim:Tradução "-"@pt
+	Annotations: bim:Traducción "-"@es
+	Annotations: bim:Interoperabilidade "-"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
 	Annotations: bim:Tema "Horário"@pt
 
 Class: bim:Hora
@@ -607,8 +607,8 @@ Class: bim:Hora
 	Annotations: bim:Tradução "Hora"@pt
 	Annotations: bim:Traducción "Hora"@es
 	Annotations: bim:Interoperabilidade "."@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
 	Annotations: bim:Tema "Horário"@pt
 
 Class: bim:Projeto
@@ -617,38 +617,38 @@ Class: bim:Projeto
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Temporal
+Class: bim:Evento
 	SubClassOf: bim:Projeto
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Evento
-	SubClassOf: bim:Temporal
-	Annotations: bim:Disciplina "-"@pt
-	Annotations: bim:Tradução "-"@pt
-	Annotations: bim:Traducción "-"@es
-	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
-	Annotations: bim:Tema "-"@pt
-
-Class: bim:Horário
+Class: bim:Temporal
 	SubClassOf: bim:Evento
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
+	Annotations: bim:Tema "-"@pt
+
+Class: bim:Horário
+	SubClassOf: bim:Temporal
+	Annotations: bim:Disciplina "-"@pt
+	Annotations: bim:Tradução "-"@pt
+	Annotations: bim:Traducción "-"@es
+	Annotations: bim:Interoperabilidade "-"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
 	Annotations: bim:Tema "Horário"@pt
 
 Class: bim:Minuto
@@ -657,8 +657,8 @@ Class: bim:Minuto
 	Annotations: bim:Tradução "Minuto"@pt
 	Annotations: bim:Traducción "Minuto"@es
 	Annotations: bim:Interoperabilidade "."@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
 	Annotations: bim:Tema "Horário"@pt
 
 Class: bim:Projeto
@@ -667,38 +667,38 @@ Class: bim:Projeto
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Temporal
+Class: bim:Evento
 	SubClassOf: bim:Projeto
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Evento
-	SubClassOf: bim:Temporal
-	Annotations: bim:Disciplina "-"@pt
-	Annotations: bim:Tradução "-"@pt
-	Annotations: bim:Traducción "-"@es
-	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
-	Annotations: bim:Tema "-"@pt
-
-Class: bim:Horário
+Class: bim:Temporal
 	SubClassOf: bim:Evento
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
+	Annotations: bim:Tema "-"@pt
+
+Class: bim:Horário
+	SubClassOf: bim:Temporal
+	Annotations: bim:Disciplina "-"@pt
+	Annotations: bim:Tradução "-"@pt
+	Annotations: bim:Traducción "-"@es
+	Annotations: bim:Interoperabilidade "-"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
 	Annotations: bim:Tema "Horário"@pt
 
 Class: bim:Segundo
@@ -707,8 +707,8 @@ Class: bim:Segundo
 	Annotations: bim:Tradução "Segundo"@pt
 	Annotations: bim:Traducción "Segundo"@es
 	Annotations: bim:Interoperabilidade "."@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
 	Annotations: bim:Tema "Horário"@pt
 
 Class: bim:Projeto
@@ -717,38 +717,38 @@ Class: bim:Projeto
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Temporal
+Class: bim:Evento
 	SubClassOf: bim:Projeto
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Evento
-	SubClassOf: bim:Temporal
-	Annotations: bim:Disciplina "-"@pt
-	Annotations: bim:Tradução "-"@pt
-	Annotations: bim:Traducción "-"@es
-	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
-	Annotations: bim:Tema "-"@pt
-
-Class: bim:Horário
+Class: bim:Temporal
 	SubClassOf: bim:Evento
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
+	Annotations: bim:Tema "-"@pt
+
+Class: bim:Horário
+	SubClassOf: bim:Temporal
+	Annotations: bim:Disciplina "-"@pt
+	Annotations: bim:Tradução "-"@pt
+	Annotations: bim:Traducción "-"@es
+	Annotations: bim:Interoperabilidade "-"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
 	Annotations: bim:Tema "Horário"@pt
 
 Class: bim:Milisegundo
@@ -757,8 +757,8 @@ Class: bim:Milisegundo
 	Annotations: bim:Tradução "Milisegundo"@pt
 	Annotations: bim:Traducción "Milisegundo"@es
 	Annotations: bim:Interoperabilidade "."@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
 	Annotations: bim:Tema "Horário"@pt
 
 Class: bim:Projeto
@@ -767,38 +767,38 @@ Class: bim:Projeto
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Temporal
+Class: bim:Evento
 	SubClassOf: bim:Projeto
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Evento
-	SubClassOf: bim:Temporal
-	Annotations: bim:Disciplina "-"@pt
-	Annotations: bim:Tradução "-"@pt
-	Annotations: bim:Traducción "-"@es
-	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
-	Annotations: bim:Tema "-"@pt
-
-Class: bim:Duração
+Class: bim:Temporal
 	SubClassOf: bim:Evento
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
+	Annotations: bim:Tema "-"@pt
+
+Class: bim:Duração
+	SubClassOf: bim:Temporal
+	Annotations: bim:Disciplina "-"@pt
+	Annotations: bim:Tradução "-"@pt
+	Annotations: bim:Traducción "-"@es
+	Annotations: bim:Interoperabilidade "-"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
 	Annotations: bim:Tema "Duração"@pt
 
 Class: bim:Cronómetro.I
@@ -807,8 +807,8 @@ Class: bim:Cronómetro.I
 	Annotations: bim:Tradução "Cronómetro iniciar"@pt
 	Annotations: bim:Traducción "Cronómetro iniciar"@es
 	Annotations: bim:Interoperabilidade "."@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
 	Annotations: bim:Tema "Duração"@pt
 
 Class: bim:Projeto
@@ -817,38 +817,38 @@ Class: bim:Projeto
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Temporal
+Class: bim:Evento
 	SubClassOf: bim:Projeto
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Evento
-	SubClassOf: bim:Temporal
-	Annotations: bim:Disciplina "-"@pt
-	Annotations: bim:Tradução "-"@pt
-	Annotations: bim:Traducción "-"@es
-	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
-	Annotations: bim:Tema "-"@pt
-
-Class: bim:Duração
+Class: bim:Temporal
 	SubClassOf: bim:Evento
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
+	Annotations: bim:Tema "-"@pt
+
+Class: bim:Duração
+	SubClassOf: bim:Temporal
+	Annotations: bim:Disciplina "-"@pt
+	Annotations: bim:Tradução "-"@pt
+	Annotations: bim:Traducción "-"@es
+	Annotations: bim:Interoperabilidade "-"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
 	Annotations: bim:Tema "Duração"@pt
 
 Class: bim:Cronómetro.F
@@ -857,8 +857,8 @@ Class: bim:Cronómetro.F
 	Annotations: bim:Tradução "Cronómetro finalizar"@pt
 	Annotations: bim:Traducción "Cronómetro finalizar"@es
 	Annotations: bim:Interoperabilidade "."@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
 	Annotations: bim:Tema "Duração"@pt
 
 Class: bim:Projeto
@@ -867,38 +867,38 @@ Class: bim:Projeto
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Temporal
+Class: bim:Evento
 	SubClassOf: bim:Projeto
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Evento
-	SubClassOf: bim:Temporal
-	Annotations: bim:Disciplina "-"@pt
-	Annotations: bim:Tradução "-"@pt
-	Annotations: bim:Traducción "-"@es
-	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
-	Annotations: bim:Tema "-"@pt
-
-Class: bim:Duração
+Class: bim:Temporal
 	SubClassOf: bim:Evento
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
+	Annotations: bim:Tema "-"@pt
+
+Class: bim:Duração
+	SubClassOf: bim:Temporal
+	Annotations: bim:Disciplina "-"@pt
+	Annotations: bim:Tradução "-"@pt
+	Annotations: bim:Traducción "-"@es
+	Annotations: bim:Interoperabilidade "-"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
 	Annotations: bim:Tema "Duração"@pt
 
 Class: bim:DeltaT
@@ -907,8 +907,8 @@ Class: bim:DeltaT
 	Annotations: bim:Tradução "Intervalo de tempo"@pt
 	Annotations: bim:Traducción "Intervalo de tiempo"@es
 	Annotations: bim:Interoperabilidade "."@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
 	Annotations: bim:Tema "Duração"@pt
 
 Class: bim:Projeto
@@ -917,49 +917,49 @@ Class: bim:Projeto
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Temporal
+Class: bim:Evento
 	SubClassOf: bim:Projeto
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Evento
-	SubClassOf: bim:Temporal
-	Annotations: bim:Disciplina "-"@pt
-	Annotations: bim:Tradução "-"@pt
-	Annotations: bim:Traducción "-"@es
-	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
-	Annotations: bim:Tema "-"@pt
-
-Class: bim:Fase
+Class: bim:Temporal
 	SubClassOf: bim:Evento
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
-	Annotations: bim:Tema "Fase"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
+	Annotations: bim:Tema "-"@pt
+
+Class: bim:Etapa
+	SubClassOf: bim:Temporal
+	Annotations: bim:Disciplina "-"@pt
+	Annotations: bim:Tradução "-"@pt
+	Annotations: bim:Traducción "-"@es
+	Annotations: bim:Interoperabilidade "-"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
+	Annotations: bim:Tema "Etapa"@pt
 
 Class: bim:Ideação
-	SubClassOf: bim:Fase
+	SubClassOf: bim:Etapa
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
 	Annotations: bim:Tradução "Ideação"@pt
 	Annotations: bim:Traducción "Evento en fase de concepción"@es
 	Annotations: bim:Interoperabilidade "."@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
-	Annotations: bim:Tema "Fase"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
+	Annotations: bim:Tema "Etapa"@pt
 
 Class: bim:Projeto
 	SubClassOf: bim:BIM
@@ -967,49 +967,49 @@ Class: bim:Projeto
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Temporal
+Class: bim:Evento
 	SubClassOf: bim:Projeto
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Evento
-	SubClassOf: bim:Temporal
-	Annotations: bim:Disciplina "-"@pt
-	Annotations: bim:Tradução "-"@pt
-	Annotations: bim:Traducción "-"@es
-	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
-	Annotations: bim:Tema "-"@pt
-
-Class: bim:Fase
+Class: bim:Temporal
 	SubClassOf: bim:Evento
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
-	Annotations: bim:Tema "Fase"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
+	Annotations: bim:Tema "-"@pt
+
+Class: bim:Etapa
+	SubClassOf: bim:Temporal
+	Annotations: bim:Disciplina "-"@pt
+	Annotations: bim:Tradução "-"@pt
+	Annotations: bim:Traducción "-"@es
+	Annotations: bim:Interoperabilidade "-"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
+	Annotations: bim:Tema "Etapa"@pt
 
 Class: bim:Projetual
-	SubClassOf: bim:Fase
+	SubClassOf: bim:Etapa
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
 	Annotations: bim:Tradução "Projetual"@pt
 	Annotations: bim:Traducción "Evento en fase de proyecto"@es
 	Annotations: bim:Interoperabilidade "."@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
-	Annotations: bim:Tema "Fase"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
+	Annotations: bim:Tema "Etapa"@pt
 
 Class: bim:Projeto
 	SubClassOf: bim:BIM
@@ -1017,49 +1017,49 @@ Class: bim:Projeto
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Temporal
+Class: bim:Evento
 	SubClassOf: bim:Projeto
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Evento
-	SubClassOf: bim:Temporal
-	Annotations: bim:Disciplina "-"@pt
-	Annotations: bim:Tradução "-"@pt
-	Annotations: bim:Traducción "-"@es
-	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
-	Annotations: bim:Tema "-"@pt
-
-Class: bim:Fase
+Class: bim:Temporal
 	SubClassOf: bim:Evento
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
-	Annotations: bim:Tema "Fase"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
+	Annotations: bim:Tema "-"@pt
+
+Class: bim:Etapa
+	SubClassOf: bim:Temporal
+	Annotations: bim:Disciplina "-"@pt
+	Annotations: bim:Tradução "-"@pt
+	Annotations: bim:Traducción "-"@es
+	Annotations: bim:Interoperabilidade "-"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
+	Annotations: bim:Tema "Etapa"@pt
 
 Class: bim:Simulação
-	SubClassOf: bim:Fase
+	SubClassOf: bim:Etapa
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
 	Annotations: bim:Tradução "Simulação"@pt
 	Annotations: bim:Traducción "Evento de simulación"@es
 	Annotations: bim:Interoperabilidade "."@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
-	Annotations: bim:Tema "Fase"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
+	Annotations: bim:Tema "Etapa"@pt
 
 Class: bim:Projeto
 	SubClassOf: bim:BIM
@@ -1067,49 +1067,49 @@ Class: bim:Projeto
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Temporal
+Class: bim:Evento
 	SubClassOf: bim:Projeto
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Evento
-	SubClassOf: bim:Temporal
-	Annotations: bim:Disciplina "-"@pt
-	Annotations: bim:Tradução "-"@pt
-	Annotations: bim:Traducción "-"@es
-	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
-	Annotations: bim:Tema "-"@pt
-
-Class: bim:Fase
+Class: bim:Temporal
 	SubClassOf: bim:Evento
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
-	Annotations: bim:Tema "Fase"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
+	Annotations: bim:Tema "-"@pt
+
+Class: bim:Etapa
+	SubClassOf: bim:Temporal
+	Annotations: bim:Disciplina "-"@pt
+	Annotations: bim:Tradução "-"@pt
+	Annotations: bim:Traducción "-"@es
+	Annotations: bim:Interoperabilidade "-"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
+	Annotations: bim:Tema "Etapa"@pt
 
 Class: bim:Planejamento
-	SubClassOf: bim:Fase
+	SubClassOf: bim:Etapa
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
 	Annotations: bim:Tradução "Planejamento"@pt
 	Annotations: bim:Traducción "Evento de fase de planeamiento"@es
 	Annotations: bim:Interoperabilidade "."@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
-	Annotations: bim:Tema "Fase"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
+	Annotations: bim:Tema "Etapa"@pt
 
 Class: bim:Projeto
 	SubClassOf: bim:BIM
@@ -1117,49 +1117,49 @@ Class: bim:Projeto
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Temporal
+Class: bim:Evento
 	SubClassOf: bim:Projeto
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Evento
-	SubClassOf: bim:Temporal
-	Annotations: bim:Disciplina "-"@pt
-	Annotations: bim:Tradução "-"@pt
-	Annotations: bim:Traducción "-"@es
-	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
-	Annotations: bim:Tema "-"@pt
-
-Class: bim:Fase
+Class: bim:Temporal
 	SubClassOf: bim:Evento
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
-	Annotations: bim:Tema "Fase"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
+	Annotations: bim:Tema "-"@pt
+
+Class: bim:Etapa
+	SubClassOf: bim:Temporal
+	Annotations: bim:Disciplina "-"@pt
+	Annotations: bim:Tradução "-"@pt
+	Annotations: bim:Traducción "-"@es
+	Annotations: bim:Interoperabilidade "-"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
+	Annotations: bim:Tema "Etapa"@pt
 
 Class: bim:Construção
-	SubClassOf: bim:Fase
+	SubClassOf: bim:Etapa
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
 	Annotations: bim:Tradução "Construção"@pt
 	Annotations: bim:Traducción "Evento de fase de obra"@es
 	Annotations: bim:Interoperabilidade "."@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
-	Annotations: bim:Tema "Fase"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
+	Annotations: bim:Tema "Etapa"@pt
 
 Class: bim:Projeto
 	SubClassOf: bim:BIM
@@ -1167,49 +1167,49 @@ Class: bim:Projeto
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Temporal
+Class: bim:Evento
 	SubClassOf: bim:Projeto
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
+	Annotations: bim:Natureza "Evento"@pt
 	Annotations: bim:Espécie "-"@pt
 	Annotations: bim:Tema "-"@pt
 
-Class: bim:Evento
-	SubClassOf: bim:Temporal
-	Annotations: bim:Disciplina "-"@pt
-	Annotations: bim:Tradução "-"@pt
-	Annotations: bim:Traducción "-"@es
-	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
-	Annotations: bim:Tema "-"@pt
-
-Class: bim:Fase
+Class: bim:Temporal
 	SubClassOf: bim:Evento
 	Annotations: bim:Disciplina "-"@pt
 	Annotations: bim:Tradução "-"@pt
 	Annotations: bim:Traducción "-"@es
 	Annotations: bim:Interoperabilidade "-"@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
-	Annotations: bim:Tema "Fase"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
+	Annotations: bim:Tema "-"@pt
+
+Class: bim:Etapa
+	SubClassOf: bim:Temporal
+	Annotations: bim:Disciplina "-"@pt
+	Annotations: bim:Tradução "-"@pt
+	Annotations: bim:Traducción "-"@es
+	Annotations: bim:Interoperabilidade "-"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
+	Annotations: bim:Tema "Etapa"@pt
 
 Class: bim:Operação
-	SubClassOf: bim:Fase
+	SubClassOf: bim:Etapa
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
 	Annotations: bim:Tradução "Operação"@pt
 	Annotations: bim:Traducción "Evento de fase de operación"@es
 	Annotations: bim:Interoperabilidade "."@pt
-	Annotations: bim:Natureza "Temporal"@pt
-	Annotations: bim:Espécie "Evento"@pt
-	Annotations: bim:Tema "Fase"@pt
+	Annotations: bim:Natureza "Evento"@pt
+	Annotations: bim:Espécie "Temporal"@pt
+	Annotations: bim:Tema "Etapa"@pt
 
 ObjectProperty: bim:p_endereçar
 	SubPropertyOf: bim:BIMProp
@@ -1265,6 +1265,34 @@ ObjectProperty: bim:tem_cidade
 	Domain: bim:BIM
 	Range: bim:Projeto
 	Annotations: rdfs:label "Propriedade para endereçar: tem_cidade"@pt
+	Characteristics: Functional
+
+ObjectProperty: bim:p_endereçar
+	SubPropertyOf: bim:BIMProp
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para endereçar: tem_area_planejamento"@pt
+	Characteristics: Functional
+
+ObjectProperty: bim:tem_area_planejamento
+	SubPropertyOf: bim:p_endereçar
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para endereçar: tem_area_planejamento"@pt
+	Characteristics: Functional
+
+ObjectProperty: bim:p_endereçar
+	SubPropertyOf: bim:BIMProp
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para endereçar: tem_região_administrativa"@pt
+	Characteristics: Functional
+
+ObjectProperty: bim:tem_região_administrativa
+	SubPropertyOf: bim:p_endereçar
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para endereçar: tem_região_administrativa"@pt
 	Characteristics: Functional
 
 ObjectProperty: bim:p_endereçar
@@ -1327,70 +1355,56 @@ ObjectProperty: bim:p_endereçar
 	SubPropertyOf: bim:BIMProp
 	Domain: bim:BIM
 	Range: bim:Projeto
-	Annotations: rdfs:label "Propriedade para endereçar: tem_conj"@pt
+	Annotations: rdfs:label "Propriedade para endereçar: tem_cnj"@pt
 	Characteristics: Functional
 
-ObjectProperty: bim:tem_conj
+ObjectProperty: bim:tem_cnj
 	SubPropertyOf: bim:p_endereçar
 	Domain: bim:BIM
 	Range: bim:Projeto
-	Annotations: rdfs:label "Propriedade para endereçar: tem_conj"@pt
+	Annotations: rdfs:label "Propriedade para endereçar: tem_cnj"@pt
 	Characteristics: Functional
 
 ObjectProperty: bim:p_endereçar
 	SubPropertyOf: bim:BIMProp
 	Domain: bim:BIM
 	Range: bim:Projeto
-	Annotations: rdfs:label "Propriedade para endereçar: tem_grpo"@pt
+	Annotations: rdfs:label "Propriedade para endereçar: tem_grp"@pt
 	Characteristics: Functional
 
-ObjectProperty: bim:tem_grpo
+ObjectProperty: bim:tem_grp
 	SubPropertyOf: bim:p_endereçar
 	Domain: bim:BIM
 	Range: bim:Projeto
-	Annotations: rdfs:label "Propriedade para endereçar: tem_grpo"@pt
+	Annotations: rdfs:label "Propriedade para endereçar: tem_grp"@pt
 	Characteristics: Functional
 
 ObjectProperty: bim:p_endereçar
 	SubPropertyOf: bim:BIMProp
 	Domain: bim:BIM
 	Range: bim:Projeto
-	Annotations: rdfs:label "Propriedade para endereçar: tem_bloc"@pt
+	Annotations: rdfs:label "Propriedade para endereçar: tem_bloco"@pt
 	Characteristics: Functional
 
-ObjectProperty: bim:tem_bloc
+ObjectProperty: bim:tem_bloco
 	SubPropertyOf: bim:p_endereçar
 	Domain: bim:BIM
 	Range: bim:Projeto
-	Annotations: rdfs:label "Propriedade para endereçar: tem_bloc"@pt
+	Annotations: rdfs:label "Propriedade para endereçar: tem_bloco"@pt
 	Characteristics: Functional
 
 ObjectProperty: bim:p_endereçar
 	SubPropertyOf: bim:BIMProp
 	Domain: bim:BIM
 	Range: bim:Projeto
-	Annotations: rdfs:label "Propriedade para endereçar: tem_area_planejamento"@pt
+	Annotations: rdfs:label "Propriedade para endereçar: tem_andar"@pt
 	Characteristics: Functional
 
-ObjectProperty: bim:tem_area_planejamento
+ObjectProperty: bim:tem_andar
 	SubPropertyOf: bim:p_endereçar
 	Domain: bim:BIM
 	Range: bim:Projeto
-	Annotations: rdfs:label "Propriedade para endereçar: tem_area_planejamento"@pt
-	Characteristics: Functional
-
-ObjectProperty: bim:p_endereçar
-	SubPropertyOf: bim:BIMProp
-	Domain: bim:BIM
-	Range: bim:Projeto
-	Annotations: rdfs:label "Propriedade para endereçar: tem_região_administrativa"@pt
-	Characteristics: Functional
-
-ObjectProperty: bim:tem_região_administrativa
-	SubPropertyOf: bim:p_endereçar
-	Domain: bim:BIM
-	Range: bim:Projeto
-	Annotations: rdfs:label "Propriedade para endereçar: tem_região_administrativa"@pt
+	Annotations: rdfs:label "Propriedade para endereçar: tem_andar"@pt
 	Characteristics: Functional
 
 ObjectProperty: bim:p_endereçar
@@ -1535,42 +1549,28 @@ ObjectProperty: bim:p_classificar
 	SubPropertyOf: bim:BIMProp
 	Domain: bim:BIM
 	Range: bim:Projeto
-	Annotations: rdfs:label "Propriedade para classificar: é_categoria"@pt
+	Annotations: rdfs:label "Propriedade para classificar: é_categoria_revit"@pt
 	Characteristics: Functional
 
-ObjectProperty: bim:é_categoria
+ObjectProperty: bim:é_categoria_revit
 	SubPropertyOf: bim:p_classificar
 	Domain: bim:BIM
 	Range: bim:Projeto
-	Annotations: rdfs:label "Propriedade para classificar: é_categoria"@pt
+	Annotations: rdfs:label "Propriedade para classificar: é_categoria_revit"@pt
 	Characteristics: Functional
 
 ObjectProperty: bim:p_classificar
 	SubPropertyOf: bim:BIMProp
 	Domain: bim:BIM
 	Range: bim:Projeto
-	Annotations: rdfs:label "Propriedade para classificar: é_classe"@pt
+	Annotations: rdfs:label "Propriedade para classificar: é_classe_ifc"@pt
 	Characteristics: Functional
 
-ObjectProperty: bim:é_classe
+ObjectProperty: bim:é_classe_ifc
 	SubPropertyOf: bim:p_classificar
 	Domain: bim:BIM
 	Range: bim:Projeto
-	Annotations: rdfs:label "Propriedade para classificar: é_classe"@pt
-	Characteristics: Functional
-
-ObjectProperty: bim:p_classificar
-	SubPropertyOf: bim:BIMProp
-	Domain: bim:BIM
-	Range: bim:Projeto
-	Annotations: rdfs:label "Propriedade para classificar: é_tipo"@pt
-	Characteristics: Functional
-
-ObjectProperty: bim:é_tipo
-	SubPropertyOf: bim:p_classificar
-	Domain: bim:BIM
-	Range: bim:Projeto
-	Annotations: rdfs:label "Propriedade para classificar: é_tipo"@pt
+	Annotations: rdfs:label "Propriedade para classificar: é_classe_ifc"@pt
 	Characteristics: Functional
 
 ObjectProperty: bim:p_classificar
@@ -1667,41 +1667,101 @@ ObjectProperty: bim:tem_uri
 	Annotations: rdfs:label "Propriedade para identificar: tem_uri"@pt
 	Characteristics: Functional
 
-ObjectProperty: bim:p_identificar
+ObjectProperty: bim:p_catalogar
 	SubPropertyOf: bim:BIMProp
 	Domain: bim:BIM
 	Range: bim:Projeto
-	Annotations: rdfs:label "Propriedade para identificar: tem_tema"@pt
+	Annotations: rdfs:label "Propriedade para catalogar: tem_modelo"@pt
+
+ObjectProperty: bim:tem_modelo
+	SubPropertyOf: bim:p_catalogar
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para catalogar: tem_modelo"@pt
+
+ObjectProperty: bim:p_catalogar
+	SubPropertyOf: bim:BIMProp
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para catalogar: tem_tema"@pt
 
 ObjectProperty: bim:tem_tema
-	SubPropertyOf: bim:p_identificar
+	SubPropertyOf: bim:p_catalogar
 	Domain: bim:BIM
 	Range: bim:Projeto
-	Annotations: rdfs:label "Propriedade para identificar: tem_tema"@pt
+	Annotations: rdfs:label "Propriedade para catalogar: tem_tema"@pt
 
-ObjectProperty: bim:p_identificar
+ObjectProperty: bim:p_catalogar
 	SubPropertyOf: bim:BIMProp
 	Domain: bim:BIM
 	Range: bim:Projeto
-	Annotations: rdfs:label "Propriedade para identificar: tem_vol"@pt
+	Annotations: rdfs:label "Propriedade para catalogar: tem_tipo"@pt
+
+ObjectProperty: bim:tem_tipo
+	SubPropertyOf: bim:p_catalogar
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para catalogar: tem_tipo"@pt
+
+ObjectProperty: bim:p_catalogar
+	SubPropertyOf: bim:BIMProp
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para catalogar: tem_série"@pt
+
+ObjectProperty: bim:tem_série
+	SubPropertyOf: bim:p_catalogar
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para catalogar: tem_série"@pt
+
+ObjectProperty: bim:p_catalogar
+	SubPropertyOf: bim:BIMProp
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para catalogar: tem_linha"@pt
+
+ObjectProperty: bim:tem_linha
+	SubPropertyOf: bim:p_catalogar
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para catalogar: tem_linha"@pt
+
+ObjectProperty: bim:p_catalogar
+	SubPropertyOf: bim:BIMProp
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para catalogar: tem_item"@pt
+
+ObjectProperty: bim:tem_item
+	SubPropertyOf: bim:p_catalogar
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para catalogar: tem_item"@pt
+
+ObjectProperty: bim:p_catalogar
+	SubPropertyOf: bim:BIMProp
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para catalogar: tem_vol"@pt
 
 ObjectProperty: bim:tem_vol
-	SubPropertyOf: bim:p_identificar
+	SubPropertyOf: bim:p_catalogar
 	Domain: bim:BIM
 	Range: bim:Projeto
-	Annotations: rdfs:label "Propriedade para identificar: tem_vol"@pt
+	Annotations: rdfs:label "Propriedade para catalogar: tem_vol"@pt
 
-ObjectProperty: bim:p_identificar
+ObjectProperty: bim:p_catalogar
 	SubPropertyOf: bim:BIMProp
 	Domain: bim:BIM
 	Range: bim:Projeto
-	Annotations: rdfs:label "Propriedade para identificar: tem_descrição"@pt
+	Annotations: rdfs:label "Propriedade para catalogar: tem_descrição"@pt
 
 ObjectProperty: bim:tem_descrição
-	SubPropertyOf: bim:p_identificar
+	SubPropertyOf: bim:p_catalogar
 	Domain: bim:BIM
 	Range: bim:Projeto
-	Annotations: rdfs:label "Propriedade para identificar: tem_descrição"@pt
+	Annotations: rdfs:label "Propriedade para catalogar: tem_descrição"@pt
 
 ObjectProperty: bim:p_definir
 	SubPropertyOf: bim:BIMProp
@@ -1791,6 +1851,18 @@ ObjectProperty: bim:p_administrar
 	SubPropertyOf: bim:BIMProp
 	Domain: bim:BIM
 	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para administrar: é_privado"@pt
+
+ObjectProperty: bim:é_privado
+	SubPropertyOf: bim:p_administrar
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para administrar: é_privado"@pt
+
+ObjectProperty: bim:p_administrar
+	SubPropertyOf: bim:BIMProp
+	Domain: bim:BIM
+	Range: bim:Projeto
 	Annotations: rdfs:label "Propriedade para administrar: é_órgão"@pt
 
 ObjectProperty: bim:é_órgão
@@ -1798,6 +1870,18 @@ ObjectProperty: bim:é_órgão
 	Domain: bim:BIM
 	Range: bim:Projeto
 	Annotations: rdfs:label "Propriedade para administrar: é_órgão"@pt
+
+ObjectProperty: bim:p_administrar
+	SubPropertyOf: bim:BIMProp
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para administrar: é_unid_académica"@pt
+
+ObjectProperty: bim:é_unid_académica
+	SubPropertyOf: bim:p_administrar
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para administrar: é_unid_académica"@pt
 
 ObjectProperty: bim:p_administrar
 	SubPropertyOf: bim:BIMProp
@@ -1827,13 +1911,25 @@ ObjectProperty: bim:p_administrar
 	SubPropertyOf: bim:BIMProp
 	Domain: bim:BIM
 	Range: bim:Projeto
-	Annotations: rdfs:label "Propriedade para administrar: é_zona"@pt
+	Annotations: rdfs:label "Propriedade para administrar: é_departamento"@pt
 
-ObjectProperty: bim:é_zona
+ObjectProperty: bim:é_departamento
 	SubPropertyOf: bim:p_administrar
 	Domain: bim:BIM
 	Range: bim:Projeto
-	Annotations: rdfs:label "Propriedade para administrar: é_zona"@pt
+	Annotations: rdfs:label "Propriedade para administrar: é_departamento"@pt
+
+ObjectProperty: bim:p_administrar
+	SubPropertyOf: bim:BIMProp
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para administrar: é_divisão"@pt
+
+ObjectProperty: bim:é_divisão
+	SubPropertyOf: bim:p_administrar
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para administrar: é_divisão"@pt
 
 ObjectProperty: bim:p_administrar
 	SubPropertyOf: bim:BIMProp
@@ -1863,25 +1959,13 @@ ObjectProperty: bim:p_administrar
 	SubPropertyOf: bim:BIMProp
 	Domain: bim:BIM
 	Range: bim:Projeto
-	Annotations: rdfs:label "Propriedade para administrar: é_divisão"@pt
+	Annotations: rdfs:label "Propriedade para administrar: é_zona"@pt
 
-ObjectProperty: bim:é_divisão
+ObjectProperty: bim:é_zona
 	SubPropertyOf: bim:p_administrar
 	Domain: bim:BIM
 	Range: bim:Projeto
-	Annotations: rdfs:label "Propriedade para administrar: é_divisão"@pt
-
-ObjectProperty: bim:p_administrar
-	SubPropertyOf: bim:BIMProp
-	Domain: bim:BIM
-	Range: bim:Projeto
-	Annotations: rdfs:label "Propriedade para administrar: é_departamento"@pt
-
-ObjectProperty: bim:é_departamento
-	SubPropertyOf: bim:p_administrar
-	Domain: bim:BIM
-	Range: bim:Projeto
-	Annotations: rdfs:label "Propriedade para administrar: é_departamento"@pt
+	Annotations: rdfs:label "Propriedade para administrar: é_zona"@pt
 
 ObjectProperty: bim:p_contratar
 	SubPropertyOf: bim:BIMProp
@@ -1895,29 +1979,29 @@ ObjectProperty: bim:é_contrato
 	Range: bim:Projeto
 	Annotations: rdfs:label "Propriedade para contratar: é_contrato"@pt
 
+ObjectProperty: bim:p_administrar
+	SubPropertyOf: bim:BIMProp
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para administrar: é_contratado"@pt
+
+ObjectProperty: bim:é_contratado
+	SubPropertyOf: bim:p_administrar
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para administrar: é_contratado"@pt
+
 ObjectProperty: bim:p_contratar
 	SubPropertyOf: bim:BIMProp
 	Domain: bim:BIM
 	Range: bim:Projeto
-	Annotations: rdfs:label "Propriedade para contratar: é_empresa"@pt
+	Annotations: rdfs:label "Propriedade para contratar: é_contratante"@pt
 
-ObjectProperty: bim:é_empresa
+ObjectProperty: bim:é_contratante
 	SubPropertyOf: bim:p_contratar
 	Domain: bim:BIM
 	Range: bim:Projeto
-	Annotations: rdfs:label "Propriedade para contratar: é_empresa"@pt
-
-ObjectProperty: bim:p_contratar
-	SubPropertyOf: bim:BIMProp
-	Domain: bim:BIM
-	Range: bim:Projeto
-	Annotations: rdfs:label "Propriedade para contratar: é_contratista"@pt
-
-ObjectProperty: bim:é_contratista
-	SubPropertyOf: bim:p_contratar
-	Domain: bim:BIM
-	Range: bim:Projeto
-	Annotations: rdfs:label "Propriedade para contratar: é_contratista"@pt
+	Annotations: rdfs:label "Propriedade para contratar: é_contratante"@pt
 
 ObjectProperty: bim:p_contratar
 	SubPropertyOf: bim:BIMProp
@@ -1930,6 +2014,18 @@ ObjectProperty: bim:é_subcontratista
 	Domain: bim:BIM
 	Range: bim:Projeto
 	Annotations: rdfs:label "Propriedade para contratar: é_subcontratista"@pt
+
+ObjectProperty: bim:p_contratar
+	SubPropertyOf: bim:BIMProp
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para contratar: é_empresa"@pt
+
+ObjectProperty: bim:é_empresa
+	SubPropertyOf: bim:p_contratar
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para contratar: é_empresa"@pt
 
 ObjectProperty: bim:p_contratar
 	SubPropertyOf: bim:BIMProp
@@ -1995,18 +2091,6 @@ ObjectProperty: bim:p_durar
 	SubPropertyOf: bim:BIMProp
 	Domain: bim:BIM
 	Range: bim:Projeto
-	Annotations: rdfs:label "Propriedade para durar: tem_duração"@pt
-
-ObjectProperty: bim:tem_duração
-	SubPropertyOf: bim:p_durar
-	Domain: bim:BIM
-	Range: bim:Projeto
-	Annotations: rdfs:label "Propriedade para durar: tem_duração"@pt
-
-ObjectProperty: bim:p_durar
-	SubPropertyOf: bim:BIMProp
-	Domain: bim:BIM
-	Range: bim:Projeto
 	Annotations: rdfs:label "Propriedade para durar: tem_data"@pt
 	Characteristics: Functional
 
@@ -2049,6 +2133,20 @@ ObjectProperty: bim:p_durar
 	SubPropertyOf: bim:BIMProp
 	Domain: bim:BIM
 	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para durar: tem_duração"@pt
+	Characteristics: Functional
+
+ObjectProperty: bim:tem_duração
+	SubPropertyOf: bim:p_durar
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para durar: tem_duração"@pt
+	Characteristics: Functional
+
+ObjectProperty: bim:p_durar
+	SubPropertyOf: bim:BIMProp
+	Domain: bim:BIM
+	Range: bim:Projeto
 	Annotations: rdfs:label "Propriedade para durar: tem_horário"@pt
 	Characteristics: Functional
 
@@ -2065,6 +2163,7 @@ ObjectProperty: bim:p_planejar
 	Range: bim:Projeto
 	Annotations: rdfs:label "Propriedade para planejar: é_posterior_a"@pt
 	Characteristics: Transitive
+	Characteristics: Asymmetric
 
 ObjectProperty: bim:é_posterior_a
 	SubPropertyOf: bim:p_planejar
@@ -2072,6 +2171,7 @@ ObjectProperty: bim:é_posterior_a
 	Range: bim:Projeto
 	Annotations: rdfs:label "Propriedade para planejar: é_posterior_a"@pt
 	Characteristics: Transitive
+	Characteristics: Asymmetric
 
 ObjectProperty: bim:p_planejar
 	SubPropertyOf: bim:BIMProp
@@ -2079,6 +2179,7 @@ ObjectProperty: bim:p_planejar
 	Range: bim:Projeto
 	Annotations: rdfs:label "Propriedade para planejar: é_anterior_a"@pt
 	Characteristics: Transitive
+	Characteristics: Asymmetric
 
 ObjectProperty: bim:é_anterior_a
 	SubPropertyOf: bim:p_planejar
@@ -2086,6 +2187,7 @@ ObjectProperty: bim:é_anterior_a
 	Range: bim:Projeto
 	Annotations: rdfs:label "Propriedade para planejar: é_anterior_a"@pt
 	Characteristics: Transitive
+	Characteristics: Asymmetric
 
 ObjectProperty: bim:p_planejar
 	SubPropertyOf: bim:BIMProp
@@ -2093,6 +2195,7 @@ ObjectProperty: bim:p_planejar
 	Range: bim:Projeto
 	Annotations: rdfs:label "Propriedade para planejar: é_concomitante_com"@pt
 	Characteristics: Transitive
+	Characteristics: Symmetric
 
 ObjectProperty: bim:é_concomitante_com
 	SubPropertyOf: bim:p_planejar
@@ -2100,6 +2203,7 @@ ObjectProperty: bim:é_concomitante_com
 	Range: bim:Projeto
 	Annotations: rdfs:label "Propriedade para planejar: é_concomitante_com"@pt
 	Characteristics: Transitive
+	Characteristics: Symmetric
 
 ObjectProperty: bim:p_planejar
 	SubPropertyOf: bim:BIMProp
@@ -2107,6 +2211,7 @@ ObjectProperty: bim:p_planejar
 	Range: bim:Projeto
 	Annotations: rdfs:label "Propriedade para planejar: é_simultâneo_a"@pt
 	Characteristics: Transitive
+	Characteristics: Symmetric
 
 ObjectProperty: bim:é_simultâneo_a
 	SubPropertyOf: bim:p_planejar
@@ -2114,6 +2219,7 @@ ObjectProperty: bim:é_simultâneo_a
 	Range: bim:Projeto
 	Annotations: rdfs:label "Propriedade para planejar: é_simultâneo_a"@pt
 	Characteristics: Transitive
+	Characteristics: Symmetric
 
 ObjectProperty: bim:p_planejar
 	SubPropertyOf: bim:BIMProp
@@ -2283,6 +2389,250 @@ ObjectProperty: bim:é_regulamento
 	Range: bim:Projeto
 	Annotations: rdfs:label "Propriedade para normatizar: é_regulamento"@pt
 
+ObjectProperty: bim:p_medir
+	SubPropertyOf: bim:BIMProp
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_volume"@pt
+	Characteristics: Functional
+
+ObjectProperty: bim:tem_volume
+	SubPropertyOf: bim:p_medir
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_volume"@pt
+	Characteristics: Functional
+
+ObjectProperty: bim:p_medir
+	SubPropertyOf: bim:BIMProp
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_área"@pt
+	Characteristics: Functional
+
+ObjectProperty: bim:tem_área
+	SubPropertyOf: bim:p_medir
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_área"@pt
+	Characteristics: Functional
+
+ObjectProperty: bim:p_medir
+	SubPropertyOf: bim:BIMProp
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_área_bruta"@pt
+	Characteristics: Functional
+
+ObjectProperty: bim:tem_área_bruta
+	SubPropertyOf: bim:p_medir
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_área_bruta"@pt
+	Characteristics: Functional
+
+ObjectProperty: bim:p_medir
+	SubPropertyOf: bim:BIMProp
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_área_útil"@pt
+	Characteristics: Functional
+
+ObjectProperty: bim:tem_área_útil
+	SubPropertyOf: bim:p_medir
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_área_útil"@pt
+	Characteristics: Functional
+
+ObjectProperty: bim:p_medir
+	SubPropertyOf: bim:BIMProp
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_altura"@pt
+	Characteristics: Functional
+
+ObjectProperty: bim:tem_altura
+	SubPropertyOf: bim:p_medir
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_altura"@pt
+	Characteristics: Functional
+
+ObjectProperty: bim:p_medir
+	SubPropertyOf: bim:BIMProp
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_comprimento"@pt
+	Characteristics: Functional
+
+ObjectProperty: bim:tem_comprimento
+	SubPropertyOf: bim:p_medir
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_comprimento"@pt
+	Characteristics: Functional
+
+ObjectProperty: bim:p_medir
+	SubPropertyOf: bim:BIMProp
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_largura"@pt
+	Characteristics: Functional
+
+ObjectProperty: bim:tem_largura
+	SubPropertyOf: bim:p_medir
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_largura"@pt
+	Characteristics: Functional
+
+ObjectProperty: bim:p_medir
+	SubPropertyOf: bim:BIMProp
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_profundidade"@pt
+	Characteristics: Functional
+
+ObjectProperty: bim:tem_profundidade
+	SubPropertyOf: bim:p_medir
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_profundidade"@pt
+	Characteristics: Functional
+
+ObjectProperty: bim:p_medir
+	SubPropertyOf: bim:BIMProp
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_espessura"@pt
+	Characteristics: Functional
+
+ObjectProperty: bim:tem_espessura
+	SubPropertyOf: bim:p_medir
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_espessura"@pt
+	Characteristics: Functional
+
+ObjectProperty: bim:p_medir
+	SubPropertyOf: bim:BIMProp
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_pédireito"@pt
+	Characteristics: Functional
+
+ObjectProperty: bim:tem_pédireito
+	SubPropertyOf: bim:p_medir
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_pédireito"@pt
+	Characteristics: Functional
+
+ObjectProperty: bim:p_medir
+	SubPropertyOf: bim:BIMProp
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_diámetro"@pt
+	Characteristics: Functional
+
+ObjectProperty: bim:tem_diámetro
+	SubPropertyOf: bim:p_medir
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_diámetro"@pt
+	Characteristics: Functional
+
+ObjectProperty: bim:p_medir
+	SubPropertyOf: bim:BIMProp
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_diámetro_interno"@pt
+	Characteristics: Functional
+
+ObjectProperty: bim:tem_diámetro_interno
+	SubPropertyOf: bim:p_medir
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_diámetro_interno"@pt
+	Characteristics: Functional
+
+ObjectProperty: bim:p_medir
+	SubPropertyOf: bim:BIMProp
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_diámetro_externo"@pt
+	Characteristics: Functional
+
+ObjectProperty: bim:tem_diámetro_externo
+	SubPropertyOf: bim:p_medir
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_diámetro_externo"@pt
+	Characteristics: Functional
+
+ObjectProperty: bim:p_medir
+	SubPropertyOf: bim:BIMProp
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_raio"@pt
+	Characteristics: Functional
+
+ObjectProperty: bim:tem_raio
+	SubPropertyOf: bim:p_medir
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para medir: tem_raio"@pt
+	Characteristics: Functional
+
+ObjectProperty: bim:p_contar
+	SubPropertyOf: bim:BIMProp
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para contar: tem_quantidade"@pt
+
+ObjectProperty: bim:tem_quantidade
+	SubPropertyOf: bim:p_contar
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para contar: tem_quantidade"@pt
+
+ObjectProperty: bim:p_contar
+	SubPropertyOf: bim:BIMProp
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para contar: tem_módulo"@pt
+
+ObjectProperty: bim:tem_módulo
+	SubPropertyOf: bim:p_contar
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para contar: tem_módulo"@pt
+
+ObjectProperty: bim:p_pesar
+	SubPropertyOf: bim:BIMProp
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para pesar: tem_densidade"@pt
+
+ObjectProperty: bim:tem_densidade
+	SubPropertyOf: bim:p_pesar
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para pesar: tem_densidade"@pt
+
+ObjectProperty: bim:p_pesar
+	SubPropertyOf: bim:BIMProp
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para pesar: tem_peso"@pt
+
+ObjectProperty: bim:tem_peso
+	SubPropertyOf: bim:p_pesar
+	Domain: bim:BIM
+	Range: bim:Projeto
+	Annotations: rdfs:label "Propriedade para pesar: tem_peso"@pt
+
 DataProperty: bim:d_endereçar
 	SubPropertyOf: bim:BIMData
 	Domain: bim:BIM
@@ -2330,6 +2680,30 @@ DataProperty: bim:cidade
 	Domain: bim:BIM
 	Range: xsd:string
 	Annotations: rdfs:label "Dado para endereçar: cidade ( xsd:string )"@pt
+
+DataProperty: bim:d_endereçar
+	SubPropertyOf: bim:BIMData
+	Domain: bim:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para endereçar: area_planejamento ( xsd:string )"@pt
+
+DataProperty: bim:area_planejamento
+	SubPropertyOf: bim:d_endereçar
+	Domain: bim:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para endereçar: area_planejamento ( xsd:string )"@pt
+
+DataProperty: bim:d_endereçar
+	SubPropertyOf: bim:BIMData
+	Domain: bim:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para endereçar: região_administrativa ( xsd:string )"@pt
+
+DataProperty: bim:região_administrativa
+	SubPropertyOf: bim:d_endereçar
+	Domain: bim:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para endereçar: região_administrativa ( xsd:string )"@pt
 
 DataProperty: bim:d_endereçar
 	SubPropertyOf: bim:BIMData
@@ -2383,61 +2757,49 @@ DataProperty: bim:d_endereçar
 	SubPropertyOf: bim:BIMData
 	Domain: bim:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para endereçar: conj ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para endereçar: cnj ( xsd:string )"@pt
 
-DataProperty: bim:conj
+DataProperty: bim:cnj
 	SubPropertyOf: bim:d_endereçar
 	Domain: bim:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para endereçar: conj ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para endereçar: cnj ( xsd:string )"@pt
 
 DataProperty: bim:d_endereçar
 	SubPropertyOf: bim:BIMData
 	Domain: bim:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para endereçar: grpo ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para endereçar: grp ( xsd:string )"@pt
 
-DataProperty: bim:grpo
+DataProperty: bim:grp
 	SubPropertyOf: bim:d_endereçar
 	Domain: bim:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para endereçar: grpo ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para endereçar: grp ( xsd:string )"@pt
 
 DataProperty: bim:d_endereçar
 	SubPropertyOf: bim:BIMData
 	Domain: bim:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para endereçar: bloc ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para endereçar: bloco ( xsd:string )"@pt
 
-DataProperty: bim:bloc
+DataProperty: bim:bloco
 	SubPropertyOf: bim:d_endereçar
 	Domain: bim:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para endereçar: bloc ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para endereçar: bloco ( xsd:string )"@pt
 
 DataProperty: bim:d_endereçar
 	SubPropertyOf: bim:BIMData
 	Domain: bim:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para endereçar: area_planejamento ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para endereçar: andar ( xsd:string )"@pt
 
-DataProperty: bim:area_planejamento
+DataProperty: bim:andar
 	SubPropertyOf: bim:d_endereçar
 	Domain: bim:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para endereçar: area_planejamento ( xsd:string )"@pt
-
-DataProperty: bim:d_endereçar
-	SubPropertyOf: bim:BIMData
-	Domain: bim:BIM
-	Range: xsd:string
-	Annotations: rdfs:label "Dado para endereçar: região_administrativa ( xsd:string )"@pt
-
-DataProperty: bim:região_administrativa
-	SubPropertyOf: bim:d_endereçar
-	Domain: bim:BIM
-	Range: xsd:string
-	Annotations: rdfs:label "Dado para endereçar: região_administrativa ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para endereçar: andar ( xsd:string )"@pt
 
 DataProperty: bim:d_endereçar
 	SubPropertyOf: bim:BIMData
@@ -2575,37 +2937,25 @@ DataProperty: bim:d_classificar
 	SubPropertyOf: bim:BIMData
 	Domain: bim:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para classificar: categoria ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para classificar: categoria_revit ( xsd:string )"@pt
 
-DataProperty: bim:categoria
+DataProperty: bim:categoria_revit
 	SubPropertyOf: bim:d_classificar
 	Domain: bim:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para classificar: categoria ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para classificar: categoria_revit ( xsd:string )"@pt
 
 DataProperty: bim:d_classificar
 	SubPropertyOf: bim:BIMData
 	Domain: bim:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para classificar: classe ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para classificar: classe_ifc ( xsd:string )"@pt
 
-DataProperty: bim:classe
+DataProperty: bim:classe_ifc
 	SubPropertyOf: bim:d_classificar
 	Domain: bim:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para classificar: classe ( xsd:string )"@pt
-
-DataProperty: bim:d_classificar
-	SubPropertyOf: bim:BIMData
-	Domain: bim:BIM
-	Range: xsd:string
-	Annotations: rdfs:label "Dado para classificar: tipo ( xsd:string )"@pt
-
-DataProperty: bim:tipo
-	SubPropertyOf: bim:d_classificar
-	Domain: bim:BIM
-	Range: xsd:string
-	Annotations: rdfs:label "Dado para classificar: tipo ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para classificar: classe_ifc ( xsd:string )"@pt
 
 DataProperty: bim:d_classificar
 	SubPropertyOf: bim:BIMData
@@ -2691,41 +3041,101 @@ DataProperty: bim:uri
 	Range: xsd:string
 	Annotations: rdfs:label "Dado para identificar: uri ( xsd:string )"@pt
 
-DataProperty: bim:d_identificar
+DataProperty: bim:d_catalogar
 	SubPropertyOf: bim:BIMData
 	Domain: bim:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para identificar: tema ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para catalogar: modelo ( xsd:string )"@pt
+
+DataProperty: bim:modelo
+	SubPropertyOf: bim:d_catalogar
+	Domain: bim:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para catalogar: modelo ( xsd:string )"@pt
+
+DataProperty: bim:d_catalogar
+	SubPropertyOf: bim:BIMData
+	Domain: bim:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para catalogar: tema ( xsd:string )"@pt
 
 DataProperty: bim:tema
-	SubPropertyOf: bim:d_identificar
+	SubPropertyOf: bim:d_catalogar
 	Domain: bim:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para identificar: tema ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para catalogar: tema ( xsd:string )"@pt
 
-DataProperty: bim:d_identificar
+DataProperty: bim:d_catalogar
 	SubPropertyOf: bim:BIMData
 	Domain: bim:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para identificar: vol ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para catalogar: tipo ( xsd:string )"@pt
+
+DataProperty: bim:tipo
+	SubPropertyOf: bim:d_catalogar
+	Domain: bim:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para catalogar: tipo ( xsd:string )"@pt
+
+DataProperty: bim:d_catalogar
+	SubPropertyOf: bim:BIMData
+	Domain: bim:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para catalogar: série ( xsd:string )"@pt
+
+DataProperty: bim:série
+	SubPropertyOf: bim:d_catalogar
+	Domain: bim:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para catalogar: série ( xsd:string )"@pt
+
+DataProperty: bim:d_catalogar
+	SubPropertyOf: bim:BIMData
+	Domain: bim:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para catalogar: linha ( xsd:string )"@pt
+
+DataProperty: bim:linha
+	SubPropertyOf: bim:d_catalogar
+	Domain: bim:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para catalogar: linha ( xsd:string )"@pt
+
+DataProperty: bim:d_catalogar
+	SubPropertyOf: bim:BIMData
+	Domain: bim:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para catalogar: item ( xsd:string )"@pt
+
+DataProperty: bim:item
+	SubPropertyOf: bim:d_catalogar
+	Domain: bim:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para catalogar: item ( xsd:string )"@pt
+
+DataProperty: bim:d_catalogar
+	SubPropertyOf: bim:BIMData
+	Domain: bim:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para catalogar: vol ( xsd:string )"@pt
 
 DataProperty: bim:vol
-	SubPropertyOf: bim:d_identificar
+	SubPropertyOf: bim:d_catalogar
 	Domain: bim:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para identificar: vol ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para catalogar: vol ( xsd:string )"@pt
 
-DataProperty: bim:d_identificar
+DataProperty: bim:d_catalogar
 	SubPropertyOf: bim:BIMData
 	Domain: bim:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para identificar: descrição ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para catalogar: descrição ( xsd:string )"@pt
 
 DataProperty: bim:descrição
-	SubPropertyOf: bim:d_identificar
+	SubPropertyOf: bim:d_catalogar
 	Domain: bim:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para identificar: descrição ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para catalogar: descrição ( xsd:string )"@pt
 
 DataProperty: bim:d_definir
 	SubPropertyOf: bim:BIMData
@@ -2815,6 +3225,18 @@ DataProperty: bim:d_administrar
 	SubPropertyOf: bim:BIMData
 	Domain: bim:BIM
 	Range: xsd:string
+	Annotations: rdfs:label "Dado para administrar: privado ( xsd:string )"@pt
+
+DataProperty: bim:privado
+	SubPropertyOf: bim:d_administrar
+	Domain: bim:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para administrar: privado ( xsd:string )"@pt
+
+DataProperty: bim:d_administrar
+	SubPropertyOf: bim:BIMData
+	Domain: bim:BIM
+	Range: xsd:string
 	Annotations: rdfs:label "Dado para administrar: órgão ( xsd:string )"@pt
 
 DataProperty: bim:órgão
@@ -2822,6 +3244,18 @@ DataProperty: bim:órgão
 	Domain: bim:BIM
 	Range: xsd:string
 	Annotations: rdfs:label "Dado para administrar: órgão ( xsd:string )"@pt
+
+DataProperty: bim:d_administrar
+	SubPropertyOf: bim:BIMData
+	Domain: bim:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para administrar: unid_académica ( xsd:string )"@pt
+
+DataProperty: bim:unid_académica
+	SubPropertyOf: bim:d_administrar
+	Domain: bim:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para administrar: unid_académica ( xsd:string )"@pt
 
 DataProperty: bim:d_administrar
 	SubPropertyOf: bim:BIMData
@@ -2851,13 +3285,25 @@ DataProperty: bim:d_administrar
 	SubPropertyOf: bim:BIMData
 	Domain: bim:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para administrar: zona ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para administrar: departamento ( xsd:string )"@pt
 
-DataProperty: bim:zona
+DataProperty: bim:departamento
 	SubPropertyOf: bim:d_administrar
 	Domain: bim:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para administrar: zona ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para administrar: departamento ( xsd:string )"@pt
+
+DataProperty: bim:d_administrar
+	SubPropertyOf: bim:BIMData
+	Domain: bim:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para administrar: divisão ( xsd:string )"@pt
+
+DataProperty: bim:divisão
+	SubPropertyOf: bim:d_administrar
+	Domain: bim:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para administrar: divisão ( xsd:string )"@pt
 
 DataProperty: bim:d_administrar
 	SubPropertyOf: bim:BIMData
@@ -2887,25 +3333,13 @@ DataProperty: bim:d_administrar
 	SubPropertyOf: bim:BIMData
 	Domain: bim:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para administrar: divisão ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para administrar: zona ( xsd:string )"@pt
 
-DataProperty: bim:divisão
+DataProperty: bim:zona
 	SubPropertyOf: bim:d_administrar
 	Domain: bim:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para administrar: divisão ( xsd:string )"@pt
-
-DataProperty: bim:d_administrar
-	SubPropertyOf: bim:BIMData
-	Domain: bim:BIM
-	Range: xsd:string
-	Annotations: rdfs:label "Dado para administrar: departamento ( xsd:string )"@pt
-
-DataProperty: bim:departamento
-	SubPropertyOf: bim:d_administrar
-	Domain: bim:BIM
-	Range: xsd:string
-	Annotations: rdfs:label "Dado para administrar: departamento ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para administrar: zona ( xsd:string )"@pt
 
 DataProperty: bim:d_contratar
 	SubPropertyOf: bim:BIMData
@@ -2919,29 +3353,29 @@ DataProperty: bim:contrato
 	Range: xsd:string
 	Annotations: rdfs:label "Dado para contratar: contrato ( xsd:string )"@pt
 
+DataProperty: bim:d_administrar
+	SubPropertyOf: bim:BIMData
+	Domain: bim:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para administrar: contratado ( xsd:string )"@pt
+
+DataProperty: bim:contratado
+	SubPropertyOf: bim:d_administrar
+	Domain: bim:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para administrar: contratado ( xsd:string )"@pt
+
 DataProperty: bim:d_contratar
 	SubPropertyOf: bim:BIMData
 	Domain: bim:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para contratar: empresa ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para contratar: contratante ( xsd:string )"@pt
 
-DataProperty: bim:empresa
+DataProperty: bim:contratante
 	SubPropertyOf: bim:d_contratar
 	Domain: bim:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para contratar: empresa ( xsd:string )"@pt
-
-DataProperty: bim:d_contratar
-	SubPropertyOf: bim:BIMData
-	Domain: bim:BIM
-	Range: xsd:string
-	Annotations: rdfs:label "Dado para contratar: contratista ( xsd:string )"@pt
-
-DataProperty: bim:contratista
-	SubPropertyOf: bim:d_contratar
-	Domain: bim:BIM
-	Range: xsd:string
-	Annotations: rdfs:label "Dado para contratar: contratista ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para contratar: contratante ( xsd:string )"@pt
 
 DataProperty: bim:d_contratar
 	SubPropertyOf: bim:BIMData
@@ -2954,6 +3388,18 @@ DataProperty: bim:subcontratista
 	Domain: bim:BIM
 	Range: xsd:string
 	Annotations: rdfs:label "Dado para contratar: subcontratista ( xsd:string )"@pt
+
+DataProperty: bim:d_contratar
+	SubPropertyOf: bim:BIMData
+	Domain: bim:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para contratar: empresa ( xsd:string )"@pt
+
+DataProperty: bim:empresa
+	SubPropertyOf: bim:d_contratar
+	Domain: bim:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para contratar: empresa ( xsd:string )"@pt
 
 DataProperty: bim:d_contratar
 	SubPropertyOf: bim:BIMData
@@ -3019,18 +3465,6 @@ DataProperty: bim:d_durar
 	SubPropertyOf: bim:BIMData
 	Domain: bim:BIM
 	Range: xsd:dateTime
-	Annotations: rdfs:label "Dado para durar: duração ( xsd:dateTime )"@pt
-
-DataProperty: bim:duração
-	SubPropertyOf: bim:d_durar
-	Domain: bim:BIM
-	Range: xsd:dateTime
-	Annotations: rdfs:label "Dado para durar: duração ( xsd:dateTime )"@pt
-
-DataProperty: bim:d_durar
-	SubPropertyOf: bim:BIMData
-	Domain: bim:BIM
-	Range: xsd:dateTime
 	Annotations: rdfs:label "Dado para durar: data ( xsd:dateTime )"@pt
 
 DataProperty: bim:data
@@ -3062,6 +3496,18 @@ DataProperty: bim:data_final
 	Domain: bim:BIM
 	Range: xsd:dateTime
 	Annotations: rdfs:label "Dado para durar: data_final ( xsd:dateTime )"@pt
+
+DataProperty: bim:d_durar
+	SubPropertyOf: bim:BIMData
+	Domain: bim:BIM
+	Range: xsd:dateTime
+	Annotations: rdfs:label "Dado para durar: duração ( xsd:dateTime )"@pt
+
+DataProperty: bim:duração
+	SubPropertyOf: bim:d_durar
+	Domain: bim:BIM
+	Range: xsd:dateTime
+	Annotations: rdfs:label "Dado para durar: duração ( xsd:dateTime )"@pt
 
 DataProperty: bim:d_durar
 	SubPropertyOf: bim:BIMData
@@ -3291,6 +3737,222 @@ DataProperty: bim:regulamento
 	Range: xsd:string
 	Annotations: rdfs:label "Dado para normatizar: regulamento ( xsd:string )"@pt
 
+DataProperty: bim:d_medir
+	SubPropertyOf: bim:BIMData
+	Domain: bim:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: volume ( xsd:double )"@pt
+
+DataProperty: bim:volume
+	SubPropertyOf: bim:d_medir
+	Domain: bim:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: volume ( xsd:double )"@pt
+
+DataProperty: bim:d_medir
+	SubPropertyOf: bim:BIMData
+	Domain: bim:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: área ( xsd:double )"@pt
+
+DataProperty: bim:área
+	SubPropertyOf: bim:d_medir
+	Domain: bim:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: área ( xsd:double )"@pt
+
+DataProperty: bim:d_medir
+	SubPropertyOf: bim:BIMData
+	Domain: bim:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: área_bruta ( xsd:double )"@pt
+
+DataProperty: bim:área_bruta
+	SubPropertyOf: bim:d_medir
+	Domain: bim:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: área_bruta ( xsd:double )"@pt
+
+DataProperty: bim:d_medir
+	SubPropertyOf: bim:BIMData
+	Domain: bim:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: área_útil ( xsd:double )"@pt
+
+DataProperty: bim:área_útil
+	SubPropertyOf: bim:d_medir
+	Domain: bim:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: área_útil ( xsd:double )"@pt
+
+DataProperty: bim:d_medir
+	SubPropertyOf: bim:BIMData
+	Domain: bim:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: altura ( xsd:double )"@pt
+
+DataProperty: bim:altura
+	SubPropertyOf: bim:d_medir
+	Domain: bim:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: altura ( xsd:double )"@pt
+
+DataProperty: bim:d_medir
+	SubPropertyOf: bim:BIMData
+	Domain: bim:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: comprimento ( xsd:double )"@pt
+
+DataProperty: bim:comprimento
+	SubPropertyOf: bim:d_medir
+	Domain: bim:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: comprimento ( xsd:double )"@pt
+
+DataProperty: bim:d_medir
+	SubPropertyOf: bim:BIMData
+	Domain: bim:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: largura ( xsd:double )"@pt
+
+DataProperty: bim:largura
+	SubPropertyOf: bim:d_medir
+	Domain: bim:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: largura ( xsd:double )"@pt
+
+DataProperty: bim:d_medir
+	SubPropertyOf: bim:BIMData
+	Domain: bim:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: profundidade ( xsd:double )"@pt
+
+DataProperty: bim:profundidade
+	SubPropertyOf: bim:d_medir
+	Domain: bim:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: profundidade ( xsd:double )"@pt
+
+DataProperty: bim:d_medir
+	SubPropertyOf: bim:BIMData
+	Domain: bim:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: espessura ( xsd:double )"@pt
+
+DataProperty: bim:espessura
+	SubPropertyOf: bim:d_medir
+	Domain: bim:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: espessura ( xsd:double )"@pt
+
+DataProperty: bim:d_medir
+	SubPropertyOf: bim:BIMData
+	Domain: bim:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: pédireito ( xsd:double )"@pt
+
+DataProperty: bim:pédireito
+	SubPropertyOf: bim:d_medir
+	Domain: bim:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: pédireito ( xsd:double )"@pt
+
+DataProperty: bim:d_medir
+	SubPropertyOf: bim:BIMData
+	Domain: bim:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: diámetro ( xsd:double )"@pt
+
+DataProperty: bim:diámetro
+	SubPropertyOf: bim:d_medir
+	Domain: bim:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: diámetro ( xsd:double )"@pt
+
+DataProperty: bim:d_medir
+	SubPropertyOf: bim:BIMData
+	Domain: bim:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: diámetro_interno ( xsd:double )"@pt
+
+DataProperty: bim:diámetro_interno
+	SubPropertyOf: bim:d_medir
+	Domain: bim:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: diámetro_interno ( xsd:double )"@pt
+
+DataProperty: bim:d_medir
+	SubPropertyOf: bim:BIMData
+	Domain: bim:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: diámetro_externo ( xsd:double )"@pt
+
+DataProperty: bim:diámetro_externo
+	SubPropertyOf: bim:d_medir
+	Domain: bim:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: diámetro_externo ( xsd:double )"@pt
+
+DataProperty: bim:d_medir
+	SubPropertyOf: bim:BIMData
+	Domain: bim:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: raio ( xsd:double )"@pt
+
+DataProperty: bim:raio
+	SubPropertyOf: bim:d_medir
+	Domain: bim:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para medir: raio ( xsd:double )"@pt
+
+DataProperty: bim:d_contar
+	SubPropertyOf: bim:BIMData
+	Domain: bim:BIM
+	Range: xsd:integer
+	Annotations: rdfs:label "Dado para contar: quantidade ( xsd:integer )"@pt
+
+DataProperty: bim:quantidade
+	SubPropertyOf: bim:d_contar
+	Domain: bim:BIM
+	Range: xsd:integer
+	Annotations: rdfs:label "Dado para contar: quantidade ( xsd:integer )"@pt
+
+DataProperty: bim:d_contar
+	SubPropertyOf: bim:BIMData
+	Domain: bim:BIM
+	Range: xsd:integer
+	Annotations: rdfs:label "Dado para contar: módulo ( xsd:integer )"@pt
+
+DataProperty: bim:módulo
+	SubPropertyOf: bim:d_contar
+	Domain: bim:BIM
+	Range: xsd:integer
+	Annotations: rdfs:label "Dado para contar: módulo ( xsd:integer )"@pt
+
+DataProperty: bim:d_pesar
+	SubPropertyOf: bim:BIMData
+	Domain: bim:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para pesar: densidade ( xsd:double )"@pt
+
+DataProperty: bim:densidade
+	SubPropertyOf: bim:d_pesar
+	Domain: bim:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para pesar: densidade ( xsd:double )"@pt
+
+DataProperty: bim:d_pesar
+	SubPropertyOf: bim:BIMData
+	Domain: bim:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para pesar: peso ( xsd:double )"@pt
+
+DataProperty: bim:peso
+	SubPropertyOf: bim:d_pesar
+	Domain: bim:BIM
+	Range: xsd:double
+	Annotations: rdfs:label "Dado para pesar: peso ( xsd:double )"@pt
+
 Individual: bim:Data.Inicial
 	Types: bim:Calendário
 	Facts: bim:descrição  "Data Inicial do empreendimento."
@@ -3352,47 +4014,47 @@ Individual: bim:Dur.P
 	Facts: bim:nome  "Dur  P"
 
 Individual: bim:Global.VU
-	Types: bim:Fase
+	Types: bim:Etapa
 	Facts: bim:descrição  "Processo global da vida util do emprendimento. Engloba todas as etapas."
 	Facts: bim:nome  "Global  VU"
 
 Individual: bim:Concepção
-	Types: bim:Fase
+	Types: bim:Etapa
 	Facts: bim:descrição  "Etapa específica: uma etapa necessária durante a concepção."
 	Facts: bim:nome  "Fase de concepção"
 
 Individual: bim:Legalização
-	Types: bim:Fase
+	Types: bim:Etapa
 	Facts: bim:é_posterior_a  bim:Concepção
 	Facts: bim:descrição  "Etapa específica: uma etapa necessária durante a legalização."
 	Facts: bim:nome  "Fase de legalização"
 
 Individual: bim:Definição
-	Types: bim:Fase
+	Types: bim:Etapa
 	Facts: bim:é_posterior_a  bim:Concepção
 	Facts: bim:descrição  "Etapa específica: uma etapa necessária durante a definição projetual."
 	Facts: bim:nome  "Fase de definição"
 
 Individual: bim:Finalização
-	Types: bim:Fase
+	Types: bim:Etapa
 	Facts: bim:é_posterior_a  bim:Concepção
 	Facts: bim:descrição  "Etapa específica: uma etapa necessária durante a finalização projetual."
 	Facts: bim:nome  "Fase de finalização"
 
 Individual: bim:Construtiva
-	Types: bim:Fase
+	Types: bim:Etapa
 	Facts: bim:é_posterior_a  bim:Definição
 	Facts: bim:descrição  "Etapa específica: uma etapa necessária durante a construção."
 	Facts: bim:nome  "Fase de construção"
 
 Individual: bim:Entrega
-	Types: bim:Fase
-	Facts: bim:é_posterior_a  bim:Construtiva
+	Types: bim:Etapa
+	Facts: bim:é_posterior_a  bim:Entrega
 	Facts: bim:descrição  "Etapa específica: uma etapa necessária durante a entrega."
 	Facts: bim:nome  "Fase de entrega"
 
 Individual: bim:Operacional
-	Types: bim:Fase
+	Types: bim:Etapa
 	Facts: bim:é_posterior_a  bim:Construtiva
 	Facts: bim:descrição  "Etapa específica: uma etapa necessária durante a operação."
 	Facts: bim:nome  "Fase de operação"
