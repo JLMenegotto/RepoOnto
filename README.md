@@ -7,10 +7,11 @@
 
 ## Repositório ontologias 
 
-<p align="justify">Foram alocadas 5 ontologias: os objetos Revit e Ifc, o caderno do SomaSUS e a classificação da NBR 15.965.<br></b></p>
+<p align="justify">Foram alocadas 6 capítulos de ontologias<br></b></p>
 
-  * **Ontologia_ABNT_4A.owl**
-  * **Ontologia_CRONO.owl**
-  * **Ontologia_CSUS_4A.owl**
-  * **Ontologia_Objetos_BIM.owl**
-  * **Ontologia_URBA_Rio.owl**
+  * **Ontologia com objetos da ABNT 15.965 (ABNT)**
+  * **Ontologia com conceitos temporais (CRON)**
+  * **Ontologia com conceitos cromáticos (CROM)**
+  * **Ontologia com conceitos do caderno SomaSUS (CSUS)**
+  * **Ontologia com conceitos de objetos Revit e IFC (OBIM)**
+  * **Ontologia com conceitos urbanos e de Rio de Janeiro (URBA)**
