@@ -12,6 +12,7 @@
   * **Ontologia com objetos da ABNT 15.965 (ABNT)**
   * **Ontologia com conceitos temporais (CRON)**
   * **Ontologia com conceitos cromáticos (CROM)**
+  * **Ontologia com conceitos documentais (DOCU)**
   * **Ontologia com conceitos do caderno SomaSUS (CSUS)**
   * **Ontologia com conceitos de objetos Revit e IFC (OBIM)**
   * **Ontologia com conceitos urbanos e de Rio de Janeiro (URBA)**
