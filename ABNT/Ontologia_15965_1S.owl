@@ -27,7 +27,7 @@ Ontology:  <https://github.com/JLMenegotto/RepoOnto#Parte_3_1S>
   Annotations: rdfs:label "NormaReferência2: -"@pt
   Annotations: rdfs:label "NormaReferência3: -"@pt
   Annotations: rdfs:label "Observações: Sistema de classificação ABNT da construção para BIM"@pt
-  Annotations: rdfs:label "DataHora: 05/03/2025 17:05:50"@pt
+  Annotations: rdfs:label "DataHora: 07/03/2025 20:23:45"@pt
   Annotations: rdfs:label "Advertência1: Norma elaborada pela ABNT/CEE-134"@pt
   Annotations: rdfs:label "Prédio: P000001"@pt
   Annotations: rdfs:label "Cidade: Rio de Janeiro"@pt
@@ -207,22 +207,31 @@ ObjectProperty: abnt:tem.bairro
 	Annotations: rdfs:label "end.109"@pt
 	Characteristics: Functional
 
-ObjectProperty: abnt:é.nome.logradouro
+ObjectProperty: abnt:é.nome.do.logradouro
 	SubPropertyOf: abnt:p.endereçar
 	Domain: abnt:BIM
 	Range: abnt:Projeto
-	Annotations: rdfs:label "Propriedade para endereçar: é.nome.logradouro"@pt
+	Annotations: rdfs:label "Propriedade para endereçar: é.nome.do.logradouro"@pt
 	Annotations: rdfs:label "Nome de rua, avenida etc.."@pt
 	Annotations: rdfs:label "end.110"@pt
 	Characteristics: Functional
 
-ObjectProperty: abnt:é.número.de.logradouro
+ObjectProperty: abnt:é.número.do.logradouro
 	SubPropertyOf: abnt:p.endereçar
 	Domain: abnt:BIM
 	Range: abnt:Projeto
-	Annotations: rdfs:label "Propriedade para endereçar: é.número.de.logradouro"@pt
-	Annotations: rdfs:label "Número de endereço."@pt
+	Annotations: rdfs:label "Propriedade para endereçar: é.número.do.logradouro"@pt
+	Annotations: rdfs:label "Número de rua, avenida, etc."@pt
 	Annotations: rdfs:label "end.111"@pt
+	Characteristics: Functional
+
+ObjectProperty: abnt:é.endereço
+	SubPropertyOf: abnt:p.endereçar
+	Domain: abnt:BIM
+	Range: abnt:Projeto
+	Annotations: rdfs:label "Propriedade para endereçar: é.endereço"@pt
+	Annotations: rdfs:label "Endereço geral."@pt
+	Annotations: rdfs:label "end.112"@pt
 	Characteristics: Functional
 
 ObjectProperty: abnt:tem.cnj
@@ -231,7 +240,7 @@ ObjectProperty: abnt:tem.cnj
 	Range: abnt:Projeto
 	Annotations: rdfs:label "Propriedade para endereçar: tem.cnj"@pt
 	Annotations: rdfs:label "Em alguns endereços pode haver Conjunto."@pt
-	Annotations: rdfs:label "end.112"@pt
+	Annotations: rdfs:label "end.113"@pt
 	Characteristics: Functional
 
 ObjectProperty: abnt:tem.grp
@@ -240,7 +249,7 @@ ObjectProperty: abnt:tem.grp
 	Range: abnt:Projeto
 	Annotations: rdfs:label "Propriedade para endereçar: tem.grp"@pt
 	Annotations: rdfs:label "Em alguns endereços pode haver Grupo ."@pt
-	Annotations: rdfs:label "end.113"@pt
+	Annotations: rdfs:label "end.114"@pt
 	Characteristics: Functional
 
 ObjectProperty: abnt:tem.bloco
@@ -249,7 +258,7 @@ ObjectProperty: abnt:tem.bloco
 	Range: abnt:Projeto
 	Annotations: rdfs:label "Propriedade para endereçar: tem.bloco"@pt
 	Annotations: rdfs:label "Em alguns endereços pode haver Bloco."@pt
-	Annotations: rdfs:label "end.114"@pt
+	Annotations: rdfs:label "end.115"@pt
 	Characteristics: Functional
 
 ObjectProperty: abnt:tem.andar
@@ -258,7 +267,7 @@ ObjectProperty: abnt:tem.andar
 	Range: abnt:Projeto
 	Annotations: rdfs:label "Propriedade para endereçar: tem.andar"@pt
 	Annotations: rdfs:label "Nome do andar."@pt
-	Annotations: rdfs:label "end.115"@pt
+	Annotations: rdfs:label "end.116"@pt
 	Characteristics: Functional
 
 ObjectProperty: abnt:tem.cep
@@ -267,7 +276,7 @@ ObjectProperty: abnt:tem.cep
 	Range: abnt:Projeto
 	Annotations: rdfs:label "Propriedade para endereçar: tem.cep"@pt
 	Annotations: rdfs:label "Código de endereçamento postal."@pt
-	Annotations: rdfs:label "end.116"@pt
+	Annotations: rdfs:label "end.117"@pt
 	Characteristics: Functional
 
 ObjectProperty: abnt:tem.caixa.postal
@@ -276,7 +285,7 @@ ObjectProperty: abnt:tem.caixa.postal
 	Range: abnt:Projeto
 	Annotations: rdfs:label "Propriedade para endereçar: tem.caixa.postal"@pt
 	Annotations: rdfs:label "Caixa postal"@pt
-	Annotations: rdfs:label "end.117"@pt
+	Annotations: rdfs:label "end.118"@pt
 	Characteristics: Functional
 
 ObjectProperty: abnt:tem.e.mail
@@ -285,7 +294,7 @@ ObjectProperty: abnt:tem.e.mail
 	Range: abnt:Projeto
 	Annotations: rdfs:label "Propriedade para endereçar: tem.e.mail"@pt
 	Annotations: rdfs:label "Endereço de e-mail."@pt
-	Annotations: rdfs:label "end.118"@pt
+	Annotations: rdfs:label "end.119"@pt
 
 ObjectProperty: abnt:tem.rede.social
 	SubPropertyOf: abnt:p.endereçar
@@ -293,7 +302,7 @@ ObjectProperty: abnt:tem.rede.social
 	Range: abnt:Projeto
 	Annotations: rdfs:label "Propriedade para endereçar: tem.rede.social"@pt
 	Annotations: rdfs:label "Endereço de rede social."@pt
-	Annotations: rdfs:label "end.119"@pt
+	Annotations: rdfs:label "end.120"@pt
 
 ObjectProperty: abnt:p.geolocalizar
 	SubPropertyOf: abnt:BIMProp
@@ -3686,21 +3695,29 @@ DataProperty: abnt:bairro
 	Annotations: rdfs:label "Nome do bairro."@pt
 	Annotations: rdfs:label "end.109"@pt
 
-DataProperty: abnt:nome.logradouro
+DataProperty: abnt:nome.do.logradouro
 	SubPropertyOf: abnt:d.endereçar
 	Domain: abnt:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para endereçar: nome.logradouro ( xsd:string )"@pt
+	Annotations: rdfs:label "Dado para endereçar: nome.do.logradouro ( xsd:string )"@pt
 	Annotations: rdfs:label "Nome de rua, avenida etc.."@pt
 	Annotations: rdfs:label "end.110"@pt
 
-DataProperty: abnt:número.de.logradouro
+DataProperty: abnt:número.do.logradouro
 	SubPropertyOf: abnt:d.endereçar
 	Domain: abnt:BIM
 	Range: xsd:string
-	Annotations: rdfs:label "Dado para endereçar: número.de.logradouro ( xsd:string )"@pt
-	Annotations: rdfs:label "Número de endereço."@pt
+	Annotations: rdfs:label "Dado para endereçar: número.do.logradouro ( xsd:string )"@pt
+	Annotations: rdfs:label "Número de rua, avenida, etc."@pt
 	Annotations: rdfs:label "end.111"@pt
+
+DataProperty: abnt:endereço
+	SubPropertyOf: abnt:d.endereçar
+	Domain: abnt:BIM
+	Range: xsd:string
+	Annotations: rdfs:label "Dado para endereçar: endereço ( xsd:string )"@pt
+	Annotations: rdfs:label "Endereço geral."@pt
+	Annotations: rdfs:label "end.112"@pt
 
 DataProperty: abnt:cnj
 	SubPropertyOf: abnt:d.endereçar
@@ -3708,7 +3725,7 @@ DataProperty: abnt:cnj
 	Range: xsd:string
 	Annotations: rdfs:label "Dado para endereçar: cnj ( xsd:string )"@pt
 	Annotations: rdfs:label "Em alguns endereços pode haver Conjunto."@pt
-	Annotations: rdfs:label "end.112"@pt
+	Annotations: rdfs:label "end.113"@pt
 
 DataProperty: abnt:grp
 	SubPropertyOf: abnt:d.endereçar
@@ -3716,7 +3733,7 @@ DataProperty: abnt:grp
 	Range: xsd:string
 	Annotations: rdfs:label "Dado para endereçar: grp ( xsd:string )"@pt
 	Annotations: rdfs:label "Em alguns endereços pode haver Grupo ."@pt
-	Annotations: rdfs:label "end.113"@pt
+	Annotations: rdfs:label "end.114"@pt
 
 DataProperty: abnt:bloco
 	SubPropertyOf: abnt:d.endereçar
@@ -3724,7 +3741,7 @@ DataProperty: abnt:bloco
 	Range: xsd:string
 	Annotations: rdfs:label "Dado para endereçar: bloco ( xsd:string )"@pt
 	Annotations: rdfs:label "Em alguns endereços pode haver Bloco."@pt
-	Annotations: rdfs:label "end.114"@pt
+	Annotations: rdfs:label "end.115"@pt
 
 DataProperty: abnt:andar
 	SubPropertyOf: abnt:d.endereçar
@@ -3732,7 +3749,7 @@ DataProperty: abnt:andar
 	Range: xsd:string
 	Annotations: rdfs:label "Dado para endereçar: andar ( xsd:string )"@pt
 	Annotations: rdfs:label "Nome do andar."@pt
-	Annotations: rdfs:label "end.115"@pt
+	Annotations: rdfs:label "end.116"@pt
 
 DataProperty: abnt:cep
 	SubPropertyOf: abnt:d.endereçar
@@ -3740,7 +3757,7 @@ DataProperty: abnt:cep
 	Range: xsd:string
 	Annotations: rdfs:label "Dado para endereçar: cep ( xsd:string )"@pt
 	Annotations: rdfs:label "Código de endereçamento postal."@pt
-	Annotations: rdfs:label "end.116"@pt
+	Annotations: rdfs:label "end.117"@pt
 
 DataProperty: abnt:caixa.postal
 	SubPropertyOf: abnt:d.endereçar
@@ -3748,7 +3765,7 @@ DataProperty: abnt:caixa.postal
 	Range: xsd:string
 	Annotations: rdfs:label "Dado para endereçar: caixa.postal ( xsd:string )"@pt
 	Annotations: rdfs:label "Caixa postal"@pt
-	Annotations: rdfs:label "end.117"@pt
+	Annotations: rdfs:label "end.118"@pt
 
 DataProperty: abnt:e.mail
 	SubPropertyOf: abnt:d.endereçar
@@ -3756,7 +3773,7 @@ DataProperty: abnt:e.mail
 	Range: xsd:string
 	Annotations: rdfs:label "Dado para endereçar: e.mail ( xsd:string )"@pt
 	Annotations: rdfs:label "Endereço de e-mail."@pt
-	Annotations: rdfs:label "end.118"@pt
+	Annotations: rdfs:label "end.119"@pt
 
 DataProperty: abnt:rede.social
 	SubPropertyOf: abnt:d.endereçar
@@ -3764,7 +3781,7 @@ DataProperty: abnt:rede.social
 	Range: xsd:string
 	Annotations: rdfs:label "Dado para endereçar: rede.social ( xsd:string )"@pt
 	Annotations: rdfs:label "Endereço de rede social."@pt
-	Annotations: rdfs:label "end.119"@pt
+	Annotations: rdfs:label "end.120"@pt
 
 DataProperty: abnt:d.geolocalizar
 	SubPropertyOf: abnt:BIMData
