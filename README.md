@@ -10,6 +10,7 @@
 <p align="justify">Foram alocadas 6 capítulos de ontologias<br></b></p>
 
   * **Ontologia com objetos da ABNT 15.965 (ABNT)**
+  * **Ontologia com conceitos de ambientes e Fatos do Instituto de Macromoléculas da UFRJ (AMBI)**
   * **Ontologia com conceitos temporais (CRON)**
   * **Ontologia com conceitos cromáticos (CROM)**
   * **Ontologia com conceitos documentais (DOCU)**
