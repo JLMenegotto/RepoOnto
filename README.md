@@ -7,13 +7,13 @@
 
 ## Repositório ontologias 
 
-<p align="justify">Foram alocadas 6 capítulos de ontologias<br></b></p>
+<p align="justify">Foram alocados os seguintes capítulos de ontologias<br></b></p>
 
-  * **Ontologia com objetos da ABNT 15.965 (ABNT)**
+  * **Ontologia com conceitos de objetos normativos e Fatos da ABNT 15.965 (ABNT)**
   * **Ontologia com conceitos de ambientes e Fatos do Instituto de Macromoléculas da UFRJ (AMBI)**
   * **Ontologia com conceitos temporais (CRON)**
   * **Ontologia com conceitos cromáticos (CROM)**
   * **Ontologia com conceitos documentais (DOCU)**
-  * **Ontologia com conceitos do caderno SomaSUS (CSUS)**
+  * **Ontologia com conceitos de objetos normativos e Fatos do caderno SomaSUS (CSUS)**
   * **Ontologia com conceitos de objetos Revit e IFC (OBIM)**
-  * **Ontologia com conceitos urbanos e de Rio de Janeiro (URBA)**
+  * **Ontologia com conceitos urbanos e Fatos do Rio de Janeiro (URBA)**
