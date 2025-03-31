@@ -10668,7 +10668,11 @@ Individual: bim:Decreto.09983.2019
 
 Individual: bim:Decreto.10306.2020
 	Types: bim:Decreto
-	Facts: bim:descrição  "Estabelece o uso de BIM na execução direta ou indireta de obras e serviços de engenharia pelos órgãos e entidades da administração pública federal"
+	Facts: bim:descrição  "Estabelece o uso de BIM na execução direta ou indireta de obras e serviços de engenharia pelos órgãos e entidades da administração pública federal."
+
+Individual: bim:Decreto.11888.2024
+	Types: bim:Decreto
+	Facts: bim:descrição  "Dispõe sobre a Estratégia Nacional de Disseminação do BIM no Brasil - Estratégia BIM BR e institui o Comitê Gestor da Estratégia do BIM BR."
 
 
 ##Fatos do Modelo BIM ---------------------------------------------------------
