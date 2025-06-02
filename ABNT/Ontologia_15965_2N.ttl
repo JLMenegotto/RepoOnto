@@ -1,31 +1,31 @@
 
-@prefix : <https://github.com/JLMenegotto/RepoOnto#Parte_3_1D> .
+@prefix : <https://github.com/JLMenegotto/RepoOnto#Parte_4_2N> .
 @prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
 @prefix xml:  <http://www.w3.org/XML/1998/namespace> .
 @prefix owl:  <http://www.w3.org/2002/07/owl#> .
 @prefix bim:  <https://github.com/JLMenegotto/RepoOnto#> .
-@base  <https://github.com/JLMenegotto/RepoOnto#Parte_3_1D> .
+@base  <https://github.com/JLMenegotto/RepoOnto#Parte_4_2N> .
 
-<https://github.com/JLMenegotto/RepoOnto#Parte_3_1D> rdf:type owl:Ontology ; 
+<https://github.com/JLMenegotto/RepoOnto#Parte_4_2N> rdf:type owl:Ontology ; 
 	  rdfs:label "OntologiaPrefixo: bim:"@pt ;
-	  rdfs:label "OntologiaTema: Parte_3_1D"@pt ;
+	  rdfs:label "OntologiaTema: Parte_4_2N"@pt ;
 	  rdfs:label "RaizClass: BIM"@pt ;
 	  rdfs:label "RaizProp: BIMProp"@pt ;
 	  rdfs:label "RaizData: BIMData"@pt ;
 	  rdfs:label "URI: https://github.com/JLMenegotto/RepoOnto#"@pt ;
 	  rdfs:label "Autor: José Luis Menegotto"@pt ;
 	  rdfs:label "Organização: Escola Politécnica da UFRJ"@pt ;
-	  rdfs:label "NormaNúmero: NBR.15965-3:2014"@pt ;
-	  rdfs:label "Edição: v-2014"@pt ;
-	  rdfs:label "ISBN: 978-85-07-05317-0"@pt ;
-	  rdfs:label "NormaEscopo: Parte 3 - 1D: Processos da Construção - Disciplinas"@pt ;
+	  rdfs:label "NormaNúmero: NBR.15965-4:2021"@pt ;
+	  rdfs:label "Edição: v-2021"@pt ;
+	  rdfs:label "ISBN: 978-65-5659-899-1"@pt ;
+	  rdfs:label "NormaEscopo: Parte 4 - 2N: Recursos da construção - Recursos Humanos"@pt ;
 	  rdfs:label "NormaReferência1: -"@pt ;
 	  rdfs:label "NormaReferência2: -"@pt ;
 	  rdfs:label "NormaReferência3: -"@pt ;
 	  rdfs:label "Observações: Sistema de classificação ABNT da construção para BIM"@pt ;
-	  rdfs:label "DataHora: 02/06/2025 18:19:23"@pt ;
+	  rdfs:label "DataHora: 02/06/2025 18:20:01"@pt ;
 	  rdfs:label "Advertência1: Norma elaborada pela ABNT/CEE-134"@pt ;
 	  rdfs:label "Prédio: -"@pt ;
 	  rdfs:label "Cidade: -"@pt ;
@@ -117,1235 +117,935 @@ bim:NBR15965  rdf:type  owl:NamedIndividual , bim:Norma ;
      bim:norma    "NBR 15.965" ;
      bim:descrição    "Norma Brasileira para classificação de objetos da construção"  .
 
-bim:1D.Parte3  rdf:type  owl:NamedIndividual , bim:Parte ;
+bim:2N.Parte4  rdf:type  owl:NamedIndividual , bim:Parte ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "1D" ;
-     bim:descrição    "Parte 3 - Publicada em 2014"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Parte 4 - Publicada em 2021"  .
 
-bim:1D  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Disciplinas - Derivada de Omniclass Tabela 33"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Tema 2N - Recursos Humanos - Derivada da Tabela 11 de Omniclass"  .
 
-bim:1D.11  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.02  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Planejamento" ;
-     bim:subtema    "Planejamento"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Funções de empreendedores"  .
 
-bim:1D.11.11  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.02.02  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Planejamento regional" ;
-     bim:subtema    "Planejamento"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Investidor único"  .
 
-bim:1D.11.21  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.02.02.02  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Planejamento de desenvolvimento" ;
-     bim:subtema    "Planejamento"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Incorporador"  .
 
-bim:1D.11.31  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.02.02.08  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Planejamento rural" ;
-     bim:subtema    "Planejamento"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Entidade corporativa"  .
 
-bim:1D.11.41  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.02.02.14  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Planejamento urbano" ;
-     bim:subtema    "Planejamento"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Entidade pública"  .
 
-bim:1D.11.44  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.02.08  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Planejamento de transportes" ;
-     bim:subtema    "Planejamento"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Sociedade investidora"  .
 
-bim:1D.11.51  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.02.14  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Planejamento ambiental" ;
-     bim:subtema    "Planejamento"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Patrocinador"  .
 
-bim:1D.11.61  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.02.20  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Planejamento de conservação de instalações perdidas" ;
-     bim:subtema    "Planejamento"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Cliente"  .
 
-bim:1D.11.61.21  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.08  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Planejamento de conservação de edifícios históricos" ;
-     bim:subtema    "Planejamento"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Funções de gestão de projetos ou obras"  .
 
-bim:1D.11.61.31  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.08.02  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Planejamento de conservação de monumentos históricos" ;
-     bim:subtema    "Planejamento"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Funções de gestão estratégica"  .
 
-bim:1D.11.61.41  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.08.02.02  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Planejamento conservação de sítios arqueológicos" ;
-     bim:subtema    "Planejamento"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Presidente"  .
 
-bim:1D.11.99  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.08.02.08  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Planejamentos complementares" ;
-     bim:subtema    "Planejamento"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Vice-Presidente"  .
 
-bim:1D.11.99.11  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.08.02.14  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Plano diretor" ;
-     bim:subtema    "Planejamento"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Representante legal"  .
 
-bim:1D.11.99.14  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.08.02.20  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Permissões" ;
-     bim:subtema    "Planejamento"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Conselheiro"  .
 
-bim:1D.11.99.17  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.08.08  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Avaliação de riscos" ;
-     bim:subtema    "Planejamento"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Funções de gestão operacional"  .
 
-bim:1D.21  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.08.08.02  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Projetos" ;
-     bim:subtema    "Projeto de arquitetura"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Executivo"  .
 
-bim:1D.21.11  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.08.08.08  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Arquitetura" ;
-     bim:subtema    "Projeto de arquitetura"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Administrador"  .
 
-bim:1D.21.11.11  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.08.08.14  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Arquitetura residencial" ;
-     bim:subtema    "Projeto de arquitetura"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Diretor"  .
 
-bim:1D.21.11.21  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.08.08.20  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Arquitetura comercial" ;
-     bim:subtema    "Projeto de arquitetura"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Gerente"  .
 
-bim:1D.21.11.24  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.08.08.26  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Arquitetura institucional" ;
-     bim:subtema    "Projeto de arquitetura"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Supervisor"  .
 
-bim:1D.21.11.27  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.08.08.32  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Arquitetura industrial" ;
-     bim:subtema    "Projeto de arquitetura"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Coordenador"  .
 
-bim:1D.21.19  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.08.08.38  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Estado preliminar" ;
-     bim:subtema    "Projeto de arquitetura"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Planejador"  .
 
-bim:1D.21.21  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.08.08.44  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Paisagismo" ;
-     bim:subtema    "Projeto de paisagismo"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Líder de projeto"  .
 
-bim:1D.21.23  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.08.08.50  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Projeto de interiores" ;
-     bim:subtema    "Projeto de interiores"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Analista"  .
 
-bim:1D.21.25  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.14  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Especificações caderno de encargos" ;
-     bim:subtema    "Projeto de arquitetura"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Funções de desenvolvimento de projetos"  .
 
-bim:1D.21.27  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.14.02  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Projeto gráfico" ;
-     bim:subtema    "Projeto de arquitetura"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Funções de projeto"  .
 
-bim:1D.21.27.11  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.14.02.02  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Projeto de sinalização" ;
-     bim:subtema    "Projeto de sinalização"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Arquiteto"  .
 
-bim:1D.21.31  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.14.02.08  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Engenharia" ;
-     bim:subtema    "Projeto de engenharia estrutural"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Engenheiro"  .
 
-bim:1D.21.31.11  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.14.02.14  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Engenharia civil" ;
-     bim:subtema    "Projeto de engenharia estrutural"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Projetista"  .
 
-bim:1D.21.31.11.11  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.14.02.20  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Engenharia geotécnica" ;
-     bim:subtema    "Projeto de engenharia estrutural"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Especificador"  .
 
-bim:1D.21.31.14  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.14.08  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Engenharia de estruturas" ;
-     bim:subtema    "Projeto de engenharia estrutural"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Funções de planejamento"  .
 
-bim:1D.21.31.14.11  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.14.08  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Engenharia de fundações" ;
-     bim:subtema    "Projeto de engenharia estrutural"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Administrador de contratos"  .
 
-bim:1D.21.31.14.21  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.14.08.02  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Engenharia de arranha-céus" ;
-     bim:subtema    "Projeto de engenharia estrutural"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Gestor de projetos"  .
 
-bim:1D.21.31.14.31  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.14.08.08  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Engenharia de estruturas de grandes vãos" ;
-     bim:subtema    "Projeto de engenharia estrutural"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Orçamentista"  .
 
-bim:1D.21.31.14.41  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.14.08.14  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Engenharia de estruturas tensionadas" ;
-     bim:subtema    "Projeto de engenharia estrutural"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Planejador"  .
 
-bim:1D.21.31.14.51  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.14.08.20  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Engenharia de estruturas pneumáticas" ;
-     bim:subtema    "Projeto de engenharia estrutural"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Gestor de custos"  .
 
-bim:1D.21.31.14.54  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.14.14  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Engenharia de estruturas hidráulicas" ;
-     bim:subtema    "Projeto de engenharia estrutural"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Funções de fiscalização de projetos"  .
 
-bim:1D.21.31.17  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.14.14.02  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Engenharia mecânica" ;
-     bim:subtema    "Projeto de engenharia mecânica"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Revisor"  .
 
-bim:1D.21.31.17.11  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.14.14.08  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Engenharia de instalações hidráulicas" ;
-     bim:subtema    "Projeto de engenharia mecânica"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Auditor"  .
 
-bim:1D.21.31.17.21  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.14.14.14  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Engenharia de proteção contra incêndios" ;
-     bim:subtema    "Projeto de engenharia mecânica"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Inspetor"  .
 
-bim:1D.21.31.17.31  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.14.14.20  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Engenharia de calefação - ventilação e ar-condicionado" ;
-     bim:subtema    "Projeto de engenharia mecânica"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Fiscal"  .
 
-bim:1D.21.31.17.33  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.20  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Engenharia de refrigeração" ;
-     bim:subtema    "Projeto de engenharia mecânica"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Funções de execução de obras"  .
 
-bim:1D.21.31.17.34  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.20.02  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Engenharia de monitoramento e controle de energia" ;
-     bim:subtema    "Projeto de engenharia mecânica"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Funções de fabricação e logística de produtos"  .
 
-bim:1D.21.31.17.37  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.20.02.02  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Hidrologia" ;
-     bim:subtema    "Projeto de engenharia mecânica"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Produtor de bens manufaturados"  .
 
-bim:1D.21.31.21  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.20.02.08  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Engenharia elétrica" ;
-     bim:subtema    "Projeto de engenharia elétrica"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Produtor de bens montados"  .
 
-bim:1D.21.31.21.11  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.20.02.14  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Engenharia de afta tensão" ;
-     bim:subtema    "Projeto de engenharia elétrica"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Distribuidor"  .
 
-bim:1D.21.31.21.21  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.20.02.20  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Engenharia de média tensão" ;
-     bim:subtema    "Projeto de engenharia elétrica"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Fornecedor"  .
 
-bim:1D.21.31.21.31  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.20.02.20.02  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Engenharia de baixa tensão" ;
-     bim:subtema    "Projeto de engenharia elétrica"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Representante comercial"  .
 
-bim:1D.21.31.23  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.20.02.26  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Engenharia de comunicação" ;
-     bim:subtema    "Projeto de engenharia elétrica"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Comprador"  .
 
-bim:1D.21.31.23.11  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.20.08  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Engenharia de redes de informática" ;
-     bim:subtema    "Projeto de engenharia elétrica"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Funções de gestão da obra"  .
 
-bim:1D.21.31.23.14  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.20.08.02  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Engenharia de detecção e alarme" ;
-     bim:subtema    "Projeto de engenharia elétrica"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Construtor"  .
 
-bim:1D.21.31.23.21  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.20.08.08  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Engenharia audiovisual" ;
-     bim:subtema    "Projeto de engenharia elétrica"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Empreiteiro"  .
 
-bim:1D.21.31.24  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.20.08.14  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Engenharia de processos" ;
-     bim:subtema    "Projeto de engenharia elétrica"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Subempreiteiro"  .
 
-bim:1D.21.31.24.11  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.20.08.20  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Engenharia de tubulações" ;
-     bim:subtema    "Projeto de engenharia elétrica"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Engenheiro de obras"  .
 
-bim:1D.21.31.24.21  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.20.08.26  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Engenharia eólica" ;
-     bim:subtema    "Projeto de engenharia energética"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Mestre de obras"  .
 
-bim:1D.21.31.24.31  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.20.08.32  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Engenharia de cogeração" ;
-     bim:subtema    "Projeto de engenharia energética"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Encarregado"  .
 
-bim:1D.21.31.24.41  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.20.14  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Engenharia nuclear" ;
-     bim:subtema    "Projeto de engenharia nuclear"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Funções de execução da obra"  .
 
-bim:1D.21.31.24.51  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.20.14.02  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Engenharia sanitária (inclui engenharia de gestão de resíduos)" ;
-     bim:subtema    "Projeto de engenharia sanitária"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Oficial ou profissional"  .
 
-bim:1D.21.31.27  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.20.14.08  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Engenharia militar" ;
-     bim:subtema    "Projeto de engenharia militar"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Meio-oficial - ajudante ou servente"  .
 
-bim:1D.21.31.99  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.20.14.14  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Outras engenharias" ;
-     bim:subtema    "Projeto de engenharia"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Aprendiz"  .
 
-bim:1D.21.31.99.11  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.20.14.20  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Engenharia acústica/proteção contra irradiações" ;
-     bim:subtema    "Projeto de engenharia acústica"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Pedreiro"  .
 
-bim:1D.21.31.99.14  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.20.14.20.02  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Engenharia de segurança fisica/antiterrorismo" ;
-     bim:subtema    "Projeto de engenharia de segurança"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Pedreiro qualificado"  .
 
-bim:1D.21.31.99.17  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.20.14.20.08  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Engenharia de valor" ;
-     bim:subtema    "Projeto de engenharia de valor"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Pedreiro não qualificado"  .
 
-bim:1D.21.99  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.20.14.26  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Outros projetos" ;
-     bim:subtema    "Projetos específicos"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Montador"  .
 
-bim:1D.21.99.11  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.20.14.32  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Projetos de fontes" ;
-     bim:subtema    "Projetos específicos"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Instalador"  .
 
-bim:1D.21.99.14  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.20.14.38  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Projeto de ferramentas / equipamentos para acabamento" ;
-     bim:subtema    "Projetos específicos"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Operador de sistemas"  .
 
-bim:1D.21.99.15  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.20.20  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Especialista em projetos extraterrestres" ;
-     bim:subtema    "Especialistas"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Funções de fiscalização de obras"  .
 
-bim:1D.21.99.22  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.20.20.02  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Especialistas em projetos de serviços de saúde" ;
-     bim:subtema    "Especialistas de saúde"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Revisor"  .
 
-bim:1D.21.99.22.11  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.20.20.08  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Especialista em projetos de hospitais" ;
-     bim:subtema    "Especialistas de saúde"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Auditor"  .
 
-bim:1D.21.99.22.21  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.20.20.14  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Especialista em projetos de casas de repouso" ;
-     bim:subtema    "Especialistas de saúde"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Inspetor"  .
 
-bim:1D.21.99.24  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.20.20.20  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Especialista em projetos de infraestrutura" ;
-     bim:subtema    "Especialistas de infraestrutura"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Fiscal"  .
 
-bim:1D.21.99.25  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.26  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Especialista em projetos de irrigação" ;
-     bim:subtema    "Especialistas de infraestrutura"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Funções de gestão patrimonial"  .
 
-bim:1D.21.99.26  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.26.02  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Especialista em projetos de laboratórios" ;
-     bim:subtema    "Especialistas de laboratórios"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Funções de operação e manutenção"  .
 
-bim:1D.21.99.28  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.26.02.02  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Especialista em projetos de iluminação" ;
-     bim:subtema    "Especialistas de iluminação"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Gestor de operações"  .
 
-bim:1D.21.99.29  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.26.02.08  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Especialista em projetos de marinas" ;
-     bim:subtema    "Especialistas de infraestrutura"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Gestor de manutenção"  .
 
-bim:1D.21.99.31  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.26.02.14  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Especialista em maquetes e modelos" ;
-     bim:subtema    "Especialistas de ilustração"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Engenheiro de manutenção"  .
 
-bim:1D.21.99.39  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.26.08  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Especialista em projeto de sistemas solares" ;
-     bim:subtema    "Especialistas de infraestrutura"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Funções de zeladoria"  .
 
-bim:1D.21.99.45  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.26.08.02  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Especialista em projetos de transporte" ;
-     bim:subtema    "Especialistas de infraestrutura"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Zelador"  .
 
-bim:1D.21.99.45.11  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.26.08.08  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Especialistas em projetos de transporte aéreo" ;
-     bim:subtema    "Especialistas de infraestrutura"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Porteiro"  .
 
-bim:1D.21.99.45.21  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.26.08.14  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Especialista em projetos de transportes rodoviários" ;
-     bim:subtema    "Especialistas de infraestrutura"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Auxiliar de limpeza"  .
 
-bim:1D.21.99.45.31  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.26.14  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Especialista em projetos de transportes hidroviário" ;
-     bim:subtema    "Especialistas de infraestrutura"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Funções de segurança"  .
 
-bim:1D.21.99.45.41  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.26.14.02  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Especialista em projetos de transportes vertical" ;
-     bim:subtema    "Especialistas de infraestrutura"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Chefe de segurança"  .
 
-bim:1D.21.99.45.51  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.26.14.08  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Especialista em projetos de tráfego / estacionamento" ;
-     bim:subtema    "Especialistas de infraestrutura"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Agente de segurança"  .
 
-bim:1D.25  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.32  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Gerenciamento de projetos" ;
-     bim:subtema    "Gerenciamento"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Funções de apoio"  .
 
-bim:1D.25.11  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.32.02  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Estimativa de custos" ;
-     bim:subtema    "Gerenciamento"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Funções administrativas"  .
 
-bim:1D.25.14  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.32.02.02  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Elaboração de propostas" ;
-     bim:subtema    "Gerenciamento"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Assistente administrativo"  .
 
-bim:1D.25.17  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.32.02.08  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Programa de necessidades" ;
-     bim:subtema    "Gerenciamento"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Recepcionista"  .
 
-bim:1D.25.21  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.32.02.14  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Programação/cronograma" ;
-     bim:subtema    "Gerenciamento"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Arquivador"  .
 
-bim:1D.25.31  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.32.02.20  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Administração de contratos" ;
-     bim:subtema    "Gerenciamento"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Estagiário da administração"  .
 
-bim:1D.25.41  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.32.02.26  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Compras" ;
-     bim:subtema    "Gerenciamento"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Auxiliar administrativo"  .
 
-bim:1D.25.41.11  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.32.02.32  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Fabricação" ;
-     bim:subtema    "Fabricação"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Treinador"  .
 
-bim:1D.25.41.11.11  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.32.08  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Fabricação de produtos de construção" ;
-     bim:subtema    "Fabricação"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Funções de marketing e vendas"  .
 
-bim:1D.25.41.11.14  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.32.08.02  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Processo de Fabricação" ;
-     bim:subtema    "Fabricação"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Gestor de marketing"  .
 
-bim:1D.25.41.11.17  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.32.08.08  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Fabricação de equipamentos de construção" ;
-     bim:subtema    "Fabricação"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Assistente de marketing"  .
 
-bim:1D.25.41.14  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.32.08.14  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Comercialização de produtos de construção" ;
-     bim:subtema    "Fabricação"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Vendedor"  .
 
-bim:1D.25.41.17  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.32.08.20  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Marketing de produtos de construção" ;
-     bim:subtema    "Fabricação"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Corretor de imóvel"  .
 
-bim:1D.25.41.21  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.32.14  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Aquisição de produtos de construção" ;
-     bim:subtema    "Fabricação"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Funções financeiras"  .
 
-bim:1D.25.51  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.32.14.02  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Garantia de qualidade" ;
-     bim:subtema    "Fabricação"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Contador"  .
 
-bim:1D.25.54  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.32.14.08  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Controle de qualidade" ;
-     bim:subtema    "Fabricação"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Consultor financeiro"  .
 
-bim:1D.31  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.32.14.14  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Levantamentos" ;
-     bim:subtema    "Levantamento"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Escrevente"  .
 
-bim:1D.31.11  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.32.14.20  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Levantamento de edificações" ;
-     bim:subtema    "Levantamento"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Escriturário"  .
 
-bim:1D.31.21  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.32.20  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Levantamento topográfico" ;
-     bim:subtema    "Levantamento"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Funções jurídicas"  .
 
-bim:1D.31.31  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.32.20.02  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Sistema de informações geográficas (SIG)" ;
-     bim:subtema    "Levantamento"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Advogado"  .
 
-bim:1D.41  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.32.26  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Construção" ;
-     bim:subtema    "Construção"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Funções contratadas por demanda eventual"  .
 
-bim:1D.41.11  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.32.26.02  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Contratação" ;
-     bim:subtema    "Construção"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Consultor"  .
 
-bim:1D.41.11.11  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.32.26.08  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Contratação global" ;
-     bim:subtema    "Construção"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Bibliotecário"  .
 
-bim:1D.41.11.14  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.32.26.14  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Subcontratação" ;
-     bim:subtema    "Construção"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Desenhista"  .
 
-bim:1D.41.11.14  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.32.26.20  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Subcontratação de gesso" ;
-     bim:subtema    "Construção"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Agente"  .
 
-bim:1D.41.11.14.11  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.32.26.26  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Subcontratação de alvenaria" ;
-     bim:subtema    "Construção"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Especialista"  .
 
-bim:1D.41.11.14.14  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.32.26.32  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Subcontratação de carpintaria" ;
-     bim:subtema    "Construção"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Motorista"  .
 
-bim:1D.41.11.14.17  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.32.26.32.02  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Subcontratação de serralheria" ;
-     bim:subtema    "Construção"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Motorista de caminhão"  .
 
-bim:1D.41.11.14.21  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.32.26.38  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Subcontratação de instalações hidráulicas" ;
-     bim:subtema    "Construção"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Topógrafo"  .
 
-bim:1D.41.11.14.24  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.32.26.44  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Subcontratação de proteção contra incêndios" ;
-     bim:subtema    "Construção"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Laboratorista"  .
 
-bim:1D.41.11.14.27  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.32.26.50  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Subcontratação de calefação - ventilação e ar-condicionado" ;
-     bim:subtema    "Construção"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Perito"  .
 
-bim:1D.41.11.14.28  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.32.26.56  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Subcontratação de refrigeração" ;
-     bim:subtema    "Construção"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Assistente técnico"  .
 
-bim:1D.41.11.14.37  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.32.26.62  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Subcontratação de instalações elétricas" ;
-     bim:subtema    "Construção"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Analista de sistemas"  .
 
-bim:1D.41.11.14.51  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.32.26.68  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Subcontratação de monitoramento e controle de energia" ;
-     bim:subtema    "Construção"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Desenvolvedor de soluções de informática"  .
 
-bim:1D.41.11.14.54  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.32.26.74  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Subcontratação de hidrologia" ;
-     bim:subtema    "Construção"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Pesquisador"  .
 
-bim:1D.41.11.14.61  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.36  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Subcontratação de pintura" ;
-     bim:subtema    "Construção"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Funções de gestão da informação"  .
 
-bim:1D.41.11.14.64  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.36.02  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Subcontratação de revestimentos cerâmicos" ;
-     bim:subtema    "Construção"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Agente"  .
 
-bim:1D.41.11.14.64  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.36.08  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Subcontratação de argamassas" ;
-     bim:subtema    "Construção"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Contratante"  .
 
-bim:1D.41.14  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.36.14  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Gerenciamento da construção" ;
-     bim:subtema    "Construção"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Contratado"  .
 
-bim:1D.55  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.36.20  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Disciplinas de uso e operação de edificações e instalações" ;
-     bim:subtema    "Construção"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Gerente de desenvolvimento da informação"  .
 
-bim:1D.55.14  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.36.26  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Mercado imobiliário" ;
-     bim:subtema    "Imobilíario"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Supervisor de informação"  .
 
-bim:1D.55.14.11  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.36.32  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Vendas imóveis" ;
-     bim:subtema    "Imobilíario"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Supervisor de interfaces"  .
 
-bim:1D.55.14.14  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.36.38  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Avaliação de imóveis" ;
-     bim:subtema    "Imobilíario"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Produtor de informação"  .
 
-bim:1D.55.14.17  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.36.44  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Locações" ;
-     bim:subtema    "Imobilíario"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Coordenador da informação"  .
 
-bim:1D.55.21  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.36.50  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Proprietário" ;
-     bim:subtema    "Imobilíario"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Facilitador da informação"  .
 
-bim:1D.55.24  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.36.56  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Operação de edificações/instalações" ;
-     bim:subtema    "Operação"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Líder de produção"  .
 
-bim:1D.55.24.11  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.36.62  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Gerenciamento de espaços de edificações/instalações" ;
-     bim:subtema    "Operação"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Coordenador de produção"  .
 
-bim:1D.55.24.14  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.36.68  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Gerenciamento de edificações/instalações" ;
-     bim:subtema    "Operação"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Autor de informação"  .
 
-bim:1D.55.24.17  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.36.74  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Manutenção de edificações/instalações" ;
-     bim:subtema    "Operação"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Preposto"  .
 
-bim:1D.55.24.21  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.92  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Serviços de edificações/instalações" ;
-     bim:subtema    "Operação"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Funções que caracterizam grupos e organizações"  .
 
-bim:1D.55.24.21.11  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.92.02  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Operação e manutenção de instalações hidráulicas" ;
-     bim:subtema    "Operação"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Equipes"  .
 
-bim:1D.55.24.21.14  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.92.02.02  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Operação e manutenção de sistemas de proteção contra incêndios" ;
-     bim:subtema    "Operação"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Grupo de trabalho"  .
 
-bim:1D.55.24.21.17  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.92.02.08  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Operação e manutenção de sistemas de calefação ventilação de ar-condicionado" ;
-     bim:subtema    "Operação"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Força-tarefa"  .
 
-bim:1D.55.24.21.21  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.92.08  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Operação e manutenção de sistemas de refrigeração" ;
-     bim:subtema    "Operação"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Conselhos"  .
 
-bim:1D.55.24.21.24  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.92.14  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Operação e manutenção de sistemas de monitoramento e controle de energia" ;
-     bim:subtema    "Operação"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Comitês"  .
 
-bim:1D.55.24.21.27  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.92.14.02  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Operação e manutenção de sistemas hidrológicos" ;
-     bim:subtema    "Operação"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Conselho de Diretores"  .
 
-bim:1D.55.24.21.31  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.92.14.02  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Operação e manutenção de sistemas de proteção contra descargas atmosférica" ;
-     bim:subtema    "Operação"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Comitê ad hoc"  .
 
-bim:1D.55.24.21.34  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.92.20  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Operação e manutenção de sistemas de proteção á vida" ;
-     bim:subtema    "Operação"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Organizações empresariais"  .
 
-bim:1D.55.24.21.37  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.92.20.02  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Operação e manutenção de sistemas de proteção contra radiação" ;
-     bim:subtema    "Operação"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Corporação"  .
 
-bim:1D.55.24.21.41  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.92.20.08  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Operação e manutenção de sistemas de proteção contra umidade" ;
-     bim:subtema    "Operação"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Sociedade"  .
 
-bim:1D.55.24.21.44  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.92.20.14  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Avaliação e qualidade do ar interno" ;
-     bim:subtema    "Operação"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Empresa individual"  .
 
-bim:1D.55.24.21.47  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.92.20.20  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Operação e manutenção de sistemas de comunicação" ;
-     bim:subtema    "Operação"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Microempresa"  .
 
-bim:1D.55.24.21.47.11  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.92.20.26  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Operação e manutenção de sistemas de telecomunicação" ;
-     bim:subtema    "Operação"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Aliança empresarial"  .
 
-bim:1D.55.24.21.47.14  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.92.20.32  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Operação e manutenção de sistemas de tecnologia da informação" ;
-     bim:subtema    "Operação"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Consórcio"  .
 
-bim:1D.55.24.21.51  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.92.20.38  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Operação e manutenção de blindagem e proteção de edificações / instalações" ;
-     bim:subtema    "Operação"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Sociedade de propósito específico"  .
 
-bim:1D.55.24.21.51.11  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.92.26  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Operação e manutenção de isolamento acústico de edificações / instalações" ;
-     bim:subtema    "Operação"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Organizações sem fins lucrativos"  .
 
-bim:1D.55.36  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.92.26.02  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Restauração de edificações/instalações" ;
-     bim:subtema    "Restauração"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Associação"  .
 
-bim:1D.55.36.11  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.92.26.08  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Restauração de concreto" ;
-     bim:subtema    "Restauração"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Fundação"  .
 
-bim:1D.55.36.21  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.92.26.14  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Restauração de alvenaria" ;
-     bim:subtema    "Restauração"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Sindicato"  .
 
-bim:1D.55.36.31  rdf:type  owl:NamedIndividual , bim:Código ;
+bim:2N.92.26.20  rdf:type  owl:NamedIndividual , bim:Código ;
      bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Restauração de estacionamento" ;
-     bim:subtema    "Restauração"  .
-
-bim:1D.55.36.41  rdf:type  owl:NamedIndividual , bim:Código ;
-     bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Restauração do patrimônio histórico" ;
-     bim:subtema    "Restauração"  .
-
-bim:1D.81  rdf:type  owl:NamedIndividual , bim:Código ;
-     bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Disciplinas de apoio" ;
-     bim:subtema    "Legislação"  .
-
-bim:1D.81.11  rdf:type  owl:NamedIndividual , bim:Código ;
-     bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Jurídico" ;
-     bim:subtema    "Legislação"  .
-
-bim:1D.81.11.11  rdf:type  owl:NamedIndividual , bim:Código ;
-     bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Especialista em legislação e códigos" ;
-     bim:subtema    "Legislação"  .
-
-bim:1D.81.11.14  rdf:type  owl:NamedIndividual , bim:Código ;
-     bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Perito judicial" ;
-     bim:subtema    "Legislação"  .
-
-bim:1D.81.13  rdf:type  owl:NamedIndividual , bim:Código ;
-     bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Meio ambiente" ;
-     bim:subtema    "Legislação"  .
-
-bim:1D.81.13.11  rdf:type  owl:NamedIndividual , bim:Código ;
-     bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Impacto ambiental" ;
-     bim:subtema    "Legislação"  .
-
-bim:1D.81.13.14  rdf:type  owl:NamedIndividual , bim:Código ;
-     bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Descarte de materiais perigosos" ;
-     bim:subtema    "Legislação"  .
-
-bim:1D.81.13.44  rdf:type  owl:NamedIndividual , bim:Código ;
-     bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Especialista em preservação florestal" ;
-     bim:subtema    "Legislação"  .
-
-bim:1D.81.31  rdf:type  owl:NamedIndividual , bim:Código ;
-     bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Finanças" ;
-     bim:subtema    "Legislação"  .
-
-bim:1D.81.31.11  rdf:type  owl:NamedIndividual , bim:Código ;
-     bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Transações bancárias" ;
-     bim:subtema    "Legislação"  .
-
-bim:1D.81.31.14  rdf:type  owl:NamedIndividual , bim:Código ;
-     bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Contabilidade" ;
-     bim:subtema    "Legislação"  .
-
-bim:1D.81.31.17  rdf:type  owl:NamedIndividual , bim:Código ;
-     bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Seguros" ;
-     bim:subtema    "Legislação"  .
-
-bim:1D.81.34  rdf:type  owl:NamedIndividual , bim:Código ;
-     bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Recursos humanos" ;
-     bim:subtema    "Recursos humanos"  .
-
-bim:1D.99  rdf:type  owl:NamedIndividual , bim:Código ;
-     bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Outras disciplinas" ;
-     bim:subtema    "Outras disciplinas"  .
-
-bim:1D.99.11  rdf:type  owl:NamedIndividual , bim:Código ;
-     bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Ciências" ;
-     bim:subtema    "Outras disciplinas"  .
-
-bim:1D.99.13  rdf:type  owl:NamedIndividual , bim:Código ;
-     bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Artes" ;
-     bim:subtema    "Outras disciplinas"  .
-
-bim:1D.99.13.11  rdf:type  owl:NamedIndividual , bim:Código ;
-     bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Fotografia" ;
-     bim:subtema    "Outras disciplinas"  .
-
-bim:1D.99.41  rdf:type  owl:NamedIndividual , bim:Código ;
-     bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Segurança" ;
-     bim:subtema    "Outras disciplinas"  .
-
-bim:1D.99.45  rdf:type  owl:NamedIndividual , bim:Código ;
-     bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Relações públicas" ;
-     bim:subtema    "Outras disciplinas"  .
-
-bim:1D.99.61  rdf:type  owl:NamedIndividual , bim:Código ;
-     bim:norma    "NBR 15.965" ;
-     bim:parte    "Parte 3" ;
-     bim:tema    "Disciplina" ;
-     bim:descrição    "Educação" ;
-     bim:subtema    "Outras disciplinas"  .
+     bim:parte    "Parte 4" ;
+     bim:tema    "2N" ;
+     bim:descrição    "Serviço social"  .
 
 #################################################################
 #     Propriedades de Objetos e Dados em Turtle                  
@@ -1712,35 +1412,6 @@ bim:tema   rdf:type  owl:DatatypeProperty ;
                     bim:Ação                "Ação catalogar" ;
                     bim:Definição           "Tema definido pelo fabricante de um determinado produto."@pt ;
                     bim:Definición          "Tema definido por el fabricante de un producto en particular."@es  .
-
-
-bim:p.catalogar   rdf:type  owl:ObjectProperty ;
-                    rdfs:subPropertyOf      bim:BIMProp  .
-
-
-bim:é.subtema   rdf:type  owl:ObjectProperty ;
-                    rdfs:subPropertyOf      bim:p.catalogar ;
-                    rdfs:Domain             bim:BIM ;
-                    rdfs:Range              bim:Projeto ;
-                    rdfs:label              "Propriedade destinada a catalogar: é.subtema" ;
-                    bim:Chave               "cata.131" ;
-                    bim:Ação                "Ação catalogar" ;
-                    bim:Definição           "Subtema definido pelo fabricante de um determinado produto ou de um determinado tema."@pt ;
-                    bim:Definición          "Subtema definido por el fabricante de un producto en particular o un tema en particular."@es  .
-
-
-bim:d.catalogar   rdf:type  owl:DatatypeProperty ;
-                    rdfs:subPropertyOf      bim:BIMData  .
-
-
-bim:subtema   rdf:type  owl:DatatypeProperty ;
-                    rdfs:subPropertyOf      bim:d.catalogar ;
-                    rdfs:Range              xsd:string ;
-                    rdfs:label              "Dado para catalogar:  subtema  Deve ser formatado como (xsd:string)" ;
-                    bim:Chave               "cata.131" ;
-                    bim:Ação                "Ação catalogar" ;
-                    bim:Definição           "Subtema definido pelo fabricante de um determinado produto ou de um determinado tema."@pt ;
-                    bim:Definición          "Subtema definido por el fabricante de un producto en particular o un tema en particular."@es  .
 
 
 bim:p.energizar   rdf:type  owl:ObjectProperty ;
