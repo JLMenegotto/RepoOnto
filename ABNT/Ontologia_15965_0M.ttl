@@ -58,9 +58,6 @@ bim:BIMData	 rdf:type  owl:DatatypeProperty ;
 	 rdfs:label "Raiz de Dados"@pt .
 
  ## Anotações personalizadas sintaxe Turtle ----------------------------------
- ## Anotações personalizadas sintaxe Turtle ----------------------------------
- ## Anotações personalizadas sintaxe Turtle ----------------------------------
- ## Anotações personalizadas sintaxe Turtle ----------------------------------
 
 bim:Natureza		 rdf:type   owl:AnnotationProperty .
 bim:Espécie		 rdf:type   owl:AnnotationProperty .
