@@ -25,7 +25,7 @@
 	  rdfs:label "NormaReferência2: -"@pt ;
 	  rdfs:label "NormaReferência3: -"@pt ;
 	  rdfs:label "Observações: Elementos_Documentação"@pt ;
-	  rdfs:label "DataHora: 08/06/2025 11:49:05"@pt ;
+	  rdfs:label "DataHora: 08/06/2025 15:16:12"@pt ;
 	  rdfs:label "Advertência1: -"@pt ;
 	  rdfs:label "Prédio: -"@pt ;
 	  rdfs:label "Cidade: Rio de Janeiro"@pt ;
@@ -4479,37 +4479,37 @@ bim:Revit.Tag  rdf:type  owl:NamedIndividual , bim:OST_Tags ;
 
 bim:Folha.A0  rdf:type  owl:NamedIndividual , bim:Margem ;
      bim:é.categoria.revit    bim:Revit.Folha ;
-     bim:descrição    "Prancha tamanho A0" ;
+     bim:descrição    "Prancha de tamanho A0" ;
      bim:categoria.revit    "OST_Sheets" ;
      bim:família.tipo    "Folha.01"  .
 
 bim:Folha.A1  rdf:type  owl:NamedIndividual , bim:Margem ;
      bim:é.categoria.revit    bim:Revit.Folha ;
-     bim:descrição    "Prancha tamanho A1" ;
+     bim:descrição    "Prancha de tamanho A1" ;
      bim:categoria.revit    "OST_Sheets" ;
      bim:família.tipo    "Folha.02"  .
 
 bim:Folha.A2  rdf:type  owl:NamedIndividual , bim:Margem ;
      bim:é.categoria.revit    bim:Revit.Folha ;
-     bim:descrição    "Prancha tamanho A2" ;
+     bim:descrição    "Prancha de tamanho A2" ;
      bim:categoria.revit    "OST_Sheets" ;
      bim:família.tipo    "Folha.03"  .
 
 bim:Folha.A3  rdf:type  owl:NamedIndividual , bim:Margem ;
      bim:é.categoria.revit    bim:Revit.Folha ;
-     bim:descrição    "Prancha tamanho A3" ;
+     bim:descrição    "Prancha de tamanho A3" ;
      bim:categoria.revit    "OST_Sheets" ;
      bim:família.tipo    "Folha.04"  .
 
 bim:Folha.A4  rdf:type  owl:NamedIndividual , bim:Margem ;
      bim:é.categoria.revit    bim:Revit.Folha ;
-     bim:descrição    "Prancha tamanho A4" ;
+     bim:descrição    "Prancha de tamanho A4" ;
      bim:categoria.revit    "OST_Sheets" ;
      bim:família.tipo    "Folha.05"  .
 
 bim:Folha.A5  rdf:type  owl:NamedIndividual , bim:Margem ;
      bim:é.categoria.revit    bim:Revit.Folha ;
-     bim:descrição    "Prancha tamanho A5" ;
+     bim:descrição    "Prancha de tamanho A5" ;
      bim:categoria.revit    "OST_Sheets" ;
      bim:família.tipo    "Folha.06"  .
 
@@ -4956,8 +4956,8 @@ bim:é.descrição   rdf:type  owl:ObjectProperty ;
                     rdfs:label              "Propriedade destinada a catalogar: é.descrição" ;
                     bim:Chave               "cata.105" ;
                     bim:Ação                "Ação catalogar" ;
-                    bim:Definição           "Declara a descrição do objeto."@pt ;
-                    bim:Definición          "Declara la descripción del objeto."@es  .
+                    bim:Definição           "Declara a descrição do objeto que pode ser uma explicação sucinta."@pt ;
+                    bim:Definición          "Declara la descripción del objeto, que puede ser una explicación sucinta."@es  .
 
 
 bim:d.catalogar   rdf:type  owl:DatatypeProperty ;
@@ -4970,8 +4970,8 @@ bim:descrição   rdf:type  owl:DatatypeProperty ;
                     rdfs:label              "Dado para catalogar:  descrição  Deve ser formatado como (xsd:string)" ;
                     bim:Chave               "cata.105" ;
                     bim:Ação                "Ação catalogar" ;
-                    bim:Definição           "Declara a descrição do objeto."@pt ;
-                    bim:Definición          "Declara la descripción del objeto."@es  .
+                    bim:Definição           "Declara a descrição do objeto que pode ser uma explicação sucinta."@pt ;
+                    bim:Definición          "Declara la descripción del objeto, que puede ser una explicación sucinta."@es  .
 
 
 bim:p.catalogar   rdf:type  owl:ObjectProperty ;
@@ -5001,6 +5001,36 @@ bim:família.tipo   rdf:type  owl:DatatypeProperty ;
                     bim:Ação                "Ação catalogar" ;
                     bim:Definição           "Nome de tipo de uma família de sistema ou componente criada em Revit."@pt ;
                     bim:Definición          "Nombre de tipo de una familia de sistemas o componente creado en Revit."@es  .
+
+
+bim:p.concursar   rdf:type  owl:ObjectProperty ;
+                    rdfs:subPropertyOf      bim:BIMProp  .
+
+
+bim:é.recurso   rdf:type  owl:ObjectProperty ;
+                    rdfs:subPropertyOf      bim:p.concursar ;
+                    rdfs:Domain             bim:BIM ;
+                    rdfs:Range              bim:Projeto ;
+                    rdfs:label              "Propriedade destinada a concursar: é.recurso" ;
+                    bim:Chave               "conc.107" ;
+                    bim:Ação                "Ação concursar" ;
+                    bim:Definição           "Declara que é um recurso aberto no contexto do concurso, licitação ou certame."@pt ;
+                    bim:Definición          "Declara que se trata de un recurso abierto en el marco de la licitación, licitación o concurso."@es ;
+                    owl:equivalentProperty  bim:é.fase.recursal  .
+
+
+bim:d.concursar   rdf:type  owl:DatatypeProperty ;
+                    rdfs:subPropertyOf      bim:BIMData  .
+
+
+bim:recurso   rdf:type  owl:DatatypeProperty ;
+                    rdfs:subPropertyOf      bim:d.concursar ;
+                    rdfs:Range              xsd:string ;
+                    rdfs:label              "Dado para concursar:  recurso  Deve ser formatado como (xsd:string)" ;
+                    bim:Chave               "conc.107" ;
+                    bim:Ação                "Ação concursar" ;
+                    bim:Definição           "Declara que é um recurso aberto no contexto do concurso, licitação ou certame."@pt ;
+                    bim:Definición          "Declara que se trata de un recurso abierto en el marco de la licitación, licitación o concurso."@es  .
 
 
 bim:p.converter   rdf:type  owl:ObjectProperty ;
@@ -5844,6 +5874,66 @@ bim:sitio.eletrônico.oficial   rdf:type  owl:DatatypeProperty ;
                     bim:Definición          "Ley 14.133/2021 de Licitaciones. Sitio web oficial: sitio web, certificado digitalmente por una autoridad certificadora, en el que la entidad federativa divulga de manera centralizada la información y los servicios de gobierno digital de sus organismos y entidades."@es  .
 
 
+bim:p.licitar   rdf:type  owl:ObjectProperty ;
+                    rdfs:subPropertyOf      bim:BIMProp  .
+
+
+bim:é.fase.recursal   rdf:type  owl:ObjectProperty ;
+                    rdfs:subPropertyOf      bim:p.licitar ;
+                    rdfs:Domain             bim:BIM ;
+                    rdfs:Range              bim:Projeto ;
+                    rdfs:label              "Propriedade destinada a licitar: é.fase.recursal" ;
+                    bim:Chave               "lici.131" ;
+                    bim:Ação                "Ação licitar" ;
+                    bim:Definição           "Fase em que os licitantes tem a oportunidade de contestar as decisões tomadas durante o processo apresentando um recurso."@pt ;
+                    bim:Definición          "Fase en la que los licitadores tienen la oportunidad de impugnar las decisiones tomadas durante el proceso mediante la presentación de un recurso."@es ;
+                    owl:equivalentProperty  bim:é.recurso  .
+
+
+bim:d.licitar   rdf:type  owl:DatatypeProperty ;
+                    rdfs:subPropertyOf      bim:BIMData  .
+
+
+bim:fase.recursal   rdf:type  owl:DatatypeProperty ;
+                    rdfs:subPropertyOf      bim:d.licitar ;
+                    rdfs:Range              xsd:string ;
+                    rdfs:label              "Dado para licitar:  fase.recursal  Deve ser formatado como (xsd:string)" ;
+                    bim:Chave               "lici.131" ;
+                    bim:Ação                "Ação licitar" ;
+                    bim:Definição           "Fase em que os licitantes tem a oportunidade de contestar as decisões tomadas durante o processo apresentando um recurso."@pt ;
+                    bim:Definición          "Fase en la que los licitadores tienen la oportunidad de impugnar las decisiones tomadas durante el proceso mediante la presentación de un recurso."@es  .
+
+
+bim:p.licitar   rdf:type  owl:ObjectProperty ;
+                    rdfs:subPropertyOf      bim:BIMProp  .
+
+
+bim:é.fase.de.homologação   rdf:type  owl:ObjectProperty ;
+                    rdfs:subPropertyOf      bim:p.licitar ;
+                    rdfs:Domain             bim:BIM ;
+                    rdfs:Range              bim:Projeto ;
+                    rdfs:label              "Propriedade destinada a licitar: é.fase.de.homologação" ;
+                    bim:Chave               "lici.132" ;
+                    bim:Ação                "Ação licitar" ;
+                    bim:Definição           "Fase final em que se homologa o processo e a autoridade competente aprova o resultado."@pt ;
+                    bim:Definición          "Etapa final en la que se aprueba el proceso y la autoridad competente aprueba el resultado."@es ;
+                    owl:equivalentProperty  bim:é.homologada  .
+
+
+bim:d.licitar   rdf:type  owl:DatatypeProperty ;
+                    rdfs:subPropertyOf      bim:BIMData  .
+
+
+bim:fase.de.homologação   rdf:type  owl:DatatypeProperty ;
+                    rdfs:subPropertyOf      bim:d.licitar ;
+                    rdfs:Range              xsd:string ;
+                    rdfs:label              "Dado para licitar:  fase.de.homologação  Deve ser formatado como (xsd:string)" ;
+                    bim:Chave               "lici.132" ;
+                    bim:Ação                "Ação licitar" ;
+                    bim:Definição           "Fase final em que se homologa o processo e a autoridade competente aprova o resultado."@pt ;
+                    bim:Definición          "Etapa final en la que se aprueba el proceso y la autoridad competente aprueba el resultado."@es  .
+
+
 bim:p.linkar   rdf:type  owl:ObjectProperty ;
                     rdfs:subPropertyOf      bim:BIMProp  .
 
@@ -6519,7 +6609,7 @@ bim:é.homologada   rdf:type  owl:ObjectProperty ;
                     bim:Ação                "Ação permitir" ;
                     bim:Definição           "Indica se o recurso tem a permissão homologada por autoridade competente."@pt ;
                     bim:Definición          "Indica si el recurso tiene permiso aprobado por una autoridad competente."@es ;
-                    owl:equivalentProperty  bim:é.autorizada  .
+                    owl:equivalentProperty  bim:é.fase.de.homologação  .
 
 
 bim:d.permitir   rdf:type  owl:DatatypeProperty ;
@@ -7546,7 +7636,7 @@ bim:sensor.de.presença   rdf:type  owl:DatatypeProperty ;
                     bim:CatRevit            "OST.LightingDevices" ;
                     bim:ClasseIfc           "IfcBuildingElementProxy"  .
 
-
-##Fatos do Modelo BIM ---------------------------------------------------------
-
-
+#################################################################
+##  Fim da Ontologia DOCUM
+##  Criada em 08/06/2025 15:16:13
+#################################################################
