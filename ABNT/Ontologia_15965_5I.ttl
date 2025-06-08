@@ -25,7 +25,7 @@
 	  rdfs:label "NormaReferência2: -"@pt ;
 	  rdfs:label "NormaReferência3: -"@pt ;
 	  rdfs:label "Observações: Sistema de classificação ABNT da construção para BIM"@pt ;
-	  rdfs:label "DataHora: 08/06/2025 11:48:24"@pt ;
+	  rdfs:label "DataHora: 08/06/2025 13:59:01"@pt ;
 	  rdfs:label "Advertência1: Norma elaborada pela ABNT/CEE-134"@pt ;
 	  rdfs:label "Prédio: -"@pt ;
 	  rdfs:label "Cidade: -"@pt ;
@@ -5545,8 +5545,8 @@ bim:é.descrição   rdf:type  owl:ObjectProperty ;
                     rdfs:label              "Propriedade destinada a catalogar: é.descrição" ;
                     bim:Chave               "cata.105" ;
                     bim:Ação                "Ação catalogar" ;
-                    bim:Definição           "Declara a descrição do objeto."@pt ;
-                    bim:Definición          "Declara la descripción del objeto."@es  .
+                    bim:Definição           "Declara a descrição do objeto que pode ser uma explicação sucinta."@pt ;
+                    bim:Definición          "Declara la descripción del objeto, que puede ser una explicación sucinta."@es  .
 
 
 bim:d.catalogar   rdf:type  owl:DatatypeProperty ;
@@ -5559,8 +5559,8 @@ bim:descrição   rdf:type  owl:DatatypeProperty ;
                     rdfs:label              "Dado para catalogar:  descrição  Deve ser formatado como (xsd:string)" ;
                     bim:Chave               "cata.105" ;
                     bim:Ação                "Ação catalogar" ;
-                    bim:Definição           "Declara a descrição do objeto."@pt ;
-                    bim:Definición          "Declara la descripción del objeto."@es  .
+                    bim:Definição           "Declara a descrição do objeto que pode ser uma explicação sucinta."@pt ;
+                    bim:Definición          "Declara la descripción del objeto, que puede ser una explicación sucinta."@es  .
 
 
 bim:p.catalogar   rdf:type  owl:ObjectProperty ;
@@ -5619,6 +5619,36 @@ bim:subtema   rdf:type  owl:DatatypeProperty ;
                     bim:Ação                "Ação catalogar" ;
                     bim:Definição           "Subtema definido pelo fabricante de um determinado produto ou de um determinado tema."@pt ;
                     bim:Definición          "Subtema definido por el fabricante de un producto en particular o un tema en particular."@es  .
+
+
+bim:p.concursar   rdf:type  owl:ObjectProperty ;
+                    rdfs:subPropertyOf      bim:BIMProp  .
+
+
+bim:é.recurso   rdf:type  owl:ObjectProperty ;
+                    rdfs:subPropertyOf      bim:p.concursar ;
+                    rdfs:Domain             bim:BIM ;
+                    rdfs:Range              bim:Projeto ;
+                    rdfs:label              "Propriedade destinada a concursar: é.recurso" ;
+                    bim:Chave               "conc.107" ;
+                    bim:Ação                "Ação concursar" ;
+                    bim:Definição           "Declara que é um recurso aberto no contexto do concurso, licitação ou certame."@pt ;
+                    bim:Definición          "Declara que se trata de un recurso abierto en el marco de la licitación, licitación o concurso."@es ;
+                    owl:equivalentProperty  bim:é.fase.recursal  .
+
+
+bim:d.concursar   rdf:type  owl:DatatypeProperty ;
+                    rdfs:subPropertyOf      bim:BIMData  .
+
+
+bim:recurso   rdf:type  owl:DatatypeProperty ;
+                    rdfs:subPropertyOf      bim:d.concursar ;
+                    rdfs:Range              xsd:string ;
+                    rdfs:label              "Dado para concursar:  recurso  Deve ser formatado como (xsd:string)" ;
+                    bim:Chave               "conc.107" ;
+                    bim:Ação                "Ação concursar" ;
+                    bim:Definição           "Declara que é um recurso aberto no contexto do concurso, licitação ou certame."@pt ;
+                    bim:Definición          "Declara que se trata de un recurso abierto en el marco de la licitación, licitación o concurso."@es  .
 
 
 bim:p.energizar   rdf:type  owl:ObjectProperty ;
@@ -6433,6 +6463,66 @@ bim:sitio.eletrônico.oficial   rdf:type  owl:DatatypeProperty ;
                     bim:Definición          "Ley 14.133/2021 de Licitaciones. Sitio web oficial: sitio web, certificado digitalmente por una autoridad certificadora, en el que la entidad federativa divulga de manera centralizada la información y los servicios de gobierno digital de sus organismos y entidades."@es  .
 
 
+bim:p.licitar   rdf:type  owl:ObjectProperty ;
+                    rdfs:subPropertyOf      bim:BIMProp  .
+
+
+bim:é.fase.recursal   rdf:type  owl:ObjectProperty ;
+                    rdfs:subPropertyOf      bim:p.licitar ;
+                    rdfs:Domain             bim:BIM ;
+                    rdfs:Range              bim:Projeto ;
+                    rdfs:label              "Propriedade destinada a licitar: é.fase.recursal" ;
+                    bim:Chave               "lici.131" ;
+                    bim:Ação                "Ação licitar" ;
+                    bim:Definição           "Fase em que os licitantes tem a oportunidade de contestar as decisões tomadas durante o processo apresentando um recurso."@pt ;
+                    bim:Definición          "Fase en la que los licitadores tienen la oportunidad de impugnar las decisiones tomadas durante el proceso mediante la presentación de un recurso."@es ;
+                    owl:equivalentProperty  bim:é.recurso  .
+
+
+bim:d.licitar   rdf:type  owl:DatatypeProperty ;
+                    rdfs:subPropertyOf      bim:BIMData  .
+
+
+bim:fase.recursal   rdf:type  owl:DatatypeProperty ;
+                    rdfs:subPropertyOf      bim:d.licitar ;
+                    rdfs:Range              xsd:string ;
+                    rdfs:label              "Dado para licitar:  fase.recursal  Deve ser formatado como (xsd:string)" ;
+                    bim:Chave               "lici.131" ;
+                    bim:Ação                "Ação licitar" ;
+                    bim:Definição           "Fase em que os licitantes tem a oportunidade de contestar as decisões tomadas durante o processo apresentando um recurso."@pt ;
+                    bim:Definición          "Fase en la que los licitadores tienen la oportunidad de impugnar las decisiones tomadas durante el proceso mediante la presentación de un recurso."@es  .
+
+
+bim:p.licitar   rdf:type  owl:ObjectProperty ;
+                    rdfs:subPropertyOf      bim:BIMProp  .
+
+
+bim:é.fase.de.homologação   rdf:type  owl:ObjectProperty ;
+                    rdfs:subPropertyOf      bim:p.licitar ;
+                    rdfs:Domain             bim:BIM ;
+                    rdfs:Range              bim:Projeto ;
+                    rdfs:label              "Propriedade destinada a licitar: é.fase.de.homologação" ;
+                    bim:Chave               "lici.132" ;
+                    bim:Ação                "Ação licitar" ;
+                    bim:Definição           "Fase final em que se homologa o processo e a autoridade competente aprova o resultado."@pt ;
+                    bim:Definición          "Etapa final en la que se aprueba el proceso y la autoridad competente aprueba el resultado."@es ;
+                    owl:equivalentProperty  bim:é.homologada  .
+
+
+bim:d.licitar   rdf:type  owl:DatatypeProperty ;
+                    rdfs:subPropertyOf      bim:BIMData  .
+
+
+bim:fase.de.homologação   rdf:type  owl:DatatypeProperty ;
+                    rdfs:subPropertyOf      bim:d.licitar ;
+                    rdfs:Range              xsd:string ;
+                    rdfs:label              "Dado para licitar:  fase.de.homologação  Deve ser formatado como (xsd:string)" ;
+                    bim:Chave               "lici.132" ;
+                    bim:Ação                "Ação licitar" ;
+                    bim:Definição           "Fase final em que se homologa o processo e a autoridade competente aprova o resultado."@pt ;
+                    bim:Definición          "Etapa final en la que se aprueba el proceso y la autoridad competente aprueba el resultado."@es  .
+
+
 bim:p.linkar   rdf:type  owl:ObjectProperty ;
                     rdfs:subPropertyOf      bim:BIMProp  .
 
@@ -7166,7 +7256,7 @@ bim:é.homologada   rdf:type  owl:ObjectProperty ;
                     bim:Ação                "Ação permitir" ;
                     bim:Definição           "Indica se o recurso tem a permissão homologada por autoridade competente."@pt ;
                     bim:Definición          "Indica si el recurso tiene permiso aprobado por una autoridad competente."@es ;
-                    owl:equivalentProperty  bim:é.autorizada  .
+                    owl:equivalentProperty  bim:é.fase.de.homologação  .
 
 
 bim:d.permitir   rdf:type  owl:DatatypeProperty ;
