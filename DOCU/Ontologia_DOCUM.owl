@@ -23,7 +23,7 @@ Ontology:  <https://github.com/JLMenegotto/RepoOnto#Elementos_Documentação>
   Annotations: rdfs:label "NormaReferência2: -"@pt
   Annotations: rdfs:label "NormaReferência3: -"@pt
   Annotations: rdfs:label "Observações: Elementos_Documentação"@pt
-  Annotations: rdfs:label "DataHora: 09/06/2025 11:01:06"@pt
+  Annotations: rdfs:label "DataHora: 16/06/2025 19:45:59"@pt
   Annotations: rdfs:label "Advertência1: -"@pt
   Annotations: rdfs:label "Prédio: -"@pt
   Annotations: rdfs:label "Cidade: Rio de Janeiro"@pt
@@ -2327,8 +2327,8 @@ ObjectProperty: bim:é.abastece.a
 	Annotations: rdfs:label "Propriedade destinada a abastecer: é.abastece.a"@pt
 	Annotations: bim:Chave "abas.100"
 	Annotations: bim:Ação "Ação abastecer"@pt
-	Annotations: bim:Definição "Declara que é um elemento que abastece a algum outro elemento"@pt
-	Annotations: bim:Definición "Declara que es un elemento que suministra algún otro elemento"@es
+	Annotations: bim:Definição "Declara que é um elemento que abastece a algum outro elemento."@pt
+	Annotations: bim:Definición "Declara que es un elemento que suministra algún otro elemento."@es
 	Characteristics: Irreflexive
 	InverseOf: bim:é.abastecido.por
 
@@ -2343,8 +2343,8 @@ DataProperty: bim:abastece.a
 	Annotations: rdfs:label "Dado para abastecer:  abastece.a  Deve ser formatado como (xsd:string)"@pt
 	Annotations: bim:Chave "abas.100"
 	Annotations: bim:Ação "Ação abastecer"@pt
-	Annotations: bim:Definição "Declara que é um elemento que abastece a algum outro elemento"@pt
-	Annotations: bim:Definición "Declara que es un elemento que suministra algún otro elemento"@es
+	Annotations: bim:Definição "Declara que é um elemento que abastece a algum outro elemento."@pt
+	Annotations: bim:Definición "Declara que es un elemento que suministra algún otro elemento."@es
 
 ObjectProperty: bim:p.abastecer
 	SubPropertyOf: bim:BIMProp
@@ -2358,8 +2358,8 @@ ObjectProperty: bim:é.abastecido.por
 	Annotations: rdfs:label "Propriedade destinada a abastecer: é.abastecido.por"@pt
 	Annotations: bim:Chave "abas.101"
 	Annotations: bim:Ação "Ação abastecer"@pt
-	Annotations: bim:Definição "Declara que é um elemento que é abastecido por algum outro elemento"@pt
-	Annotations: bim:Definición "Afirma que es un elemento que es suministrado por algún otro elemento"@es
+	Annotations: bim:Definição "Declara que é um elemento que é abastecido por algum outro elemento."@pt
+	Annotations: bim:Definición "Afirma que es un elemento que es suministrado por algún otro elemento."@es
 	Characteristics: Irreflexive
 	InverseOf: bim:é.abastece.a
 
@@ -2374,8 +2374,8 @@ DataProperty: bim:abastecido.por
 	Annotations: rdfs:label "Dado para abastecer:  abastecido.por  Deve ser formatado como (xsd:string)"@pt
 	Annotations: bim:Chave "abas.101"
 	Annotations: bim:Ação "Ação abastecer"@pt
-	Annotations: bim:Definição "Declara que é um elemento que é abastecido por algum outro elemento"@pt
-	Annotations: bim:Definición "Afirma que es un elemento que es suministrado por algún otro elemento"@es
+	Annotations: bim:Definição "Declara que é um elemento que é abastecido por algum outro elemento."@pt
+	Annotations: bim:Definición "Afirma que es un elemento que es suministrado por algún otro elemento."@es
 
 ObjectProperty: bim:p.administrar
 	SubPropertyOf: bim:BIMProp
@@ -2629,7 +2629,7 @@ ObjectProperty: bim:é.descrição
 	Domain: bim:BIM
 	Range: bim:Projeto
 	Annotations: rdfs:label "Propriedade destinada a catalogar: é.descrição"@pt
-	Annotations: bim:Chave "cata.105"
+	Annotations: bim:Chave "cata.106"
 	Annotations: bim:Ação "Ação catalogar"@pt
 	Annotations: bim:Definição "Declara a descrição do objeto que pode ser uma explicação sucinta."@pt
 	Annotations: bim:Definición "Declara la descripción del objeto, que puede ser una explicación sucinta."@es
@@ -2643,7 +2643,7 @@ DataProperty: bim:descrição
 	SubPropertyOf: bim:d.catalogar
 	Range: xsd:string
 	Annotations: rdfs:label "Dado para catalogar:  descrição  Deve ser formatado como (xsd:string)"@pt
-	Annotations: bim:Chave "cata.105"
+	Annotations: bim:Chave "cata.106"
 	Annotations: bim:Ação "Ação catalogar"@pt
 	Annotations: bim:Definição "Declara a descrição do objeto que pode ser uma explicação sucinta."@pt
 	Annotations: bim:Definición "Declara la descripción del objeto, que puede ser una explicación sucinta."@es
@@ -2658,7 +2658,7 @@ ObjectProperty: bim:é.família.tipo
 	Domain: bim:BIM
 	Range: bim:Projeto
 	Annotations: rdfs:label "Propriedade destinada a catalogar: é.família.tipo"@pt
-	Annotations: bim:Chave "cata.112"
+	Annotations: bim:Chave "cata.113"
 	Annotations: bim:Ação "Ação catalogar"@pt
 	Annotations: bim:Definição "Nome de tipo de uma família de sistema ou componente criada em Revit."@pt
 	Annotations: bim:Definición "Nombre de tipo de una familia de sistemas o componente creado en Revit."@es
@@ -2672,7 +2672,7 @@ DataProperty: bim:família.tipo
 	SubPropertyOf: bim:d.catalogar
 	Range: xsd:string
 	Annotations: rdfs:label "Dado para catalogar:  família.tipo  Deve ser formatado como (xsd:string)"@pt
-	Annotations: bim:Chave "cata.112"
+	Annotations: bim:Chave "cata.113"
 	Annotations: bim:Ação "Ação catalogar"@pt
 	Annotations: bim:Definição "Nome de tipo de uma família de sistema ou componente criada em Revit."@pt
 	Annotations: bim:Definición "Nombre de tipo de una familia de sistemas o componente creado en Revit."@es
@@ -5313,5 +5313,5 @@ DataProperty: bim:sensor.de.presença
 
 #################################################################
 ##  Fim da Ontologia DOCUM
-##  Criada em 09/06/2025 11:01:09
+##  Criada em 16/06/2025 19:46:00
 #################################################################
