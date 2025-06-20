@@ -21,3 +21,5 @@ Cada ontologia tem a data e hora da sua criação registrada.
   * **Ontologia com conceitos de objetos normativos e Fatos do caderno SomaSUS (CSUS)**
   * **Ontologia com conceitos de objetos Revit e IFC (OBIM)**
   * **Ontologia com conceitos urbanos e Fatos do Rio de Janeiro (URBA)**
+  * **Ontologia com conceitos de tubulações (TUBO)**
+  * **Ontologia com conceitos de voos planejados de drones (VANT)**
