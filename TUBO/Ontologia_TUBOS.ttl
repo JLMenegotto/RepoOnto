@@ -25,7 +25,7 @@
 	  rdfs:label "NormaReferência2: -"@pt ;
 	  rdfs:label "NormaReferência3: -"@pt ;
 	  rdfs:label "Observações: Ontologia para incorporar tubulações."@pt ;
-	  rdfs:label "DataHora: 25/09/2025 18:07:09"@pt ;
+	  rdfs:label "DataHora: 01/10/2025 17:09:52"@pt ;
 	  rdfs:label "Advertência1: Algumas traduções podem precisar de revisão - Traducción al español incorporada"@pt ;
 	  rdfs:label "Prédio: -"@pt ;
 	  rdfs:label "Cidade: -"@pt ;
@@ -1315,7 +1315,9 @@ bim:Tubo.Flexível rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Tubo"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.41"@pt  .
+      bim:Chave       "Key.Can.41"@pt ;
+      bim:CatRevit    "OST_PipeSegments"   ;
+      bim:ClasseIfc   "IfcPipeSegment"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -1346,7 +1348,9 @@ bim:Tubo.PB rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Tubo"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.42"@pt  .
+      bim:Chave       "Key.Can.42"@pt ;
+      bim:CatRevit    "OST_PipeSegments"   ;
+      bim:ClasseIfc   "IfcPipeSegment"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -1377,7 +1381,9 @@ bim:Tubo.PF rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Tubo"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.43"@pt  .
+      bim:Chave       "Key.Can.43"@pt ;
+      bim:CatRevit    "OST_PipeSegments"   ;
+      bim:ClasseIfc   "IfcPipeSegment"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -1408,7 +1414,9 @@ bim:Tubo.FF rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Tubo"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.44"@pt  .
+      bim:Chave       "Key.Can.44"@pt ;
+      bim:CatRevit    "OST_PipeSegments"   ;
+      bim:ClasseIfc   "IfcPipeSegment"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -1439,7 +1447,9 @@ bim:Tubo.PP rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Tubo"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.45"@pt  .
+      bim:Chave       "Key.Can.45"@pt ;
+      bim:CatRevit    "OST_PipeSegments"   ;
+      bim:ClasseIfc   "IfcPipeSegment"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -1470,7 +1480,9 @@ bim:Tubo.RR rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Tubo"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.46"@pt  .
+      bim:Chave       "Key.Can.46"@pt ;
+      bim:CatRevit    "OST_PipeSegments"   ;
+      bim:ClasseIfc   "IfcPipeSegment"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -1501,7 +1513,9 @@ bim:Curva90 rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Conexão"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.47"@pt  .
+      bim:Chave       "Key.Can.47"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcPipeFitting"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -1532,7 +1546,9 @@ bim:Curva45 rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Conexão"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.48"@pt  .
+      bim:Chave       "Key.Can.48"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcPipeFitting"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -1563,7 +1579,9 @@ bim:Curva22 rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Conexão"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.49"@pt  .
+      bim:Chave       "Key.Can.49"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcPipeFitting"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -1594,7 +1612,9 @@ bim:Curva11 rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Conexão"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.50"@pt  .
+      bim:Chave       "Key.Can.50"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcPipeFitting"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -1625,7 +1645,9 @@ bim:Curva90.Pé rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Conexão"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.51"@pt  .
+      bim:Chave       "Key.Can.51"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcPipeFitting"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -1656,7 +1678,9 @@ bim:Curva90.Visita rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Conexão"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.52"@pt  .
+      bim:Chave       "Key.Can.52"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcPipeFitting"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -1687,7 +1711,9 @@ bim:Curva.Curta rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Conexão"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.53"@pt  .
+      bim:Chave       "Key.Can.53"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcPipeFitting"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -1718,7 +1744,9 @@ bim:Curva.Longa rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Conexão"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.54"@pt  .
+      bim:Chave       "Key.Can.54"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcPipeFitting"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -1749,7 +1777,9 @@ bim:Luva rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Conexão"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.55"@pt  .
+      bim:Chave       "Key.Can.55"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcPipeFitting"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -1780,7 +1810,9 @@ bim:Luva.de.Correr rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Conexão"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.56"@pt  .
+      bim:Chave       "Key.Can.56"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcPipeFitting"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -1811,7 +1843,9 @@ bim:Té rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Conexão"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.57"@pt  .
+      bim:Chave       "Key.Can.57"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcPipeFitting"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -1842,7 +1876,9 @@ bim:Cruzeta rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Conexão"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.58"@pt  .
+      bim:Chave       "Key.Can.58"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcPipeFitting"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -1873,7 +1909,9 @@ bim:Junção rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Conexão"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.59"@pt  .
+      bim:Chave       "Key.Can.59"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcPipeFitting"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -1904,7 +1942,9 @@ bim:Redução.Concêntrica rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Conexão"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.60"@pt  .
+      bim:Chave       "Key.Can.60"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcPipeFitting"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -1935,7 +1975,9 @@ bim:Redução.Excêntrica rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Conexão"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.61"@pt  .
+      bim:Chave       "Key.Can.61"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcPipeFitting"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -1966,7 +2008,9 @@ bim:Transição rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Conexão"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.62"@pt  .
+      bim:Chave       "Key.Can.62"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcPipeFitting"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -1997,7 +2041,9 @@ bim:Cap rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Conexão"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.63"@pt  .
+      bim:Chave       "Key.Can.63"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcPipeFitting"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -2028,7 +2074,9 @@ bim:Entrada rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Conexão"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.64"@pt  .
+      bim:Chave       "Key.Can.64"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcPipeFitting"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -2059,7 +2107,9 @@ bim:Saída rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Conexão"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.65"@pt  .
+      bim:Chave       "Key.Can.65"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcPipeFitting"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -2090,7 +2140,9 @@ bim:Torneira rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Válvula"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.66"@pt  .
+      bim:Chave       "Key.Can.66"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcValve"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -2121,7 +2173,9 @@ bim:Euro20 rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Válvula"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.67"@pt  .
+      bim:Chave       "Key.Can.67"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcValve"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -2152,7 +2206,9 @@ bim:Borboleta rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Válvula"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.68"@pt  .
+      bim:Chave       "Key.Can.68"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcValve"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -2183,7 +2239,9 @@ bim:De.Globo rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Válvula"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.69"@pt  .
+      bim:Chave       "Key.Can.69"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcValve"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -2214,7 +2272,9 @@ bim:De.Vácuo rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Válvula"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.70"@pt  .
+      bim:Chave       "Key.Can.70"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcValve"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -2245,7 +2305,9 @@ bim:De.Desvio rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Válvula"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.71"@pt  .
+      bim:Chave       "Key.Can.71"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcValve"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -2276,7 +2338,9 @@ bim:De.Retenção rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Válvula"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.72"@pt  .
+      bim:Chave       "Key.Can.72"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcValve"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -2307,7 +2371,9 @@ bim:De.Isolamento rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Válvula"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.73"@pt  .
+      bim:Chave       "Key.Can.73"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcValve"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -2338,7 +2404,9 @@ bim:De.Fluxo rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Válvula"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.74"@pt  .
+      bim:Chave       "Key.Can.74"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcValve"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -2369,7 +2437,9 @@ bim:De.Antirrefluxo.Dupla rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Válvula"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.75"@pt  .
+      bim:Chave       "Key.Can.75"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcValve"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -2400,7 +2470,9 @@ bim:De.Regulação rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Válvula"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.76"@pt  .
+      bim:Chave       "Key.Can.76"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcValve"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -2431,7 +2503,9 @@ bim:De.Descarga rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Válvula"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.77"@pt  .
+      bim:Chave       "Key.Can.77"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcValve"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -2462,7 +2536,9 @@ bim:De.Gás rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Válvula"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.78"@pt  .
+      bim:Chave       "Key.Can.78"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcValve"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -2493,7 +2569,9 @@ bim:De.Segurança rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Válvula"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.79"@pt  .
+      bim:Chave       "Key.Can.79"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcValve"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -2524,7 +2602,9 @@ bim:Ventosa rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Válvula"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.80"@pt  .
+      bim:Chave       "Key.Can.80"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcValve"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -2555,7 +2635,9 @@ bim:Ventosa.Tríplice rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Válvula"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.81"@pt  .
+      bim:Chave       "Key.Can.81"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcValve"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -2586,7 +2668,9 @@ bim:De.Pressão rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Válvula"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.82"@pt  .
+      bim:Chave       "Key.Can.82"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcValve"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -2617,7 +2701,9 @@ bim:De.Alívio rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Válvula"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.83"@pt  .
+      bim:Chave       "Key.Can.83"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcValve"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -2648,7 +2734,9 @@ bim:De.Controle rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Válvula"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.84"@pt  .
+      bim:Chave       "Key.Can.84"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcValve"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -2679,7 +2767,9 @@ bim:De.Purga rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Válvula"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.85"@pt  .
+      bim:Chave       "Key.Can.85"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcValve"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -2710,7 +2800,9 @@ bim:De.Purga.Vapor rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Válvula"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.86"@pt  .
+      bim:Chave       "Key.Can.86"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcValve"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -2741,7 +2833,9 @@ bim:Abraçadeira rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Acessório"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.87"@pt  .
+      bim:Chave       "Key.Can.87"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcValve"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -2772,7 +2866,9 @@ bim:Haste rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Acessório"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.88"@pt  .
+      bim:Chave       "Key.Can.88"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcValve"    .
 
 
 bim:Projeto rdf:type  owl:Class  ;
@@ -2803,7 +2899,9 @@ bim:Volante rdf:type  owl:Class  ;
       bim:Espécie     "Tubulação"@pt ;
       bim:Tema        "Acessório"@pt ;
       bim:Disciplina  "Canalizações"@pt ;
-      bim:Chave       "Key.Can.89"@pt  .
+      bim:Chave       "Key.Can.89"@pt ;
+      bim:CatRevit    "OST_PipeFitting"   ;
+      bim:ClasseIfc   "IfcValve"    .
 
 #################################################################
 #     Indivíduos em Turtle                                       
@@ -6995,6 +7093,70 @@ bim:no.prumo   rdf:type  owl:DatatypeProperty ;
                     bim:Definición          "El elemento que está a plomo es vertical. Las coordenadas XY de sus extremos deben ser iguales."@es  .
 
 
+bim:p.posicionar    rdf:type  owl:ObjectProperty ;
+                    rdfs:subPropertyOf      bim:BIMProp  .
+
+
+bim:é.abaixo.de   rdf:type  owl:ObjectProperty ;
+                    rdfs:subPropertyOf      bim:p.posicionar  ;
+                    rdfs:Domain             bim:BIM ;
+                    rdfs:Range              bim:Projeto ;
+                    rdfs:label              "Propriedade destinada a posicionar : é.abaixo.de" ;
+                    bim:Chave               "posi.120" ;
+                    bim:Ação                "Ação posicionar " ;
+                    bim:Definição           "Elemento espacialmente posicionado abaixo de outro objeto."@pt ;
+                    bim:Definición          "Un elemento colocado espacialmente debajo de otro objeto."@es ;
+                    rdf:type                owl:AsymmetricProperty ;
+                    rdf:type                owl:IrreflexiveProperty ;
+                    owl:inverseOf           bim:é.acima.de  .
+
+
+bim:d.posicionar    rdf:type  owl:DatatypeProperty ;
+                    rdfs:subPropertyOf      bim:BIMData  .
+
+
+bim:abaixo.de   rdf:type  owl:DatatypeProperty ;
+                    rdfs:subPropertyOf      bim:d.posicionar  ;
+                    rdfs:Range              xsd:string ;
+                    rdfs:label              "Dado para posicionar :  abaixo.de  Deve ser formatado como (xsd:string)" ;
+                    bim:Chave               "posi.120" ;
+                    bim:Ação                "Ação posicionar " ;
+                    bim:Definição           "Elemento espacialmente posicionado abaixo de outro objeto."@pt ;
+                    bim:Definición          "Un elemento colocado espacialmente debajo de otro objeto."@es  .
+
+
+bim:p.posicionar    rdf:type  owl:ObjectProperty ;
+                    rdfs:subPropertyOf      bim:BIMProp  .
+
+
+bim:é.acima.de   rdf:type  owl:ObjectProperty ;
+                    rdfs:subPropertyOf      bim:p.posicionar  ;
+                    rdfs:Domain             bim:BIM ;
+                    rdfs:Range              bim:Projeto ;
+                    rdfs:label              "Propriedade destinada a posicionar : é.acima.de" ;
+                    bim:Chave               "posi.121" ;
+                    bim:Ação                "Ação posicionar " ;
+                    bim:Definição           "Elemento espacialmente posicionado acima de outro objeto."@pt ;
+                    bim:Definición          "Un elemento colocado espacialmente sobre otro objeto."@es ;
+                    rdf:type                owl:AsymmetricProperty ;
+                    rdf:type                owl:IrreflexiveProperty ;
+                    owl:inverseOf           bim:é.abaixo.de  .
+
+
+bim:d.posicionar    rdf:type  owl:DatatypeProperty ;
+                    rdfs:subPropertyOf      bim:BIMData  .
+
+
+bim:acima.de   rdf:type  owl:DatatypeProperty ;
+                    rdfs:subPropertyOf      bim:d.posicionar  ;
+                    rdfs:Range              xsd:string ;
+                    rdfs:label              "Dado para posicionar :  acima.de  Deve ser formatado como (xsd:string)" ;
+                    bim:Chave               "posi.121" ;
+                    bim:Ação                "Ação posicionar " ;
+                    bim:Definição           "Elemento espacialmente posicionado acima de outro objeto."@pt ;
+                    bim:Definición          "Un elemento colocado espacialmente sobre otro objeto."@es  .
+
+
 bim:p.qualificar   rdf:type  owl:ObjectProperty ;
                     rdfs:subPropertyOf      bim:BIMProp  .
 
@@ -7693,5 +7855,5 @@ bim:vant   rdf:type  owl:DatatypeProperty ;
 
 #################################################################
 ##  Fim da Ontologia TUBOS
-##  Criada em 25/09/2025 18:07:10
+##  Criada em 01/10/2025 17:09:54
 #################################################################
