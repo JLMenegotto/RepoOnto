@@ -24,7 +24,7 @@ Ontology:  <https://github.com/JLMenegotto/RepoOnto#Taxonomia_Sustentável_Brasi
   Annotations: rdfs:label "NormaReferência2: -"@pt
   Annotations: rdfs:label "NormaReferência3: -"@pt
   Annotations: rdfs:label "Observações: Conceitos de elementos da Taxonomia Sustentável Brasileira TSB"@pt
-  Annotations: rdfs:label "DataHora: 19/11/2025 7:56:45"@pt
+  Annotations: rdfs:label "DataHora: 19/11/2025 8:36:52"@pt
   Annotations: rdfs:label "Advertência1: -"@pt
   Annotations: rdfs:label "Prédio: -"@pt
   Annotations: rdfs:label "Cidade: -"@pt
@@ -11508,7 +11508,7 @@ Individual: bim:Contribuição.URB1.C
 	Types: bim:M.Viabilizadora
 	Facts: bim:é.pertencente.a  bim:Taxonomia.TSB
 	Facts: bim:é.contribuição.substancial  bim:Objetivo.01
-	Facts: bim:contribuição.substancial  "Usar materiais e práticas de construção sustentável, priorizar uso de materiais de construção de baixo carbono (ex: concreto com agregados reciclados, madeira certificada, aço reciclado), e comprovar redução de emissão de GEE incorporadas ao longo do ciclo de vida do edifício. Implementar plano de gestão de resíduos da construção com metas de desvio de aterro." 
+	Facts: bim:contribuição.substancial  "Usar materiais e práticas de construção sustentável, priorizar uso de materiais de construção de baixo carbono (ex: concreto com agregados reciclados, madeira certificada, aço reciclado), e comprovar redução de emissão de GEE incorporadas ao longo do ciclo de vida do edifício. Implementar plano de gestão de resíduos da construção com metas de desvio de aterro. "
 
 Individual: bim:Contribuição.URB1.D
 	Types: bim:M.Viabilizadora
@@ -11538,7 +11538,7 @@ Individual: bim:Contribuição.URB2.A
 	Types: bim:M.Viabilizadora
 	Facts: bim:é.pertencente.a  bim:Taxonomia.TSB
 	Facts: bim:é.contribuição.substancial  bim:Objetivo.01
-	Facts: bim:contribuição.substancial  "Demonstrar através de um estudo de viabilidade técnica e financeira que o plano ou projeto de incorporação de empreendimento imobiliário está integrado com soluções de mitigação de GEE, como a eficiência energética (uso de lâmpadas LED, sistemas de HVAC eficientes). A geração de energia renovável no local (p.ex. painéis solares no telhado) e a mobilidade sustentável (p.ex. infraestrutura para veículos elétricos e bicicletas). A contribuição deve ser quantificada e verificada por uma terceira parte competente."  
+	Facts: bim:contribuição.substancial  "Demonstrar através de um estudo de viabilidade técnica e financeira que o plano ou projeto de incorporação de empreendimento imobiliário está integrado com soluções de mitigação de GEE, como a eficiência energética (uso de lâmpadas LED, sistemas de HVAC eficientes). A geração de energia renovável no local (p.ex. painéis solares no telhado) e a mobilidade sustentável (p.ex. infraestrutura para veículos elétricos e bicicletas). A contribuição deve ser quantificada e verificada por uma terceira parte competente.  "
 
 Individual: bim:Contribuição.URB2.B
 	Types: bim:M.Viabilizadora
@@ -11562,7 +11562,7 @@ Individual: bim:Contribuição.TIC1.B
 	Types: bim:M.Viabilizadora
 	Facts: bim:é.pertencente.a  bim:Taxonomia.TSB
 	Facts: bim:é.contribuição.substancial  bim:Objetivo.01
-	Facts: bim:contribuição.substancial  "Os empreendimentos devem alcançar a neutralidade de carbono nos escopos 1 e 2 com base em normas internacionais, como a ISO 14068, ou nacionais, como a ABNT PR 2060, utilizando diretrizes técnicas da ABNT NBR ISO 14067." 
+	Facts: bim:contribuição.substancial  "Os empreendimentos devem alcançar a neutralidade de carbono nos escopos 1 e 2 com base em normas internacionais, como a ISO 14068, ou nacionais, como a ABNT PR 2060, utilizando diretrizes técnicas da ABNT NBR ISO 14067. "
 
 Individual: bim:Contribuição.TIC1.C
 	Types: bim:M.Viabilizadora
@@ -11592,7 +11592,7 @@ Individual: bim:Contribuição.TIC3.A
 	Types: bim:M.Viabilizadora
 	Facts: bim:é.pertencente.a  bim:Taxonomia.TSB
 	Facts: bim:é.contribuição.substancial  bim:Objetivo.01
-	Facts: bim:contribuição.substancial  "Utilizar soluções TIC predominantemente para o fornecimento de dados e análises que permitem a redução das emissões de GEE." 
+	Facts: bim:contribuição.substancial  "Utilizar soluções TIC predominantemente para o fornecimento de dados e análises que permitem a redução das emissões de GEE. "
 
 Individual: bim:Contribuição.TIC3.B
 	Types: bim:M.Viabilizadora
@@ -11708,7 +11708,7 @@ Individual: bim:Contribuição.UA13
 	Facts: bim:é.pertencente.a  bim:Taxonomia.TSB
 	Facts: bim:é.contribuição.substancial  bim:Objetivo.02
 	Facts: bim:é.ameaça  bim:Ameaça.03
-	Facts: bim:ação.projetual  "Analisar os critérios correspondentes do objetivo de adaptação à mudança do clima no setor de Água ou Construção, se disponíveis. Como alternativa, demonstrar a redução do risco climático ou a melhoria da resiliência por meio de: 1) Para ativo ou atividade de risco baixo ou moderado: apresentação de estudo qualitativo e/ou quantitativo; 2) Para ativo ou atividade de alto risco: realização de avaliação de vulnerabilidade conforme o processo completo descrito na metodologia específica do Anexo A2. Os níveis de risco devem ser determinados conforme as seções 1.1 e 1.2 do Anexo A2. 
+	Facts: bim:ação.projetual  "Analisar os critérios correspondentes do objetivo de adaptação à mudança do clima no setor de Água ou Construção, se disponíveis. Como alternativa, demonstrar a redução do risco climático ou a melhoria da resiliência por meio de: 1) Para ativo ou atividade de risco baixo ou moderado: apresentação de estudo qualitativo e/ou quantitativo; 2) Para ativo ou atividade de alto risco: realização de avaliação de vulnerabilidade conforme o processo completo descrito na metodologia específica do Anexo A2. Os níveis de risco devem ser determinados conforme as seções 1.1 e 1.2 do Anexo A2. "
 	Facts: bim:medida.qualificada  "Implementação de soluções híbridas, combinando infraestrutura cinza com soluções baseadas na natureza (SbN)."
 
 Individual: bim:Contribuição.UA14
@@ -17601,5 +17601,5 @@ DataProperty: bim:medida.qualificada
 
 #################################################################
 ##  Fim da Ontologia TSB
-##  Criada em 19/11/2025 7:56:49
+##  Criada em 19/11/2025 8:36:56
 #################################################################
