@@ -22,8 +22,15 @@ As atividades económicas dos **Setores da TSB** e os princípios de sustentabil
 
 À medida que a TSB evolua, a ontologia também evoluirá.
 
+#### Relacionamento com Objetos BIM e sistemas de classificação.
+Os diversos critérios de alinhamento com os princípios da Taxonomia são conectados às categorias Revit, classes IFC ou códigos como o ABNT, por meio dos indivíduos definidos na Classe **Sistema.Estudado**. 
+
+<img width="2521" height="572" alt="Sistema_Clima" src="https://github.com/user-attachments/assets/9319671f-dec0-4e3c-8553-744106c29a4f" />
+
 #### Árvore de Classes Definidas por declarações axiomáticas (Clique na imagem para ampliar)
 As ligações _"is-a"_ não devem ser entendidas literalmente como "é uma", mas entendidas como relações que existem entre as classes conectadas.
 
-<img width="856" height="1928" alt="TSB" src="https://github.com/user-attachments/assets/0496572a-ec4a-4153-b2d2-184a7dc16edb" />
+<img width="856" height="1928" alt="TSB" src="https://github.com/user-attachments/assets/6d9b23cc-3e16-43d9-96e3-5735cef33e66" />
+
+
 
