@@ -26,7 +26,7 @@
 	  rdfs:label "NormaReferência2: -"@pt ;
 	  rdfs:label "Link do Esquema: https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD2_TC1/HTML/schema"@pt ;
 	  rdfs:label "Observações: Modelo de informação IFC 4x3"@pt ;
-	  rdfs:label "DataHora: 22/04/2026 9:21:43"@pt ;
+	  rdfs:label "DataHora: 22/04/2026 9:27:24"@pt ;
 	  rdfs:label "Advertência1: Algumas traduções podem precisar de revisão - Traducción al español incorporada"@pt ;
 	  rdfs:label "Prédio: -"@pt ;
 	  rdfs:label "Cidade: -"@pt ;
@@ -49775,11 +49775,11 @@ bim:p.administrar   rdf:type  owl:ObjectProperty ;
                     rdfs:subPropertyOf      bim:BIMProp  .
 
 
-bim:é.privado?   rdf:type  owl:ObjectProperty ;
+bim:é.privado   rdf:type  owl:ObjectProperty ;
                     rdfs:subPropertyOf      bim:p.administrar ;
                     rdfs:domain             bim:BIM ;
                     rdfs:range              bim:Projeto ;
-                    rdfs:label              "Propriedade destinada a administrar: é.privado?" ;
+                    rdfs:label              "Propriedade destinada a administrar: é.privado" ;
                     bim:Chave               "admin.115" ;
                     bim:Ação                "Ação administrar" ;
                     bim:Definição           "É um bem ou espaço privado."@pt ;
@@ -49791,10 +49791,10 @@ bim:d.administrar   rdf:type  owl:DatatypeProperty ;
                     rdfs:subPropertyOf      bim:BIMData  .
 
 
-bim:privado?   rdf:type  owl:DatatypeProperty ;
+bim:privado   rdf:type  owl:DatatypeProperty ;
                     rdfs:subPropertyOf      bim:d.administrar ;
                     rdfs:range              xsd:boolean ;
-                    rdfs:label              "Dado para administrar:  privado?  Deve ser formatado como (xsd:boolean)" ;
+                    rdfs:label              "Dado para administrar:  privado  Deve ser formatado como (xsd:boolean)" ;
                     bim:Chave               "admin.115" ;
                     bim:Ação                "Ação administrar" ;
                     bim:Definição           "É um bem ou espaço privado."@pt ;
@@ -49805,11 +49805,11 @@ bim:p.administrar   rdf:type  owl:ObjectProperty ;
                     rdfs:subPropertyOf      bim:BIMProp  .
 
 
-bim:é.público?   rdf:type  owl:ObjectProperty ;
+bim:é.público   rdf:type  owl:ObjectProperty ;
                     rdfs:subPropertyOf      bim:p.administrar ;
                     rdfs:domain             bim:BIM ;
                     rdfs:range              bim:Projeto ;
-                    rdfs:label              "Propriedade destinada a administrar: é.público?" ;
+                    rdfs:label              "Propriedade destinada a administrar: é.público" ;
                     bim:Chave               "admin.117" ;
                     bim:Ação                "Ação administrar" ;
                     bim:Definição           "É um bem ou espaço público."@pt ;
@@ -49821,10 +49821,10 @@ bim:d.administrar   rdf:type  owl:DatatypeProperty ;
                     rdfs:subPropertyOf      bim:BIMData  .
 
 
-bim:público?   rdf:type  owl:DatatypeProperty ;
+bim:público   rdf:type  owl:DatatypeProperty ;
                     rdfs:subPropertyOf      bim:d.administrar ;
                     rdfs:range              xsd:boolean ;
-                    rdfs:label              "Dado para administrar:  público?  Deve ser formatado como (xsd:boolean)" ;
+                    rdfs:label              "Dado para administrar:  público  Deve ser formatado como (xsd:boolean)" ;
                     bim:Chave               "admin.117" ;
                     bim:Ação                "Ação administrar" ;
                     bim:Definição           "É um bem ou espaço público."@pt ;
@@ -54413,5 +54413,5 @@ bim:vant   rdf:type  owl:DatatypeProperty ;
 
 #################################################################
 ##  Fim da Ontologia OIFC
-##  Criada em 22/04/2026 9:21:57
+##  Criada em 22/04/2026 9:27:38
 #################################################################
