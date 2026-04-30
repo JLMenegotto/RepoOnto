@@ -24,7 +24,7 @@ Ontology:  <https://github.com/JLMenegotto/RepoOnto#EGC>
   Annotations: rdfs:label "NormaReferência2: -"@pt
   Annotations: rdfs:label "NormaReferência3: -"@pt
   Annotations: rdfs:label "Observações: Conceitos de elementos das Estruturas Genéticamente Construídas"@pt
-  Annotations: rdfs:label "DataHora: 30/04/2026 16:33:01"@pt
+  Annotations: rdfs:label "DataHora: 30/04/2026 16:48:33"@pt
   Annotations: rdfs:label "Advertência: Traduções ao espanhol e ao inglês incorporadas - As traduções devem ser constantemente revisadas"@pt
   Annotations: rdfs:label "Aviso: Traducciones integradas al español e inglés - Las traducciones deben revisarse constantemente"@es
   Annotations: rdfs:label "Alert: Built-in Spanish and English Translations - Translations must be constantly reviewed"@en
@@ -394,30 +394,30 @@ Class: bim:Reflexão
 
 Individual: bim:T1
 	Types: bim:Translação
+	Facts: bim:é.ponto.base  bim:PB1
 	Facts: bim:descrição  "Uma translação"
 	Facts: bim:coordenada.x  1.05
 	Facts: bim:coordenada.y  1.05
 	Facts: bim:coordenada.z  1.05
 	Facts: bim:código.ontogenético  "T"
-	Facts: bim:é.ponto.base  bim:PB1
 
 Individual: bim:G1
 	Types: bim:Giro
+	Facts: bim:é.ponto.base  bim:PB1
 	Facts: bim:descrição  "Uma rotação"
 	Facts: bim:coordenada.x  2.05
 	Facts: bim:coordenada.y  2.05
 	Facts: bim:coordenada.z  2.05
 	Facts: bim:código.ontogenético  "G"
-	Facts: bim:é.ponto.base  bim:PB1
 
 Individual: bim:E1
 	Types: bim:Escalar
+	Facts: bim:é.ponto.base  bim:PB1
 	Facts: bim:descrição  "Uma mudança escalar"
 	Facts: bim:coordenada.x  3.05
 	Facts: bim:coordenada.y  3.05
 	Facts: bim:coordenada.z  3.05
 	Facts: bim:código.ontogenético  "E"
-	Facts: bim:é.ponto.base  bim:PB1
 
 Individual: bim:R1
 	Types: bim:Reflexão
@@ -434,15 +434,15 @@ Individual: bim:PBP
 
 Individual: bim:TRA_Hor
 	Types: bim:Translação
-	Facts: bim:descrição  "A Translação principal dos módulos estruturais horizontais"
 	Facts: bim:é.ponto.base  bim:PBP
 	Facts: bim:é.transformação.geométrica  bim:T1
+	Facts: bim:descrição  "A Translação principal dos módulos estruturais horizontais"
 
 Individual: bim:TRA_Ver
 	Types: bim:Translação
-	Facts: bim:descrição  "A Translação principal dos módulos estruturais verticais"
 	Facts: bim:é.ponto.base  bim:PBP
 	Facts: bim:é.transformação.geométrica  bim:T1
+	Facts: bim:descrição  "A Translação principal dos módulos estruturais verticais"
 
 Individual: bim:Vd1
 	Types: bim:Valor.Deslocar
@@ -5182,5 +5182,5 @@ DataProperty: bim:vant
 
 #################################################################
 ##  Fim da Ontologia Genetica
-##  Criada em 30/04/2026 16:33:05
+##  Criada em 30/04/2026 16:48:35
 #################################################################
