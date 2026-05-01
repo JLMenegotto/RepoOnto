@@ -24,7 +24,7 @@ Ontology:  <https://github.com/JLMenegotto/RepoOnto#Drones>
   Annotations: rdfs:label "NormaReferência2: -"@pt
   Annotations: rdfs:label "NormaReferência3: -"@pt
   Annotations: rdfs:label "Observações: Classes e indivíduos de voos de manutenção com drones."@pt
-  Annotations: rdfs:label "DataHora: 28/04/2026 13:01:47"@pt
+  Annotations: rdfs:label "DataHora: 01/05/2026 14:31:47"@pt
   Annotations: rdfs:label "Advertência1: -"@pt
   Annotations: rdfs:label "Prédio: -"@pt
   Annotations: rdfs:label "Cidade: -"@pt
@@ -449,7 +449,7 @@ ObjectProperty: bim:é.privado
 	Annotations: rdfs:label "Propriedade destinada a administrar: é.privado"@pt
 	Annotations: bim:Chave "admin.115"
 	Annotations: bim:Ação "Ação administrar"@pt
-	Annotations: bim:Definição "É um bem ou espaço privado."@pt
+	Annotations: bim:Definição "Declara que se trata de um bem ou espaço privado."@pt
 	Annotations: bim:Definición "Es un bien o espacio privado."@es
 	Annotations: bim:Definition "It is a private good or space."@en
 	InverseOf: bim:é.público
@@ -465,7 +465,7 @@ DataProperty: bim:privado
 	Annotations: rdfs:label "Dado para administrar:  privado  Deve ser formatado como (xsd:boolean)"@pt
 	Annotations: bim:Chave "admin.115"
 	Annotations: bim:Ação "Ação administrar"@pt
-	Annotations: bim:Definição "É um bem ou espaço privado."@pt
+	Annotations: bim:Definição "Declara que se trata de um bem ou espaço privado."@pt
 	Annotations: bim:Definición "Es un bien o espacio privado."@es
 	Annotations: bim:Definition "It is a private good or space."@en
 
@@ -481,7 +481,7 @@ ObjectProperty: bim:é.público
 	Annotations: rdfs:label "Propriedade destinada a administrar: é.público"@pt
 	Annotations: bim:Chave "admin.117"
 	Annotations: bim:Ação "Ação administrar"@pt
-	Annotations: bim:Definição "É um bem ou espaço público."@pt
+	Annotations: bim:Definição "Declara que se trata de um bem ou espaço público."@pt
 	Annotations: bim:Definición "Es un bien o espacio público."@es
 	Annotations: bim:Definition "It is a public asset or space."@en
 	InverseOf: bim:é.privado
@@ -497,7 +497,7 @@ DataProperty: bim:público
 	Annotations: rdfs:label "Dado para administrar:  público  Deve ser formatado como (xsd:boolean)"@pt
 	Annotations: bim:Chave "admin.117"
 	Annotations: bim:Ação "Ação administrar"@pt
-	Annotations: bim:Definição "É um bem ou espaço público."@pt
+	Annotations: bim:Definição "Declara que se trata de um bem ou espaço público."@pt
 	Annotations: bim:Definición "Es un bien o espacio público."@es
 	Annotations: bim:Definition "It is a public asset or space."@en
 
@@ -865,7 +865,7 @@ ObjectProperty: bim:é.área.real
 	domain: bim:BIM
 	range: bim:Projeto
 	Annotations: rdfs:label "Propriedade destinada a dimensionar: é.área.real"@pt
-	Annotations: bim:Chave "dimen.117"
+	Annotations: bim:Chave "dimen.118"
 	Annotations: bim:Ação "Ação dimensionar"@pt
 	Annotations: bim:Definição "Medida da superfície de quaisquer dependências, ou conjunto de dependências, cobertas ou descobertas, nela incluídas as superfícies das projeções de paredes, de pilares e demais elementos construtivos. Norma NBR 12721:2006."@pt
 	Annotations: bim:Definición "Medición de la superficie de cualquier dependencia, o conjunto de dependencias, cubiertas o descubiertas, incluidas las superficies de los salientes de muros, pilares y otros elementos constructivos. Norma NBR 12721:2006."@es
@@ -881,11 +881,139 @@ DataProperty: bim:área.real
 	SubPropertyOf: bim:d.dimensionar
 	range: xsd:double
 	Annotations: rdfs:label "Dado para dimensionar:  área.real  Deve ser formatado como (xsd:double)"@pt
-	Annotations: bim:Chave "dimen.117"
+	Annotations: bim:Chave "dimen.118"
 	Annotations: bim:Ação "Ação dimensionar"@pt
 	Annotations: bim:Definição "Medida da superfície de quaisquer dependências, ou conjunto de dependências, cobertas ou descobertas, nela incluídas as superfícies das projeções de paredes, de pilares e demais elementos construtivos. Norma NBR 12721:2006."@pt
 	Annotations: bim:Definición "Medición de la superficie de cualquier dependencia, o conjunto de dependencias, cubiertas o descubiertas, incluidas las superficies de los salientes de muros, pilares y otros elementos constructivos. Norma NBR 12721:2006."@es
 	Annotations: bim:Definition "Measurement of the surface of any dependencies, or set of dependencies, covered or uncovered, including the surfaces of the projections of walls, pillars and other constructive elements. NBR 12721:2006 Standard."@en
+
+ObjectProperty: bim:p.dimensionar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.caimento.máximo
+	SubPropertyOf: bim:p.dimensionar
+	domain: bim:BIM
+	range: bim:Projeto
+	Annotations: rdfs:label "Propriedade destinada a dimensionar: é.caimento.máximo"@pt
+	Annotations: bim:Chave "dimen.126"
+	Annotations: bim:Ação "Ação dimensionar"@pt
+	Annotations: bim:Definição "Inclinação máxima permitida por norma ou projetualmente recomendável para projetar elementos inclinados."@pt
+	Annotations: bim:Definición "Máxima inclinación permitida por ley o recomendada proyectualmente para diseñar elementos inclinados."@es
+	Annotations: bim:Definition "Maximum inclination allowed by law or projectually recommended for designing inclined elements."@en
+	EquivalentTo: bim:é.inclinação.máxima
+
+DataProperty: bim:d.dimensionar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:caimento.máximo
+	SubPropertyOf: bim:d.dimensionar
+	range: xsd:double
+	Annotations: rdfs:label "Dado para dimensionar:  caimento.máximo  Deve ser formatado como (xsd:double)"@pt
+	Annotations: bim:Chave "dimen.126"
+	Annotations: bim:Ação "Ação dimensionar"@pt
+	Annotations: bim:Definição "Inclinação máxima permitida por norma ou projetualmente recomendável para projetar elementos inclinados."@pt
+	Annotations: bim:Definición "Máxima inclinación permitida por ley o recomendada proyectualmente para diseñar elementos inclinados."@es
+	Annotations: bim:Definition "Maximum inclination allowed by law or projectually recommended for designing inclined elements."@en
+
+ObjectProperty: bim:p.dimensionar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.caimento.mínimo
+	SubPropertyOf: bim:p.dimensionar
+	domain: bim:BIM
+	range: bim:Projeto
+	Annotations: rdfs:label "Propriedade destinada a dimensionar: é.caimento.mínimo"@pt
+	Annotations: bim:Chave "dimen.127"
+	Annotations: bim:Ação "Ação dimensionar"@pt
+	Annotations: bim:Definição "Inclinação mínima para telhados de fibrocimento, chapas metálicas de telhados, tubulações ou elementos que precisem ser posicionados com inclinações."@pt
+	Annotations: bim:Definición "Pendiente mínima para tejados de fibrocemento, láminas de tejado, tuberías o elementos que deben colocarse con pendientes."@es
+	Annotations: bim:Definition "Minimum slope for fiber cement roofs, roofing sheets, pipes, or elements that need to be positioned with slopes."@en
+	EquivalentTo: bim:é.inclinação.mínima
+
+DataProperty: bim:d.dimensionar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:caimento.mínimo
+	SubPropertyOf: bim:d.dimensionar
+	range: xsd:double
+	Annotations: rdfs:label "Dado para dimensionar:  caimento.mínimo  Deve ser formatado como (xsd:double)"@pt
+	Annotations: bim:Chave "dimen.127"
+	Annotations: bim:Ação "Ação dimensionar"@pt
+	Annotations: bim:Definição "Inclinação mínima para telhados de fibrocimento, chapas metálicas de telhados, tubulações ou elementos que precisem ser posicionados com inclinações."@pt
+	Annotations: bim:Definición "Pendiente mínima para tejados de fibrocemento, láminas de tejado, tuberías o elementos que deben colocarse con pendientes."@es
+	Annotations: bim:Definition "Minimum slope for fiber cement roofs, roofing sheets, pipes, or elements that need to be positioned with slopes."@en
+
+ObjectProperty: bim:p.dimensionar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.inclinação.máxima
+	SubPropertyOf: bim:p.dimensionar
+	domain: bim:BIM
+	range: bim:Projeto
+	Annotations: rdfs:label "Propriedade destinada a dimensionar: é.inclinação.máxima"@pt
+	Annotations: bim:Chave "dimen.143"
+	Annotations: bim:Ação "Ação dimensionar"@pt
+	Annotations: bim:Definição "Inclinação máxima permitida por norma ou projetualmente recomendável para projetar elementos inclinados."@pt
+	Annotations: bim:Definición "Máxima inclinación permitida por ley o recomendada proyectualmente para diseñar elementos inclinados."@es
+	Annotations: bim:Definition "Maximum inclination allowed by law or projectually recommended for designing inclined elements."@en
+	EquivalentTo: bim:é.caimento.máximo
+
+DataProperty: bim:d.dimensionar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:inclinação.máxima
+	SubPropertyOf: bim:d.dimensionar
+	range: xsd:double
+	Annotations: rdfs:label "Dado para dimensionar:  inclinação.máxima  Deve ser formatado como (xsd:double)"@pt
+	Annotations: bim:Chave "dimen.143"
+	Annotations: bim:Ação "Ação dimensionar"@pt
+	Annotations: bim:Definição "Inclinação máxima permitida por norma ou projetualmente recomendável para projetar elementos inclinados."@pt
+	Annotations: bim:Definición "Máxima inclinación permitida por ley o recomendada proyectualmente para diseñar elementos inclinados."@es
+	Annotations: bim:Definition "Maximum inclination allowed by law or projectually recommended for designing inclined elements."@en
+
+ObjectProperty: bim:p.dimensionar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.inclinação.mínima
+	SubPropertyOf: bim:p.dimensionar
+	domain: bim:BIM
+	range: bim:Projeto
+	Annotations: rdfs:label "Propriedade destinada a dimensionar: é.inclinação.mínima"@pt
+	Annotations: bim:Chave "dimen.144"
+	Annotations: bim:Ação "Ação dimensionar"@pt
+	Annotations: bim:Definição "Inclinação mínima para telhados de fibrocimento, chapas metálicas de telhados, tubulações ou elementos que precisem ser posicionados com inclinações."@pt
+	Annotations: bim:Definición "Pendiente mínima para tejados de fibrocemento, láminas de tejado, tuberías o elementos que deben colocarse con pendientes."@es
+	Annotations: bim:Definition "Minimum slope for fiber cement roofs, roofing sheets, pipes, or elements that need to be positioned with slopes."@en
+	EquivalentTo: bim:é.caimento.mínimo
+
+DataProperty: bim:d.dimensionar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:inclinação.mínima
+	SubPropertyOf: bim:d.dimensionar
+	range: xsd:double
+	Annotations: rdfs:label "Dado para dimensionar:  inclinação.mínima  Deve ser formatado como (xsd:double)"@pt
+	Annotations: bim:Chave "dimen.144"
+	Annotations: bim:Ação "Ação dimensionar"@pt
+	Annotations: bim:Definição "Inclinação mínima para telhados de fibrocimento, chapas metálicas de telhados, tubulações ou elementos que precisem ser posicionados com inclinações."@pt
+	Annotations: bim:Definición "Pendiente mínima para tejados de fibrocemento, láminas de tejado, tuberías o elementos que deben colocarse con pendientes."@es
+	Annotations: bim:Definition "Minimum slope for fiber cement roofs, roofing sheets, pipes, or elements that need to be positioned with slopes."@en
 
 ObjectProperty: bim:p.energizar
 	SubPropertyOf: bim:BIMProp
@@ -1516,8 +1644,8 @@ ObjectProperty: bim:é.iluminador.de
 	Annotations: bim:Definição "ID de Revit ou GlobalId IFC ou identificador único de objeto. Identificação da entidade de iluminação. Pode ser uma luminária ou poste de luz."@pt
 	Annotations: bim:Definición "ID de Revit o GlobalId IFC o identificador de objeto único. Identificación de la entidad de iluminación. Puede ser una lámpara o un poste de luz."@es
 	Annotations: bim:Definition "Revit ID or IFC GlobalId or unique object identifier. Identification of the lighting entity. It can be a lamp or light pole."@en
-	Annotations: bim:CatRevit "OST_ElectricalDevices"
-	Annotations: bim:ClasseIfc "IfcLamp"
+	Annotations: bim:CatRevit "[ OST_ElectricalDevices ]"
+	Annotations: bim:ClasseIfc "[ IfcLamp ]"
 	Annotations: bim:ABNT "[ 0P.70.30 ]"
 	InverseOf: bim:é.iluminado.por
 
@@ -1535,8 +1663,8 @@ DataProperty: bim:iluminador.de
 	Annotations: bim:Definição "ID de Revit ou GlobalId IFC ou identificador único de objeto. Identificação da entidade de iluminação. Pode ser uma luminária ou poste de luz."@pt
 	Annotations: bim:Definición "ID de Revit o GlobalId IFC o identificador de objeto único. Identificación de la entidad de iluminación. Puede ser una lámpara o un poste de luz."@es
 	Annotations: bim:Definition "Revit ID or IFC GlobalId or unique object identifier. Identification of the lighting entity. It can be a lamp or light pole."@en
-	Annotations: bim:CatRevit "OST_ElectricalDevices"
-	Annotations: bim:ClasseIfc "IfcLamp"
+	Annotations: bim:CatRevit "[ OST_ElectricalDevices ]"
+	Annotations: bim:ClasseIfc "[ IfcLamp ]"
 	Annotations: bim:ABNT "[ 0P.70.30 ]"
 
 ObjectProperty: bim:p.iluminar
@@ -1554,8 +1682,8 @@ ObjectProperty: bim:é.iluminado.por
 	Annotations: bim:Definição "ID de Revit ou GlobalId IFC ou identificador único de objeto. Identificação de um elemento que é iluminado por algum outro elemento."@pt
 	Annotations: bim:Definición "ID de Revit o GlobalId IFC o identificador de objeto único. Identificación de un elemento que está iluminado por algún otro elemento."@es
 	Annotations: bim:Definition "Revit ID or IFC GlobalId or unique object identifier. Identification of an element that is illuminated by some other element."@en
-	Annotations: bim:CatRevit "OST_ElectricalDevices"
-	Annotations: bim:ClasseIfc "IfcLamp"
+	Annotations: bim:CatRevit "[ OST_ElectricalDevices ]"
+	Annotations: bim:ClasseIfc "[ IfcLamp ]"
 	Annotations: bim:ABNT "[ 0P.70.30 ]"
 	InverseOf: bim:é.iluminador.de
 
@@ -1573,8 +1701,8 @@ DataProperty: bim:iluminado.por
 	Annotations: bim:Definição "ID de Revit ou GlobalId IFC ou identificador único de objeto. Identificação de um elemento que é iluminado por algum outro elemento."@pt
 	Annotations: bim:Definición "ID de Revit o GlobalId IFC o identificador de objeto único. Identificación de un elemento que está iluminado por algún otro elemento."@es
 	Annotations: bim:Definition "Revit ID or IFC GlobalId or unique object identifier. Identification of an element that is illuminated by some other element."@en
-	Annotations: bim:CatRevit "OST_ElectricalDevices"
-	Annotations: bim:ClasseIfc "IfcLamp"
+	Annotations: bim:CatRevit "[ OST_ElectricalDevices ]"
+	Annotations: bim:ClasseIfc "[ IfcLamp ]"
 	Annotations: bim:ABNT "[ 0P.70.30 ]"
 
 ObjectProperty: bim:p.iluminar
@@ -1592,8 +1720,8 @@ ObjectProperty: bim:é.superfície.de.trabalho
 	Annotations: bim:Definição "NBR 15215-3: Declara a altura da superfície de trabalho para o qual a iluminância é calculada. Normalmente a 0.75 m do piso. (NBR 15215-3)."@pt
 	Annotations: bim:Definición "NBR 15215-3: Declara la altura de la superficie de trabajo para la que se calcula la iluminancia. Normalmente a 0,75 m del suelo. (NBR 15215-3)."@es
 	Annotations: bim:Definition "NBR 15215-3: Declares the height of the work surface for which the illuminance is calculated. Usually 0.75 m from the floor. (NBR 15215-3)."@en
-	Annotations: bim:CatRevit "OST_ElectricalDevices"
-	Annotations: bim:ClasseIfc "IfcLamp"
+	Annotations: bim:CatRevit "[ OST_ElectricalDevices ]"
+	Annotations: bim:ClasseIfc "[ IfcLamp ]"
 	Annotations: bim:ABNT "[ 0P.70.30.10 ]"
 	EquivalentTo: bim:é.superfície.de.referência
 
@@ -1611,8 +1739,8 @@ DataProperty: bim:superfície.de.trabalho
 	Annotations: bim:Definição "NBR 15215-3: Declara a altura da superfície de trabalho para o qual a iluminância é calculada. Normalmente a 0.75 m do piso. (NBR 15215-3)."@pt
 	Annotations: bim:Definición "NBR 15215-3: Declara la altura de la superficie de trabajo para la que se calcula la iluminancia. Normalmente a 0,75 m del suelo. (NBR 15215-3)."@es
 	Annotations: bim:Definition "NBR 15215-3: Declares the height of the work surface for which the illuminance is calculated. Usually 0.75 m from the floor. (NBR 15215-3)."@en
-	Annotations: bim:CatRevit "OST_ElectricalDevices"
-	Annotations: bim:ClasseIfc "IfcLamp"
+	Annotations: bim:CatRevit "[ OST_ElectricalDevices ]"
+	Annotations: bim:ClasseIfc "[ IfcLamp ]"
 	Annotations: bim:ABNT "[ 0P.70.30.10 ]"
 
 ObjectProperty: bim:p.iluminar
@@ -1630,8 +1758,8 @@ ObjectProperty: bim:é.superfície.de.referência
 	Annotations: bim:Definição "NBR 15215-3: Declara a altura  da superfície de referência para o qual a iluminância é calculada. Normalmente a 0.75 m do piso. (NBR 15215-3)."@pt
 	Annotations: bim:Definición "NBR 15215-3: Declara la altura de la superficie de referencia para la que se calcula la iluminancia. Normalmente a 0,75 m del suelo. (NBR 15215-3)."@es
 	Annotations: bim:Definition "NBR 15215-3: Declares the height of the reference surface for which the illuminance is calculated. Usually 0.75 m from the floor. (NBR 15215-3)."@en
-	Annotations: bim:CatRevit "OST_ElectricalDevices"
-	Annotations: bim:ClasseIfc "IfcLamp"
+	Annotations: bim:CatRevit "[ OST_ElectricalDevices ]"
+	Annotations: bim:ClasseIfc "[ IfcLamp ]"
 	Annotations: bim:ABNT "[ 0P.70.30 ]"
 	EquivalentTo: bim:é.superfície.de.iluminação
 
@@ -1649,8 +1777,8 @@ DataProperty: bim:superfície.de.referência
 	Annotations: bim:Definição "NBR 15215-3: Declara a altura  da superfície de referência para o qual a iluminância é calculada. Normalmente a 0.75 m do piso. (NBR 15215-3)."@pt
 	Annotations: bim:Definición "NBR 15215-3: Declara la altura de la superficie de referencia para la que se calcula la iluminancia. Normalmente a 0,75 m del suelo. (NBR 15215-3)."@es
 	Annotations: bim:Definition "NBR 15215-3: Declares the height of the reference surface for which the illuminance is calculated. Usually 0.75 m from the floor. (NBR 15215-3)."@en
-	Annotations: bim:CatRevit "OST_ElectricalDevices"
-	Annotations: bim:ClasseIfc "IfcLamp"
+	Annotations: bim:CatRevit "[ OST_ElectricalDevices ]"
+	Annotations: bim:ClasseIfc "[ IfcLamp ]"
 	Annotations: bim:ABNT "[ 0P.70.30 ]"
 
 ObjectProperty: bim:p.iluminar
@@ -1668,8 +1796,8 @@ ObjectProperty: bim:é.superfície.de.iluminação
 	Annotations: bim:Definição "Declara a altura da superfície que será iluminada."@pt
 	Annotations: bim:Definición "Declara la altura de la superficie que se iluminará."@es
 	Annotations: bim:Definition "Declares the height of the surface that will be illuminated."@en
-	Annotations: bim:CatRevit "OST_ElectricalDevices"
-	Annotations: bim:ClasseIfc "IfcLamp"
+	Annotations: bim:CatRevit "[ OST_ElectricalDevices ]"
+	Annotations: bim:ClasseIfc "[ IfcLamp ]"
 	Annotations: bim:ABNT "[ 0P.70.30 ]"
 	EquivalentTo: bim:é.superfície.de.trabalho
 
@@ -1687,8 +1815,8 @@ DataProperty: bim:superfície.de.iluminação
 	Annotations: bim:Definição "Declara a altura da superfície que será iluminada."@pt
 	Annotations: bim:Definición "Declara la altura de la superficie que se iluminará."@es
 	Annotations: bim:Definition "Declares the height of the surface that will be illuminated."@en
-	Annotations: bim:CatRevit "OST_ElectricalDevices"
-	Annotations: bim:ClasseIfc "IfcLamp"
+	Annotations: bim:CatRevit "[ OST_ElectricalDevices ]"
+	Annotations: bim:ClasseIfc "[ IfcLamp ]"
 	Annotations: bim:ABNT "[ 0P.70.30 ]"
 
 ObjectProperty: bim:p.instalar
@@ -4331,8 +4459,8 @@ ObjectProperty: bim:é.sensor.térmico
 	Annotations: bim:Definição "ID de Revit ou GlobalId IFC ou identificador único de objeto. Identificação de um sensor de temperatura e umidade."@pt
 	Annotations: bim:Definición "ID de Revit o GlobalId IFC o identificador de objeto único. Identificación de un sensor de temperatura y humedad."@es
 	Annotations: bim:Definition "Revit ID or IFC GlobalId or unique object identifier. Identification of a temperature and humidity sensor."@en
-	Annotations: bim:CatRevit "OST_SecurityDevices"
-	Annotations: bim:ClasseIfc "IfcSensor"
+	Annotations: bim:CatRevit "[ OST_SecurityDevices ]"
+	Annotations: bim:ClasseIfc "[ IfcSensor ]"
 	EquivalentTo: bim:é.câmera.termográfica
 
 DataProperty: bim:d.sensorizar
@@ -4349,8 +4477,8 @@ DataProperty: bim:sensor.térmico
 	Annotations: bim:Definição "ID de Revit ou GlobalId IFC ou identificador único de objeto. Identificação de um sensor de temperatura e umidade."@pt
 	Annotations: bim:Definición "ID de Revit o GlobalId IFC o identificador de objeto único. Identificación de un sensor de temperatura y humedad."@es
 	Annotations: bim:Definition "Revit ID or IFC GlobalId or unique object identifier. Identification of a temperature and humidity sensor."@en
-	Annotations: bim:CatRevit "OST_SecurityDevices"
-	Annotations: bim:ClasseIfc "IfcSensor"
+	Annotations: bim:CatRevit "[ OST_SecurityDevices ]"
+	Annotations: bim:ClasseIfc "[ IfcSensor ]"
 
 ObjectProperty: bim:p.sensorizar
 	SubPropertyOf: bim:BIMProp
@@ -4367,8 +4495,8 @@ ObjectProperty: bim:é.câmera.termográfica
 	Annotations: bim:Definição "Declara o ID de Revit ou GlobalId IFC ou código identificador de uma câmera termográfica. Sensor para medição de temperatura que exibe termograma ou imagem térmica do objeto emissor da energia infravermelha. Usadas para detectar problemas de superaquecimento de equipamentos, presença de umidade em paredes, etc."@pt
 	Annotations: bim:Definición "Declara el ID de Revit o el código IFC GlobalId o identificador de una cortina fotoeléctrica. Transmite señal ultrasónica y detecta la intensidad del eco para detectar objetos y formas."@es
 	Annotations: bim:Definition "Declares the Revit ID or IFC GlobalId or identifier code of a thermal imaging camera. Sensor for temperature measurement that displays thermogram or thermal image of the object emitting infrared energy. Used to detect problems of equipment overheating, presence of moisture in walls, etc."@en
-	Annotations: bim:CatRevit "OST_SecurityDevices"
-	Annotations: bim:ClasseIfc "IfcSensor"
+	Annotations: bim:CatRevit "[ OST_SecurityDevices ]"
+	Annotations: bim:ClasseIfc "[ IfcSensor ]"
 	EquivalentTo: bim:é.sensor.térmico
 
 DataProperty: bim:d.sensorizar
@@ -4385,8 +4513,8 @@ DataProperty: bim:câmera.termográfica
 	Annotations: bim:Definição "Declara o ID de Revit ou GlobalId IFC ou código identificador de uma câmera termográfica. Sensor para medição de temperatura que exibe termograma ou imagem térmica do objeto emissor da energia infravermelha. Usadas para detectar problemas de superaquecimento de equipamentos, presença de umidade em paredes, etc."@pt
 	Annotations: bim:Definición "Declara el ID de Revit o el código IFC GlobalId o identificador de una cortina fotoeléctrica. Transmite señal ultrasónica y detecta la intensidad del eco para detectar objetos y formas."@es
 	Annotations: bim:Definition "Declares the Revit ID or IFC GlobalId or identifier code of a thermal imaging camera. Sensor for temperature measurement that displays thermogram or thermal image of the object emitting infrared energy. Used to detect problems of equipment overheating, presence of moisture in walls, etc."@en
-	Annotations: bim:CatRevit "OST_SecurityDevices"
-	Annotations: bim:ClasseIfc "IfcSensor"
+	Annotations: bim:CatRevit "[ OST_SecurityDevices ]"
+	Annotations: bim:ClasseIfc "[ IfcSensor ]"
 
 ObjectProperty: bim:p.taxonomizar
 	SubPropertyOf: bim:BIMProp
@@ -5096,5 +5224,5 @@ DataProperty: bim:voo.realizado
 
 #################################################################
 ##  Fim da Ontologia DRONE
-##  Criada em 28/04/2026 13:01:50
+##  Criada em 01/05/2026 14:31:48
 #################################################################
