@@ -24,7 +24,7 @@ Ontology:  <https://github.com/JLMenegotto/RepoOnto#SomaSUS_Equipamentos>
   Annotations: rdfs:label "NormaReferência2: -"@pt
   Annotations: rdfs:label "NormaReferência3: -"@pt
   Annotations: rdfs:label "Observações: Caderno SomaSUS elaborado pelo Sistema Único de Saúde"@pt
-  Annotations: rdfs:label "DataHora: 03/05/2026 15:23:53"@pt
+  Annotations: rdfs:label "DataHora: 04/05/2026 8:26:58"@pt
   Annotations: rdfs:label "Prédio: -"@pt
   Annotations: rdfs:label "Cidade: -"@pt
   Annotations: rdfs:label "Advertência: Caderno SomaSUS elaborado pelo Sistema Único de Saúde do Brasil"@pt
@@ -15337,5 +15337,5 @@ DataProperty: bim:vant
 
 #################################################################
 ##  Fim da Ontologia CSUS_2Q
-##  Criada em 03/05/2026 15:23:54
+##  Criada em 04/05/2026 8:26:59
 #################################################################
