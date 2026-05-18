@@ -24,7 +24,7 @@ Ontology:  <https://github.com/JLMenegotto/RepoOnto#Elementos_Documentação>
   Annotations: rdfs:label "NormaReferência2: -"@pt
   Annotations: rdfs:label "NormaReferência3: -"@pt
   Annotations: rdfs:label "Observações: Elementos_Documentação"@pt
-  Annotations: rdfs:label "DataHora: 14/05/2026 12:52:09"@pt
+  Annotations: rdfs:label "DataHora: 18/05/2026 8:23:10"@pt
   Annotations: rdfs:label "Advertência1: -"@pt
   Annotations: rdfs:label "Prédio: -"@pt
   Annotations: rdfs:label "Cidade: Rio de Janeiro"@pt
@@ -46,6 +46,7 @@ Datatype:  xsd:date
 Datatype:  xsd:time
 Datatype:  xsd:boolean
 Datatype:  rdfs:Literal
+Datatype:  xsd:nonNegativeInteger
 Datatype:  rdf:PlainLiteral
 
 Class: bim:BIM
@@ -186,6 +187,86 @@ Class: bim:Documental
 	SubClassOf: bim:Projeto
 
 
+Class: bim:Digitalizados
+	Annotations: rdfs:label "Digitalizados"@pt
+	SubClassOf: bim:Documental
+
+
+Class: bim:Elemento.Digital
+	Annotations: rdfs:label "Elemento Digital"@pt
+	SubClassOf: bim:Digitalizados
+
+
+Class: bim:Arquivo
+	Annotations: rdfs:label "Arquivo"@pt
+	Annotations: bim:Definição "Define um arquivo de projeto ou arquivo padrão de um aplicativo, podem ser rvt, dwg, dgn, ifc, etc..."@pt
+	Annotations: bim:Definición "Define un archivo de proyecto o archivo por defecto de una aplicación, puede ser RVT, DWG, DGN, IFC, etc."@es
+	Annotations: bim:Definition "Defines a project file or default file of an application, it can be rvt, dwg, dgn, ifc, etc..."@en
+	Annotations: bim:Natureza "Documental"@pt
+	Annotations: bim:Espécie "Digitalizados"@pt
+	Annotations: bim:Tema "Elemento.Digital"@pt
+	Annotations: bim:Disciplina "Documental"@pt
+	Annotations: bim:Chave "Key-DOC-7"
+	Annotations: bim:ABNT "[ ]"
+	SubClassOf: bim:Elemento.Digital
+
+
+Class: bim:Template
+	Annotations: rdfs:label "Template"@pt
+	Annotations: bim:Definição "Define um arquivo utilizado como template, protótipo, modelo, podem ser rte, dwt, etc..."@pt
+	Annotations: bim:Definición "Define un archivo usado como plantilla, prototipo, plantilla, puede ser rte, dwt, etc."@es
+	Annotations: bim:Definition "Defines a file used as a template, prototype, template, can be rte, dwt, etc..."@en
+	Annotations: bim:Natureza "Documental"@pt
+	Annotations: bim:Espécie "Digitalizados"@pt
+	Annotations: bim:Tema "Elemento.Digital"@pt
+	Annotations: bim:Disciplina "Documental"@pt
+	Annotations: bim:Chave "Key-DOC-8"
+	Annotations: bim:ABNT "[ ]"
+	SubClassOf: bim:Elemento.Digital
+
+
+Class: bim:Aplicação
+	Annotations: rdfs:label "Aplicação"@pt
+	Annotations: bim:Definição "Define um arquivo de uma aplicação. Pode ser Autolisp, Python, C#, etc.."@pt
+	Annotations: bim:Definición "Define un archivo de una aplicación. Puede ser Autolisp, Python, C#, etc."@es
+	Annotations: bim:Definition "Defines a file of an application. It can be Autolisp, Python, C#, etc.."@en
+	Annotations: bim:Natureza "Documental"@pt
+	Annotations: bim:Espécie "Digitalizados"@pt
+	Annotations: bim:Tema "Elemento.Digital"@pt
+	Annotations: bim:Disciplina "Documental"@pt
+	Annotations: bim:Chave "Key-DOC-9"
+	Annotations: bim:ABNT "[ ]"
+	SubClassOf: bim:Elemento.Digital
+
+
+Class: bim:Dados.Estruturados
+	Annotations: rdfs:label "Dados Estruturados"@pt
+	Annotations: bim:Definição "Define um arquivo utilizado receptor de dados estruturados, podem ser txt, xml, etc..."@pt
+	Annotations: bim:Definición "Define un archivo usado como receptor de datos estructurados, puede ser txt, xml, etc..."@es
+	Annotations: bim:Definition "Defines a file used as a structured data receiver, it can be txt, xml, etc..."@en
+	Annotations: bim:Natureza "Documental"@pt
+	Annotations: bim:Espécie "Digitalizados"@pt
+	Annotations: bim:Tema "Elemento.Digital"@pt
+	Annotations: bim:Disciplina "Documental"@pt
+	Annotations: bim:Chave "Key-DOC-10"
+	Annotations: bim:ABNT "[ ]"
+	SubClassOf: bim:Elemento.Digital
+
+
+Class: bim:Dados.Não.Estruturados
+	Annotations: rdfs:label "Dados Não Estruturados"@pt
+	Annotations: bim:Definição "Define um arquivo utilizado receptor de dados não estruturados, podem ser pdf, doc, videos, etc..."@pt
+	Annotations: bim:Definición "Define un archivo utilizado como receptor de datos no estructurados, puede ser pdf, documento, vídeos, etc..."@es
+	Annotations: bim:Definition "Defines a file used as a receiver of unstructured data, can be pdf, doc, videos, etc..."@en
+	Annotations: bim:Natureza "Documental"@pt
+	Annotations: bim:Espécie "Digitalizados"@pt
+	Annotations: bim:Tema "Elemento.Digital"@pt
+	Annotations: bim:Disciplina "Documental"@pt
+	Annotations: bim:Chave "Key-DOC-11"
+	Annotations: bim:ABNT "[ ]"
+	SubClassOf: bim:Elemento.Digital
+
+
 Class: bim:Elemento.de.Trajetos
 	Annotations: rdfs:label "Elemento.de.Trajetos"@pt
 	SubClassOf: bim:Documental
@@ -205,7 +286,7 @@ Class: bim:Caminho.Nós
 	Annotations: bim:Espécie "Elemento.de.Trajetos"@pt
 	Annotations: bim:Tema "Trajeto"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-7"
+	Annotations: bim:Chave "Key-DOC-12"
 	Annotations: bim:CatRevit "[ OST_LayoutNodes ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -221,7 +302,7 @@ Class: bim:Caminho.Trajeto
 	Annotations: bim:Espécie "Elemento.de.Trajetos"@pt
 	Annotations: bim:Tema "Trajeto"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-8"
+	Annotations: bim:Chave "Key-DOC-13"
 	Annotations: bim:CatRevit "[ OST_LayoutPath_Bases ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -237,7 +318,7 @@ Class: bim:Caminho.Tubulação
 	Annotations: bim:Espécie "Elemento.de.Trajetos"@pt
 	Annotations: bim:Tema "Trajeto"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-9"
+	Annotations: bim:Chave "Key-DOC-14"
 	Annotations: bim:CatRevit "[ OST_LayoutPathBase_Pipings ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -263,7 +344,7 @@ Class: bim:Chamada
 	Annotations: bim:Espécie "Elemento.de.Detalhamento"@pt
 	Annotations: bim:Tema "Símbolo.Chamada"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-10"
+	Annotations: bim:Chave "Key-DOC-15"
 	Annotations: bim:CatRevit "[ OST_Callouts ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationSYMBOL ]"
 	Annotations: bim:ABNT "[ ]"
@@ -279,7 +360,7 @@ Class: bim:Chamada.Limite
 	Annotations: bim:Espécie "Elemento.de.Detalhamento"@pt
 	Annotations: bim:Tema "Símbolo.Chamada"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-11"
+	Annotations: bim:Chave "Key-DOC-16"
 	Annotations: bim:CatRevit "[ OST_CalloutBoundary ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationSYMBOL ]"
 	Annotations: bim:ABNT "[ ]"
@@ -295,7 +376,7 @@ Class: bim:Chamada.Símbolo
 	Annotations: bim:Espécie "Elemento.de.Detalhamento"@pt
 	Annotations: bim:Tema "Símbolo.Chamada"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-12"
+	Annotations: bim:Chave "Key-DOC-17"
 	Annotations: bim:CatRevit "[ OST_CalloutHeads ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationSYMBOL ]"
 	Annotations: bim:ABNT "[ ]"
@@ -311,7 +392,7 @@ Class: bim:Chamada.Linha
 	Annotations: bim:Espécie "Elemento.de.Detalhamento"@pt
 	Annotations: bim:Tema "Símbolo.Chamada"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-13"
+	Annotations: bim:Chave "Key-DOC-18"
 	Annotations: bim:CatRevit "[ OST_CalloutLeaderLine ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationLEADER ]"
 	Annotations: bim:ABNT "[ ]"
@@ -327,7 +408,7 @@ Class: bim:Nuvem.Revisão
 	Annotations: bim:Espécie "Elemento.de.Detalhamento"@pt
 	Annotations: bim:Tema "Símbolo.Chamada"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-14"
+	Annotations: bim:Chave "Key-DOC-19"
 	Annotations: bim:CatRevit "[ OST_RevisionClouds ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationSYMBOL ]"
 	Annotations: bim:ABNT "[ ]"
@@ -343,7 +424,7 @@ Class: bim:Nuvem.Revisão.Etiqueta
 	Annotations: bim:Espécie "Elemento.de.Detalhamento"@pt
 	Annotations: bim:Tema "Símbolo.Chamada"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-15"
+	Annotations: bim:Chave "Key-DOC-20"
 	Annotations: bim:CatRevit "[ OST_RevisionCloudTags ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationSYMBOL ]"
 	Annotations: bim:ABNT "[ ]"
@@ -364,7 +445,7 @@ Class: bim:Simbolo.Corte
 	Annotations: bim:Espécie "Elemento.de.Detalhamento"@pt
 	Annotations: bim:Tema "Símbolo.Corte"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-16"
+	Annotations: bim:Chave "Key-DOC-21"
 	Annotations: bim:CatRevit "[ OST_Sections ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationSYMBOL ]"
 	Annotations: bim:ABNT "[ ]"
@@ -380,7 +461,7 @@ Class: bim:Simbolo.Corte.Cabeça
 	Annotations: bim:Espécie "Elemento.de.Detalhamento"@pt
 	Annotations: bim:Tema "Símbolo.Corte"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-17"
+	Annotations: bim:Chave "Key-DOC-22"
 	Annotations: bim:CatRevit "[ OST_SectionHeads ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationSYMBOL ]"
 	Annotations: bim:ABNT "[ ]"
@@ -396,7 +477,7 @@ Class: bim:Simbolo.Corte.Linha.Fina
 	Annotations: bim:Espécie "Elemento.de.Detalhamento"@pt
 	Annotations: bim:Tema "Símbolo.Corte"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-18"
+	Annotations: bim:Chave "Key-DOC-23"
 	Annotations: bim:CatRevit "[ OST_SectionHeadThinLines ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationSYMBOL ]"
 	Annotations: bim:ABNT "[ ]"
@@ -412,7 +493,7 @@ Class: bim:Simbolo.Corte.Linha.Média
 	Annotations: bim:Espécie "Elemento.de.Detalhamento"@pt
 	Annotations: bim:Tema "Símbolo.Corte"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-19"
+	Annotations: bim:Chave "Key-DOC-24"
 	Annotations: bim:CatRevit "[ OST_SectionHeadMediumLines ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationSYMBOL ]"
 	Annotations: bim:ABNT "[ ]"
@@ -428,7 +509,7 @@ Class: bim:Simbolo.Corte.Linha.Grossa
 	Annotations: bim:Espécie "Elemento.de.Detalhamento"@pt
 	Annotations: bim:Tema "Símbolo.Corte"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-20"
+	Annotations: bim:Chave "Key-DOC-25"
 	Annotations: bim:CatRevit "[ OST_SectionHeadWideLines ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationSYMBOL ]"
 	Annotations: bim:ABNT "[ ]"
@@ -444,7 +525,7 @@ Class: bim:Simbolo.Corte.Linha
 	Annotations: bim:Espécie "Elemento.de.Detalhamento"@pt
 	Annotations: bim:Tema "Símbolo.Corte"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-21"
+	Annotations: bim:Chave "Key-DOC-26"
 	Annotations: bim:CatRevit "[ OST_SectionLine ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationSYMBOL ]"
 	Annotations: bim:ABNT "[ ]"
@@ -460,7 +541,7 @@ Class: bim:Simbolo.Corte.Linha.Quebrada
 	Annotations: bim:Espécie "Elemento.de.Detalhamento"@pt
 	Annotations: bim:Tema "Símbolo.Corte"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-22"
+	Annotations: bim:Chave "Key-DOC-27"
 	Annotations: bim:CatRevit "[ OST_BrokenSectionLine ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationSYMBOL ]"
 	Annotations: bim:ABNT "[ ]"
@@ -481,7 +562,7 @@ Class: bim:Detalhe.Decalque
 	Annotations: bim:Espécie "Elemento.de.Detalhamento"@pt
 	Annotations: bim:Tema "Símbolo.Detalhe"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-23"
+	Annotations: bim:Chave "Key-DOC-28"
 	Annotations: bim:CatRevit "[ OST_DecalElement ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationSYMBOL ]"
 	Annotations: bim:ABNT "[ ]"
@@ -497,7 +578,7 @@ Class: bim:Detalhe
 	Annotations: bim:Espécie "Elemento.de.Detalhamento"@pt
 	Annotations: bim:Tema "Símbolo.Detalhe"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-24"
+	Annotations: bim:Chave "Key-DOC-29"
 	Annotations: bim:CatRevit "[ OST_DetailComponents ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationSYMBOL ]"
 	Annotations: bim:ABNT "[ ]"
@@ -513,7 +594,7 @@ Class: bim:Detalhe.Linha.Oculta
 	Annotations: bim:Espécie "Elemento.de.Detalhamento"@pt
 	Annotations: bim:Tema "Símbolo.Detalhe"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-25"
+	Annotations: bim:Chave "Key-DOC-30"
 	Annotations: bim:CatRevit "[ OST_DetailComponentsHiddenLines ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationSYMBOL ]"
 	Annotations: bim:ABNT "[ ]"
@@ -529,7 +610,7 @@ Class: bim:Detalhe.Linha.Repetida
 	Annotations: bim:Espécie "Elemento.de.Detalhamento"@pt
 	Annotations: bim:Tema "Símbolo.Detalhe"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-26"
+	Annotations: bim:Chave "Key-DOC-31"
 	Annotations: bim:CatRevit "[ OST_RepeatingDetailLines ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationSYMBOL ]"
 	Annotations: bim:ABNT "[ ]"
@@ -550,7 +631,7 @@ Class: bim:Símbolo.Elevação.Marca
 	Annotations: bim:Espécie "Elemento.de.Detalhamento"@pt
 	Annotations: bim:Tema "Símbolo.Elevação"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-28"
+	Annotations: bim:Chave "Key-DOC-33"
 	Annotations: bim:CatRevit "[ OST_ElevationMarks ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationSYMBOL ]"
 	Annotations: bim:ABNT "[ ]"
@@ -571,7 +652,7 @@ Class: bim:Marcador.Coodenada
 	Annotations: bim:Espécie "Elemento.de.Detalhamento"@pt
 	Annotations: bim:Tema "Símbolo.Nível"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-29"
+	Annotations: bim:Chave "Key-DOC-34"
 	Annotations: bim:CatRevit "[ OST_SpotCoordinates ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationSURVEY ]"
 	Annotations: bim:ABNT "[ ]"
@@ -587,7 +668,7 @@ Class: bim:Marcador.Coodenada.Símbolo
 	Annotations: bim:Espécie "Elemento.de.Detalhamento"@pt
 	Annotations: bim:Tema "Símbolo.Nível"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-30"
+	Annotations: bim:Chave "Key-DOC-35"
 	Annotations: bim:CatRevit "[ OST_SpotCoordinateSymbols ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationSURVEY ]"
 	Annotations: bim:ABNT "[ ]"
@@ -603,7 +684,7 @@ Class: bim:Marcador.Cota
 	Annotations: bim:Espécie "Elemento.de.Detalhamento"@pt
 	Annotations: bim:Tema "Símbolo.Nível"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-31"
+	Annotations: bim:Chave "Key-DOC-36"
 	Annotations: bim:CatRevit "[ OST_SpotElevations ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationSURVEY ]"
 	Annotations: bim:ABNT "[ ]"
@@ -619,7 +700,7 @@ Class: bim:Marcador.Cota.Símbolo
 	Annotations: bim:Espécie "Elemento.de.Detalhamento"@pt
 	Annotations: bim:Tema "Símbolo.Nível"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-32"
+	Annotations: bim:Chave "Key-DOC-37"
 	Annotations: bim:CatRevit "[ OST_SpotElevSymbols ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationSURVEY ]"
 	Annotations: bim:ABNT "[ ]"
@@ -635,7 +716,7 @@ Class: bim:Marcador.Caimento
 	Annotations: bim:Espécie "Elemento.de.Detalhamento"@pt
 	Annotations: bim:Tema "Símbolo.Nível"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-33"
+	Annotations: bim:Chave "Key-DOC-38"
 	Annotations: bim:CatRevit "[ OST_SpotSlopes ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationSURVEY ]"
 	Annotations: bim:ABNT "[ ]"
@@ -651,7 +732,7 @@ Class: bim:Marcador.Caimento.Símbolo
 	Annotations: bim:Espécie "Elemento.de.Detalhamento"@pt
 	Annotations: bim:Tema "Símbolo.Nível"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-34"
+	Annotations: bim:Chave "Key-DOC-39"
 	Annotations: bim:CatRevit "[ OST_SpotSlopesSymbols ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationSURVEY ]"
 	Annotations: bim:ABNT "[ ]"
@@ -677,7 +758,7 @@ Class: bim:Dimensão
 	Annotations: bim:Espécie "Elemento.de.Dimensionamento"@pt
 	Annotations: bim:Tema "Símbolo.Cota"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-35"
+	Annotations: bim:Chave "Key-DOC-40"
 	Annotations: bim:CatRevit "[ OST_Dimensions ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationDIMENSION ]"
 	Annotations: bim:ABNT "[ ]"
@@ -693,7 +774,7 @@ Class: bim:Dimensão.Controle
 	Annotations: bim:Espécie "Elemento.de.Dimensionamento"@pt
 	Annotations: bim:Tema "Símbolo.Cota"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-36"
+	Annotations: bim:Chave "Key-DOC-41"
 	Annotations: bim:CatRevit "[ OST_DimLockControlLeader ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationDIMENSION ]"
 	Annotations: bim:ABNT "[ ]"
@@ -709,7 +790,7 @@ Class: bim:Dimensão.Fraca
 	Annotations: bim:Espécie "Elemento.de.Dimensionamento"@pt
 	Annotations: bim:Tema "Símbolo.Cota"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-37"
+	Annotations: bim:Chave "Key-DOC-42"
 	Annotations: bim:CatRevit "[ OST_WeakDims ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationDIMENSION ]"
 	Annotations: bim:ABNT "[ ]"
@@ -735,7 +816,7 @@ Class: bim:Dimensão.Estilo.Finalização.Cat.ID
 	Annotations: bim:Espécie "Elemento.de.Estilização"@pt
 	Annotations: bim:Tema "de.Cotas"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-38"
+	Annotations: bim:Chave "Key-DOC-43"
 	Annotations: bim:CatRevit "[ OST_DSR_DimStyleHeavyEndCategoryId ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationDIMENSION ]"
 	Annotations: bim:ABNT "[ ]"
@@ -751,7 +832,7 @@ Class: bim:Dimensão.Estilo.Finalização.ID
 	Annotations: bim:Espécie "Elemento.de.Estilização"@pt
 	Annotations: bim:Tema "de.Cotas"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-39"
+	Annotations: bim:Chave "Key-DOC-44"
 	Annotations: bim:CatRevit "[ OST_DSR_DimStyleHeavyEndCatId ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationDIMENSION ]"
 	Annotations: bim:ABNT "[ ]"
@@ -772,7 +853,7 @@ Class: bim:Padrão.Linha.Central
 	Annotations: bim:Espécie "Elemento.de.Estilização"@pt
 	Annotations: bim:Tema "de.Linhas"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-40"
+	Annotations: bim:Chave "Key-DOC-45"
 	Annotations: bim:CatRevit "[ OST_DSR_CenterlinePatternCatId ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationCONTOURLINE ]"
 	Annotations: bim:ABNT "[ ]"
@@ -788,7 +869,7 @@ Class: bim:Linhas.Invisíveis
 	Annotations: bim:Espécie "Elemento.de.Estilização"@pt
 	Annotations: bim:Tema "de.Linhas"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-41"
+	Annotations: bim:Chave "Key-DOC-46"
 	Annotations: bim:CatRevit "[ OST_InvisibleLines ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationCONTOURLINE ]"
 	Annotations: bim:ABNT "[ ]"
@@ -804,7 +885,7 @@ Class: bim:Linhas.Projetadas
 	Annotations: bim:Espécie "Elemento.de.Estilização"@pt
 	Annotations: bim:Tema "de.Linhas"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-42"
+	Annotations: bim:Chave "Key-DOC-47"
 	Annotations: bim:CatRevit "[ OST_LinesBeyond ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationCONTOURLINE ]"
 	Annotations: bim:ABNT "[ ]"
@@ -820,7 +901,7 @@ Class: bim:Linhas.Isolamento
 	Annotations: bim:Espécie "Elemento.de.Estilização"@pt
 	Annotations: bim:Tema "de.Linhas"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-43"
+	Annotations: bim:Chave "Key-DOC-48"
 	Annotations: bim:CatRevit "[ OST_InsulationLines ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationCONTOURLINE ]"
 	Annotations: bim:ABNT "[ ]"
@@ -836,7 +917,7 @@ Class: bim:Linhas.Centrais
 	Annotations: bim:Espécie "Elemento.de.Estilização"@pt
 	Annotations: bim:Tema "de.Linhas"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-44"
+	Annotations: bim:Chave "Key-DOC-49"
 	Annotations: bim:CatRevit "[ OST_CenterLines ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationCONTOURLINE ]"
 	Annotations: bim:ABNT "[ ]"
@@ -852,7 +933,7 @@ Class: bim:Linhas.C
 	Annotations: bim:Espécie "Elemento.de.Estilização"@pt
 	Annotations: bim:Tema "de.Linhas"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-45"
+	Annotations: bim:Chave "Key-DOC-50"
 	Annotations: bim:CatRevit "[ OST_CLines ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationCONTOURLINE ]"
 	Annotations: bim:ABNT "[ ]"
@@ -868,7 +949,7 @@ Class: bim:Linhas.Demolidas
 	Annotations: bim:Espécie "Elemento.de.Estilização"@pt
 	Annotations: bim:Tema "de.Linhas"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-46"
+	Annotations: bim:Chave "Key-DOC-51"
 	Annotations: bim:CatRevit "[ OST_DemolishedLines ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationCONTOURLINE ]"
 	Annotations: bim:ABNT "[ ]"
@@ -884,7 +965,7 @@ Class: bim:Linhas.Acima
 	Annotations: bim:Espécie "Elemento.de.Estilização"@pt
 	Annotations: bim:Tema "de.Linhas"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-47"
+	Annotations: bim:Chave "Key-DOC-52"
 	Annotations: bim:CatRevit "[ OST_OverheadLines ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationCONTOURLINE ]"
 	Annotations: bim:ABNT "[ ]"
@@ -900,7 +981,7 @@ Class: bim:Linhas.Ocultas.Linhas
 	Annotations: bim:Espécie "Elemento.de.Estilização"@pt
 	Annotations: bim:Tema "de.Linhas"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-48"
+	Annotations: bim:Chave "Key-DOC-53"
 	Annotations: bim:CatRevit "[ OST_LinesHiddenLines ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationCONTOURLINE ]"
 	Annotations: bim:ABNT "[ ]"
@@ -916,7 +997,7 @@ Class: bim:Linhas.Ocultas.Piso
 	Annotations: bim:Espécie "Elemento.de.Estilização"@pt
 	Annotations: bim:Tema "de.Linhas"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-49"
+	Annotations: bim:Chave "Key-DOC-54"
 	Annotations: bim:CatRevit "[ OST_HiddenFloorLines ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationCONTOURLINE ]"
 	Annotations: bim:ABNT "[ ]"
@@ -932,7 +1013,7 @@ Class: bim:Linhas.Ocultas
 	Annotations: bim:Espécie "Elemento.de.Estilização"@pt
 	Annotations: bim:Tema "de.Linhas"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-50"
+	Annotations: bim:Chave "Key-DOC-55"
 	Annotations: bim:CatRevit "[ OST_HiddenLines ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationCONTOURLINE ]"
 	Annotations: bim:ABNT "[ ]"
@@ -948,7 +1029,7 @@ Class: bim:Colunas.Linhas.Ocultas
 	Annotations: bim:Espécie "Elemento.de.Estilização"@pt
 	Annotations: bim:Tema "de.Linhas"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-51"
+	Annotations: bim:Chave "Key-DOC-56"
 	Annotations: bim:CatRevit "[ OST_HiddenStructuralColumnLines ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationCONTOURLINE ]"
 	Annotations: bim:ABNT "[ ]"
@@ -964,7 +1045,7 @@ Class: bim:Fundação.Linhas.Ocultas
 	Annotations: bim:Espécie "Elemento.de.Estilização"@pt
 	Annotations: bim:Tema "de.Linhas"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-52"
+	Annotations: bim:Chave "Key-DOC-57"
 	Annotations: bim:CatRevit "[ OST_HiddenStructuralFoundationLines ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationCONTOURLINE ]"
 	Annotations: bim:ABNT "[ ]"
@@ -980,7 +1061,7 @@ Class: bim:Vigas.Linhas.Ocultas
 	Annotations: bim:Espécie "Elemento.de.Estilização"@pt
 	Annotations: bim:Tema "de.Linhas"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-53"
+	Annotations: bim:Chave "Key-DOC-58"
 	Annotations: bim:CatRevit "[ OST_HiddenStructuralFramingLines ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationCONTOURLINE ]"
 	Annotations: bim:ABNT "[ ]"
@@ -996,7 +1077,7 @@ Class: bim:Paredes.Linhas.Ocultas
 	Annotations: bim:Espécie "Elemento.de.Estilização"@pt
 	Annotations: bim:Tema "de.Linhas"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-54"
+	Annotations: bim:Chave "Key-DOC-59"
 	Annotations: bim:CatRevit "[ OST_HiddenWallLines ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationCONTOURLINE ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1012,7 +1093,7 @@ Class: bim:Estilo.Linha.Trajeto
 	Annotations: bim:Espécie "Elemento.de.Estilização"@pt
 	Annotations: bim:Tema "de.Linhas"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-55"
+	Annotations: bim:Chave "Key-DOC-60"
 	Annotations: bim:CatRevit "[ OST_InstanceDrivenLineStyle ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1033,7 +1114,7 @@ Class: bim:Estilo.Marca.Centro
 	Annotations: bim:Espécie "Elemento.de.Estilização"@pt
 	Annotations: bim:Tema "de.Marca"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-56"
+	Annotations: bim:Chave "Key-DOC-61"
 	Annotations: bim:CatRevit "[ OST_DSR_CenterlineTickMarkStyleId ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1049,7 +1130,7 @@ Class: bim:Estilo.Marca.Cota
 	Annotations: bim:Espécie "Elemento.de.Estilização"@pt
 	Annotations: bim:Tema "de.Marca"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-57"
+	Annotations: bim:Chave "Key-DOC-62"
 	Annotations: bim:CatRevit "[ OST_DSR_DimStyleTickCategoryId ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1065,7 +1146,7 @@ Class: bim:Estilo.Marca.Interna
 	Annotations: bim:Espécie "Elemento.de.Estilização"@pt
 	Annotations: bim:Tema "de.Marca"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-58"
+	Annotations: bim:Chave "Key-DOC-63"
 	Annotations: bim:CatRevit "[ OST_DSR_InteriorTickMarkStyleId ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1081,7 +1162,7 @@ Class: bim:Estilo.Marca.Chamada
 	Annotations: bim:Espécie "Elemento.de.Estilização"@pt
 	Annotations: bim:Tema "de.Marca"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-59"
+	Annotations: bim:Chave "Key-DOC-64"
 	Annotations: bim:CatRevit "[ OST_DSR_LeaderTickMarkStyleId ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1102,7 +1183,7 @@ Class: bim:Estilo.Seta
 	Annotations: bim:Espécie "Elemento.de.Estilização"@pt
 	Annotations: bim:Tema "de.Setas"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-60"
+	Annotations: bim:Chave "Key-DOC-65"
 	Annotations: bim:CatRevit "[ OST_DSR_ArrowHeadStyleId ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1123,7 +1204,7 @@ Class: bim:Fonte.ID
 	Annotations: bim:Espécie "Elemento.de.Estilização"@pt
 	Annotations: bim:Tema "de.Texto"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-61"
+	Annotations: bim:Chave "Key-DOC-66"
 	Annotations: bim:CatRevit "[ OST_DSR_LineAndTextAttrFontId ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1139,7 +1220,7 @@ Class: bim:Fonte.Categoria.ID
 	Annotations: bim:Espécie "Elemento.de.Estilização"@pt
 	Annotations: bim:Tema "de.Texto"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-62"
+	Annotations: bim:Chave "Key-DOC-67"
 	Annotations: bim:CatRevit "[ OST_DSR_LineAndTextAttrCategoryId ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1160,7 +1241,7 @@ Class: bim:Estilo.Importação
 	Annotations: bim:Espécie "Elemento.de.Estilização"@pt
 	Annotations: bim:Tema "Importação"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-63"
+	Annotations: bim:Chave "Key-DOC-68"
 	Annotations: bim:CatRevit "[ OST_ImportObjectStyles ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1186,7 +1267,7 @@ Class: bim:Dutos.Cores.Preenchidas.Legenda
 	Annotations: bim:Espécie "Elemento.de.Legenda"@pt
 	Annotations: bim:Tema "Legenda.Cromática.Duto"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-64"
+	Annotations: bim:Chave "Key-DOC-69"
 	Annotations: bim:CatRevit "[ OST_DuctColorFillLegends ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1202,7 +1283,7 @@ Class: bim:Dutos.Cores.Preenchidas
 	Annotations: bim:Espécie "Elemento.de.Legenda"@pt
 	Annotations: bim:Tema "Legenda.Cromática.Duto"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-65"
+	Annotations: bim:Chave "Key-DOC-70"
 	Annotations: bim:CatRevit "[ OST_DuctColorFills ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1223,7 +1304,7 @@ Class: bim:Tubos.Cores.Preenchidas.Legenda
 	Annotations: bim:Espécie "Elemento.de.Legenda"@pt
 	Annotations: bim:Tema "Legenda.Cromática.Tubulação"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-66"
+	Annotations: bim:Chave "Key-DOC-71"
 	Annotations: bim:CatRevit "[ OST_PipeColorFillLegends ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1239,7 +1320,7 @@ Class: bim:Tubos.Cores.Preenchidas
 	Annotations: bim:Espécie "Elemento.de.Legenda"@pt
 	Annotations: bim:Tema "Legenda.Cromática.Tubulação"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-67"
+	Annotations: bim:Chave "Key-DOC-72"
 	Annotations: bim:CatRevit "[ OST_PipeColorFills ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1260,7 +1341,7 @@ Class: bim:Ambiente.Cores.Preenchidas
 	Annotations: bim:Espécie "Elemento.de.Legenda"@pt
 	Annotations: bim:Tema "Legenda.Cromática.Ocupação"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-68"
+	Annotations: bim:Chave "Key-DOC-73"
 	Annotations: bim:CatRevit "[ OST_RoomColorFill ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1276,7 +1357,7 @@ Class: bim:Áreas.Cores.Preenchidas
 	Annotations: bim:Espécie "Elemento.de.Legenda"@pt
 	Annotations: bim:Tema "Legenda.Cromática.Ocupação"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-69"
+	Annotations: bim:Chave "Key-DOC-74"
 	Annotations: bim:CatRevit "[ OST_AreaColorFill ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1297,7 +1378,7 @@ Class: bim:MEP.Ambiente.Cores.Preenchidas
 	Annotations: bim:Espécie "Elemento.de.Legenda"@pt
 	Annotations: bim:Tema "Legenda.Cromática.Térmica"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-70"
+	Annotations: bim:Chave "Key-DOC-75"
 	Annotations: bim:CatRevit "[ OST_MEPSpaceColorFill ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1313,7 +1394,7 @@ Class: bim:AVAC.Zonas.Cores.Preenchidas
 	Annotations: bim:Espécie "Elemento.de.Legenda"@pt
 	Annotations: bim:Tema "Legenda.Cromática.Térmica"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-71"
+	Annotations: bim:Chave "Key-DOC-76"
 	Annotations: bim:CatRevit "[ OST_HVAC_Zones_ColorFill ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1334,7 +1415,7 @@ Class: bim:Esquema.de.Cores
 	Annotations: bim:Espécie "Elemento.de.Legenda"@pt
 	Annotations: bim:Tema "Legenda.Cromática"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-72"
+	Annotations: bim:Chave "Key-DOC-77"
 	Annotations: bim:CatRevit "[ OST_ColorFillSchema ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1350,7 +1431,7 @@ Class: bim:Componente.Legenda
 	Annotations: bim:Espécie "Elemento.de.Legenda"@pt
 	Annotations: bim:Tema "Legenda.Cromática"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-73"
+	Annotations: bim:Chave "Key-DOC-78"
 	Annotations: bim:CatRevit "[ OST_LegendComponents ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1376,7 +1457,7 @@ Class: bim:Linhas
 	Annotations: bim:Espécie "Elemento.de.Modelado"@pt
 	Annotations: bim:Tema "Contornos"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-74"
+	Annotations: bim:Chave "Key-DOC-79"
 	Annotations: bim:CatRevit "[ OST_Lines ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationCONTOURLINE ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1392,7 +1473,7 @@ Class: bim:Linhas.Nuvem
 	Annotations: bim:Espécie "Elemento.de.Modelado"@pt
 	Annotations: bim:Tema "Contornos"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-75"
+	Annotations: bim:Chave "Key-DOC-80"
 	Annotations: bim:CatRevit "[ OST_CloudLines ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1408,7 +1489,7 @@ Class: bim:Linhas.Direção
 	Annotations: bim:Espécie "Elemento.de.Modelado"@pt
 	Annotations: bim:Tema "Contornos"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-76"
+	Annotations: bim:Chave "Key-DOC-81"
 	Annotations: bim:CatRevit "[ OST_DirectionEdgeLines ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1424,7 +1505,7 @@ Class: bim:Linhas.Genéricas
 	Annotations: bim:Espécie "Elemento.de.Modelado"@pt
 	Annotations: bim:Tema "Contornos"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-77"
+	Annotations: bim:Chave "Key-DOC-82"
 	Annotations: bim:CatRevit "[ OST_GenericLines ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1445,7 +1526,7 @@ Class: bim:Deslocamentos.Elementos
 	Annotations: bim:Espécie "Elemento.de.Modelado"@pt
 	Annotations: bim:Tema "Indefinidos"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-78"
+	Annotations: bim:Chave "Key-DOC-83"
 	Annotations: bim:CatRevit "[ OST_Displacement Elements ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1461,7 +1542,7 @@ Class: bim:Deslocamentos.Caminho
 	Annotations: bim:Espécie "Elemento.de.Modelado"@pt
 	Annotations: bim:Tema "Indefinidos"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-79"
+	Annotations: bim:Chave "Key-DOC-84"
 	Annotations: bim:CatRevit "[ OST_Displacement Path ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1477,7 +1558,7 @@ Class: bim:Conector.Aberto.Warning
 	Annotations: bim:Espécie "Elemento.de.Modelado"@pt
 	Annotations: bim:Tema "Indefinidos"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-80"
+	Annotations: bim:Chave "Key-DOC-85"
 	Annotations: bim:CatRevit "[ OST_GraphicalWarning_OpenConnector ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1493,7 +1574,7 @@ Class: bim:Imagem.Raster
 	Annotations: bim:Espécie "Elemento.de.Modelado"@pt
 	Annotations: bim:Tema "Indefinidos"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-81"
+	Annotations: bim:Chave "Key-DOC-86"
 	Annotations: bim:CatRevit "[ OST_RasterImages ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1509,7 +1590,7 @@ Class: bim:Símbolo.Drop.Rise
 	Annotations: bim:Espécie "Elemento.de.Modelado"@pt
 	Annotations: bim:Tema "Indefinidos"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-82"
+	Annotations: bim:Chave "Key-DOC-87"
 	Annotations: bim:CatRevit "[ OST_RiseDropSymbols ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1525,7 +1606,7 @@ Class: bim:Guia.de.Paginação
 	Annotations: bim:Espécie "Elemento.de.Modelado"@pt
 	Annotations: bim:Tema "Indefinidos"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-83"
+	Annotations: bim:Chave "Key-DOC-88"
 	Annotations: bim:CatRevit "[ OST_GuideGrid ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1551,7 +1632,7 @@ Class: bim:Margem
 	Annotations: bim:Espécie "Elemento.de.Pranchas"@pt
 	Annotations: bim:Tema "Margens"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-84"
+	Annotations: bim:Chave "Key-DOC-89"
 	Annotations: bim:CatRevit "[ OST_Sheets ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1567,7 +1648,7 @@ Class: bim:Prancha
 	Annotations: bim:Espécie "Elemento.de.Pranchas"@pt
 	Annotations: bim:Tema "Margens"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-85"
+	Annotations: bim:Chave "Key-DOC-90"
 	Annotations: bim:CatRevit "[ OST_Sheets ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1583,7 +1664,7 @@ Class: bim:Folha
 	Annotations: bim:Espécie "Elemento.de.Pranchas"@pt
 	Annotations: bim:Tema "Margens"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-86"
+	Annotations: bim:Chave "Key-DOC-91"
 	Annotations: bim:CatRevit "[ OST_Sheets ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1604,7 +1685,7 @@ Class: bim:Carimbo
 	Annotations: bim:Espécie "Elemento.de.Pranchas"@pt
 	Annotations: bim:Tema "Carimbos"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-87"
+	Annotations: bim:Chave "Key-DOC-92"
 	Annotations: bim:CatRevit "[ OST_TitleBlock  s ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1620,7 +1701,7 @@ Class: bim:Carimbo.Corte.Linha.Fina
 	Annotations: bim:Espécie "Elemento.de.Pranchas"@pt
 	Annotations: bim:Tema "Carimbos"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-88"
+	Annotations: bim:Chave "Key-DOC-93"
 	Annotations: bim:CatRevit "[ OST_TitleBlock  ThinLines ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1636,7 +1717,7 @@ Class: bim:Carimbo.Corte.Linha.Média
 	Annotations: bim:Espécie "Elemento.de.Pranchas"@pt
 	Annotations: bim:Tema "Carimbos"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-89"
+	Annotations: bim:Chave "Key-DOC-94"
 	Annotations: bim:CatRevit "[ OST_TitleBlock  MediumLines ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1652,7 +1733,7 @@ Class: bim:Carimbo.Corte.Linha.Grossa
 	Annotations: bim:Espécie "Elemento.de.Pranchas"@pt
 	Annotations: bim:Tema "Carimbos"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-90"
+	Annotations: bim:Chave "Key-DOC-95"
 	Annotations: bim:CatRevit "[ OST_TitleBlock  WideLines ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1668,7 +1749,7 @@ Class: bim:Revisões
 	Annotations: bim:Espécie "Elemento.de.Pranchas"@pt
 	Annotations: bim:Tema "Carimbos"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-91"
+	Annotations: bim:Chave "Key-DOC-96"
 	Annotations: bim:CatRevit "[ OST_Revisions ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1684,7 +1765,7 @@ Class: bim:Revisões.Revisão
 	Annotations: bim:Espécie "Elemento.de.Pranchas"@pt
 	Annotations: bim:Tema "Carimbos"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-92"
+	Annotations: bim:Chave "Key-DOC-97"
 	Annotations: bim:CatRevit "[ OST_RevisionNumberingSequences ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1710,7 +1791,7 @@ Class: bim:Padrão.Preenchimento
 	Annotations: bim:Espécie "Elemento.de.Preenchimentos"@pt
 	Annotations: bim:Tema "Hachuras"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-93"
+	Annotations: bim:Chave "Key-DOC-98"
 	Annotations: bim:CatRevit "[ OST_FillPatterns ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1726,7 +1807,7 @@ Class: bim:Padrão.Hachura
 	Annotations: bim:Espécie "Elemento.de.Preenchimentos"@pt
 	Annotations: bim:Tema "Hachuras"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-94"
+	Annotations: bim:Chave "Key-DOC-99"
 	Annotations: bim:CatRevit "[ OST_TilePatterns ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1747,7 +1828,7 @@ Class: bim:Região.Preenchida
 	Annotations: bim:Espécie "Elemento.de.Preenchimentos"@pt
 	Annotations: bim:Tema "Máscaras"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-95"
+	Annotations: bim:Chave "Key-DOC-100"
 	Annotations: bim:CatRevit "[ OST_FilledRegion ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1763,7 +1844,7 @@ Class: bim:Região.Máscara
 	Annotations: bim:Espécie "Elemento.de.Preenchimentos"@pt
 	Annotations: bim:Tema "Máscaras"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-96"
+	Annotations: bim:Chave "Key-DOC-101"
 	Annotations: bim:CatRevit "[ OST_MaskingRegion ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1789,7 +1870,7 @@ Class: bim:Combina.Todo
 	Annotations: bim:Espécie "Elemento.de.Relacionamento"@pt
 	Annotations: bim:Tema "Matches"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-97"
+	Annotations: bim:Chave "Key-DOC-102"
 	Annotations: bim:CatRevit "[ OST_MatchAll ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1805,7 +1886,7 @@ Class: bim:Combina.Anotação
 	Annotations: bim:Espécie "Elemento.de.Relacionamento"@pt
 	Annotations: bim:Tema "Matches"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-98"
+	Annotations: bim:Chave "Key-DOC-103"
 	Annotations: bim:CatRevit "[ OST_MatchAnnotation ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1821,7 +1902,7 @@ Class: bim:Combina.Detalhe
 	Annotations: bim:Espécie "Elemento.de.Relacionamento"@pt
 	Annotations: bim:Tema "Matches"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-99"
+	Annotations: bim:Chave "Key-DOC-104"
 	Annotations: bim:CatRevit "[ OST_MatchDetail ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1837,7 +1918,7 @@ Class: bim:Combina.Linha
 	Annotations: bim:Espécie "Elemento.de.Relacionamento"@pt
 	Annotations: bim:Tema "Matches"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-100"
+	Annotations: bim:Chave "Key-DOC-105"
 	Annotations: bim:CatRevit "[ OST_Matchline ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1853,7 +1934,7 @@ Class: bim:Combina.Modelo
 	Annotations: bim:Espécie "Elemento.de.Relacionamento"@pt
 	Annotations: bim:Tema "Matches"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-101"
+	Annotations: bim:Chave "Key-DOC-106"
 	Annotations: bim:CatRevit "[ OST_MatchModel ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1869,7 +1950,7 @@ Class: bim:Combina.Perfil
 	Annotations: bim:Espécie "Elemento.de.Relacionamento"@pt
 	Annotations: bim:Tema "Matches"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-102"
+	Annotations: bim:Chave "Key-DOC-107"
 	Annotations: bim:CatRevit "[ OST_MatchProfile ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1885,7 +1966,7 @@ Class: bim:Combina.Sítio
 	Annotations: bim:Espécie "Elemento.de.Relacionamento"@pt
 	Annotations: bim:Tema "Matches"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-103"
+	Annotations: bim:Chave "Key-DOC-108"
 	Annotations: bim:CatRevit "[ OST_MatchSiteComponent ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1911,7 +1992,7 @@ Class: bim:Tabela
 	Annotations: bim:Espécie "Elemento.de.Planilhamento"@pt
 	Annotations: bim:Tema "Tabelas"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-104"
+	Annotations: bim:Chave "Key-DOC-109"
 	Annotations: bim:CatRevit "[ OST_Schedules ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1927,7 +2008,7 @@ Class: bim:Tabela.Painéis
 	Annotations: bim:Espécie "Elemento.de.Planilhamento"@pt
 	Annotations: bim:Tema "Tabelas"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-105"
+	Annotations: bim:Chave "Key-DOC-110"
 	Annotations: bim:CatRevit "[ OST_PanelScheduleGraphics ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1943,7 +2024,7 @@ Class: bim:Tabela.Gráfica
 	Annotations: bim:Espécie "Elemento.de.Planilhamento"@pt
 	Annotations: bim:Tema "Tabelas"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-106"
+	Annotations: bim:Chave "Key-DOC-111"
 	Annotations: bim:CatRevit "[ OST_ScheduleGraphics ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1959,7 +2040,7 @@ Class: bim:Tabela.Vistas
 	Annotations: bim:Espécie "Elemento.de.Planilhamento"@pt
 	Annotations: bim:Tema "Tabelas"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-107"
+	Annotations: bim:Chave "Key-DOC-112"
 	Annotations: bim:CatRevit "[ OST_ScheduleViewParamGroup ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -1975,7 +2056,7 @@ Class: bim:Tabela.Ramais
 	Annotations: bim:Espécie "Elemento.de.Planilhamento"@pt
 	Annotations: bim:Tema "Tabelas"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-108"
+	Annotations: bim:Chave "Key-DOC-113"
 	Annotations: bim:CatRevit "[ OST_BranchPanelScheduleTemplates ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -2001,7 +2082,7 @@ Class: bim:RecortedeAnotação
 	Annotations: bim:Espécie "Elemento.de.Anotação"@pt
 	Annotations: bim:Tema "Area.Textual"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-109"
+	Annotations: bim:Chave "Key-DOC-114"
 	Annotations: bim:CatRevit "[ OST_AnnotationCrop ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -2017,7 +2098,7 @@ Class: bim:EspecialdeRecortedeAnotação
 	Annotations: bim:Espécie "Elemento.de.Anotação"@pt
 	Annotations: bim:Tema "Area.Textual"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-110"
+	Annotations: bim:Chave "Key-DOC-115"
 	Annotations: bim:CatRevit "[ OST_AnnotationCropSpecial ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -2038,7 +2119,7 @@ Class: bim:Texto.Modelado
 	Annotations: bim:Espécie "Elemento.de.Anotação"@pt
 	Annotations: bim:Tema "Anotações"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-111"
+	Annotations: bim:Chave "Key-DOC-116"
 	Annotations: bim:CatRevit "[ OST_ModelText ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotationTEXT ]"
 	Annotations: bim:ABNT "[ ]"
@@ -2054,7 +2135,7 @@ Class: bim:Anotação.Textual
 	Annotations: bim:Espécie "Elemento.de.Anotação"@pt
 	Annotations: bim:Tema "Anotações"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-112"
+	Annotations: bim:Chave "Key-DOC-117"
 	Annotations: bim:CatRevit "[ OST_TextNotes ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -2070,7 +2151,7 @@ Class: bim:Anotação.Genérica
 	Annotations: bim:Espécie "Elemento.de.Anotação"@pt
 	Annotations: bim:Tema "Anotações"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-113"
+	Annotations: bim:Chave "Key-DOC-118"
 	Annotations: bim:CatRevit "[ OST_GenericAnnotation ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -2086,7 +2167,7 @@ Class: bim:Anotação.Múltiple
 	Annotations: bim:Espécie "Elemento.de.Anotação"@pt
 	Annotations: bim:Tema "Anotações"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-114"
+	Annotations: bim:Chave "Key-DOC-119"
 	Annotations: bim:CatRevit "[ OST_MultiReferenceAnnotations ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -2102,7 +2183,7 @@ Class: bim:Anotação.Estrutural
 	Annotations: bim:Espécie "Elemento.de.Anotação"@pt
 	Annotations: bim:Tema "Anotações"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-115"
+	Annotations: bim:Chave "Key-DOC-120"
 	Annotations: bim:CatRevit "[ OST_StructuralAnnotations ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -2123,7 +2204,7 @@ Class: bim:Etiqueta.Detalhe
 	Annotations: bim:Espécie "Elemento.de.Anotação"@pt
 	Annotations: bim:Tema "Etiquetas"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-116"
+	Annotations: bim:Chave "Key-DOC-121"
 	Annotations: bim:CatRevit "[ OST_DetailComponentTags ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -2139,7 +2220,7 @@ Class: bim:Etiqueta.KeyNote
 	Annotations: bim:Espécie "Elemento.de.Anotação"@pt
 	Annotations: bim:Tema "Etiquetas"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-117"
+	Annotations: bim:Chave "Key-DOC-122"
 	Annotations: bim:CatRevit "[ OST_KeynoteTags ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -2155,7 +2236,7 @@ Class: bim:Etiqueta.Grupos
 	Annotations: bim:Espécie "Elemento.de.Anotação"@pt
 	Annotations: bim:Tema "Etiquetas"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-118"
+	Annotations: bim:Chave "Key-DOC-123"
 	Annotations: bim:CatRevit "[ OST_ModelGroupTags ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -2171,7 +2252,7 @@ Class: bim:Etiqueta.Categoria
 	Annotations: bim:Espécie "Elemento.de.Anotação"@pt
 	Annotations: bim:Tema "Etiquetas"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-119"
+	Annotations: bim:Chave "Key-DOC-124"
 	Annotations: bim:CatRevit "[ OST_MultiCategoryTags ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -2187,7 +2268,7 @@ Class: bim:Etiqueta.Múltiple
 	Annotations: bim:Espécie "Elemento.de.Anotação"@pt
 	Annotations: bim:Tema "Etiquetas"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-120"
+	Annotations: bim:Chave "Key-DOC-125"
 	Annotations: bim:CatRevit "[ OST_MultiLeaderTag ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -2203,7 +2284,7 @@ Class: bim:Etiqueta
 	Annotations: bim:Espécie "Elemento.de.Anotação"@pt
 	Annotations: bim:Tema "Etiquetas"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-121"
+	Annotations: bim:Chave "Key-DOC-126"
 	Annotations: bim:CatRevit "[ OST_Tags ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -2219,7 +2300,7 @@ Class: bim:Etiqueta.Parede
 	Annotations: bim:Espécie "Elemento.de.Anotação"@pt
 	Annotations: bim:Tema "Etiquetas"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-122"
+	Annotations: bim:Chave "Key-DOC-127"
 	Annotations: bim:CatRevit "[ OST_WallTags ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -2235,7 +2316,7 @@ Class: bim:Etiqueta.Porta
 	Annotations: bim:Espécie "Elemento.de.Anotação"@pt
 	Annotations: bim:Tema "Etiquetas"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-123"
+	Annotations: bim:Chave "Key-DOC-128"
 	Annotations: bim:CatRevit "[ OST_DoorTags ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -2251,7 +2332,7 @@ Class: bim:Etiqueta.Janela
 	Annotations: bim:Espécie "Elemento.de.Anotação"@pt
 	Annotations: bim:Tema "Etiquetas"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-124"
+	Annotations: bim:Chave "Key-DOC-129"
 	Annotations: bim:CatRevit "[ OST_WindowTags ]"
 	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "[ ]"
@@ -2277,7 +2358,7 @@ Class: bim:Domínio.Público
 	Annotations: bim:Espécie "Elemento.de.Legallização"@pt
 	Annotations: bim:Tema "Licenças"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-125"
+	Annotations: bim:Chave "Key-DOC-130"
 	Annotations: bim:ABNT "[ ]"
 	SubClassOf: bim:Licenças
 
@@ -2291,7 +2372,7 @@ Class: bim:CCommons
 	Annotations: bim:Espécie "Elemento.de.Legallização"@pt
 	Annotations: bim:Tema "Licenças"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-126"
+	Annotations: bim:Chave "Key-DOC-131"
 	Annotations: bim:ABNT "[ ]"
 	SubClassOf: bim:Licenças
 
@@ -2305,7 +2386,7 @@ Class: bim:Direito.Autoral
 	Annotations: bim:Espécie "Elemento.de.Legallização"@pt
 	Annotations: bim:Tema "Licenças"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-127"
+	Annotations: bim:Chave "Key-DOC-132"
 	Annotations: bim:ABNT "[ ]"
 	SubClassOf: bim:Licenças
 
@@ -2319,7 +2400,7 @@ Class: bim:Direito.Industrial
 	Annotations: bim:Espécie "Elemento.de.Legallização"@pt
 	Annotations: bim:Tema "Licenças"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-128"
+	Annotations: bim:Chave "Key-DOC-133"
 	Annotations: bim:ABNT "[ ]"
 	SubClassOf: bim:Licenças
 
@@ -2338,7 +2419,7 @@ Class: bim:Lei
 	Annotations: bim:Espécie "Elemento.de.Legallização"@pt
 	Annotations: bim:Tema "Governança"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-129"
+	Annotations: bim:Chave "Key-DOC-134"
 	Annotations: bim:ABNT "[ ]"
 	SubClassOf: bim:Governança
 
@@ -2352,7 +2433,7 @@ Class: bim:Decreto
 	Annotations: bim:Espécie "Elemento.de.Legallização"@pt
 	Annotations: bim:Tema "Governança"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-130"
+	Annotations: bim:Chave "Key-DOC-135"
 	Annotations: bim:ABNT "[ ]"
 	SubClassOf: bim:Governança
 
@@ -2366,7 +2447,7 @@ Class: bim:Projeto.de.Lei
 	Annotations: bim:Espécie "Elemento.de.Legallização"@pt
 	Annotations: bim:Tema "Governança"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-131"
+	Annotations: bim:Chave "Key-DOC-136"
 	Annotations: bim:ABNT "[ ]"
 	SubClassOf: bim:Governança
 
@@ -2390,7 +2471,7 @@ Class: bim:Guia
 	Annotations: bim:Espécie "Elemento.de.Publicação"@pt
 	Annotations: bim:Tema "Empresarial"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-132"
+	Annotations: bim:Chave "Key-DOC-137"
 	Annotations: bim:ABNT "[ ]"
 	SubClassOf: bim:Empresarial
 
@@ -2404,7 +2485,7 @@ Class: bim:Manual
 	Annotations: bim:Espécie "Elemento.de.Publicação"@pt
 	Annotations: bim:Tema "Empresarial"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-133"
+	Annotations: bim:Chave "Key-DOC-138"
 	Annotations: bim:ABNT "[ ]"
 	SubClassOf: bim:Empresarial
 
@@ -2418,7 +2499,7 @@ Class: bim:Livro
 	Annotations: bim:Espécie "Elemento.de.Publicação"@pt
 	Annotations: bim:Tema "Empresarial"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-134"
+	Annotations: bim:Chave "Key-DOC-139"
 	Annotations: bim:ABNT "[ ]"
 	SubClassOf: bim:Empresarial
 
@@ -2432,7 +2513,7 @@ Class: bim:Treinamento
 	Annotations: bim:Espécie "Elemento.de.Publicação"@pt
 	Annotations: bim:Tema "Empresarial"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-135"
+	Annotations: bim:Chave "Key-DOC-140"
 	Annotations: bim:ABNT "[ ]"
 	SubClassOf: bim:Empresarial
 
@@ -2446,7 +2527,7 @@ Class: bim:Normativa
 	Annotations: bim:Espécie "Elemento.de.Publicação"@pt
 	Annotations: bim:Tema "Empresarial"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-136"
+	Annotations: bim:Chave "Key-DOC-141"
 	Annotations: bim:ABNT "[ ]"
 	SubClassOf: bim:Empresarial
 
@@ -2460,7 +2541,7 @@ Class: bim:Apresentação
 	Annotations: bim:Espécie "Elemento.de.Publicação"@pt
 	Annotations: bim:Tema "Empresarial"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-137"
+	Annotations: bim:Chave "Key-DOC-142"
 	Annotations: bim:ABNT "[ ]"
 	SubClassOf: bim:Empresarial
 
@@ -2474,7 +2555,7 @@ Class: bim:Fichário
 	Annotations: bim:Espécie "Elemento.de.Publicação"@pt
 	Annotations: bim:Tema "Empresarial"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-138"
+	Annotations: bim:Chave "Key-DOC-143"
 	Annotations: bim:ABNT "[ ]"
 	SubClassOf: bim:Empresarial
 
@@ -2488,7 +2569,7 @@ Class: bim:Formulário
 	Annotations: bim:Espécie "Elemento.de.Publicação"@pt
 	Annotations: bim:Tema "Empresarial"@pt
 	Annotations: bim:Disciplina "Documental"@pt
-	Annotations: bim:Chave "Key-DOC-139"
+	Annotations: bim:Chave "Key-DOC-144"
 	Annotations: bim:ABNT "[ ]"
 	SubClassOf: bim:Empresarial
 
@@ -2496,98 +2577,134 @@ Class: bim:Formulário
 #     Indivíduos em Sintaxe Manchester                           
 #################################################################
 
+Individual: bim:Proj.Revit
+	Types: bim:Arquivo
+	Facts: bim:descrição  "Documento com um projeto feito em Revit"
+	Facts: bim:versão  "2025"
+
+Individual: bim:Fam.Revit
+	Types: bim:Arquivo
+	Facts: bim:descrição  "Documento com uma família feita em Revit"
+	Facts: bim:versão  "2025"
+
+Individual: bim:Template.Arq
+	Types: bim:Template
+	Facts: bim:descrição  "Documento template de Arquitetura"
+	Facts: bim:versão  "2025"
+
+Individual: bim:Template.Est
+	Types: bim:Template
+	Facts: bim:descrição  "Documento template de Estrutura"
+	Facts: bim:versão  "2025"
+
 Individual: bim:Folha.A0
 	Types: bim:Margem
+	Facts: bim:é.pertencente.a  bim:Fam.Revit
 	Facts: bim:descrição  "Prancha de tamanho A0"
 	Facts: bim:categoria.revit  "OST_Sheets"
 	Facts: bim:tipo.revit  "Folha.01"
 
 Individual: bim:Folha.A1
 	Types: bim:Margem
+	Facts: bim:é.pertencente.a  bim:Fam.Revit
 	Facts: bim:descrição  "Prancha de tamanho A1"
 	Facts: bim:categoria.revit  "OST_Sheets"
 	Facts: bim:tipo.revit  "Folha.02"
 
 Individual: bim:Folha.A2
 	Types: bim:Margem
+	Facts: bim:é.pertencente.a  bim:Fam.Revit
 	Facts: bim:descrição  "Prancha de tamanho A2"
 	Facts: bim:categoria.revit  "OST_Sheets"
 	Facts: bim:tipo.revit  "Folha.03"
 
 Individual: bim:Folha.A3
 	Types: bim:Margem
+	Facts: bim:é.pertencente.a  bim:Fam.Revit
 	Facts: bim:descrição  "Prancha de tamanho A3"
 	Facts: bim:categoria.revit  "OST_Sheets"
 	Facts: bim:tipo.revit  "Folha.04"
 
 Individual: bim:Folha.A4
 	Types: bim:Margem
+	Facts: bim:é.pertencente.a  bim:Fam.Revit
 	Facts: bim:descrição  "Prancha de tamanho A4"
 	Facts: bim:categoria.revit  "OST_Sheets"
 	Facts: bim:tipo.revit  "Folha.05"
 
 Individual: bim:Folha.A5
 	Types: bim:Margem
+	Facts: bim:é.pertencente.a  bim:Fam.Revit
 	Facts: bim:descrição  "Prancha de tamanho A5"
 	Facts: bim:categoria.revit  "OST_Sheets"
 	Facts: bim:tipo.revit  "Folha.06"
 
 Individual: bim:Carimbo.Ofi
 	Types: bim:Carimbo
+	Facts: bim:é.pertencente.a  bim:Fam.Revit
 	Facts: bim:descrição  "Carimbo de projeto para prefeitura"
 	Facts: bim:categoria.revit  "OST_TitleBlocks"
 	Facts: bim:tipo.revit  "Carimbo.01"
 
 Individual: bim:Carimbo.Exe
 	Types: bim:Carimbo
+	Facts: bim:é.pertencente.a  bim:Fam.Revit
 	Facts: bim:descrição  "Carimbo de projeto para Executivo"
 	Facts: bim:categoria.revit  "OST_TitleBlocks"
 	Facts: bim:tipo.revit  "Carimbo.02"
 
 Individual: bim:Carimbo.Cli
 	Types: bim:Carimbo
+	Facts: bim:é.pertencente.a  bim:Fam.Revit
 	Facts: bim:descrição  "Carimbo de projeto de um Cliente"
 	Facts: bim:categoria.revit  "OST_TitleBlocks"
 	Facts: bim:tipo.revit  "Carimbo.03"
 
 Individual: bim:Carimbo.Bom
 	Types: bim:Carimbo
+	Facts: bim:é.pertencente.a  bim:Fam.Revit
 	Facts: bim:descrição  "Carimbo de projeto para corpo de Bombeiros"
 	Facts: bim:categoria.revit  "OST_TitleBlocks"
 	Facts: bim:tipo.revit  "Carimbo.04"
 
 Individual: bim:Tag.Paredes
 	Types: bim:Etiqueta
+	Facts: bim:é.pertencente.a  bim:Fam.Revit
 	Facts: bim:descrição  "Etiquetas para identificar paredes."
 	Facts: bim:categoria.revit  "OST_WallTags"
 	Facts: bim:tipo.revit  "Tag.01"
 
 Individual: bim:Tag.Portas
 	Types: bim:Etiqueta
+	Facts: bim:é.pertencente.a  bim:Fam.Revit
 	Facts: bim:descrição  "Etiquetas para identificar portas."
 	Facts: bim:categoria.revit  "OST_DoorTags"
 	Facts: bim:tipo.revit  "Tag.02"
 
 Individual: bim:Tag.Janelas
 	Types: bim:Etiqueta
+	Facts: bim:é.pertencente.a  bim:Fam.Revit
 	Facts: bim:descrição  "Etiquetas para identificar janelas."
 	Facts: bim:categoria.revit  "OST_WindowTags"
 	Facts: bim:tipo.revit  "Tag.03"
 
 Individual: bim:Tag.Colunas
 	Types: bim:Etiqueta
+	Facts: bim:é.pertencente.a  bim:Fam.Revit
 	Facts: bim:descrição  "Etiquetas para identificar colunas."
 	Facts: bim:categoria.revit  "OST_StructuralColumnTags"
 	Facts: bim:tipo.revit  "Tag.04"
 
 Individual: bim:Tag.Vigas
 	Types: bim:Etiqueta
+	Facts: bim:é.pertencente.a  bim:Fam.Revit
 	Facts: bim:descrição  "Etiquetas para identificar vigas."
 	Facts: bim:categoria.revit  "OST_StructuralFramingTags"
 	Facts: bim:tipo.revit  "Tag.05"
 
 Individual: bim:Tag.Lajes
 	Types: bim:Etiqueta
+	Facts: bim:é.pertencente.a  bim:Fam.Revit
 	Facts: bim:descrição  "Etiquetas para identificar lajes."
 	Facts: bim:categoria.revit  "OST_FloorTags"
 	Facts: bim:tipo.revit  "Tag.06"
@@ -2670,7 +2787,7 @@ ObjectProperty: bim:é.abastecedor.de
 	Annotations: bim:Ação "Ação abastecer"@pt
 	Annotations: bim:Definição "Declara que é um elemento que abastece a algum outro elemento."@pt
 	Annotations: bim:Definición "Declara que es un elemento que proporciona algún otro elemento."@es
-	Annotations: bim:Definition "It declares that it is an element that supplies some other element."@en
+	Annotations: bim:Definition "Declares that it is an element that supplies some other element."@en
 	Characteristics: Irreflexive
 	InverseOf: bim:é.abastecido.por
 
@@ -2687,7 +2804,7 @@ DataProperty: bim:abastecedor.de
 	Annotations: bim:Ação "Ação abastecer"@pt
 	Annotations: bim:Definição "Declara que é um elemento que abastece a algum outro elemento."@pt
 	Annotations: bim:Definición "Declara que es un elemento que proporciona algún otro elemento."@es
-	Annotations: bim:Definition "It declares that it is an element that supplies some other element."@en
+	Annotations: bim:Definition "Declares that it is an element that supplies some other element."@en
 
 ObjectProperty: bim:p.abastecer
 	SubPropertyOf: bim:BIMProp
@@ -2703,7 +2820,7 @@ ObjectProperty: bim:é.abastecido.por
 	Annotations: bim:Ação "Ação abastecer"@pt
 	Annotations: bim:Definição "Declara que é um elemento que é abastecido por algum outro elemento."@pt
 	Annotations: bim:Definición "Afirma que es un elemento que es suministrado por algún otro elemento."@es
-	Annotations: bim:Definition "It states that it is an element that is supplied by some other element."@en
+	Annotations: bim:Definition "Declares that it is an element that is supplied by some other element."@en
 	Characteristics: Irreflexive
 	InverseOf: bim:é.abastecedor.de
 
@@ -2720,7 +2837,7 @@ DataProperty: bim:abastecido.por
 	Annotations: bim:Ação "Ação abastecer"@pt
 	Annotations: bim:Definição "Declara que é um elemento que é abastecido por algum outro elemento."@pt
 	Annotations: bim:Definición "Afirma que es un elemento que es suministrado por algún otro elemento."@es
-	Annotations: bim:Definition "It states that it is an element that is supplied by some other element."@en
+	Annotations: bim:Definition "Declares that it is an element that is supplied by some other element."@en
 
 ObjectProperty: bim:p.acabar
 	SubPropertyOf: bim:BIMProp
@@ -2735,8 +2852,8 @@ ObjectProperty: bim:é.chapiscada.com
 	Annotations: bim:Chave "acaba.120"
 	Annotations: bim:Ação "Ação acabar"@pt
 	Annotations: bim:Definição "Declara que um elemento é chapiscado com alguma argamassa."@pt
-	Annotations: bim:Definición "Declara que un elemento es chapiscado con algúna masa."@es
-	Annotations: bim:Definition "It states that an element is plastered with some mortar."@en
+	Annotations: bim:Definición "Declara que un elemento es chapiscado con alguna masa."@es
+	Annotations: bim:Definition "Declares that an element is plastered with some mortar."@en
 	EquivalentTo: bim:é.chapiscado.com
 
 DataProperty: bim:d.acabar
@@ -2751,8 +2868,8 @@ DataProperty: bim:chapiscada.com
 	Annotations: bim:Chave "acaba.120"
 	Annotations: bim:Ação "Ação acabar"@pt
 	Annotations: bim:Definição "Declara que um elemento é chapiscado com alguma argamassa."@pt
-	Annotations: bim:Definición "Declara que un elemento es chapiscado con algúna masa."@es
-	Annotations: bim:Definition "It states that an element is plastered with some mortar."@en
+	Annotations: bim:Definición "Declara que un elemento es chapiscado con alguna masa."@es
+	Annotations: bim:Definition "Declares that an element is plastered with some mortar."@en
 
 ObjectProperty: bim:p.acabar
 	SubPropertyOf: bim:BIMProp
@@ -2767,8 +2884,8 @@ ObjectProperty: bim:é.chapiscado.com
 	Annotations: bim:Chave "acaba.121"
 	Annotations: bim:Ação "Ação acabar"@pt
 	Annotations: bim:Definição "Declara que um elemento é chapiscado com alguma argamassa."@pt
-	Annotations: bim:Definición "Declara que un elemento es chapiscado con algúna masa."@es
-	Annotations: bim:Definition "It states that an element is plastered with some mortar."@en
+	Annotations: bim:Definición "Declara que un elemento es chapiscado con alguna masa."@es
+	Annotations: bim:Definition "Declares that an element is plastered with some mortar."@en
 	EquivalentTo: bim:é.chapiscada.com
 
 DataProperty: bim:d.acabar
@@ -2783,8 +2900,8 @@ DataProperty: bim:chapiscado.com
 	Annotations: bim:Chave "acaba.121"
 	Annotations: bim:Ação "Ação acabar"@pt
 	Annotations: bim:Definição "Declara que um elemento é chapiscado com alguma argamassa."@pt
-	Annotations: bim:Definición "Declara que un elemento es chapiscado con algúna masa."@es
-	Annotations: bim:Definition "It states that an element is plastered with some mortar."@en
+	Annotations: bim:Definición "Declara que un elemento es chapiscado con alguna masa."@es
+	Annotations: bim:Definition "Declares that an element is plastered with some mortar."@en
 
 ObjectProperty: bim:p.acabar
 	SubPropertyOf: bim:BIMProp
@@ -2799,8 +2916,8 @@ ObjectProperty: bim:é.emboçada.com
 	Annotations: bim:Chave "acaba.122"
 	Annotations: bim:Ação "Ação acabar"@pt
 	Annotations: bim:Definição "Declara que um elemento é emboçado com alguma argamassa."@pt
-	Annotations: bim:Definición "Declara que un elemento es rebocado grueso con algúna masa."@es
-	Annotations: bim:Definition "It states that an element is plastered with some mortar."@en
+	Annotations: bim:Definición "Declara que un elemento es rebocado grueso con alguna masa."@es
+	Annotations: bim:Definition "Declares that an element is plastered with some mortar."@en
 	EquivalentTo: bim:é.emboçado.com
 
 DataProperty: bim:d.acabar
@@ -2815,8 +2932,8 @@ DataProperty: bim:emboçada.com
 	Annotations: bim:Chave "acaba.122"
 	Annotations: bim:Ação "Ação acabar"@pt
 	Annotations: bim:Definição "Declara que um elemento é emboçado com alguma argamassa."@pt
-	Annotations: bim:Definición "Declara que un elemento es rebocado grueso con algúna masa."@es
-	Annotations: bim:Definition "It states that an element is plastered with some mortar."@en
+	Annotations: bim:Definición "Declara que un elemento es rebocado grueso con alguna masa."@es
+	Annotations: bim:Definition "Declares that an element is plastered with some mortar."@en
 
 ObjectProperty: bim:p.acabar
 	SubPropertyOf: bim:BIMProp
@@ -2831,8 +2948,8 @@ ObjectProperty: bim:é.emboçado.com
 	Annotations: bim:Chave "acaba.123"
 	Annotations: bim:Ação "Ação acabar"@pt
 	Annotations: bim:Definição "Declara que um elemento é emboçado com alguma argamassa."@pt
-	Annotations: bim:Definición "Declara que un elemento es rebocado grueso con algúna masa."@es
-	Annotations: bim:Definition "It states that an element is plastered with some mortar."@en
+	Annotations: bim:Definición "Declara que un elemento es rebocado grueso con alguna masa."@es
+	Annotations: bim:Definition "Declares that an element is plastered with some mortar."@en
 	EquivalentTo: bim:é.emboçada.com
 
 DataProperty: bim:d.acabar
@@ -2847,8 +2964,8 @@ DataProperty: bim:emboçado.com
 	Annotations: bim:Chave "acaba.123"
 	Annotations: bim:Ação "Ação acabar"@pt
 	Annotations: bim:Definição "Declara que um elemento é emboçado com alguma argamassa."@pt
-	Annotations: bim:Definición "Declara que un elemento es rebocado grueso con algúna masa."@es
-	Annotations: bim:Definition "It states that an element is plastered with some mortar."@en
+	Annotations: bim:Definición "Declara que un elemento es rebocado grueso con alguna masa."@es
+	Annotations: bim:Definition "Declares that an element is plastered with some mortar."@en
 
 ObjectProperty: bim:p.acabar
 	SubPropertyOf: bim:BIMProp
@@ -2863,7 +2980,7 @@ ObjectProperty: bim:é.enmassada.com
 	Annotations: bim:Chave "acaba.124"
 	Annotations: bim:Ação "Ação acabar"@pt
 	Annotations: bim:Definição "Declara que um elemento é pintado com alguma pintura."@pt
-	Annotations: bim:Definición "Declara que un elemento es pintado con algúna pintura."@es
+	Annotations: bim:Definición "Declara que un elemento es pintado con alguna pintura."@es
 	Annotations: bim:Definition "Declares that an element is painted with some paint."@en
 	EquivalentTo: bim:é.enmassado.com
 
@@ -2879,7 +2996,7 @@ DataProperty: bim:enmassada.com
 	Annotations: bim:Chave "acaba.124"
 	Annotations: bim:Ação "Ação acabar"@pt
 	Annotations: bim:Definição "Declara que um elemento é pintado com alguma pintura."@pt
-	Annotations: bim:Definición "Declara que un elemento es pintado con algúna pintura."@es
+	Annotations: bim:Definición "Declara que un elemento es pintado con alguna pintura."@es
 	Annotations: bim:Definition "Declares that an element is painted with some paint."@en
 
 ObjectProperty: bim:p.acabar
@@ -2895,7 +3012,7 @@ ObjectProperty: bim:é.enmassado.com
 	Annotations: bim:Chave "acaba.125"
 	Annotations: bim:Ação "Ação acabar"@pt
 	Annotations: bim:Definição "Declara que um elemento é pintado com alguma pintura."@pt
-	Annotations: bim:Definición "Declara que un elemento es pintado con algúna pintura."@es
+	Annotations: bim:Definición "Declara que un elemento es pintado con alguna pintura."@es
 	Annotations: bim:Definition "Declares that an element is painted with some paint."@en
 	EquivalentTo: bim:é.enmassada.com
 
@@ -2911,7 +3028,7 @@ DataProperty: bim:enmassado.com
 	Annotations: bim:Chave "acaba.125"
 	Annotations: bim:Ação "Ação acabar"@pt
 	Annotations: bim:Definição "Declara que um elemento é pintado com alguma pintura."@pt
-	Annotations: bim:Definición "Declara que un elemento es pintado con algúna pintura."@es
+	Annotations: bim:Definición "Declara que un elemento es pintado con alguna pintura."@es
 	Annotations: bim:Definition "Declares that an element is painted with some paint."@en
 
 ObjectProperty: bim:p.acabar
@@ -2927,7 +3044,7 @@ ObjectProperty: bim:é.pintada.com
 	Annotations: bim:Chave "acaba.126"
 	Annotations: bim:Ação "Ação acabar"@pt
 	Annotations: bim:Definição "Declara que um elemento é enmassado com alguma massa."@pt
-	Annotations: bim:Definición "Declara que un elemento es enmassado con algúna masa."@es
+	Annotations: bim:Definición "Declara que un elemento es enmassado con alguna masa."@es
 	Annotations: bim:Definition "Declares that an element is mixed with some mass."@en
 	EquivalentTo: bim:é.pintado.com
 
@@ -2943,7 +3060,7 @@ DataProperty: bim:pintada.com
 	Annotations: bim:Chave "acaba.126"
 	Annotations: bim:Ação "Ação acabar"@pt
 	Annotations: bim:Definição "Declara que um elemento é enmassado com alguma massa."@pt
-	Annotations: bim:Definición "Declara que un elemento es enmassado con algúna masa."@es
+	Annotations: bim:Definición "Declara que un elemento es enmassado con alguna masa."@es
 	Annotations: bim:Definition "Declares that an element is mixed with some mass."@en
 
 ObjectProperty: bim:p.acabar
@@ -2959,7 +3076,7 @@ ObjectProperty: bim:é.pintado.com
 	Annotations: bim:Chave "acaba.127"
 	Annotations: bim:Ação "Ação acabar"@pt
 	Annotations: bim:Definição "Declara que um elemento é enmassado com alguma massa."@pt
-	Annotations: bim:Definición "Declara que un elemento es enmassado con algúna masa."@es
+	Annotations: bim:Definición "Declara que un elemento es enmassado con alguna masa."@es
 	Annotations: bim:Definition "Declares that an element is mixed with some mass."@en
 	EquivalentTo: bim:é.pintada.com
 
@@ -2975,7 +3092,7 @@ DataProperty: bim:pintado.com
 	Annotations: bim:Chave "acaba.127"
 	Annotations: bim:Ação "Ação acabar"@pt
 	Annotations: bim:Definição "Declara que um elemento é enmassado com alguma massa."@pt
-	Annotations: bim:Definición "Declara que un elemento es enmassado con algúna masa."@es
+	Annotations: bim:Definición "Declara que un elemento es enmassado con alguna masa."@es
 	Annotations: bim:Definition "Declares that an element is mixed with some mass."@en
 
 ObjectProperty: bim:p.acabar
@@ -2991,8 +3108,8 @@ ObjectProperty: bim:é.rebocada.com
 	Annotations: bim:Chave "acaba.128"
 	Annotations: bim:Ação "Ação acabar"@pt
 	Annotations: bim:Definição "Declara que um elemento é rebocado com alguma argamassa."@pt
-	Annotations: bim:Definición "Declara que un elemento es rebocado fino con algúna masa."@es
-	Annotations: bim:Definition "It states that an element is plastered with some mortar."@en
+	Annotations: bim:Definición "Declara que un elemento es rebocado fino con alguna masa."@es
+	Annotations: bim:Definition "Declares that an element is plastered with some mortar."@en
 	EquivalentTo: bim:é.rebocado.com
 
 DataProperty: bim:d.acabar
@@ -3007,8 +3124,8 @@ DataProperty: bim:rebocada.com
 	Annotations: bim:Chave "acaba.128"
 	Annotations: bim:Ação "Ação acabar"@pt
 	Annotations: bim:Definição "Declara que um elemento é rebocado com alguma argamassa."@pt
-	Annotations: bim:Definición "Declara que un elemento es rebocado fino con algúna masa."@es
-	Annotations: bim:Definition "It states that an element is plastered with some mortar."@en
+	Annotations: bim:Definición "Declara que un elemento es rebocado fino con alguna masa."@es
+	Annotations: bim:Definition "Declares that an element is plastered with some mortar."@en
 
 ObjectProperty: bim:p.acabar
 	SubPropertyOf: bim:BIMProp
@@ -3023,8 +3140,8 @@ ObjectProperty: bim:é.rebocado.com
 	Annotations: bim:Chave "acaba.129"
 	Annotations: bim:Ação "Ação acabar"@pt
 	Annotations: bim:Definição "Declara que um elemento é rebocado com alguma argamassa."@pt
-	Annotations: bim:Definición "Declara que un elemento es rebocado fino con algúna masa."@es
-	Annotations: bim:Definition "It states that an element is plastered with some mortar."@en
+	Annotations: bim:Definición "Declara que un elemento es rebocado fino con alguna masa."@es
+	Annotations: bim:Definition "Declares that an element is plastered with some mortar."@en
 	EquivalentTo: bim:é.rebocada.com
 
 DataProperty: bim:d.acabar
@@ -3039,8 +3156,8 @@ DataProperty: bim:rebocado.com
 	Annotations: bim:Chave "acaba.129"
 	Annotations: bim:Ação "Ação acabar"@pt
 	Annotations: bim:Definição "Declara que um elemento é rebocado com alguma argamassa."@pt
-	Annotations: bim:Definición "Declara que un elemento es rebocado fino con algúna masa."@es
-	Annotations: bim:Definition "It states that an element is plastered with some mortar."@en
+	Annotations: bim:Definición "Declara que un elemento es rebocado fino con alguna masa."@es
+	Annotations: bim:Definition "Declares that an element is plastered with some mortar."@en
 
 ObjectProperty: bim:p.acabar
 	SubPropertyOf: bim:BIMProp
@@ -3120,7 +3237,7 @@ ObjectProperty: bim:é.privado
 	Annotations: bim:Ação "Ação administrar"@pt
 	Annotations: bim:Definição "Declara que se trata de um bem ou espaço privado."@pt
 	Annotations: bim:Definición "Es un bien o espacio privado."@es
-	Annotations: bim:Definition "It is a private good or space."@en
+	Annotations: bim:Definition "Declares It is a private good or space."@en
 	InverseOf: bim:é.público
 
 DataProperty: bim:d.administrar
@@ -3136,7 +3253,7 @@ DataProperty: bim:privado
 	Annotations: bim:Ação "Ação administrar"@pt
 	Annotations: bim:Definição "Declara que se trata de um bem ou espaço privado."@pt
 	Annotations: bim:Definición "Es un bien o espacio privado."@es
-	Annotations: bim:Definition "It is a private good or space."@en
+	Annotations: bim:Definition "Declares It is a private good or space."@en
 
 ObjectProperty: bim:p.administrar
 	SubPropertyOf: bim:BIMProp
@@ -3152,7 +3269,7 @@ ObjectProperty: bim:é.público
 	Annotations: bim:Ação "Ação administrar"@pt
 	Annotations: bim:Definição "Declara que se trata de um bem ou espaço público."@pt
 	Annotations: bim:Definición "Es un bien o espacio público."@es
-	Annotations: bim:Definition "It is a public asset or space."@en
+	Annotations: bim:Definition "Declares It is a public asset or space."@en
 	InverseOf: bim:é.privado
 
 DataProperty: bim:d.administrar
@@ -3168,103 +3285,40 @@ DataProperty: bim:público
 	Annotations: bim:Ação "Ação administrar"@pt
 	Annotations: bim:Definição "Declara que se trata de um bem ou espaço público."@pt
 	Annotations: bim:Definición "Es un bien o espacio público."@es
-	Annotations: bim:Definition "It is a public asset or space."@en
+	Annotations: bim:Definition "Declares It is a public asset or space."@en
 
 ObjectProperty: bim:p.afirmar
 	SubPropertyOf: bim:BIMProp
 
 
 
-ObjectProperty: bim:é.positivo
+ObjectProperty: bim:é.fake
 	SubPropertyOf: bim:p.afirmar
 	domain: bim:BIM
 	range: bim:Projeto
-	Annotations: rdfs:label "Propriedade destinada a afirmar: é.positivo"@pt
+	Annotations: rdfs:label "Propriedade destinada a afirmar: é.fake"@pt
 	Annotations: bim:Chave "afirm.100"
 	Annotations: bim:Ação "Ação afirmar"@pt
-	Annotations: bim:Definição "Declara que um objeto é positivo."@pt
-	Annotations: bim:Definición "Declara que un objeto es positivo."@es
-	Annotations: bim:Definition "Declares that an object is positive."@en
-	InverseOf: bim:é.negativo
+	Annotations: bim:Definição "Declara que um objeto é fake ou falsificado."@pt
+	Annotations: bim:Definición "Afirma que un objeto es falso o falsificado."@es
+	Annotations: bim:Definition "Declares that an object is fake or counterfeit."@en
+	InverseOf: bim:é.verdadeiro
+	EquivalentTo: bim:é.fraudulento
 
 DataProperty: bim:d.afirmar
 	SubPropertyOf: bim:BIMData
 
 
 
-DataProperty: bim:positivo
-	SubPropertyOf: bim:d.afirmar
-	range: rdfs:Literal  or  xsd:string
-	Annotations: rdfs:label "Dado para afirmar:  positivo  Deve ser formatado como (rdfs:Literal  or  xsd:string)"@pt
-	Annotations: bim:Chave "afirm.100"
-	Annotations: bim:Ação "Ação afirmar"@pt
-	Annotations: bim:Definição "Declara que um objeto é positivo."@pt
-	Annotations: bim:Definición "Declara que un objeto es positivo."@es
-	Annotations: bim:Definition "Declares that an object is positive."@en
-
-ObjectProperty: bim:p.afirmar
-	SubPropertyOf: bim:BIMProp
-
-
-
-ObjectProperty: bim:é.negativo
-	SubPropertyOf: bim:p.afirmar
-	domain: bim:BIM
-	range: bim:Projeto
-	Annotations: rdfs:label "Propriedade destinada a afirmar: é.negativo"@pt
-	Annotations: bim:Chave "afirm.101"
-	Annotations: bim:Ação "Ação afirmar"@pt
-	Annotations: bim:Definição "Declara que um objeto é negativo."@pt
-	Annotations: bim:Definición "Declara que un objeto es negativo."@es
-	Annotations: bim:Definition "Declares that an object is negative."@en
-	InverseOf: bim:é.positivo
-
-DataProperty: bim:d.afirmar
-	SubPropertyOf: bim:BIMData
-
-
-
-DataProperty: bim:negativo
-	SubPropertyOf: bim:d.afirmar
-	range: rdfs:Literal  or  xsd:string
-	Annotations: rdfs:label "Dado para afirmar:  negativo  Deve ser formatado como (rdfs:Literal  or  xsd:string)"@pt
-	Annotations: bim:Chave "afirm.101"
-	Annotations: bim:Ação "Ação afirmar"@pt
-	Annotations: bim:Definição "Declara que um objeto é negativo."@pt
-	Annotations: bim:Definición "Declara que un objeto es negativo."@es
-	Annotations: bim:Definition "Declares that an object is negative."@en
-
-ObjectProperty: bim:p.afirmar
-	SubPropertyOf: bim:BIMProp
-
-
-
-ObjectProperty: bim:é.verdadeiro
-	SubPropertyOf: bim:p.afirmar
-	domain: bim:BIM
-	range: bim:Projeto
-	Annotations: rdfs:label "Propriedade destinada a afirmar: é.verdadeiro"@pt
-	Annotations: bim:Chave "afirm.102"
-	Annotations: bim:Ação "Ação afirmar"@pt
-	Annotations: bim:Definição "Declara que um objeto é logicamente verdadeiro."@pt
-	Annotations: bim:Definición "Declara que un objeto es lógicamente verdadero."@es
-	Annotations: bim:Definition "Declares that an object is logically true."@en
-	InverseOf: bim:é.falso
-
-DataProperty: bim:d.afirmar
-	SubPropertyOf: bim:BIMData
-
-
-
-DataProperty: bim:verdadeiro
+DataProperty: bim:fake
 	SubPropertyOf: bim:d.afirmar
 	range: xsd:boolean
-	Annotations: rdfs:label "Dado para afirmar:  verdadeiro  Deve ser formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "afirm.102"
+	Annotations: rdfs:label "Dado para afirmar:  fake  Deve ser formatado como (xsd:boolean)"@pt
+	Annotations: bim:Chave "afirm.100"
 	Annotations: bim:Ação "Ação afirmar"@pt
-	Annotations: bim:Definição "Declara que um objeto é logicamente verdadeiro."@pt
-	Annotations: bim:Definición "Declara que un objeto es lógicamente verdadero."@es
-	Annotations: bim:Definition "Declares that an object is logically true."@en
+	Annotations: bim:Definição "Declara que um objeto é fake ou falsificado."@pt
+	Annotations: bim:Definición "Afirma que un objeto es falso o falsificado."@es
+	Annotations: bim:Definition "Declares that an object is fake or counterfeit."@en
 
 ObjectProperty: bim:p.afirmar
 	SubPropertyOf: bim:BIMProp
@@ -3276,7 +3330,7 @@ ObjectProperty: bim:é.falso
 	domain: bim:BIM
 	range: bim:Projeto
 	Annotations: rdfs:label "Propriedade destinada a afirmar: é.falso"@pt
-	Annotations: bim:Chave "afirm.103"
+	Annotations: bim:Chave "afirm.101"
 	Annotations: bim:Ação "Ação afirmar"@pt
 	Annotations: bim:Definição "Declara que um objeto é logicamente falso."@pt
 	Annotations: bim:Definición "Declara que un objeto es lógicamente falso."@es
@@ -3292,44 +3346,11 @@ DataProperty: bim:falso
 	SubPropertyOf: bim:d.afirmar
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para afirmar:  falso  Deve ser formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "afirm.103"
+	Annotations: bim:Chave "afirm.101"
 	Annotations: bim:Ação "Ação afirmar"@pt
 	Annotations: bim:Definição "Declara que um objeto é logicamente falso."@pt
 	Annotations: bim:Definición "Declara que un objeto es lógicamente falso."@es
 	Annotations: bim:Definition "Declares that an object is logically false."@en
-
-ObjectProperty: bim:p.afirmar
-	SubPropertyOf: bim:BIMProp
-
-
-
-ObjectProperty: bim:é.fake
-	SubPropertyOf: bim:p.afirmar
-	domain: bim:BIM
-	range: bim:Projeto
-	Annotations: rdfs:label "Propriedade destinada a afirmar: é.fake"@pt
-	Annotations: bim:Chave "afirm.104"
-	Annotations: bim:Ação "Ação afirmar"@pt
-	Annotations: bim:Definição "Declara que um objeto é fake ou falsificado."@pt
-	Annotations: bim:Definición "Afirma que un objeto es falso o falsificado."@es
-	Annotations: bim:Definition "It states that an object is fake or counterfeit."@en
-	InverseOf: bim:é.verdadeiro
-	EquivalentTo: bim:é.fraudulento
-
-DataProperty: bim:d.afirmar
-	SubPropertyOf: bim:BIMData
-
-
-
-DataProperty: bim:fake
-	SubPropertyOf: bim:d.afirmar
-	range: xsd:boolean
-	Annotations: rdfs:label "Dado para afirmar:  fake  Deve ser formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "afirm.104"
-	Annotations: bim:Ação "Ação afirmar"@pt
-	Annotations: bim:Definição "Declara que um objeto é fake ou falsificado."@pt
-	Annotations: bim:Definición "Afirma que un objeto es falso o falsificado."@es
-	Annotations: bim:Definition "It states that an object is fake or counterfeit."@en
 
 ObjectProperty: bim:p.afirmar
 	SubPropertyOf: bim:BIMProp
@@ -3341,7 +3362,7 @@ ObjectProperty: bim:é.fraudulento
 	domain: bim:BIM
 	range: bim:Projeto
 	Annotations: rdfs:label "Propriedade destinada a afirmar: é.fraudulento"@pt
-	Annotations: bim:Chave "afirm.105"
+	Annotations: bim:Chave "afirm.102"
 	Annotations: bim:Ação "Ação afirmar"@pt
 	Annotations: bim:Definição "Declara que um objeto é fraudulento."@pt
 	Annotations: bim:Definición "Declara que un objeto es fraudulento."@es
@@ -3358,11 +3379,107 @@ DataProperty: bim:fraudulento
 	SubPropertyOf: bim:d.afirmar
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para afirmar:  fraudulento  Deve ser formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "afirm.105"
+	Annotations: bim:Chave "afirm.102"
 	Annotations: bim:Ação "Ação afirmar"@pt
 	Annotations: bim:Definição "Declara que um objeto é fraudulento."@pt
 	Annotations: bim:Definición "Declara que un objeto es fraudulento."@es
 	Annotations: bim:Definition "Declares that an object is fraudulent."@en
+
+ObjectProperty: bim:p.afirmar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.negativo
+	SubPropertyOf: bim:p.afirmar
+	domain: bim:BIM
+	range: bim:Projeto
+	Annotations: rdfs:label "Propriedade destinada a afirmar: é.negativo"@pt
+	Annotations: bim:Chave "afirm.103"
+	Annotations: bim:Ação "Ação afirmar"@pt
+	Annotations: bim:Definição "Declara que um objeto é negativo."@pt
+	Annotations: bim:Definición "Declara que un objeto es negativo."@es
+	Annotations: bim:Definition "Declares that an object is negative."@en
+	InverseOf: bim:é.positivo
+
+DataProperty: bim:d.afirmar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:negativo
+	SubPropertyOf: bim:d.afirmar
+	range: rdfs:Literal  or  xsd:string
+	Annotations: rdfs:label "Dado para afirmar:  negativo  Deve ser formatado como (rdfs:Literal  or  xsd:string)"@pt
+	Annotations: bim:Chave "afirm.103"
+	Annotations: bim:Ação "Ação afirmar"@pt
+	Annotations: bim:Definição "Declara que um objeto é negativo."@pt
+	Annotations: bim:Definición "Declara que un objeto es negativo."@es
+	Annotations: bim:Definition "Declares that an object is negative."@en
+
+ObjectProperty: bim:p.afirmar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.positivo
+	SubPropertyOf: bim:p.afirmar
+	domain: bim:BIM
+	range: bim:Projeto
+	Annotations: rdfs:label "Propriedade destinada a afirmar: é.positivo"@pt
+	Annotations: bim:Chave "afirm.104"
+	Annotations: bim:Ação "Ação afirmar"@pt
+	Annotations: bim:Definição "Declara que um objeto é positivo."@pt
+	Annotations: bim:Definición "Declara que un objeto es positivo."@es
+	Annotations: bim:Definition "Declares that an object is positive."@en
+	InverseOf: bim:é.negativo
+
+DataProperty: bim:d.afirmar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:positivo
+	SubPropertyOf: bim:d.afirmar
+	range: rdfs:Literal  or  xsd:string
+	Annotations: rdfs:label "Dado para afirmar:  positivo  Deve ser formatado como (rdfs:Literal  or  xsd:string)"@pt
+	Annotations: bim:Chave "afirm.104"
+	Annotations: bim:Ação "Ação afirmar"@pt
+	Annotations: bim:Definição "Declara que um objeto é positivo."@pt
+	Annotations: bim:Definición "Declara que un objeto es positivo."@es
+	Annotations: bim:Definition "Declares that an object is positive."@en
+
+ObjectProperty: bim:p.afirmar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.verdadeiro
+	SubPropertyOf: bim:p.afirmar
+	domain: bim:BIM
+	range: bim:Projeto
+	Annotations: rdfs:label "Propriedade destinada a afirmar: é.verdadeiro"@pt
+	Annotations: bim:Chave "afirm.105"
+	Annotations: bim:Ação "Ação afirmar"@pt
+	Annotations: bim:Definição "Declara que um objeto é logicamente verdadeiro."@pt
+	Annotations: bim:Definición "Declara que un objeto es lógicamente verdadero."@es
+	Annotations: bim:Definition "Declares that an object is logically true."@en
+	InverseOf: bim:é.falso
+
+DataProperty: bim:d.afirmar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:verdadeiro
+	SubPropertyOf: bim:d.afirmar
+	range: xsd:boolean
+	Annotations: rdfs:label "Dado para afirmar:  verdadeiro  Deve ser formatado como (xsd:boolean)"@pt
+	Annotations: bim:Chave "afirm.105"
+	Annotations: bim:Ação "Ação afirmar"@pt
+	Annotations: bim:Definição "Declara que um objeto é logicamente verdadeiro."@pt
+	Annotations: bim:Definición "Declara que un objeto es lógicamente verdadero."@es
+	Annotations: bim:Definition "Declares that an object is logically true."@en
 
 ObjectProperty: bim:p.assentar
 	SubPropertyOf: bim:BIMProp
@@ -3410,7 +3527,7 @@ ObjectProperty: bim:é.colado.com
 	Annotations: bim:Ação "Ação assentar"@pt
 	Annotations: bim:Definição "Declara que um elemento é colado com alguma argamassa ou cola."@pt
 	Annotations: bim:Definición "Declara que un elemento es pegada con algún material."@es
-	Annotations: bim:Definition "It states that an element is glued together with some mortar or glue."@en
+	Annotations: bim:Definition "Declares that an element is glued together with some mortar or glue."@en
 	EquivalentTo: bim:é.colada.com
 
 DataProperty: bim:d.assentar
@@ -3426,7 +3543,7 @@ DataProperty: bim:colado.com
 	Annotations: bim:Ação "Ação assentar"@pt
 	Annotations: bim:Definição "Declara que um elemento é colado com alguma argamassa ou cola."@pt
 	Annotations: bim:Definición "Declara que un elemento es pegada con algún material."@es
-	Annotations: bim:Definition "It states that an element is glued together with some mortar or glue."@en
+	Annotations: bim:Definition "Declares that an element is glued together with some mortar or glue."@en
 
 ObjectProperty: bim:p.audibilizar
 	SubPropertyOf: bim:BIMProp
@@ -3662,6 +3779,70 @@ ObjectProperty: bim:p.catalogar
 
 
 
+ObjectProperty: bim:é.realizada.com
+	SubPropertyOf: bim:p.catalogar
+	domain: bim:BIM
+	range: bim:Projeto
+	Annotations: rdfs:label "Propriedade destinada a catalogar: é.realizada.com"@pt
+	Annotations: bim:Chave "catal.128"
+	Annotations: bim:Ação "Ação catalogar"@pt
+	Annotations: bim:Definição "Declara que se trata de uma ação realizada com algum elemento, por exemplo, um voo de drone realizado com um drone específico."@pt
+	Annotations: bim:Definición "Declara que es una acción realizada con algún elemento, por ejemplo, un vuelo de dron realizado con un dron específico."@es
+	Annotations: bim:Definition "Declares that it is an action carried out with some element, for example, a drone flight carried out with a specific drone."@en
+	EquivalentTo: bim:é.realizado.com
+
+DataProperty: bim:d.catalogar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:realizada.com
+	SubPropertyOf: bim:d.catalogar
+	range: rdfs:Literal  or  xsd:string
+	Annotations: rdfs:label "Dado para catalogar:  realizada.com  Deve ser formatado como (rdfs:Literal  or  xsd:string)"@pt
+	Annotations: bim:Chave "catal.128"
+	Annotations: bim:Ação "Ação catalogar"@pt
+	Annotations: bim:Definição "Declara que se trata de uma ação realizada com algum elemento, por exemplo, um voo de drone realizado com um drone específico."@pt
+	Annotations: bim:Definición "Declara que es una acción realizada con algún elemento, por ejemplo, un vuelo de dron realizado con un dron específico."@es
+	Annotations: bim:Definition "Declares that it is an action carried out with some element, for example, a drone flight carried out with a specific drone."@en
+
+ObjectProperty: bim:p.catalogar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.realizado.com
+	SubPropertyOf: bim:p.catalogar
+	domain: bim:BIM
+	range: bim:Projeto
+	Annotations: rdfs:label "Propriedade destinada a catalogar: é.realizado.com"@pt
+	Annotations: bim:Chave "catal.129"
+	Annotations: bim:Ação "Ação catalogar"@pt
+	Annotations: bim:Definição "Declara que se trata de uma ação realizada com algum elemento, por exemplo, um voo de drone realizado com um drone específico."@pt
+	Annotations: bim:Definición "Declara que es una acción realizada con algún elemento, por ejemplo, un vuelo de dron realizado con un dron específico."@es
+	Annotations: bim:Definition "Declares that it is an action carried out with some element, for example, a drone flight carried out with a specific drone."@en
+	EquivalentTo: bim:é.realizada.com
+
+DataProperty: bim:d.catalogar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:realizado.com
+	SubPropertyOf: bim:d.catalogar
+	range: rdfs:Literal  or  xsd:string
+	Annotations: rdfs:label "Dado para catalogar:  realizado.com  Deve ser formatado como (rdfs:Literal  or  xsd:string)"@pt
+	Annotations: bim:Chave "catal.129"
+	Annotations: bim:Ação "Ação catalogar"@pt
+	Annotations: bim:Definição "Declara que se trata de uma ação realizada com algum elemento, por exemplo, um voo de drone realizado com um drone específico."@pt
+	Annotations: bim:Definición "Declara que es una acción realizada con algún elemento, por ejemplo, un vuelo de dron realizado con un dron específico."@es
+	Annotations: bim:Definition "Declares that it is an action carried out with some element, for example, a drone flight carried out with a specific drone."@en
+
+ObjectProperty: bim:p.catalogar
+	SubPropertyOf: bim:BIMProp
+
+
+
 ObjectProperty: bim:é.substituida.por
 	SubPropertyOf: bim:p.catalogar
 	domain: bim:BIM
@@ -3721,6 +3902,39 @@ DataProperty: bim:substituido.por
 	Annotations: bim:Definición "Identificación de un elemento que ha reemplazado a otro elemento. La declaración identifica el nuevo elemento."@es
 	Annotations: bim:Definition "Identification of an element that has replaced another element. The declaration identifies the new element."@en
 
+ObjectProperty: bim:p.catalogar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.versão
+	SubPropertyOf: bim:p.catalogar
+	domain: bim:BIM
+	range: bim:Projeto
+	Annotations: rdfs:label "Propriedade destinada a catalogar: é.versão"@pt
+	Annotations: bim:Chave "catal.142"
+	Annotations: bim:Ação "Ação catalogar"@pt
+	Annotations: bim:Definição "Versão de um evento."@pt
+	Annotations: bim:Definición "Versión de un evento."@es
+	Annotations: bim:Definition "Version of an event."@en
+	Annotations: bim:ABNT "[ 0P.10.40.03 ]"
+
+DataProperty: bim:d.catalogar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:versão
+	SubPropertyOf: bim:d.catalogar
+	range: rdfs:Literal  or  xsd:string
+	Annotations: rdfs:label "Dado para catalogar:  versão  Deve ser formatado como (rdfs:Literal  or  xsd:string)"@pt
+	Annotations: bim:Chave "catal.142"
+	Annotations: bim:Ação "Ação catalogar"@pt
+	Annotations: bim:Definição "Versão de um evento."@pt
+	Annotations: bim:Definición "Versión de un evento."@es
+	Annotations: bim:Definition "Version of an event."@en
+	Annotations: bim:ABNT "[ 0P.10.40.03 ]"
+
 ObjectProperty: bim:p.concursar
 	SubPropertyOf: bim:BIMProp
 
@@ -3735,7 +3949,7 @@ ObjectProperty: bim:é.recurso
 	Annotations: bim:Ação "Ação concursar"@pt
 	Annotations: bim:Definição "Declara que é um recurso aberto no contexto do concurso, licitação ou certame."@pt
 	Annotations: bim:Definición "Declara que se trata de un recurso abierto en el contexto de la licitación, licitación o concurso."@es
-	Annotations: bim:Definition "It declares that it is an open appeal in the context of the tender, bidding or contest."@en
+	Annotations: bim:Definition "Declares that it is an open appeal in the context of the tender, bidding or contest."@en
 	EquivalentTo: bim:é.fase.recursal
 
 DataProperty: bim:d.concursar
@@ -3751,7 +3965,7 @@ DataProperty: bim:recurso
 	Annotations: bim:Ação "Ação concursar"@pt
 	Annotations: bim:Definição "Declara que é um recurso aberto no contexto do concurso, licitação ou certame."@pt
 	Annotations: bim:Definición "Declara que se trata de un recurso abierto en el contexto de la licitación, licitación o concurso."@es
-	Annotations: bim:Definition "It declares that it is an open appeal in the context of the tender, bidding or contest."@en
+	Annotations: bim:Definition "Declares that it is an open appeal in the context of the tender, bidding or contest."@en
 
 ObjectProperty: bim:p.dimensionar
 	SubPropertyOf: bim:BIMProp
@@ -4894,7 +5108,7 @@ ObjectProperty: bim:é.ponto.uv
 	domain: bim:BIM
 	range: bim:Projeto
 	Annotations: rdfs:label "Propriedade destinada a formar: é.ponto.uv"@pt
-	Annotations: bim:Chave "forma.125"
+	Annotations: bim:Chave "forma.124"
 	Annotations: bim:Ação "Ação formar"@pt
 	Annotations: bim:Definição "Declara um ponto de posição UV para descrever a parametrização de uma espaço 2D como uma textura, área de piso ou parece. U  eixo horizontal, V  eixo vertical. Os valores são paramétricos, geralmente entre 0 e 1: ‘[  0 , 0]’  canto inferior esquerdo da textura e ‘[  1 , 1 ]’ é o canto superior direito e ‘[ 0.5 , 0.5 ]’ o centro. É usado para mapeamento."@pt
 	Annotations: bim:Definición "Declara un punto UV que describe la parametrización de un espacio 2D como una textura o un área de piso o pared. U  eje horizontal, V  eje vertical. Los valores son paramétricos, generalmente entre 0 y 1: ‘[  0 , 0]’  esquina inferior izquierda de la textura, ‘[  1 , 1 ]’  la esquina superior derecha y ‘[ 0.5 , 0.5 ]’ el centro. Se utiliza para el mapeo."@es
@@ -4910,7 +5124,7 @@ DataProperty: bim:ponto.uv
 	SubPropertyOf: bim:d.formar
 	range: rdfs:Literal  or  xsd:string
 	Annotations: rdfs:label "Dado para formar:  ponto.uv  Deve ser formatado como (rdfs:Literal  or  xsd:string)"@pt
-	Annotations: bim:Chave "forma.125"
+	Annotations: bim:Chave "forma.124"
 	Annotations: bim:Ação "Ação formar"@pt
 	Annotations: bim:Definição "Declara um ponto de posição UV para descrever a parametrização de uma espaço 2D como uma textura, área de piso ou parece. U  eixo horizontal, V  eixo vertical. Os valores são paramétricos, geralmente entre 0 e 1: ‘[  0 , 0]’  canto inferior esquerdo da textura e ‘[  1 , 1 ]’ é o canto superior direito e ‘[ 0.5 , 0.5 ]’ o centro. É usado para mapeamento."@pt
 	Annotations: bim:Definición "Declara un punto UV que describe la parametrización de un espacio 2D como una textura o un área de piso o pared. U  eje horizontal, V  eje vertical. Los valores son paramétricos, generalmente entre 0 y 1: ‘[  0 , 0]’  esquina inferior izquierda de la textura, ‘[  1 , 1 ]’  la esquina superior derecha y ‘[ 0.5 , 0.5 ]’ el centro. Se utiliza para el mapeo."@es
@@ -4926,7 +5140,7 @@ ObjectProperty: bim:é.ponto.xy
 	domain: bim:BIM
 	range: bim:Projeto
 	Annotations: rdfs:label "Propriedade destinada a formar: é.ponto.xy"@pt
-	Annotations: bim:Chave "forma.126"
+	Annotations: bim:Chave "forma.125"
 	Annotations: bim:Ação "Ação formar"@pt
 	Annotations: bim:Definição "Declara uma posição no plano 2D. Representar usando uma string de duas coordenadas: '[ coordenada.x   coordenada.y ]'"@pt
 	Annotations: bim:Definición "Declara a posición en un plano 2D.  Configurar como una lista de string de dos elementos '[ coordenada.x   coordenada.y ]'."@es
@@ -4942,7 +5156,7 @@ DataProperty: bim:ponto.xy
 	SubPropertyOf: bim:d.formar
 	range: rdfs:Literal  or  xsd:string
 	Annotations: rdfs:label "Dado para formar:  ponto.xy  Deve ser formatado como (rdfs:Literal  or  xsd:string)"@pt
-	Annotations: bim:Chave "forma.126"
+	Annotations: bim:Chave "forma.125"
 	Annotations: bim:Ação "Ação formar"@pt
 	Annotations: bim:Definição "Declara uma posição no plano 2D. Representar usando uma string de duas coordenadas: '[ coordenada.x   coordenada.y ]'"@pt
 	Annotations: bim:Definición "Declara a posición en un plano 2D.  Configurar como una lista de string de dos elementos '[ coordenada.x   coordenada.y ]'."@es
@@ -4958,7 +5172,7 @@ ObjectProperty: bim:é.ponto.xyz
 	domain: bim:BIM
 	range: bim:Projeto
 	Annotations: rdfs:label "Propriedade destinada a formar: é.ponto.xyz"@pt
-	Annotations: bim:Chave "forma.127"
+	Annotations: bim:Chave "forma.126"
 	Annotations: bim:Ação "Ação formar"@pt
 	Annotations: bim:Definição "Declara uma posição espacial em 3D. Representar usando uma string de três coordenadas: '[ coordenada.x   coordenada.y  coordenada.z ]'"@pt
 	Annotations: bim:Definición "Declara una posición espacial en 3D.  Configurar como una lista de string de tres elementos '[ coordenada.x   coordenada.y  coordenada.z ]'."@es
@@ -4974,7 +5188,7 @@ DataProperty: bim:ponto.xyz
 	SubPropertyOf: bim:d.formar
 	range: rdfs:Literal  or  xsd:string
 	Annotations: rdfs:label "Dado para formar:  ponto.xyz  Deve ser formatado como (rdfs:Literal  or  xsd:string)"@pt
-	Annotations: bim:Chave "forma.127"
+	Annotations: bim:Chave "forma.126"
 	Annotations: bim:Ação "Ação formar"@pt
 	Annotations: bim:Definição "Declara uma posição espacial em 3D. Representar usando uma string de três coordenadas: '[ coordenada.x   coordenada.y  coordenada.z ]'"@pt
 	Annotations: bim:Definición "Declara una posición espacial en 3D.  Configurar como una lista de string de tres elementos '[ coordenada.x   coordenada.y  coordenada.z ]'."@es
@@ -4990,7 +5204,7 @@ ObjectProperty: bim:é.ponto.analítico
 	domain: bim:BIM
 	range: bim:Projeto
 	Annotations: rdfs:label "Propriedade destinada a formar: é.ponto.analítico"@pt
-	Annotations: bim:Chave "forma.131"
+	Annotations: bim:Chave "forma.130"
 	Annotations: bim:Ação "Ação formar"@pt
 	Annotations: bim:Definição "Declara a posiçao de um ponto analítico UV que pode ser usado em análise estrutural, acústico, luminotécnico, etc."@pt
 	Annotations: bim:Definición "Declara la posición de un punto analítico UV que puede utilizarse en análisis estructural, acústico, luminotécnico, etc."@es
@@ -5006,7 +5220,7 @@ DataProperty: bim:ponto.analítico
 	SubPropertyOf: bim:d.formar
 	range: rdfs:Literal  or  xsd:string
 	Annotations: rdfs:label "Dado para formar:  ponto.analítico  Deve ser formatado como (rdfs:Literal  or  xsd:string)"@pt
-	Annotations: bim:Chave "forma.131"
+	Annotations: bim:Chave "forma.130"
 	Annotations: bim:Ação "Ação formar"@pt
 	Annotations: bim:Definição "Declara a posiçao de um ponto analítico UV que pode ser usado em análise estrutural, acústico, luminotécnico, etc."@pt
 	Annotations: bim:Definición "Declara la posición de un punto analítico UV que puede utilizarse en análisis estructural, acústico, luminotécnico, etc."@es
@@ -5026,7 +5240,7 @@ ObjectProperty: bim:é.uso
 	Annotations: bim:Ação "Ação funcionar"@pt
 	Annotations: bim:Definição "Declara o tipo de uso dado ao elemento."@pt
 	Annotations: bim:Definición "Declara el tipo de uso dado al elemento."@es
-	Annotations: bim:Definition "It declares the type of use given to the element."@en
+	Annotations: bim:Definition "Declares the type of use given to the element."@en
 	EquivalentTo: bim:é.funcionamento
 
 DataProperty: bim:d.funcionar
@@ -5042,7 +5256,7 @@ DataProperty: bim:uso
 	Annotations: bim:Ação "Ação funcionar"@pt
 	Annotations: bim:Definição "Declara o tipo de uso dado ao elemento."@pt
 	Annotations: bim:Definición "Declara el tipo de uso dado al elemento."@es
-	Annotations: bim:Definition "It declares the type of use given to the element."@en
+	Annotations: bim:Definition "Declares the type of use given to the element."@en
 
 ObjectProperty: bim:p.funcionar
 	SubPropertyOf: bim:BIMProp
@@ -5058,7 +5272,7 @@ ObjectProperty: bim:é.funcionamento
 	Annotations: bim:Ação "Ação funcionar"@pt
 	Annotations: bim:Definição "Declara o tipo de funcionamento dado ao elemento."@pt
 	Annotations: bim:Definición "Declara el tipo de operación asignada al elemento."@es
-	Annotations: bim:Definition "It declares the type of operation given to the element."@en
+	Annotations: bim:Definition "Declares the type of operation given to the element."@en
 	EquivalentTo: bim:é.uso
 
 DataProperty: bim:d.funcionar
@@ -5074,7 +5288,7 @@ DataProperty: bim:funcionamento
 	Annotations: bim:Ação "Ação funcionar"@pt
 	Annotations: bim:Definição "Declara o tipo de funcionamento dado ao elemento."@pt
 	Annotations: bim:Definición "Declara el tipo de operación asignada al elemento."@es
-	Annotations: bim:Definition "It declares the type of operation given to the element."@en
+	Annotations: bim:Definition "Declares the type of operation given to the element."@en
 
 ObjectProperty: bim:p.funcionar
 	SubPropertyOf: bim:BIMProp
@@ -5090,7 +5304,7 @@ ObjectProperty: bim:é.locatário
 	Annotations: bim:Ação "Ação funcionar"@pt
 	Annotations: bim:Definição "Declara o nome do ocupante que está alugando uma entidade espacial."@pt
 	Annotations: bim:Definición "Declara el nombre del ocupante que alquila una entidad espacial."@es
-	Annotations: bim:Definition "It declares the name of the occupant who is renting a space entity."@en
+	Annotations: bim:Definition "Declares the name of the occupant who is renting a space entity."@en
 	EquivalentTo: bim:é.uso
 
 DataProperty: bim:d.funcionar
@@ -5106,7 +5320,7 @@ DataProperty: bim:locatário
 	Annotations: bim:Ação "Ação funcionar"@pt
 	Annotations: bim:Definição "Declara o nome do ocupante que está alugando uma entidade espacial."@pt
 	Annotations: bim:Definición "Declara el nombre del ocupante que alquila una entidad espacial."@es
-	Annotations: bim:Definition "It declares the name of the occupant who is renting a space entity."@en
+	Annotations: bim:Definition "Declares the name of the occupant who is renting a space entity."@en
 
 ObjectProperty: bim:p.funcionar
 	SubPropertyOf: bim:BIMProp
@@ -5122,7 +5336,7 @@ ObjectProperty: bim:é.morador
 	Annotations: bim:Ação "Ação funcionar"@pt
 	Annotations: bim:Definição "Declara o nome do ocupante que está morando na unidade espacial."@pt
 	Annotations: bim:Definición "Declara el nombre del ocupante que vive en la unidad espacial."@es
-	Annotations: bim:Definition "It declares the name of the occupant who is living in the space unit."@en
+	Annotations: bim:Definition "Declares the name of the occupant who is living in the space unit."@en
 	EquivalentTo: bim:é.uso
 
 DataProperty: bim:d.funcionar
@@ -5138,7 +5352,7 @@ DataProperty: bim:morador
 	Annotations: bim:Ação "Ação funcionar"@pt
 	Annotations: bim:Definição "Declara o nome do ocupante que está morando na unidade espacial."@pt
 	Annotations: bim:Definición "Declara el nombre del ocupante que vive en la unidad espacial."@es
-	Annotations: bim:Definition "It declares the name of the occupant who is living in the space unit."@en
+	Annotations: bim:Definition "Declares the name of the occupant who is living in the space unit."@en
 
 ObjectProperty: bim:p.funcionar
 	SubPropertyOf: bim:BIMProp
@@ -5154,7 +5368,7 @@ ObjectProperty: bim:é.ocupante
 	Annotations: bim:Ação "Ação funcionar"@pt
 	Annotations: bim:Definição "Declara o nome do ocupante de um ambiente, setor ou entidade espacial."@pt
 	Annotations: bim:Definición "Declara el nombre del ocupante de un espacio, sector o entidad espacial."@es
-	Annotations: bim:Definition "It declares the name of the occupant of a space, sector, or spatial entity."@en
+	Annotations: bim:Definition "Declares the name of the occupant of a space, sector, or spatial entity."@en
 	EquivalentTo: bim:é.uso
 
 DataProperty: bim:d.funcionar
@@ -5170,7 +5384,7 @@ DataProperty: bim:ocupante
 	Annotations: bim:Ação "Ação funcionar"@pt
 	Annotations: bim:Definição "Declara o nome do ocupante de um ambiente, setor ou entidade espacial."@pt
 	Annotations: bim:Definición "Declara el nombre del ocupante de un espacio, sector o entidad espacial."@es
-	Annotations: bim:Definition "It declares the name of the occupant of a space, sector, or spatial entity."@en
+	Annotations: bim:Definition "Declares the name of the occupant of a space, sector, or spatial entity."@en
 
 ObjectProperty: bim:p.funcionar
 	SubPropertyOf: bim:BIMProp
@@ -5186,7 +5400,7 @@ ObjectProperty: bim:é.permisionário
 	Annotations: bim:Ação "Ação funcionar"@pt
 	Annotations: bim:Definição "Declara o nome do ocupante que recebeu permissão de uso para ocupar e explorar um bem público que é uma entidade espacial."@pt
 	Annotations: bim:Definición "Declara el nombre del ocupante al que se le ha concedido permiso para usar y explotar una propiedad pública que es una entidad espacial."@es
-	Annotations: bim:Definition "It declares the name of the occupant who has been granted permission to use to occupy and exploit a public property that is a spatial entity."@en
+	Annotations: bim:Definition "Declares the name of the occupant who has been granted permission to use to occupy and exploit a public property that is a spatial entity."@en
 	EquivalentTo: bim:é.uso
 
 DataProperty: bim:d.funcionar
@@ -5202,7 +5416,7 @@ DataProperty: bim:permisionário
 	Annotations: bim:Ação "Ação funcionar"@pt
 	Annotations: bim:Definição "Declara o nome do ocupante que recebeu permissão de uso para ocupar e explorar um bem público que é uma entidade espacial."@pt
 	Annotations: bim:Definición "Declara el nombre del ocupante al que se le ha concedido permiso para usar y explotar una propiedad pública que es una entidad espacial."@es
-	Annotations: bim:Definition "It declares the name of the occupant who has been granted permission to use to occupy and exploit a public property that is a spatial entity."@en
+	Annotations: bim:Definition "Declares the name of the occupant who has been granted permission to use to occupy and exploit a public property that is a spatial entity."@en
 
 ObjectProperty: bim:p.funcionar
 	SubPropertyOf: bim:BIMProp
@@ -5218,7 +5432,7 @@ ObjectProperty: bim:é.usuário
 	Annotations: bim:Ação "Ação funcionar"@pt
 	Annotations: bim:Definição "Declara o nome do usuário de um elemento, ambiente, setor ou unidade espacial."@pt
 	Annotations: bim:Definición "Declara el nombre del usuario de un ambiente, elemento o unidad espacial."@es
-	Annotations: bim:Definition "It declares the name of the user of a element, space, sector or spatial entity."@en
+	Annotations: bim:Definition "Declares the name of the user of a element, space, sector or spatial entity."@en
 	EquivalentTo: bim:é.uso
 
 DataProperty: bim:d.funcionar
@@ -5234,7 +5448,7 @@ DataProperty: bim:usuário
 	Annotations: bim:Ação "Ação funcionar"@pt
 	Annotations: bim:Definição "Declara o nome do usuário de um elemento, ambiente, setor ou unidade espacial."@pt
 	Annotations: bim:Definición "Declara el nombre del usuario de un ambiente, elemento o unidad espacial."@es
-	Annotations: bim:Definition "It declares the name of the user of a element, space, sector or spatial entity."@en
+	Annotations: bim:Definition "Declares the name of the user of a element, space, sector or spatial entity."@en
 
 ObjectProperty: bim:p.gestionar
 	SubPropertyOf: bim:BIMProp
@@ -5282,7 +5496,7 @@ ObjectProperty: bim:é.comitente
 	Annotations: bim:Ação "Ação gestionar"@pt
 	Annotations: bim:Definição "Declara o nome da pessoa ou organização que encarrega o projeto ou empreendimento comissionando um representante."@pt
 	Annotations: bim:Definición "Declara el nombre de la persona u organización que encomienda el proyecto o proyecto mediante la contratación de un representante."@es
-	Annotations: bim:Definition "It declares the name of the person or organization that entrusts the project or undertaking by commissioning a representative."@en
+	Annotations: bim:Definition "Declares the name of the person or organization that entrusts the project or undertaking by commissioning a representative."@en
 	EquivalentTo: bim:é.cliente
 
 DataProperty: bim:d.gestionar
@@ -5298,7 +5512,7 @@ DataProperty: bim:comitente
 	Annotations: bim:Ação "Ação gestionar"@pt
 	Annotations: bim:Definição "Declara o nome da pessoa ou organização que encarrega o projeto ou empreendimento comissionando um representante."@pt
 	Annotations: bim:Definición "Declara el nombre de la persona u organización que encomienda el proyecto o proyecto mediante la contratación de un representante."@es
-	Annotations: bim:Definition "It declares the name of the person or organization that entrusts the project or undertaking by commissioning a representative."@en
+	Annotations: bim:Definition "Declares the name of the person or organization that entrusts the project or undertaking by commissioning a representative."@en
 
 ObjectProperty: bim:p.gestionar
 	SubPropertyOf: bim:BIMProp
@@ -5346,7 +5560,7 @@ ObjectProperty: bim:é.meta
 	Annotations: bim:Ação "Ação gestionar"@pt
 	Annotations: bim:Definição "Declara a identificação da meta do tipo ODS (Objetivo de Desenvolvimento Sustentável) ou similares."@pt
 	Annotations: bim:Definición "Declara la identificación del objetivo tipo ODS (Objetivo de Desarrollo Sostenible) o similar."@es
-	Annotations: bim:Definition "It declares the identification of the SDG (Sustainable Development Goal) type goal or similar."@en
+	Annotations: bim:Definition "Declares the identification of the SDG (Sustainable Development Goal) type goal or similar."@en
 	EquivalentTo: bim:é.missão.principal
 
 DataProperty: bim:d.gestionar
@@ -5362,7 +5576,7 @@ DataProperty: bim:meta
 	Annotations: bim:Ação "Ação gestionar"@pt
 	Annotations: bim:Definição "Declara a identificação da meta do tipo ODS (Objetivo de Desenvolvimento Sustentável) ou similares."@pt
 	Annotations: bim:Definición "Declara la identificación del objetivo tipo ODS (Objetivo de Desarrollo Sostenible) o similar."@es
-	Annotations: bim:Definition "It declares the identification of the SDG (Sustainable Development Goal) type goal or similar."@en
+	Annotations: bim:Definition "Declares the identification of the SDG (Sustainable Development Goal) type goal or similar."@en
 
 ObjectProperty: bim:p.graduar
 	SubPropertyOf: bim:BIMProp
@@ -6043,16 +6257,208 @@ ObjectProperty: bim:p.instalar
 
 
 
+ObjectProperty: bim:é.instalação.essencial
+	SubPropertyOf: bim:p.instalar
+	domain: bim:BIM
+	range: bim:Projeto
+	Annotations: rdfs:label "Propriedade destinada a instalar: é.instalação.essencial"@pt
+	Annotations: bim:Chave "insta.110"
+	Annotations: bim:Ação "Ação instalar"@pt
+	Annotations: bim:Definição "Declara que o elemento é essencial para realizar as funções projetadas."@pt
+	Annotations: bim:Definición "Declara que el elemento es esencial para realizar las funciones diseñadas."@es
+	Annotations: bim:Definition "Declares that the element is essential to perform the designed functions."@en
+	EquivalentTo: bim:é.instalação.obrigatória
+
+DataProperty: bim:d.instalar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:instalação.essencial
+	SubPropertyOf: bim:d.instalar
+	range: xsd:boolean
+	Annotations: rdfs:label "Dado para instalar:  instalação.essencial  Deve ser formatado como (xsd:boolean)"@pt
+	Annotations: bim:Chave "insta.110"
+	Annotations: bim:Ação "Ação instalar"@pt
+	Annotations: bim:Definição "Declara que o elemento é essencial para realizar as funções projetadas."@pt
+	Annotations: bim:Definición "Declara que el elemento es esencial para realizar las funciones diseñadas."@es
+	Annotations: bim:Definition "Declares that the element is essential to perform the designed functions."@en
+
+ObjectProperty: bim:p.instalar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.instalação.lenta
+	SubPropertyOf: bim:p.instalar
+	domain: bim:BIM
+	range: bim:Projeto
+	Annotations: rdfs:label "Propriedade destinada a instalar: é.instalação.lenta"@pt
+	Annotations: bim:Chave "insta.111"
+	Annotations: bim:Ação "Ação instalar"@pt
+	Annotations: bim:Definição "Declara que o elemento é de instalação demorada ou precisa tempo de cura ou secagem."@pt
+	Annotations: bim:Definición "Declara que el elemento requiere mucho tiempo para instalarse o necesita tiempo de curado o secado."@es
+	Annotations: bim:Definition "Declares that the element is time-consuming to install or needs curing or drying time."@en
+	InverseOf: bim:é.instalação.rápida
+
+DataProperty: bim:d.instalar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:instalação.lenta
+	SubPropertyOf: bim:d.instalar
+	range: xsd:boolean
+	Annotations: rdfs:label "Dado para instalar:  instalação.lenta  Deve ser formatado como (xsd:boolean)"@pt
+	Annotations: bim:Chave "insta.111"
+	Annotations: bim:Ação "Ação instalar"@pt
+	Annotations: bim:Definição "Declara que o elemento é de instalação demorada ou precisa tempo de cura ou secagem."@pt
+	Annotations: bim:Definición "Declara que el elemento requiere mucho tiempo para instalarse o necesita tiempo de curado o secado."@es
+	Annotations: bim:Definition "Declares that the element is time-consuming to install or needs curing or drying time."@en
+
+ObjectProperty: bim:p.instalar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.instalação.obrigatória
+	SubPropertyOf: bim:p.instalar
+	domain: bim:BIM
+	range: bim:Projeto
+	Annotations: rdfs:label "Propriedade destinada a instalar: é.instalação.obrigatória"@pt
+	Annotations: bim:Chave "insta.114"
+	Annotations: bim:Ação "Ação instalar"@pt
+	Annotations: bim:Definição "Declara que o elemento é de instalação obrigatória para realizar as funções projetadas."@pt
+	Annotations: bim:Definición "Declara que el elemento es esencial para realizar las funciones diseñadas."@es
+	Annotations: bim:Definition "Declares that the element is essential to perform the designed functions."@en
+	EquivalentTo: bim:é.instalação.essencial
+
+DataProperty: bim:d.instalar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:instalação.obrigatória
+	SubPropertyOf: bim:d.instalar
+	range: xsd:boolean
+	Annotations: rdfs:label "Dado para instalar:  instalação.obrigatória  Deve ser formatado como (xsd:boolean)"@pt
+	Annotations: bim:Chave "insta.114"
+	Annotations: bim:Ação "Ação instalar"@pt
+	Annotations: bim:Definição "Declara que o elemento é de instalação obrigatória para realizar as funções projetadas."@pt
+	Annotations: bim:Definición "Declara que el elemento es esencial para realizar las funciones diseñadas."@es
+	Annotations: bim:Definition "Declares that the element is essential to perform the designed functions."@en
+
+ObjectProperty: bim:p.instalar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.instalação.oculta
+	SubPropertyOf: bim:p.instalar
+	domain: bim:BIM
+	range: bim:Projeto
+	Annotations: rdfs:label "Propriedade destinada a instalar: é.instalação.oculta"@pt
+	Annotations: bim:Chave "insta.115"
+	Annotations: bim:Ação "Ação instalar"@pt
+	Annotations: bim:Definição "Declara que deve ser instalado para ficar oculta."@pt
+	Annotations: bim:Definición "Declara que debe instalarse oculta."@es
+	Annotations: bim:Definition "Declares that it must be installed hidden."@en
+	EquivalentTo: bim:é.instalação.oculto
+
+DataProperty: bim:d.instalar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:instalação.oculta
+	SubPropertyOf: bim:d.instalar
+	range: xsd:boolean
+	Annotations: rdfs:label "Dado para instalar:  instalação.oculta  Deve ser formatado como (xsd:boolean)"@pt
+	Annotations: bim:Chave "insta.115"
+	Annotations: bim:Ação "Ação instalar"@pt
+	Annotations: bim:Definição "Declara que deve ser instalado para ficar oculta."@pt
+	Annotations: bim:Definición "Declara que debe instalarse oculta."@es
+	Annotations: bim:Definition "Declares that it must be installed hidden."@en
+
+ObjectProperty: bim:p.instalar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.instalação.oculto
+	SubPropertyOf: bim:p.instalar
+	domain: bim:BIM
+	range: bim:Projeto
+	Annotations: rdfs:label "Propriedade destinada a instalar: é.instalação.oculto"@pt
+	Annotations: bim:Chave "insta.116"
+	Annotations: bim:Ação "Ação instalar"@pt
+	Annotations: bim:Definição "Declara que deve ser instalado para ficar oculto."@pt
+	Annotations: bim:Definición "Declara que debe instalarse oculto."@es
+	Annotations: bim:Definition "Declares that it must be installed hidden."@en
+	EquivalentTo: bim:é.instalação.oculta
+
+DataProperty: bim:d.instalar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:instalação.oculto
+	SubPropertyOf: bim:d.instalar
+	range: xsd:boolean
+	Annotations: rdfs:label "Dado para instalar:  instalação.oculto  Deve ser formatado como (xsd:boolean)"@pt
+	Annotations: bim:Chave "insta.116"
+	Annotations: bim:Ação "Ação instalar"@pt
+	Annotations: bim:Definição "Declara que deve ser instalado para ficar oculto."@pt
+	Annotations: bim:Definición "Declara que debe instalarse oculto."@es
+	Annotations: bim:Definition "Declares that it must be installed hidden."@en
+
+ObjectProperty: bim:p.instalar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.instalação.rápida
+	SubPropertyOf: bim:p.instalar
+	domain: bim:BIM
+	range: bim:Projeto
+	Annotations: rdfs:label "Propriedade destinada a instalar: é.instalação.rápida"@pt
+	Annotations: bim:Chave "insta.121"
+	Annotations: bim:Ação "Ação instalar"@pt
+	Annotations: bim:Definição "Declara que o elemento é de instalação rápida e simples."@pt
+	Annotations: bim:Definición "Declara que el elemento es rápido y fácil de instalar."@es
+	Annotations: bim:Definition "Declares that the element is quick and easy to install."@en
+	InverseOf: bim:é.instalação.lenta
+
+DataProperty: bim:d.instalar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:instalação.rápida
+	SubPropertyOf: bim:d.instalar
+	range: xsd:boolean
+	Annotations: rdfs:label "Dado para instalar:  instalação.rápida  Deve ser formatado como (xsd:boolean)"@pt
+	Annotations: bim:Chave "insta.121"
+	Annotations: bim:Ação "Ação instalar"@pt
+	Annotations: bim:Definição "Declara que o elemento é de instalação rápida e simples."@pt
+	Annotations: bim:Definición "Declara que el elemento es rápido y fácil de instalar."@es
+	Annotations: bim:Definition "Declares that the element is quick and easy to install."@en
+
+ObjectProperty: bim:p.instalar
+	SubPropertyOf: bim:BIMProp
+
+
+
 ObjectProperty: bim:é.pendurada
 	SubPropertyOf: bim:p.instalar
 	domain: bim:BIM
 	range: bim:Projeto
 	Annotations: rdfs:label "Propriedade destinada a instalar: é.pendurada"@pt
-	Annotations: bim:Chave "insta.105"
+	Annotations: bim:Chave "insta.123"
 	Annotations: bim:Ação "Ação instalar"@pt
 	Annotations: bim:Definição "Declara que a instalação deve ser pendurada."@pt
-	Annotations: bim:Definición "Establece que debe instalarse colgado."@es
-	Annotations: bim:Definition "It states that the installation should be hung."@en
+	Annotations: bim:Definición "Declara que debe instalarse colgado."@es
+	Annotations: bim:Definition "Declares that the installation should be hung."@en
 	EquivalentTo: bim:é.pendurado
 
 DataProperty: bim:d.instalar
@@ -6064,11 +6470,11 @@ DataProperty: bim:pendurada
 	SubPropertyOf: bim:d.instalar
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para instalar:  pendurada  Deve ser formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "insta.105"
+	Annotations: bim:Chave "insta.123"
 	Annotations: bim:Ação "Ação instalar"@pt
 	Annotations: bim:Definição "Declara que a instalação deve ser pendurada."@pt
-	Annotations: bim:Definición "Establece que debe instalarse colgado."@es
-	Annotations: bim:Definition "It states that the installation should be hung."@en
+	Annotations: bim:Definición "Declara que debe instalarse colgado."@es
+	Annotations: bim:Definition "Declares that the installation should be hung."@en
 
 ObjectProperty: bim:p.instalar
 	SubPropertyOf: bim:BIMProp
@@ -6080,10 +6486,10 @@ ObjectProperty: bim:é.pendurado
 	domain: bim:BIM
 	range: bim:Projeto
 	Annotations: rdfs:label "Propriedade destinada a instalar: é.pendurado"@pt
-	Annotations: bim:Chave "insta.106"
+	Annotations: bim:Chave "insta.124"
 	Annotations: bim:Ação "Ação instalar"@pt
 	Annotations: bim:Definição "Declara que a instalação deve ser pendurado."@pt
-	Annotations: bim:Definición "Establece que debe instalarse colgado."@es
+	Annotations: bim:Definición "Declara que debe instalarse colgado."@es
 	Annotations: bim:Definition "Declares that the installation should be hung."@en
 	EquivalentTo: bim:é.pendurada
 
@@ -6096,75 +6502,11 @@ DataProperty: bim:pendurado
 	SubPropertyOf: bim:d.instalar
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para instalar:  pendurado  Deve ser formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "insta.106"
+	Annotations: bim:Chave "insta.124"
 	Annotations: bim:Ação "Ação instalar"@pt
 	Annotations: bim:Definição "Declara que a instalação deve ser pendurado."@pt
-	Annotations: bim:Definición "Establece que debe instalarse colgado."@es
+	Annotations: bim:Definición "Declara que debe instalarse colgado."@es
 	Annotations: bim:Definition "Declares that the installation should be hung."@en
-
-ObjectProperty: bim:p.instalar
-	SubPropertyOf: bim:BIMProp
-
-
-
-ObjectProperty: bim:é.ocultada
-	SubPropertyOf: bim:p.instalar
-	domain: bim:BIM
-	range: bim:Projeto
-	Annotations: rdfs:label "Propriedade destinada a instalar: é.ocultada"@pt
-	Annotations: bim:Chave "insta.107"
-	Annotations: bim:Ação "Ação instalar"@pt
-	Annotations: bim:Definição "Declara que deve ser instalado ocultada."@pt
-	Annotations: bim:Definición "Establece que debe instalarse oculta."@es
-	Annotations: bim:Definition "It states that it must be installed hidden."@en
-	EquivalentTo: bim:é.ocultado
-
-DataProperty: bim:d.instalar
-	SubPropertyOf: bim:BIMData
-
-
-
-DataProperty: bim:ocultada
-	SubPropertyOf: bim:d.instalar
-	range: xsd:boolean
-	Annotations: rdfs:label "Dado para instalar:  ocultada  Deve ser formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "insta.107"
-	Annotations: bim:Ação "Ação instalar"@pt
-	Annotations: bim:Definição "Declara que deve ser instalado ocultada."@pt
-	Annotations: bim:Definición "Establece que debe instalarse oculta."@es
-	Annotations: bim:Definition "It states that it must be installed hidden."@en
-
-ObjectProperty: bim:p.instalar
-	SubPropertyOf: bim:BIMProp
-
-
-
-ObjectProperty: bim:é.ocultado
-	SubPropertyOf: bim:p.instalar
-	domain: bim:BIM
-	range: bim:Projeto
-	Annotations: rdfs:label "Propriedade destinada a instalar: é.ocultado"@pt
-	Annotations: bim:Chave "insta.108"
-	Annotations: bim:Ação "Ação instalar"@pt
-	Annotations: bim:Definição "Declara que deve ser instalado ocultado."@pt
-	Annotations: bim:Definición "Establece que debe instalarse oculto."@es
-	Annotations: bim:Definition "It states that it must be installed hidden."@en
-	EquivalentTo: bim:é.ocultada
-
-DataProperty: bim:d.instalar
-	SubPropertyOf: bim:BIMData
-
-
-
-DataProperty: bim:ocultado
-	SubPropertyOf: bim:d.instalar
-	range: xsd:boolean
-	Annotations: rdfs:label "Dado para instalar:  ocultado  Deve ser formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "insta.108"
-	Annotations: bim:Ação "Ação instalar"@pt
-	Annotations: bim:Definição "Declara que deve ser instalado ocultado."@pt
-	Annotations: bim:Definición "Establece que debe instalarse oculto."@es
-	Annotations: bim:Definition "It states that it must be installed hidden."@en
 
 ObjectProperty: bim:p.interoperar
 	SubPropertyOf: bim:BIMProp
@@ -6967,7 +7309,7 @@ ObjectProperty: bim:é.despesa.obrigatória
 	Annotations: bim:Ação "Ação orçamentar"@pt
 	Annotations: bim:Definição "Declara que a despesa é obrigatória."@pt
 	Annotations: bim:Definición "Declara que el gasto es obligatorio."@es
-	Annotations: bim:Definition "It declares that the expenditure is mandatory."@en
+	Annotations: bim:Definition "Declares that the expenditure is mandatory."@en
 	EquivalentTo: bim:é.empenho
 
 DataProperty: bim:d.orçamentar
@@ -6983,7 +7325,7 @@ DataProperty: bim:despesa.obrigatória
 	Annotations: bim:Ação "Ação orçamentar"@pt
 	Annotations: bim:Definição "Declara que a despesa é obrigatória."@pt
 	Annotations: bim:Definición "Declara que el gasto es obligatorio."@es
-	Annotations: bim:Definition "It declares that the expenditure is mandatory."@en
+	Annotations: bim:Definition "Declares that the expenditure is mandatory."@en
 
 ObjectProperty: bim:p.orçamentar
 	SubPropertyOf: bim:BIMProp
@@ -6998,8 +7340,8 @@ ObjectProperty: bim:é.empenho
 	Annotations: bim:Chave "orçam.110"
 	Annotations: bim:Ação "Ação orçamentar"@pt
 	Annotations: bim:Definição "Declara o ato de reservar verbas para uma despesa específica. No servício público brasileiro o recurso empenhado garante que será destinado ao pagamento de um contrato, serviço ou compra."@pt
-	Annotations: bim:Definición "Declara el acto de reservar fondos para un gasto específico. En el servicio público brasileño, el recurso comprometido garantiza que se utilizará para pagar un contrato, servicio o compra."@es
-	Annotations: bim:Definition "It declares the act of setting aside funds for a specific expense. In the Brazilian public service, the committed resource guarantees that it will be used to pay for a contract, service or purchase."@en
+	Annotations: bim:Definición "-2146826265"@es
+	Annotations: bim:Definition "Declares the act of setting aside funds for a specific expense. In the Brazilian public service, the committed resource guarantees that it will be used to pay for a contract, service or purchase."@en
 	EquivalentTo: bim:é.despesa.obrigatória
 
 DataProperty: bim:d.orçamentar
@@ -7014,8 +7356,8 @@ DataProperty: bim:empenho
 	Annotations: bim:Chave "orçam.110"
 	Annotations: bim:Ação "Ação orçamentar"@pt
 	Annotations: bim:Definição "Declara o ato de reservar verbas para uma despesa específica. No servício público brasileiro o recurso empenhado garante que será destinado ao pagamento de um contrato, serviço ou compra."@pt
-	Annotations: bim:Definición "Declara el acto de reservar fondos para un gasto específico. En el servicio público brasileño, el recurso comprometido garantiza que se utilizará para pagar un contrato, servicio o compra."@es
-	Annotations: bim:Definition "It declares the act of setting aside funds for a specific expense. In the Brazilian public service, the committed resource guarantees that it will be used to pay for a contract, service or purchase."@en
+	Annotations: bim:Definición "-2146826265"@es
+	Annotations: bim:Definition "Declares the act of setting aside funds for a specific expense. In the Brazilian public service, the committed resource guarantees that it will be used to pay for a contract, service or purchase."@en
 
 ObjectProperty: bim:p.orçamentar
 	SubPropertyOf: bim:BIMProp
@@ -7095,7 +7437,7 @@ ObjectProperty: bim:é.a.barlavento
 	Annotations: bim:Ação "Ação orientar"@pt
 	Annotations: bim:Definição "Declara que o elemento está orientado a barlavento, ou seja exposto à força do vento."@pt
 	Annotations: bim:Definición "Declara que el elemento está orientado a barlovento, es decir, expuesto a la fuerza del viento."@es
-	Annotations: bim:Definition "It declares that the element is oriented to windward, that is, exposed to the force of the wind."@en
+	Annotations: bim:Definition "Declares that the element is oriented to windward, that is, exposed to the force of the wind."@en
 	InverseOf: bim:é.a.sotavento
 
 DataProperty: bim:d.orientar
@@ -7111,7 +7453,7 @@ DataProperty: bim:a.barlavento
 	Annotations: bim:Ação "Ação orientar"@pt
 	Annotations: bim:Definição "Declara que o elemento está orientado a barlavento, ou seja exposto à força do vento."@pt
 	Annotations: bim:Definición "Declara que el elemento está orientado a barlovento, es decir, expuesto a la fuerza del viento."@es
-	Annotations: bim:Definition "It declares that the element is oriented to windward, that is, exposed to the force of the wind."@en
+	Annotations: bim:Definition "Declares that the element is oriented to windward, that is, exposed to the force of the wind."@en
 
 ObjectProperty: bim:p.orientar
 	SubPropertyOf: bim:BIMProp
@@ -7127,7 +7469,7 @@ ObjectProperty: bim:é.a.sotavento
 	Annotations: bim:Ação "Ação orientar"@pt
 	Annotations: bim:Definição "Declara que o elemento está orientado a sotavento, ou seja protegido da ação do vento."@pt
 	Annotations: bim:Definición "Declara que el elemento está orientado a sotavento, es decir, protegido de la acción del viento."@es
-	Annotations: bim:Definition "It declares that the element is oriented to the leeward, that is, protected from the action of the wind."@en
+	Annotations: bim:Definition "Declares that the element is oriented to the leeward, that is, protected from the action of the wind."@en
 	InverseOf: bim:é.a.barlavento
 
 DataProperty: bim:d.orientar
@@ -7143,7 +7485,7 @@ DataProperty: bim:a.sotavento
 	Annotations: bim:Ação "Ação orientar"@pt
 	Annotations: bim:Definição "Declara que o elemento está orientado a sotavento, ou seja protegido da ação do vento."@pt
 	Annotations: bim:Definición "Declara que el elemento está orientado a sotavento, es decir, protegido de la acción del viento."@es
-	Annotations: bim:Definition "It declares that the element is oriented to the leeward, that is, protected from the action of the wind."@en
+	Annotations: bim:Definition "Declares that the element is oriented to the leeward, that is, protected from the action of the wind."@en
 
 ObjectProperty: bim:p.orientar
 	SubPropertyOf: bim:BIMProp
@@ -8329,7 +8671,7 @@ ObjectProperty: bim:é.artificial
 	Annotations: bim:Ação "Ação qualificar"@pt
 	Annotations: bim:Definição "Qualifica um elemento como artificial. Um ambiente ou objeto que precisa ser artificial."@pt
 	Annotations: bim:Definición "Califica un elemento como artificial. Un entorno u objeto que necesita ser artificial."@es
-	Annotations: bim:Definition "It qualifies an element as artificial. An environment or object that needs to be artificial."@en
+	Annotations: bim:Definition "Qualifies an element as artificial. An environment or object that needs to be artificial."@en
 	InverseOf: bim:é.natural
 
 DataProperty: bim:d.qualificar
@@ -8345,7 +8687,7 @@ DataProperty: bim:artificial
 	Annotations: bim:Ação "Ação qualificar"@pt
 	Annotations: bim:Definição "Qualifica um elemento como artificial. Um ambiente ou objeto que precisa ser artificial."@pt
 	Annotations: bim:Definición "Califica un elemento como artificial. Un entorno u objeto que necesita ser artificial."@es
-	Annotations: bim:Definition "It qualifies an element as artificial. An environment or object that needs to be artificial."@en
+	Annotations: bim:Definition "Qualifies an element as artificial. An environment or object that needs to be artificial."@en
 
 ObjectProperty: bim:p.qualificar
 	SubPropertyOf: bim:BIMProp
@@ -8357,11 +8699,11 @@ ObjectProperty: bim:é.diurno
 	domain: bim:BIM
 	range: bim:Projeto
 	Annotations: rdfs:label "Propriedade destinada a qualificar: é.diurno"@pt
-	Annotations: bim:Chave "quali.114"
+	Annotations: bim:Chave "quali.115"
 	Annotations: bim:Ação "Ação qualificar"@pt
 	Annotations: bim:Definição "Qualifica um elemento temporal como diurno."@pt
 	Annotations: bim:Definición "Califica un elemento temporal como diurno."@es
-	Annotations: bim:Definition "It qualifies a temporal element as diurnal."@en
+	Annotations: bim:Definition "Qualifies an event as diurnal."@en
 	InverseOf: bim:é.noturno
 
 DataProperty: bim:d.qualificar
@@ -8373,11 +8715,11 @@ DataProperty: bim:diurno
 	SubPropertyOf: bim:d.qualificar
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para qualificar:  diurno  Deve ser formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "quali.114"
+	Annotations: bim:Chave "quali.115"
 	Annotations: bim:Ação "Ação qualificar"@pt
 	Annotations: bim:Definição "Qualifica um elemento temporal como diurno."@pt
 	Annotations: bim:Definición "Califica un elemento temporal como diurno."@es
-	Annotations: bim:Definition "It qualifies a temporal element as diurnal."@en
+	Annotations: bim:Definition "Qualifies an event as diurnal."@en
 
 ObjectProperty: bim:p.qualificar
 	SubPropertyOf: bim:BIMProp
@@ -8389,7 +8731,7 @@ ObjectProperty: bim:é.estimado
 	domain: bim:BIM
 	range: bim:Projeto
 	Annotations: rdfs:label "Propriedade destinada a qualificar: é.estimado"@pt
-	Annotations: bim:Chave "quali.116"
+	Annotations: bim:Chave "quali.117"
 	Annotations: bim:Ação "Ação qualificar"@pt
 	Annotations: bim:Definição "Qualifica um elemento como estimado. Um valor que se deseja atingir."@pt
 	Annotations: bim:Definición "Califica un elemento como estimado. Un valor que quieres conseguir."@es
@@ -8405,7 +8747,7 @@ DataProperty: bim:estimado
 	SubPropertyOf: bim:d.qualificar
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para qualificar:  estimado  Deve ser formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "quali.116"
+	Annotations: bim:Chave "quali.117"
 	Annotations: bim:Ação "Ação qualificar"@pt
 	Annotations: bim:Definição "Qualifica um elemento como estimado. Um valor que se deseja atingir."@pt
 	Annotations: bim:Definición "Califica un elemento como estimado. Un valor que quieres conseguir."@es
@@ -8421,7 +8763,7 @@ ObjectProperty: bim:é.externo
 	domain: bim:BIM
 	range: bim:Projeto
 	Annotations: rdfs:label "Propriedade destinada a qualificar: é.externo"@pt
-	Annotations: bim:Chave "quali.117"
+	Annotations: bim:Chave "quali.118"
 	Annotations: bim:Ação "Ação qualificar"@pt
 	Annotations: bim:Definição "Qualifica um elemento como externo. Um ambiente ou objeto que precisa ser externo."@pt
 	Annotations: bim:Definición "Califica un elemento como externo. Un entorno u objeto que debe ser externo."@es
@@ -8437,7 +8779,7 @@ DataProperty: bim:externo
 	SubPropertyOf: bim:d.qualificar
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para qualificar:  externo  Deve ser formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "quali.117"
+	Annotations: bim:Chave "quali.118"
 	Annotations: bim:Ação "Ação qualificar"@pt
 	Annotations: bim:Definição "Qualifica um elemento como externo. Um ambiente ou objeto que precisa ser externo."@pt
 	Annotations: bim:Definición "Califica un elemento como externo. Un entorno u objeto que debe ser externo."@es
@@ -8453,7 +8795,7 @@ ObjectProperty: bim:é.fechado
 	domain: bim:BIM
 	range: bim:Projeto
 	Annotations: rdfs:label "Propriedade destinada a qualificar: é.fechado"@pt
-	Annotations: bim:Chave "quali.118"
+	Annotations: bim:Chave "quali.119"
 	Annotations: bim:Ação "Ação qualificar"@pt
 	Annotations: bim:Definição "Qualifica um elemento como fechado."@pt
 	Annotations: bim:Definición "Califica un elemento como cerrado."@es
@@ -8469,7 +8811,7 @@ DataProperty: bim:fechado
 	SubPropertyOf: bim:d.qualificar
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para qualificar:  fechado  Deve ser formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "quali.118"
+	Annotations: bim:Chave "quali.119"
 	Annotations: bim:Ação "Ação qualificar"@pt
 	Annotations: bim:Definição "Qualifica um elemento como fechado."@pt
 	Annotations: bim:Definición "Califica un elemento como cerrado."@es
@@ -8485,7 +8827,7 @@ ObjectProperty: bim:é.feriado
 	domain: bim:BIM
 	range: bim:Projeto
 	Annotations: rdfs:label "Propriedade destinada a qualificar: é.feriado"@pt
-	Annotations: bim:Chave "quali.119"
+	Annotations: bim:Chave "quali.120"
 	Annotations: bim:Ação "Ação qualificar"@pt
 	Annotations: bim:Definição "Qualifica um elemento temporal como feriado."@pt
 	Annotations: bim:Definición "Califica un elemento temporal como feriado."@es
@@ -8501,7 +8843,7 @@ DataProperty: bim:feriado
 	SubPropertyOf: bim:d.qualificar
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para qualificar:  feriado  Deve ser formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "quali.119"
+	Annotations: bim:Chave "quali.120"
 	Annotations: bim:Ação "Ação qualificar"@pt
 	Annotations: bim:Definição "Qualifica um elemento temporal como feriado."@pt
 	Annotations: bim:Definición "Califica un elemento temporal como feriado."@es
@@ -8517,11 +8859,11 @@ ObjectProperty: bim:é.futuro
 	domain: bim:BIM
 	range: bim:Projeto
 	Annotations: rdfs:label "Propriedade destinada a qualificar: é.futuro"@pt
-	Annotations: bim:Chave "quali.120"
+	Annotations: bim:Chave "quali.121"
 	Annotations: bim:Ação "Ação qualificar"@pt
 	Annotations: bim:Definição "Qualifica um elemento como futuro. Um valor que se atingirá no futuro."@pt
 	Annotations: bim:Definición "Califica un elemento como futuro. Un valor que se alcanzará en el futuro."@es
-	Annotations: bim:Definition "It qualifies an element as future. A value that will be reached in the future."@en
+	Annotations: bim:Definition "Qualifies an element as future. A value that will be reached in the future."@en
 	InverseOf: bim:é.passado
 
 DataProperty: bim:d.qualificar
@@ -8533,11 +8875,11 @@ DataProperty: bim:futuro
 	SubPropertyOf: bim:d.qualificar
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para qualificar:  futuro  Deve ser formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "quali.120"
+	Annotations: bim:Chave "quali.121"
 	Annotations: bim:Ação "Ação qualificar"@pt
 	Annotations: bim:Definição "Qualifica um elemento como futuro. Um valor que se atingirá no futuro."@pt
 	Annotations: bim:Definición "Califica un elemento como futuro. Un valor que se alcanzará en el futuro."@es
-	Annotations: bim:Definition "It qualifies an element as future. A value that will be reached in the future."@en
+	Annotations: bim:Definition "Qualifies an element as future. A value that will be reached in the future."@en
 
 ObjectProperty: bim:p.qualificar
 	SubPropertyOf: bim:BIMProp
@@ -8549,11 +8891,11 @@ ObjectProperty: bim:é.hipotético
 	domain: bim:BIM
 	range: bim:Projeto
 	Annotations: rdfs:label "Propriedade destinada a qualificar: é.hipotético"@pt
-	Annotations: bim:Chave "quali.121"
+	Annotations: bim:Chave "quali.122"
 	Annotations: bim:Ação "Ação qualificar"@pt
 	Annotations: bim:Definição "Qualifica um elemento como hipotético. Um valor de projeto que ainda deve ser testado."@pt
 	Annotations: bim:Definición "Califica un elemento como hipotético. Un valor de proyecto que aún debe probarse."@es
-	Annotations: bim:Definition "It qualifies an element as hypothetical. A project value that must still be tested."@en
+	Annotations: bim:Definition "Qualifies an element as hypothetical. A project value that must still be tested."@en
 	EquivalentTo: bim:é.estimado
 
 DataProperty: bim:d.qualificar
@@ -8565,11 +8907,11 @@ DataProperty: bim:hipotético
 	SubPropertyOf: bim:d.qualificar
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para qualificar:  hipotético  Deve ser formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "quali.121"
+	Annotations: bim:Chave "quali.122"
 	Annotations: bim:Ação "Ação qualificar"@pt
 	Annotations: bim:Definição "Qualifica um elemento como hipotético. Um valor de projeto que ainda deve ser testado."@pt
 	Annotations: bim:Definición "Califica un elemento como hipotético. Un valor de proyecto que aún debe probarse."@es
-	Annotations: bim:Definition "It qualifies an element as hypothetical. A project value that must still be tested."@en
+	Annotations: bim:Definition "Qualifies an element as hypothetical. A project value that must still be tested."@en
 
 ObjectProperty: bim:p.qualificar
 	SubPropertyOf: bim:BIMProp
@@ -8581,7 +8923,7 @@ ObjectProperty: bim:é.interno
 	domain: bim:BIM
 	range: bim:Projeto
 	Annotations: rdfs:label "Propriedade destinada a qualificar: é.interno"@pt
-	Annotations: bim:Chave "quali.126"
+	Annotations: bim:Chave "quali.127"
 	Annotations: bim:Ação "Ação qualificar"@pt
 	Annotations: bim:Definição "Qualifica um elemento como interno. Um ambiente ou objeto que precisa ser interno."@pt
 	Annotations: bim:Definición "Califica un elemento como interno. Un entorno u objeto que necesita ser interno."@es
@@ -8597,7 +8939,7 @@ DataProperty: bim:interno
 	SubPropertyOf: bim:d.qualificar
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para qualificar:  interno  Deve ser formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "quali.126"
+	Annotations: bim:Chave "quali.127"
 	Annotations: bim:Ação "Ação qualificar"@pt
 	Annotations: bim:Definição "Qualifica um elemento como interno. Um ambiente ou objeto que precisa ser interno."@pt
 	Annotations: bim:Definición "Califica un elemento como interno. Un entorno u objeto que necesita ser interno."@es
@@ -8613,11 +8955,11 @@ ObjectProperty: bim:é.laboral
 	domain: bim:BIM
 	range: bim:Projeto
 	Annotations: rdfs:label "Propriedade destinada a qualificar: é.laboral"@pt
-	Annotations: bim:Chave "quali.128"
+	Annotations: bim:Chave "quali.129"
 	Annotations: bim:Ação "Ação qualificar"@pt
 	Annotations: bim:Definição "Qualifica um elemento temporal como laboral."@pt
 	Annotations: bim:Definición "Califica un elemento temporal como trabajo."@es
-	Annotations: bim:Definition "It qualifies a temporal element as labour."@en
+	Annotations: bim:Definition "Qualifies a temporal element as labour."@en
 	InverseOf: bim:é.feriado
 
 DataProperty: bim:d.qualificar
@@ -8629,11 +8971,11 @@ DataProperty: bim:laboral
 	SubPropertyOf: bim:d.qualificar
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para qualificar:  laboral  Deve ser formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "quali.128"
+	Annotations: bim:Chave "quali.129"
 	Annotations: bim:Ação "Ação qualificar"@pt
 	Annotations: bim:Definição "Qualifica um elemento temporal como laboral."@pt
 	Annotations: bim:Definición "Califica un elemento temporal como trabajo."@es
-	Annotations: bim:Definition "It qualifies a temporal element as labour."@en
+	Annotations: bim:Definition "Qualifies a temporal element as labour."@en
 
 ObjectProperty: bim:p.qualificar
 	SubPropertyOf: bim:BIMProp
@@ -8645,11 +8987,11 @@ ObjectProperty: bim:é.natural
 	domain: bim:BIM
 	range: bim:Projeto
 	Annotations: rdfs:label "Propriedade destinada a qualificar: é.natural"@pt
-	Annotations: bim:Chave "quali.133"
+	Annotations: bim:Chave "quali.134"
 	Annotations: bim:Ação "Ação qualificar"@pt
 	Annotations: bim:Definição "Qualifica um elemento como natural. Um ambiente ou objeto que precisa ser natural."@pt
 	Annotations: bim:Definición "Califica un elemento como natural. Un entorno u objeto que necesita ser natural."@es
-	Annotations: bim:Definition "It qualifies an element as natural. An environment or object that needs to be natural."@en
+	Annotations: bim:Definition "Qualifies an element as natural. An environment or object that needs to be natural."@en
 	InverseOf: bim:é.artificial
 
 DataProperty: bim:d.qualificar
@@ -8661,11 +9003,11 @@ DataProperty: bim:natural
 	SubPropertyOf: bim:d.qualificar
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para qualificar:  natural  Deve ser formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "quali.133"
+	Annotations: bim:Chave "quali.134"
 	Annotations: bim:Ação "Ação qualificar"@pt
 	Annotations: bim:Definição "Qualifica um elemento como natural. Um ambiente ou objeto que precisa ser natural."@pt
 	Annotations: bim:Definición "Califica un elemento como natural. Un entorno u objeto que necesita ser natural."@es
-	Annotations: bim:Definition "It qualifies an element as natural. An environment or object that needs to be natural."@en
+	Annotations: bim:Definition "Qualifies an element as natural. An environment or object that needs to be natural."@en
 
 ObjectProperty: bim:p.qualificar
 	SubPropertyOf: bim:BIMProp
@@ -8677,11 +9019,11 @@ ObjectProperty: bim:é.noturno
 	domain: bim:BIM
 	range: bim:Projeto
 	Annotations: rdfs:label "Propriedade destinada a qualificar: é.noturno"@pt
-	Annotations: bim:Chave "quali.136"
+	Annotations: bim:Chave "quali.137"
 	Annotations: bim:Ação "Ação qualificar"@pt
 	Annotations: bim:Definição "Qualifica um elemento temporal como noturno."@pt
 	Annotations: bim:Definición "Califica un elemento temporal como nocturno."@es
-	Annotations: bim:Definition "It qualifies a temporal element as nocturnal."@en
+	Annotations: bim:Definition "Qualifies a temporal element as nocturnal."@en
 	InverseOf: bim:é.diurno
 
 DataProperty: bim:d.qualificar
@@ -8693,11 +9035,11 @@ DataProperty: bim:noturno
 	SubPropertyOf: bim:d.qualificar
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para qualificar:  noturno  Deve ser formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "quali.136"
+	Annotations: bim:Chave "quali.137"
 	Annotations: bim:Ação "Ação qualificar"@pt
 	Annotations: bim:Definição "Qualifica um elemento temporal como noturno."@pt
 	Annotations: bim:Definición "Califica un elemento temporal como nocturno."@es
-	Annotations: bim:Definition "It qualifies a temporal element as nocturnal."@en
+	Annotations: bim:Definition "Qualifies a temporal element as nocturnal."@en
 
 ObjectProperty: bim:p.qualificar
 	SubPropertyOf: bim:BIMProp
@@ -8709,11 +9051,11 @@ ObjectProperty: bim:é.passado
 	domain: bim:BIM
 	range: bim:Projeto
 	Annotations: rdfs:label "Propriedade destinada a qualificar: é.passado"@pt
-	Annotations: bim:Chave "quali.139"
+	Annotations: bim:Chave "quali.140"
 	Annotations: bim:Ação "Ação qualificar"@pt
 	Annotations: bim:Definição "Qualifica um elemento como passado. Um valor antíguo."@pt
 	Annotations: bim:Definición "Califica un elemento como pasado. Un valor antiguo."@es
-	Annotations: bim:Definition "It qualifies an element as past. An ancient value."@en
+	Annotations: bim:Definition "Qualifies an element as past. An ancient value."@en
 	InverseOf: bim:é.futuro
 
 DataProperty: bim:d.qualificar
@@ -8725,11 +9067,11 @@ DataProperty: bim:passado
 	SubPropertyOf: bim:d.qualificar
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para qualificar:  passado  Deve ser formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "quali.139"
+	Annotations: bim:Chave "quali.140"
 	Annotations: bim:Ação "Ação qualificar"@pt
 	Annotations: bim:Definição "Qualifica um elemento como passado. Um valor antíguo."@pt
 	Annotations: bim:Definición "Califica un elemento como pasado. Un valor antiguo."@es
-	Annotations: bim:Definition "It qualifies an element as past. An ancient value."@en
+	Annotations: bim:Definition "Qualifies an element as past. An ancient value."@en
 
 ObjectProperty: bim:p.relacionar
 	SubPropertyOf: bim:BIMProp
@@ -8992,6 +9334,37 @@ ObjectProperty: bim:p.relacionar
 
 
 
+ObjectProperty: bim:é.pertencente.a
+	SubPropertyOf: bim:p.relacionar
+	domain: bim:BIM
+	range: bim:Projeto
+	Annotations: rdfs:label "Propriedade destinada a relacionar: é.pertencente.a"@pt
+	Annotations: bim:Chave "relac.109"
+	Annotations: bim:Ação "Ação relacionar"@pt
+	Annotations: bim:Definição "O elemento pertence a um outro."@pt
+	Annotations: bim:Definición "El elemento pertenece a otro."@es
+	Annotations: bim:Definition "The element belongs to another."@en
+
+DataProperty: bim:d.relacionar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:pertencente.a
+	SubPropertyOf: bim:d.relacionar
+	range: rdfs:Literal  or  xsd:string
+	Annotations: rdfs:label "Dado para relacionar:  pertencente.a  Deve ser formatado como (rdfs:Literal  or  xsd:string)"@pt
+	Annotations: bim:Chave "relac.109"
+	Annotations: bim:Ação "Ação relacionar"@pt
+	Annotations: bim:Definição "O elemento pertence a um outro."@pt
+	Annotations: bim:Definición "El elemento pertenece a otro."@es
+	Annotations: bim:Definition "The element belongs to another."@en
+
+ObjectProperty: bim:p.relacionar
+	SubPropertyOf: bim:BIMProp
+
+
+
 ObjectProperty: bim:é.usada.em
 	SubPropertyOf: bim:p.relacionar
 	domain: bim:BIM
@@ -9159,9 +9532,9 @@ ObjectProperty: bim:é.programa.de.necessidade
 	Annotations: rdfs:label "Propriedade destinada a requisitar: é.programa.de.necessidade"@pt
 	Annotations: bim:Chave "requi.110"
 	Annotations: bim:Ação "Ação requisitar"@pt
-	Annotations: bim:Definição "É o documento das necessidades levantadas pelas equipes de projetistas em relação ao tema projetado e às pedidos específicos do comitente."@pt
+	Annotations: bim:Definição "NBR 19650-1: É o documento das necessidades levantadas pelas equipes de projetistas em relação ao tema projetado e às pedidos específicos do comitente."@pt
 	Annotations: bim:Definición "Es el documento de las necesidades planteadas por los equipos de diseñadores en relación con el tema proyectado y las solicitudes específicas del director."@es
-	Annotations: bim:Definition "It is the document of the needs raised by the teams of designers in relation to the projected theme and the specific requests of the principal."@en
+	Annotations: bim:Definition "NBR 19650-1: Declares it is the document of the needs raised by the teams of designers in relation to the projected theme and the specific requests of the principal."@en
 	EquivalentTo: bim:é.pir
 
 DataProperty: bim:d.requisitar
@@ -9175,9 +9548,9 @@ DataProperty: bim:programa.de.necessidade
 	Annotations: rdfs:label "Dado para requisitar:  programa.de.necessidade  Deve ser formatado como (rdfs:Literal  or  xsd:string)"@pt
 	Annotations: bim:Chave "requi.110"
 	Annotations: bim:Ação "Ação requisitar"@pt
-	Annotations: bim:Definição "É o documento das necessidades levantadas pelas equipes de projetistas em relação ao tema projetado e às pedidos específicos do comitente."@pt
+	Annotations: bim:Definição "NBR 19650-1: É o documento das necessidades levantadas pelas equipes de projetistas em relação ao tema projetado e às pedidos específicos do comitente."@pt
 	Annotations: bim:Definición "Es el documento de las necesidades planteadas por los equipos de diseñadores en relación con el tema proyectado y las solicitudes específicas del director."@es
-	Annotations: bim:Definition "It is the document of the needs raised by the teams of designers in relation to the projected theme and the specific requests of the principal."@en
+	Annotations: bim:Definition "NBR 19650-1: Declares it is the document of the needs raised by the teams of designers in relation to the projected theme and the specific requests of the principal."@en
 
 ObjectProperty: bim:p.resistir
 	SubPropertyOf: bim:BIMProp
@@ -9192,8 +9565,8 @@ ObjectProperty: bim:é.aparafusada
 	Annotations: bim:Chave "resis.101"
 	Annotations: bim:Ação "Ação resistir"@pt
 	Annotations: bim:Definição "Declara que deve ser instalado aparafusado."@pt
-	Annotations: bim:Definición "Indica que debe instalarse atornillado."@es
-	Annotations: bim:Definition "It states that it must be installed bolted on."@en
+	Annotations: bim:Definición "-2146826265"@es
+	Annotations: bim:Definition "Declares that it must be installed bolted on."@en
 	EquivalentTo: bim:é.aparafusado
 
 DataProperty: bim:d.resistir
@@ -9208,8 +9581,8 @@ DataProperty: bim:aparafusada
 	Annotations: bim:Chave "resis.101"
 	Annotations: bim:Ação "Ação resistir"@pt
 	Annotations: bim:Definição "Declara que deve ser instalado aparafusado."@pt
-	Annotations: bim:Definición "Indica que debe instalarse atornillado."@es
-	Annotations: bim:Definition "It states that it must be installed bolted on."@en
+	Annotations: bim:Definición "-2146826265"@es
+	Annotations: bim:Definition "Declares that it must be installed bolted on."@en
 
 ObjectProperty: bim:p.resistir
 	SubPropertyOf: bim:BIMProp
@@ -9224,7 +9597,7 @@ ObjectProperty: bim:é.aparafusado
 	Annotations: bim:Chave "resis.102"
 	Annotations: bim:Ação "Ação resistir"@pt
 	Annotations: bim:Definição "Declara a união de peças como aparafusadas."@pt
-	Annotations: bim:Definición "Declara la unión de piezas como atornillada."@es
+	Annotations: bim:Definición "-2146826265"@es
 	Annotations: bim:Definition "Qualifies joining parts as bolted."@en
 	EquivalentTo: bim:é.aparafusada
 
@@ -9240,7 +9613,7 @@ DataProperty: bim:aparafusado
 	Annotations: bim:Chave "resis.102"
 	Annotations: bim:Ação "Ação resistir"@pt
 	Annotations: bim:Definição "Declara a união de peças como aparafusadas."@pt
-	Annotations: bim:Definición "Declara la unión de piezas como atornillada."@es
+	Annotations: bim:Definición "-2146826265"@es
 	Annotations: bim:Definition "Qualifies joining parts as bolted."@en
 
 ObjectProperty: bim:p.resistir
@@ -9256,7 +9629,7 @@ ObjectProperty: bim:é.limite.de.escoamento
 	Annotations: bim:Chave "resis.113"
 	Annotations: bim:Ação "Ação resistir"@pt
 	Annotations: bim:Definição "Declara o limite de escoamento em MPA. É o valor crítico em que o aço muda o comportamento de elástico para plástico, ou seja que não se recupera da deformação."@pt
-	Annotations: bim:Definición "Declara la resistencia al límite elástico en AMP. Es el valor crítico en el que el acero cambia su comportamiento de elástico a plástico, es decir, que no se recupera de la deformación."@es
+	Annotations: bim:Definición "-2146826265"@es
 	Annotations: bim:Definition "Declares the yield strength in MPA. It is the critical value at which steel changes behavior from elastic to plastic, i.e. that it does not recover from deformation."@en
 	EquivalentTo: bim:é.limite.elástico
 
@@ -9272,7 +9645,7 @@ DataProperty: bim:limite.de.escoamento
 	Annotations: bim:Chave "resis.113"
 	Annotations: bim:Ação "Ação resistir"@pt
 	Annotations: bim:Definição "Declara o limite de escoamento em MPA. É o valor crítico em que o aço muda o comportamento de elástico para plástico, ou seja que não se recupera da deformação."@pt
-	Annotations: bim:Definición "Declara la resistencia al límite elástico en AMP. Es el valor crítico en el que el acero cambia su comportamiento de elástico a plástico, es decir, que no se recupera de la deformación."@es
+	Annotations: bim:Definición "-2146826265"@es
 	Annotations: bim:Definition "Declares the yield strength in MPA. It is the critical value at which steel changes behavior from elastic to plastic, i.e. that it does not recover from deformation."@en
 
 ObjectProperty: bim:p.resistir
@@ -9288,7 +9661,7 @@ ObjectProperty: bim:é.limite.de.resistência
 	Annotations: bim:Chave "resis.114"
 	Annotations: bim:Ação "Ação resistir"@pt
 	Annotations: bim:Definição "Declara o limite de resistência em MPA."@pt
-	Annotations: bim:Definición "Declara el límite de resistencia en MPA."@es
+	Annotations: bim:Definición "-2146826265"@es
 	Annotations: bim:Definition "Declares the resistance limit in MPA."@en
 	EquivalentTo: bim:é.tensão.de.rotura
 
@@ -9304,7 +9677,7 @@ DataProperty: bim:limite.de.resistência
 	Annotations: bim:Chave "resis.114"
 	Annotations: bim:Ação "Ação resistir"@pt
 	Annotations: bim:Definição "Declara o limite de resistência em MPA."@pt
-	Annotations: bim:Definición "Declara el límite de resistencia en MPA."@es
+	Annotations: bim:Definición "-2146826265"@es
 	Annotations: bim:Definition "Declares the resistance limit in MPA."@en
 
 ObjectProperty: bim:p.resistir
@@ -9320,7 +9693,7 @@ ObjectProperty: bim:é.limite.elástico
 	Annotations: bim:Chave "resis.115"
 	Annotations: bim:Ação "Ação resistir"@pt
 	Annotations: bim:Definição "Declara o limite de escoamento em MPA. É o valor crítico em que o aço muda o comportamento de elástico para plástico, ou seja que não se recupera da deformação."@pt
-	Annotations: bim:Definición "Declara la resistencia al límite elástico en AMP. Es el valor crítico en el que el acero cambia su comportamiento de elástico a plástico, es decir, que no se recupera de la deformación."@es
+	Annotations: bim:Definición "-2146826265"@es
 	Annotations: bim:Definition "Declares the yield strength in MPA. It is the critical value at which steel changes behavior from elastic to plastic, i.e. that it does not recover from deformation."@en
 	EquivalentTo: bim:é.limite.de.escoamento
 
@@ -9336,7 +9709,7 @@ DataProperty: bim:limite.elástico
 	Annotations: bim:Chave "resis.115"
 	Annotations: bim:Ação "Ação resistir"@pt
 	Annotations: bim:Definição "Declara o limite de escoamento em MPA. É o valor crítico em que o aço muda o comportamento de elástico para plástico, ou seja que não se recupera da deformação."@pt
-	Annotations: bim:Definición "Declara la resistencia al límite elástico en AMP. Es el valor crítico en el que el acero cambia su comportamiento de elástico a plástico, es decir, que no se recupera de la deformación."@es
+	Annotations: bim:Definición "-2146826265"@es
 	Annotations: bim:Definition "Declares the yield strength in MPA. It is the critical value at which steel changes behavior from elastic to plastic, i.e. that it does not recover from deformation."@en
 
 ObjectProperty: bim:p.resistir
@@ -9416,7 +9789,7 @@ ObjectProperty: bim:é.perfil.de.aço
 	Annotations: bim:Chave "resis.124"
 	Annotations: bim:Ação "Ação resistir"@pt
 	Annotations: bim:Definição "Declara o nome de um perfil estrutural de aço. Exemplo: W150x13."@pt
-	Annotations: bim:Definición "Declara el nombre de un perfil estructural de acero. Ejemplo: W150x13."@es
+	Annotations: bim:Definición "-2146826265"@es
 	Annotations: bim:Definition "Declares the name of a steel structural profile. Example: W150x13."@en
 	EquivalentTo: bim:é.bitola
 
@@ -9432,7 +9805,7 @@ DataProperty: bim:perfil.de.aço
 	Annotations: bim:Chave "resis.124"
 	Annotations: bim:Ação "Ação resistir"@pt
 	Annotations: bim:Definição "Declara o nome de um perfil estrutural de aço. Exemplo: W150x13."@pt
-	Annotations: bim:Definición "Declara el nombre de un perfil estructural de acero. Ejemplo: W150x13."@es
+	Annotations: bim:Definición "-2146826265"@es
 	Annotations: bim:Definition "Declares the name of a steel structural profile. Example: W150x13."@en
 
 ObjectProperty: bim:p.resistir
@@ -9448,7 +9821,7 @@ ObjectProperty: bim:é.resistência.ao.fogo
 	Annotations: bim:Chave "resis.125"
 	Annotations: bim:Ação "Ação resistir"@pt
 	Annotations: bim:Definição "Declara a Resistência ao Fogo (RF) expressada em minutos. A propriedade define deve ser associada aos elementos de vedação como paredes e divisórias ou esquadrias."@pt
-	Annotations: bim:Definición "Declara Resistencia al Fuego (RF) expresada en minutos. Las propiedades definidas deben estar asociadas a los elementos de sellado, como paredes y tabiques o marcos."@es
+	Annotations: bim:Definición "-2146826265"@es
 	Annotations: bim:Definition "Declares Fire Resistance (RF) expressed in minutes. The property defines must be associated with the sealing elements such as walls and partitions or frames."@en
 	EquivalentTo: bim:é.trrf
 
@@ -9464,7 +9837,7 @@ DataProperty: bim:resistência.ao.fogo
 	Annotations: bim:Chave "resis.125"
 	Annotations: bim:Ação "Ação resistir"@pt
 	Annotations: bim:Definição "Declara a Resistência ao Fogo (RF) expressada em minutos. A propriedade define deve ser associada aos elementos de vedação como paredes e divisórias ou esquadrias."@pt
-	Annotations: bim:Definición "Declara Resistencia al Fuego (RF) expresada en minutos. Las propiedades definidas deben estar asociadas a los elementos de sellado, como paredes y tabiques o marcos."@es
+	Annotations: bim:Definición "-2146826265"@es
 	Annotations: bim:Definition "Declares Fire Resistance (RF) expressed in minutes. The property defines must be associated with the sealing elements such as walls and partitions or frames."@en
 
 ObjectProperty: bim:p.resistir
@@ -9872,8 +10245,8 @@ ObjectProperty: bim:é.explicado.em
 	Annotations: bim:Chave "taxon.136"
 	Annotations: bim:Ação "Ação taxonomizar"@pt
 	Annotations: bim:Definição "Declara um elemento (uma nota, por exemplo) que explica outro da Taxonomia Sustentável Brasileira TSB."@pt
-	Annotations: bim:Definición "Establece un elemento (una nota, por ejemplo) que explica otro de los TSB de la Taxonomía Sostenible Brasileña."@es
-	Annotations: bim:Definition "It states an element (a note, for example) that explains another of the Brazilian Sustainable Taxonomy TSB."@en
+	Annotations: bim:Definición "Declara un elemento (una nota, por ejemplo) que explica otro elemento de la Taxonomía Sostenible Brasileña TSB."@es
+	Annotations: bim:Definition "Declares an element (a note, for example) that explains another of the Brazilian Sustainable Taxonomy TSB."@en
 	Characteristics: Asymmetric
 	Characteristics: Irreflexive
 	InverseOf: bim:é.explicativa.de
@@ -9890,8 +10263,8 @@ DataProperty: bim:explicado.em
 	Annotations: bim:Chave "taxon.136"
 	Annotations: bim:Ação "Ação taxonomizar"@pt
 	Annotations: bim:Definição "Declara um elemento (uma nota, por exemplo) que explica outro da Taxonomia Sustentável Brasileira TSB."@pt
-	Annotations: bim:Definición "Establece un elemento (una nota, por ejemplo) que explica otro de los TSB de la Taxonomía Sostenible Brasileña."@es
-	Annotations: bim:Definition "It states an element (a note, for example) that explains another of the Brazilian Sustainable Taxonomy TSB."@en
+	Annotations: bim:Definición "Declara un elemento (una nota, por ejemplo) que explica otro elemento de la Taxonomía Sostenible Brasileña TSB."@es
+	Annotations: bim:Definition "Declares an element (a note, for example) that explains another of the Brazilian Sustainable Taxonomy TSB."@en
 
 ObjectProperty: bim:p.taxonomizar
 	SubPropertyOf: bim:BIMProp
@@ -9906,8 +10279,8 @@ ObjectProperty: bim:é.explicativa.de
 	Annotations: bim:Chave "taxon.137"
 	Annotations: bim:Ação "Ação taxonomizar"@pt
 	Annotations: bim:Definição "Declara um elemento (uma nota, por exemplo) que é explicado por outro da Taxonomia Sustentável Brasileira TSB."@pt
-	Annotations: bim:Definición "Establece un elemento (una nota, por ejemplo) que se explica con otro de la Taxonomía Sostenible Brasileña TSB."@es
-	Annotations: bim:Definition "It states an element (a note, for example) that is explained by another from the Brazilian Sustainable Taxonomy TSB."@en
+	Annotations: bim:Definición "Declara un elemento (una nota, por ejemplo) que se explica con otro elemento de la Taxonomía Sostenible Brasileña TSB."@es
+	Annotations: bim:Definition "Declares an element (a note, for example) that is explained by another from the Brazilian Sustainable Taxonomy TSB."@en
 	Characteristics: Asymmetric
 	Characteristics: Irreflexive
 	InverseOf: bim:é.explicado.em
@@ -9924,8 +10297,8 @@ DataProperty: bim:explicativa.de
 	Annotations: bim:Chave "taxon.137"
 	Annotations: bim:Ação "Ação taxonomizar"@pt
 	Annotations: bim:Definição "Declara um elemento (uma nota, por exemplo) que é explicado por outro da Taxonomia Sustentável Brasileira TSB."@pt
-	Annotations: bim:Definición "Establece un elemento (una nota, por ejemplo) que se explica con otro de la Taxonomía Sostenible Brasileña TSB."@es
-	Annotations: bim:Definition "It states an element (a note, for example) that is explained by another from the Brazilian Sustainable Taxonomy TSB."@en
+	Annotations: bim:Definición "Declara un elemento (una nota, por ejemplo) que se explica con otro elemento de la Taxonomía Sostenible Brasileña TSB."@es
+	Annotations: bim:Definition "Declares an element (a note, for example) that is explained by another from the Brazilian Sustainable Taxonomy TSB."@en
 
 ObjectProperty: bim:p.taxonomizar
 	SubPropertyOf: bim:BIMProp
@@ -10004,8 +10377,8 @@ ObjectProperty: bim:é.princípio
 	Annotations: bim:Chave "taxon.155"
 	Annotations: bim:Ação "Ação taxonomizar"@pt
 	Annotations: bim:Definição "Declara um princípio defendido pela Taxonomia Sustentável Brasileira TSB."@pt
-	Annotations: bim:Definición "Establece un principio defendido por la TSB de la Taxonomía Sostenible de Brasil."@es
-	Annotations: bim:Definition "It states a principle defended by the Brazilian Sustainable Taxonomy TSB."@en
+	Annotations: bim:Definición "Declara un principio defendido por la TSB de la Taxonomía Sostenible de Brasil."@es
+	Annotations: bim:Definition "Declares a principle defended by the Brazilian Sustainable Taxonomy TSB."@en
 	EquivalentTo: bim:é.missão.principal
 
 DataProperty: bim:d.taxonomizar
@@ -10020,8 +10393,8 @@ DataProperty: bim:princípio
 	Annotations: bim:Chave "taxon.155"
 	Annotations: bim:Ação "Ação taxonomizar"@pt
 	Annotations: bim:Definição "Declara um princípio defendido pela Taxonomia Sustentável Brasileira TSB."@pt
-	Annotations: bim:Definición "Establece un principio defendido por la TSB de la Taxonomía Sostenible de Brasil."@es
-	Annotations: bim:Definition "It states a principle defended by the Brazilian Sustainable Taxonomy TSB."@en
+	Annotations: bim:Definición "Declara un principio defendido por la TSB de la Taxonomía Sostenible de Brasil."@es
+	Annotations: bim:Definition "Declares a principle defended by the Brazilian Sustainable Taxonomy TSB."@en
 
 ObjectProperty: bim:p.taxonomizar
 	SubPropertyOf: bim:BIMProp
@@ -10036,7 +10409,7 @@ ObjectProperty: bim:é.qualificada.com
 	Annotations: bim:Chave "taxon.156"
 	Annotations: bim:Ação "Ação taxonomizar"@pt
 	Annotations: bim:Definição "Declara qual é o critério que qualifica à atividade para a Taxonomia Sustentável Brasileira TSB."@pt
-	Annotations: bim:Definición "Declara el criterio que califica la actividad para la TSB de la Taxonomía Sostenible Brasileña."@es
+	Annotations: bim:Definición "Declara el criterio que califica la actividad para la según la Taxonomía Sostenible Brasileña TSB."@es
 	Annotations: bim:Definition "Declares the criterion that qualifies the activity for the Brazilian Sustainable Taxonomy TSB."@en
 	InverseOf: bim:é.qualificadora.de
 
@@ -10052,7 +10425,7 @@ DataProperty: bim:qualificada.com
 	Annotations: bim:Chave "taxon.156"
 	Annotations: bim:Ação "Ação taxonomizar"@pt
 	Annotations: bim:Definição "Declara qual é o critério que qualifica à atividade para a Taxonomia Sustentável Brasileira TSB."@pt
-	Annotations: bim:Definición "Declara el criterio que califica la actividad para la TSB de la Taxonomía Sostenible Brasileña."@es
+	Annotations: bim:Definición "Declara el criterio que califica la actividad para la según la Taxonomía Sostenible Brasileña TSB."@es
 	Annotations: bim:Definition "Declares the criterion that qualifies the activity for the Brazilian Sustainable Taxonomy TSB."@en
 
 ObjectProperty: bim:p.taxonomizar
@@ -10068,7 +10441,7 @@ ObjectProperty: bim:é.qualificadora.de
 	Annotations: bim:Chave "taxon.157"
 	Annotations: bim:Ação "Ação taxonomizar"@pt
 	Annotations: bim:Definição "Declara um critério necesário para qualificar uma atividade para a Taxonomia Sustentável Brasileira TSB."@pt
-	Annotations: bim:Definición "Declara un criterio necesario para calificar una actividad para la Taxonomía Brasileña de Sostenibilidad de la TSB."@es
+	Annotations: bim:Definición "Declara un criterio necesario para calificar una actividad para la Taxonomía Sostenible Brasileña TSB."@es
 	Annotations: bim:Definition "Declares a criterion required to qualify an activity for the TSB Brazilian Sustainable Taxonomy."@en
 	InverseOf: bim:é.qualificada.com
 
@@ -10084,7 +10457,7 @@ DataProperty: bim:qualificadora.de
 	Annotations: bim:Chave "taxon.157"
 	Annotations: bim:Ação "Ação taxonomizar"@pt
 	Annotations: bim:Definição "Declara um critério necesário para qualificar uma atividade para a Taxonomia Sustentável Brasileira TSB."@pt
-	Annotations: bim:Definición "Declara un criterio necesario para calificar una actividad para la Taxonomía Brasileña de Sostenibilidad de la TSB."@es
+	Annotations: bim:Definición "Declara un criterio necesario para calificar una actividad para la Taxonomía Sostenible Brasileña TSB."@es
 	Annotations: bim:Definition "Declares a criterion required to qualify an activity for the TSB Brazilian Sustainable Taxonomy."@en
 
 ObjectProperty: bim:p.taxonomizar
@@ -10100,7 +10473,7 @@ ObjectProperty: bim:é.receita.alinhada
 	Annotations: bim:Chave "taxon.158"
 	Annotations: bim:Ação "Ação taxonomizar"@pt
 	Annotations: bim:Definição "Declara o valor total de receita de atividade alinhada com a TSB."@pt
-	Annotations: bim:Definición "Declara el importe total de ingresos de la actividad alineado con TSB."@es
+	Annotations: bim:Definición "Declara el importe total de ingresos de la actividad alineada a la Taxonomía Sostenible Brasileña TSB."@es
 	Annotations: bim:Definition "Declares the total revenue amount of activity aligned with TSB."@en
 	InverseOf: bim:é.capex.alinhado
 
@@ -10116,7 +10489,7 @@ DataProperty: bim:receita.alinhada
 	Annotations: bim:Chave "taxon.158"
 	Annotations: bim:Ação "Ação taxonomizar"@pt
 	Annotations: bim:Definição "Declara o valor total de receita de atividade alinhada com a TSB."@pt
-	Annotations: bim:Definición "Declara el importe total de ingresos de la actividad alineado con TSB."@es
+	Annotations: bim:Definición "Declara el importe total de ingresos de la actividad alineada a la Taxonomía Sostenible Brasileña TSB."@es
 	Annotations: bim:Definition "Declares the total revenue amount of activity aligned with TSB."@en
 
 ObjectProperty: bim:p.taxonomizar
@@ -10313,5 +10686,5 @@ DataProperty: bim:vant
 
 #################################################################
 ##  Fim da Ontologia DOCUM
-##  Criada em 14/05/2026 12:52:13
+##  Criada em 18/05/2026 8:23:11
 #################################################################
