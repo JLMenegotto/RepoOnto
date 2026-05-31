@@ -24,7 +24,7 @@ Ontology:  <https://github.com/JLMenegotto/RepoOnto#Parte_5_3R>
   Annotations: rdfs:label "NormaReferência2: -"@pt
   Annotations: rdfs:label "NormaReferência3: -"@pt
   Annotations: rdfs:label "Observações: Sistema de classificação ABNT da construção para BIM"@pt
-  Annotations: rdfs:label "DataHora: 23/05/2026 23:11:01"@pt
+  Annotations: rdfs:label "DataHora: 31/05/2026 8:36:55"@pt
   Annotations: rdfs:label "Advertência: A Norma foi elaborada pela Comissão de Estudo Especial de Modelagem da Informação da Construção (BIM) ABNT/CEE-134"@pt
   Annotations: rdfs:label "Aviso: El Estándar fue preparado por el Comité Especial de Estudio sobre Modelado de Información de Edificación (BIM) ABNT/CEE-134"@es
   Annotations: rdfs:label "Alert: The Standard was prepared by the Special Committee of Studies on Building Information Modeling (BIM) ABNT/CEE-134"@en
@@ -108,9 +108,9 @@ Class: bim:Definida
 
 Class: bim:No.Projeto
 	Annotations: rdfs:label "No Projeto"@pt
-	Annotations: bim:Definição "Define um contêiner de informação de acordo à norma NBR 19650-1. Definição do Projeto."@pt
-	Annotations: bim:Definición "Define un contenedor de información de acuerdo con la norma NBR 19650-1. Definición del proyecto."@es
-	Annotations: bim:Definition "Defines an information container in accordance with the NBR 19650-1 standard. Project Definition."@en
+	Annotations: bim:Definição "Define um contêiner de informação de acordo à norma NBR 19650-1. Definições do Projeto."@pt
+	Annotations: bim:Definición "Define un contenedor de información de acuerdo con la norma NBR 19650-1. Definiciones del Proyecto."@es
+	Annotations: bim:Definition "Defines an information container in accordance with the NBR 19650-1 standard. Project Definitions."@en
 	Annotations: bim:Natureza "Contêiner"@pt
 	Annotations: bim:Espécie "Informação"@pt
 	Annotations: bim:Tema "Definida"@pt
@@ -127,8 +127,8 @@ Class: bim:Requerida
 Class: bim:Requisito.Espacial
 	Annotations: rdfs:label "Requisito Espacial"@pt
 	Annotations: bim:Definição "Define um contêiner de informação de acordo à norma NBR 19650-1. Requisitos Espaciais do Projeto."@pt
-	Annotations: bim:Definición "Define un contenedor de información de acuerdo con la norma NBR 19650-1. Requisitos del proyecto espacial."@es
-	Annotations: bim:Definition "Defines an information container in accordance with the NBR 19650-1 standard. Spatial Project Requirements."@en
+	Annotations: bim:Definición "Define un contenedor de información de acuerdo con la norma NBR 19650-1. Requisitos Espaciales del Proyecto."@es
+	Annotations: bim:Definition "Defines an information container in accordance with the NBR 19650-1 standard. Spatial Requirements for the Project."@en
 	Annotations: bim:Natureza "Contêiner"@pt
 	Annotations: bim:Espécie "Informação"@pt
 	Annotations: bim:Tema "Requerida"@pt
@@ -140,8 +140,8 @@ Class: bim:Requisito.Espacial
 Class: bim:Requisito.Mobiliário
 	Annotations: rdfs:label "Requisito Mobiliário"@pt
 	Annotations: bim:Definição "Define um contêiner de informação de acordo à norma NBR 19650-1. Requisitos Mobiliários do Projeto."@pt
-	Annotations: bim:Definición "Define un contenedor de información de acuerdo con la norma NBR 19650-1. Requisitos de mobiliario del proyecto."@es
-	Annotations: bim:Definition "Defines an information container in accordance with the NBR 19650-1 standard. Project Furniture Requirements."@en
+	Annotations: bim:Definición "Define un contenedor de información de acuerdo con la norma NBR 19650-1. Requisitos de Mobiliarios del Proyecto."@es
+	Annotations: bim:Definition "Defines an information container in accordance with the NBR 19650-1 standard. Furniture Requirements for the Project."@en
 	Annotations: bim:Natureza "Contêiner"@pt
 	Annotations: bim:Espécie "Informação"@pt
 	Annotations: bim:Tema "Requerida"@pt
@@ -153,8 +153,8 @@ Class: bim:Requisito.Mobiliário
 Class: bim:Requisito.Equipamento
 	Annotations: rdfs:label "Requisito Equipamento"@pt
 	Annotations: bim:Definição "Define um contêiner de informação de acordo à norma NBR 19650-1. Requisitos Equipamentos do Projeto."@pt
-	Annotations: bim:Definición "Define un contenedor de información de acuerdo con la norma NBR 19650-1. Requisitos de equipo del proyecto."@es
-	Annotations: bim:Definition "Defines an information container in accordance with the NBR 19650-1 standard. Project Equipment Requirements."@en
+	Annotations: bim:Definición "Define un contenedor de información de acuerdo con la norma NBR 19650-1. Requisitos de Equipamiento del Proyecto."@es
+	Annotations: bim:Definition "Defines an information container in accordance with the NBR 19650-1 standard. Equipment Requirements for the Project."@en
 	Annotations: bim:Natureza "Contêiner"@pt
 	Annotations: bim:Espécie "Informação"@pt
 	Annotations: bim:Tema "Requerida"@pt
@@ -166,8 +166,8 @@ Class: bim:Requisito.Equipamento
 Class: bim:Requisito.Sistemas
 	Annotations: rdfs:label "Requisito Sistemas"@pt
 	Annotations: bim:Definição "Define um contêiner de informação de acordo à norma NBR 19650-1. Requisitos de Sistemas Prediais do Projeto."@pt
-	Annotations: bim:Definición "Define un contenedor de información de acuerdo con la norma NBR 19650-1. Requisitos de los sistemas de construcción del proyecto."@es
-	Annotations: bim:Definition "Defines an information container in accordance with the NBR 19650-1 standard. Building Systems Requirements of the Project."@en
+	Annotations: bim:Definición "Define un contenedor de información de acuerdo con la norma NBR 19650-1. Requisitos de Instalaciones del Proyecto."@es
+	Annotations: bim:Definition "Defines an information container in accordance with the NBR 19650-1 standard. Building Systems Requirements for the Project."@en
 	Annotations: bim:Natureza "Contêiner"@pt
 	Annotations: bim:Espécie "Informação"@pt
 	Annotations: bim:Tema "Requerida"@pt
@@ -869,7 +869,7 @@ Individual: bim:3R.Parte5
 	Facts: bim:norma  "NBR 15.965"
 	Facts: bim:parte  "Parte 5"
 	Facts: bim:tema  "Normas"
-	Facts: bim:subtema  "Classificação de Projeto e Construção"
+	Facts: bim:subtema  "Parte 5 da NBR 15.965"
 	Facts: bim:descrição  "Parte 5 - Publicada em 2022"
 
 Individual: bim:3R
@@ -878,7 +878,7 @@ Individual: bim:3R
 	Facts: bim:norma  "NBR 15.965"
 	Facts: bim:parte  "Parte 5"
 	Facts: bim:tema  "Normas"
-	Facts: bim:subtema  "Classificação de Projeto e Construção"
+	Facts: bim:subtema  "Resultados Construtivos"
 	Facts: bim:descrição  "Tema 3R - Resultados construtivos - Derivada da  Tabela 22 de Omniclass"
 
 Individual: bim:3R.02
@@ -4519,7 +4519,7 @@ ObjectProperty: bim:é.abastecido.por
 	Annotations: bim:Chave "abast.101"
 	Annotations: bim:Ação "Ação abastecer"@pt
 	Annotations: bim:Definição "Declara que é um elemento que é abastecido por algum outro elemento."@pt
-	Annotations: bim:Definición "Afirma que es un elemento que es suministrado por algún otro elemento."@es
+	Annotations: bim:Definición "Declara que es un elemento que es suministrado por algún otro elemento."@es
 	Annotations: bim:Definition "Declares that it is an element that is supplied by some other element."@en
 	Characteristics: Irreflexive
 	InverseOf: bim:é.abastecedor.de
@@ -4536,7 +4536,7 @@ DataProperty: bim:abastecido.por
 	Annotations: bim:Chave "abast.101"
 	Annotations: bim:Ação "Ação abastecer"@pt
 	Annotations: bim:Definição "Declara que é um elemento que é abastecido por algum outro elemento."@pt
-	Annotations: bim:Definición "Afirma que es un elemento que es suministrado por algún otro elemento."@es
+	Annotations: bim:Definición "Declara que es un elemento que es suministrado por algún otro elemento."@es
 	Annotations: bim:Definition "Declares that it is an element that is supplied by some other element."@en
 
 ObjectProperty: bim:p.acabar
@@ -4968,7 +4968,7 @@ ObjectProperty: bim:é.privado
 	Annotations: bim:Chave "admin.115"
 	Annotations: bim:Ação "Ação administrar"@pt
 	Annotations: bim:Definição "Declara que se trata de um bem ou espaço privado."@pt
-	Annotations: bim:Definición "Es un bien o espacio privado."@es
+	Annotations: bim:Definición "Declara que es un bien o espacio privado."@es
 	Annotations: bim:Definition "Declares It is a private good or space."@en
 	InverseOf: bim:é.público
 
@@ -4984,7 +4984,7 @@ DataProperty: bim:privado
 	Annotations: bim:Chave "admin.115"
 	Annotations: bim:Ação "Ação administrar"@pt
 	Annotations: bim:Definição "Declara que se trata de um bem ou espaço privado."@pt
-	Annotations: bim:Definición "Es un bien o espacio privado."@es
+	Annotations: bim:Definición "Declara que es un bien o espacio privado."@es
 	Annotations: bim:Definition "Declares It is a private good or space."@en
 
 ObjectProperty: bim:p.administrar
@@ -5000,7 +5000,7 @@ ObjectProperty: bim:é.público
 	Annotations: bim:Chave "admin.117"
 	Annotations: bim:Ação "Ação administrar"@pt
 	Annotations: bim:Definição "Declara que se trata de um bem ou espaço público."@pt
-	Annotations: bim:Definición "Es un bien o espacio público."@es
+	Annotations: bim:Definición "Declara que es un bien o espacio público."@es
 	Annotations: bim:Definition "Declares It is a public asset or space."@en
 	InverseOf: bim:é.privado
 
@@ -5016,7 +5016,7 @@ DataProperty: bim:público
 	Annotations: bim:Chave "admin.117"
 	Annotations: bim:Ação "Ação administrar"@pt
 	Annotations: bim:Definição "Declara que se trata de um bem ou espaço público."@pt
-	Annotations: bim:Definición "Es un bien o espacio público."@es
+	Annotations: bim:Definición "Declara que es un bien o espacio público."@es
 	Annotations: bim:Definition "Declares It is a public asset or space."@en
 
 ObjectProperty: bim:p.afirmar
@@ -5032,7 +5032,7 @@ ObjectProperty: bim:é.fake
 	Annotations: bim:Chave "afirm.100"
 	Annotations: bim:Ação "Ação afirmar"@pt
 	Annotations: bim:Definição "Declara que um objeto é fake ou falsificado."@pt
-	Annotations: bim:Definición "Afirma que un objeto es falso o falsificado."@es
+	Annotations: bim:Definición "Declara que un objeto es falso o falsificado."@es
 	Annotations: bim:Definition "Declares that an object is fake or counterfeit."@en
 	InverseOf: bim:é.verdadeiro
 	EquivalentTo: bim:é.fraudulento
@@ -5049,7 +5049,7 @@ DataProperty: bim:fake
 	Annotations: bim:Chave "afirm.100"
 	Annotations: bim:Ação "Ação afirmar"@pt
 	Annotations: bim:Definição "Declara que um objeto é fake ou falsificado."@pt
-	Annotations: bim:Definición "Afirma que un objeto es falso o falsificado."@es
+	Annotations: bim:Definición "Declara que un objeto es falso o falsificado."@es
 	Annotations: bim:Definition "Declares that an object is fake or counterfeit."@en
 
 ObjectProperty: bim:p.afirmar
@@ -9258,7 +9258,7 @@ ObjectProperty: bim:é.empenho
 	Annotations: bim:Chave "orçam.110"
 	Annotations: bim:Ação "Ação orçamentar"@pt
 	Annotations: bim:Definição "Declara o ato de reservar verbas para uma despesa específica. No servício público brasileiro o recurso empenhado garante que será destinado ao pagamento de um contrato, serviço ou compra."@pt
-	Annotations: bim:Definición "-2146826265"@es
+	Annotations: bim:Definición "Declara el acto de reservar fondos para un gasto específico. En el servicio público brasileño, el recurso comprometido garantiza que se utilizará para pagar un contrato, servicio o compra."@es
 	Annotations: bim:Definition "Declares the act of setting aside funds for a specific expense. In the Brazilian public service, the committed resource guarantees that it will be used to pay for a contract, service or purchase."@en
 	EquivalentTo: bim:é.despesa.obrigatória
 
@@ -9274,7 +9274,7 @@ DataProperty: bim:empenho
 	Annotations: bim:Chave "orçam.110"
 	Annotations: bim:Ação "Ação orçamentar"@pt
 	Annotations: bim:Definição "Declara o ato de reservar verbas para uma despesa específica. No servício público brasileiro o recurso empenhado garante que será destinado ao pagamento de um contrato, serviço ou compra."@pt
-	Annotations: bim:Definición "-2146826265"@es
+	Annotations: bim:Definición "Declara el acto de reservar fondos para un gasto específico. En el servicio público brasileño, el recurso comprometido garantiza que se utilizará para pagar un contrato, servicio o compra."@es
 	Annotations: bim:Definition "Declares the act of setting aside funds for a specific expense. In the Brazilian public service, the committed resource guarantees that it will be used to pay for a contract, service or purchase."@en
 
 ObjectProperty: bim:p.orçamentar
@@ -9319,7 +9319,7 @@ ObjectProperty: bim:é.preço.ofertado
 	domain: bim:BIM
 	range: bim:Projeto
 	Annotations: rdfs:label "Propriedade destinada a orçamentar: é.preço.ofertado"@pt
-	Annotations: bim:Chave "orçam.133"
+	Annotations: bim:Chave "orçam.127"
 	Annotations: bim:Ação "Ação orçamentar"@pt
 	Annotations: bim:Definição "Declara preço ofertado."@pt
 	Annotations: bim:Definición "Declara el precio ofrecido."@es
@@ -9335,7 +9335,7 @@ DataProperty: bim:preço.ofertado
 	SubPropertyOf: bim:d.orçamentar
 	range: xsd:double
 	Annotations: rdfs:label "Dado para orçamentar:  preço.ofertado  Deve ser formatado como (xsd:double)"@pt
-	Annotations: bim:Chave "orçam.133"
+	Annotations: bim:Chave "orçam.127"
 	Annotations: bim:Ação "Ação orçamentar"@pt
 	Annotations: bim:Definição "Declara preço ofertado."@pt
 	Annotations: bim:Definición "Declara el precio ofrecido."@es
@@ -12605,5 +12605,5 @@ DataProperty: bim:vant
 
 #################################################################
 ##  Fim da Ontologia 15965_3R
-##  Criada em 23/05/2026 23:11:02
+##  Criada em 31/05/2026 8:36:56
 #################################################################
