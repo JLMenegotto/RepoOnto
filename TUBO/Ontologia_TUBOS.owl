@@ -24,7 +24,7 @@ Ontology:  <https://github.com/JLMenegotto/RepoOnto#Tubulações>
   Annotations: rdfs:label "NormaReferência2: -"@pt
   Annotations: rdfs:label "NormaReferência3: -"@pt
   Annotations: rdfs:label "Observações: Ontologia para incorporar tubulações."@pt
-  Annotations: rdfs:label "DataHora: 28/07/2026 12:30:20"@pt
+  Annotations: rdfs:label "DataHora: 29/07/2026 9:35:15"@pt
   Annotations: rdfs:label "Advertência1: Algumas traduções podem precisar de revisão - Traducción al español incorporada"@pt
   Annotations: rdfs:label "Prédio: -"@pt
   Annotations: rdfs:label "Cidade: -"@pt
@@ -8284,6 +8284,316 @@ DataProperty: bim:usuário
 	Annotations: bim:Definição "Declara o nome ou identificação do usuário de um elemento, ambiente, setor ou unidade espacial."@pt
 	Annotations: bim:Definición "Declara el nombre del usuario de un ambiente, elemento o unidad espacial."@es
 	Annotations: bim:Definition "Declares the name of the user of a element, space, sector or spatial entity."@en
+
+ObjectProperty: bim:p.geolocalizar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.utm.fuso
+	SubPropertyOf: bim:p.geolocalizar
+	domain: bim:BIM
+	Annotations: rdfs:label "Propriedade destinada a geolocalizar: é.utm.fuso"@pt
+	Annotations: bim:Chave "d.geolocalizar.124"
+	Annotations: bim:Ação "Ação de geolocalizar"@pt
+	Annotations: bim:Definição "Declara o Valor da zona geográfica UTM (Universal Transverse Mercator). Valor numérico de 2 dígitos expresso como string."@pt
+	Annotations: bim:Definición "Declara el valor del área geográfica UTM (Universal Transverse Mercator). Valor numérico de 2 dígitos expresado como cadena."@es
+	Annotations: bim:Definition "Declares the Value of the UTM (Universal Transverse Mercator) geographical area. 2-digit numeric value expressed as string."@en
+	EquivalentTo: bim:é.utm.zona
+
+DataProperty: bim:d.geolocalizar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:utm.fuso
+	SubPropertyOf: bim:d.geolocalizar
+	range: rdfs:Literal  or  xsd:string
+	Annotations: rdfs:label "Dado para geolocalizar:  utm.fuso  Deve ser formatado como (rdfs:Literal  or  xsd:string)"@pt
+	Annotations: bim:Chave "d.geolocalizar.124"
+	Annotations: bim:Ação "Ação de geolocalizar"@pt
+	Annotations: bim:Definição "Declara o Valor da zona geográfica UTM (Universal Transverse Mercator). Valor numérico de 2 dígitos expresso como string."@pt
+	Annotations: bim:Definición "Declara el valor del área geográfica UTM (Universal Transverse Mercator). Valor numérico de 2 dígitos expresado como cadena."@es
+	Annotations: bim:Definition "Declares the Value of the UTM (Universal Transverse Mercator) geographical area. 2-digit numeric value expressed as string."@en
+
+ObjectProperty: bim:p.geolocalizar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.utm.zona
+	SubPropertyOf: bim:p.geolocalizar
+	domain: bim:BIM
+	Annotations: rdfs:label "Propriedade destinada a geolocalizar: é.utm.zona"@pt
+	Annotations: bim:Chave "d.geolocalizar.125"
+	Annotations: bim:Ação "Ação de geolocalizar"@pt
+	Annotations: bim:Definição "Declara o Valor da zona geográfica UTM (Universal Transverse Mercator). Valor numérico de 2 dígitos expresso como string."@pt
+	Annotations: bim:Definición "Declara el valor del área geográfica UTM (Universal Transverse Mercator). Valor numérico de 2 dígitos expresado como cadena."@es
+	Annotations: bim:Definition "Declares the Value of the UTM (Universal Transverse Mercator) geographical area. 2-digit numeric value expressed as string."@en
+	EquivalentTo: bim:é.utm.fuso
+
+DataProperty: bim:d.geolocalizar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:utm.zona
+	SubPropertyOf: bim:d.geolocalizar
+	range: rdfs:Literal  or  xsd:string
+	Annotations: rdfs:label "Dado para geolocalizar:  utm.zona  Deve ser formatado como (rdfs:Literal  or  xsd:string)"@pt
+	Annotations: bim:Chave "d.geolocalizar.125"
+	Annotations: bim:Ação "Ação de geolocalizar"@pt
+	Annotations: bim:Definição "Declara o Valor da zona geográfica UTM (Universal Transverse Mercator). Valor numérico de 2 dígitos expresso como string."@pt
+	Annotations: bim:Definición "Declara el valor del área geográfica UTM (Universal Transverse Mercator). Valor numérico de 2 dígitos expresado como cadena."@es
+	Annotations: bim:Definition "Declares the Value of the UTM (Universal Transverse Mercator) geographical area. 2-digit numeric value expressed as string."@en
+
+ObjectProperty: bim:p.geolocalizar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.utm.fuso.18
+	SubPropertyOf: bim:p.geolocalizar
+	domain: bim:BIM
+	Annotations: rdfs:label "Propriedade destinada a geolocalizar: é.utm.fuso.18"@pt
+	Annotations: bim:Chave "d.geolocalizar.129"
+	Annotations: bim:Ação "Ação de geolocalizar"@pt
+	Annotations: bim:Definição "Declara que o fuso UTM passa pela Região oeste do Acre do Brasil."@pt
+	Annotations: bim:Definición "Declara que la zona horaria UTM pasa por la región occidental de Acre."@es
+	Annotations: bim:Definition "Declares that the UTM time zone passes through the western region of Acre."@en
+	EquivalentTo: bim:é.utm.fuso
+
+DataProperty: bim:d.geolocalizar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:utm.fuso.18
+	SubPropertyOf: bim:d.geolocalizar
+	range: rdfs:Literal  or  xsd:string
+	Annotations: rdfs:label "Dado para geolocalizar:  utm.fuso.18  Deve ser formatado como (rdfs:Literal  or  xsd:string)"@pt
+	Annotations: bim:Chave "d.geolocalizar.129"
+	Annotations: bim:Ação "Ação de geolocalizar"@pt
+	Annotations: bim:Definição "Declara que o fuso UTM passa pela Região oeste do Acre do Brasil."@pt
+	Annotations: bim:Definición "Declara que la zona horaria UTM pasa por la región occidental de Acre."@es
+	Annotations: bim:Definition "Declares that the UTM time zone passes through the western region of Acre."@en
+
+ObjectProperty: bim:p.geolocalizar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.utm.fuso.19
+	SubPropertyOf: bim:p.geolocalizar
+	domain: bim:BIM
+	Annotations: rdfs:label "Propriedade destinada a geolocalizar: é.utm.fuso.19"@pt
+	Annotations: bim:Chave "d.geolocalizar.130"
+	Annotations: bim:Ação "Ação de geolocalizar"@pt
+	Annotations: bim:Definição "Declara que o fuso UTM passa pela Parte do Acre e Rondônia do Brasil."@pt
+	Annotations: bim:Definición "Declara que la zona horaria de la UTM pasa por la parte de Acre y Rondônia."@es
+	Annotations: bim:Definition "Declares that the UTM time zone passes through the part of Acre and Rondônia."@en
+	EquivalentTo: bim:é.utm.fuso
+
+DataProperty: bim:d.geolocalizar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:utm.fuso.19
+	SubPropertyOf: bim:d.geolocalizar
+	range: rdfs:Literal  or  xsd:string
+	Annotations: rdfs:label "Dado para geolocalizar:  utm.fuso.19  Deve ser formatado como (rdfs:Literal  or  xsd:string)"@pt
+	Annotations: bim:Chave "d.geolocalizar.130"
+	Annotations: bim:Ação "Ação de geolocalizar"@pt
+	Annotations: bim:Definição "Declara que o fuso UTM passa pela Parte do Acre e Rondônia do Brasil."@pt
+	Annotations: bim:Definición "Declara que la zona horaria de la UTM pasa por la parte de Acre y Rondônia."@es
+	Annotations: bim:Definition "Declares that the UTM time zone passes through the part of Acre and Rondônia."@en
+
+ObjectProperty: bim:p.geolocalizar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.utm.fuso.20
+	SubPropertyOf: bim:p.geolocalizar
+	domain: bim:BIM
+	Annotations: rdfs:label "Propriedade destinada a geolocalizar: é.utm.fuso.20"@pt
+	Annotations: bim:Chave "d.geolocalizar.131"
+	Annotations: bim:Ação "Ação de geolocalizar"@pt
+	Annotations: bim:Definição "Declara que o fuso UTM passa por Rondônia, Mato Grosso e parte do Amazonas do Brasil."@pt
+	Annotations: bim:Definición "Declara que la zona horaria de la UTM pasa por Rondônia, Mato Grosso y parte de Amazonas."@es
+	Annotations: bim:Definition "Declares that the UTM time zone passes through Rondônia, Mato Grosso and part of Amazonas."@en
+	EquivalentTo: bim:é.utm.fuso
+
+DataProperty: bim:d.geolocalizar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:utm.fuso.20
+	SubPropertyOf: bim:d.geolocalizar
+	range: rdfs:Literal  or  xsd:string
+	Annotations: rdfs:label "Dado para geolocalizar:  utm.fuso.20  Deve ser formatado como (rdfs:Literal  or  xsd:string)"@pt
+	Annotations: bim:Chave "d.geolocalizar.131"
+	Annotations: bim:Ação "Ação de geolocalizar"@pt
+	Annotations: bim:Definição "Declara que o fuso UTM passa por Rondônia, Mato Grosso e parte do Amazonas do Brasil."@pt
+	Annotations: bim:Definición "Declara que la zona horaria de la UTM pasa por Rondônia, Mato Grosso y parte de Amazonas."@es
+	Annotations: bim:Definition "Declares that the UTM time zone passes through Rondônia, Mato Grosso and part of Amazonas."@en
+
+ObjectProperty: bim:p.geolocalizar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.utm.fuso.21
+	SubPropertyOf: bim:p.geolocalizar
+	domain: bim:BIM
+	Annotations: rdfs:label "Propriedade destinada a geolocalizar: é.utm.fuso.21"@pt
+	Annotations: bim:Chave "d.geolocalizar.132"
+	Annotations: bim:Ação "Ação de geolocalizar"@pt
+	Annotations: bim:Definição "Declara que o fuso UTM passa por Goiás, Tocantins, parte do Pará e Mato Grosso do Brasil."@pt
+	Annotations: bim:Definición "Declara que la zona horaria de la UTM pasa por Goiás, Tocantins, parte de Pará y Mato Grosso."@es
+	Annotations: bim:Definition "Declares that the UTM time zone passes through Goiás, Tocantins, part of Pará and Mato Grosso."@en
+	EquivalentTo: bim:é.utm.fuso
+
+DataProperty: bim:d.geolocalizar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:utm.fuso.21
+	SubPropertyOf: bim:d.geolocalizar
+	range: rdfs:Literal  or  xsd:string
+	Annotations: rdfs:label "Dado para geolocalizar:  utm.fuso.21  Deve ser formatado como (rdfs:Literal  or  xsd:string)"@pt
+	Annotations: bim:Chave "d.geolocalizar.132"
+	Annotations: bim:Ação "Ação de geolocalizar"@pt
+	Annotations: bim:Definição "Declara que o fuso UTM passa por Goiás, Tocantins, parte do Pará e Mato Grosso do Brasil."@pt
+	Annotations: bim:Definición "Declara que la zona horaria de la UTM pasa por Goiás, Tocantins, parte de Pará y Mato Grosso."@es
+	Annotations: bim:Definition "Declares that the UTM time zone passes through Goiás, Tocantins, part of Pará and Mato Grosso."@en
+
+ObjectProperty: bim:p.geolocalizar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.utm.fuso.22
+	SubPropertyOf: bim:p.geolocalizar
+	domain: bim:BIM
+	Annotations: rdfs:label "Propriedade destinada a geolocalizar: é.utm.fuso.22"@pt
+	Annotations: bim:Chave "d.geolocalizar.133"
+	Annotations: bim:Ação "Ação de geolocalizar"@pt
+	Annotations: bim:Definição "Declara que o fuso UTM passa por Grande parte do Brasil central, incluindo Minas Gerais e Bahia."@pt
+	Annotations: bim:Definición "Declara que la zona horaria de la UTM atraviesa gran parte del centro de Brasil, incluyendo Minas Gerais y Bahía."@es
+	Annotations: bim:Definition "Declares that the UTM time zone passes through much of central Brazil, including Minas Gerais and Bahia."@en
+	EquivalentTo: bim:é.utm.fuso
+
+DataProperty: bim:d.geolocalizar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:utm.fuso.22
+	SubPropertyOf: bim:d.geolocalizar
+	range: rdfs:Literal  or  xsd:string
+	Annotations: rdfs:label "Dado para geolocalizar:  utm.fuso.22  Deve ser formatado como (rdfs:Literal  or  xsd:string)"@pt
+	Annotations: bim:Chave "d.geolocalizar.133"
+	Annotations: bim:Ação "Ação de geolocalizar"@pt
+	Annotations: bim:Definição "Declara que o fuso UTM passa por Grande parte do Brasil central, incluindo Minas Gerais e Bahia."@pt
+	Annotations: bim:Definición "Declara que la zona horaria de la UTM atraviesa gran parte del centro de Brasil, incluyendo Minas Gerais y Bahía."@es
+	Annotations: bim:Definition "Declares that the UTM time zone passes through much of central Brazil, including Minas Gerais and Bahia."@en
+
+ObjectProperty: bim:p.geolocalizar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.utm.fuso.23
+	SubPropertyOf: bim:p.geolocalizar
+	domain: bim:BIM
+	Annotations: rdfs:label "Propriedade destinada a geolocalizar: é.utm.fuso.23"@pt
+	Annotations: bim:Chave "d.geolocalizar.134"
+	Annotations: bim:Ação "Ação de geolocalizar"@pt
+	Annotations: bim:Definição "Declara que o fuso UTM passa pelas regiões Sudeste e Sul (São Paulo, Rio de Janeiro, Paraná, Santa Catarina, Rio Grande do Sul) do Brasil."@pt
+	Annotations: bim:Definición "Declara que la zona horaria de la UTM atraviesa las regiones Sureste y Sur (São Paulo, Río de Janeiro, Paraná, Santa Catarina, Río Grande do Sul)."@es
+	Annotations: bim:Definition "Declares that the UTM time zone passes through the Southeast and South regions (São Paulo, Rio de Janeiro, Paraná, Santa Catarina, Rio Grande do Sul)."@en
+	EquivalentTo: bim:é.utm.fuso
+
+DataProperty: bim:d.geolocalizar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:utm.fuso.23
+	SubPropertyOf: bim:d.geolocalizar
+	range: rdfs:Literal  or  xsd:string
+	Annotations: rdfs:label "Dado para geolocalizar:  utm.fuso.23  Deve ser formatado como (rdfs:Literal  or  xsd:string)"@pt
+	Annotations: bim:Chave "d.geolocalizar.134"
+	Annotations: bim:Ação "Ação de geolocalizar"@pt
+	Annotations: bim:Definição "Declara que o fuso UTM passa pelas regiões Sudeste e Sul (São Paulo, Rio de Janeiro, Paraná, Santa Catarina, Rio Grande do Sul) do Brasil."@pt
+	Annotations: bim:Definición "Declara que la zona horaria de la UTM atraviesa las regiones Sureste y Sur (São Paulo, Río de Janeiro, Paraná, Santa Catarina, Río Grande do Sul)."@es
+	Annotations: bim:Definition "Declares that the UTM time zone passes through the Southeast and South regions (São Paulo, Rio de Janeiro, Paraná, Santa Catarina, Rio Grande do Sul)."@en
+
+ObjectProperty: bim:p.geolocalizar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.utm.fuso.24
+	SubPropertyOf: bim:p.geolocalizar
+	domain: bim:BIM
+	Annotations: rdfs:label "Propriedade destinada a geolocalizar: é.utm.fuso.24"@pt
+	Annotations: bim:Chave "d.geolocalizar.135"
+	Annotations: bim:Ação "Ação de geolocalizar"@pt
+	Annotations: bim:Definição "Declara que o fuso UTM passa pela parte Leste do Brasil, incluindo Pernambuco, Alagoas, Sergipe."@pt
+	Annotations: bim:Definición "Declara que la zona horaria UTM pasa por la parte oriental de Brasil, incluyendo Pernambuco, Alagoas y Sergipe."@es
+	Annotations: bim:Definition "Declares that the UTM time zone passes through the eastern part of Brazil, including Pernambuco, Alagoas, Sergipe."@en
+	EquivalentTo: bim:é.utm.fuso
+
+DataProperty: bim:d.geolocalizar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:utm.fuso.24
+	SubPropertyOf: bim:d.geolocalizar
+	range: rdfs:Literal  or  xsd:string
+	Annotations: rdfs:label "Dado para geolocalizar:  utm.fuso.24  Deve ser formatado como (rdfs:Literal  or  xsd:string)"@pt
+	Annotations: bim:Chave "d.geolocalizar.135"
+	Annotations: bim:Ação "Ação de geolocalizar"@pt
+	Annotations: bim:Definição "Declara que o fuso UTM passa pela parte Leste do Brasil, incluindo Pernambuco, Alagoas, Sergipe."@pt
+	Annotations: bim:Definición "Declara que la zona horaria UTM pasa por la parte oriental de Brasil, incluyendo Pernambuco, Alagoas y Sergipe."@es
+	Annotations: bim:Definition "Declares that the UTM time zone passes through the eastern part of Brazil, including Pernambuco, Alagoas, Sergipe."@en
+
+ObjectProperty: bim:p.geolocalizar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.utm.fuso.25
+	SubPropertyOf: bim:p.geolocalizar
+	domain: bim:BIM
+	Annotations: rdfs:label "Propriedade destinada a geolocalizar: é.utm.fuso.25"@pt
+	Annotations: bim:Chave "d.geolocalizar.136"
+	Annotations: bim:Ação "Ação de geolocalizar"@pt
+	Annotations: bim:Definição "Declara que o fuso UTM passa pelo Arquipélago de Fernando de Noronha do Brasil."@pt
+	Annotations: bim:Definición "Declara que la zona horaria UTM pasa por el archipiélago Fernando de Noronha."@es
+	Annotations: bim:Definition "Declares that the UTM time zone passes through the Fernando de Noronha Archipelago."@en
+	EquivalentTo: bim:é.utm.fuso
+
+DataProperty: bim:d.geolocalizar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:utm.fuso.25
+	SubPropertyOf: bim:d.geolocalizar
+	range: rdfs:Literal  or  xsd:string
+	Annotations: rdfs:label "Dado para geolocalizar:  utm.fuso.25  Deve ser formatado como (rdfs:Literal  or  xsd:string)"@pt
+	Annotations: bim:Chave "d.geolocalizar.136"
+	Annotations: bim:Ação "Ação de geolocalizar"@pt
+	Annotations: bim:Definição "Declara que o fuso UTM passa pelo Arquipélago de Fernando de Noronha do Brasil."@pt
+	Annotations: bim:Definición "Declara que la zona horaria UTM pasa por el archipiélago Fernando de Noronha."@es
+	Annotations: bim:Definition "Declares that the UTM time zone passes through the Fernando de Noronha Archipelago."@en
 
 ObjectProperty: bim:p.gerar
 	SubPropertyOf: bim:BIMProp
@@ -18105,11 +18415,73 @@ ObjectProperty: bim:p.permitir
 
 
 
+ObjectProperty: bim:é.habilitada.para
+	SubPropertyOf: bim:p.permitir
+	domain: bim:BIM
+	Annotations: rdfs:label "Propriedade destinada a permitir: é.habilitada.para"@pt
+	Annotations: bim:Chave "d.permitir.111"
+	Annotations: bim:Ação "Ação de permitir"@pt
+	Annotations: bim:Definição "Declara se o recurso é habilitado para uma determinada condição de operação. Por exemplo, se num porto pode atracar um determinado tipo de navio."@pt
+	Annotations: bim:Definición "Declara si el recurso está habilitado para cumplir uma condición de operacion. Por ejemplo, si en puerto puede atracar un determinado tipo de navio. ."@es
+	Annotations: bim:Definition "Declares whether the feature is enabled for a given operating condition. For example, if a certain type of ship can dock in a port."@en
+	EquivalentTo: bim:é.habilitado.para
+
+DataProperty: bim:d.permitir
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:habilitada.para
+	SubPropertyOf: bim:d.permitir
+	range: rdfs:Literal  or  xsd:string
+	Annotations: rdfs:label "Dado para permitir:  habilitada.para  Deve ser formatado como (rdfs:Literal  or  xsd:string)"@pt
+	Annotations: bim:Chave "d.permitir.111"
+	Annotations: bim:Ação "Ação de permitir"@pt
+	Annotations: bim:Definição "Declara se o recurso é habilitado para uma determinada condição de operação. Por exemplo, se num porto pode atracar um determinado tipo de navio."@pt
+	Annotations: bim:Definición "Declara si el recurso está habilitado para cumplir uma condición de operacion. Por ejemplo, si en puerto puede atracar un determinado tipo de navio. ."@es
+	Annotations: bim:Definition "Declares whether the feature is enabled for a given operating condition. For example, if a certain type of ship can dock in a port."@en
+
+ObjectProperty: bim:p.permitir
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.habilitado.para
+	SubPropertyOf: bim:p.permitir
+	domain: bim:BIM
+	Annotations: rdfs:label "Propriedade destinada a permitir: é.habilitado.para"@pt
+	Annotations: bim:Chave "d.permitir.112"
+	Annotations: bim:Ação "Ação de permitir"@pt
+	Annotations: bim:Definição "Declara se o recurso é habilitado para uma determinada condição de operação. Por exemplo, se num porto pode atracar um determinado tipo de navio."@pt
+	Annotations: bim:Definición "Declara si el recurso está habilitado para cumplir uma condición de operacion. Por ejemplo, si en puerto puede atracar un determinado tipo de navio. ."@es
+	Annotations: bim:Definition "Declares whether the feature is enabled for a given operating condition. For example, if a certain type of ship can dock in a port."@en
+	EquivalentTo: bim:é.habilitada.para
+
+DataProperty: bim:d.permitir
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:habilitado.para
+	SubPropertyOf: bim:d.permitir
+	range: rdfs:Literal  or  xsd:string
+	Annotations: rdfs:label "Dado para permitir:  habilitado.para  Deve ser formatado como (rdfs:Literal  or  xsd:string)"@pt
+	Annotations: bim:Chave "d.permitir.112"
+	Annotations: bim:Ação "Ação de permitir"@pt
+	Annotations: bim:Definição "Declara se o recurso é habilitado para uma determinada condição de operação. Por exemplo, se num porto pode atracar um determinado tipo de navio."@pt
+	Annotations: bim:Definición "Declara si el recurso está habilitado para cumplir uma condición de operacion. Por ejemplo, si en puerto puede atracar un determinado tipo de navio. ."@es
+	Annotations: bim:Definition "Declares whether the feature is enabled for a given operating condition. For example, if a certain type of ship can dock in a port."@en
+
+ObjectProperty: bim:p.permitir
+	SubPropertyOf: bim:BIMProp
+
+
+
 ObjectProperty: bim:é.habilitação.para
 	SubPropertyOf: bim:p.permitir
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a permitir: é.habilitação.para"@pt
-	Annotations: bim:Chave "d.permitir.111"
+	Annotations: bim:Chave "d.permitir.113"
 	Annotations: bim:Ação "Ação de permitir"@pt
 	Annotations: bim:Definição "Declara se o recurso é habilitado para uma determinada condição de operação. Por exemplo, se num porto pode atracar um determinado tipo de navio."@pt
 	Annotations: bim:Definición "Declara si el recurso está habilitado para cumplir uma condición de operacion. Por ejemplo, si en puerto puede atracar un determinado tipo de navio. ."@es
@@ -18125,7 +18497,7 @@ DataProperty: bim:habilitação.para
 	SubPropertyOf: bim:d.permitir
 	range: rdfs:Literal  or  xsd:string
 	Annotations: rdfs:label "Dado para permitir:  habilitação.para  Deve ser formatado como (rdfs:Literal  or  xsd:string)"@pt
-	Annotations: bim:Chave "d.permitir.111"
+	Annotations: bim:Chave "d.permitir.113"
 	Annotations: bim:Ação "Ação de permitir"@pt
 	Annotations: bim:Definição "Declara se o recurso é habilitado para uma determinada condição de operação. Por exemplo, se num porto pode atracar um determinado tipo de navio."@pt
 	Annotations: bim:Definición "Declara si el recurso está habilitado para cumplir uma condición de operacion. Por ejemplo, si en puerto puede atracar un determinado tipo de navio. ."@es
@@ -18140,7 +18512,7 @@ ObjectProperty: bim:é.homologada
 	SubPropertyOf: bim:p.permitir
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a permitir: é.homologada"@pt
-	Annotations: bim:Chave "d.permitir.112"
+	Annotations: bim:Chave "d.permitir.114"
 	Annotations: bim:Ação "Ação de permitir"@pt
 	Annotations: bim:Definição "Declara se o recurso tem a permissão homologada por autoridade competente."@pt
 	Annotations: bim:Definición "Declara si el recurso tiene permiso aprobado por una autoridad competente."@es
@@ -18156,7 +18528,7 @@ DataProperty: bim:homologada
 	SubPropertyOf: bim:d.permitir
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para permitir:  homologada  Deve ser formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "d.permitir.112"
+	Annotations: bim:Chave "d.permitir.114"
 	Annotations: bim:Ação "Ação de permitir"@pt
 	Annotations: bim:Definição "Declara se o recurso tem a permissão homologada por autoridade competente."@pt
 	Annotations: bim:Definición "Declara si el recurso tiene permiso aprobado por una autoridad competente."@es
@@ -18171,7 +18543,7 @@ ObjectProperty: bim:é.homologado
 	SubPropertyOf: bim:p.permitir
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a permitir: é.homologado"@pt
-	Annotations: bim:Chave "d.permitir.113"
+	Annotations: bim:Chave "d.permitir.115"
 	Annotations: bim:Ação "Ação de permitir"@pt
 	Annotations: bim:Definição "Declara se o recurso tem a permissão homologada por autoridade competente."@pt
 	Annotations: bim:Definición "Declara si el recurso tiene permiso aprobado por una autoridad competente."@es
@@ -18187,7 +18559,7 @@ DataProperty: bim:homologado
 	SubPropertyOf: bim:d.permitir
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para permitir:  homologado  Deve ser formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "d.permitir.113"
+	Annotations: bim:Chave "d.permitir.115"
 	Annotations: bim:Ação "Ação de permitir"@pt
 	Annotations: bim:Definição "Declara se o recurso tem a permissão homologada por autoridade competente."@pt
 	Annotations: bim:Definición "Declara si el recurso tiene permiso aprobado por una autoridad competente."@es
@@ -18202,7 +18574,7 @@ ObjectProperty: bim:é.indeferida
 	SubPropertyOf: bim:p.permitir
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a permitir: é.indeferida"@pt
-	Annotations: bim:Chave "d.permitir.115"
+	Annotations: bim:Chave "d.permitir.117"
 	Annotations: bim:Ação "Ação de permitir"@pt
 	Annotations: bim:Definição "Declara se o recurso tem a permissão indeferida."@pt
 	Annotations: bim:Definición "Declara si la apelación es denegada."@es
@@ -18219,7 +18591,7 @@ DataProperty: bim:indeferida
 	SubPropertyOf: bim:d.permitir
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para permitir:  indeferida  Deve ser formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "d.permitir.115"
+	Annotations: bim:Chave "d.permitir.117"
 	Annotations: bim:Ação "Ação de permitir"@pt
 	Annotations: bim:Definição "Declara se o recurso tem a permissão indeferida."@pt
 	Annotations: bim:Definición "Declara si la apelación es denegada."@es
@@ -18234,7 +18606,7 @@ ObjectProperty: bim:é.indeferido
 	SubPropertyOf: bim:p.permitir
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a permitir: é.indeferido"@pt
-	Annotations: bim:Chave "d.permitir.116"
+	Annotations: bim:Chave "d.permitir.118"
 	Annotations: bim:Ação "Ação de permitir"@pt
 	Annotations: bim:Definição "Declara se o recurso tem a permissão indeferida."@pt
 	Annotations: bim:Definición "Declara si la apelación es denegada."@es
@@ -18251,7 +18623,7 @@ DataProperty: bim:indeferido
 	SubPropertyOf: bim:d.permitir
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para permitir:  indeferido  Deve ser formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "d.permitir.116"
+	Annotations: bim:Chave "d.permitir.118"
 	Annotations: bim:Ação "Ação de permitir"@pt
 	Annotations: bim:Definição "Declara se o recurso tem a permissão indeferida."@pt
 	Annotations: bim:Definición "Declara si la apelación es denegada."@es
@@ -18266,7 +18638,7 @@ ObjectProperty: bim:é.permitida
 	SubPropertyOf: bim:p.permitir
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a permitir: é.permitida"@pt
-	Annotations: bim:Chave "d.permitir.118"
+	Annotations: bim:Chave "d.permitir.120"
 	Annotations: bim:Ação "Ação de permitir"@pt
 	Annotations: bim:Definição "Declara se o recurso tem uma permissão por autoridade competente."@pt
 	Annotations: bim:Definición "Declara si el recurso tiene un permiso de la autoridad competente."@es
@@ -18283,7 +18655,7 @@ DataProperty: bim:permitida
 	SubPropertyOf: bim:d.permitir
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para permitir:  permitida  Deve ser formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "d.permitir.118"
+	Annotations: bim:Chave "d.permitir.120"
 	Annotations: bim:Ação "Ação de permitir"@pt
 	Annotations: bim:Definição "Declara se o recurso tem uma permissão por autoridade competente."@pt
 	Annotations: bim:Definición "Declara si el recurso tiene un permiso de la autoridad competente."@es
@@ -18298,7 +18670,7 @@ ObjectProperty: bim:é.permitido
 	SubPropertyOf: bim:p.permitir
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a permitir: é.permitido"@pt
-	Annotations: bim:Chave "d.permitir.119"
+	Annotations: bim:Chave "d.permitir.121"
 	Annotations: bim:Ação "Ação de permitir"@pt
 	Annotations: bim:Definição "Declara se o recurso tem uma permissão por autoridade competente."@pt
 	Annotations: bim:Definición "Declara si el recurso tiene un permiso de la autoridad competente."@es
@@ -18315,7 +18687,7 @@ DataProperty: bim:permitido
 	SubPropertyOf: bim:d.permitir
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para permitir:  permitido  Deve ser formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "d.permitir.119"
+	Annotations: bim:Chave "d.permitir.121"
 	Annotations: bim:Ação "Ação de permitir"@pt
 	Annotations: bim:Definição "Declara se o recurso tem uma permissão por autoridade competente."@pt
 	Annotations: bim:Definición "Declara si el recurso tiene un permiso de la autoridad competente."@es
@@ -18330,7 +18702,7 @@ ObjectProperty: bim:é.proibida
 	SubPropertyOf: bim:p.permitir
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a permitir: é.proibida"@pt
-	Annotations: bim:Chave "d.permitir.120"
+	Annotations: bim:Chave "d.permitir.122"
 	Annotations: bim:Ação "Ação de permitir"@pt
 	Annotations: bim:Definição "Declara se o recurso tem a permissão proibida por autoridade competente."@pt
 	Annotations: bim:Definición "Declara si una autoridad competente prohíbe el permiso del recurso."@es
@@ -18345,7 +18717,7 @@ DataProperty: bim:proibida
 	SubPropertyOf: bim:d.permitir
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para permitir:  proibida  Deve ser formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "d.permitir.120"
+	Annotations: bim:Chave "d.permitir.122"
 	Annotations: bim:Ação "Ação de permitir"@pt
 	Annotations: bim:Definição "Declara se o recurso tem a permissão proibida por autoridade competente."@pt
 	Annotations: bim:Definición "Declara si una autoridad competente prohíbe el permiso del recurso."@es
@@ -18360,7 +18732,7 @@ ObjectProperty: bim:é.rejeitada
 	SubPropertyOf: bim:p.permitir
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a permitir: é.rejeitada"@pt
-	Annotations: bim:Chave "d.permitir.122"
+	Annotations: bim:Chave "d.permitir.124"
 	Annotations: bim:Ação "Ação de permitir"@pt
 	Annotations: bim:Definição "Declara se o recurso tem a permissão rejeitada."@pt
 	Annotations: bim:Definición "Declara si se rechaza el recurso."@es
@@ -18377,7 +18749,7 @@ DataProperty: bim:rejeitada
 	SubPropertyOf: bim:d.permitir
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para permitir:  rejeitada  Deve ser formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "d.permitir.122"
+	Annotations: bim:Chave "d.permitir.124"
 	Annotations: bim:Ação "Ação de permitir"@pt
 	Annotations: bim:Definição "Declara se o recurso tem a permissão rejeitada."@pt
 	Annotations: bim:Definición "Declara si se rechaza el recurso."@es
@@ -18392,7 +18764,7 @@ ObjectProperty: bim:é.rejeitado
 	SubPropertyOf: bim:p.permitir
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a permitir: é.rejeitado"@pt
-	Annotations: bim:Chave "d.permitir.123"
+	Annotations: bim:Chave "d.permitir.125"
 	Annotations: bim:Ação "Ação de permitir"@pt
 	Annotations: bim:Definição "Declara se o recurso tem a permissão rejeitada."@pt
 	Annotations: bim:Definición "Declara si se rechaza el recurso."@es
@@ -18409,7 +18781,7 @@ DataProperty: bim:rejeitado
 	SubPropertyOf: bim:d.permitir
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para permitir:  rejeitado  Deve ser formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "d.permitir.123"
+	Annotations: bim:Chave "d.permitir.125"
 	Annotations: bim:Ação "Ação de permitir"@pt
 	Annotations: bim:Definição "Declara se o recurso tem a permissão rejeitada."@pt
 	Annotations: bim:Definición "Declara si se rechaza el recurso."@es
@@ -18424,7 +18796,7 @@ ObjectProperty: bim:é.suspensa
 	SubPropertyOf: bim:p.permitir
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a permitir: é.suspensa"@pt
-	Annotations: bim:Chave "d.permitir.124"
+	Annotations: bim:Chave "d.permitir.126"
 	Annotations: bim:Ação "Ação de permitir"@pt
 	Annotations: bim:Definição "Declara se o recurso tem a permissão suspensa."@pt
 	Annotations: bim:Definición "Declara si el recurso tiene permiso suspendido."@es
@@ -18441,7 +18813,7 @@ DataProperty: bim:suspensa
 	SubPropertyOf: bim:d.permitir
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para permitir:  suspensa  Deve ser formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "d.permitir.124"
+	Annotations: bim:Chave "d.permitir.126"
 	Annotations: bim:Ação "Ação de permitir"@pt
 	Annotations: bim:Definição "Declara se o recurso tem a permissão suspensa."@pt
 	Annotations: bim:Definición "Declara si el recurso tiene permiso suspendido."@es
@@ -18456,7 +18828,7 @@ ObjectProperty: bim:é.suspenso
 	SubPropertyOf: bim:p.permitir
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a permitir: é.suspenso"@pt
-	Annotations: bim:Chave "d.permitir.125"
+	Annotations: bim:Chave "d.permitir.127"
 	Annotations: bim:Ação "Ação de permitir"@pt
 	Annotations: bim:Definição "Declara se o recurso tem a permissão suspensa."@pt
 	Annotations: bim:Definición "Declara si el recurso tiene permiso suspendido."@es
@@ -18473,7 +18845,7 @@ DataProperty: bim:suspenso
 	SubPropertyOf: bim:d.permitir
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para permitir:  suspenso  Deve ser formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "d.permitir.125"
+	Annotations: bim:Chave "d.permitir.127"
 	Annotations: bim:Ação "Ação de permitir"@pt
 	Annotations: bim:Definição "Declara se o recurso tem a permissão suspensa."@pt
 	Annotations: bim:Definición "Declara si el recurso tiene permiso suspendido."@es
@@ -23258,11 +23630,135 @@ ObjectProperty: bim:p.vistoriar
 
 
 
+ObjectProperty: bim:é.clausurada
+	SubPropertyOf: bim:p.vistoriar
+	domain: bim:BIM
+	Annotations: rdfs:label "Propriedade destinada a vistoriar: é.clausurada"@pt
+	Annotations: bim:Chave "d.vistoriar.101"
+	Annotations: bim:Ação "Ação de vistoriar"@pt
+	Annotations: bim:Definição "Declara que o objeto vistoriado é clausurado por presentar algum risco."@pt
+	Annotations: bim:Definición "Declara que el objeto inspeccionado está cerrado porque presenta un riesgo."@es
+	Annotations: bim:Definition "Declares that the object inspected is closed because it presents a risk."@en
+	EquivalentTo: bim:é.clausurado
+
+DataProperty: bim:d.vistoriar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:clausurada
+	SubPropertyOf: bim:d.vistoriar
+	range: xsd:boolean
+	Annotations: rdfs:label "Dado para vistoriar:  clausurada  Deve ser formatado como (xsd:boolean)"@pt
+	Annotations: bim:Chave "d.vistoriar.101"
+	Annotations: bim:Ação "Ação de vistoriar"@pt
+	Annotations: bim:Definição "Declara que o objeto vistoriado é clausurado por presentar algum risco."@pt
+	Annotations: bim:Definición "Declara que el objeto inspeccionado está cerrado porque presenta un riesgo."@es
+	Annotations: bim:Definition "Declares that the object inspected is closed because it presents a risk."@en
+
+ObjectProperty: bim:p.vistoriar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.clausurado
+	SubPropertyOf: bim:p.vistoriar
+	domain: bim:BIM
+	Annotations: rdfs:label "Propriedade destinada a vistoriar: é.clausurado"@pt
+	Annotations: bim:Chave "d.vistoriar.102"
+	Annotations: bim:Ação "Ação de vistoriar"@pt
+	Annotations: bim:Definição "Declara que o objeto vistoriado é clausurado por presentar algum risco."@pt
+	Annotations: bim:Definición "Declara que el objeto inspeccionado está cerrado porque presenta un riesgo."@es
+	Annotations: bim:Definition "Declares that the object inspected is closed because it presents a risk."@en
+	EquivalentTo: bim:é.clausurada
+
+DataProperty: bim:d.vistoriar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:clausurado
+	SubPropertyOf: bim:d.vistoriar
+	range: xsd:boolean
+	Annotations: rdfs:label "Dado para vistoriar:  clausurado  Deve ser formatado como (xsd:boolean)"@pt
+	Annotations: bim:Chave "d.vistoriar.102"
+	Annotations: bim:Ação "Ação de vistoriar"@pt
+	Annotations: bim:Definição "Declara que o objeto vistoriado é clausurado por presentar algum risco."@pt
+	Annotations: bim:Definición "Declara que el objeto inspeccionado está cerrado porque presenta un riesgo."@es
+	Annotations: bim:Definition "Declares that the object inspected is closed because it presents a risk."@en
+
+ObjectProperty: bim:p.vistoriar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.conservada
+	SubPropertyOf: bim:p.vistoriar
+	domain: bim:BIM
+	Annotations: rdfs:label "Propriedade destinada a vistoriar: é.conservada"@pt
+	Annotations: bim:Chave "d.vistoriar.104"
+	Annotations: bim:Ação "Ação de vistoriar"@pt
+	Annotations: bim:Definição "Declara o estado de conservação. Pode ser Bom, Médio, Precisa reparo, Precisa troca."@pt
+	Annotations: bim:Definición "Declara el estado de conservación. Puede ser bueno, medio, necesita reparación, necesita reemplazo."@es
+	Annotations: bim:Definition "Declares the state of conservation. It can be good, medium, needs repair, needs replacement."@en
+	EquivalentTo: bim:é.conservado
+
+DataProperty: bim:d.vistoriar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:conservada
+	SubPropertyOf: bim:d.vistoriar
+	range: xsd:boolean
+	Annotations: rdfs:label "Dado para vistoriar:  conservada  Deve ser formatado como (xsd:boolean)"@pt
+	Annotations: bim:Chave "d.vistoriar.104"
+	Annotations: bim:Ação "Ação de vistoriar"@pt
+	Annotations: bim:Definição "Declara o estado de conservação. Pode ser Bom, Médio, Precisa reparo, Precisa troca."@pt
+	Annotations: bim:Definición "Declara el estado de conservación. Puede ser bueno, medio, necesita reparación, necesita reemplazo."@es
+	Annotations: bim:Definition "Declares the state of conservation. It can be good, medium, needs repair, needs replacement."@en
+
+ObjectProperty: bim:p.vistoriar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.conservado
+	SubPropertyOf: bim:p.vistoriar
+	domain: bim:BIM
+	Annotations: rdfs:label "Propriedade destinada a vistoriar: é.conservado"@pt
+	Annotations: bim:Chave "d.vistoriar.105"
+	Annotations: bim:Ação "Ação de vistoriar"@pt
+	Annotations: bim:Definição "Declara o estado de conservação. Pode ser Bom, Médio, Precisa reparo, Precisa troca."@pt
+	Annotations: bim:Definición "Declara el estado de conservación. Puede ser bueno, medio, necesita reparación, necesita reemplazo."@es
+	Annotations: bim:Definition "Declares the state of conservation. It can be good, medium, needs repair, needs replacement."@en
+	EquivalentTo: bim:é.conservada
+
+DataProperty: bim:d.vistoriar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:conservado
+	SubPropertyOf: bim:d.vistoriar
+	range: xsd:boolean
+	Annotations: rdfs:label "Dado para vistoriar:  conservado  Deve ser formatado como (xsd:boolean)"@pt
+	Annotations: bim:Chave "d.vistoriar.105"
+	Annotations: bim:Ação "Ação de vistoriar"@pt
+	Annotations: bim:Definição "Declara o estado de conservação. Pode ser Bom, Médio, Precisa reparo, Precisa troca."@pt
+	Annotations: bim:Definición "Declara el estado de conservación. Puede ser bueno, medio, necesita reparación, necesita reemplazo."@es
+	Annotations: bim:Definition "Declares the state of conservation. It can be good, medium, needs repair, needs replacement."@en
+
+ObjectProperty: bim:p.vistoriar
+	SubPropertyOf: bim:BIMProp
+
+
+
 ObjectProperty: bim:é.drone
 	SubPropertyOf: bim:p.vistoriar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a vistoriar: é.drone"@pt
-	Annotations: bim:Chave "d.vistoriar.104"
+	Annotations: bim:Chave "d.vistoriar.106"
 	Annotations: bim:Ação "Ação de vistoriar"@pt
 	Annotations: bim:Definição "Declara a identificação do drone."@pt
 	Annotations: bim:Definición "Declara la identificación del dron."@es
@@ -23278,7 +23774,7 @@ DataProperty: bim:drone
 	SubPropertyOf: bim:d.vistoriar
 	range: rdfs:Literal  or  xsd:string
 	Annotations: rdfs:label "Dado para vistoriar:  drone  Deve ser formatado como (rdfs:Literal  or  xsd:string)"@pt
-	Annotations: bim:Chave "d.vistoriar.104"
+	Annotations: bim:Chave "d.vistoriar.106"
 	Annotations: bim:Ação "Ação de vistoriar"@pt
 	Annotations: bim:Definição "Declara a identificação do drone."@pt
 	Annotations: bim:Definición "Declara la identificación del dron."@es
@@ -23289,11 +23785,73 @@ ObjectProperty: bim:p.vistoriar
 
 
 
+ObjectProperty: bim:é.interditada
+	SubPropertyOf: bim:p.vistoriar
+	domain: bim:BIM
+	Annotations: rdfs:label "Propriedade destinada a vistoriar: é.interditada"@pt
+	Annotations: bim:Chave "d.vistoriar.108"
+	Annotations: bim:Ação "Ação de vistoriar"@pt
+	Annotations: bim:Definição "Declara que o objeto vistoriado está interditado."@pt
+	Annotations: bim:Definición "Declara que el objeto inspeccionado está prohibido."@es
+	Annotations: bim:Definition "Declares that the object inspected is interdicted."@en
+	EquivalentTo: bim:é.interditado
+
+DataProperty: bim:d.vistoriar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:interditada
+	SubPropertyOf: bim:d.vistoriar
+	range: xsd:boolean
+	Annotations: rdfs:label "Dado para vistoriar:  interditada  Deve ser formatado como (xsd:boolean)"@pt
+	Annotations: bim:Chave "d.vistoriar.108"
+	Annotations: bim:Ação "Ação de vistoriar"@pt
+	Annotations: bim:Definição "Declara que o objeto vistoriado está interditado."@pt
+	Annotations: bim:Definición "Declara que el objeto inspeccionado está prohibido."@es
+	Annotations: bim:Definition "Declares that the object inspected is interdicted."@en
+
+ObjectProperty: bim:p.vistoriar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.interditado
+	SubPropertyOf: bim:p.vistoriar
+	domain: bim:BIM
+	Annotations: rdfs:label "Propriedade destinada a vistoriar: é.interditado"@pt
+	Annotations: bim:Chave "d.vistoriar.109"
+	Annotations: bim:Ação "Ação de vistoriar"@pt
+	Annotations: bim:Definição "Declara que o objeto vistoriado está interditado."@pt
+	Annotations: bim:Definición "Declara que el objeto inspeccionado está prohibido."@es
+	Annotations: bim:Definition "Declares that the object inspected is interdicted."@en
+	EquivalentTo: bim:é.interditada
+
+DataProperty: bim:d.vistoriar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:interditado
+	SubPropertyOf: bim:d.vistoriar
+	range: xsd:boolean
+	Annotations: rdfs:label "Dado para vistoriar:  interditado  Deve ser formatado como (xsd:boolean)"@pt
+	Annotations: bim:Chave "d.vistoriar.109"
+	Annotations: bim:Ação "Ação de vistoriar"@pt
+	Annotations: bim:Definição "Declara que o objeto vistoriado está interditado."@pt
+	Annotations: bim:Definición "Declara que el objeto inspeccionado está prohibido."@es
+	Annotations: bim:Definition "Declares that the object inspected is interdicted."@en
+
+ObjectProperty: bim:p.vistoriar
+	SubPropertyOf: bim:BIMProp
+
+
+
 ObjectProperty: bim:é.uas
 	SubPropertyOf: bim:p.vistoriar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a vistoriar: é.uas"@pt
-	Annotations: bim:Chave "d.vistoriar.109"
+	Annotations: bim:Chave "d.vistoriar.112"
 	Annotations: bim:Ação "Ação de vistoriar"@pt
 	Annotations: bim:Definição "Declara a identificação de uma aeronave não tripulada. Denominação da ANAC e DECEA."@pt
 	Annotations: bim:Definición "Declara aeronaves no tripuladas. Denominación de ANAC y DECEA."@es
@@ -23309,7 +23867,7 @@ DataProperty: bim:uas
 	SubPropertyOf: bim:d.vistoriar
 	range: rdfs:Literal  or  xsd:string
 	Annotations: rdfs:label "Dado para vistoriar:  uas  Deve ser formatado como (rdfs:Literal  or  xsd:string)"@pt
-	Annotations: bim:Chave "d.vistoriar.109"
+	Annotations: bim:Chave "d.vistoriar.112"
 	Annotations: bim:Ação "Ação de vistoriar"@pt
 	Annotations: bim:Definição "Declara a identificação de uma aeronave não tripulada. Denominação da ANAC e DECEA."@pt
 	Annotations: bim:Definición "Declara aeronaves no tripuladas. Denominación de ANAC y DECEA."@es
@@ -23324,7 +23882,7 @@ ObjectProperty: bim:é.vant
 	SubPropertyOf: bim:p.vistoriar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a vistoriar: é.vant"@pt
-	Annotations: bim:Chave "d.vistoriar.110"
+	Annotations: bim:Chave "d.vistoriar.113"
 	Annotations: bim:Ação "Ação de vistoriar"@pt
 	Annotations: bim:Definição "Declara a identificação do veículo aéreo não tripulado."@pt
 	Annotations: bim:Definición "Declara la identificación del vehículo aéreo no tripulado."@es
@@ -23340,7 +23898,7 @@ DataProperty: bim:vant
 	SubPropertyOf: bim:d.vistoriar
 	range: rdfs:Literal  or  xsd:string
 	Annotations: rdfs:label "Dado para vistoriar:  vant  Deve ser formatado como (rdfs:Literal  or  xsd:string)"@pt
-	Annotations: bim:Chave "d.vistoriar.110"
+	Annotations: bim:Chave "d.vistoriar.113"
 	Annotations: bim:Ação "Ação de vistoriar"@pt
 	Annotations: bim:Definição "Declara a identificação do veículo aéreo não tripulado."@pt
 	Annotations: bim:Definición "Declara la identificación del vehículo aéreo no tripulado."@es
@@ -23418,5 +23976,5 @@ DataProperty: bim:zona.hvac
 
 #################################################################
 ##  Fim da Ontologia TUBOS
-##  Criada em 28/07/2026 12:30:21
+##  Criada em 29/07/2026 9:35:16
 #################################################################
