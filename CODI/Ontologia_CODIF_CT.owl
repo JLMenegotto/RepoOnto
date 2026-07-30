@@ -24,7 +24,7 @@ Ontology:  <https://github.com/JLMenegotto/RepoOnto#Códigos_do_CT>
   Annotations: rdfs:label "NormaReferência2: -"@pt
   Annotations: rdfs:label "NormaReferência3: -"@pt
   Annotations: rdfs:label "Observações: Conceitos de elementos de codificação interna do Centro de Tecnologia"@pt
-  Annotations: rdfs:label "DataHora: 30/07/2026 10:39:25"@pt
+  Annotations: rdfs:label "DataHora: 30/07/2026 11:56:50"@pt
   Annotations: rdfs:label "Advertência1: -"@pt
   Annotations: rdfs:label "Prédio: -"@pt
   Annotations: rdfs:label "Cidade: -"@pt
@@ -44060,5 +44060,5 @@ DataProperty: bim:zona.hvac
 
 #################################################################
 ##  Fim da Ontologia CODIF_CT
-##  Criada em 30/07/2026 10:39:27
+##  Criada em 30/07/2026 11:56:53
 #################################################################
