@@ -24,7 +24,7 @@ Ontology:  <https://github.com/JLMenegotto/RepoOnto#AVAC>
   Annotations: rdfs:label "NormaReferência2: -"@pt
   Annotations: rdfs:label "NormaReferência3: -"@pt
   Annotations: rdfs:label "Observações: Modelo de informação IFC 4x3 e Categorias Revit 2026"@pt
-  Annotations: rdfs:label "DataHora: 06/08/2026 11:59:27"@pt
+  Annotations: rdfs:label "DataHora: 06/08/2026 12:22:54"@pt
   Annotations: rdfs:label "Advertência: Traduções al español e inglês incorporadas. As traduções devem ser constantemente revisadas"@pt
   Annotations: rdfs:label "Aviso: Traducciones al español e inglés incorporadas. Las traducciones deben revisarse constantemente"@es
   Annotations: rdfs:label "Alert: Translations in Spanish and English incorporated. Translations must be constantly reviewed"@en
@@ -29089,5 +29089,5 @@ DataProperty: bim:zona.hvac
 
 #################################################################
 ##  Fim da Ontologia AVAC
-##  Criada em 06/08/2026 11:59:29
+##  Criada em 06/08/2026 12:22:56
 #################################################################
