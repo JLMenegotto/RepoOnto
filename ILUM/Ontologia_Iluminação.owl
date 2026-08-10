@@ -24,7 +24,7 @@ Ontology:  <https://github.com/JLMenegotto/RepoOnto#Objetos_de_Luminotécnica>
   Annotations: rdfs:label "NormaReferência2: -"@pt
   Annotations: rdfs:label "NormaReferência3: -"@pt
   Annotations: rdfs:label "Observações: Objetos de Iluminação"@pt
-  Annotations: rdfs:label "DataHora: 09/08/2026 13:12:25"@pt
+  Annotations: rdfs:label "DataHora: 10/08/2026 16:33:39"@pt
   Annotations: rdfs:label "Advertência1: Algumas traduções podem precisar de revisão - Traducción al español incorporada"@pt
   Annotations: rdfs:label "Prédio: -"@pt
   Annotations: rdfs:label "Cidade: -"@pt
@@ -92,87 +92,6 @@ Class: bim:Conceitos
 	SubClassOf: bim:BIM
 
 
-Class: bim:Gestão
-	Annotations: rdfs:label "Gestão"@pt
-	SubClassOf: bim:Conceitos
-
-
-Class: bim:Informação
-	Annotations: rdfs:label "Informação"@pt
-	SubClassOf: bim:Gestão
-
-
-Class: bim:Contêineres
-	Annotations: rdfs:label "Contêineres"@pt
-	SubClassOf: bim:Informação
-
-
-Class: bim:Contêiner
-	Annotations: rdfs:label "Contêiner"@pt
-	Annotations: bim:Definição "Define um contêiner de informação de acordo à norma NBR 19650-1. Definição do Projeto."@pt
-	Annotations: bim:Definición "Define un contenedor de información de acuerdo con la norma NBR 19650-1."@es
-	Annotations: bim:Definition "Defines an information container in accordance with the NBR 19650-1 standard. Project Definition."@en
-	Annotations: bim:Natureza "Gestão"@pt
-	Annotations: bim:Espécie "Informação"@pt
-	Annotations: bim:Tema "Contêineres"@pt
-	Annotations: bim:Disciplina "Instalações"@pt
-	Annotations: bim:Chave "Key-ILUM-2"
-	Annotations: bim:ABNT "[ 5I ]"
-	SubClassOf: bim:Contêineres
-
-
-Class: bim:Requisito.Espacial
-	Annotations: rdfs:label "Requisito Espacial"@pt
-	Annotations: bim:Definição "Define um contêiner de informação de acordo à norma NBR 19650-1. Requerimentos Espaciais para o Projeto."@pt
-	Annotations: bim:Definición "Define un contenedor de información de acuerdo con la norma NBR 19650-1."@es
-	Annotations: bim:Definition "Defines an information container in accordance with the NBR 19650-1 standard. Spatial Requirements for the Project."@en
-	Annotations: bim:Natureza "Gestão"@pt
-	Annotations: bim:Espécie "Informação"@pt
-	Annotations: bim:Tema "Contêineres"@pt
-	Annotations: bim:Disciplina "Instalações"@pt
-	Annotations: bim:Chave "Key-ILUM-3"
-	SubClassOf: bim:Contêineres
-
-
-Class: bim:Requisito.Mobiliário
-	Annotations: rdfs:label "Requisito Mobiliário"@pt
-	Annotations: bim:Definição "Define um contêiner de informação de acordo à norma NBR 19650-1. Requerimentos Mobiliários para o Projeto."@pt
-	Annotations: bim:Definición "Define un contenedor de información de acuerdo con la norma NBR 19650-1."@es
-	Annotations: bim:Definition "Defines an information container in accordance with the NBR 19650-1 standard. Furniture Requirements for the Project."@en
-	Annotations: bim:Natureza "Gestão"@pt
-	Annotations: bim:Espécie "Informação"@pt
-	Annotations: bim:Tema "Contêineres"@pt
-	Annotations: bim:Disciplina "Instalações"@pt
-	Annotations: bim:Chave "Key-ILUM-4"
-	SubClassOf: bim:Contêineres
-
-
-Class: bim:Requisito.Equipamento
-	Annotations: rdfs:label "Requisito Equipamento"@pt
-	Annotations: bim:Definição "Define um contêiner de informação de acordo à norma NBR 19650-1. Requerimentos Equipamentos para o Projeto."@pt
-	Annotations: bim:Definición "Define un contenedor de información de acuerdo con la norma NBR 19650-1."@es
-	Annotations: bim:Definition "Defines an information container in accordance with the NBR 19650-1 standard. Equipment Requirements for the Project."@en
-	Annotations: bim:Natureza "Gestão"@pt
-	Annotations: bim:Espécie "Informação"@pt
-	Annotations: bim:Tema "Contêineres"@pt
-	Annotations: bim:Disciplina "Instalações"@pt
-	Annotations: bim:Chave "Key-ILUM-5"
-	SubClassOf: bim:Contêineres
-
-
-Class: bim:Requisito.Sistemas
-	Annotations: rdfs:label "Requisito Sistemas"@pt
-	Annotations: bim:Definição "Define um contêiner de informação de acordo à norma NBR 19650-1. Requerimentos de Sistemas Prediais para o Projeto."@pt
-	Annotations: bim:Definición "Define un contenedor de información de acuerdo con la norma NBR 19650-1."@es
-	Annotations: bim:Definition "Defines an information container in accordance with the NBR 19650-1 standard. Building Systems Requirements for the Project."@en
-	Annotations: bim:Natureza "Gestão"@pt
-	Annotations: bim:Espécie "Informação"@pt
-	Annotations: bim:Tema "Contêineres"@pt
-	Annotations: bim:Disciplina "Instalações"@pt
-	Annotations: bim:Chave "Key-ILUM-6"
-	SubClassOf: bim:Contêineres
-
-
 Class: bim:LuminoTécnicos
 	Annotations: rdfs:label "LuminoTécnicos"@pt
 	SubClassOf: bim:Conceitos
@@ -197,7 +116,7 @@ Class: bim:Circuito.Luz.Geral
 	Annotations: bim:Espécie "Sistemas.Elétricos"@pt
 	Annotations: bim:Tema "Sistemas.de.Iluminação"@pt
 	Annotations: bim:Disciplina "Instalações"@pt
-	Annotations: bim:Chave "Key-ILUM-7"
+	Annotations: bim:Chave "Key-ILUM-2"
 	Annotations: bim:CatRevit "[ OST_SwitchSystem ]"
 	Annotations: bim:ClasseIfc "[ IfcDistributionSystemLIGHTING ]"
 	Annotations: bim:ABNT "[ 3E.26 ]"
@@ -213,7 +132,7 @@ Class: bim:Circuito.Luz.Emergência
 	Annotations: bim:Espécie "Sistemas.Elétricos"@pt
 	Annotations: bim:Tema "Sistemas.de.Iluminação"@pt
 	Annotations: bim:Disciplina "Instalações"@pt
-	Annotations: bim:Chave "Key-ILUM-8"
+	Annotations: bim:Chave "Key-ILUM-3"
 	Annotations: bim:CatRevit "[ OST_SwitchSystem ]"
 	Annotations: bim:ClasseIfc "[ IfcDistributionSystemLIGHTING ]"
 	Annotations: bim:ABNT "[ 3E.26 ]"
@@ -239,9 +158,9 @@ Class: bim:Luz.Aletas
 	Annotations: bim:Espécie "Iluminação"@pt
 	Annotations: bim:Tema "Luminárias"@pt
 	Annotations: bim:Disciplina "Instalações"@pt
-	Annotations: bim:Chave "Key-ILUM-9"
+	Annotations: bim:Chave "Key-ILUM-4"
 	Annotations: bim:CatRevit "[ OST_LightingFixtures ]"
-	Annotations: bim:ClasseIfc "[ IfcLamp , IfcLightFixture ]"
+	Annotations: bim:ClasseIfc "[ IfcLamp : IfcLightFixture ]"
 	Annotations: bim:ABNT "[ 3E.28.02 ]"
 	SubClassOf: bim:Luminária
 
@@ -255,9 +174,9 @@ Class: bim:Luz.Antiofuscamento
 	Annotations: bim:Espécie "Iluminação"@pt
 	Annotations: bim:Tema "Luminárias"@pt
 	Annotations: bim:Disciplina "Instalações"@pt
-	Annotations: bim:Chave "Key-ILUM-10"
+	Annotations: bim:Chave "Key-ILUM-5"
 	Annotations: bim:CatRevit "[ OST_LightingFixtures ]"
-	Annotations: bim:ClasseIfc "[ IfcLamp , IfcLightFixture ]"
+	Annotations: bim:ClasseIfc "[ IfcLamp : IfcLightFixture ]"
 	Annotations: bim:ABNT "[ 3E.28.02 ]"
 	SubClassOf: bim:Luminária
 
@@ -271,9 +190,9 @@ Class: bim:Luz.Arandela
 	Annotations: bim:Espécie "Iluminação"@pt
 	Annotations: bim:Tema "Luminárias"@pt
 	Annotations: bim:Disciplina "Instalações"@pt
-	Annotations: bim:Chave "Key-ILUM-11"
+	Annotations: bim:Chave "Key-ILUM-6"
 	Annotations: bim:CatRevit "[ OST_LightingFixtures ]"
-	Annotations: bim:ClasseIfc "[ IfcLamp , IfcLightFixture ]"
+	Annotations: bim:ClasseIfc "[ IfcLamp : IfcLightFixture ]"
 	Annotations: bim:ABNT "[ 3E.28.02 ]"
 	SubClassOf: bim:Luminária
 
@@ -287,9 +206,9 @@ Class: bim:Luz.Baliza
 	Annotations: bim:Espécie "Iluminação"@pt
 	Annotations: bim:Tema "Luminárias"@pt
 	Annotations: bim:Disciplina "Instalações"@pt
-	Annotations: bim:Chave "Key-ILUM-12"
+	Annotations: bim:Chave "Key-ILUM-7"
 	Annotations: bim:CatRevit "[ OST_LightingFixtures ]"
-	Annotations: bim:ClasseIfc "[ IfcLamp , IfcLightFixture ]"
+	Annotations: bim:ClasseIfc "[ IfcLamp : IfcLightFixture ]"
 	Annotations: bim:ABNT "[ 3E.28.02 ]"
 	SubClassOf: bim:Luminária
 
@@ -303,9 +222,9 @@ Class: bim:Luz.Difusa
 	Annotations: bim:Espécie "Iluminação"@pt
 	Annotations: bim:Tema "Luminárias"@pt
 	Annotations: bim:Disciplina "Instalações"@pt
-	Annotations: bim:Chave "Key-ILUM-13"
+	Annotations: bim:Chave "Key-ILUM-8"
 	Annotations: bim:CatRevit "[ OST_LightingFixtures ]"
-	Annotations: bim:ClasseIfc "[ IfcLamp , IfcLightFixture ]"
+	Annotations: bim:ClasseIfc "[ IfcLamp : IfcLightFixture ]"
 	Annotations: bim:ABNT "[ 3E.28.02 ]"
 	SubClassOf: bim:Luminária
 
@@ -319,9 +238,9 @@ Class: bim:Luz.Embutida.Fixa
 	Annotations: bim:Espécie "Iluminação"@pt
 	Annotations: bim:Tema "Luminárias"@pt
 	Annotations: bim:Disciplina "Instalações"@pt
-	Annotations: bim:Chave "Key-ILUM-14"
+	Annotations: bim:Chave "Key-ILUM-9"
 	Annotations: bim:CatRevit "[ OST_LightingFixtures ]"
-	Annotations: bim:ClasseIfc "[ IfcLamp , IfcLightFixture ]"
+	Annotations: bim:ClasseIfc "[ IfcLamp : IfcLightFixture ]"
 	Annotations: bim:ABNT "[ 3E.28.02 ]"
 	SubClassOf: bim:Luminária
 
@@ -335,9 +254,9 @@ Class: bim:Luz.Embutida.Orientável
 	Annotations: bim:Espécie "Iluminação"@pt
 	Annotations: bim:Tema "Luminárias"@pt
 	Annotations: bim:Disciplina "Instalações"@pt
-	Annotations: bim:Chave "Key-ILUM-15"
+	Annotations: bim:Chave "Key-ILUM-10"
 	Annotations: bim:CatRevit "[ OST_LightingFixtures ]"
-	Annotations: bim:ClasseIfc "[ IfcLamp , IfcLightFixture ]"
+	Annotations: bim:ClasseIfc "[ IfcLamp : IfcLightFixture ]"
 	Annotations: bim:ABNT "[ 3E.28.02 ]"
 	SubClassOf: bim:Luminária
 
@@ -351,9 +270,9 @@ Class: bim:Luz.Externa
 	Annotations: bim:Espécie "Iluminação"@pt
 	Annotations: bim:Tema "Luminárias"@pt
 	Annotations: bim:Disciplina "Instalações"@pt
-	Annotations: bim:Chave "Key-ILUM-16"
+	Annotations: bim:Chave "Key-ILUM-11"
 	Annotations: bim:CatRevit "[ OST_LightingFixtures ]"
-	Annotations: bim:ClasseIfc "[ IfcLamp , IfcLightFixture ]"
+	Annotations: bim:ClasseIfc "[ IfcLamp : IfcLightFixture ]"
 	Annotations: bim:ABNT "[ 3E.28.02 ]"
 	SubClassOf: bim:Luminária
 
@@ -367,9 +286,9 @@ Class: bim:Luz.Externa.Urbana
 	Annotations: bim:Espécie "Iluminação"@pt
 	Annotations: bim:Tema "Luminárias"@pt
 	Annotations: bim:Disciplina "Instalações"@pt
-	Annotations: bim:Chave "Key-ILUM-17"
+	Annotations: bim:Chave "Key-ILUM-12"
 	Annotations: bim:CatRevit "[ OST_LightingFixtures ]"
-	Annotations: bim:ClasseIfc "[ IfcLamp , IfcLightFixture ]"
+	Annotations: bim:ClasseIfc "[ IfcLamp : IfcLightFixture ]"
 	Annotations: bim:ABNT "[ 3E.28.02 ]"
 	SubClassOf: bim:Luminária
 
@@ -383,9 +302,9 @@ Class: bim:Luz.Feixe.Amplo
 	Annotations: bim:Espécie "Iluminação"@pt
 	Annotations: bim:Tema "Luminárias"@pt
 	Annotations: bim:Disciplina "Instalações"@pt
-	Annotations: bim:Chave "Key-ILUM-18"
+	Annotations: bim:Chave "Key-ILUM-13"
 	Annotations: bim:CatRevit "[ OST_LightingFixtures ]"
-	Annotations: bim:ClasseIfc "[ IfcLamp , IfcLightFixture ]"
+	Annotations: bim:ClasseIfc "[ IfcLamp : IfcLightFixture ]"
 	Annotations: bim:ABNT "[ 3E.28.02 ]"
 	SubClassOf: bim:Luminária
 
@@ -399,9 +318,9 @@ Class: bim:Luz.Gôndola
 	Annotations: bim:Espécie "Iluminação"@pt
 	Annotations: bim:Tema "Luminárias"@pt
 	Annotations: bim:Disciplina "Instalações"@pt
-	Annotations: bim:Chave "Key-ILUM-19"
+	Annotations: bim:Chave "Key-ILUM-14"
 	Annotations: bim:CatRevit "[ OST_LightingFixtures ]"
-	Annotations: bim:ClasseIfc "[ IfcLamp , IfcLightFixture ]"
+	Annotations: bim:ClasseIfc "[ IfcLamp : IfcLightFixture ]"
 	Annotations: bim:ABNT "[ 3E.28.02 ]"
 	SubClassOf: bim:Luminária
 
@@ -415,9 +334,9 @@ Class: bim:Luz.Grande.Altura
 	Annotations: bim:Espécie "Iluminação"@pt
 	Annotations: bim:Tema "Luminárias"@pt
 	Annotations: bim:Disciplina "Instalações"@pt
-	Annotations: bim:Chave "Key-ILUM-20"
+	Annotations: bim:Chave "Key-ILUM-15"
 	Annotations: bim:CatRevit "[ OST_LightingFixtures ]"
-	Annotations: bim:ClasseIfc "[ IfcLamp , IfcLightFixture ]"
+	Annotations: bim:ClasseIfc "[ IfcLamp : IfcLightFixture ]"
 	Annotations: bim:ABNT "[ 3E.28.02 ]"
 	SubClassOf: bim:Luminária
 
@@ -431,9 +350,9 @@ Class: bim:Luz.Hermética
 	Annotations: bim:Espécie "Iluminação"@pt
 	Annotations: bim:Tema "Luminárias"@pt
 	Annotations: bim:Disciplina "Instalações"@pt
-	Annotations: bim:Chave "Key-ILUM-21"
+	Annotations: bim:Chave "Key-ILUM-16"
 	Annotations: bim:CatRevit "[ OST_LightingFixtures ]"
-	Annotations: bim:ClasseIfc "[ IfcLamp , IfcLightFixture ]"
+	Annotations: bim:ClasseIfc "[ IfcLamp : IfcLightFixture ]"
 	Annotations: bim:ABNT "[ 3E.28.02 ]"
 	SubClassOf: bim:Luminária
 
@@ -447,9 +366,9 @@ Class: bim:Luz.LEDFita
 	Annotations: bim:Espécie "Iluminação"@pt
 	Annotations: bim:Tema "Luminárias"@pt
 	Annotations: bim:Disciplina "Instalações"@pt
-	Annotations: bim:Chave "Key-ILUM-22"
+	Annotations: bim:Chave "Key-ILUM-17"
 	Annotations: bim:CatRevit "[ OST_LightingFixtures ]"
-	Annotations: bim:ClasseIfc "[ IfcLamp , IfcLampLED ]"
+	Annotations: bim:ClasseIfc "[ IfcLamp : IfcLampLED ]"
 	Annotations: bim:ABNT "[ 3E.28.02 ]"
 	SubClassOf: bim:Luminária
 
@@ -463,9 +382,9 @@ Class: bim:Luz.LEDTubular
 	Annotations: bim:Espécie "Iluminação"@pt
 	Annotations: bim:Tema "Luminárias"@pt
 	Annotations: bim:Disciplina "Instalações"@pt
-	Annotations: bim:Chave "Key-ILUM-23"
+	Annotations: bim:Chave "Key-ILUM-18"
 	Annotations: bim:CatRevit "[ OST_LightingFixtures ]"
-	Annotations: bim:ClasseIfc "[ IfcLamp , IfcLampLED ]"
+	Annotations: bim:ClasseIfc "[ IfcLamp : IfcLampLED ]"
 	Annotations: bim:ABNT "[ 3E.28.02 ]"
 	SubClassOf: bim:Luminária
 
@@ -479,9 +398,9 @@ Class: bim:Luz.TuboFluorescente
 	Annotations: bim:Espécie "Iluminação"@pt
 	Annotations: bim:Tema "Luminárias"@pt
 	Annotations: bim:Disciplina "Instalações"@pt
-	Annotations: bim:Chave "Key-ILUM-24"
+	Annotations: bim:Chave "Key-ILUM-19"
 	Annotations: bim:CatRevit "[ OST_LightingFixtures ]"
-	Annotations: bim:ClasseIfc "[ IfcLamp , IfcLightFixture ]"
+	Annotations: bim:ClasseIfc "[ IfcLamp : IfcLightFixture ]"
 	Annotations: bim:ABNT "[ 3E.28.02 ]"
 	SubClassOf: bim:Luminária
 
@@ -495,9 +414,9 @@ Class: bim:Luz.Linear
 	Annotations: bim:Espécie "Iluminação"@pt
 	Annotations: bim:Tema "Luminárias"@pt
 	Annotations: bim:Disciplina "Instalações"@pt
-	Annotations: bim:Chave "Key-ILUM-25"
+	Annotations: bim:Chave "Key-ILUM-20"
 	Annotations: bim:CatRevit "[ OST_LightingFixtures ]"
-	Annotations: bim:ClasseIfc "[ IfcLamp , IfcLightFixture ]"
+	Annotations: bim:ClasseIfc "[ IfcLamp : IfcLightFixture ]"
 	Annotations: bim:ABNT "[ 3E.28.02 ]"
 	SubClassOf: bim:Luminária
 
@@ -511,9 +430,9 @@ Class: bim:Luz.Painel
 	Annotations: bim:Espécie "Iluminação"@pt
 	Annotations: bim:Tema "Luminárias"@pt
 	Annotations: bim:Disciplina "Instalações"@pt
-	Annotations: bim:Chave "Key-ILUM-26"
+	Annotations: bim:Chave "Key-ILUM-21"
 	Annotations: bim:CatRevit "[ OST_LightingFixtures ]"
-	Annotations: bim:ClasseIfc "[ IfcLamp , IfcLightFixture ]"
+	Annotations: bim:ClasseIfc "[ IfcLamp : IfcLightFixture ]"
 	Annotations: bim:ABNT "[ 3E.28.02 ]"
 	SubClassOf: bim:Luminária
 
@@ -527,9 +446,9 @@ Class: bim:Luz.Pendente
 	Annotations: bim:Espécie "Iluminação"@pt
 	Annotations: bim:Tema "Luminárias"@pt
 	Annotations: bim:Disciplina "Instalações"@pt
-	Annotations: bim:Chave "Key-ILUM-27"
+	Annotations: bim:Chave "Key-ILUM-22"
 	Annotations: bim:CatRevit "[ OST_LightingFixtures ]"
-	Annotations: bim:ClasseIfc "[ IfcLamp , IfcLightFixture ]"
+	Annotations: bim:ClasseIfc "[ IfcLamp : IfcLightFixture ]"
 	Annotations: bim:ABNT "[ 3E.28.02 ]"
 	SubClassOf: bim:Luminária
 
@@ -543,9 +462,9 @@ Class: bim:Luz.Plafon
 	Annotations: bim:Espécie "Iluminação"@pt
 	Annotations: bim:Tema "Luminárias"@pt
 	Annotations: bim:Disciplina "Instalações"@pt
-	Annotations: bim:Chave "Key-ILUM-28"
+	Annotations: bim:Chave "Key-ILUM-23"
 	Annotations: bim:CatRevit "[ OST_LightingFixtures ]"
-	Annotations: bim:ClasseIfc "[ IfcLamp , IfcLightFixture ]"
+	Annotations: bim:ClasseIfc "[ IfcLamp : IfcLightFixture ]"
 	Annotations: bim:ABNT "[ 3E.28.02 ]"
 	SubClassOf: bim:Luminária
 
@@ -559,9 +478,9 @@ Class: bim:Luz.Sensorizada
 	Annotations: bim:Espécie "Iluminação"@pt
 	Annotations: bim:Tema "Luminárias"@pt
 	Annotations: bim:Disciplina "Instalações"@pt
-	Annotations: bim:Chave "Key-ILUM-29"
+	Annotations: bim:Chave "Key-ILUM-24"
 	Annotations: bim:CatRevit "[ OST_LightingFixtures ]"
-	Annotations: bim:ClasseIfc "[ IfcLamp , IfcLightFixture ]"
+	Annotations: bim:ClasseIfc "[ IfcLamp : IfcLightFixture ]"
 	Annotations: bim:ABNT "[ 3E.28.02 ]"
 	SubClassOf: bim:Luminária
 
@@ -575,9 +494,9 @@ Class: bim:Luz.Spot
 	Annotations: bim:Espécie "Iluminação"@pt
 	Annotations: bim:Tema "Luminárias"@pt
 	Annotations: bim:Disciplina "Instalações"@pt
-	Annotations: bim:Chave "Key-ILUM-30"
+	Annotations: bim:Chave "Key-ILUM-25"
 	Annotations: bim:CatRevit "[ OST_LightingFixtures ]"
-	Annotations: bim:ClasseIfc "[ IfcLamp , IfcLightFixturePOINTSOURCE ]"
+	Annotations: bim:ClasseIfc "[ IfcLamp : IfcLightFixturePOINTSOURCE ]"
 	Annotations: bim:ABNT "[ 3E.28.02 ]"
 	SubClassOf: bim:Luminária
 
@@ -591,9 +510,9 @@ Class: bim:Luz.Trilho
 	Annotations: bim:Espécie "Iluminação"@pt
 	Annotations: bim:Tema "Luminárias"@pt
 	Annotations: bim:Disciplina "Instalações"@pt
-	Annotations: bim:Chave "Key-ILUM-31"
+	Annotations: bim:Chave "Key-ILUM-26"
 	Annotations: bim:CatRevit "[ OST_LightingFixtures ]"
-	Annotations: bim:ClasseIfc "[ IfcLamp , IfcLightFixture ]"
+	Annotations: bim:ClasseIfc "[ IfcLamp : IfcLightFixture ]"
 	Annotations: bim:ABNT "[ 3E.28.02 ]"
 	SubClassOf: bim:Luminária
 
@@ -612,7 +531,7 @@ Class: bim:Acessório.Luz
 	Annotations: bim:Espécie "Iluminação"@pt
 	Annotations: bim:Tema "Luminárias"@pt
 	Annotations: bim:Disciplina "Instalações"@pt
-	Annotations: bim:Chave "Key-ILUM-32"
+	Annotations: bim:Chave "Key-ILUM-27"
 	Annotations: bim:CatRevit "[ OST_LightingFixtures ]"
 	Annotations: bim:ClasseIfc "[ IfcDiscreteAccessory ]"
 	Annotations: bim:ABNT "[ 3E.28.02 ]"
@@ -633,7 +552,7 @@ Class: bim:Ponto.Iluminado
 	Annotations: bim:Espécie "Análise"@pt
 	Annotations: bim:Tema "Analítico.de.Luz"@pt
 	Annotations: bim:Disciplina "Instalações"@pt
-	Annotations: bim:Chave "Key-ILUM-33"
+	Annotations: bim:Chave "Key-ILUM-28"
 	SubClassOf: bim:Analítico.de.Luz
 
 
@@ -646,7 +565,7 @@ Class: bim:Linha.Iluminada
 	Annotations: bim:Espécie "Análise"@pt
 	Annotations: bim:Tema "Analítico.de.Luz"@pt
 	Annotations: bim:Disciplina "Instalações"@pt
-	Annotations: bim:Chave "Key-ILUM-34"
+	Annotations: bim:Chave "Key-ILUM-29"
 	SubClassOf: bim:Analítico.de.Luz
 
 
@@ -659,7 +578,7 @@ Class: bim:Area.Iluminada
 	Annotations: bim:Espécie "Análise"@pt
 	Annotations: bim:Tema "Analítico.de.Luz"@pt
 	Annotations: bim:Disciplina "Instalações"@pt
-	Annotations: bim:Chave "Key-ILUM-35"
+	Annotations: bim:Chave "Key-ILUM-30"
 	SubClassOf: bim:Analítico.de.Luz
 
 #################################################################
@@ -667,40 +586,40 @@ Class: bim:Area.Iluminada
 #################################################################
 
 Individual: bim:CTI_Projeto_01
-	Types: bim:Contêiner
-	Facts: bim:descrição  "Conteiner Superior que representa Informações contidas no Projeto Específico 01"
+	Types: bim:LuminoTécnicos
+	Facts: bim:descrição  "Informações contidas no Projeto de Luminotécnica"
 
 Individual: bim:Sis_Luz_01
 	Types: bim:Circuito.Luz.Geral
 	Facts: bim:é.dentro.de  bim:CTI_Projeto_01
 	Facts: bim:descrição  "Indivíduo de Sistema de Iluminação usado no Projeto"
 	Facts: bim:descrição  "Circuito de iluminação 1"
-	Facts: bim:classe.ifc  "IfcDistributionSystemLIGHTING"
-	Facts: bim:categoria.revit  "OST_SwitchSystem"
+	Facts: bim:categoria.revit  "[ OST_SwitchSystem ]"
+	Facts: bim:classe.ifc  "[ IfcDistributionSystemLIGHTING ]"
 
 Individual: bim:Sis_Luz_02
 	Types: bim:Circuito.Luz.Geral
 	Facts: bim:é.dentro.de  bim:CTI_Projeto_01
 	Facts: bim:descrição  "Indivíduo de Sistema de Iluminação usado no Projeto"
 	Facts: bim:descrição  "Circuito de iluminação 2"
-	Facts: bim:classe.ifc  "IfcDistributionSystemLIGHTING"
-	Facts: bim:categoria.revit  "OST_SwitchSystem"
+	Facts: bim:categoria.revit  "[ OST_SwitchSystem ]"
+	Facts: bim:classe.ifc  "[ IfcDistributionSystemLIGHTING ]"
 
 Individual: bim:Lumi_Escada
 	Types: bim:Circuito.Luz.Geral
 	Facts: bim:é.pertencente.a  bim:Sis_Luz_01
 	Facts: bim:descrição  "Indivíduo de Iluminação que representa a luz de uma Escada do projeto"
 	Facts: bim:descrição  "A Escada de acesso"
-	Facts: bim:classe.ifc  "IfcDistributionSystemLIGHTING"
-	Facts: bim:categoria.revit  "OST_SwitchSystem"
+	Facts: bim:categoria.revit  "[ OST_SwitchSystem ]"
+	Facts: bim:classe.ifc  "[ IfcDistributionSystemLIGHTING ]"
 
 Individual: bim:Lumi_Sala_A
 	Types: bim:Circuito.Luz.Geral
 	Facts: bim:é.pertencente.a  bim:Sis_Luz_02
 	Facts: bim:descrição  "Indivíduo de Iluminação que representa a luz de uma Sala do projeto"
 	Facts: bim:descrição  "A Sala de recepção"
-	Facts: bim:classe.ifc  "IfcDistributionSystemLIGHTING"
-	Facts: bim:categoria.revit  "OST_SwitchSystem"
+	Facts: bim:categoria.revit  "[ OST_SwitchSystem ]"
+	Facts: bim:classe.ifc  "[ IfcDistributionSystemLIGHTING ]"
 
 Individual: bim:Lum_111233
 	Types: bim:Luz.Arandela
@@ -709,9 +628,9 @@ Individual: bim:Lum_111233
 	Facts: bim:quem.fabricou  "Lumicenter Lighting"
 	Facts: bim:modelo  "AR93-S"
 	Facts: bim:quem.forneceu  "Nome da empresa vendedora do produto."
+	Facts: bim:categoria.revit  "[ OST_LightingDevices ]"
+	Facts: bim:classe.ifc  "[ IfcLamp ]"
 	Facts: bim:código.abnt  "[ 3E.28.02 ]"
-	Facts: bim:classe.ifc  "IfcLamp"
-	Facts: bim:categoria.revit  "OST_LightingDevices"
 
 Individual: bim:Lum_111234
 	Types: bim:Luz.Arandela
@@ -720,9 +639,9 @@ Individual: bim:Lum_111234
 	Facts: bim:quem.fabricou  "Lumicenter Lighting"
 	Facts: bim:modelo  "AR93-S"
 	Facts: bim:quem.forneceu  "Nome da empresa vendedora do produto."
+	Facts: bim:categoria.revit  "[ OST_LightingDevices ]"
+	Facts: bim:classe.ifc  "[ IfcLamp ]"
 	Facts: bim:código.abnt  "[ 3E.28.02 ]"
-	Facts: bim:classe.ifc  "IfcLamp"
-	Facts: bim:categoria.revit  "OST_LightingDevices"
 
 Individual: bim:Lum_111235
 	Types: bim:Luz.Arandela
@@ -731,9 +650,9 @@ Individual: bim:Lum_111235
 	Facts: bim:quem.fabricou  "Lumicenter Lighting"
 	Facts: bim:modelo  "AR93-S"
 	Facts: bim:quem.forneceu  "Nome da empresa vendedora do produto."
+	Facts: bim:categoria.revit  "[ OST_LightingDevices ]"
+	Facts: bim:classe.ifc  "[ IfcLamp ]"
 	Facts: bim:código.abnt  "[ 3E.28.02 ]"
-	Facts: bim:classe.ifc  "IfcLamp"
-	Facts: bim:categoria.revit  "OST_LightingDevices"
 
 Individual: bim:Lum_111236
 	Types: bim:Luz.Arandela
@@ -742,9 +661,9 @@ Individual: bim:Lum_111236
 	Facts: bim:quem.fabricou  "Lumicenter Lighting"
 	Facts: bim:modelo  "AR93-S"
 	Facts: bim:quem.forneceu  "Nome da empresa vendedora do produto."
+	Facts: bim:categoria.revit  "[ OST_LightingDevices ]"
+	Facts: bim:classe.ifc  "[ IfcLamp ]"
 	Facts: bim:código.abnt  "[ 3E.28.02 ]"
-	Facts: bim:classe.ifc  "IfcLamp"
-	Facts: bim:categoria.revit  "OST_LightingDevices"
 
 Individual: bim:Lum_333324
 	Types: bim:Luz.Baliza
@@ -753,9 +672,9 @@ Individual: bim:Lum_333324
 	Facts: bim:quem.fabricou  "Lumicenter Lighting"
 	Facts: bim:modelo  "BZ48-E"
 	Facts: bim:quem.forneceu  "Nome da empresa vendedora do produto."
+	Facts: bim:categoria.revit  "[ OST_LightingDevices ]"
+	Facts: bim:classe.ifc  "[ IfcLamp ]"
 	Facts: bim:código.abnt  "[ 3E.28.02 ]"
-	Facts: bim:classe.ifc  "IfcLamp"
-	Facts: bim:categoria.revit  "OST_LightingDevices"
 
 Individual: bim:Lum_333325
 	Types: bim:Luz.Baliza
@@ -764,9 +683,9 @@ Individual: bim:Lum_333325
 	Facts: bim:quem.fabricou  "Lumicenter Lighting"
 	Facts: bim:modelo  "BZ48-E"
 	Facts: bim:quem.forneceu  "Nome da empresa vendedora do produto."
+	Facts: bim:categoria.revit  "[ OST_LightingDevices ]"
+	Facts: bim:classe.ifc  "[ IfcLamp ]"
 	Facts: bim:código.abnt  "[ 3E.28.02 ]"
-	Facts: bim:classe.ifc  "IfcLamp"
-	Facts: bim:categoria.revit  "OST_LightingDevices"
 
 Individual: bim:Lum_333326
 	Types: bim:Luz.Baliza
@@ -775,9 +694,9 @@ Individual: bim:Lum_333326
 	Facts: bim:quem.fabricou  "Lumicenter Lighting"
 	Facts: bim:modelo  "BZ48-E"
 	Facts: bim:quem.forneceu  "Nome da empresa vendedora do produto."
+	Facts: bim:categoria.revit  "[ OST_LightingDevices ]"
+	Facts: bim:classe.ifc  "[ IfcLamp ]"
 	Facts: bim:código.abnt  "[ 3E.28.02 ]"
-	Facts: bim:classe.ifc  "IfcLamp"
-	Facts: bim:categoria.revit  "OST_LightingDevices"
 
 Individual: bim:Lum_333327
 	Types: bim:Luz.Baliza
@@ -786,9 +705,9 @@ Individual: bim:Lum_333327
 	Facts: bim:quem.fabricou  "Lumicenter Lighting"
 	Facts: bim:modelo  "BZ48-E"
 	Facts: bim:quem.forneceu  "Nome da empresa vendedora do produto."
+	Facts: bim:categoria.revit  "[ OST_LightingDevices ]"
+	Facts: bim:classe.ifc  "[ IfcLamp ]"
 	Facts: bim:código.abnt  "[ 3E.28.02 ]"
-	Facts: bim:classe.ifc  "IfcLamp"
-	Facts: bim:categoria.revit  "OST_LightingDevices"
 
 #################################################################
 #     Propriedades de Objetos e Dados em Sintaxe Manchester      
@@ -28845,5 +28764,5 @@ DataProperty: bim:zona.hvac
 
 #################################################################
 ##  Fim da Ontologia Iluminação
-##  Criada em 09/08/2026 13:12:27
+##  Criada em 10/08/2026 16:33:45
 #################################################################
