@@ -26,7 +26,7 @@
 	  rdfs:label "NormaReferência2: -"@pt ;
 	  rdfs:label "NormaReferência3: -"@pt ;
 	  rdfs:label "Observações: Conceitos de elementos de Requisitos do Projeto."@pt ;
-	  rdfs:label "DataHora: 10/08/2026 9:35:49"@pt ;
+	  rdfs:label "DataHora: 10/08/2026 16:39:29"@pt ;
 	  rdfs:label "Advertência: -"@pt ;
 	  rdfs:label "Aviso: -"@es ;
 	  rdfs:label "Alert: -"@en ;
@@ -26658,5 +26658,5 @@ bim:zona.hvac   rdf:type  owl:DatatypeProperty ;
 
 #################################################################
 ##  Fim da Ontologia Requisitos
-##  Criada em 10/08/2026 9:35:58
+##  Criada em 10/08/2026 16:39:36
 #################################################################
