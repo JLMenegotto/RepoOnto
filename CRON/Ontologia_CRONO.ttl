@@ -26,7 +26,7 @@
 	  rdfs:label "NormaReferência2: -"@pt ;
 	  rdfs:label "NormaReferência3: -"@pt ;
 	  rdfs:label "Observações: Conceitos de elementos temporais"@pt ;
-	  rdfs:label "DataHora: 09/08/2026 13:37:21"@pt ;
+	  rdfs:label "DataHora: 10/08/2026 16:31:45"@pt ;
 	  rdfs:label "Advertência: Traduções ao espanhol e ao inglês incorporadas - As traduções devem ser constantemente revisadas"@pt ;
 	  rdfs:label "Aviso: Traducciones integradas al español e inglés - Las traducciones deben revisarse constantemente"@es ;
 	  rdfs:label "Alert: Built-in Spanish and English Translations - Translations must be constantly reviewed"@en ;
@@ -98,167 +98,6 @@ bim:Conceitos rdf:type  owl:Class  ;
       rdfs:subClassOf  bim:BIM  .
 
 
-bim:Gestão rdf:type  owl:Class  ;
-      rdfs:subClassOf  bim:Conceitos ;
-      rdfs:label  "Gestão"@pt  .
-
-
-bim:Informação rdf:type  owl:Class  ;
-      rdfs:subClassOf  bim:Gestão ;
-      rdfs:label  "Informação"@pt  .
-
-
-bim:Contêineres rdf:type  owl:Class  ;
-      rdfs:subClassOf  bim:Informação ;
-      rdfs:label  "Contêineres"@pt  .
-
-
-bim:Contêiner rdf:type  owl:Class  ;
-      rdfs:subClassOf  bim:Contêineres ;
-      rdfs:label  "Contêiner"@pt ;
-      bim:Definição   "Define um contêiner de informação de acordo à norma NBR 19650-1. Definição do Projeto."@pt ;
-      bim:Definición  "Define un contenedor de información de acuerdo con la norma NBR 19650-1."@es ;
-       bim:Definition  "Defines an information container in accordance with the NBR 19650-1 standard. Project Definition."@en ;
-      bim:Natureza    "Gestão"@pt ;
-      bim:Espécie     "Informação"@pt ;
-      bim:Tema        "Contêineres"@pt ;
-      bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-2"@pt ;
-      bim:ABNT        "[ 5I ]"    .
-
-
-bim:Conceitos rdf:type  owl:Class  ;
-      rdfs:subClassOf  bim:BIM  .
-
-
-bim:Gestão rdf:type  owl:Class  ;
-      rdfs:subClassOf  bim:Conceitos ;
-      rdfs:label  "Gestão"@pt  .
-
-
-bim:Informação rdf:type  owl:Class  ;
-      rdfs:subClassOf  bim:Gestão ;
-      rdfs:label  "Informação"@pt  .
-
-
-bim:Contêineres rdf:type  owl:Class  ;
-      rdfs:subClassOf  bim:Informação ;
-      rdfs:label  "Contêineres"@pt  .
-
-
-bim:Requisito.Espacial rdf:type  owl:Class  ;
-      rdfs:subClassOf  bim:Contêineres ;
-      rdfs:label  "Requisito Espacial"@pt ;
-      bim:Definição   "Define um contêiner de informação de acordo à norma NBR 19650-1. Requerimentos Espaciais para o Projeto."@pt ;
-      bim:Definición  "Define un contenedor de información de acuerdo con la norma NBR 19650-1."@es ;
-       bim:Definition  "Defines an information container in accordance with the NBR 19650-1 standard. Spatial Requirements for the Project."@en ;
-      bim:Natureza    "Gestão"@pt ;
-      bim:Espécie     "Informação"@pt ;
-      bim:Tema        "Contêineres"@pt ;
-      bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-3"@pt  .
-
-
-bim:Conceitos rdf:type  owl:Class  ;
-      rdfs:subClassOf  bim:BIM  .
-
-
-bim:Gestão rdf:type  owl:Class  ;
-      rdfs:subClassOf  bim:Conceitos ;
-      rdfs:label  "Gestão"@pt  .
-
-
-bim:Informação rdf:type  owl:Class  ;
-      rdfs:subClassOf  bim:Gestão ;
-      rdfs:label  "Informação"@pt  .
-
-
-bim:Contêineres rdf:type  owl:Class  ;
-      rdfs:subClassOf  bim:Informação ;
-      rdfs:label  "Contêineres"@pt  .
-
-
-bim:Requisito.Mobiliário rdf:type  owl:Class  ;
-      rdfs:subClassOf  bim:Contêineres ;
-      rdfs:label  "Requisito Mobiliário"@pt ;
-      bim:Definição   "Define um contêiner de informação de acordo à norma NBR 19650-1. Requerimentos Mobiliários para o Projeto."@pt ;
-      bim:Definición  "Define un contenedor de información de acuerdo con la norma NBR 19650-1."@es ;
-       bim:Definition  "Defines an information container in accordance with the NBR 19650-1 standard. Furniture Requirements for the Project."@en ;
-      bim:Natureza    "Gestão"@pt ;
-      bim:Espécie     "Informação"@pt ;
-      bim:Tema        "Contêineres"@pt ;
-      bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-4"@pt  .
-
-
-bim:Conceitos rdf:type  owl:Class  ;
-      rdfs:subClassOf  bim:BIM  .
-
-
-bim:Gestão rdf:type  owl:Class  ;
-      rdfs:subClassOf  bim:Conceitos ;
-      rdfs:label  "Gestão"@pt  .
-
-
-bim:Informação rdf:type  owl:Class  ;
-      rdfs:subClassOf  bim:Gestão ;
-      rdfs:label  "Informação"@pt  .
-
-
-bim:Contêineres rdf:type  owl:Class  ;
-      rdfs:subClassOf  bim:Informação ;
-      rdfs:label  "Contêineres"@pt  .
-
-
-bim:Requisito.Equipamento rdf:type  owl:Class  ;
-      rdfs:subClassOf  bim:Contêineres ;
-      rdfs:label  "Requisito Equipamento"@pt ;
-      bim:Definição   "Define um contêiner de informação de acordo à norma NBR 19650-1. Requerimentos Equipamentos para o Projeto."@pt ;
-      bim:Definición  "Define un contenedor de información de acuerdo con la norma NBR 19650-1."@es ;
-       bim:Definition  "Defines an information container in accordance with the NBR 19650-1 standard. Equipment Requirements for the Project."@en ;
-      bim:Natureza    "Gestão"@pt ;
-      bim:Espécie     "Informação"@pt ;
-      bim:Tema        "Contêineres"@pt ;
-      bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-5"@pt  .
-
-
-bim:Conceitos rdf:type  owl:Class  ;
-      rdfs:subClassOf  bim:BIM  .
-
-
-bim:Gestão rdf:type  owl:Class  ;
-      rdfs:subClassOf  bim:Conceitos ;
-      rdfs:label  "Gestão"@pt  .
-
-
-bim:Informação rdf:type  owl:Class  ;
-      rdfs:subClassOf  bim:Gestão ;
-      rdfs:label  "Informação"@pt  .
-
-
-bim:Contêineres rdf:type  owl:Class  ;
-      rdfs:subClassOf  bim:Informação ;
-      rdfs:label  "Contêineres"@pt  .
-
-
-bim:Requisito.Sistemas rdf:type  owl:Class  ;
-      rdfs:subClassOf  bim:Contêineres ;
-      rdfs:label  "Requisito Sistemas"@pt ;
-      bim:Definição   "Define um contêiner de informação de acordo à norma NBR 19650-1. Requerimentos de Sistemas Prediais para o Projeto."@pt ;
-      bim:Definición  "Define un contenedor de información de acuerdo con la norma NBR 19650-1."@es ;
-       bim:Definition  "Defines an information container in accordance with the NBR 19650-1 standard. Building Systems Requirements for the Project."@en ;
-      bim:Natureza    "Gestão"@pt ;
-      bim:Espécie     "Informação"@pt ;
-      bim:Tema        "Contêineres"@pt ;
-      bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-6"@pt  .
-
-
-bim:Conceitos rdf:type  owl:Class  ;
-      rdfs:subClassOf  bim:BIM  .
-
-
 bim:Temporais rdf:type  owl:Class  ;
       rdfs:subClassOf  bim:Conceitos ;
       rdfs:label  "Temporais"@pt  .
@@ -284,7 +123,10 @@ bim:Era rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Macroeventos"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-7"@pt  .
+      bim:Chave       "Key-CRONO-2"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -316,7 +158,10 @@ bim:Época rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Macroeventos"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-8"@pt  .
+      bim:Chave       "Key-CRONO-3"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -348,7 +193,10 @@ bim:Século rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Macroeventos"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-9"@pt  .
+      bim:Chave       "Key-CRONO-4"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -380,7 +228,10 @@ bim:Quinquagenário rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Macroeventos"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-10"@pt  .
+      bim:Chave       "Key-CRONO-5"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -412,7 +263,10 @@ bim:Década rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Macroeventos"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-11"@pt  .
+      bim:Chave       "Key-CRONO-6"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -444,7 +298,10 @@ bim:Quinquênio rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Macroeventos"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-12"@pt  .
+      bim:Chave       "Key-CRONO-7"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -476,7 +333,10 @@ bim:Lustro rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Macroeventos"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-13"@pt  .
+      bim:Chave       "Key-CRONO-8"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -508,7 +368,10 @@ bim:Biênio rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Macroeventos"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-14"@pt  .
+      bim:Chave       "Key-CRONO-9"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -540,7 +403,10 @@ bim:Bienal rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Macroeventos"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-15"@pt  .
+      bim:Chave       "Key-CRONO-10"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -572,7 +438,10 @@ bim:Ano rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Calendários"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-16"@pt  .
+      bim:Chave       "Key-CRONO-11"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -604,7 +473,10 @@ bim:Semestre rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Calendários"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-17"@pt  .
+      bim:Chave       "Key-CRONO-12"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -636,7 +508,10 @@ bim:Quadrimestre rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Calendários"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-18"@pt  .
+      bim:Chave       "Key-CRONO-13"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -668,7 +543,10 @@ bim:Trimestre rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Calendários"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-19"@pt  .
+      bim:Chave       "Key-CRONO-14"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -700,7 +578,10 @@ bim:Mês rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Calendários"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-20"@pt  .
+      bim:Chave       "Key-CRONO-15"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -732,7 +613,10 @@ bim:Semana rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Calendários"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-21"@pt  .
+      bim:Chave       "Key-CRONO-16"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -764,7 +648,10 @@ bim:Dia rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Calendários"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-22"@pt  .
+      bim:Chave       "Key-CRONO-17"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -796,7 +683,10 @@ bim:Data rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Calendários"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-22"@pt  .
+      bim:Chave       "Key-CRONO-18"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -828,7 +718,10 @@ bim:Jornada rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Calendários"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-23"@pt  .
+      bim:Chave       "Key-CRONO-19"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -860,7 +753,10 @@ bim:Hora rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Horários"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-24"@pt  .
+      bim:Chave       "Key-CRONO-20"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -892,7 +788,10 @@ bim:Minuto rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Horários"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-25"@pt  .
+      bim:Chave       "Key-CRONO-21"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -924,7 +823,10 @@ bim:Segundo rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Horários"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-26"@pt  .
+      bim:Chave       "Key-CRONO-22"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -956,7 +858,10 @@ bim:Milisegundo rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Horários"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-27"@pt  .
+      bim:Chave       "Key-CRONO-23"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -988,7 +893,10 @@ bim:Pulso rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Microeventos"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-28"@pt  .
+      bim:Chave       "Key-CRONO-24"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -1020,7 +928,10 @@ bim:Tick rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Microeventos"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-29"@pt  .
+      bim:Chave       "Key-CRONO-25"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -1052,7 +963,10 @@ bim:Inicial rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Cronometrados"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-30"@pt  .
+      bim:Chave       "Key-CRONO-26"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -1084,7 +998,10 @@ bim:Parcial rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Cronometrados"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-31"@pt  .
+      bim:Chave       "Key-CRONO-27"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -1116,7 +1033,10 @@ bim:Final rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Cronometrados"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-32"@pt  .
+      bim:Chave       "Key-CRONO-28"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -1148,7 +1068,10 @@ bim:DeltaT rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Cronometrados"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-33"@pt  .
+      bim:Chave       "Key-CRONO-29"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -1180,7 +1103,10 @@ bim:Ideação rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Etapas"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-34"@pt  .
+      bim:Chave       "Key-CRONO-30"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -1212,7 +1138,10 @@ bim:Projetual rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Etapas"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-35"@pt  .
+      bim:Chave       "Key-CRONO-31"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -1244,7 +1173,10 @@ bim:Simulação rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Etapas"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-36"@pt  .
+      bim:Chave       "Key-CRONO-32"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -1276,7 +1208,10 @@ bim:Planejamento rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Etapas"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-37"@pt  .
+      bim:Chave       "Key-CRONO-33"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -1308,7 +1243,10 @@ bim:Construção rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Etapas"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-38"@pt  .
+      bim:Chave       "Key-CRONO-34"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -1340,7 +1278,10 @@ bim:Operação rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Etapas"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-39"@pt  .
+      bim:Chave       "Key-CRONO-35"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -1372,7 +1313,10 @@ bim:Inaugural rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Históricos"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-40"@pt  .
+      bim:Chave       "Key-CRONO-36"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -1404,7 +1348,10 @@ bim:Modernizar rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Históricos"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-41"@pt  .
+      bim:Chave       "Key-CRONO-37"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -1436,7 +1383,10 @@ bim:Troca rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Históricos"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-42"@pt  .
+      bim:Chave       "Key-CRONO-38"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -1468,7 +1418,10 @@ bim:Operacional rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Históricos"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-43"@pt  .
+      bim:Chave       "Key-CRONO-39"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -1500,7 +1453,10 @@ bim:Reforma rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Históricos"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-44"@pt  .
+      bim:Chave       "Key-CRONO-40"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -1532,7 +1488,10 @@ bim:Pericial rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Históricos"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-45"@pt  .
+      bim:Chave       "Key-CRONO-41"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -1564,7 +1523,10 @@ bim:Congresso rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Agendados"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-46"@pt  .
+      bim:Chave       "Key-CRONO-42"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -1596,7 +1558,10 @@ bim:Reunião rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Agendados"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-47"@pt  .
+      bim:Chave       "Key-CRONO-43"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -1628,7 +1593,10 @@ bim:Entrega rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Agendados"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-48"@pt  .
+      bim:Chave       "Key-CRONO-44"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 
 bim:Conceitos rdf:type  owl:Class  ;
@@ -1660,7 +1628,45 @@ bim:Exame rdf:type  owl:Class  ;
       bim:Espécie     "Eventos"@pt ;
       bim:Tema        "Agendados"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
-      bim:Chave       "Key-CRONO-49"@pt  .
+      bim:Chave       "Key-CRONO-45"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
+
+
+bim:Projeto rdf:type  owl:Class  ;
+      rdfs:subClassOf  bim:BIM  .
+
+
+bim:Cronológico rdf:type  owl:Class  ;
+      rdfs:subClassOf  bim:Projeto ;
+      rdfs:label  "Cronológico"@pt  .
+
+
+bim:Cronologias rdf:type  owl:Class  ;
+      rdfs:subClassOf  bim:Cronológico ;
+      rdfs:label  "Cronologias"@pt  .
+
+
+bim:Cronologia rdf:type  owl:Class  ;
+      rdfs:subClassOf  bim:Cronologias ;
+      rdfs:label  "Cronologia"@pt  .
+
+
+bim:Evento.Projetual rdf:type  owl:Class  ;
+      rdfs:subClassOf  bim:Cronologia ;
+      rdfs:label  "Evento.Projetual"@pt ;
+      bim:Definição   "Evento relacionado ao projeto acontecido."@pt ;
+      bim:Definición  "Evento relacionado con el proyecto que ocurrió."@es ;
+       bim:Definition  "Event related to the project that happened."@en ;
+      bim:Natureza    "Cronológico"@pt ;
+      bim:Espécie     "Cronologias"@pt ;
+      bim:Tema        "Cronologia"@pt ;
+      bim:Disciplina  "Interdisciplinar"@pt ;
+      bim:Chave       "Key-CRONO-46"@pt ;
+      bim:CatRevit    "[ - ]"   ;
+      bim:ClasseIfc   "[ - ]"   ;
+      bim:ABNT        "[ - ]"    .
 
 #################################################################
 #     Indivíduos em Turtle                                       
@@ -28429,5 +28435,5 @@ bim:zona.hvac   rdf:type  owl:DatatypeProperty ;
 
 #################################################################
 ##  Fim da Ontologia CRONO
-##  Criada em 09/08/2026 13:37:23
+##  Criada em 10/08/2026 16:31:50
 #################################################################
