@@ -24,7 +24,7 @@ Ontology:  <https://github.com/JLMenegotto/RepoOnto#Parte_4_2C>
   Annotations: rdfs:label "NormaReferência2: -"@pt
   Annotations: rdfs:label "NormaReferência3: -"@pt
   Annotations: rdfs:label "Observações: Sistema de classificação ABNT da construção para BIM"@pt
-  Annotations: rdfs:label "DataHora: 09/08/2026 13:27:21"@pt
+  Annotations: rdfs:label "DataHora: 10/08/2026 16:29:50"@pt
   Annotations: rdfs:label "Advertência: A Norma foi elaborada pela Comissão de Estudo Especial de Modelagem da Informação da Construção (BIM) ABNT/CEE-134"@pt
   Annotations: rdfs:label "Aviso: El Estándar fue preparado por el Comité Especial de Estudio sobre Modelado de Información de Edificación (BIM) ABNT/CEE-134"@es
   Annotations: rdfs:label "Alert: The Standard was prepared by the Special Committee of Studies on Building Information Modeling (BIM) ABNT/CEE-134"@en
@@ -107,87 +107,6 @@ Class: bim:Conceitos
 	SubClassOf: bim:BIM
 
 
-Class: bim:Gestão
-	Annotations: rdfs:label "Gestão"@pt
-	SubClassOf: bim:Conceitos
-
-
-Class: bim:Informação
-	Annotations: rdfs:label "Informação"@pt
-	SubClassOf: bim:Gestão
-
-
-Class: bim:Contêineres
-	Annotations: rdfs:label "Contêineres"@pt
-	SubClassOf: bim:Informação
-
-
-Class: bim:Contêiner
-	Annotations: rdfs:label "Contêiner"@pt
-	Annotations: bim:Definição "Define um contêiner de informação de acordo à norma NBR 19650-1. Definição do Projeto."@pt
-	Annotations: bim:Definición "Define un contenedor de información de acuerdo con la norma NBR 19650-1."@es
-	Annotations: bim:Definition "Defines an information container in accordance with the NBR 19650-1 standard. Project Definition."@en
-	Annotations: bim:Natureza "Gestão"@pt
-	Annotations: bim:Espécie "Informação"@pt
-	Annotations: bim:Tema "Contêineres"@pt
-	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-2"
-	Annotations: bim:ABNT "[ 5I ]"
-	SubClassOf: bim:Contêineres
-
-
-Class: bim:Requisito.Espacial
-	Annotations: rdfs:label "Requisito Espacial"@pt
-	Annotations: bim:Definição "Define um contêiner de informação de acordo à norma NBR 19650-1. Requerimentos Espaciais para o Projeto."@pt
-	Annotations: bim:Definición "Define un contenedor de información de acuerdo con la norma NBR 19650-1."@es
-	Annotations: bim:Definition "Defines an information container in accordance with the NBR 19650-1 standard. Spatial Requirements for the Project."@en
-	Annotations: bim:Natureza "Gestão"@pt
-	Annotations: bim:Espécie "Informação"@pt
-	Annotations: bim:Tema "Contêineres"@pt
-	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-3"
-	SubClassOf: bim:Contêineres
-
-
-Class: bim:Requisito.Mobiliário
-	Annotations: rdfs:label "Requisito Mobiliário"@pt
-	Annotations: bim:Definição "Define um contêiner de informação de acordo à norma NBR 19650-1. Requerimentos Mobiliários para o Projeto."@pt
-	Annotations: bim:Definición "Define un contenedor de información de acuerdo con la norma NBR 19650-1."@es
-	Annotations: bim:Definition "Defines an information container in accordance with the NBR 19650-1 standard. Furniture Requirements for the Project."@en
-	Annotations: bim:Natureza "Gestão"@pt
-	Annotations: bim:Espécie "Informação"@pt
-	Annotations: bim:Tema "Contêineres"@pt
-	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-4"
-	SubClassOf: bim:Contêineres
-
-
-Class: bim:Requisito.Equipamento
-	Annotations: rdfs:label "Requisito Equipamento"@pt
-	Annotations: bim:Definição "Define um contêiner de informação de acordo à norma NBR 19650-1. Requerimentos Equipamentos para o Projeto."@pt
-	Annotations: bim:Definición "Define un contenedor de información de acuerdo con la norma NBR 19650-1."@es
-	Annotations: bim:Definition "Defines an information container in accordance with the NBR 19650-1 standard. Equipment Requirements for the Project."@en
-	Annotations: bim:Natureza "Gestão"@pt
-	Annotations: bim:Espécie "Informação"@pt
-	Annotations: bim:Tema "Contêineres"@pt
-	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-5"
-	SubClassOf: bim:Contêineres
-
-
-Class: bim:Requisito.Sistemas
-	Annotations: rdfs:label "Requisito Sistemas"@pt
-	Annotations: bim:Definição "Define um contêiner de informação de acordo à norma NBR 19650-1. Requerimentos de Sistemas Prediais para o Projeto."@pt
-	Annotations: bim:Definición "Define un contenedor de información de acuerdo con la norma NBR 19650-1."@es
-	Annotations: bim:Definition "Defines an information container in accordance with the NBR 19650-1 standard. Building Systems Requirements for the Project."@en
-	Annotations: bim:Natureza "Gestão"@pt
-	Annotations: bim:Espécie "Informação"@pt
-	Annotations: bim:Tema "Contêineres"@pt
-	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-6"
-	SubClassOf: bim:Contêineres
-
-
 Class: bim:Normativos
 	Annotations: rdfs:label "Normativos"@pt
 	SubClassOf: bim:Conceitos
@@ -212,7 +131,9 @@ Class: bim:NBR.0M
 	Annotations: bim:Espécie "ABNT"@pt
 	Annotations: bim:Tema "NBR.Parte"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-7"
+	Annotations: bim:Chave "Key-ABNT-2"
+	Annotations: bim:CatRevit "[ OST_Materials ]"
+	Annotations: bim:ClasseIfc "[ IfcMaterial ]"
 	Annotations: bim:ABNT "0M"
 	SubClassOf: bim:NBR.Parte
 
@@ -226,7 +147,9 @@ Class: bim:NBR.0P
 	Annotations: bim:Espécie "ABNT"@pt
 	Annotations: bim:Tema "NBR.Parte"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-8"
+	Annotations: bim:Chave "Key-ABNT-3"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ IfcProperty ]"
 	Annotations: bim:ABNT "0P"
 	SubClassOf: bim:NBR.Parte
 
@@ -240,7 +163,9 @@ Class: bim:NBR.1D
 	Annotations: bim:Espécie "ABNT"@pt
 	Annotations: bim:Tema "NBR.Parte"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-9"
+	Annotations: bim:Chave "Key-ABNT-4"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ IfcActor ]"
 	Annotations: bim:ABNT "1D"
 	SubClassOf: bim:NBR.Parte
 
@@ -254,7 +179,9 @@ Class: bim:NBR.1F
 	Annotations: bim:Espécie "ABNT"@pt
 	Annotations: bim:Tema "NBR.Parte"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-10"
+	Annotations: bim:Chave "Key-ABNT-5"
+	Annotations: bim:CatRevit "[ OST_Phases ]"
+	Annotations: bim:ClasseIfc "[ IfcTask ]"
 	Annotations: bim:ABNT "1F"
 	SubClassOf: bim:NBR.Parte
 
@@ -268,7 +195,9 @@ Class: bim:NBR.1S
 	Annotations: bim:Espécie "ABNT"@pt
 	Annotations: bim:Tema "NBR.Parte"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-11"
+	Annotations: bim:Chave "Key-ABNT-6"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ IfcActor ]"
 	Annotations: bim:ABNT "1S"
 	SubClassOf: bim:NBR.Parte
 
@@ -282,7 +211,9 @@ Class: bim:NBR.2C
 	Annotations: bim:Espécie "ABNT"@pt
 	Annotations: bim:Tema "NBR.Parte"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-12"
+	Annotations: bim:Chave "Key-ABNT-7"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "2C"
 	SubClassOf: bim:NBR.Parte
 
@@ -296,7 +227,9 @@ Class: bim:NBR.2N
 	Annotations: bim:Espécie "ABNT"@pt
 	Annotations: bim:Tema "NBR.Parte"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-13"
+	Annotations: bim:Chave "Key-ABNT-8"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "2N"
 	SubClassOf: bim:NBR.Parte
 
@@ -310,7 +243,9 @@ Class: bim:NBR.2Q
 	Annotations: bim:Espécie "ABNT"@pt
 	Annotations: bim:Tema "NBR.Parte"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-14"
+	Annotations: bim:Chave "Key-ABNT-9"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "2Q"
 	SubClassOf: bim:NBR.Parte
 
@@ -324,7 +259,9 @@ Class: bim:NBR.3E
 	Annotations: bim:Espécie "ABNT"@pt
 	Annotations: bim:Tema "NBR.Parte"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-15"
+	Annotations: bim:Chave "Key-ABNT-10"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "3E"
 	SubClassOf: bim:NBR.Parte
 
@@ -338,7 +275,9 @@ Class: bim:NBR.3R
 	Annotations: bim:Espécie "ABNT"@pt
 	Annotations: bim:Tema "NBR.Parte"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-16"
+	Annotations: bim:Chave "Key-ABNT-11"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "3R"
 	SubClassOf: bim:NBR.Parte
 
@@ -352,7 +291,9 @@ Class: bim:NBR.4A
 	Annotations: bim:Espécie "ABNT"@pt
 	Annotations: bim:Tema "NBR.Parte"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-17"
+	Annotations: bim:Chave "Key-ABNT-12"
+	Annotations: bim:CatRevit "[ OST_Rooms : OST_MEPSpaces : OST_MEPSystemZone ]"
+	Annotations: bim:ClasseIfc "[ IfcSpace ]"
 	Annotations: bim:ABNT "4A"
 	SubClassOf: bim:NBR.Parte
 
@@ -366,7 +307,9 @@ Class: bim:NBR.4U
 	Annotations: bim:Espécie "ABNT"@pt
 	Annotations: bim:Tema "NBR.Parte"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-18"
+	Annotations: bim:Chave "Key-ABNT-13"
+	Annotations: bim:CatRevit "[ OST_Rooms : OST_MEPSpaces : OST_MEPSystemZone ]"
+	Annotations: bim:ClasseIfc "[ IfcSpace ]"
 	Annotations: bim:ABNT "4U"
 	SubClassOf: bim:NBR.Parte
 
@@ -380,7 +323,9 @@ Class: bim:NBR.5I
 	Annotations: bim:Espécie "ABNT"@pt
 	Annotations: bim:Tema "NBR.Parte"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-19"
+	Annotations: bim:Chave "Key-ABNT-14"
+	Annotations: bim:CatRevit "[ OST_Sheets : OST_TitleBlocks : OST_Revisions : OST_RevisionNumberingSequences ]"
+	Annotations: bim:ClasseIfc "[ IfcAnnotation ]"
 	Annotations: bim:ABNT "5I"
 	SubClassOf: bim:NBR.Parte
 
@@ -404,7 +349,9 @@ Class: bim:NBR.C.Produto.de.Implantação
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-19"
+	Annotations: bim:Chave "Key-ABNT-15"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.02 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -418,7 +365,9 @@ Class: bim:NBR.C.Pavimento.e.Drenagem
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-20"
+	Annotations: bim:Chave "Key-ABNT-16"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.02.22 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -432,7 +381,9 @@ Class: bim:NBR.C.Paisagismo
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-21"
+	Annotations: bim:Chave "Key-ABNT-17"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.02.34 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -446,7 +397,9 @@ Class: bim:NBR.C.Superficie
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-22"
+	Annotations: bim:Chave "Key-ABNT-18"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.02.46 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -460,7 +413,9 @@ Class: bim:NBR.C.Concreto
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-23"
+	Annotations: bim:Chave "Key-ABNT-19"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.04 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -474,7 +429,9 @@ Class: bim:NBR.C.Argamassa
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-24"
+	Annotations: bim:Chave "Key-ABNT-20"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.04.02.14 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -488,7 +445,9 @@ Class: bim:NBR.C.Graute
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-25"
+	Annotations: bim:Chave "Key-ABNT-21"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.04.02.18 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -502,7 +461,9 @@ Class: bim:NBR.C.Alvenaria
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-26"
+	Annotations: bim:Chave "Key-ABNT-22"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.04.06 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -516,7 +477,9 @@ Class: bim:NBR.C.Proteção.Térmica
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-27"
+	Annotations: bim:Chave "Key-ABNT-23"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.04.10 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -530,7 +493,9 @@ Class: bim:NBR.C.Impermeabilização
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-28"
+	Annotations: bim:Chave "Key-ABNT-24"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.04.10.02.10 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -544,7 +509,9 @@ Class: bim:NBR.C.Isolamento
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-29"
+	Annotations: bim:Chave "Key-ABNT-25"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.04.10.14 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -558,7 +525,9 @@ Class: bim:NBR.C.Manutenção
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-30"
+	Annotations: bim:Chave "Key-ABNT-26"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.04.14 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -572,7 +541,9 @@ Class: bim:NBR.C.Produto.Fundação
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-31"
+	Annotations: bim:Chave "Key-ABNT-27"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.04.18 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -586,7 +557,9 @@ Class: bim:NBR.C.Produto.de.Forma
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-32"
+	Annotations: bim:Chave "Key-ABNT-28"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.04.22 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -600,7 +573,9 @@ Class: bim:NBR.C.Produto.de.Armadura
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-33"
+	Annotations: bim:Chave "Key-ABNT-29"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.04.26 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -614,7 +589,9 @@ Class: bim:NBR.C.Produto.de.Metálica
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-34"
+	Annotations: bim:Chave "Key-ABNT-30"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.04.26.10 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -628,7 +605,9 @@ Class: bim:NBR.C.Fachada
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-35"
+	Annotations: bim:Chave "Key-ABNT-31"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.06 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -642,7 +621,9 @@ Class: bim:NBR.C.Cobertura
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-36"
+	Annotations: bim:Chave "Key-ABNT-32"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.06.06 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -656,7 +637,9 @@ Class: bim:NBR.C.Divisória
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-37"
+	Annotations: bim:Chave "Key-ABNT-33"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.08 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -670,7 +653,9 @@ Class: bim:NBR.C.Parede
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-38"
+	Annotations: bim:Chave "Key-ABNT-34"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.08.10 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -684,7 +669,9 @@ Class: bim:NBR.C.Acabamento.Interno
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-39"
+	Annotations: bim:Chave "Key-ABNT-35"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.10 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -698,7 +685,9 @@ Class: bim:NBR.C.Acabamento.Piso
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-40"
+	Annotations: bim:Chave "Key-ABNT-36"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.10.10 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -712,7 +701,9 @@ Class: bim:NBR.C.Acabamento.Forro
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-41"
+	Annotations: bim:Chave "Key-ABNT-37"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.10.14 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -726,7 +717,9 @@ Class: bim:NBR.C.Pintura
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-42"
+	Annotations: bim:Chave "Key-ABNT-38"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.10.18 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -740,7 +733,9 @@ Class: bim:NBR.C.Produto.de.Porta
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-43"
+	Annotations: bim:Chave "Key-ABNT-39"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.12 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -754,7 +749,9 @@ Class: bim:NBR.C.Produto.de.Porta.Especial
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-44"
+	Annotations: bim:Chave "Key-ABNT-40"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.12.02.42 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -768,7 +765,9 @@ Class: bim:NBR.C.Janela
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-45"
+	Annotations: bim:Chave "Key-ABNT-41"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.12.06 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -782,7 +781,9 @@ Class: bim:NBR.C.Vidro
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-46"
+	Annotations: bim:Chave "Key-ABNT-42"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.12.10 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -796,7 +797,9 @@ Class: bim:NBR.C.Ferragem
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-47"
+	Annotations: bim:Chave "Key-ABNT-43"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.12.14 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -810,7 +813,9 @@ Class: bim:NBR.C.Rampa.e.Escada
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-48"
+	Annotations: bim:Chave "Key-ABNT-44"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.12.22 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -824,7 +829,9 @@ Class: bim:NBR.C.Proteção
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-49"
+	Annotations: bim:Chave "Key-ABNT-45"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.12.26 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -838,7 +845,9 @@ Class: bim:NBR.C.Sensores
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-50"
+	Annotations: bim:Chave "Key-ABNT-46"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.14 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -852,7 +861,9 @@ Class: bim:NBR.C.Controle
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-51"
+	Annotations: bim:Chave "Key-ABNT-47"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.14.06 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -866,7 +877,9 @@ Class: bim:NBR.C.Força.Motriz
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-52"
+	Annotations: bim:Chave "Key-ABNT-48"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.14.14 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -880,7 +893,9 @@ Class: bim:NBR.C.Compressor
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-53"
+	Annotations: bim:Chave "Key-ABNT-49"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.14.22 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -894,7 +909,9 @@ Class: bim:NBR.C.Troca.de.Calor
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-54"
+	Annotations: bim:Chave "Key-ABNT-50"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.14.22.14.18 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -908,7 +925,9 @@ Class: bim:NBR.C.Aquecedores
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-55"
+	Annotations: bim:Chave "Key-ABNT-51"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.14.30 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -922,7 +941,9 @@ Class: bim:NBR.C.Redutor.Pressão
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-56"
+	Annotations: bim:Chave "Key-ABNT-52"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.14.34 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -936,7 +957,9 @@ Class: bim:NBR.C.Reservatórios
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-57"
+	Annotations: bim:Chave "Key-ABNT-53"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.14.38 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -950,7 +973,9 @@ Class: bim:NBR.C.Válvula
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-58"
+	Annotations: bim:Chave "Key-ABNT-54"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.14.42 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -964,7 +989,9 @@ Class: bim:NBR.C.Atuador
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-59"
+	Annotations: bim:Chave "Key-ABNT-55"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.14.46 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -978,7 +1005,9 @@ Class: bim:NBR.C.Armadilha
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-60"
+	Annotations: bim:Chave "Key-ABNT-56"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.14.50.10.06 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -992,7 +1021,9 @@ Class: bim:NBR.C.Tubulação
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-61"
+	Annotations: bim:Chave "Key-ABNT-57"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.14.58 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -1006,7 +1037,9 @@ Class: bim:NBR.C.Tratamento.de.Gases
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-62"
+	Annotations: bim:Chave "Key-ABNT-58"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.14.78 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -1020,7 +1053,9 @@ Class: bim:NBR.C.Reciclagem
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-63"
+	Annotations: bim:Chave "Key-ABNT-59"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.14.78.50.06 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -1034,7 +1069,9 @@ Class: bim:NBR.C.Incinerador
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-64"
+	Annotations: bim:Chave "Key-ABNT-60"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.14.86 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -1048,7 +1085,9 @@ Class: bim:NBR.C.Produto.Revestimento
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-65"
+	Annotations: bim:Chave "Key-ABNT-61"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.14.88 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -1062,7 +1101,9 @@ Class: bim:NBR.C.Mobilidade
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-66"
+	Annotations: bim:Chave "Key-ABNT-62"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.30 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -1076,7 +1117,9 @@ Class: bim:NBR.C.Instalações
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-67"
+	Annotations: bim:Chave "Key-ABNT-63"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.30.26 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -1090,7 +1133,9 @@ Class: bim:NBR.C.ConstruçãoTemporária
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-68"
+	Annotations: bim:Chave "Key-ABNT-64"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.60 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -1104,7 +1149,9 @@ Class: bim:NBR.C.Comunicação.Visual
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-69"
+	Annotations: bim:Chave "Key-ABNT-65"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.64 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -1118,7 +1165,9 @@ Class: bim:NBR.C.Módulo.Industrializado
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-70"
+	Annotations: bim:Chave "Key-ABNT-66"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.66 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -1132,7 +1181,9 @@ Class: bim:NBR.C.Mobiliário
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-71"
+	Annotations: bim:Chave "Key-ABNT-67"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.68 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -1146,7 +1197,9 @@ Class: bim:NBR.C.Equipamento.Alimentício
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-72"
+	Annotations: bim:Chave "Key-ABNT-68"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.68.22 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -1160,7 +1213,9 @@ Class: bim:NBR.C.Mobiliário.Alimentício
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-73"
+	Annotations: bim:Chave "Key-ABNT-69"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.68.22.46 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -1174,7 +1229,9 @@ Class: bim:NBR.C.Mobiliário.Residencial
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-74"
+	Annotations: bim:Chave "Key-ABNT-70"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.68.26 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -1188,7 +1245,9 @@ Class: bim:NBR.C.Mobiliário.Educacional
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-75"
+	Annotations: bim:Chave "Key-ABNT-71"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.68.30 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -1202,7 +1261,9 @@ Class: bim:NBR.C.Mobiliário.Especial
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-76"
+	Annotations: bim:Chave "Key-ABNT-72"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.68.30.10 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -1216,7 +1277,9 @@ Class: bim:NBR.C.Produto.Industrial
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-77"
+	Annotations: bim:Chave "Key-ABNT-73"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.68.50 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -1230,7 +1293,9 @@ Class: bim:NBR.C.Equipamento.Limpeza
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-78"
+	Annotations: bim:Chave "Key-ABNT-74"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.68.58 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -1244,7 +1309,9 @@ Class: bim:NBR.C.Produto.Preservação
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-79"
+	Annotations: bim:Chave "Key-ABNT-75"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.68.62 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -1258,7 +1325,9 @@ Class: bim:NBR.C.Produto.Esporte.e.Lazer
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-80"
+	Annotations: bim:Chave "Key-ABNT-76"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.70 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -1272,7 +1341,9 @@ Class: bim:NBR.C.Produto.Transporte
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-81"
+	Annotations: bim:Chave "Key-ABNT-77"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.72 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -1286,7 +1357,9 @@ Class: bim:NBR.C.Andaime
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-82"
+	Annotations: bim:Chave "Key-ABNT-78"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.72.30 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -1300,7 +1373,9 @@ Class: bim:NBR.C.Produto.Hospitalar
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-83"
+	Annotations: bim:Chave "Key-ABNT-79"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.74 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -1308,13 +1383,15 @@ Class: bim:NBR.C.Produto.Hospitalar
 Class: bim:NBR.C.Biossegurança
 	Annotations: rdfs:label "NBR.C.Biossegurança"@pt
 	Annotations: bim:Definição "Produto para Biossegurança"@pt
-	Annotations: bim:Definición "-2146826242"@es
+	Annotations: bim:Definición "Producto de bioseguridad"@es
 	Annotations: bim:Definition "Biosafety Product"@en
 	Annotations: bim:Natureza "Normativos"@pt
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-84"
+	Annotations: bim:Chave "Key-ABNT-80"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.74.56 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -1328,7 +1405,9 @@ Class: bim:NBR.C.Produto.Segurança
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-85"
+	Annotations: bim:Chave "Key-ABNT-81"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.76 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -1342,7 +1421,9 @@ Class: bim:NBR.C.Produto.de.Incêndio
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-86"
+	Annotations: bim:Chave "Key-ABNT-82"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.76.26.14 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -1356,7 +1437,9 @@ Class: bim:NBR.C.Segurança.Ambiental
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-87"
+	Annotations: bim:Chave "Key-ABNT-83"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.76.58 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -1370,7 +1453,9 @@ Class: bim:NBR.C.Produto.Hidrossanitário
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-88"
+	Annotations: bim:Chave "Key-ABNT-84"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.78 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -1384,7 +1469,9 @@ Class: bim:NBR.C.Produto.Avac
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-89"
+	Annotations: bim:Chave "Key-ABNT-85"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.80 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -1398,7 +1485,9 @@ Class: bim:NBR.C.Produto.de.Elétrica
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-90"
+	Annotations: bim:Chave "Key-ABNT-86"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.82 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -1412,7 +1501,9 @@ Class: bim:NBR.C.Produto.de.Telecom
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-91"
+	Annotations: bim:Chave "Key-ABNT-87"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.84 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -1426,7 +1517,9 @@ Class: bim:NBR.C.Produto.Multifuncional
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-92"
+	Annotations: bim:Chave "Key-ABNT-88"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.92 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -1440,7 +1533,9 @@ Class: bim:NBR.C.Produto.de.Geração
 	Annotations: bim:Espécie "NBR.Temáticas"@pt
 	Annotations: bim:Tema "NBR.Construção"@pt
 	Annotations: bim:Disciplina "Interdisciplinar"@pt
-	Annotations: bim:Chave "Key-ABNT-93"
+	Annotations: bim:Chave "Key-ABNT-89"
+	Annotations: bim:CatRevit "[ - ]"
+	Annotations: bim:ClasseIfc "[ - ]"
 	Annotations: bim:ABNT "[ 2C.92.72.18 ]"
 	SubClassOf: bim:NBR.Construção
 
@@ -68033,5 +68128,5 @@ DataProperty: bim:zona.hvac
 
 #################################################################
 ##  Fim da Ontologia 15965_2C
-##  Criada em 09/08/2026 13:27:25
+##  Criada em 10/08/2026 16:30:03
 #################################################################
