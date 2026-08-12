@@ -1,1 +1,0 @@
-Elementos espaciais de Ambientes.
