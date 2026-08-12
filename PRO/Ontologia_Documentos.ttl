@@ -26,7 +26,7 @@
 	  rdfs:label "NormaReferência2: -"@pt ;
 	  rdfs:label "NormaReferência3: -"@pt ;
 	  rdfs:label "Observações: Elementos_Documentação"@pt ;
-	  rdfs:label "DataHora: 12/08/2026 14:55:41"@pt ;
+	  rdfs:label "DataHora: 12/08/2026 16:59:58"@pt ;
 	  rdfs:label "Advertência1: -"@pt ;
 	  rdfs:label "Prédio: -"@pt ;
 	  rdfs:label "Cidade: Rio de Janeiro"@pt ;
@@ -31157,5 +31157,5 @@ bim:zona.hvac   rdf:type  owl:DatatypeProperty ;
 
 #################################################################
 ##  Fim da Ontologia Documentos
-##  Criada em 12/08/2026 14:55:46
+##  Criada em 12/08/2026 17:00:00
 #################################################################
