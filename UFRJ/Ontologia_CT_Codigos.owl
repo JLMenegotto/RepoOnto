@@ -24,7 +24,7 @@ Ontology:  <https://github.com/JLMenegotto/RepoOnto#Códigos_do_CT>
   Annotations: rdfs:label "NormaReferência2: -"@pt
   Annotations: rdfs:label "NormaReferência3: -"@pt
   Annotations: rdfs:label "Observações: Conceitos de elementos de codificação interna do Centro de Tecnologia"@pt
-  Annotations: rdfs:label "DataHora: 21/08/2026 16:26:29"@pt
+  Annotations: rdfs:label "DataHora: 21/08/2026 16:32:24"@pt
   Annotations: rdfs:label "Advertência1: -"@pt
   Annotations: rdfs:label "Prédio: -"@pt
   Annotations: rdfs:label "Cidade: -"@pt
@@ -55437,5 +55437,5 @@ DataProperty: bim:zona.hvac
 
 #################################################################
 ##  Fim da Ontologia CT_Codigos
-##  Criada em 21/08/2026 16:26:37
+##  Criada em 21/08/2026 16:32:32
 #################################################################
