@@ -1,5 +1,5 @@
 
-@prefix : <https://github.com/JLMenegotto/RepoOnto#Estrutura Metálica> .
+@prefix : <https://github.com/JLMenegotto/RepoOnto#Estrutura_Metálica> .
 @prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
@@ -7,11 +7,11 @@
 @prefix owl:  <http://www.w3.org/2002/07/owl#> .
 @prefix bsdd: <https://bsdd.buildingsmart.org/def#> .
 @prefix bim:  <https://github.com/JLMenegotto/RepoOnto#> .
-@base  <https://github.com/JLMenegotto/RepoOnto#Estrutura Metálica> .
+@base  <https://github.com/JLMenegotto/RepoOnto#Estrutura_Metálica> .
 
-<https://github.com/JLMenegotto/RepoOnto#Estrutura Metálica> rdf:type owl:Ontology ; 
+<https://github.com/JLMenegotto/RepoOnto#Estrutura_Metálica> rdf:type owl:Ontology ; 
 	  rdfs:label "OntologiaPrefixo: bim:"@pt ;
-	  rdfs:label "OntologiaTema: Estrutura Metálica"@pt ;
+	  rdfs:label "OntologiaTema: Estrutura_Metálica"@pt ;
 	  rdfs:label "RaizClass: BIM"@pt ;
 	  rdfs:label "RaizProp: BIMProp"@pt ;
 	  rdfs:label "RaizData: BIMData"@pt ;
@@ -26,10 +26,10 @@
 	  rdfs:label "Norma-Referência-02: -"@pt ;
 	  rdfs:label "Norma-Referência-03: -"@pt ;
 	  rdfs:label "Observações: Dados de perfis metálicos"@pt ;
-	  rdfs:label "DataHora: 11/09/2026 10:43:32"@pt ;
+	  rdfs:label "DataHora: 11/09/2026 11:12:09"@pt ;
 	  rdfs:label "Advertência: -"@pt ;
-	  rdfs:label "Aviso: -"@pt ;
-	  rdfs:label "Alert: -"@pt ;
+	  rdfs:label "Aviso: -"@es ;
+	  rdfs:label "Alert: -"@en ;
 	  rdfs:label "Prédio: -"@pt ;
 	  rdfs:label "Cidade: -"@es ;
 	  rdfs:label "Explicação: Formalizar dados de elementos estruturais metálicos."@pt ;
@@ -39775,5 +39775,5 @@ bim:zona.pública   rdf:type  owl:DatatypeProperty ;
 
 #################################################################
 ##  Fim da Ontologia Metalica
-##  Criada em 11/09/2026 10:43:41
+##  Criada em 11/09/2026 11:12:14
 #################################################################
