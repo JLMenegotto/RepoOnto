@@ -26,7 +26,7 @@
 	  rdfs:label "Norma-Referência-02: -"@pt ;
 	  rdfs:label "Norma-Referência-03: -"@pt ;
 	  rdfs:label "Observações: Conceitos de elementos de codificação interna do Centro de Tecnologia"@pt ;
-	  rdfs:label "DataHora: 12/09/2026 9:28:54"@pt ;
+	  rdfs:label "DataHora: 12/09/2026 10:13:46"@pt ;
 	  rdfs:label "Advertência: -"@pt ;
 	  rdfs:label "Aviso: -"@pt ;
 	  rdfs:label "Alert: -"@pt ;
@@ -73779,5 +73779,5 @@ bim:zona.pública   rdf:type  owl:DatatypeProperty ;
 
 #################################################################
 ##  Fim da Ontologia CT_Codigos
-##  Criada em 12/09/2026 9:28:58
+##  Criada em 12/09/2026 10:13:49
 #################################################################
