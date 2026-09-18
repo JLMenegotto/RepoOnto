@@ -24,7 +24,7 @@ Ontology:  <https://github.com/JLMenegotto/RepoOnto#Objetos_BIM_Circulação>
   Annotations: rdfs:label "Norma-Referência-02: -"@pt
   Annotations: rdfs:label "Norma-Referência-03: -"@pt
   Annotations: rdfs:label "Observações: Modelo de informação IFC 4x3 e Categorias Revit 2026"@pt
-  Annotations: rdfs:label "DataHora: 18/09/2026 16:03:24"@pt
+  Annotations: rdfs:label "DataHora: 18/09/2026 16:22:44"@pt
   Annotations: rdfs:label "Advertência: Algumas traduções podem precisar de revisão - Traducción al español incorporada"@pt
   Annotations: rdfs:label "Aviso: -"@pt
   Annotations: rdfs:label "Alert: -"@pt
@@ -36214,5 +36214,5 @@ DataProperty: bim:zona.pública
 
 #################################################################
 ##  Fim da Ontologia Circulacao
-##  Criada em 18/09/2026 16:03:30
+##  Criada em 18/09/2026 16:22:50
 #################################################################
