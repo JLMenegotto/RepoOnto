@@ -26,7 +26,7 @@
 	  rdfs:label "Norma-Referência-02: -"@pt ;
 	  rdfs:label "Norma-Referência-03: -"@pt ;
 	  rdfs:label "Observações: Sistema de classificação ABNT da construção para BIM"@pt ;
-	  rdfs:label "DataHora: 26/10/2026 7:24:04"@pt ;
+	  rdfs:label "DataHora: 26/10/2026 8:12:53"@pt ;
 	  rdfs:label "Advertência: A Norma foi elaborada pela Comissão de Estudo Especial de Modelagem da Informação da Construção (BIM) ABNT/CEE-134"@pt ;
 	  rdfs:label "Aviso: El Estándar fue preparado por el Comité Especial de Estudio sobre Modelado de Información de Edificación (BIM) ABNT/CEE-134"@es ;
 	  rdfs:label "Alert: The Standard was prepared by the Special Committee of Studies on Building Information Modeling (BIM) ABNT/CEE-134"@en ;
@@ -15305,40 +15305,11 @@ bim:p.geolocalizar   rdf:type  owl:ObjectProperty ;
                     rdfs:subPropertyOf      bim:BIMProp  .
 
 
-bim:é.utm.zona   rdf:type  owl:ObjectProperty ;
-                    rdfs:subPropertyOf      bim:p.geolocalizar ;
-                    rdfs:domain             bim:BIM ;
-                    rdfs:label              "Propriedade destinada a geolocalizar: é.utm.zona" ;
-                    bim:Chave               "d.geolocalizar.125" ;
-                    bim:Ação                "Ação de geolocalizar" ;
-                    bim:Definição           "Declara o valor da zona geográfica UTM (Universal Transverse Mercator). valor numérico de 2 dígitos expresso como string. "@pt ;
-                    bim:Definición          "Declara el valor del área geográfica UTM (Universal Transverse Mercator). valor numérico de 2 dígitos expresado como cadena."@es ;bim:Definition          "Declare the Value of the UTM (Universal Transverse Mercator) geographical area. 2-digit numeric value expressed as string."@en ;
-                    owl:equivalentProperty  bim:é.utm.fuso  .
-
-
-bim:d.geolocalizar   rdf:type  owl:DatatypeProperty ;
-                    rdfs:subPropertyOf      bim:BIMData  .
-
-
-bim:utm.zona   rdf:type  owl:DatatypeProperty ;
-                    rdfs:subPropertyOf      bim:d.geolocalizar ;
-                    rdfs:range               [rdf:type rdfs:Datatype ; owl:unionOf ( rdfs:Literalxsd:string) ]  ;
-                    rdfs:label              " [rdf:type rdfs:Datatype ; owl:unionOf ( Dado para geolocalizar: utm.zona -- Formatado como (rdfs:Literalxsd:string)) ] " ;
-                    bim:Chave               "d.geolocalizar.125" ;
-                    bim:Ação                "Ação de geolocalizar" ;
-                    bim:Definição           "Declara o valor da zona geográfica UTM (Universal Transverse Mercator). valor numérico de 2 dígitos expresso como string. "@pt ;
-                    bim:Definición          "Declara el valor del área geográfica UTM (Universal Transverse Mercator). valor numérico de 2 dígitos expresado como cadena."@es ;bim:Definition          "Declare the Value of the UTM (Universal Transverse Mercator) geographical area. 2-digit numeric value expressed as string."@en  .
-
-
-bim:p.geolocalizar   rdf:type  owl:ObjectProperty ;
-                    rdfs:subPropertyOf      bim:BIMProp  .
-
-
 bim:é.utm.fuso.18   rdf:type  owl:ObjectProperty ;
                     rdfs:subPropertyOf      bim:p.geolocalizar ;
                     rdfs:domain             bim:BIM ;
                     rdfs:label              "Propriedade destinada a geolocalizar: é.utm.fuso.18" ;
-                    bim:Chave               "d.geolocalizar.129" ;
+                    bim:Chave               "d.geolocalizar.125" ;
                     bim:Ação                "Ação de geolocalizar" ;
                     bim:Definição           "Declara que o fuso UTM passa pela Região oeste do Acre do Brasil."@pt ;
                     bim:Definición          "Declara que la zona horaria UTM pasa por la región occidental de Acre."@es ;bim:Definition          "Declare that the UTM time zone passes through the western region of Acre."@en ;
@@ -15353,7 +15324,7 @@ bim:utm.fuso.18   rdf:type  owl:DatatypeProperty ;
                     rdfs:subPropertyOf      bim:d.geolocalizar ;
                     rdfs:range               [rdf:type rdfs:Datatype ; owl:unionOf ( rdfs:Literalxsd:string) ]  ;
                     rdfs:label              " [rdf:type rdfs:Datatype ; owl:unionOf ( Dado para geolocalizar: utm.fuso.18 -- Formatado como (rdfs:Literalxsd:string)) ] " ;
-                    bim:Chave               "d.geolocalizar.129" ;
+                    bim:Chave               "d.geolocalizar.125" ;
                     bim:Ação                "Ação de geolocalizar" ;
                     bim:Definição           "Declara que o fuso UTM passa pela Região oeste do Acre do Brasil."@pt ;
                     bim:Definición          "Declara que la zona horaria UTM pasa por la región occidental de Acre."@es ;bim:Definition          "Declare that the UTM time zone passes through the western region of Acre."@en  .
@@ -15367,7 +15338,7 @@ bim:é.utm.fuso.19   rdf:type  owl:ObjectProperty ;
                     rdfs:subPropertyOf      bim:p.geolocalizar ;
                     rdfs:domain             bim:BIM ;
                     rdfs:label              "Propriedade destinada a geolocalizar: é.utm.fuso.19" ;
-                    bim:Chave               "d.geolocalizar.130" ;
+                    bim:Chave               "d.geolocalizar.126" ;
                     bim:Ação                "Ação de geolocalizar" ;
                     bim:Definição           "Declara que o fuso UTM passa pela Parte do Acre e Rondônia do Brasil."@pt ;
                     bim:Definición          "Declara que la zona horaria de la UTM pasa por la parte de Acre y Rondônia."@es ;bim:Definition          "Declare that the UTM time zone passes through the part of Acre and Rondônia."@en ;
@@ -15382,7 +15353,7 @@ bim:utm.fuso.19   rdf:type  owl:DatatypeProperty ;
                     rdfs:subPropertyOf      bim:d.geolocalizar ;
                     rdfs:range               [rdf:type rdfs:Datatype ; owl:unionOf ( rdfs:Literalxsd:string) ]  ;
                     rdfs:label              " [rdf:type rdfs:Datatype ; owl:unionOf ( Dado para geolocalizar: utm.fuso.19 -- Formatado como (rdfs:Literalxsd:string)) ] " ;
-                    bim:Chave               "d.geolocalizar.130" ;
+                    bim:Chave               "d.geolocalizar.126" ;
                     bim:Ação                "Ação de geolocalizar" ;
                     bim:Definição           "Declara que o fuso UTM passa pela Parte do Acre e Rondônia do Brasil."@pt ;
                     bim:Definición          "Declara que la zona horaria de la UTM pasa por la parte de Acre y Rondônia."@es ;bim:Definition          "Declare that the UTM time zone passes through the part of Acre and Rondônia."@en  .
@@ -15396,7 +15367,7 @@ bim:é.utm.fuso.20   rdf:type  owl:ObjectProperty ;
                     rdfs:subPropertyOf      bim:p.geolocalizar ;
                     rdfs:domain             bim:BIM ;
                     rdfs:label              "Propriedade destinada a geolocalizar: é.utm.fuso.20" ;
-                    bim:Chave               "d.geolocalizar.131" ;
+                    bim:Chave               "d.geolocalizar.127" ;
                     bim:Ação                "Ação de geolocalizar" ;
                     bim:Definição           "Declara que o fuso UTM passa por Rondônia, Mato Grosso e parte do Amazonas do Brasil."@pt ;
                     bim:Definición          "Declara que la zona horaria de la UTM pasa por Rondônia, Mato Grosso y parte de Amazonas."@es ;bim:Definition          "Declare that the UTM time zone passes through Rondônia, Mato Grosso and part of Amazonas."@en ;
@@ -15411,7 +15382,7 @@ bim:utm.fuso.20   rdf:type  owl:DatatypeProperty ;
                     rdfs:subPropertyOf      bim:d.geolocalizar ;
                     rdfs:range               [rdf:type rdfs:Datatype ; owl:unionOf ( rdfs:Literalxsd:string) ]  ;
                     rdfs:label              " [rdf:type rdfs:Datatype ; owl:unionOf ( Dado para geolocalizar: utm.fuso.20 -- Formatado como (rdfs:Literalxsd:string)) ] " ;
-                    bim:Chave               "d.geolocalizar.131" ;
+                    bim:Chave               "d.geolocalizar.127" ;
                     bim:Ação                "Ação de geolocalizar" ;
                     bim:Definição           "Declara que o fuso UTM passa por Rondônia, Mato Grosso e parte do Amazonas do Brasil."@pt ;
                     bim:Definición          "Declara que la zona horaria de la UTM pasa por Rondônia, Mato Grosso y parte de Amazonas."@es ;bim:Definition          "Declare that the UTM time zone passes through Rondônia, Mato Grosso and part of Amazonas."@en  .
@@ -15425,7 +15396,7 @@ bim:é.utm.fuso.21   rdf:type  owl:ObjectProperty ;
                     rdfs:subPropertyOf      bim:p.geolocalizar ;
                     rdfs:domain             bim:BIM ;
                     rdfs:label              "Propriedade destinada a geolocalizar: é.utm.fuso.21" ;
-                    bim:Chave               "d.geolocalizar.132" ;
+                    bim:Chave               "d.geolocalizar.128" ;
                     bim:Ação                "Ação de geolocalizar" ;
                     bim:Definição           "Declara que o fuso UTM passa por Goiás, Tocantins, parte do Pará e Mato Grosso do Brasil."@pt ;
                     bim:Definición          "Declara que la zona horaria de la UTM pasa por Goiás, Tocantins, parte de Pará y Mato Grosso."@es ;bim:Definition          "Declare that the UTM time zone passes through Goiás, Tocantins, part of Pará and Mato Grosso."@en ;
@@ -15440,7 +15411,7 @@ bim:utm.fuso.21   rdf:type  owl:DatatypeProperty ;
                     rdfs:subPropertyOf      bim:d.geolocalizar ;
                     rdfs:range               [rdf:type rdfs:Datatype ; owl:unionOf ( rdfs:Literalxsd:string) ]  ;
                     rdfs:label              " [rdf:type rdfs:Datatype ; owl:unionOf ( Dado para geolocalizar: utm.fuso.21 -- Formatado como (rdfs:Literalxsd:string)) ] " ;
-                    bim:Chave               "d.geolocalizar.132" ;
+                    bim:Chave               "d.geolocalizar.128" ;
                     bim:Ação                "Ação de geolocalizar" ;
                     bim:Definição           "Declara que o fuso UTM passa por Goiás, Tocantins, parte do Pará e Mato Grosso do Brasil."@pt ;
                     bim:Definición          "Declara que la zona horaria de la UTM pasa por Goiás, Tocantins, parte de Pará y Mato Grosso."@es ;bim:Definition          "Declare that the UTM time zone passes through Goiás, Tocantins, part of Pará and Mato Grosso."@en  .
@@ -15454,7 +15425,7 @@ bim:é.utm.fuso.22   rdf:type  owl:ObjectProperty ;
                     rdfs:subPropertyOf      bim:p.geolocalizar ;
                     rdfs:domain             bim:BIM ;
                     rdfs:label              "Propriedade destinada a geolocalizar: é.utm.fuso.22" ;
-                    bim:Chave               "d.geolocalizar.133" ;
+                    bim:Chave               "d.geolocalizar.129" ;
                     bim:Ação                "Ação de geolocalizar" ;
                     bim:Definição           "Declara que o fuso UTM passa por Grande parte do Brasil central, incluindo Minas Gerais e Bahia."@pt ;
                     bim:Definición          "Declara que la zona horaria de la UTM atraviesa gran parte del centro de Brasil, incluyendo Minas Gerais y Bahía."@es ;bim:Definition          "Declare that the UTM time zone passes through much of central Brazil, including Minas Gerais and Bahia."@en ;
@@ -15469,7 +15440,7 @@ bim:utm.fuso.22   rdf:type  owl:DatatypeProperty ;
                     rdfs:subPropertyOf      bim:d.geolocalizar ;
                     rdfs:range               [rdf:type rdfs:Datatype ; owl:unionOf ( rdfs:Literalxsd:string) ]  ;
                     rdfs:label              " [rdf:type rdfs:Datatype ; owl:unionOf ( Dado para geolocalizar: utm.fuso.22 -- Formatado como (rdfs:Literalxsd:string)) ] " ;
-                    bim:Chave               "d.geolocalizar.133" ;
+                    bim:Chave               "d.geolocalizar.129" ;
                     bim:Ação                "Ação de geolocalizar" ;
                     bim:Definição           "Declara que o fuso UTM passa por Grande parte do Brasil central, incluindo Minas Gerais e Bahia."@pt ;
                     bim:Definición          "Declara que la zona horaria de la UTM atraviesa gran parte del centro de Brasil, incluyendo Minas Gerais y Bahía."@es ;bim:Definition          "Declare that the UTM time zone passes through much of central Brazil, including Minas Gerais and Bahia."@en  .
@@ -15483,7 +15454,7 @@ bim:é.utm.fuso.23   rdf:type  owl:ObjectProperty ;
                     rdfs:subPropertyOf      bim:p.geolocalizar ;
                     rdfs:domain             bim:BIM ;
                     rdfs:label              "Propriedade destinada a geolocalizar: é.utm.fuso.23" ;
-                    bim:Chave               "d.geolocalizar.134" ;
+                    bim:Chave               "d.geolocalizar.130" ;
                     bim:Ação                "Ação de geolocalizar" ;
                     bim:Definição           "Declara que o fuso UTM passa pelas regiões Sudeste e Sul (São Paulo, Rio de Janeiro, Paraná, Santa Catarina, Rio Grande do Sul) do Brasil."@pt ;
                     bim:Definición          "Declara que la zona horaria de la UTM atraviesa las regiones Sureste y Sur (São Paulo, Río de Janeiro, Paraná, Santa Catarina, Río Grande do Sul)."@es ;bim:Definition          "Declare that the UTM time zone passes through the Southeast and South regions (São Paulo, Rio de Janeiro, Paraná, Santa Catarina, Rio Grande do Sul)."@en ;
@@ -15498,7 +15469,7 @@ bim:utm.fuso.23   rdf:type  owl:DatatypeProperty ;
                     rdfs:subPropertyOf      bim:d.geolocalizar ;
                     rdfs:range               [rdf:type rdfs:Datatype ; owl:unionOf ( rdfs:Literalxsd:string) ]  ;
                     rdfs:label              " [rdf:type rdfs:Datatype ; owl:unionOf ( Dado para geolocalizar: utm.fuso.23 -- Formatado como (rdfs:Literalxsd:string)) ] " ;
-                    bim:Chave               "d.geolocalizar.134" ;
+                    bim:Chave               "d.geolocalizar.130" ;
                     bim:Ação                "Ação de geolocalizar" ;
                     bim:Definição           "Declara que o fuso UTM passa pelas regiões Sudeste e Sul (São Paulo, Rio de Janeiro, Paraná, Santa Catarina, Rio Grande do Sul) do Brasil."@pt ;
                     bim:Definición          "Declara que la zona horaria de la UTM atraviesa las regiones Sureste y Sur (São Paulo, Río de Janeiro, Paraná, Santa Catarina, Río Grande do Sul)."@es ;bim:Definition          "Declare that the UTM time zone passes through the Southeast and South regions (São Paulo, Rio de Janeiro, Paraná, Santa Catarina, Rio Grande do Sul)."@en  .
@@ -15512,7 +15483,7 @@ bim:é.utm.fuso.24   rdf:type  owl:ObjectProperty ;
                     rdfs:subPropertyOf      bim:p.geolocalizar ;
                     rdfs:domain             bim:BIM ;
                     rdfs:label              "Propriedade destinada a geolocalizar: é.utm.fuso.24" ;
-                    bim:Chave               "d.geolocalizar.135" ;
+                    bim:Chave               "d.geolocalizar.131" ;
                     bim:Ação                "Ação de geolocalizar" ;
                     bim:Definição           "Declara que o fuso UTM passa pela parte Leste do Brasil, incluindo Pernambuco, Alagoas, Sergipe."@pt ;
                     bim:Definición          "Declara que la zona horaria UTM pasa por la parte oriental de Brasil, incluyendo Pernambuco, Alagoas y Sergipe."@es ;bim:Definition          "Declare that the UTM time zone passes through the eastern part of Brazil, including Pernambuco, Alagoas, Sergipe."@en ;
@@ -15527,7 +15498,7 @@ bim:utm.fuso.24   rdf:type  owl:DatatypeProperty ;
                     rdfs:subPropertyOf      bim:d.geolocalizar ;
                     rdfs:range               [rdf:type rdfs:Datatype ; owl:unionOf ( rdfs:Literalxsd:string) ]  ;
                     rdfs:label              " [rdf:type rdfs:Datatype ; owl:unionOf ( Dado para geolocalizar: utm.fuso.24 -- Formatado como (rdfs:Literalxsd:string)) ] " ;
-                    bim:Chave               "d.geolocalizar.135" ;
+                    bim:Chave               "d.geolocalizar.131" ;
                     bim:Ação                "Ação de geolocalizar" ;
                     bim:Definição           "Declara que o fuso UTM passa pela parte Leste do Brasil, incluindo Pernambuco, Alagoas, Sergipe."@pt ;
                     bim:Definición          "Declara que la zona horaria UTM pasa por la parte oriental de Brasil, incluyendo Pernambuco, Alagoas y Sergipe."@es ;bim:Definition          "Declare that the UTM time zone passes through the eastern part of Brazil, including Pernambuco, Alagoas, Sergipe."@en  .
@@ -15541,7 +15512,7 @@ bim:é.utm.fuso.25   rdf:type  owl:ObjectProperty ;
                     rdfs:subPropertyOf      bim:p.geolocalizar ;
                     rdfs:domain             bim:BIM ;
                     rdfs:label              "Propriedade destinada a geolocalizar: é.utm.fuso.25" ;
-                    bim:Chave               "d.geolocalizar.136" ;
+                    bim:Chave               "d.geolocalizar.132" ;
                     bim:Ação                "Ação de geolocalizar" ;
                     bim:Definição           "Declara que o fuso UTM passa pelo Arquipélago de Fernando de Noronha do Brasil."@pt ;
                     bim:Definición          "Declara que la zona horaria UTM pasa por el archipiélago Fernando de Noronha."@es ;bim:Definition          "Declare that the UTM time zone passes through the Fernando de Noronha Archipelago."@en ;
@@ -15556,10 +15527,39 @@ bim:utm.fuso.25   rdf:type  owl:DatatypeProperty ;
                     rdfs:subPropertyOf      bim:d.geolocalizar ;
                     rdfs:range               [rdf:type rdfs:Datatype ; owl:unionOf ( rdfs:Literalxsd:string) ]  ;
                     rdfs:label              " [rdf:type rdfs:Datatype ; owl:unionOf ( Dado para geolocalizar: utm.fuso.25 -- Formatado como (rdfs:Literalxsd:string)) ] " ;
-                    bim:Chave               "d.geolocalizar.136" ;
+                    bim:Chave               "d.geolocalizar.132" ;
                     bim:Ação                "Ação de geolocalizar" ;
                     bim:Definição           "Declara que o fuso UTM passa pelo Arquipélago de Fernando de Noronha do Brasil."@pt ;
                     bim:Definición          "Declara que la zona horaria UTM pasa por el archipiélago Fernando de Noronha."@es ;bim:Definition          "Declare that the UTM time zone passes through the Fernando de Noronha Archipelago."@en  .
+
+
+bim:p.geolocalizar   rdf:type  owl:ObjectProperty ;
+                    rdfs:subPropertyOf      bim:BIMProp  .
+
+
+bim:é.utm.zona   rdf:type  owl:ObjectProperty ;
+                    rdfs:subPropertyOf      bim:p.geolocalizar ;
+                    rdfs:domain             bim:BIM ;
+                    rdfs:label              "Propriedade destinada a geolocalizar: é.utm.zona" ;
+                    bim:Chave               "d.geolocalizar.133" ;
+                    bim:Ação                "Ação de geolocalizar" ;
+                    bim:Definição           "Declara o valor da zona geográfica UTM (Universal Transverse Mercator). valor numérico de 2 dígitos expresso como string. "@pt ;
+                    bim:Definición          "Declara el valor del área geográfica UTM (Universal Transverse Mercator). valor numérico de 2 dígitos expresado como cadena."@es ;bim:Definition          "Declare the Value of the UTM (Universal Transverse Mercator) geographical area. 2-digit numeric value expressed as string."@en ;
+                    owl:equivalentProperty  bim:é.utm.fuso  .
+
+
+bim:d.geolocalizar   rdf:type  owl:DatatypeProperty ;
+                    rdfs:subPropertyOf      bim:BIMData  .
+
+
+bim:utm.zona   rdf:type  owl:DatatypeProperty ;
+                    rdfs:subPropertyOf      bim:d.geolocalizar ;
+                    rdfs:range               [rdf:type rdfs:Datatype ; owl:unionOf ( rdfs:Literalxsd:string) ]  ;
+                    rdfs:label              " [rdf:type rdfs:Datatype ; owl:unionOf ( Dado para geolocalizar: utm.zona -- Formatado como (rdfs:Literalxsd:string)) ] " ;
+                    bim:Chave               "d.geolocalizar.133" ;
+                    bim:Ação                "Ação de geolocalizar" ;
+                    bim:Definição           "Declara o valor da zona geográfica UTM (Universal Transverse Mercator). valor numérico de 2 dígitos expresso como string. "@pt ;
+                    bim:Definición          "Declara el valor del área geográfica UTM (Universal Transverse Mercator). valor numérico de 2 dígitos expresado como cadena."@es ;bim:Definition          "Declare the Value of the UTM (Universal Transverse Mercator) geographical area. 2-digit numeric value expressed as string."@en  .
 
 
 bim:p.gerar   rdf:type  owl:ObjectProperty ;
@@ -39503,5 +39503,5 @@ bim:zona.pública   rdf:type  owl:DatatypeProperty ;
 
 #################################################################
 ##  Fim da Ontologia NBR15965_3R
-##  Criada em 26/10/2026 7:24:12
+##  Criada em 26/10/2026 8:13:03
 #################################################################
