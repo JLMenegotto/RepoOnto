@@ -24,7 +24,7 @@ Ontology:  <https://github.com/JLMenegotto/RepoOnto#SomaSUS_Equipamentos>
   Annotations: rdfs:label "Norma-Referência-02: -"@pt
   Annotations: rdfs:label "Norma-Referência-03: -"@pt
   Annotations: rdfs:label "Observações: Caderno SomaSUS elaborado pelo Sistema Único de Saúde"@pt
-  Annotations: rdfs:label "DataHora: 22/10/2026 17:12:22"@pt
+  Annotations: rdfs:label "DataHora: 05/11/2026 7:53:44"@pt
   Annotations: rdfs:label "Advertência: -"@pt
   Annotations: rdfs:label "Aviso: -"@pt
   Annotations: rdfs:label "Alert: -"@pt
@@ -12020,6 +12020,37 @@ ObjectProperty: bim:p.atributar
 
 
 
+ObjectProperty: bim:é.atributo.nome
+	SubPropertyOf: bim:p.atributar
+	domain: bim:BIM
+	Annotations: rdfs:label "Propriedade destinada a atributar: é.atributo.nome"@pt
+	Annotations: bim:Chave "d.atributar.100"
+	Annotations: bim:Ação "Ação de atributar"@pt
+	Annotations: bim:Definição "Declara o nome do atributo que qualifica um elemento XML ou KML. Exemplo, atrib = 10."@pt
+	Annotations: bim:Definición "Declara el nombre del atributo que califica un elemento XML o KML. Por ejemplo, atrib = 10."@es
+	Annotations: bim:Definition "Declare the name of the attribute that qualifies an XML or KML element. Example, atrib = 10."@en
+	EquivalentTo: bim:é.parâmetro.nome
+
+DataProperty: bim:d.atributar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:atributo.nome
+	SubPropertyOf: bim:d.atributar
+	range: rdfs:Literal or xsd:string
+	Annotations: rdfs:label "Dado para atributar: atributo.nome -- Formatado como (rdfs:Literal or xsd:string)"@pt
+	Annotations: bim:Chave "d.atributar.100"
+	Annotations: bim:Ação "Ação de atributar"@pt
+	Annotations: bim:Definição "Declara o nome do atributo que qualifica um elemento XML ou KML. Exemplo, atrib = 10."@pt
+	Annotations: bim:Definición "Declara el nombre del atributo que califica un elemento XML o KML. Por ejemplo, atrib = 10."@es
+	Annotations: bim:Definition "Declare the name of the attribute that qualifies an XML or KML element. Example, atrib = 10."@en
+
+ObjectProperty: bim:p.atributar
+	SubPropertyOf: bim:BIMProp
+
+
+
 ObjectProperty: bim:é.atributo.valor
 	SubPropertyOf: bim:p.atributar
 	domain: bim:BIM
@@ -12045,6 +12076,37 @@ DataProperty: bim:atributo.valor
 	Annotations: bim:Definição "Declara o valor do atributo que qualifica um elemento XML ou KML. Exemplo, atrib = 10."@pt
 	Annotations: bim:Definición "Declara el valor del atributo que califica un elemento XML o KML. Por ejemplo, atrib = 10."@es
 	Annotations: bim:Definition "Declare the value of the attribute that qualifies an XML or KML element. Example, atrib = 10."@en
+
+ObjectProperty: bim:p.atributar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.parâmetro.nome
+	SubPropertyOf: bim:p.atributar
+	domain: bim:BIM
+	Annotations: rdfs:label "Propriedade destinada a atributar: é.parâmetro.nome"@pt
+	Annotations: bim:Chave "d.atributar.102"
+	Annotations: bim:Ação "Ação de atributar"@pt
+	Annotations: bim:Definição "Declara o nome de um parâmetro ou atributo criado pelo usuário."@pt
+	Annotations: bim:Definición "Declara el nombre de un parámetro o atributo creado por el usuario."@es
+	Annotations: bim:Definition "Declare the name of a user-created parameter or attribute."@en
+	EquivalentTo: bim:é.atributo.nome
+
+DataProperty: bim:d.atributar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:parâmetro.nome
+	SubPropertyOf: bim:d.atributar
+	range: rdfs:Literal or xsd:string
+	Annotations: rdfs:label "Dado para atributar: parâmetro.nome -- Formatado como (rdfs:Literal or xsd:string)"@pt
+	Annotations: bim:Chave "d.atributar.102"
+	Annotations: bim:Ação "Ação de atributar"@pt
+	Annotations: bim:Definição "Declara o nome de um parâmetro ou atributo criado pelo usuário."@pt
+	Annotations: bim:Definición "Declara el nombre de un parámetro o atributo creado por el usuario."@es
+	Annotations: bim:Definition "Declare the name of a user-created parameter or attribute."@en
 
 ObjectProperty: bim:p.atributar
 	SubPropertyOf: bim:BIMProp
@@ -12122,7 +12184,7 @@ ObjectProperty: bim:é.valor
 	Annotations: bim:Definição "Declara o valor atribuído ao parâmetro ou atributo criado pelo usuário. Propriedade valor inespecífica, pode ser utilizada quando não há uma propriedade de valor específica."@pt
 	Annotations: bim:Definición "Declara el valor asignado al parámetro o atributo creado por el usuario. La propiedad de valor no específico puede usarse cuando no existe una propiedad de valor específico."@es
 	Annotations: bim:Definition "Declare the value assigned to the parameter or attribute created by the user. Non-specific Value property can be used when there is no specific value property."@en
-	EquivalentTo: bim:é.atributo.valor
+	EquivalentTo: bim:é.valor.do.parâmetro
 
 DataProperty: bim:d.atributar
 	SubPropertyOf: bim:BIMData
@@ -12138,6 +12200,37 @@ DataProperty: bim:valor
 	Annotations: bim:Definição "Declara o valor atribuído ao parâmetro ou atributo criado pelo usuário. Propriedade valor inespecífica, pode ser utilizada quando não há uma propriedade de valor específica."@pt
 	Annotations: bim:Definición "Declara el valor asignado al parámetro o atributo creado por el usuario. La propiedad de valor no específico puede usarse cuando no existe una propiedad de valor específico."@es
 	Annotations: bim:Definition "Declare the value assigned to the parameter or attribute created by the user. Non-specific Value property can be used when there is no specific value property."@en
+
+ObjectProperty: bim:p.atributar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.valor.do.parâmetro
+	SubPropertyOf: bim:p.atributar
+	domain: bim:BIM
+	Annotations: rdfs:label "Propriedade destinada a atributar: é.valor.do.parâmetro"@pt
+	Annotations: bim:Chave "d.atributar.108"
+	Annotations: bim:Ação "Ação de atributar"@pt
+	Annotations: bim:Definição "Declara o valor atribuído ao parâmetro ou atributo criado pelo usuário."@pt
+	Annotations: bim:Definición "Declara el valor asignado al parámetro o atributo creado por el usuario."@es
+	Annotations: bim:Definition "Declare the value assigned to the parameter or attribute created by the user."@en
+	EquivalentTo: bim:é.atributo.valor
+
+DataProperty: bim:d.atributar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:valor.do.parâmetro
+	SubPropertyOf: bim:d.atributar
+	range: rdfs:Literal or xsd:string
+	Annotations: rdfs:label "Dado para atributar: valor.do.parâmetro -- Formatado como (rdfs:Literal or xsd:string)"@pt
+	Annotations: bim:Chave "d.atributar.108"
+	Annotations: bim:Ação "Ação de atributar"@pt
+	Annotations: bim:Definição "Declara o valor atribuído ao parâmetro ou atributo criado pelo usuário."@pt
+	Annotations: bim:Definición "Declara el valor asignado al parámetro o atributo creado por el usuario."@es
+	Annotations: bim:Definition "Declare the value assigned to the parameter or attribute created by the user."@en
 
 ObjectProperty: bim:p.atualizar
 	SubPropertyOf: bim:BIMProp
@@ -12505,7 +12598,7 @@ ObjectProperty: bim:é.gestionar
 	SubPropertyOf: bim:p.atuar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a atuar: é.gestionar"@pt
-	Annotations: bim:Chave "d.atuar.186"
+	Annotations: bim:Chave "d.atuar.187"
 	Annotations: bim:Ação "Ação de atuar"@pt
 	Annotations: bim:Definição "Declara que o grupo contêm ações, elementos ou parâmetros destinadas ou destinados a gestionar."@pt
 	Annotations: bim:Definición "Declara que el grupo contiene acciones, elementos o parámetros destinados a gestionar."@es
@@ -12521,7 +12614,7 @@ DataProperty: bim:gestionar
 	SubPropertyOf: bim:d.atuar
 	range: rdfs:Literal or xsd:string
 	Annotations: rdfs:label "Dado para atuar: gestionar -- Formatado como (rdfs:Literal or xsd:string)"@pt
-	Annotations: bim:Chave "d.atuar.186"
+	Annotations: bim:Chave "d.atuar.187"
 	Annotations: bim:Ação "Ação de atuar"@pt
 	Annotations: bim:Definição "Declara que o grupo contêm ações, elementos ou parâmetros destinadas ou destinados a gestionar."@pt
 	Annotations: bim:Definición "Declara que el grupo contiene acciones, elementos o parámetros destinados a gestionar."@es
@@ -12536,7 +12629,7 @@ ObjectProperty: bim:é.identificar
 	SubPropertyOf: bim:p.atuar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a atuar: é.identificar"@pt
-	Annotations: bim:Chave "d.atuar.192"
+	Annotations: bim:Chave "d.atuar.193"
 	Annotations: bim:Ação "Ação de atuar"@pt
 	Annotations: bim:Definição "Declara que o grupo contêm ações, elementos ou parâmetros destinadas ou destinados a identificar."@pt
 	Annotations: bim:Definición "Declara que el grupo contiene acciones, elementos o parámetros destinados a identificar."@es
@@ -12552,7 +12645,7 @@ DataProperty: bim:identificar
 	SubPropertyOf: bim:d.atuar
 	range: rdfs:Literal or xsd:string
 	Annotations: rdfs:label "Dado para atuar: identificar -- Formatado como (rdfs:Literal or xsd:string)"@pt
-	Annotations: bim:Chave "d.atuar.192"
+	Annotations: bim:Chave "d.atuar.193"
 	Annotations: bim:Ação "Ação de atuar"@pt
 	Annotations: bim:Definição "Declara que o grupo contêm ações, elementos ou parâmetros destinadas ou destinados a identificar."@pt
 	Annotations: bim:Definición "Declara que el grupo contiene acciones, elementos o parámetros destinados a identificar."@es
@@ -12567,7 +12660,7 @@ ObjectProperty: bim:é.incorporar
 	SubPropertyOf: bim:p.atuar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a atuar: é.incorporar"@pt
-	Annotations: bim:Chave "d.atuar.197"
+	Annotations: bim:Chave "d.atuar.198"
 	Annotations: bim:Ação "Ação de atuar"@pt
 	Annotations: bim:Definição "Declara que o grupo contêm ações, elementos ou parâmetros destinadas ou destinados à incorporação imobilíaria."@pt
 	Annotations: bim:Definición "Declara que el grupo contiene acciones, elementos o parámetros destinados a la incorporación o desarrollo inmobiliario."@es
@@ -12583,7 +12676,7 @@ DataProperty: bim:incorporar
 	SubPropertyOf: bim:d.atuar
 	range: rdfs:Literal or xsd:string
 	Annotations: rdfs:label "Dado para atuar: incorporar -- Formatado como (rdfs:Literal or xsd:string)"@pt
-	Annotations: bim:Chave "d.atuar.197"
+	Annotations: bim:Chave "d.atuar.198"
 	Annotations: bim:Ação "Ação de atuar"@pt
 	Annotations: bim:Definição "Declara que o grupo contêm ações, elementos ou parâmetros destinadas ou destinados à incorporação imobilíaria."@pt
 	Annotations: bim:Definición "Declara que el grupo contiene acciones, elementos o parámetros destinados a la incorporación o desarrollo inmobiliario."@es
@@ -12598,7 +12691,7 @@ ObjectProperty: bim:é.informar
 	SubPropertyOf: bim:p.atuar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a atuar: é.informar"@pt
-	Annotations: bim:Chave "d.atuar.198"
+	Annotations: bim:Chave "d.atuar.199"
 	Annotations: bim:Ação "Ação de atuar"@pt
 	Annotations: bim:Definição "Declara que o grupo contêm ações, elementos ou parâmetros destinadas ou destinados a informar."@pt
 	Annotations: bim:Definición "Declara que el grupo contiene acciones, elementos o parámetros destinados a informar."@es
@@ -12616,7 +12709,7 @@ DataProperty: bim:informar
 	SubPropertyOf: bim:d.atuar
 	range: rdfs:Literal or xsd:string
 	Annotations: rdfs:label "Dado para atuar: informar -- Formatado como (rdfs:Literal or xsd:string)"@pt
-	Annotations: bim:Chave "d.atuar.198"
+	Annotations: bim:Chave "d.atuar.199"
 	Annotations: bim:Ação "Ação de atuar"@pt
 	Annotations: bim:Definição "Declara que o grupo contêm ações, elementos ou parâmetros destinadas ou destinados a informar."@pt
 	Annotations: bim:Definición "Declara que el grupo contiene acciones, elementos o parámetros destinados a informar."@es
@@ -12633,7 +12726,7 @@ ObjectProperty: bim:é.nomear
 	SubPropertyOf: bim:p.atuar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a atuar: é.nomear"@pt
-	Annotations: bim:Chave "d.atuar.228"
+	Annotations: bim:Chave "d.atuar.229"
 	Annotations: bim:Ação "Ação de atuar"@pt
 	Annotations: bim:Definição "Declara que o grupo contêm ações, elementos ou parâmetros destinadas ou destinados a dar nome a objetos."@pt
 	Annotations: bim:Definición "Declara que el grupo contiene acciones, elementos o parámetros destinados a darle nombre a los objetos"@es
@@ -12649,7 +12742,7 @@ DataProperty: bim:nomear
 	SubPropertyOf: bim:d.atuar
 	range: rdfs:Literal or xsd:string
 	Annotations: rdfs:label "Dado para atuar: nomear -- Formatado como (rdfs:Literal or xsd:string)"@pt
-	Annotations: bim:Chave "d.atuar.228"
+	Annotations: bim:Chave "d.atuar.229"
 	Annotations: bim:Ação "Ação de atuar"@pt
 	Annotations: bim:Definição "Declara que o grupo contêm ações, elementos ou parâmetros destinadas ou destinados a dar nome a objetos."@pt
 	Annotations: bim:Definición "Declara que el grupo contiene acciones, elementos o parámetros destinados a darle nombre a los objetos"@es
@@ -12664,7 +12757,7 @@ ObjectProperty: bim:é.plantar
 	SubPropertyOf: bim:p.atuar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a atuar: é.plantar"@pt
-	Annotations: bim:Chave "d.atuar.243"
+	Annotations: bim:Chave "d.atuar.244"
 	Annotations: bim:Ação "Ação de atuar"@pt
 	Annotations: bim:Definição "Declara que o grupo contêm ações, elementos ou parâmetros destinadas ou destinados a plantar."@pt
 	Annotations: bim:Definición "Declara que el grupo contiene acciones, elementos o parámetros destinados a plantar."@es
@@ -12680,7 +12773,7 @@ DataProperty: bim:plantar
 	SubPropertyOf: bim:d.atuar
 	range: rdfs:Literal or xsd:string
 	Annotations: rdfs:label "Dado para atuar: plantar -- Formatado como (rdfs:Literal or xsd:string)"@pt
-	Annotations: bim:Chave "d.atuar.243"
+	Annotations: bim:Chave "d.atuar.244"
 	Annotations: bim:Ação "Ação de atuar"@pt
 	Annotations: bim:Definição "Declara que o grupo contêm ações, elementos ou parâmetros destinadas ou destinados a plantar."@pt
 	Annotations: bim:Definición "Declara que el grupo contiene acciones, elementos o parámetros destinados a plantar."@es
@@ -12695,7 +12788,7 @@ ObjectProperty: bim:é.predimensionar
 	SubPropertyOf: bim:p.atuar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a atuar: é.predimensionar"@pt
-	Annotations: bim:Chave "d.atuar.245"
+	Annotations: bim:Chave "d.atuar.246"
 	Annotations: bim:Ação "Ação de atuar"@pt
 	Annotations: bim:Definição "Declara que o grupo contêm ações, elementos ou parâmetros destinadas ou destinados a predimensionar ."@pt
 	Annotations: bim:Definición "Declara que el grupo contiene acciones, elementos o parámetros destinados a predimensionar."@es
@@ -12711,7 +12804,7 @@ DataProperty: bim:predimensionar
 	SubPropertyOf: bim:d.atuar
 	range: rdfs:Literal or xsd:string
 	Annotations: rdfs:label "Dado para atuar: predimensionar -- Formatado como (rdfs:Literal or xsd:string)"@pt
-	Annotations: bim:Chave "d.atuar.245"
+	Annotations: bim:Chave "d.atuar.246"
 	Annotations: bim:Ação "Ação de atuar"@pt
 	Annotations: bim:Definição "Declara que o grupo contêm ações, elementos ou parâmetros destinadas ou destinados a predimensionar ."@pt
 	Annotations: bim:Definición "Declara que el grupo contiene acciones, elementos o parámetros destinados a predimensionar."@es
@@ -12726,7 +12819,7 @@ ObjectProperty: bim:é.resistir
 	SubPropertyOf: bim:p.atuar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a atuar: é.resistir"@pt
-	Annotations: bim:Chave "d.atuar.261"
+	Annotations: bim:Chave "d.atuar.262"
 	Annotations: bim:Ação "Ação de atuar"@pt
 	Annotations: bim:Definição "Declara que o grupo contêm ações, elementos ou parâmetros destinadas ou destinados a resistir."@pt
 	Annotations: bim:Definición "Declara que el grupo contiene acciones, elementos o parámetros destinados a resistir."@es
@@ -12742,7 +12835,7 @@ DataProperty: bim:resistir
 	SubPropertyOf: bim:d.atuar
 	range: rdfs:Literal or xsd:string
 	Annotations: rdfs:label "Dado para atuar: resistir -- Formatado como (rdfs:Literal or xsd:string)"@pt
-	Annotations: bim:Chave "d.atuar.261"
+	Annotations: bim:Chave "d.atuar.262"
 	Annotations: bim:Ação "Ação de atuar"@pt
 	Annotations: bim:Definição "Declara que o grupo contêm ações, elementos ou parâmetros destinadas ou destinados a resistir."@pt
 	Annotations: bim:Definición "Declara que el grupo contiene acciones, elementos o parámetros destinados a resistir."@es
@@ -12757,7 +12850,7 @@ ObjectProperty: bim:é.suportar
 	SubPropertyOf: bim:p.atuar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a atuar: é.suportar"@pt
-	Annotations: bim:Chave "d.atuar.274"
+	Annotations: bim:Chave "d.atuar.275"
 	Annotations: bim:Ação "Ação de atuar"@pt
 	Annotations: bim:Definição "Declara que o grupo contêm ações, elementos ou parâmetros destinadas ou destinados a suportar."@pt
 	Annotations: bim:Definición "Declara que el grupo contiene acciones, elementos o parámetros destinados a apoyar."@es
@@ -12773,7 +12866,7 @@ DataProperty: bim:suportar
 	SubPropertyOf: bim:d.atuar
 	range: rdfs:Literal or xsd:string
 	Annotations: rdfs:label "Dado para atuar: suportar -- Formatado como (rdfs:Literal or xsd:string)"@pt
-	Annotations: bim:Chave "d.atuar.274"
+	Annotations: bim:Chave "d.atuar.275"
 	Annotations: bim:Ação "Ação de atuar"@pt
 	Annotations: bim:Definição "Declara que o grupo contêm ações, elementos ou parâmetros destinadas ou destinados a suportar."@pt
 	Annotations: bim:Definición "Declara que el grupo contiene acciones, elementos o parámetros destinados a apoyar."@es
@@ -19608,6 +19701,39 @@ DataProperty: bim:a.montante.de
 	Annotations: bim:Definición "Declara que el objeto está situado aguas arriba de otro objeto (dirección de flujo contrario). Propiedad diseñada para ordenar elementos de caudales y tuberías."@es
 	Annotations: bim:Definition "Declare that the object is positioned upstream of another object (counterflow direction). Property designed to order elements of flows and pipes."@en
 
+ObjectProperty: bim:p.especificar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.ids.autor
+	SubPropertyOf: bim:p.especificar
+	domain: bim:BIM
+	Annotations: rdfs:label "Propriedade destinada a especificar: é.ids.autor"@pt
+	Annotations: bim:Chave "d.especificar.100"
+	Annotations: bim:Ação "Ação de especificar"@pt
+	Annotations: bim:Definição "Declara o Nome do autor ou da organização responsável."@pt
+	Annotations: bim:Definición "Declara el nombre del autor o de la organización responsable."@es
+	Annotations: bim:Definition "Declare the name of the author or the responsible organization."@en
+	Annotations: bim:CódigoABNT "[ <ids:author> : val : </ids:author> ]"
+	EquivalentTo: bim:é.autor
+
+DataProperty: bim:d.especificar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:ids.autor
+	SubPropertyOf: bim:d.especificar
+	range: rdfs:Literal or xsd:string
+	Annotations: rdfs:label "Dado para especificar: ids.autor -- Formatado como (rdfs:Literal or xsd:string)"@pt
+	Annotations: bim:Chave "d.especificar.100"
+	Annotations: bim:Ação "Ação de especificar"@pt
+	Annotations: bim:Definição "Declara o Nome do autor ou da organização responsável."@pt
+	Annotations: bim:Definición "Declara el nombre del autor o de la organización responsable."@es
+	Annotations: bim:Definition "Declare the name of the author or the responsible organization."@en
+	Annotations: bim:CódigoABNT "[ <ids:author> : val : </ids:author> ]"
+
 ObjectProperty: bim:p.fluir
 	SubPropertyOf: bim:BIMProp
 
@@ -20442,6 +20568,326 @@ DataProperty: bim:usuário
 	Annotations: bim:Definición "Declara el nombre del usuario de un ambiente, elemento o unidad espacial."@es
 	Annotations: bim:Definition "Declare the name of the user of a element, space, sector or spatial entity."@en
 
+ObjectProperty: bim:p.fundamentar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.baseada.em
+	SubPropertyOf: bim:p.fundamentar
+	domain: bim:BIM
+	Annotations: rdfs:label "Propriedade destinada a fundamentar: é.baseada.em"@pt
+	Annotations: bim:Chave "d.fundamentar.100"
+	Annotations: bim:Ação "Ação de fundamentar"@pt
+	Annotations: bim:Definição "Declara um princípio, norma técnica, regulamento, lei ou solicitação feita que apoia uma decisão de projeto ou condição de funcionamento."@pt
+	Annotations: bim:Definición "Declara un principio, norma técnica, reglamento, ley o solicitud realizada que fundamenta una decisión de proyecto o condición de trabajo."@es
+	Annotations: bim:Definition "Declare a technical norm, legal principle or request made that underlies a project or work condition."@en
+	InverseOf: bim:é.embasadora.de
+	EquivalentTo: bim:é.fundamentada.em
+
+DataProperty: bim:d.fundamentar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:baseada.em
+	SubPropertyOf: bim:d.fundamentar
+	range: rdfs:Literal or xsd:string
+	Annotations: rdfs:label "Dado para fundamentar: baseada.em -- Formatado como (rdfs:Literal or xsd:string)"@pt
+	Annotations: bim:Chave "d.fundamentar.100"
+	Annotations: bim:Ação "Ação de fundamentar"@pt
+	Annotations: bim:Definição "Declara um princípio, norma técnica, regulamento, lei ou solicitação feita que apoia uma decisão de projeto ou condição de funcionamento."@pt
+	Annotations: bim:Definición "Declara un principio, norma técnica, reglamento, ley o solicitud realizada que fundamenta una decisión de proyecto o condición de trabajo."@es
+	Annotations: bim:Definition "Declare a technical norm, legal principle or request made that underlies a project or work condition."@en
+
+ObjectProperty: bim:p.fundamentar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.baseado.em
+	SubPropertyOf: bim:p.fundamentar
+	domain: bim:BIM
+	Annotations: rdfs:label "Propriedade destinada a fundamentar: é.baseado.em"@pt
+	Annotations: bim:Chave "d.fundamentar.101"
+	Annotations: bim:Ação "Ação de fundamentar"@pt
+	Annotations: bim:Definição "Declara um princípio, norma técnica, regulamento, lei ou solicitação feita que apoia uma decisão de projeto ou condição de funcionamento."@pt
+	Annotations: bim:Definición "Declara un principio, norma técnica, reglamento, ley o solicitud realizada que fundamenta una decisión de proyecto o condición de trabajo."@es
+	Annotations: bim:Definition "Declare a technical norm, legal principle or request made that underlies a project or work condition."@en
+	InverseOf: bim:é.embasador.de
+	EquivalentTo: bim:é.fundamentado.em
+
+DataProperty: bim:d.fundamentar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:baseado.em
+	SubPropertyOf: bim:d.fundamentar
+	range: rdfs:Literal or xsd:string
+	Annotations: rdfs:label "Dado para fundamentar: baseado.em -- Formatado como (rdfs:Literal or xsd:string)"@pt
+	Annotations: bim:Chave "d.fundamentar.101"
+	Annotations: bim:Ação "Ação de fundamentar"@pt
+	Annotations: bim:Definição "Declara um princípio, norma técnica, regulamento, lei ou solicitação feita que apoia uma decisão de projeto ou condição de funcionamento."@pt
+	Annotations: bim:Definición "Declara un principio, norma técnica, reglamento, ley o solicitud realizada que fundamenta una decisión de proyecto o condición de trabajo."@es
+	Annotations: bim:Definition "Declare a technical norm, legal principle or request made that underlies a project or work condition."@en
+
+ObjectProperty: bim:p.fundamentar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.embasador.de
+	SubPropertyOf: bim:p.fundamentar
+	domain: bim:BIM
+	Annotations: rdfs:label "Propriedade destinada a fundamentar: é.embasador.de"@pt
+	Annotations: bim:Chave "d.fundamentar.102"
+	Annotations: bim:Ação "Ação de fundamentar"@pt
+	Annotations: bim:Definição "Declara um princípio, norma técnica, regulamento, lei ou solicitação feita que apoia uma decisão de projeto ou condição de funcionamento."@pt
+	Annotations: bim:Definición "Declara un principio, norma técnica, reglamento, ley o solicitud realizada que fundamenta una decisión de proyecto o condición de trabajo."@es
+	Annotations: bim:Definition "Declare a technical norm, legal principle or request made that underlies a project or work condition."@en
+	InverseOf: bim:é.baseado.em
+	EquivalentTo: bim:é.fundamentador.de
+
+DataProperty: bim:d.fundamentar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:embasador.de
+	SubPropertyOf: bim:d.fundamentar
+	range: rdfs:Literal or xsd:string
+	Annotations: rdfs:label "Dado para fundamentar: embasador.de -- Formatado como (rdfs:Literal or xsd:string)"@pt
+	Annotations: bim:Chave "d.fundamentar.102"
+	Annotations: bim:Ação "Ação de fundamentar"@pt
+	Annotations: bim:Definição "Declara um princípio, norma técnica, regulamento, lei ou solicitação feita que apoia uma decisão de projeto ou condição de funcionamento."@pt
+	Annotations: bim:Definición "Declara un principio, norma técnica, reglamento, ley o solicitud realizada que fundamenta una decisión de proyecto o condición de trabajo."@es
+	Annotations: bim:Definition "Declare a technical norm, legal principle or request made that underlies a project or work condition."@en
+
+ObjectProperty: bim:p.fundamentar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.embasadora.de
+	SubPropertyOf: bim:p.fundamentar
+	domain: bim:BIM
+	Annotations: rdfs:label "Propriedade destinada a fundamentar: é.embasadora.de"@pt
+	Annotations: bim:Chave "d.fundamentar.103"
+	Annotations: bim:Ação "Ação de fundamentar"@pt
+	Annotations: bim:Definição "Declara um princípio, norma técnica, regulamento, lei ou solicitação feita que apoia uma decisão de projeto ou condição de funcionamento."@pt
+	Annotations: bim:Definición "Declara un principio, norma técnica, reglamento, ley o solicitud realizada que fundamenta una decisión de proyecto o condición de trabajo."@es
+	Annotations: bim:Definition "Declare a technical norm, legal principle or request made that underlies a project or work condition."@en
+	InverseOf: bim:é.baseada.em
+	EquivalentTo: bim:é.fundamentadora.de
+
+DataProperty: bim:d.fundamentar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:embasadora.de
+	SubPropertyOf: bim:d.fundamentar
+	range: rdfs:Literal or xsd:string
+	Annotations: rdfs:label "Dado para fundamentar: embasadora.de -- Formatado como (rdfs:Literal or xsd:string)"@pt
+	Annotations: bim:Chave "d.fundamentar.103"
+	Annotations: bim:Ação "Ação de fundamentar"@pt
+	Annotations: bim:Definição "Declara um princípio, norma técnica, regulamento, lei ou solicitação feita que apoia uma decisão de projeto ou condição de funcionamento."@pt
+	Annotations: bim:Definición "Declara un principio, norma técnica, reglamento, ley o solicitud realizada que fundamenta una decisión de proyecto o condición de trabajo."@es
+	Annotations: bim:Definition "Declare a technical norm, legal principle or request made that underlies a project or work condition."@en
+
+ObjectProperty: bim:p.fundamentar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.embasante.de
+	SubPropertyOf: bim:p.fundamentar
+	domain: bim:BIM
+	Annotations: rdfs:label "Propriedade destinada a fundamentar: é.embasante.de"@pt
+	Annotations: bim:Chave "d.fundamentar.104"
+	Annotations: bim:Ação "Ação de fundamentar"@pt
+	Annotations: bim:Definição "Declara um princípio, norma técnica, regulamento, lei ou solicitação feita que apoia uma decisão de projeto ou condição de funcionamento."@pt
+	Annotations: bim:Definición "Declara un principio, norma técnica, reglamento, ley o solicitud realizada que fundamenta una decisión de proyecto o condición de trabajo."@es
+	Annotations: bim:Definition "Declare a technical norm, legal principle or request made that underlies a project or work condition."@en
+	InverseOf: bim:é.baseada.em
+	EquivalentTo: bim:é.fundamentante.de
+
+DataProperty: bim:d.fundamentar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:embasante.de
+	SubPropertyOf: bim:d.fundamentar
+	range: rdfs:Literal or xsd:string
+	Annotations: rdfs:label "Dado para fundamentar: embasante.de -- Formatado como (rdfs:Literal or xsd:string)"@pt
+	Annotations: bim:Chave "d.fundamentar.104"
+	Annotations: bim:Ação "Ação de fundamentar"@pt
+	Annotations: bim:Definição "Declara um princípio, norma técnica, regulamento, lei ou solicitação feita que apoia uma decisão de projeto ou condição de funcionamento."@pt
+	Annotations: bim:Definición "Declara un principio, norma técnica, reglamento, ley o solicitud realizada que fundamenta una decisión de proyecto o condición de trabajo."@es
+	Annotations: bim:Definition "Declare a technical norm, legal principle or request made that underlies a project or work condition."@en
+
+ObjectProperty: bim:p.fundamentar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.fundamentada.em
+	SubPropertyOf: bim:p.fundamentar
+	domain: bim:BIM
+	Annotations: rdfs:label "Propriedade destinada a fundamentar: é.fundamentada.em"@pt
+	Annotations: bim:Chave "d.fundamentar.105"
+	Annotations: bim:Ação "Ação de fundamentar"@pt
+	Annotations: bim:Definição "Declara em qual princípio, norma técnica, regulamento, lei ou solicitação feita se baseia uma decisão de projeto ou condição de funcionamento."@pt
+	Annotations: bim:Definición "Declara em qué principio, norma técnica, reglamento, ley o solicitud realizada se basa una decisión de proyecto o condición de trabajo."@es
+	Annotations: bim:Definition "Declare on which technical norm, legal principle or request made a project or work condition is based."@en
+	InverseOf: bim:é.fundamentadora.de
+	EquivalentTo: bim:é.baseada.em
+
+DataProperty: bim:d.fundamentar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:fundamentada.em
+	SubPropertyOf: bim:d.fundamentar
+	range: rdfs:Literal or xsd:string
+	Annotations: rdfs:label "Dado para fundamentar: fundamentada.em -- Formatado como (rdfs:Literal or xsd:string)"@pt
+	Annotations: bim:Chave "d.fundamentar.105"
+	Annotations: bim:Ação "Ação de fundamentar"@pt
+	Annotations: bim:Definição "Declara em qual princípio, norma técnica, regulamento, lei ou solicitação feita se baseia uma decisão de projeto ou condição de funcionamento."@pt
+	Annotations: bim:Definición "Declara em qué principio, norma técnica, reglamento, ley o solicitud realizada se basa una decisión de proyecto o condición de trabajo."@es
+	Annotations: bim:Definition "Declare on which technical norm, legal principle or request made a project or work condition is based."@en
+
+ObjectProperty: bim:p.fundamentar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.fundamentado.em
+	SubPropertyOf: bim:p.fundamentar
+	domain: bim:BIM
+	Annotations: rdfs:label "Propriedade destinada a fundamentar: é.fundamentado.em"@pt
+	Annotations: bim:Chave "d.fundamentar.106"
+	Annotations: bim:Ação "Ação de fundamentar"@pt
+	Annotations: bim:Definição "Declara em qual princípio, norma técnica, regulamento, lei ou solicitação feita se baseia uma decisão de projeto ou condição de funcionamento."@pt
+	Annotations: bim:Definición "Declara em qué principio, norma técnica, reglamento, ley o solicitud realizada se basa una decisión de proyecto o condición de trabajo."@es
+	Annotations: bim:Definition "Declare on which technical norm, legal principle or request made a project or work condition is based."@en
+	InverseOf: bim:é.fundamentador.de
+	EquivalentTo: bim:é.baseado.em
+
+DataProperty: bim:d.fundamentar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:fundamentado.em
+	SubPropertyOf: bim:d.fundamentar
+	range: rdfs:Literal or xsd:string
+	Annotations: rdfs:label "Dado para fundamentar: fundamentado.em -- Formatado como (rdfs:Literal or xsd:string)"@pt
+	Annotations: bim:Chave "d.fundamentar.106"
+	Annotations: bim:Ação "Ação de fundamentar"@pt
+	Annotations: bim:Definição "Declara em qual princípio, norma técnica, regulamento, lei ou solicitação feita se baseia uma decisão de projeto ou condição de funcionamento."@pt
+	Annotations: bim:Definición "Declara em qué principio, norma técnica, reglamento, ley o solicitud realizada se basa una decisión de proyecto o condición de trabajo."@es
+	Annotations: bim:Definition "Declare on which technical norm, legal principle or request made a project or work condition is based."@en
+
+ObjectProperty: bim:p.fundamentar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.fundamentador.de
+	SubPropertyOf: bim:p.fundamentar
+	domain: bim:BIM
+	Annotations: rdfs:label "Propriedade destinada a fundamentar: é.fundamentador.de"@pt
+	Annotations: bim:Chave "d.fundamentar.107"
+	Annotations: bim:Ação "Ação de fundamentar"@pt
+	Annotations: bim:Definição "Declara em qual princípio, norma técnica, regulamento, lei ou solicitação feita se baseia uma decisão de projeto ou condição de funcionamento."@pt
+	Annotations: bim:Definición "Declara em qué principio, norma técnica, reglamento, ley o solicitud realizada se basa una decisión de proyecto o condición de trabajo."@es
+	Annotations: bim:Definition "Declare on which technical norm, legal principle or request made a project or work condition is based."@en
+	InverseOf: bim:é.fundamentado.em
+	EquivalentTo: bim:é.embasador.de
+
+DataProperty: bim:d.fundamentar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:fundamentador.de
+	SubPropertyOf: bim:d.fundamentar
+	range: rdfs:Literal or xsd:string
+	Annotations: rdfs:label "Dado para fundamentar: fundamentador.de -- Formatado como (rdfs:Literal or xsd:string)"@pt
+	Annotations: bim:Chave "d.fundamentar.107"
+	Annotations: bim:Ação "Ação de fundamentar"@pt
+	Annotations: bim:Definição "Declara em qual princípio, norma técnica, regulamento, lei ou solicitação feita se baseia uma decisão de projeto ou condição de funcionamento."@pt
+	Annotations: bim:Definición "Declara em qué principio, norma técnica, reglamento, ley o solicitud realizada se basa una decisión de proyecto o condición de trabajo."@es
+	Annotations: bim:Definition "Declare on which technical norm, legal principle or request made a project or work condition is based."@en
+
+ObjectProperty: bim:p.fundamentar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.fundamentadora.de
+	SubPropertyOf: bim:p.fundamentar
+	domain: bim:BIM
+	Annotations: rdfs:label "Propriedade destinada a fundamentar: é.fundamentadora.de"@pt
+	Annotations: bim:Chave "d.fundamentar.108"
+	Annotations: bim:Ação "Ação de fundamentar"@pt
+	Annotations: bim:Definição "Declara em qual princípio, norma técnica, regulamento, lei ou solicitação feita se baseia uma decisão de projeto ou condição de funcionamento."@pt
+	Annotations: bim:Definición "Declara em qué principio, norma técnica, reglamento, ley o solicitud realizada se basa una decisión de proyecto o condición de trabajo."@es
+	Annotations: bim:Definition "Declare on which technical norm, legal principle or request made a project or work condition is based."@en
+	InverseOf: bim:é.fundamentada.em
+	EquivalentTo: bim:é.embasadora.de
+
+DataProperty: bim:d.fundamentar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:fundamentadora.de
+	SubPropertyOf: bim:d.fundamentar
+	range: rdfs:Literal or xsd:string
+	Annotations: rdfs:label "Dado para fundamentar: fundamentadora.de -- Formatado como (rdfs:Literal or xsd:string)"@pt
+	Annotations: bim:Chave "d.fundamentar.108"
+	Annotations: bim:Ação "Ação de fundamentar"@pt
+	Annotations: bim:Definição "Declara em qual princípio, norma técnica, regulamento, lei ou solicitação feita se baseia uma decisão de projeto ou condição de funcionamento."@pt
+	Annotations: bim:Definición "Declara em qué principio, norma técnica, reglamento, ley o solicitud realizada se basa una decisión de proyecto o condición de trabajo."@es
+	Annotations: bim:Definition "Declare on which technical norm, legal principle or request made a project or work condition is based."@en
+
+ObjectProperty: bim:p.fundamentar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.fundamentante.de
+	SubPropertyOf: bim:p.fundamentar
+	domain: bim:BIM
+	Annotations: rdfs:label "Propriedade destinada a fundamentar: é.fundamentante.de"@pt
+	Annotations: bim:Chave "d.fundamentar.109"
+	Annotations: bim:Ação "Ação de fundamentar"@pt
+	Annotations: bim:Definição "Declara em qual princípio, norma técnica, regulamento, lei ou solicitação feita se baseia uma decisão de projeto ou condição de funcionamento."@pt
+	Annotations: bim:Definición "Declara em qué principio, norma técnica, reglamento, ley o solicitud realizada se basa una decisión de proyecto o condición de trabajo."@es
+	Annotations: bim:Definition "Declare on which technical norm, legal principle or request made a project or work condition is based."@en
+	InverseOf: bim:é.fundamentada.em
+	EquivalentTo: bim:é.embasante.de
+
+DataProperty: bim:d.fundamentar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:fundamentante.de
+	SubPropertyOf: bim:d.fundamentar
+	range: rdfs:Literal or xsd:string
+	Annotations: rdfs:label "Dado para fundamentar: fundamentante.de -- Formatado como (rdfs:Literal or xsd:string)"@pt
+	Annotations: bim:Chave "d.fundamentar.109"
+	Annotations: bim:Ação "Ação de fundamentar"@pt
+	Annotations: bim:Definição "Declara em qual princípio, norma técnica, regulamento, lei ou solicitação feita se baseia uma decisão de projeto ou condição de funcionamento."@pt
+	Annotations: bim:Definición "Declara em qué principio, norma técnica, reglamento, ley o solicitud realizada se basa una decisión de proyecto o condición de trabajo."@es
+	Annotations: bim:Definition "Declare on which technical norm, legal principle or request made a project or work condition is based."@en
+
 ObjectProperty: bim:p.gastar
 	SubPropertyOf: bim:BIMProp
 
@@ -20943,42 +21389,11 @@ ObjectProperty: bim:p.geolocalizar
 
 
 
-ObjectProperty: bim:é.utm.zona
-	SubPropertyOf: bim:p.geolocalizar
-	domain: bim:BIM
-	Annotations: rdfs:label "Propriedade destinada a geolocalizar: é.utm.zona"@pt
-	Annotations: bim:Chave "d.geolocalizar.125"
-	Annotations: bim:Ação "Ação de geolocalizar"@pt
-	Annotations: bim:Definição "Declara o valor da zona geográfica UTM (Universal Transverse Mercator). valor numérico de 2 dígitos expresso como string."@pt
-	Annotations: bim:Definición "Declara el valor del área geográfica UTM (Universal Transverse Mercator). valor numérico de 2 dígitos expresado como cadena."@es
-	Annotations: bim:Definition "Declare the Value of the UTM (Universal Transverse Mercator) geographical area. 2-digit numeric value expressed as string."@en
-	EquivalentTo: bim:é.utm.fuso
-
-DataProperty: bim:d.geolocalizar
-	SubPropertyOf: bim:BIMData
-
-
-
-DataProperty: bim:utm.zona
-	SubPropertyOf: bim:d.geolocalizar
-	range: rdfs:Literal or xsd:string
-	Annotations: rdfs:label "Dado para geolocalizar: utm.zona -- Formatado como (rdfs:Literal or xsd:string)"@pt
-	Annotations: bim:Chave "d.geolocalizar.125"
-	Annotations: bim:Ação "Ação de geolocalizar"@pt
-	Annotations: bim:Definição "Declara o valor da zona geográfica UTM (Universal Transverse Mercator). valor numérico de 2 dígitos expresso como string."@pt
-	Annotations: bim:Definición "Declara el valor del área geográfica UTM (Universal Transverse Mercator). valor numérico de 2 dígitos expresado como cadena."@es
-	Annotations: bim:Definition "Declare the Value of the UTM (Universal Transverse Mercator) geographical area. 2-digit numeric value expressed as string."@en
-
-ObjectProperty: bim:p.geolocalizar
-	SubPropertyOf: bim:BIMProp
-
-
-
 ObjectProperty: bim:é.utm.fuso.18
 	SubPropertyOf: bim:p.geolocalizar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a geolocalizar: é.utm.fuso.18"@pt
-	Annotations: bim:Chave "d.geolocalizar.129"
+	Annotations: bim:Chave "d.geolocalizar.125"
 	Annotations: bim:Ação "Ação de geolocalizar"@pt
 	Annotations: bim:Definição "Declara que o fuso UTM passa pela Região oeste do Acre do Brasil."@pt
 	Annotations: bim:Definición "Declara que la zona horaria UTM pasa por la región occidental de Acre."@es
@@ -20994,7 +21409,7 @@ DataProperty: bim:utm.fuso.18
 	SubPropertyOf: bim:d.geolocalizar
 	range: rdfs:Literal or xsd:string
 	Annotations: rdfs:label "Dado para geolocalizar: utm.fuso.18 -- Formatado como (rdfs:Literal or xsd:string)"@pt
-	Annotations: bim:Chave "d.geolocalizar.129"
+	Annotations: bim:Chave "d.geolocalizar.125"
 	Annotations: bim:Ação "Ação de geolocalizar"@pt
 	Annotations: bim:Definição "Declara que o fuso UTM passa pela Região oeste do Acre do Brasil."@pt
 	Annotations: bim:Definición "Declara que la zona horaria UTM pasa por la región occidental de Acre."@es
@@ -21009,7 +21424,7 @@ ObjectProperty: bim:é.utm.fuso.19
 	SubPropertyOf: bim:p.geolocalizar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a geolocalizar: é.utm.fuso.19"@pt
-	Annotations: bim:Chave "d.geolocalizar.130"
+	Annotations: bim:Chave "d.geolocalizar.126"
 	Annotations: bim:Ação "Ação de geolocalizar"@pt
 	Annotations: bim:Definição "Declara que o fuso UTM passa pela Parte do Acre e Rondônia do Brasil."@pt
 	Annotations: bim:Definición "Declara que la zona horaria de la UTM pasa por la parte de Acre y Rondônia."@es
@@ -21025,7 +21440,7 @@ DataProperty: bim:utm.fuso.19
 	SubPropertyOf: bim:d.geolocalizar
 	range: rdfs:Literal or xsd:string
 	Annotations: rdfs:label "Dado para geolocalizar: utm.fuso.19 -- Formatado como (rdfs:Literal or xsd:string)"@pt
-	Annotations: bim:Chave "d.geolocalizar.130"
+	Annotations: bim:Chave "d.geolocalizar.126"
 	Annotations: bim:Ação "Ação de geolocalizar"@pt
 	Annotations: bim:Definição "Declara que o fuso UTM passa pela Parte do Acre e Rondônia do Brasil."@pt
 	Annotations: bim:Definición "Declara que la zona horaria de la UTM pasa por la parte de Acre y Rondônia."@es
@@ -21040,7 +21455,7 @@ ObjectProperty: bim:é.utm.fuso.20
 	SubPropertyOf: bim:p.geolocalizar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a geolocalizar: é.utm.fuso.20"@pt
-	Annotations: bim:Chave "d.geolocalizar.131"
+	Annotations: bim:Chave "d.geolocalizar.127"
 	Annotations: bim:Ação "Ação de geolocalizar"@pt
 	Annotations: bim:Definição "Declara que o fuso UTM passa por Rondônia, Mato Grosso e parte do Amazonas do Brasil."@pt
 	Annotations: bim:Definición "Declara que la zona horaria de la UTM pasa por Rondônia, Mato Grosso y parte de Amazonas."@es
@@ -21056,7 +21471,7 @@ DataProperty: bim:utm.fuso.20
 	SubPropertyOf: bim:d.geolocalizar
 	range: rdfs:Literal or xsd:string
 	Annotations: rdfs:label "Dado para geolocalizar: utm.fuso.20 -- Formatado como (rdfs:Literal or xsd:string)"@pt
-	Annotations: bim:Chave "d.geolocalizar.131"
+	Annotations: bim:Chave "d.geolocalizar.127"
 	Annotations: bim:Ação "Ação de geolocalizar"@pt
 	Annotations: bim:Definição "Declara que o fuso UTM passa por Rondônia, Mato Grosso e parte do Amazonas do Brasil."@pt
 	Annotations: bim:Definición "Declara que la zona horaria de la UTM pasa por Rondônia, Mato Grosso y parte de Amazonas."@es
@@ -21071,7 +21486,7 @@ ObjectProperty: bim:é.utm.fuso.21
 	SubPropertyOf: bim:p.geolocalizar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a geolocalizar: é.utm.fuso.21"@pt
-	Annotations: bim:Chave "d.geolocalizar.132"
+	Annotations: bim:Chave "d.geolocalizar.128"
 	Annotations: bim:Ação "Ação de geolocalizar"@pt
 	Annotations: bim:Definição "Declara que o fuso UTM passa por Goiás, Tocantins, parte do Pará e Mato Grosso do Brasil."@pt
 	Annotations: bim:Definición "Declara que la zona horaria de la UTM pasa por Goiás, Tocantins, parte de Pará y Mato Grosso."@es
@@ -21087,7 +21502,7 @@ DataProperty: bim:utm.fuso.21
 	SubPropertyOf: bim:d.geolocalizar
 	range: rdfs:Literal or xsd:string
 	Annotations: rdfs:label "Dado para geolocalizar: utm.fuso.21 -- Formatado como (rdfs:Literal or xsd:string)"@pt
-	Annotations: bim:Chave "d.geolocalizar.132"
+	Annotations: bim:Chave "d.geolocalizar.128"
 	Annotations: bim:Ação "Ação de geolocalizar"@pt
 	Annotations: bim:Definição "Declara que o fuso UTM passa por Goiás, Tocantins, parte do Pará e Mato Grosso do Brasil."@pt
 	Annotations: bim:Definición "Declara que la zona horaria de la UTM pasa por Goiás, Tocantins, parte de Pará y Mato Grosso."@es
@@ -21102,7 +21517,7 @@ ObjectProperty: bim:é.utm.fuso.22
 	SubPropertyOf: bim:p.geolocalizar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a geolocalizar: é.utm.fuso.22"@pt
-	Annotations: bim:Chave "d.geolocalizar.133"
+	Annotations: bim:Chave "d.geolocalizar.129"
 	Annotations: bim:Ação "Ação de geolocalizar"@pt
 	Annotations: bim:Definição "Declara que o fuso UTM passa por Grande parte do Brasil central, incluindo Minas Gerais e Bahia."@pt
 	Annotations: bim:Definición "Declara que la zona horaria de la UTM atraviesa gran parte del centro de Brasil, incluyendo Minas Gerais y Bahía."@es
@@ -21118,7 +21533,7 @@ DataProperty: bim:utm.fuso.22
 	SubPropertyOf: bim:d.geolocalizar
 	range: rdfs:Literal or xsd:string
 	Annotations: rdfs:label "Dado para geolocalizar: utm.fuso.22 -- Formatado como (rdfs:Literal or xsd:string)"@pt
-	Annotations: bim:Chave "d.geolocalizar.133"
+	Annotations: bim:Chave "d.geolocalizar.129"
 	Annotations: bim:Ação "Ação de geolocalizar"@pt
 	Annotations: bim:Definição "Declara que o fuso UTM passa por Grande parte do Brasil central, incluindo Minas Gerais e Bahia."@pt
 	Annotations: bim:Definición "Declara que la zona horaria de la UTM atraviesa gran parte del centro de Brasil, incluyendo Minas Gerais y Bahía."@es
@@ -21133,7 +21548,7 @@ ObjectProperty: bim:é.utm.fuso.23
 	SubPropertyOf: bim:p.geolocalizar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a geolocalizar: é.utm.fuso.23"@pt
-	Annotations: bim:Chave "d.geolocalizar.134"
+	Annotations: bim:Chave "d.geolocalizar.130"
 	Annotations: bim:Ação "Ação de geolocalizar"@pt
 	Annotations: bim:Definição "Declara que o fuso UTM passa pelas regiões Sudeste e Sul (São Paulo, Rio de Janeiro, Paraná, Santa Catarina, Rio Grande do Sul) do Brasil."@pt
 	Annotations: bim:Definición "Declara que la zona horaria de la UTM atraviesa las regiones Sureste y Sur (São Paulo, Río de Janeiro, Paraná, Santa Catarina, Río Grande do Sul)."@es
@@ -21149,7 +21564,7 @@ DataProperty: bim:utm.fuso.23
 	SubPropertyOf: bim:d.geolocalizar
 	range: rdfs:Literal or xsd:string
 	Annotations: rdfs:label "Dado para geolocalizar: utm.fuso.23 -- Formatado como (rdfs:Literal or xsd:string)"@pt
-	Annotations: bim:Chave "d.geolocalizar.134"
+	Annotations: bim:Chave "d.geolocalizar.130"
 	Annotations: bim:Ação "Ação de geolocalizar"@pt
 	Annotations: bim:Definição "Declara que o fuso UTM passa pelas regiões Sudeste e Sul (São Paulo, Rio de Janeiro, Paraná, Santa Catarina, Rio Grande do Sul) do Brasil."@pt
 	Annotations: bim:Definición "Declara que la zona horaria de la UTM atraviesa las regiones Sureste y Sur (São Paulo, Río de Janeiro, Paraná, Santa Catarina, Río Grande do Sul)."@es
@@ -21164,7 +21579,7 @@ ObjectProperty: bim:é.utm.fuso.24
 	SubPropertyOf: bim:p.geolocalizar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a geolocalizar: é.utm.fuso.24"@pt
-	Annotations: bim:Chave "d.geolocalizar.135"
+	Annotations: bim:Chave "d.geolocalizar.131"
 	Annotations: bim:Ação "Ação de geolocalizar"@pt
 	Annotations: bim:Definição "Declara que o fuso UTM passa pela parte Leste do Brasil, incluindo Pernambuco, Alagoas, Sergipe."@pt
 	Annotations: bim:Definición "Declara que la zona horaria UTM pasa por la parte oriental de Brasil, incluyendo Pernambuco, Alagoas y Sergipe."@es
@@ -21180,7 +21595,7 @@ DataProperty: bim:utm.fuso.24
 	SubPropertyOf: bim:d.geolocalizar
 	range: rdfs:Literal or xsd:string
 	Annotations: rdfs:label "Dado para geolocalizar: utm.fuso.24 -- Formatado como (rdfs:Literal or xsd:string)"@pt
-	Annotations: bim:Chave "d.geolocalizar.135"
+	Annotations: bim:Chave "d.geolocalizar.131"
 	Annotations: bim:Ação "Ação de geolocalizar"@pt
 	Annotations: bim:Definição "Declara que o fuso UTM passa pela parte Leste do Brasil, incluindo Pernambuco, Alagoas, Sergipe."@pt
 	Annotations: bim:Definición "Declara que la zona horaria UTM pasa por la parte oriental de Brasil, incluyendo Pernambuco, Alagoas y Sergipe."@es
@@ -21195,7 +21610,7 @@ ObjectProperty: bim:é.utm.fuso.25
 	SubPropertyOf: bim:p.geolocalizar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a geolocalizar: é.utm.fuso.25"@pt
-	Annotations: bim:Chave "d.geolocalizar.136"
+	Annotations: bim:Chave "d.geolocalizar.132"
 	Annotations: bim:Ação "Ação de geolocalizar"@pt
 	Annotations: bim:Definição "Declara que o fuso UTM passa pelo Arquipélago de Fernando de Noronha do Brasil."@pt
 	Annotations: bim:Definición "Declara que la zona horaria UTM pasa por el archipiélago Fernando de Noronha."@es
@@ -21211,11 +21626,42 @@ DataProperty: bim:utm.fuso.25
 	SubPropertyOf: bim:d.geolocalizar
 	range: rdfs:Literal or xsd:string
 	Annotations: rdfs:label "Dado para geolocalizar: utm.fuso.25 -- Formatado como (rdfs:Literal or xsd:string)"@pt
-	Annotations: bim:Chave "d.geolocalizar.136"
+	Annotations: bim:Chave "d.geolocalizar.132"
 	Annotations: bim:Ação "Ação de geolocalizar"@pt
 	Annotations: bim:Definição "Declara que o fuso UTM passa pelo Arquipélago de Fernando de Noronha do Brasil."@pt
 	Annotations: bim:Definición "Declara que la zona horaria UTM pasa por el archipiélago Fernando de Noronha."@es
 	Annotations: bim:Definition "Declare that the UTM time zone passes through the Fernando de Noronha Archipelago."@en
+
+ObjectProperty: bim:p.geolocalizar
+	SubPropertyOf: bim:BIMProp
+
+
+
+ObjectProperty: bim:é.utm.zona
+	SubPropertyOf: bim:p.geolocalizar
+	domain: bim:BIM
+	Annotations: rdfs:label "Propriedade destinada a geolocalizar: é.utm.zona"@pt
+	Annotations: bim:Chave "d.geolocalizar.133"
+	Annotations: bim:Ação "Ação de geolocalizar"@pt
+	Annotations: bim:Definição "Declara o valor da zona geográfica UTM (Universal Transverse Mercator). valor numérico de 2 dígitos expresso como string."@pt
+	Annotations: bim:Definición "Declara el valor del área geográfica UTM (Universal Transverse Mercator). valor numérico de 2 dígitos expresado como cadena."@es
+	Annotations: bim:Definition "Declare the Value of the UTM (Universal Transverse Mercator) geographical area. 2-digit numeric value expressed as string."@en
+	EquivalentTo: bim:é.utm.fuso
+
+DataProperty: bim:d.geolocalizar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:utm.zona
+	SubPropertyOf: bim:d.geolocalizar
+	range: rdfs:Literal or xsd:string
+	Annotations: rdfs:label "Dado para geolocalizar: utm.zona -- Formatado como (rdfs:Literal or xsd:string)"@pt
+	Annotations: bim:Chave "d.geolocalizar.133"
+	Annotations: bim:Ação "Ação de geolocalizar"@pt
+	Annotations: bim:Definição "Declara o valor da zona geográfica UTM (Universal Transverse Mercator). valor numérico de 2 dígitos expresso como string."@pt
+	Annotations: bim:Definición "Declara el valor del área geográfica UTM (Universal Transverse Mercator). valor numérico de 2 dígitos expresado como cadena."@es
+	Annotations: bim:Definition "Declare the Value of the UTM (Universal Transverse Mercator) geographical area. 2-digit numeric value expressed as string."@en
 
 ObjectProperty: bim:p.gerar
 	SubPropertyOf: bim:BIMProp
@@ -22179,11 +22625,42 @@ ObjectProperty: bim:p.identificar
 
 
 
+ObjectProperty: bim:é.autor
+	SubPropertyOf: bim:p.identificar
+	domain: bim:BIM
+	Annotations: rdfs:label "Propriedade destinada a identificar: é.autor"@pt
+	Annotations: bim:Chave "d.identificar.101"
+	Annotations: bim:Ação "Ação de identificar"@pt
+	Annotations: bim:Definição "Declara o autor de algum projeto ou obra."@pt
+	Annotations: bim:Definición "Declara al autor de algún proyecto u obra."@es
+	Annotations: bim:Definition "Declares the author of a project or work."@en
+	EquivalentTo: bim:é.ids.autor
+
+DataProperty: bim:d.identificar
+	SubPropertyOf: bim:BIMData
+
+
+
+DataProperty: bim:autor
+	SubPropertyOf: bim:d.identificar
+	range: rdfs:Literal or xsd:string
+	Annotations: rdfs:label "Dado para identificar: autor -- Formatado como (rdfs:Literal or xsd:string)"@pt
+	Annotations: bim:Chave "d.identificar.101"
+	Annotations: bim:Ação "Ação de identificar"@pt
+	Annotations: bim:Definição "Declara o autor de algum projeto ou obra."@pt
+	Annotations: bim:Definición "Declara al autor de algún proyecto u obra."@es
+	Annotations: bim:Definition "Declares the author of a project or work."@en
+
+ObjectProperty: bim:p.identificar
+	SubPropertyOf: bim:BIMProp
+
+
+
 ObjectProperty: bim:é.identificador.guid
 	SubPropertyOf: bim:p.identificar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a identificar: é.identificador.guid"@pt
-	Annotations: bim:Chave "d.identificar.111"
+	Annotations: bim:Chave "d.identificar.112"
 	Annotations: bim:Ação "Ação de identificar"@pt
 	Annotations: bim:Definição "Declara o GUID (Global Unique Identifier). Formado por 128 bits (16 bytes). É uma sequência de 32 caracteres hexadecimais xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. Implementado pela Microsoft em sistemas .NET."@pt
 	Annotations: bim:Definición "Declara el Identificador Globalmente Único (GUID). Formado por 128 bits (16 bytes). Es una cadena de 32 caracteres hexadecimales xxxxxxxx-xxxx-xxxx-xxxxxx-xxxxxx-xxxxxxxxxxxx. Implementado por Microsoft en sistemas .NET."@es
@@ -22201,7 +22678,7 @@ DataProperty: bim:identificador.guid
 	range: rdfs:Literal or xsd:string
 	Characteristics: Functional
 	Annotations: rdfs:label "Dado para identificar: identificador.guid -- Formatado como (rdfs:Literal or xsd:string)"@pt
-	Annotations: bim:Chave "d.identificar.111"
+	Annotations: bim:Chave "d.identificar.112"
 	Annotations: bim:Ação "Ação de identificar"@pt
 	Annotations: bim:Definição "Declara o GUID (Global Unique Identifier). Formado por 128 bits (16 bytes). É uma sequência de 32 caracteres hexadecimais xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. Implementado pela Microsoft em sistemas .NET."@pt
 	Annotations: bim:Definición "Declara el Identificador Globalmente Único (GUID). Formado por 128 bits (16 bytes). Es una cadena de 32 caracteres hexadecimales xxxxxxxx-xxxx-xxxx-xxxxxx-xxxxxx-xxxxxxxxxxxx. Implementado por Microsoft en sistemas .NET."@es
@@ -22216,7 +22693,7 @@ ObjectProperty: bim:é.identificador.uuid
 	SubPropertyOf: bim:p.identificar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a identificar: é.identificador.uuid"@pt
-	Annotations: bim:Chave "d.identificar.120"
+	Annotations: bim:Chave "d.identificar.121"
 	Annotations: bim:Ação "Ação de identificar"@pt
 	Annotations: bim:Definição "Declara o UUID (Universally Unique Identifier). Formado por 128 bits (16 bytes). É uma sequência de 32 caracteres hexadecimais xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. Implementado e publicado pela IETF (Internet Engineering Task Force). É Multiplataforma."@pt
 	Annotations: bim:Definición "Declara el UUID (Identificador Universalmente Único). Formado por 128 bits (16 bytes). Es una cadena de 32 caracteres hexadecimales xxxxxxxx-xxxx-xxxx-xxxxxx-xxxxxx-xxxxxxxxxxxx. Implementado y publicado por el IETF (Internet Engineering Task Force). Es multiplataforma."@es
@@ -22234,7 +22711,7 @@ DataProperty: bim:identificador.uuid
 	range: rdfs:Literal or xsd:string
 	Characteristics: Functional
 	Annotations: rdfs:label "Dado para identificar: identificador.uuid -- Formatado como (rdfs:Literal or xsd:string)"@pt
-	Annotations: bim:Chave "d.identificar.120"
+	Annotations: bim:Chave "d.identificar.121"
 	Annotations: bim:Ação "Ação de identificar"@pt
 	Annotations: bim:Definição "Declara o UUID (Universally Unique Identifier). Formado por 128 bits (16 bytes). É uma sequência de 32 caracteres hexadecimais xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. Implementado e publicado pela IETF (Internet Engineering Task Force). É Multiplataforma."@pt
 	Annotations: bim:Definición "Declara el UUID (Identificador Universalmente Único). Formado por 128 bits (16 bytes). Es una cadena de 32 caracteres hexadecimales xxxxxxxx-xxxx-xxxx-xxxxxx-xxxxxx-xxxxxxxxxxxx. Implementado y publicado por el IETF (Internet Engineering Task Force). Es multiplataforma."@es
@@ -25581,7 +26058,7 @@ ObjectProperty: bim:é.métrica.manhattan
 	SubPropertyOf: bim:p.medir
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a medir: é.métrica.manhattan"@pt
-	Annotations: bim:Chave "d.medir.110"
+	Annotations: bim:Chave "d.medir.111"
 	Annotations: bim:Ação "Ação de medir"@pt
 	Annotations: bim:Definição "Declara a distância entre 2 pontos de uma matriz quadrada (X1-X2) + (Y1-Y2) + (Z1-Z2). Também denominada distancia Manhattan, pois seria a distância percorrida em uma cidade com ruas em grade, independente do caminho."@pt
 	Annotations: bim:Definición "Declara la distancia entre 2 puntos de una matriz cuadrada (X1-X2) + (Y1-Y2) + (Z1-Z2). También llamada distancia de Manhattan, porque sería la distancia recorrida en una ciudad con calles en cuadrícula, independientemente del camino."@es
@@ -25597,7 +26074,7 @@ DataProperty: bim:métrica.manhattan
 	SubPropertyOf: bim:d.medir
 	range: xsd:double
 	Annotations: rdfs:label "Dado para medir: métrica.manhattan -- Formatado como (xsd:double)"@pt
-	Annotations: bim:Chave "d.medir.110"
+	Annotations: bim:Chave "d.medir.111"
 	Annotations: bim:Ação "Ação de medir"@pt
 	Annotations: bim:Definição "Declara a distância entre 2 pontos de uma matriz quadrada (X1-X2) + (Y1-Y2) + (Z1-Z2). Também denominada distancia Manhattan, pois seria a distância percorrida em uma cidade com ruas em grade, independente do caminho."@pt
 	Annotations: bim:Definición "Declara la distancia entre 2 puntos de una matriz cuadrada (X1-X2) + (Y1-Y2) + (Z1-Z2). También llamada distancia de Manhattan, porque sería la distancia recorrida en una ciudad con calles en cuadrícula, independientemente del camino."@es
@@ -25612,7 +26089,7 @@ ObjectProperty: bim:é.métrica.taxicab
 	SubPropertyOf: bim:p.medir
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a medir: é.métrica.taxicab"@pt
-	Annotations: bim:Chave "d.medir.111"
+	Annotations: bim:Chave "d.medir.112"
 	Annotations: bim:Ação "Ação de medir"@pt
 	Annotations: bim:Definição "Declara a distância entre 2 pontos de uma matriz quadrada (X1-X2) + (Y1-Y2) + (Z1-Z2). Também denominada distancia Taxicab, pois seria a distância percorrida em uma cidade com ruas em grade, independente do caminho."@pt
 	Annotations: bim:Definición "Declara la distancia entre 2 puntos de una matriz cuadrada (X1-X2) + (Y1-Y2) + (Z1-Z2). También llamada distancia de taxi, porque sería la distancia recorrida en una ciudad con calles en cuadrícula, independientemente del recorrido."@es
@@ -25628,7 +26105,7 @@ DataProperty: bim:métrica.taxicab
 	SubPropertyOf: bim:d.medir
 	range: xsd:double
 	Annotations: rdfs:label "Dado para medir: métrica.taxicab -- Formatado como (xsd:double)"@pt
-	Annotations: bim:Chave "d.medir.111"
+	Annotations: bim:Chave "d.medir.112"
 	Annotations: bim:Ação "Ação de medir"@pt
 	Annotations: bim:Definição "Declara a distância entre 2 pontos de uma matriz quadrada (X1-X2) + (Y1-Y2) + (Z1-Z2). Também denominada distancia Taxicab, pois seria a distância percorrida em uma cidade com ruas em grade, independente do caminho."@pt
 	Annotations: bim:Definición "Declara la distancia entre 2 puntos de una matriz cuadrada (X1-X2) + (Y1-Y2) + (Z1-Z2). También llamada distancia de taxi, porque sería la distancia recorrida en una ciudad con calles en cuadrícula, independientemente del recorrido."@es
@@ -44629,7 +45106,7 @@ ObjectProperty: bim:é.missão.principal
 	SubPropertyOf: bim:p.taxonomizar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a taxonomizar: é.missão.principal"@pt
-	Annotations: bim:Chave "d.taxonomizar.147"
+	Annotations: bim:Chave "d.taxonomizar.146"
 	Annotations: bim:Ação "Ação de taxonomizar"@pt
 	Annotations: bim:Definição "Declara a missão principal dos planos NIB e PET da Taxonomia Sustentável Brasileira TSB."@pt
 	Annotations: bim:Definición "Declara la misión principal de los planes NIB y PET de la Taxonomía Sostenible Brasileña TSB."@es
@@ -44645,7 +45122,7 @@ DataProperty: bim:missão.principal
 	SubPropertyOf: bim:d.taxonomizar
 	range: rdfs:Literal or xsd:string
 	Annotations: rdfs:label "Dado para taxonomizar: missão.principal -- Formatado como (rdfs:Literal or xsd:string)"@pt
-	Annotations: bim:Chave "d.taxonomizar.147"
+	Annotations: bim:Chave "d.taxonomizar.146"
 	Annotations: bim:Ação "Ação de taxonomizar"@pt
 	Annotations: bim:Definição "Declara a missão principal dos planos NIB e PET da Taxonomia Sustentável Brasileira TSB."@pt
 	Annotations: bim:Definición "Declara la misión principal de los planes NIB y PET de la Taxonomía Sostenible Brasileña TSB."@es
@@ -44660,7 +45137,7 @@ ObjectProperty: bim:é.para.qualificar
 	SubPropertyOf: bim:p.taxonomizar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a taxonomizar: é.para.qualificar"@pt
-	Annotations: bim:Chave "d.taxonomizar.154"
+	Annotations: bim:Chave "d.taxonomizar.153"
 	Annotations: bim:Ação "Ação de taxonomizar"@pt
 	Annotations: bim:Definição "Declara exigências para qualificar como alinhamento da Taxonomia Sustentável Brasileira TSB."@pt
 	Annotations: bim:Definición "Declara requisitos para calificar como alineación de la Taxonomía Sostenible Brasileña TSB."@es
@@ -44676,7 +45153,7 @@ DataProperty: bim:para.qualificar
 	SubPropertyOf: bim:d.taxonomizar
 	range: rdfs:Literal or xsd:string
 	Annotations: rdfs:label "Dado para taxonomizar: para.qualificar -- Formatado como (rdfs:Literal or xsd:string)"@pt
-	Annotations: bim:Chave "d.taxonomizar.154"
+	Annotations: bim:Chave "d.taxonomizar.153"
 	Annotations: bim:Ação "Ação de taxonomizar"@pt
 	Annotations: bim:Definição "Declara exigências para qualificar como alinhamento da Taxonomia Sustentável Brasileira TSB."@pt
 	Annotations: bim:Definición "Declara requisitos para calificar como alineación de la Taxonomía Sostenible Brasileña TSB."@es
@@ -44691,7 +45168,7 @@ ObjectProperty: bim:é.princípio
 	SubPropertyOf: bim:p.taxonomizar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a taxonomizar: é.princípio"@pt
-	Annotations: bim:Chave "d.taxonomizar.157"
+	Annotations: bim:Chave "d.taxonomizar.156"
 	Annotations: bim:Ação "Ação de taxonomizar"@pt
 	Annotations: bim:Definição "Declara um princípio defendido pela Taxonomia Sustentável Brasileira TSB."@pt
 	Annotations: bim:Definición "Declara un principio defendido por la TSB de la Taxonomía Sostenible de Brasil."@es
@@ -44707,7 +45184,7 @@ DataProperty: bim:princípio
 	SubPropertyOf: bim:d.taxonomizar
 	range: rdfs:Literal or xsd:string
 	Annotations: rdfs:label "Dado para taxonomizar: princípio -- Formatado como (rdfs:Literal or xsd:string)"@pt
-	Annotations: bim:Chave "d.taxonomizar.157"
+	Annotations: bim:Chave "d.taxonomizar.156"
 	Annotations: bim:Ação "Ação de taxonomizar"@pt
 	Annotations: bim:Definição "Declara um princípio defendido pela Taxonomia Sustentável Brasileira TSB."@pt
 	Annotations: bim:Definición "Declara un principio defendido por la TSB de la Taxonomía Sostenible de Brasil."@es
@@ -44722,7 +45199,7 @@ ObjectProperty: bim:é.qualificada.com
 	SubPropertyOf: bim:p.taxonomizar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a taxonomizar: é.qualificada.com"@pt
-	Annotations: bim:Chave "d.taxonomizar.158"
+	Annotations: bim:Chave "d.taxonomizar.157"
 	Annotations: bim:Ação "Ação de taxonomizar"@pt
 	Annotations: bim:Definição "Declara qual é o critério que qualifica à atividade para a Taxonomia Sustentável Brasileira TSB."@pt
 	Annotations: bim:Definición "Declara el criterio que califica la actividad para la según la Taxonomía Sostenible Brasileña TSB."@es
@@ -44738,7 +45215,7 @@ DataProperty: bim:qualificada.com
 	SubPropertyOf: bim:d.taxonomizar
 	range: rdfs:Literal or xsd:string
 	Annotations: rdfs:label "Dado para taxonomizar: qualificada.com -- Formatado como (rdfs:Literal or xsd:string)"@pt
-	Annotations: bim:Chave "d.taxonomizar.158"
+	Annotations: bim:Chave "d.taxonomizar.157"
 	Annotations: bim:Ação "Ação de taxonomizar"@pt
 	Annotations: bim:Definição "Declara qual é o critério que qualifica à atividade para a Taxonomia Sustentável Brasileira TSB."@pt
 	Annotations: bim:Definición "Declara el criterio que califica la actividad para la según la Taxonomía Sostenible Brasileña TSB."@es
@@ -44753,7 +45230,7 @@ ObjectProperty: bim:é.qualificadora.de
 	SubPropertyOf: bim:p.taxonomizar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a taxonomizar: é.qualificadora.de"@pt
-	Annotations: bim:Chave "d.taxonomizar.159"
+	Annotations: bim:Chave "d.taxonomizar.158"
 	Annotations: bim:Ação "Ação de taxonomizar"@pt
 	Annotations: bim:Definição "Declara um critério necessário para qualificar uma atividade para a Taxonomia Sustentável Brasileira TSB."@pt
 	Annotations: bim:Definición "Declara un criterio necesario para calificar una actividad para la Taxonomía Sostenible Brasileña TSB."@es
@@ -44769,7 +45246,7 @@ DataProperty: bim:qualificadora.de
 	SubPropertyOf: bim:d.taxonomizar
 	range: rdfs:Literal or xsd:string
 	Annotations: rdfs:label "Dado para taxonomizar: qualificadora.de -- Formatado como (rdfs:Literal or xsd:string)"@pt
-	Annotations: bim:Chave "d.taxonomizar.159"
+	Annotations: bim:Chave "d.taxonomizar.158"
 	Annotations: bim:Ação "Ação de taxonomizar"@pt
 	Annotations: bim:Definição "Declara um critério necessário para qualificar uma atividade para a Taxonomia Sustentável Brasileira TSB."@pt
 	Annotations: bim:Definición "Declara un criterio necesario para calificar una actividad para la Taxonomía Sostenible Brasileña TSB."@es
@@ -44784,7 +45261,7 @@ ObjectProperty: bim:é.receita.alinhada
 	SubPropertyOf: bim:p.taxonomizar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a taxonomizar: é.receita.alinhada"@pt
-	Annotations: bim:Chave "d.taxonomizar.160"
+	Annotations: bim:Chave "d.taxonomizar.159"
 	Annotations: bim:Ação "Ação de taxonomizar"@pt
 	Annotations: bim:Definição "Declara o valor total de receita de atividade alinhada com a TSB."@pt
 	Annotations: bim:Definición "Declara el importe total de ingresos de la actividad alineada a la Taxonomía Sostenible Brasileña TSB."@es
@@ -44800,7 +45277,7 @@ DataProperty: bim:receita.alinhada
 	SubPropertyOf: bim:d.taxonomizar
 	range: xsd:double
 	Annotations: rdfs:label "Dado para taxonomizar: receita.alinhada -- Formatado como (xsd:double)"@pt
-	Annotations: bim:Chave "d.taxonomizar.160"
+	Annotations: bim:Chave "d.taxonomizar.159"
 	Annotations: bim:Ação "Ação de taxonomizar"@pt
 	Annotations: bim:Definição "Declara o valor total de receita de atividade alinhada com a TSB."@pt
 	Annotations: bim:Definición "Declara el importe total de ingresos de la actividad alineada a la Taxonomía Sostenible Brasileña TSB."@es
@@ -44815,7 +45292,7 @@ ObjectProperty: bim:é.receita.percentual
 	SubPropertyOf: bim:p.taxonomizar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a taxonomizar: é.receita.percentual"@pt
-	Annotations: bim:Chave "d.taxonomizar.162"
+	Annotations: bim:Chave "d.taxonomizar.161"
 	Annotations: bim:Ação "Ação de taxonomizar"@pt
 	Annotations: bim:Definição "Declara o valor percentual da receita ou volume de negócios."@pt
 	Annotations: bim:Definición "Declara el valor porcentual de ingresos o facturación."@es
@@ -44831,7 +45308,7 @@ DataProperty: bim:receita.percentual
 	SubPropertyOf: bim:d.taxonomizar
 	range: xsd:double
 	Annotations: rdfs:label "Dado para taxonomizar: receita.percentual -- Formatado como (xsd:double)"@pt
-	Annotations: bim:Chave "d.taxonomizar.162"
+	Annotations: bim:Chave "d.taxonomizar.161"
 	Annotations: bim:Ação "Ação de taxonomizar"@pt
 	Annotations: bim:Definição "Declara o valor percentual da receita ou volume de negócios."@pt
 	Annotations: bim:Definición "Declara el valor porcentual de ingresos o facturación."@es
@@ -44846,7 +45323,7 @@ ObjectProperty: bim:é.receita.semi.alinhada
 	SubPropertyOf: bim:p.taxonomizar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a taxonomizar: é.receita.semi.alinhada"@pt
-	Annotations: bim:Chave "d.taxonomizar.163"
+	Annotations: bim:Chave "d.taxonomizar.162"
 	Annotations: bim:Ação "Ação de taxonomizar"@pt
 	Annotations: bim:Definição "Declara o valor total de receita de atividade parcialmente alinhada com a TSB."@pt
 	Annotations: bim:Definición "Declara que el importe total de ingresos por actividad está parcialmente alineado con TSB."@es
@@ -44862,7 +45339,7 @@ DataProperty: bim:receita.semi.alinhada
 	SubPropertyOf: bim:d.taxonomizar
 	range: xsd:double
 	Annotations: rdfs:label "Dado para taxonomizar: receita.semi.alinhada -- Formatado como (xsd:double)"@pt
-	Annotations: bim:Chave "d.taxonomizar.163"
+	Annotations: bim:Chave "d.taxonomizar.162"
 	Annotations: bim:Ação "Ação de taxonomizar"@pt
 	Annotations: bim:Definição "Declara o valor total de receita de atividade parcialmente alinhada com a TSB."@pt
 	Annotations: bim:Definición "Declara que el importe total de ingresos por actividad está parcialmente alineado con TSB."@es
@@ -44877,7 +45354,7 @@ ObjectProperty: bim:é.receita.total
 	SubPropertyOf: bim:p.taxonomizar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a taxonomizar: é.receita.total"@pt
-	Annotations: bim:Chave "d.taxonomizar.164"
+	Annotations: bim:Chave "d.taxonomizar.163"
 	Annotations: bim:Ação "Ação de taxonomizar"@pt
 	Annotations: bim:Definição "Declara o valor total de receita total ou volume de negócios."@pt
 	Annotations: bim:Definición "Declara la cantidad total de ingresos o facturación."@es
@@ -44893,7 +45370,7 @@ DataProperty: bim:receita.total
 	SubPropertyOf: bim:d.taxonomizar
 	range: xsd:double
 	Annotations: rdfs:label "Dado para taxonomizar: receita.total -- Formatado como (xsd:double)"@pt
-	Annotations: bim:Chave "d.taxonomizar.164"
+	Annotations: bim:Chave "d.taxonomizar.163"
 	Annotations: bim:Ação "Ação de taxonomizar"@pt
 	Annotations: bim:Definição "Declara o valor total de receita total ou volume de negócios."@pt
 	Annotations: bim:Definición "Declara la cantidad total de ingresos o facturación."@es
@@ -45729,7 +46206,7 @@ ObjectProperty: bim:é.correta
 	SubPropertyOf: bim:p.verificar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a verificar: é.correta"@pt
-	Annotations: bim:Chave "d.verificar.103"
+	Annotations: bim:Chave "d.verificar.104"
 	Annotations: bim:Ação "Ação de verificar"@pt
 	Annotations: bim:Definição "Declara que uma verificação é correta."@pt
 	Annotations: bim:Definición "Declara que una prueba es correcta."@es
@@ -45746,7 +46223,7 @@ DataProperty: bim:correta
 	SubPropertyOf: bim:d.verificar
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para verificar: correta -- Formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "d.verificar.103"
+	Annotations: bim:Chave "d.verificar.104"
 	Annotations: bim:Ação "Ação de verificar"@pt
 	Annotations: bim:Definição "Declara que uma verificação é correta."@pt
 	Annotations: bim:Definición "Declara que una prueba es correcta."@es
@@ -45761,7 +46238,7 @@ ObjectProperty: bim:é.correto
 	SubPropertyOf: bim:p.verificar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a verificar: é.correto"@pt
-	Annotations: bim:Chave "d.verificar.104"
+	Annotations: bim:Chave "d.verificar.105"
 	Annotations: bim:Ação "Ação de verificar"@pt
 	Annotations: bim:Definição "Declara que um resultado é correto."@pt
 	Annotations: bim:Definición "Declara que un resultado es correcto."@es
@@ -45778,7 +46255,7 @@ DataProperty: bim:correto
 	SubPropertyOf: bim:d.verificar
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para verificar: correto -- Formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "d.verificar.104"
+	Annotations: bim:Chave "d.verificar.105"
 	Annotations: bim:Ação "Ação de verificar"@pt
 	Annotations: bim:Definição "Declara que um resultado é correto."@pt
 	Annotations: bim:Definición "Declara que un resultado es correcto."@es
@@ -45793,7 +46270,7 @@ ObjectProperty: bim:é.erro
 	SubPropertyOf: bim:p.verificar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a verificar: é.erro"@pt
-	Annotations: bim:Chave "d.verificar.105"
+	Annotations: bim:Chave "d.verificar.106"
 	Annotations: bim:Ação "Ação de verificar"@pt
 	Annotations: bim:Definição "Declara que a resposta é errada."@pt
 	Annotations: bim:Definición "Declara que la respuesta es incorrecta."@es
@@ -45810,7 +46287,7 @@ DataProperty: bim:erro
 	SubPropertyOf: bim:d.verificar
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para verificar: erro -- Formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "d.verificar.105"
+	Annotations: bim:Chave "d.verificar.106"
 	Annotations: bim:Ação "Ação de verificar"@pt
 	Annotations: bim:Definição "Declara que a resposta é errada."@pt
 	Annotations: bim:Definición "Declara que la respuesta es incorrecta."@es
@@ -45825,7 +46302,7 @@ ObjectProperty: bim:é.fake
 	SubPropertyOf: bim:p.verificar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a verificar: é.fake"@pt
-	Annotations: bim:Chave "d.verificar.106"
+	Annotations: bim:Chave "d.verificar.107"
 	Annotations: bim:Ação "Ação de verificar"@pt
 	Annotations: bim:Definição "Declara que um objeto é fake ou falsificado."@pt
 	Annotations: bim:Definición "Declara que un objeto es falso o falsificado."@es
@@ -45842,7 +46319,7 @@ DataProperty: bim:fake
 	SubPropertyOf: bim:d.verificar
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para verificar: fake -- Formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "d.verificar.106"
+	Annotations: bim:Chave "d.verificar.107"
 	Annotations: bim:Ação "Ação de verificar"@pt
 	Annotations: bim:Definição "Declara que um objeto é fake ou falsificado."@pt
 	Annotations: bim:Definición "Declara que un objeto es falso o falsificado."@es
@@ -45857,7 +46334,7 @@ ObjectProperty: bim:é.falsa
 	SubPropertyOf: bim:p.verificar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a verificar: é.falsa"@pt
-	Annotations: bim:Chave "d.verificar.107"
+	Annotations: bim:Chave "d.verificar.108"
 	Annotations: bim:Ação "Ação de verificar"@pt
 	Annotations: bim:Definição "Declara que uma situação é falsa."@pt
 	Annotations: bim:Definición "Declara que una situación es falsa."@es
@@ -45874,7 +46351,7 @@ DataProperty: bim:falsa
 	SubPropertyOf: bim:d.verificar
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para verificar: falsa -- Formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "d.verificar.107"
+	Annotations: bim:Chave "d.verificar.108"
 	Annotations: bim:Ação "Ação de verificar"@pt
 	Annotations: bim:Definição "Declara que uma situação é falsa."@pt
 	Annotations: bim:Definición "Declara que una situación es falsa."@es
@@ -45889,7 +46366,7 @@ ObjectProperty: bim:é.falsificada
 	SubPropertyOf: bim:p.verificar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a verificar: é.falsificada"@pt
-	Annotations: bim:Chave "d.verificar.108"
+	Annotations: bim:Chave "d.verificar.109"
 	Annotations: bim:Ação "Ação de verificar"@pt
 	Annotations: bim:Definição "Declara que uma situação é falsificada."@pt
 	Annotations: bim:Definición "Declara que una situación está falsificada."@es
@@ -45906,7 +46383,7 @@ DataProperty: bim:falsificada
 	SubPropertyOf: bim:d.verificar
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para verificar: falsificada -- Formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "d.verificar.108"
+	Annotations: bim:Chave "d.verificar.109"
 	Annotations: bim:Ação "Ação de verificar"@pt
 	Annotations: bim:Definição "Declara que uma situação é falsificada."@pt
 	Annotations: bim:Definición "Declara que una situación está falsificada."@es
@@ -45921,7 +46398,7 @@ ObjectProperty: bim:é.falsificado
 	SubPropertyOf: bim:p.verificar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a verificar: é.falsificado"@pt
-	Annotations: bim:Chave "d.verificar.109"
+	Annotations: bim:Chave "d.verificar.110"
 	Annotations: bim:Ação "Ação de verificar"@pt
 	Annotations: bim:Definição "Declara que um objeto é falsificado."@pt
 	Annotations: bim:Definición "Declara que un objeto es falso."@es
@@ -45938,7 +46415,7 @@ DataProperty: bim:falsificado
 	SubPropertyOf: bim:d.verificar
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para verificar: falsificado -- Formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "d.verificar.109"
+	Annotations: bim:Chave "d.verificar.110"
 	Annotations: bim:Ação "Ação de verificar"@pt
 	Annotations: bim:Definição "Declara que um objeto é falsificado."@pt
 	Annotations: bim:Definición "Declara que un objeto es falso."@es
@@ -45953,7 +46430,7 @@ ObjectProperty: bim:é.falso
 	SubPropertyOf: bim:p.verificar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a verificar: é.falso"@pt
-	Annotations: bim:Chave "d.verificar.110"
+	Annotations: bim:Chave "d.verificar.111"
 	Annotations: bim:Ação "Ação de verificar"@pt
 	Annotations: bim:Definição "Declara que um objeto é logicamente falso."@pt
 	Annotations: bim:Definición "Declara que un objeto es lógicamente falso."@es
@@ -45970,7 +46447,7 @@ DataProperty: bim:falso
 	SubPropertyOf: bim:d.verificar
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para verificar: falso -- Formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "d.verificar.110"
+	Annotations: bim:Chave "d.verificar.111"
 	Annotations: bim:Ação "Ação de verificar"@pt
 	Annotations: bim:Definição "Declara que um objeto é logicamente falso."@pt
 	Annotations: bim:Definición "Declara que un objeto es lógicamente falso."@es
@@ -45985,7 +46462,7 @@ ObjectProperty: bim:é.fraude.eletrônico
 	SubPropertyOf: bim:p.verificar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a verificar: é.fraude.eletrônico"@pt
-	Annotations: bim:Chave "d.verificar.111"
+	Annotations: bim:Chave "d.verificar.112"
 	Annotations: bim:Ação "Ação de verificar"@pt
 	Annotations: bim:Definição "Declara que uma situação é uma fraude eletrônico, digital, cibernético, etc."@pt
 	Annotations: bim:Definición "Declara que una situación es un fraude electrónico, digital, cibernético, etc."@es
@@ -46002,7 +46479,7 @@ DataProperty: bim:fraude.eletrônico
 	SubPropertyOf: bim:d.verificar
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para verificar: fraude.eletrônico -- Formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "d.verificar.111"
+	Annotations: bim:Chave "d.verificar.112"
 	Annotations: bim:Ação "Ação de verificar"@pt
 	Annotations: bim:Definição "Declara que uma situação é uma fraude eletrônico, digital, cibernético, etc."@pt
 	Annotations: bim:Definición "Declara que una situación es un fraude electrónico, digital, cibernético, etc."@es
@@ -46017,7 +46494,7 @@ ObjectProperty: bim:é.fraudulenta
 	SubPropertyOf: bim:p.verificar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a verificar: é.fraudulenta"@pt
-	Annotations: bim:Chave "d.verificar.112"
+	Annotations: bim:Chave "d.verificar.113"
 	Annotations: bim:Ação "Ação de verificar"@pt
 	Annotations: bim:Definição "Declara que uma situação é fraudulenta."@pt
 	Annotations: bim:Definición "Declara que una situación es fraudulenta."@es
@@ -46034,7 +46511,7 @@ DataProperty: bim:fraudulenta
 	SubPropertyOf: bim:d.verificar
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para verificar: fraudulenta -- Formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "d.verificar.112"
+	Annotations: bim:Chave "d.verificar.113"
 	Annotations: bim:Ação "Ação de verificar"@pt
 	Annotations: bim:Definição "Declara que uma situação é fraudulenta."@pt
 	Annotations: bim:Definición "Declara que una situación es fraudulenta."@es
@@ -46049,7 +46526,7 @@ ObjectProperty: bim:é.fraudulento
 	SubPropertyOf: bim:p.verificar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a verificar: é.fraudulento"@pt
-	Annotations: bim:Chave "d.verificar.113"
+	Annotations: bim:Chave "d.verificar.114"
 	Annotations: bim:Ação "Ação de verificar"@pt
 	Annotations: bim:Definição "Declara que um objeto é fraudulento."@pt
 	Annotations: bim:Definición "Declara que un objeto es fraudulento."@es
@@ -46066,7 +46543,7 @@ DataProperty: bim:fraudulento
 	SubPropertyOf: bim:d.verificar
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para verificar: fraudulento -- Formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "d.verificar.113"
+	Annotations: bim:Chave "d.verificar.114"
 	Annotations: bim:Ação "Ação de verificar"@pt
 	Annotations: bim:Definição "Declara que um objeto é fraudulento."@pt
 	Annotations: bim:Definición "Declara que un objeto es fraudulento."@es
@@ -46081,7 +46558,7 @@ ObjectProperty: bim:é.segura
 	SubPropertyOf: bim:p.verificar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a verificar: é.segura"@pt
-	Annotations: bim:Chave "d.verificar.116"
+	Annotations: bim:Chave "d.verificar.117"
 	Annotations: bim:Ação "Ação de verificar"@pt
 	Annotations: bim:Definição "Declara que uma situação de trabalho em segurança."@pt
 	Annotations: bim:Definición "Declara que es una situación de trabajo segura."@es
@@ -46098,7 +46575,7 @@ DataProperty: bim:segura
 	SubPropertyOf: bim:d.verificar
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para verificar: segura -- Formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "d.verificar.116"
+	Annotations: bim:Chave "d.verificar.117"
 	Annotations: bim:Ação "Ação de verificar"@pt
 	Annotations: bim:Definição "Declara que uma situação de trabalho em segurança."@pt
 	Annotations: bim:Definición "Declara que es una situación de trabajo segura."@es
@@ -46113,7 +46590,7 @@ ObjectProperty: bim:é.seguro
 	SubPropertyOf: bim:p.verificar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a verificar: é.seguro"@pt
-	Annotations: bim:Chave "d.verificar.117"
+	Annotations: bim:Chave "d.verificar.118"
 	Annotations: bim:Ação "Ação de verificar"@pt
 	Annotations: bim:Definição "Declara que uma situação de trabalho em segurança."@pt
 	Annotations: bim:Definición "Declara que es una situación de trabajo segura."@es
@@ -46130,7 +46607,7 @@ DataProperty: bim:seguro
 	SubPropertyOf: bim:d.verificar
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para verificar: seguro -- Formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "d.verificar.117"
+	Annotations: bim:Chave "d.verificar.118"
 	Annotations: bim:Ação "Ação de verificar"@pt
 	Annotations: bim:Definição "Declara que uma situação de trabalho em segurança."@pt
 	Annotations: bim:Definición "Declara que es una situación de trabajo segura."@es
@@ -46145,7 +46622,7 @@ ObjectProperty: bim:é.verdadeira
 	SubPropertyOf: bim:p.verificar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a verificar: é.verdadeira"@pt
-	Annotations: bim:Chave "d.verificar.118"
+	Annotations: bim:Chave "d.verificar.119"
 	Annotations: bim:Ação "Ação de verificar"@pt
 	Annotations: bim:Definição "Declara que uma situação é verdadeira."@pt
 	Annotations: bim:Definición "Declara que una situación es cierta."@es
@@ -46162,7 +46639,7 @@ DataProperty: bim:verdadeira
 	SubPropertyOf: bim:d.verificar
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para verificar: verdadeira -- Formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "d.verificar.118"
+	Annotations: bim:Chave "d.verificar.119"
 	Annotations: bim:Ação "Ação de verificar"@pt
 	Annotations: bim:Definição "Declara que uma situação é verdadeira."@pt
 	Annotations: bim:Definición "Declara que una situación es cierta."@es
@@ -46177,7 +46654,7 @@ ObjectProperty: bim:é.verdadeiro
 	SubPropertyOf: bim:p.verificar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a verificar: é.verdadeiro"@pt
-	Annotations: bim:Chave "d.verificar.119"
+	Annotations: bim:Chave "d.verificar.120"
 	Annotations: bim:Ação "Ação de verificar"@pt
 	Annotations: bim:Definição "Declara que um objeto é verdadeiro."@pt
 	Annotations: bim:Definición "Declara que un objeto es verdadero."@es
@@ -46194,7 +46671,7 @@ DataProperty: bim:verdadeiro
 	SubPropertyOf: bim:d.verificar
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para verificar: verdadeiro -- Formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "d.verificar.119"
+	Annotations: bim:Chave "d.verificar.120"
 	Annotations: bim:Ação "Ação de verificar"@pt
 	Annotations: bim:Definição "Declara que um objeto é verdadeiro."@pt
 	Annotations: bim:Definición "Declara que un objeto es verdadero."@es
@@ -46209,7 +46686,7 @@ ObjectProperty: bim:é.verificada
 	SubPropertyOf: bim:p.verificar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a verificar: é.verificada"@pt
-	Annotations: bim:Chave "d.verificar.120"
+	Annotations: bim:Chave "d.verificar.121"
 	Annotations: bim:Ação "Ação de verificar"@pt
 	Annotations: bim:Definição "Declara que uma situação como verificada. Alguém verificou em campo ou na documentação."@pt
 	Annotations: bim:Definición "Declara una situación como verificada. Alguien lo comprobó en el campo o en la documentación."@es
@@ -46226,7 +46703,7 @@ DataProperty: bim:verificada
 	SubPropertyOf: bim:d.verificar
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para verificar: verificada -- Formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "d.verificar.120"
+	Annotations: bim:Chave "d.verificar.121"
 	Annotations: bim:Ação "Ação de verificar"@pt
 	Annotations: bim:Definição "Declara que uma situação como verificada. Alguém verificou em campo ou na documentação."@pt
 	Annotations: bim:Definición "Declara una situación como verificada. Alguien lo comprobó en el campo o en la documentación."@es
@@ -46241,7 +46718,7 @@ ObjectProperty: bim:é.verificado
 	SubPropertyOf: bim:p.verificar
 	domain: bim:BIM
 	Annotations: rdfs:label "Propriedade destinada a verificar: é.verificado"@pt
-	Annotations: bim:Chave "d.verificar.121"
+	Annotations: bim:Chave "d.verificar.122"
 	Annotations: bim:Ação "Ação de verificar"@pt
 	Annotations: bim:Definição "Declara que um elemento como verificado. Alguém verificou em campo ou na documentação."@pt
 	Annotations: bim:Definición "Declara un elemento como verificado. Alguien lo ha verificado en el campo o en la documentación."@es
@@ -46258,7 +46735,7 @@ DataProperty: bim:verificado
 	SubPropertyOf: bim:d.verificar
 	range: xsd:boolean
 	Annotations: rdfs:label "Dado para verificar: verificado -- Formatado como (xsd:boolean)"@pt
-	Annotations: bim:Chave "d.verificar.121"
+	Annotations: bim:Chave "d.verificar.122"
 	Annotations: bim:Ação "Ação de verificar"@pt
 	Annotations: bim:Definição "Declara que um elemento como verificado. Alguém verificou em campo ou na documentação."@pt
 	Annotations: bim:Definición "Declara un elemento como verificado. Alguien lo ha verificado en el campo o en la documentación."@es
@@ -46860,5 +47337,5 @@ DataProperty: bim:zona.pública
 
 #################################################################
 ##  Fim da Ontologia SomaSUS_2Q
-##  Criada em 22/10/2026 17:12:30
+##  Criada em 05/11/2026 7:53:54
 #################################################################
