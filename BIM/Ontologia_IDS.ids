@@ -29,7 +29,7 @@
 						<xs:pattern value=".*Quarto*.*"/>
 					</xs:restriction>
 				</attribute>
-				<property  cardinality ="required" ">
+				<property dataType="IFCAREAMEASURE" cardinality ="required" ">
 					<propertySet><simpleValue>Qto_SpaceBaseQuantities</simpleValue></propertySet>
 					<baseName><simpleValue>NetFloorArea</simpleValue></baseName>
 					<value>
@@ -57,7 +57,7 @@
 					<name><simpleValue>Name</simpleValue></name>
 					<value><simpleValue>Sala</simpleValue></value>
 				</attribute>
-				<property  cardinality ="required" ">
+				<property dataType="IFCAREAMEASURE" cardinality ="required" ">
 					<propertySet><simpleValue>Qto_SpaceBaseQuantities</simpleValue></propertySet>
 					<baseName><simpleValue>NetFloorArea</simpleValue></baseName>
 					<value>
@@ -85,7 +85,7 @@
 					<name><simpleValue>Name</simpleValue></name>
 					<value><simpleValue>Banheiro</simpleValue></value>
 				</attribute>
-				<property  cardinality ="required" ">
+				<property dataType="IFCAREAMEASURE" cardinality ="required" ">
 					<propertySet><simpleValue>Qto_SpaceBaseQuantities</simpleValue></propertySet>
 					<baseName><simpleValue>NetFloorArea</simpleValue></baseName>
 					<value>
@@ -113,7 +113,7 @@
 					<name><simpleValue>Name</simpleValue></name>
 					<value><simpleValue>Cozinha</simpleValue></value>
 				</attribute>
-				<property  cardinality ="required" ">
+				<property dataType="IFCAREAMEASURE" cardinality ="required" ">
 					<propertySet><simpleValue>Qto_SpaceBaseQuantities</simpleValue></propertySet>
 					<baseName><simpleValue>NetFloorArea</simpleValue></baseName>
 					<value>
