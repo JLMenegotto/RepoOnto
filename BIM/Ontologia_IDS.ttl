@@ -26,7 +26,7 @@
 	  rdfs:label "Norma-Referência-02: -"@pt ;
 	  rdfs:label "Norma-Referência-03: https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD2_TC1/HTML/schema"@pt ;
 	  rdfs:label "Observações: Modelo IDS"@pt ;
-	  rdfs:label "DataHora: 19/11/2026 12:36:37"@pt ;
+	  rdfs:label "DataHora: 19/11/2026 12:44:57"@pt ;
 	  rdfs:label "Advertência: Algumas traduções podem precisar de revisão - Traducción al español incorporada"@pt ;
 	  rdfs:label "Aviso: -"@pt ;
 	  rdfs:label "Alert: -"@pt ;
@@ -2322,7 +2322,7 @@ bim:Req_Pre_01  rdf:type  owl:NamedIndividual , bim:Especifica.Edifício ;
      bim:é.pertencente.a    bim:Req_de_Andares ;
      bim:ids.seção.especificação    "especificação" ;
      bim:método.revit    "IDS_Especificacao" ;
-     bim:ids.descrição    "Alvenarias usadas no 5° Andar do prédio." ;
+     bim:ids.descrição    "Alvenarias estruturais usadas no 5° Andar do prédio." ;
      bim:ids.versão    "IFC4" ;
      bim:ids.entidade.classe    "IFCWALL" ;
      bim:ids.parte.de    "IFCBUILDINGSTOREY" ;
@@ -2336,7 +2336,7 @@ bim:Req_Pre_01  rdf:type  owl:NamedIndividual , bim:Especifica.Edifício ;
      bim:ids.classificação.código    "3E.14.02" ;
      bim:ids.id    "Req_Pre_01" ;
      bim:ids.nome    "Req_Pre_01" ;
-     bim:req.instrução    "Alvenarias usadas no 5° Andar do prédio." ;
+     bim:req.instrução    "Alvenarias estruturais usadas no 5° Andar do prédio." ;
      bim:req.pset    "Pset_WallCommon" ;
      bim:req.propriedade.nome    "LoadBearing" ;
      bim:req.propriedade.tipo    "IFCBOOLEAN" ;
@@ -42183,5 +42183,5 @@ bim:zona.pública   rdf:type  owl:DatatypeProperty ;
 
 #################################################################
 ##  Fim da Ontologia IDS
-##  Criada em 19/11/2026 12:36:45
+##  Criada em 19/11/2026 12:45:11
 #################################################################
