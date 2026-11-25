@@ -1,0 +1,4509 @@
+
+Individuals:
+     - Individual:
+       id: UFRJ
+       type: Código
+       Facts:
+             grupo: "Raizes"
+             sigla: "UFRJ"
+             significado: "Órgão de Ensino Superior"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "Órgão de ensino superior"
+             descrição: "Órgão de ensino superior"
+
+     - Individual:
+       id: UFRJ.CT
+       type: Código
+       Facts:
+             é.pertencente.a: UFRJ
+             grupo: "Raizes"
+             sigla: "UFRJ.CT"
+             significado: "Centro de Tecnologia"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "Centro de Tecnologia"
+             descrição: "Centro de Tecnologia"
+
+     - Individual:
+       id: UFRJ.1
+       type: Código
+       Facts:
+             é.pertencente.a: UFRJ
+             grupo: "Localização na UFRJ"
+             sigla: "UFRJ.1"
+             significado: "Campus Cidade Universitária"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "Campus Cidade Universitária"
+             descrição: "Campus Cidade Universitária da UFRJ"
+
+     - Individual:
+       id: UFRJ.2
+       type: Código
+       Facts:
+             é.pertencente.a: UFRJ
+             grupo: "Localização na UFRJ"
+             sigla: "UFRJ.2"
+             significado: "Campus Macaé"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "Campus Macaé"
+             descrição: "Campus Macaé da UFRJ"
+
+     - Individual:
+       id: UFRJ.3
+       type: Código
+       Facts:
+             é.pertencente.a: UFRJ
+             grupo: "Localização na UFRJ"
+             sigla: "UFRJ.3"
+             significado: "Campus Praia Vemelha"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "Campus Praia Vemelha"
+             descrição: "Campus Praia Vemelha da UFRJ"
+
+     - Individual:
+       id: UFRJ.4
+       type: Código
+       Facts:
+             é.pertencente.a: UFRJ
+             grupo: "Localização na UFRJ"
+             sigla: "UFRJ.4"
+             significado: "Campus Centro"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "Campus Centro"
+             descrição: "Campus Centro da UFRJ"
+
+     - Individual:
+       id: A
+       type: Código.N2
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Localização no Centro de Tecnologia"
+             sigla: "A"
+             significado: "Bloco A"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "Bloco A"
+             descrição: "Bloco A do Centro de Tecnologia da UFRJ"
+
+     - Individual:
+       id: AB
+       type: Código.N2
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Localização no Centro de Tecnologia"
+             sigla: "AB"
+             significado: "Bloco Ab"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "Bloco AB"
+             descrição: "Bloco AB do Centro de Tecnologia da UFRJ"
+
+     - Individual:
+       id: ABC
+       type: Código.N2
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Localização no Centro de Tecnologia"
+             sigla: "ABC"
+             significado: "Bloco Abc"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "Bloco ABC"
+             descrição: "Bloco ABC do Centro de Tecnologia da UFRJ"
+
+     - Individual:
+       id: B
+       type: Código.N2
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Localização no Centro de Tecnologia"
+             sigla: "B"
+             significado: "Bloco B"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "Bloco B"
+             descrição: "Bloco B do Centro de Tecnologia da UFRJ"
+
+     - Individual:
+       id: C
+       type: Código.N2
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Localização no Centro de Tecnologia"
+             sigla: "C"
+             significado: "Bloco C"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "Bloco C"
+             descrição: "Bloco C do Centro de Tecnologia da UFRJ"
+
+     - Individual:
+       id: D
+       type: Código.N2
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Localização no Centro de Tecnologia"
+             sigla: "D"
+             significado: "Bloco D"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "Bloco D"
+             descrição: "Bloco D do Centro de Tecnologia da UFRJ"
+
+     - Individual:
+       id: E
+       type: Código.N2
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Localização no Centro de Tecnologia"
+             sigla: "E"
+             significado: "Bloco E"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "Bloco E"
+             descrição: "Bloco E do Centro de Tecnologia da UFRJ"
+
+     - Individual:
+       id: F
+       type: Código.N2
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Localização no Centro de Tecnologia"
+             sigla: "F"
+             significado: "Bloco F"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "Bloco F"
+             descrição: "Bloco F do Centro de Tecnologia da UFRJ"
+
+     - Individual:
+       id: G
+       type: Código.N2
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Localização no Centro de Tecnologia"
+             sigla: "G"
+             significado: "Bloco G"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "Bloco G"
+             descrição: "Bloco G do Centro de Tecnologia da UFRJ"
+
+     - Individual:
+       id: H
+       type: Código.N2
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Localização no Centro de Tecnologia"
+             sigla: "H"
+             significado: "Bloco H"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "Bloco H"
+             descrição: "Bloco H do Centro de Tecnologia da UFRJ"
+
+     - Individual:
+       id: I
+       type: Código.N2
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Localização no Centro de Tecnologia"
+             sigla: "I"
+             significado: "Bloco I"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "Bloco I"
+             descrição: "Bloco I do Centro de Tecnologia da UFRJ"
+
+     - Individual:
+       id: J
+       type: Código.N2
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Localização no Centro de Tecnologia"
+             sigla: "J"
+             significado: "Bloco J"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "Bloco J"
+             descrição: "Bloco J do Centro de Tecnologia da UFRJ"
+
+     - Individual:
+       id: K
+       type: Código.N2
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Localização no Centro de Tecnologia"
+             sigla: "K"
+             significado: "Bloco K"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "Bloco K"
+             descrição: "Bloco K do Centro de Tecnologia da UFRJ"
+
+     - Individual:
+       id: L
+       type: Código.N2
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Localização no Centro de Tecnologia"
+             sigla: "L"
+             significado: "Bloco L"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "Bloco L"
+             descrição: "Bloco L do Centro de Tecnologia da UFRJ"
+
+     - Individual:
+       id: M
+       type: Código.N2
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Localização no Centro de Tecnologia"
+             sigla: "M"
+             significado: "Bloco M"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "Bloco M"
+             descrição: "Bloco M do Centro de Tecnologia da UFRJ"
+
+     - Individual:
+       id: N
+       type: Código.N2
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Localização no Centro de Tecnologia"
+             sigla: "N"
+             significado: "Bloco N"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "Bloco N"
+             descrição: "Bloco N do Centro de Tecnologia da UFRJ"
+
+     - Individual:
+       id: O
+       type: Código.N2
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Localização no Centro de Tecnologia"
+             sigla: "O"
+             significado: "Bloco O"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "Bloco O"
+             descrição: "Bloco O do Centro de Tecnologia da UFRJ"
+
+     - Individual:
+       id: P
+       type: Código.N2
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Localização no Centro de Tecnologia"
+             sigla: "P"
+             significado: "Bloco P"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "Bloco P"
+             descrição: "Bloco P do Centro de Tecnologia da UFRJ"
+
+     - Individual:
+       id: Q
+       type: Código.N2
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Localização no Centro de Tecnologia"
+             sigla: "Q"
+             significado: "Bloco Q"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "Bloco Q"
+             descrição: "Bloco Q do Centro de Tecnologia da UFRJ"
+
+     - Individual:
+       id: ARQ
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Disciplinas"
+             sigla: "ARQ"
+             significado: "Projeto de Arquitetura"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "1D.21.11"
+             parâmetro: "Projeto de arquitetura"
+             descrição: "Projeto de arquitetura"
+
+     - Individual:
+       id: AVA
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Disciplinas"
+             sigla: "AVA"
+             significado: "Projeto de Avac"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "1D.21.31.17"
+             parâmetro: "Projeto de AVAC"
+             descrição: "Projeto de AVAC"
+
+     - Individual:
+       id: ELE
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Disciplinas"
+             sigla: "ELE"
+             significado: "Projeto de Elétrica"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "1D.21.31.21"
+             parâmetro: "Projeto de elétrica"
+             descrição: "Projeto de elétrica"
+
+     - Individual:
+       id: EST
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Disciplinas"
+             sigla: "EST"
+             significado: "Projeto de Estruturas"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "1D.21.31.14"
+             parâmetro: "Projeto de estruturas"
+             descrição: "Projeto de estruturas"
+
+     - Individual:
+       id: GAS
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Disciplinas"
+             sigla: "GAS"
+             significado: "Projeto de Gases"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "1D.21.31.24.11"
+             parâmetro: "Projeto de gases"
+             descrição: "Projeto de gases"
+
+     - Individual:
+       id: GEO
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Disciplinas"
+             sigla: "GEO"
+             significado: "Projeto de Geotécnica e Topografia"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "1D.21.31.11.11"
+             parâmetro: "Projeto de geotécnica e topografia"
+             descrição: "Projeto de geotécnica e topografia"
+
+     - Individual:
+       id: HID
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Disciplinas"
+             sigla: "HID"
+             significado: "Projeto de Hidráulica"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "1D.21.31.24.11"
+             parâmetro: "Projeto de hidráulica"
+             descrição: "Projeto de hidráulica"
+
+     - Individual:
+       id: ILU
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Disciplinas"
+             sigla: "ILU"
+             significado: "Projeto de Luminotécnica"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "1D.21.31"
+             parâmetro: "Projeto de luminotécnica"
+             descrição: "Projeto de luminotécnica"
+
+     - Individual:
+       id: INC
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Disciplinas"
+             sigla: "INC"
+             significado: "Projeto de Incêndio"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "1D.21.31.17.21"
+             parâmetro: "Projeto de incêndio"
+             descrição: "Projeto de incêndio"
+
+     - Individual:
+       id: MEC
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Disciplinas"
+             sigla: "MEC"
+             significado: "Projeto de Mecânica"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "1D.21.31.17"
+             parâmetro: "Projeto de mecânica"
+             descrição: "Projeto de mecânica"
+
+     - Individual:
+       id: PAI
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Disciplinas"
+             sigla: "PAI"
+             significado: "Projeto de Paisagismo"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "1D.21.21"
+             parâmetro: "Projeto de paisagismo"
+             descrição: "Projeto de paisagismo"
+
+     - Individual:
+       id: PLU
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Disciplinas"
+             sigla: "PLU"
+             significado: "Projeto de Águas Pluviais"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "1D.21.31.24.11"
+             parâmetro: "Projeto de águas pluviais"
+             descrição: "Projeto de águas pluviais"
+
+     - Individual:
+       id: SOM
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Disciplinas"
+             sigla: "SOM"
+             significado: "Projeto de Som e Acústica"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "1D.21.31.99.11"
+             parâmetro: "Projeto de som e acústica"
+             descrição: "Projeto de som e acústica"
+
+     - Individual:
+       id: DVS
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos estruturantes"
+             sigla: "DVS"
+             significado: "Divisa do Lote"
+             categoria.revit: "OST_SiteProperty , OST_SitePropertyLineSegment"
+             classe.ifc: "IfcVirtualElement"
+             código.abnt: "-"
+             descrição: "Divisa do Lote"
+
+     - Individual:
+       id: EIX
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos estruturantes"
+             sigla: "EIX"
+             significado: "Eixo Estrutural"
+             categoria.revit: "OST_Grids"
+             classe.ifc: "IfcGrid"
+             código.abnt: "-"
+             descrição: "Eixo Estrutural"
+
+     - Individual:
+       id: PAV
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos estruturantes"
+             sigla: "PAV"
+             significado: "Andar Pavimento"
+             categoria.revit: "OST_Levels"
+             classe.ifc: "IfcBuildingStorey"
+             código.abnt: "-"
+             descrição: "Andar Pavimento"
+
+     - Individual:
+       id: ACO
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de pavimentos do CT"
+             sigla: "ACO"
+             significado: "Andar de Cobertura"
+             categoria.revit: "OST_Levels"
+             classe.ifc: "IfcBuildingStorey"
+             código.abnt: "-"
+             descrição: "Andar de Cobertura"
+
+     - Individual:
+       id: AMZ
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de pavimentos do CT"
+             sigla: "AMZ"
+             significado: "Andar Mezanino"
+             categoria.revit: "OST_Levels"
+             classe.ifc: "IfcBuildingStorey"
+             código.abnt: "-"
+             descrição: "Andar Mezanino"
+
+     - Individual:
+       id: PLT
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de pavimentos do CT"
+             sigla: "PLT"
+             significado: "Andar Piloti do CT"
+             categoria.revit: "OST_Levels"
+             classe.ifc: "IfcBuildingStorey"
+             código.abnt: "-"
+             descrição: "Andar Piloti do CT"
+
+     - Individual:
+       id: SSO
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de pavimentos do CT"
+             sigla: "SSO"
+             significado: "Andar Subsolo"
+             categoria.revit: "OST_Levels"
+             classe.ifc: "IfcBuildingStorey"
+             código.abnt: "-"
+             descrição: "Andar Subsolo"
+
+     - Individual:
+       id: TER
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de pavimentos do CT"
+             sigla: "TER"
+             significado: "Andar Térreo"
+             categoria.revit: "OST_Levels"
+             classe.ifc: "IfcBuildingStorey"
+             código.abnt: "-"
+             descrição: "Andar Térreo"
+
+     - Individual:
+       id: TIP
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de pavimentos do CT"
+             sigla: "TIP"
+             significado: "Andar Tipo"
+             categoria.revit: "OST_Levels"
+             classe.ifc: "IfcBuildingStorey"
+             código.abnt: "-"
+             descrição: "Andar Tipo"
+
+     - Individual:
+       id: TEC
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de pavimentos do CT"
+             sigla: "TEC"
+             significado: "Andar Técnico"
+             categoria.revit: "OST_Levels"
+             classe.ifc: "IfcBuildingStorey"
+             código.abnt: "-"
+             descrição: "Andar Técnico"
+
+     - Individual:
+       id: 1AN
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de pavimentos do CT"
+             sigla: "1AN"
+             significado: "1° Andar"
+             categoria.revit: "OST_Levels"
+             classe.ifc: "IfcBuildingStorey"
+             código.abnt: "-"
+             descrição: "1° Andar"
+
+     - Individual:
+       id: 2AN
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de pavimentos do CT"
+             sigla: "2AN"
+             significado: "2° Andar"
+             categoria.revit: "OST_Levels"
+             classe.ifc: "IfcBuildingStorey"
+             código.abnt: "-"
+             descrição: "2° Andar"
+
+     - Individual:
+       id: 3AN
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de pavimentos do CT"
+             sigla: "3AN"
+             significado: "3° Andar"
+             categoria.revit: "OST_Levels"
+             classe.ifc: "IfcBuildingStorey"
+             código.abnt: "-"
+             descrição: "3° Andar"
+
+     - Individual:
+       id: 4AN
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de pavimentos do CT"
+             sigla: "4AN"
+             significado: "4° Andar"
+             categoria.revit: "OST_Levels"
+             classe.ifc: "IfcBuildingStorey"
+             código.abnt: "-"
+             descrição: "4° Andar"
+
+     - Individual:
+       id: 5AN
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de pavimentos do CT"
+             sigla: "5AN"
+             significado: "5° Andar"
+             categoria.revit: "OST_Levels"
+             classe.ifc: "IfcBuildingStorey"
+             código.abnt: "-"
+             descrição: "5° Andar"
+
+     - Individual:
+       id: 6AN
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de pavimentos do CT"
+             sigla: "6AN"
+             significado: "6° Andar"
+             categoria.revit: "OST_Levels"
+             classe.ifc: "IfcBuildingStorey"
+             código.abnt: "-"
+             descrição: "6° Andar"
+
+     - Individual:
+       id: 7AN
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de pavimentos do CT"
+             sigla: "7AN"
+             significado: "7° Andar"
+             categoria.revit: "OST_Levels"
+             classe.ifc: "IfcBuildingStorey"
+             código.abnt: "-"
+             descrição: "7° Andar"
+
+     - Individual:
+       id: 1TE
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de pavimentos do CT"
+             sigla: "1TE"
+             significado: "1° Andar Técnico"
+             categoria.revit: "OST_Levels"
+             classe.ifc: "IfcBuildingStorey"
+             código.abnt: "-"
+             descrição: "1° Andar Técnico"
+
+     - Individual:
+       id: 2TE
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de pavimentos do CT"
+             sigla: "2TE"
+             significado: "2° Andar Técnico"
+             categoria.revit: "OST_Levels"
+             classe.ifc: "IfcBuildingStorey"
+             código.abnt: "-"
+             descrição: "2° Andar Técnico"
+
+     - Individual:
+       id: 3TE
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de pavimentos do CT"
+             sigla: "3TE"
+             significado: "3° Andar Técnico"
+             categoria.revit: "OST_Levels"
+             classe.ifc: "IfcBuildingStorey"
+             código.abnt: "-"
+             descrição: "3° Andar Técnico"
+
+     - Individual:
+       id: 4TE
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de pavimentos do CT"
+             sigla: "4TE"
+             significado: "4° Andar Técnico"
+             categoria.revit: "OST_Levels"
+             classe.ifc: "IfcBuildingStorey"
+             código.abnt: "-"
+             descrição: "4° Andar Técnico"
+
+     - Individual:
+       id: 5TE
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de pavimentos do CT"
+             sigla: "5TE"
+             significado: "5° Andar Técnico"
+             categoria.revit: "OST_Levels"
+             classe.ifc: "IfcBuildingStorey"
+             código.abnt: "-"
+             descrição: "5° Andar Técnico"
+
+     - Individual:
+       id: 6TE
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de pavimentos do CT"
+             sigla: "6TE"
+             significado: "6° Andar Técnico"
+             categoria.revit: "OST_Levels"
+             classe.ifc: "IfcBuildingStorey"
+             código.abnt: "-"
+             descrição: "6° Andar Técnico"
+
+     - Individual:
+       id: 7TE
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de pavimentos do CT"
+             sigla: "7TE"
+             significado: "7° Andar Técnico"
+             categoria.revit: "OST_Levels"
+             classe.ifc: "IfcBuildingStorey"
+             código.abnt: "-"
+             descrição: "7° Andar Técnico"
+
+     - Individual:
+       id: AMB
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos espaciais"
+             sigla: "AMB"
+             significado: "Ambiente"
+             categoria.revit: "OST_Rooms"
+             classe.ifc: "IfcSpace"
+             código.abnt: "-"
+             descrição: "Ambiente"
+
+     - Individual:
+       id: ARE
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos espaciais"
+             sigla: "ARE"
+             significado: "Area"
+             categoria.revit: "OST_Areas"
+             classe.ifc: "IfcSpace"
+             código.abnt: "-"
+             descrição: "Area"
+
+     - Individual:
+       id: ESP
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos espaciais"
+             sigla: "ESP"
+             significado: "Espaço"
+             categoria.revit: "OST_MEPSpaces"
+             classe.ifc: "IfcSpace"
+             código.abnt: "-"
+             descrição: "Espaço"
+
+     - Individual:
+       id: ZOA
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos espaciais"
+             sigla: "ZOA"
+             significado: "Zona Ambiental"
+             categoria.revit: "OST_MEPZone"
+             classe.ifc: "IfcSpatialZone"
+             código.abnt: "-"
+             descrição: "Zona Ambiental"
+
+     - Individual:
+       id: ZOE
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos espaciais"
+             sigla: "ZOE"
+             significado: "Zona de Equipamentos"
+             categoria.revit: "OST_ZoneEquipment"
+             classe.ifc: "IfcSpatialZone"
+             código.abnt: "-"
+             descrição: "Zona de Equipamentos"
+
+     - Individual:
+       id: ZOS
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos espaciais"
+             sigla: "ZOS"
+             significado: "Zona de Sistemas"
+             categoria.revit: "OST_MEPSystemZone"
+             classe.ifc: "IfcSpatialZone"
+             código.abnt: "-"
+             descrição: "Zona de Sistemas"
+
+     - Individual:
+       id: AES
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos estruturais"
+             sigla: "AES"
+             significado: "Alvenaria Estrutural"
+             categoria.revit: "OST_Walls"
+             classe.ifc: "IfcWall"
+             código.abnt: "-"
+             descrição: "Alvenaria Estrutural"
+
+     - Individual:
+       id: CIN
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos estruturais"
+             sigla: "CIN"
+             significado: "Cinta"
+             categoria.revit: "OST_StructuralFramming"
+             classe.ifc: "IfcBeam"
+             código.abnt: "-"
+             descrição: "Cinta"
+
+     - Individual:
+       id: COL
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos estruturais"
+             sigla: "COL"
+             significado: "Coluna"
+             categoria.revit: "OST_StructuralColumns , OST_Columns"
+             classe.ifc: "IfcColumn"
+             código.abnt: "-"
+             descrição: "Coluna"
+
+     - Individual:
+       id: ETC
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos estruturais"
+             sigla: "ETC"
+             significado: "Estaca"
+             categoria.revit: "OST_StructuralFoundation"
+             classe.ifc: "IfcPile"
+             código.abnt: "-"
+             descrição: "Estaca"
+
+     - Individual:
+       id: FUN
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos estruturais"
+             sigla: "FUN"
+             significado: "Fundação"
+             categoria.revit: "OST_StructuralFoundation"
+             classe.ifc: "IfcCaissonFoundation , IfcDeepFoundation , IfcFooting"
+             código.abnt: "-"
+             descrição: "Fundação"
+
+     - Individual:
+       id: JDI
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos estruturais"
+             sigla: "JDI"
+             significado: "Junta de Dilatação"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             descrição: "Junta de Dilatação"
+
+     - Individual:
+       id: JUN
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos estruturais"
+             sigla: "JUN"
+             significado: "Junta"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             descrição: "Junta"
+
+     - Individual:
+       id: LAJ
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos estruturais"
+             sigla: "LAJ"
+             significado: "Laje"
+             categoria.revit: "OST_Floors"
+             classe.ifc: "IfcSlab"
+             código.abnt: "-"
+             descrição: "Laje"
+
+     - Individual:
+       id: PIL
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos estruturais"
+             sigla: "PIL"
+             significado: "Pilar"
+             categoria.revit: "OST_StructuralColumns , OST_Columns"
+             classe.ifc: "IfcColumn"
+             código.abnt: "-"
+             descrição: "Pilar"
+
+     - Individual:
+       id: PTE
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos estruturais"
+             sigla: "PTE"
+             significado: "Ponte"
+             categoria.revit: "OST_StructuralColumns , OST_StructuralFraming"
+             classe.ifc: "IfcColumn , IfcBeam"
+             código.abnt: "-"
+             descrição: "Ponte"
+
+     - Individual:
+       id: TBZ
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos estruturais"
+             sigla: "TBZ"
+             significado: "Banzo de Treliça"
+             categoria.revit: "OST_StructuralTruss , OST_HorizontalBracing , OST_VerticalBracing"
+             classe.ifc: "IfcElementAssemblyTRUSS , IfcMemberBRACE"
+             código.abnt: "-"
+             descrição: "Banzo de Treliça"
+
+     - Individual:
+       id: TDI
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos estruturais"
+             sigla: "TDI"
+             significado: "Diagonal de Treliça"
+             categoria.revit: "OST_StructuralTruss , OST_HorizontalBracing , OST_VerticalBracing"
+             classe.ifc: "IfcElementAssemblyTRUSS , IfcMemberBRACE"
+             código.abnt: "-"
+             descrição: "Diagonal de Treliça"
+
+     - Individual:
+       id: TMO
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos estruturais"
+             sigla: "TMO"
+             significado: "Montante de Treliça"
+             categoria.revit: "OST_StructuralTruss , OST_HorizontalBracing , OST_VerticalBracing"
+             classe.ifc: "IfcElementAssemblyTRUSS , IfcMemberBRACE"
+             código.abnt: "-"
+             descrição: "Montante de Treliça"
+
+     - Individual:
+       id: TRE
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos estruturais"
+             sigla: "TRE"
+             significado: "Treliça Espacial"
+             categoria.revit: "OST_StructuralTruss , OST_HorizontalBracing , OST_VerticalBracing"
+             classe.ifc: "IfcElementAssemblyTRUSS , IfcMemberBRACE"
+             código.abnt: "-"
+             descrição: "Treliça Espacial"
+
+     - Individual:
+       id: TRP
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos estruturais"
+             sigla: "TRP"
+             significado: "Treliça Plana"
+             categoria.revit: "OST_StructuralTruss , OST_HorizontalBracing , OST_VerticalBracing"
+             classe.ifc: "IfcElementAssemblyTRUSS , IfcMemberBRACE"
+             código.abnt: "-"
+             descrição: "Treliça Plana"
+
+     - Individual:
+       id: VIG
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos estruturais"
+             sigla: "VIG"
+             significado: "Viga"
+             categoria.revit: "OST_StructuralFramming"
+             classe.ifc: "IfcBeam"
+             código.abnt: "-"
+             descrição: "Viga"
+
+     - Individual:
+       id: BAE
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos estruturais armaduras"
+             sigla: "BAE"
+             significado: "Barra de Estribo"
+             categoria.revit: "OST_Rebar"
+             classe.ifc: "IfcReinforcingBar"
+             código.abnt: "-"
+             descrição: "Barra de Estribo"
+
+     - Individual:
+       id: BAV
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos estruturais armaduras"
+             sigla: "BAV"
+             significado: "Barra de Vergalhão"
+             categoria.revit: "OST_Rebar"
+             classe.ifc: "IfcReinforcingBar"
+             código.abnt: "-"
+             descrição: "Barra de Vergalhão"
+
+     - Individual:
+       id: ALV
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de arquitetura"
+             sigla: "ALV"
+             significado: "Alvenaria Arquitetura"
+             categoria.revit: "OST_Walls"
+             classe.ifc: "IfcWall"
+             código.abnt: "-"
+             descrição: "Alvenaria Arquitetura"
+
+     - Individual:
+       id: BOX
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de arquitetura"
+             sigla: "BOX"
+             significado: "Boxes"
+             categoria.revit: "OST_Walls"
+             classe.ifc: "IfcWall"
+             código.abnt: "-"
+             descrição: "Boxes"
+
+     - Individual:
+       id: BRI
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de arquitetura"
+             sigla: "BRI"
+             significado: "Brise"
+             categoria.revit: "OST_Curtain_Systems , OST_CurtainWallPanels ,  OST_CurtainWallMullions"
+             classe.ifc: "IfcShadingDeviceSHUTTER"
+             código.abnt: "-"
+             descrição: "Brise"
+
+     - Individual:
+       id: CBO
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de arquitetura"
+             sigla: "CBO"
+             significado: "Cobogô"
+             categoria.revit: "OST_Walls"
+             classe.ifc: "IfcWall"
+             código.abnt: "-"
+             descrição: "Cobogô"
+
+     - Individual:
+       id: COB
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de arquitetura"
+             sigla: "COB"
+             significado: "Cobertura"
+             categoria.revit: "OST_Floors , OST_Roofs"
+             classe.ifc: "IfcCoveringFLOORING"
+             código.abnt: "-"
+             descrição: "Cobertura"
+
+     - Individual:
+       id: CPI
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de arquitetura"
+             sigla: "CPI"
+             significado: "Contrapiso"
+             categoria.revit: "OST_FloorsSubstrate , OST_Parts"
+             classe.ifc: "IfcCoveringFLOORING"
+             código.abnt: "-"
+             descrição: "Contrapiso"
+
+     - Individual:
+       id: DIV
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de arquitetura"
+             sigla: "DIV"
+             significado: "Divisória"
+             categoria.revit: "OST_Walls"
+             classe.ifc: "IfcWall"
+             código.abnt: "-"
+             descrição: "Divisória"
+
+     - Individual:
+       id: EBO
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de arquitetura"
+             sigla: "EBO"
+             significado: "Emboço"
+             categoria.revit: "OST_WallsSubstrate , OST_Parts"
+             classe.ifc: "IfcCoveringTOPPING"
+             código.abnt: "-"
+             descrição: "Emboço"
+
+     - Individual:
+       id: FAC
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de arquitetura"
+             sigla: "FAC"
+             significado: "Fachada"
+             categoria.revit: "OST_Walls"
+             classe.ifc: "IfcWall"
+             código.abnt: "-"
+             descrição: "Fachada"
+
+     - Individual:
+       id: FOR
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de arquitetura"
+             sigla: "FOR"
+             significado: "Forro"
+             categoria.revit: "OST_Ceilings"
+             classe.ifc: "IfcCovering"
+             código.abnt: "-"
+             descrição: "Forro"
+
+     - Individual:
+       id: GRD
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de arquitetura"
+             sigla: "GRD"
+             significado: "Grade"
+             categoria.revit: "OST_Curtain_Systems , OST_CurtainWallPanels ,  OST_CurtainWallMullions"
+             classe.ifc: "-"
+             código.abnt: "-"
+             descrição: "Grade"
+
+     - Individual:
+       id: JAN
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de arquitetura"
+             sigla: "JAN"
+             significado: "Janela"
+             categoria.revit: "OST_Windows"
+             classe.ifc: "IfcWindow"
+             código.abnt: "-"
+             descrição: "Janela"
+
+     - Individual:
+       id: NCL
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de arquitetura"
+             sigla: "NCL"
+             significado: "Núcleo Da Parede"
+             categoria.revit: "OST_WallCoreLayer , OST_Parts"
+             classe.ifc: "IfcWall"
+             código.abnt: "-"
+             descrição: "Núcleo Da Parede"
+
+     - Individual:
+       id: PCA
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de arquitetura"
+             sigla: "PCA"
+             significado: "Piso de Calçada"
+             categoria.revit: "OST_Floors"
+             classe.ifc: "IfcSlab"
+             código.abnt: "-"
+             descrição: "Piso de Calçada"
+
+     - Individual:
+       id: PIS
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de arquitetura"
+             sigla: "PIS"
+             significado: "Piso Acabado"
+             categoria.revit: "OST_FloorsFinish1 , OST_FloorsFinish2 , OST_Parts"
+             classe.ifc: "IfcCoveringFLOORING"
+             código.abnt: "-"
+             descrição: "Piso Acabado"
+
+     - Individual:
+       id: PLA
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de arquitetura"
+             sigla: "PLA"
+             significado: "Placa Ou Painel"
+             categoria.revit: "OST_Curtain_Systems , OST_CurtainWallPanels ,  OST_CurtainWallMullions"
+             classe.ifc: "-"
+             código.abnt: "-"
+             descrição: "Placa Ou Painel"
+
+     - Individual:
+       id: POR
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de arquitetura"
+             sigla: "POR"
+             significado: "Porta"
+             categoria.revit: "OST_Doors"
+             classe.ifc: "IfcDoor"
+             código.abnt: "-"
+             descrição: "Porta"
+
+     - Individual:
+       id: REB
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de arquitetura"
+             sigla: "REB"
+             significado: "Reboco"
+             categoria.revit: "OST_WallsSubstrate , OST_Parts"
+             classe.ifc: "IfcCoveringTOPPING"
+             código.abnt: "-"
+             descrição: "Reboco"
+
+     - Individual:
+       id: ROD
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de arquitetura"
+             sigla: "ROD"
+             significado: "Rodapé"
+             categoria.revit: "-"
+             classe.ifc: "IfcCoveringFLOORING"
+             código.abnt: "-"
+             descrição: "Rodapé"
+
+     - Individual:
+       id: ROM
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de arquitetura"
+             sigla: "ROM"
+             significado: "Rodamédio"
+             categoria.revit: "-"
+             classe.ifc: "IfcCoveringCLADDING"
+             código.abnt: "-"
+             descrição: "Rodamédio"
+
+     - Individual:
+       id: SAC
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de arquitetura"
+             sigla: "SAC"
+             significado: "Sanca"
+             categoria.revit: "-"
+             classe.ifc: "IfcCoveringSKIRTINGBOARD"
+             código.abnt: "-"
+             descrição: "Sanca"
+
+     - Individual:
+       id: TET
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de arquitetura"
+             sigla: "TET"
+             significado: "Teto"
+             categoria.revit: "OST_Ceilings , OST_CeilingsSubstrate , OST_Parts"
+             classe.ifc: "IfcCovering"
+             código.abnt: "-"
+             descrição: "Teto"
+
+     - Individual:
+       id: VZA
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de arquitetura"
+             sigla: "VZA"
+             significado: "Veneziana"
+             categoria.revit: "OST_Windows"
+             classe.ifc: "IfcWindow"
+             código.abnt: "-"
+             descrição: "Veneziana"
+
+     - Individual:
+       id: BAN
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de equipamentos"
+             sigla: "BAN"
+             significado: "Bancada"
+             categoria.revit: "OST_PlumbingFixtures , OST_PlumbingEquipment"
+             classe.ifc: "IfcSanitaryTerminal"
+             código.abnt: "-"
+             descrição: "Bancada"
+
+     - Individual:
+       id: ASC
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Escadas Rampas e Elevadores"
+             sigla: "ASC"
+             significado: "Elevador"
+             categoria.revit: "OST_VerticalCirculation"
+             classe.ifc: "IfcTransportElementELEVATOR"
+             código.abnt: "-"
+             descrição: "Elevador"
+
+     - Individual:
+       id: CMA
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Escadas Rampas e Elevadores"
+             sigla: "CMA"
+             significado: "Corrimão"
+             categoria.revit: "OST_Railings"
+             classe.ifc: "IfcRailing"
+             código.abnt: "-"
+             descrição: "Corrimão"
+
+     - Individual:
+       id: ESC
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Escadas Rampas e Elevadores"
+             sigla: "ESC"
+             significado: "Escada"
+             categoria.revit: "OST_Stairs"
+             classe.ifc: "IfcStair"
+             código.abnt: "-"
+             descrição: "Escada"
+
+     - Individual:
+       id: GCO
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Escadas Rampas e Elevadores"
+             sigla: "GCO"
+             significado: "Guardacorpo"
+             categoria.revit: "OST_Railings"
+             classe.ifc: "IfcRailing"
+             código.abnt: "-"
+             descrição: "Guardacorpo"
+
+     - Individual:
+       id: RAM
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Escadas Rampas e Elevadores"
+             sigla: "RAM"
+             significado: "Rampa"
+             categoria.revit: "OST_Ramps"
+             classe.ifc: "IfcRamp"
+             código.abnt: "-"
+             descrição: "Rampa"
+
+     - Individual:
+       id: BID
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de equipamentos"
+             sigla: "BID"
+             significado: "Bidet"
+             categoria.revit: "OST_PlumbingFixtures , OST_PlumbingEquipment"
+             classe.ifc: "IfcSanitaryTerminal"
+             código.abnt: "-"
+             descrição: "Bidet"
+
+     - Individual:
+       id: CHU
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de equipamentos"
+             sigla: "CHU"
+             significado: "Chuveiro"
+             categoria.revit: "OST_PlumbingFixtures , OST_PlumbingEquipment"
+             classe.ifc: "IfcSanitaryTerminal"
+             código.abnt: "-"
+             descrição: "Chuveiro"
+
+     - Individual:
+       id: CUB
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de equipamentos"
+             sigla: "CUB"
+             significado: "Cuba"
+             categoria.revit: "OST_PlumbingFixtures , OST_PlumbingEquipment"
+             classe.ifc: "IfcSanitaryTerminal"
+             código.abnt: "-"
+             descrição: "Cuba"
+
+     - Individual:
+       id: DCH
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de equipamentos"
+             sigla: "DCH"
+             significado: "Ducha"
+             categoria.revit: "OST_PlumbingFixtures , OST_PlumbingEquipment"
+             classe.ifc: "IfcSanitaryTerminal"
+             código.abnt: "-"
+             descrição: "Ducha"
+
+     - Individual:
+       id: DIS
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de equipamentos"
+             sigla: "DIS"
+             significado: "Dispositivo"
+             categoria.revit: "OST_PlumbingFixtures , OST_PlumbingEquipment"
+             classe.ifc: "IfcSanitaryTerminal"
+             código.abnt: "-"
+             descrição: "Dispositivo"
+
+     - Individual:
+       id: EQS
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de equipamentos"
+             sigla: "EQS"
+             significado: "Equipamento Sanitário"
+             categoria.revit: "OST_PlumbingFixtures , OST_PlumbingEquipment"
+             classe.ifc: "IfcSanitaryTerminal"
+             código.abnt: "-"
+             descrição: "Equipamento Sanitário"
+
+     - Individual:
+       id: EQI
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de equipamentos"
+             sigla: "EQI"
+             significado: "Equipamento de Incêndio"
+             categoria.revit: "OST_SecurityDevices , OST_Sprinklers"
+             classe.ifc: "IfcSanitaryTerminal"
+             código.abnt: "-"
+             descrição: "Equipamento de Incêndio"
+
+     - Individual:
+       id: FER
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de equipamentos"
+             sigla: "FER"
+             significado: "Ferragem"
+             categoria.revit: "OST_Entourage"
+             classe.ifc: "IfcDiscreteAccessory"
+             código.abnt: "-"
+             descrição: "Ferragem"
+
+     - Individual:
+       id: LAV
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de equipamentos"
+             sigla: "LAV"
+             significado: "Lavatório"
+             categoria.revit: "OST_PlumbingFixtures , OST_PlumbingEquipment"
+             classe.ifc: "IfcSanitaryTerminal"
+             código.abnt: "-"
+             descrição: "Lavatório"
+
+     - Individual:
+       id: MIC
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de equipamentos"
+             sigla: "MIC"
+             significado: "Mictório"
+             categoria.revit: "OST_PlumbingFixtures , OST_PlumbingEquipment"
+             classe.ifc: "IfcSanitaryTerminal"
+             código.abnt: "-"
+             descrição: "Mictório"
+
+     - Individual:
+       id: MIS
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de equipamentos"
+             sigla: "MIS"
+             significado: "Misturador"
+             categoria.revit: "OST_PlumbingFixtures , OST_PlumbingEquipment"
+             classe.ifc: "IfcSanitaryTerminal"
+             código.abnt: "-"
+             descrição: "Misturador"
+
+     - Individual:
+       id: PIA
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de equipamentos"
+             sigla: "PIA"
+             significado: "Pia de Água"
+             categoria.revit: "OST_PlumbingFixtures , OST_PlumbingEquipment"
+             classe.ifc: "IfcSanitaryTerminal"
+             código.abnt: "-"
+             descrição: "Pia de Água"
+
+     - Individual:
+       id: SAN
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de equipamentos"
+             sigla: "SAN"
+             significado: "Sanitário"
+             categoria.revit: "OST_PlumbingFixtures , OST_PlumbingEquipment"
+             classe.ifc: "IfcSanitaryTerminal"
+             código.abnt: "-"
+             descrição: "Sanitário"
+
+     - Individual:
+       id: TAN
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de equipamentos"
+             sigla: "TAN"
+             significado: "Tanque"
+             categoria.revit: "OST_PlumbingFixtures , OST_PlumbingEquipment"
+             classe.ifc: "IfcSanitaryTerminal"
+             código.abnt: "-"
+             descrição: "Tanque"
+
+     - Individual:
+       id: VAS
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de equipamentos"
+             sigla: "VAS"
+             significado: "Vaso Sanitário"
+             categoria.revit: "OST_PlumbingFixtures , OST_PlumbingEquipment"
+             classe.ifc: "IfcSanitaryTerminal"
+             código.abnt: "-"
+             descrição: "Vaso Sanitário"
+
+     - Individual:
+       id: SPK
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de equipamentos"
+             sigla: "SPK"
+             significado: "Sprinkler"
+             categoria.revit: "OST_Sprinklers"
+             classe.ifc: "IfcDiscreteAccessory"
+             código.abnt: "-"
+             descrição: "Sprinkler"
+
+     - Individual:
+       id: XTI
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de equipamentos"
+             sigla: "XTI"
+             significado: "Extintor de Incêndio"
+             categoria.revit: "OST_SecurityDevices"
+             classe.ifc: "IfcDiscreteAccessory"
+             código.abnt: "-"
+             descrição: "Extintor de Incêndio"
+
+     - Individual:
+       id: VEG
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de equipamentos"
+             sigla: "VEG"
+             significado: "Vegetação"
+             categoria.revit: "OST_Planting"
+             classe.ifc: "IfcGeographicElement"
+             código.abnt: "3E.02.12"
+             descrição: "Vegetação"
+
+     - Individual:
+       id: VEI
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de equipamentos"
+             sigla: "VEI"
+             significado: "Veículo"
+             categoria.revit: "OST_Entourage"
+             classe.ifc: "IfcVehicle"
+             código.abnt: "-"
+             descrição: "Veículo"
+
+     - Individual:
+       id: MAR
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de mobiliários"
+             sigla: "MAR"
+             significado: "Armário"
+             categoria.revit: "OST_Furniture , OST_Casework"
+             classe.ifc: "IfcFurniture, IfcFurnitureFILECABINET"
+             código.abnt: "-"
+             descrição: "Armário"
+
+     - Individual:
+       id: MCA
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de mobiliários"
+             sigla: "MCA"
+             significado: "Cama"
+             categoria.revit: "OST_Furniture"
+             classe.ifc: "IfcFurniture"
+             código.abnt: "-"
+             descrição: "Cama"
+
+     - Individual:
+       id: MOC
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de mobiliários"
+             sigla: "MOC"
+             significado: "Cadeira"
+             categoria.revit: "OST_Furniture"
+             classe.ifc: "IfcFurniture"
+             código.abnt: "-"
+             descrição: "Cadeira"
+
+     - Individual:
+       id: MEQ
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de mobiliários"
+             sigla: "MEQ"
+             significado: "Equipamento de Mobiliário"
+             categoria.revit: "OST_Furniture"
+             classe.ifc: "IfcFurniture"
+             código.abnt: "-"
+             descrição: "Equipamento de Mobiliário"
+
+     - Individual:
+       id: MME
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de mobiliários"
+             sigla: "MME"
+             significado: "Mesa"
+             categoria.revit: "OST_Furniture"
+             classe.ifc: "IfcFurniture"
+             código.abnt: "-"
+             descrição: "Mesa"
+
+     - Individual:
+       id: MGE
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de mobiliários"
+             sigla: "MGE"
+             significado: "Mobília Geral"
+             categoria.revit: "OST_Furniture"
+             classe.ifc: "IfcFurniture"
+             código.abnt: "-"
+             descrição: "Mobília Geral"
+
+     - Individual:
+       id: MSO
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de mobiliários"
+             sigla: "MSO"
+             significado: "Sofá"
+             categoria.revit: "OST_Furniture"
+             classe.ifc: "IfcFurniture"
+             código.abnt: "-"
+             descrição: "Sofá"
+
+     - Individual:
+       id: ALM
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de sistemas, tubulações e dutos"
+             sigla: "ALM"
+             significado: "Alarme"
+             categoria.revit: "OST_LightingDevices , OST_LightingFixtures, OST_SecurityDevices"
+             classe.ifc: "IfcLamp , IfcLightFixture"
+             código.abnt: "-"
+             descrição: "Alarme"
+
+     - Individual:
+       id: CAM
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de sistemas, tubulações e dutos"
+             sigla: "CAM"
+             significado: "Campainha"
+             categoria.revit: "OST_FireAlarmDevices , OST_ElectricalFixtures"
+             classe.ifc: "IfcAlarm"
+             código.abnt: "-"
+             descrição: "Campainha"
+
+     - Individual:
+       id: CNX
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de sistemas, tubulações e dutos"
+             sigla: "CNX"
+             significado: "Conexão"
+             categoria.revit: "OST_PipeSegment , OST_PipeFitting , OST_PipeConnections , OST_PipeCurves , OST_PipeAccessory , OST_PipeSchedules"
+             classe.ifc: "IfcPipeSegment , IfcPipeFitting"
+             código.abnt: "3E.42"
+             descrição: "Conexão"
+
+     - Individual:
+       id: DUT
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de sistemas, tubulações e dutos"
+             sigla: "DUT"
+             significado: "Duto de Avac"
+             categoria.revit: "OST_DuctFitting , OST_DuctInsulations, OST_DuctCurves , OST_FlexDuctCurves , OST_DuctTerminal"
+             classe.ifc: "IfcDuctSegment , IfcDuctFitting , IfcDuctSilencer"
+             código.abnt: "-"
+             descrição: "Duto de Avac"
+
+     - Individual:
+       id: ITE
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de sistemas, tubulações e dutos"
+             sigla: "ITE"
+             significado: "Conduite"
+             categoria.revit: "OST_Conduit , OST_ConduitFitting , OST_CableTray , OST_CableTrayFitting"
+             classe.ifc: "IfcCableSegment , IfcCableFitting"
+             código.abnt: "-"
+             descrição: "Conduite"
+
+     - Individual:
+       id: LHA
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de sistemas, tubulações e dutos"
+             sigla: "LHA"
+             significado: "Calha"
+             categoria.revit: "OST_PipeSegment , OST_PipeFitting"
+             classe.ifc: "IfcCableCarrierSegment , IfcCableCarrierFitting"
+             código.abnt: "-"
+             descrição: "Calha"
+
+     - Individual:
+       id: LUM
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de sistemas, tubulações e dutos"
+             sigla: "LUM"
+             significado: "Luminária"
+             categoria.revit: "OST_LightingDevices"
+             classe.ifc: "IfcLightFixture"
+             código.abnt: "-"
+             descrição: "Luminária"
+
+     - Individual:
+       id: QFO
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de sistemas, tubulações e dutos"
+             sigla: "QFO"
+             significado: "Quadro de Força"
+             categoria.revit: "OST_ElectricalFixtures , OST_ElectricalConnector , OST_ElectricalPowerSource , OST_ElectricalEquipment"
+             classe.ifc: "IfcDistributionBoard"
+             código.abnt: "-"
+             descrição: "Quadro de Força"
+
+     - Individual:
+       id: QLU
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de sistemas, tubulações e dutos"
+             sigla: "QLU"
+             significado: "Quadro de Luz"
+             categoria.revit: "OST_ElectricalFixtures , OST_ElectricalConnector , OST_ElectricalPowerSource , OST_ElectricalEquipment"
+             classe.ifc: "IfcDistributionBoard"
+             código.abnt: "-"
+             descrição: "Quadro de Luz"
+
+     - Individual:
+       id: RUP
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de sistemas, tubulações e dutos"
+             sigla: "RUP"
+             significado: "Interruptor"
+             categoria.revit: "OST_LightingFixtures , OST_ElectricalConnector"
+             classe.ifc: "IfcSwitchingDeviceSTARTER"
+             código.abnt: "-"
+             descrição: "Interruptor"
+
+     - Individual:
+       id: SAU
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de sistemas, tubulações e dutos"
+             sigla: "SAU"
+             significado: "Equipamento de Saúde"
+             categoria.revit: "OST_MedicalEquipment , OST_NurseCallDevices"
+             classe.ifc: "IfcMedicalDevice"
+             código.abnt: "-"
+             descrição: "Equipamento de Saúde"
+
+     - Individual:
+       id: TOM
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de sistemas, tubulações e dutos"
+             sigla: "TOM"
+             significado: "Tomada"
+             categoria.revit: "OST_ElectricalFixtures , OST_ElectricalConnector , OST_ElectricalPowerSource"
+             classe.ifc: "IfcOutlet"
+             código.abnt: "-"
+             descrição: "Tomada"
+
+     - Individual:
+       id: TUB
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de sistemas, tubulações e dutos"
+             sigla: "TUB"
+             significado: "Tubulação"
+             categoria.revit: "OST_PipeSegments"
+             classe.ifc: "IfcPipeSegmentFLEXIBLESEGMENT, IfcPipeSegmentRIGIDSEGMENT"
+             código.abnt: "-"
+             descrição: "Tubulação"
+
+     - Individual:
+       id: VAL
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos de sistemas, tubulações e dutos"
+             sigla: "VAL"
+             significado: "Válvula"
+             categoria.revit: "OST_PipeFitting"
+             classe.ifc: "IfcValve"
+             código.abnt: "-"
+             descrição: "Válvula"
+
+     - Individual:
+       id: CIR
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica formal"
+             sigla: "CIR"
+             significado: "Circular"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "CIR"
+             descrição: "Circular"
+
+     - Individual:
+       id: DUA
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica formal"
+             sigla: "DUA"
+             significado: "Dupla Assimétrica"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "DUA"
+             descrição: "Dupla Assimétrica"
+
+     - Individual:
+       id: DUP
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica formal"
+             sigla: "DUP"
+             significado: "Dupla Simétrica"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "DUP"
+             descrição: "Dupla Simétrica"
+
+     - Individual:
+       id: EML
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica formal"
+             sigla: "EML"
+             significado: "Em Forma de L"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "EML"
+             descrição: "Em Forma de L"
+
+     - Individual:
+       id: EMU
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica formal"
+             sigla: "EMU"
+             significado: "Em Forma de U"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "EMU"
+             descrição: "Em Forma de U"
+
+     - Individual:
+       id: LIN
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica formal"
+             sigla: "LIN"
+             significado: "Lineal"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "LIN"
+             descrição: "Lineal"
+
+     - Individual:
+       id: OVA
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica formal"
+             sigla: "OVA"
+             significado: "Oval Assimétrico"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "OVA"
+             descrição: "Oval Assimétrico"
+
+     - Individual:
+       id: OVS
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica formal"
+             sigla: "OVS"
+             significado: "Oval Simétrico"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "OVS"
+             descrição: "Oval Simétrico"
+
+     - Individual:
+       id: PRF
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica formal"
+             sigla: "PRF"
+             significado: "Perfil"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "PRF"
+             descrição: "Perfil"
+
+     - Individual:
+       id: QUA
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica formal"
+             sigla: "QUA"
+             significado: "Quadrada"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "QUA"
+             descrição: "Quadrada"
+
+     - Individual:
+       id: RET
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica formal"
+             sigla: "RET"
+             significado: "Retangular"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "RET"
+             descrição: "Retangular"
+
+     - Individual:
+       id: ABA
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "ABA"
+             significado: "Proteção Antibala"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "ABA"
+             descrição: "Proteção Antibala"
+
+     - Individual:
+       id: ACI
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "ACI"
+             significado: "Para Ácidos"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "ACI"
+             descrição: "Para Ácidos"
+
+     - Individual:
+       id: ACU
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "ACU"
+             significado: "Acústico"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "ACU"
+             descrição: "Acústico"
+
+     - Individual:
+       id: ADU
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "ADU"
+             significado: "Para Adulto"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "ADU"
+             descrição: "Para Adulto"
+
+     - Individual:
+       id: AFQ
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "AFQ"
+             significado: "Água Fria e Quente"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "AFQ"
+             descrição: "Água Fria e Quente"
+
+     - Individual:
+       id: AFR
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "AFR"
+             significado: "Água Fria"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "AFR"
+             descrição: "Água Fria"
+
+     - Individual:
+       id: ALA
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "ALA"
+             significado: "Alambrado"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "ALA"
+             descrição: "Alambrado"
+
+     - Individual:
+       id: AQU
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "AQU"
+             significado: "Água Quente"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "AQU"
+             descrição: "Água Quente"
+
+     - Individual:
+       id: AUT
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "AUT"
+             significado: "Automático"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "AUT"
+             descrição: "Automático"
+
+     - Individual:
+       id: APO
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "APO"
+             significado: "De Apóio"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "APO"
+             descrição: "De Apóio"
+
+     - Individual:
+       id: BAS
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "BAS"
+             significado: "Basculante"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "BAS"
+             descrição: "Basculante"
+
+     - Individual:
+       id: BLI
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "BLI"
+             significado: "Blindado"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "BLI"
+             descrição: "Blindado"
+
+     - Individual:
+       id: CEG
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "CEG"
+             significado: "Cega"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "CEG"
+             descrição: "Cega"
+
+     - Individual:
+       id: CNT
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "CNT"
+             significado: "De Canto"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "CNT"
+             descrição: "De Canto"
+
+     - Individual:
+       id: COV
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "COV"
+             significado: "Convencional"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "COV"
+             descrição: "Convencional"
+
+     - Individual:
+       id: CRI
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "CRI"
+             significado: "Para Criança"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "CRI"
+             descrição: "Para Criança"
+
+     - Individual:
+       id: DEC
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "DEC"
+             significado: "Decorativa"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "DEC"
+             descrição: "Decorativa"
+
+     - Individual:
+       id: DEZ
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "DEZ"
+             significado: "Deslizante"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "DEZ"
+             descrição: "Deslizante"
+
+     - Individual:
+       id: DIL
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "DIL"
+             significado: "Dilatação"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "DIL"
+             descrição: "Dilatação"
+
+     - Individual:
+       id: DEX
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "DEX"
+             significado: "Densidade X"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "DEX"
+             descrição: "Densidade X"
+
+     - Individual:
+       id: DPE
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "DPE"
+             significado: "De Pé"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "DPE"
+             descrição: "De Pé"
+
+     - Individual:
+       id: DYW
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "DYW"
+             significado: "Drywall"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "DYW"
+             descrição: "Drywall"
+
+     - Individual:
+       id: EMB
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "EMB"
+             significado: "Embutir"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "EMB"
+             descrição: "Embutir"
+
+     - Individual:
+       id: EME
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "EME"
+             significado: "Emergência"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "EME"
+             descrição: "Emergência"
+
+     - Individual:
+       id: FUR
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "FUR"
+             significado: "Furada"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "FUR"
+             descrição: "Furada"
+
+     - Individual:
+       id: GUI
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "GUI"
+             significado: "Guilhotina"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "GUI"
+             descrição: "Guilhotina"
+
+     - Individual:
+       id: H2O
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "H2O"
+             significado: "Para Água"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "H2O"
+             descrição: "Para Água"
+
+     - Individual:
+       id: IES
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "IES"
+             significado: "Iluminação Especial"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "IES"
+             descrição: "Iluminação Especial"
+
+     - Individual:
+       id: IGE
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "IGE"
+             significado: "Iluminação Geral"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "IGE"
+             descrição: "Iluminação Geral"
+
+     - Individual:
+       id: ISO
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "ISO"
+             significado: "Isolado"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "ISO"
+             descrição: "Isolado"
+
+     - Individual:
+       id: MAN
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "MAN"
+             significado: "Manual"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "MAN"
+             descrição: "Manual"
+
+     - Individual:
+       id: MEN
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "MEN"
+             significado: "Mensula"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "MEN"
+             descrição: "Mensula"
+
+     - Individual:
+       id: COM
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "COM"
+             significado: "Monocomando"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "COM"
+             descrição: "Monocomando"
+
+     - Individual:
+       id: MST
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "MST"
+             significado: "Mestra"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "MST"
+             descrição: "Mestra"
+
+     - Individual:
+       id: ORI
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "ORI"
+             significado: "Acessório"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "ORI"
+             descrição: "Acessório"
+
+     - Individual:
+       id: ORN
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "ORN"
+             significado: "Ornamental"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "ORN"
+             descrição: "Ornamental"
+
+     - Individual:
+       id: PCF
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "PCF"
+             significado: "Porta Corta Fogo"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "PCF"
+             descrição: "Porta Corta Fogo"
+
+     - Individual:
+       id: PED
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "PED"
+             significado: "Tráfego Pedestre"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "PED"
+             descrição: "Tráfego Pedestre"
+
+     - Individual:
+       id: PEN
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "PEN"
+             significado: "Pendente"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "PEN"
+             descrição: "Pendente"
+
+     - Individual:
+       id: PIV
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "PIV"
+             significado: "Pivotante"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "PIV"
+             descrição: "Pivotante"
+
+     - Individual:
+       id: PLF
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "PLF"
+             significado: "Tipo Plafon"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "PLF"
+             descrição: "Tipo Plafon"
+
+     - Individual:
+       id: PNE
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "PNE"
+             significado: "Pessoa Necessidade Especial"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "PNE"
+             descrição: "Pessoa Necessidade Especial"
+
+     - Individual:
+       id: SCC
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "SCC"
+             significado: "Seccional"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "SCC"
+             descrição: "Seccional"
+
+     - Individual:
+       id: SEC
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "SEC"
+             significado: "Seca"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "SEC"
+             descrição: "Seca"
+
+     - Individual:
+       id: SEG
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "SEG"
+             significado: "Segurança"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "SEG"
+             descrição: "Segurança"
+
+     - Individual:
+       id: SOL
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "SOL"
+             significado: "Solar"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "SOL"
+             descrição: "Solar"
+
+     - Individual:
+       id: SPO
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "SPO"
+             significado: "Sobrepor"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "SPO"
+             descrição: "Sobrepor"
+
+     - Individual:
+       id: SUS
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "SUS"
+             significado: "Suspenso"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "SUS"
+             descrição: "Suspenso"
+
+     - Individual:
+       id: VEN
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "VEN"
+             significado: "Ventilado"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "VEN"
+             descrição: "Ventilado"
+
+     - Individual:
+       id: VEV
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "VEV"
+             significado: "Vaivem"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "VEV"
+             descrição: "Vaivem"
+
+     - Individual:
+       id: VIV
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "VIV"
+             significado: "Visor e Ventilado"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "VIV"
+             descrição: "Visor e Ventilado"
+
+     - Individual:
+       id: VSO
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica funcional ou de uso"
+             sigla: "VSO"
+             significado: "Visor"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "VSO"
+             descrição: "Visor"
+
+     - Individual:
+       id: ALT
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de posicionamento"
+             sigla: "ALT"
+             significado: "Alta"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "ALT"
+             descrição: "Alta"
+
+     - Individual:
+       id: BXA
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de posicionamento"
+             sigla: "BXA"
+             significado: "Baixa"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "BXA"
+             descrição: "Baixa"
+
+     - Individual:
+       id: EXT
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de posicionamento"
+             sigla: "EXT"
+             significado: "Exterior"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "EXT"
+             descrição: "Exterior"
+
+     - Individual:
+       id: FRO
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de posicionamento"
+             sigla: "FRO"
+             significado: "Frontal"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "FRO"
+             descrição: "Frontal"
+
+     - Individual:
+       id: HOR
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de posicionamento"
+             sigla: "HOR"
+             significado: "Horizontal"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "HOR"
+             descrição: "Horizontal"
+
+     - Individual:
+       id: IEX
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de posicionamento"
+             sigla: "IEX"
+             significado: "Interior-Exterior"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "IEX"
+             descrição: "Interior-Exterior"
+
+     - Individual:
+       id: IFR
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de posicionamento"
+             sigla: "IFR"
+             significado: "Inferior"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "IFR"
+             descrição: "Inferior"
+
+     - Individual:
+       id: ILH
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de posicionamento"
+             sigla: "ILH"
+             significado: "Ilha "
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "ILH"
+             descrição: "Ilha "
+
+     - Individual:
+       id: INT
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de posicionamento"
+             sigla: "INT"
+             significado: "Interior"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "INT"
+             descrição: "Interior"
+
+     - Individual:
+       id: LAT
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de posicionamento"
+             sigla: "LAT"
+             significado: "Lateral"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "LAT"
+             descrição: "Lateral"
+
+     - Individual:
+       id: LYO
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de posicionamento"
+             sigla: "LYO"
+             significado: "Layout"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "LYO"
+             descrição: "Layout"
+
+     - Individual:
+       id: MOD
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de posicionamento"
+             sigla: "MOD"
+             significado: "Modulado"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "MOD"
+             descrição: "Modulado"
+
+     - Individual:
+       id: NOR
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de posicionamento"
+             sigla: "NOR"
+             significado: "Normal"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "NOR"
+             descrição: "Normal"
+
+     - Individual:
+       id: PAD
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de posicionamento"
+             sigla: "PAD"
+             significado: "Padronizado"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "PAD"
+             descrição: "Padronizado"
+
+     - Individual:
+       id: PON
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de posicionamento"
+             sigla: "PON"
+             significado: "Ponta "
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "PON"
+             descrição: "Ponta "
+
+     - Individual:
+       id: PRO
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de posicionamento"
+             sigla: "PRO"
+             significado: "Projeção"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "PRO"
+             descrição: "Projeção"
+
+     - Individual:
+       id: REF
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de posicionamento"
+             sigla: "REF"
+             significado: "Referência"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "REF"
+             descrição: "Referência"
+
+     - Individual:
+       id: SIR
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de posicionamento"
+             sigla: "SIR"
+             significado: "Simetria"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "SIR"
+             descrição: "Simetria"
+
+     - Individual:
+       id: SUP
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de posicionamento"
+             sigla: "SUP"
+             significado: "Superior"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "SUP"
+             descrição: "Superior"
+
+     - Individual:
+       id: ALU
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de materialidade"
+             sigla: "ALU"
+             significado: "Metálica de Alumínio"
+             categoria.revit: "OST_Materials , OST_PipeMaterials"
+             classe.ifc: "IfcMaterial"
+             código.abnt: "-"
+             descrição: "Metálica de Alumínio"
+
+     - Individual:
+       id: ARD
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de materialidade"
+             sigla: "ARD"
+             significado: "Ardósia"
+             categoria.revit: "OST_Materials , OST_PipeMaterials"
+             classe.ifc: "IfcMaterial"
+             código.abnt: "-"
+             descrição: "Ardósia"
+
+     - Individual:
+       id: AZU
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de materialidade"
+             sigla: "AZU"
+             significado: "Azulejo"
+             categoria.revit: "OST_Materials , OST_PipeMaterials"
+             classe.ifc: "IfcMaterial"
+             código.abnt: "-"
+             descrição: "Azulejo"
+
+     - Individual:
+       id: CEL
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de materialidade"
+             sigla: "CEL"
+             significado: "Porcelanato"
+             categoria.revit: "OST_Materials , OST_PipeMaterials"
+             classe.ifc: "IfcMaterial"
+             código.abnt: "-"
+             descrição: "Porcelanato"
+
+     - Individual:
+       id: CER
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de materialidade"
+             sigla: "CER"
+             significado: "Cerâmico"
+             categoria.revit: "OST_Materials , OST_PipeMaterials"
+             classe.ifc: "IfcMaterial"
+             código.abnt: "-"
+             descrição: "Cerâmico"
+
+     - Individual:
+       id: CIM
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de materialidade"
+             sigla: "CIM"
+             significado: "Cimentado"
+             categoria.revit: "OST_Materials , OST_PipeMaterials"
+             classe.ifc: "IfcMaterial"
+             código.abnt: "-"
+             descrição: "Cimentado"
+
+     - Individual:
+       id: CON
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de materialidade"
+             sigla: "CON"
+             significado: "Concreto"
+             categoria.revit: "OST_Materials , OST_PipeMaterials"
+             classe.ifc: "IfcMaterial"
+             código.abnt: "-"
+             descrição: "Concreto"
+
+     - Individual:
+       id: EUC
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de materialidade"
+             sigla: "EUC"
+             significado: "Eucatex Ou Painel Naval"
+             categoria.revit: "OST_Materials , OST_PipeMaterials"
+             classe.ifc: "IfcMaterial"
+             código.abnt: "-"
+             descrição: "Eucatex Ou Painel Naval"
+
+     - Individual:
+       id: GES
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de materialidade"
+             sigla: "GES"
+             significado: "Gesso"
+             categoria.revit: "OST_Materials , OST_PipeMaterials"
+             classe.ifc: "IfcMaterial"
+             código.abnt: "-"
+             descrição: "Gesso"
+
+     - Individual:
+       id: GLT
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de materialidade"
+             sigla: "GLT"
+             significado: "Pedra Granilite"
+             categoria.revit: "OST_Materials , OST_PipeMaterials"
+             classe.ifc: "IfcMaterial"
+             código.abnt: "-"
+             descrição: "Pedra Granilite"
+
+     - Individual:
+       id: GRA
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de materialidade"
+             sigla: "GRA"
+             significado: "Pedra Granito"
+             categoria.revit: "OST_Materials , OST_PipeMaterials"
+             classe.ifc: "IfcMaterial"
+             código.abnt: "-"
+             descrição: "Pedra Granito"
+
+     - Individual:
+       id: LAM
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de materialidade"
+             sigla: "LAM"
+             significado: "Laminado"
+             categoria.revit: "OST_Materials , OST_PipeMaterials"
+             classe.ifc: "IfcMaterial"
+             código.abnt: "-"
+             descrição: "Laminado"
+
+     - Individual:
+       id: LHI
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de materialidade"
+             sigla: "LHI"
+             significado: "Ladrilho Hidráulico"
+             categoria.revit: "OST_Materials , OST_PipeMaterials"
+             classe.ifc: "IfcMaterial"
+             código.abnt: "-"
+             descrição: "Ladrilho Hidráulico"
+
+     - Individual:
+       id: MAD
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de materialidade"
+             sigla: "MAD"
+             significado: "Madeira"
+             categoria.revit: "OST_Materials , OST_PipeMaterials"
+             classe.ifc: "IfcMaterial"
+             código.abnt: "-"
+             descrição: "Madeira"
+
+     - Individual:
+       id: PMA
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de materialidade"
+             sigla: "PMA"
+             significado: "Pedra Marmore"
+             categoria.revit: "OST_Materials , OST_PipeMaterials"
+             classe.ifc: "IfcMaterial"
+             código.abnt: "-"
+             descrição: "Pedra Marmore"
+
+     - Individual:
+       id: MET
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de materialidade"
+             sigla: "MET"
+             significado: "Metálico"
+             categoria.revit: "OST_Materials , OST_PipeMaterials"
+             classe.ifc: "IfcMaterial"
+             código.abnt: "-"
+             descrição: "Metálico"
+
+     - Individual:
+       id: PAS
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de materialidade"
+             sigla: "PAS"
+             significado: "Pastilhas"
+             categoria.revit: "OST_Materials , OST_PipeMaterials"
+             classe.ifc: "IfcMaterial"
+             código.abnt: "-"
+             descrição: "Pastilhas"
+
+     - Individual:
+       id: PDR
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de materialidade"
+             sigla: "PDR"
+             significado: "Pedra"
+             categoria.revit: "OST_Materials , OST_PipeMaterials"
+             classe.ifc: "IfcMaterial"
+             código.abnt: "-"
+             descrição: "Pedra"
+
+     - Individual:
+       id: PIN
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de materialidade"
+             sigla: "PIN"
+             significado: "Pintura"
+             categoria.revit: "OST_Materials , OST_PipeMaterials"
+             classe.ifc: "IfcMaterial"
+             código.abnt: "-"
+             descrição: "Pintura"
+
+     - Individual:
+       id: PQT
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de materialidade"
+             sigla: "PQT"
+             significado: "Parquet"
+             categoria.revit: "OST_Materials , OST_PipeMaterials"
+             classe.ifc: "IfcMaterial"
+             código.abnt: "-"
+             descrição: "Parquet"
+
+     - Individual:
+       id: SIL
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de materialidade"
+             sigla: "SIL"
+             significado: "Pedra Artificial Silestone"
+             categoria.revit: "OST_Materials , OST_PipeMaterials"
+             classe.ifc: "IfcMaterial"
+             código.abnt: "-"
+             descrição: "Pedra Artificial Silestone"
+
+     - Individual:
+       id: TAB
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de materialidade"
+             sigla: "TAB"
+             significado: "Tábuas"
+             categoria.revit: "OST_Materials , OST_PipeMaterials"
+             classe.ifc: "IfcMaterial"
+             código.abnt: "-"
+             descrição: "Tábuas"
+
+     - Individual:
+       id: TAC
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de materialidade"
+             sigla: "TAC"
+             significado: "Tacos"
+             categoria.revit: "OST_Materials , OST_PipeMaterials"
+             classe.ifc: "IfcMaterial"
+             código.abnt: "-"
+             descrição: "Tacos"
+
+     - Individual:
+       id: TCO
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de materialidade"
+             sigla: "TCO"
+             significado: "Terra Compactada"
+             categoria.revit: "OST_Materials , OST_PipeMaterials"
+             classe.ifc: "IfcMaterial"
+             código.abnt: "-"
+             descrição: "Terra Compactada"
+
+     - Individual:
+       id: VER
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de materialidade"
+             sigla: "VER"
+             significado: "Verde de Gramado"
+             categoria.revit: "OST_Materials , OST_PipeMaterials"
+             classe.ifc: "IfcMaterial"
+             código.abnt: "-"
+             descrição: "Verde de Gramado"
+
+     - Individual:
+       id: VID
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de materialidade"
+             sigla: "VID"
+             significado: "Vidro"
+             categoria.revit: "OST_Materials , OST_PipeMaterials"
+             classe.ifc: "IfcMaterial"
+             código.abnt: "-"
+             descrição: "Vidro"
+
+     - Individual:
+       id: VIN
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Característica de materialidade"
+             sigla: "VIN"
+             significado: "Vinílico"
+             categoria.revit: "OST_Materials , OST_PipeMaterials"
+             classe.ifc: "IfcMaterial"
+             código.abnt: "-"
+             descrição: "Vinílico"
+
+     - Individual:
+       id: ACD
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de compartimentos"
+             sigla: "ACD"
+             significado: "Acesso Aos Departamentos"
+             categoria.revit: "OST_Rooms"
+             classe.ifc: "IfcSpace"
+             código.abnt: "-"
+             descrição: "Acesso Aos Departamentos"
+
+     - Individual:
+       id: ACE
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de compartimentos"
+             sigla: "ACE"
+             significado: "Antecâmara de Entrada "
+             categoria.revit: "OST_Rooms"
+             classe.ifc: "IfcSpace"
+             código.abnt: "-"
+             descrição: "Antecâmara de Entrada "
+
+     - Individual:
+       id: APC
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de compartimentos"
+             sigla: "APC"
+             significado: "Acesso Principal Ao Conjunto"
+             categoria.revit: "OST_Rooms"
+             classe.ifc: "IfcSpace"
+             código.abnt: "-"
+             descrição: "Acesso Principal Ao Conjunto"
+
+     - Individual:
+       id: APP
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de compartimentos"
+             sigla: "APP"
+             significado: "Acesso Principal"
+             categoria.revit: "OST_Rooms"
+             classe.ifc: "IfcSpace"
+             código.abnt: "-"
+             descrição: "Acesso Principal"
+
+     - Individual:
+       id: ACS
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de compartimentos"
+             sigla: "ACS"
+             significado: "Antecâmara de Saída"
+             categoria.revit: "OST_Rooms"
+             classe.ifc: "IfcSpace"
+             código.abnt: "-"
+             descrição: "Antecâmara de Saída"
+
+     - Individual:
+       id: ANT
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de compartimentos"
+             sigla: "ANT"
+             significado: "Antecamera"
+             categoria.revit: "OST_Rooms"
+             classe.ifc: "IfcSpace"
+             código.abnt: "-"
+             descrição: "Antecamera"
+
+     - Individual:
+       id: AUD
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de compartimentos"
+             sigla: "AUD"
+             significado: "Auditório"
+             categoria.revit: "OST_Rooms"
+             classe.ifc: "IfcSpace"
+             código.abnt: "-"
+             descrição: "Auditório"
+
+     - Individual:
+       id: BIB
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de compartimentos"
+             sigla: "BIB"
+             significado: "Biblioteca"
+             categoria.revit: "OST_Rooms"
+             classe.ifc: "IfcSpace"
+             código.abnt: "-"
+             descrição: "Biblioteca"
+
+     - Individual:
+       id: CAB
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de compartimentos"
+             sigla: "CAB"
+             significado: "Cabine"
+             categoria.revit: "OST_Rooms"
+             classe.ifc: "IfcSpace"
+             código.abnt: "-"
+             descrição: "Cabine"
+
+     - Individual:
+       id: CCI
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de compartimentos"
+             sigla: "CCI"
+             significado: "Circulação"
+             categoria.revit: "OST_Rooms"
+             classe.ifc: "IfcSpace"
+             código.abnt: "-"
+             descrição: "Circulação"
+
+     - Individual:
+       id: COP
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de compartimentos"
+             sigla: "COP"
+             significado: "Copa"
+             categoria.revit: "OST_Rooms"
+             classe.ifc: "IfcSpace"
+             código.abnt: "-"
+             descrição: "Copa"
+
+     - Individual:
+       id: COZ
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de compartimentos"
+             sigla: "COZ"
+             significado: "Cozinha"
+             categoria.revit: "OST_Rooms"
+             classe.ifc: "IfcSpace"
+             código.abnt: "-"
+             descrição: "Cozinha"
+
+     - Individual:
+       id: GAB
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de compartimentos"
+             sigla: "GAB"
+             significado: "Gabinete"
+             categoria.revit: "OST_Rooms"
+             classe.ifc: "IfcSpace"
+             código.abnt: "-"
+             descrição: "Gabinete"
+
+     - Individual:
+       id: GUA
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de compartimentos"
+             sigla: "GUA"
+             significado: "Guarita"
+             categoria.revit: "OST_Rooms"
+             classe.ifc: "IfcSpace"
+             código.abnt: "-"
+             descrição: "Guarita"
+
+     - Individual:
+       id: JAR
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de compartimentos"
+             sigla: "JAR"
+             significado: "Jardim"
+             categoria.revit: "OST_Rooms"
+             classe.ifc: "IfcSpace"
+             código.abnt: "-"
+             descrição: "Jardim"
+
+     - Individual:
+       id: LAB
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de compartimentos"
+             sigla: "LAB"
+             significado: "Laboratório"
+             categoria.revit: "OST_Rooms"
+             classe.ifc: "IfcSpace"
+             código.abnt: "-"
+             descrição: "Laboratório"
+
+     - Individual:
+       id: LIG
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de compartimentos"
+             sigla: "LIG"
+             significado: "Laboratório de Informática de Graduação"
+             categoria.revit: "OST_Rooms"
+             classe.ifc: "IfcSpace"
+             código.abnt: "-"
+             descrição: "Laboratório de Informática de Graduação"
+
+     - Individual:
+       id: NUC
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de compartimentos"
+             sigla: "NUC"
+             significado: "Núcleo Elevador"
+             categoria.revit: "OST_Rooms"
+             classe.ifc: "IfcSpace"
+             código.abnt: "-"
+             descrição: "Núcleo Elevador"
+
+     - Individual:
+       id: POV
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de compartimentos"
+             sigla: "POV"
+             significado: "Poço Ventilação"
+             categoria.revit: "OST_Rooms"
+             classe.ifc: "IfcSpace"
+             código.abnt: "-"
+             descrição: "Poço Ventilação"
+
+     - Individual:
+       id: RES
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de compartimentos"
+             sigla: "RES"
+             significado: "Restaurante"
+             categoria.revit: "OST_Rooms"
+             classe.ifc: "IfcSpace"
+             código.abnt: "-"
+             descrição: "Restaurante"
+
+     - Individual:
+       id: SEN
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de compartimentos"
+             sigla: "SEN"
+             significado: "Sala de Ensáios"
+             categoria.revit: "OST_Rooms"
+             classe.ifc: "IfcSpace"
+             código.abnt: "-"
+             descrição: "Sala de Ensáios"
+
+     - Individual:
+       id: SER
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de compartimentos"
+             sigla: "SER"
+             significado: "Sala de Recepção"
+             categoria.revit: "OST_Rooms"
+             classe.ifc: "IfcSpace"
+             código.abnt: "-"
+             descrição: "Sala de Recepção"
+
+     - Individual:
+       id: SES
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de compartimentos"
+             sigla: "SES"
+             significado: "Sala de Espera"
+             categoria.revit: "OST_Rooms"
+             classe.ifc: "IfcSpace"
+             código.abnt: "-"
+             descrição: "Sala de Espera"
+
+     - Individual:
+       id: SHA
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de compartimentos"
+             sigla: "SHA"
+             significado: "Shaft"
+             categoria.revit: "OST_ShaftOpening"
+             classe.ifc: "IfcOpeningElementOPENING"
+             código.abnt: "-"
+             descrição: "Shaft"
+
+     - Individual:
+       id: SLA
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de compartimentos"
+             sigla: "SLA"
+             significado: "Sala de Aulas"
+             categoria.revit: "OST_Rooms"
+             classe.ifc: "IfcSpace"
+             código.abnt: "-"
+             descrição: "Sala de Aulas"
+
+     - Individual:
+       id: SPE
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de compartimentos"
+             sigla: "SPE"
+             significado: "Sala de Pesquisa"
+             categoria.revit: "OST_Rooms"
+             classe.ifc: "IfcSpace"
+             código.abnt: "-"
+             descrição: "Sala de Pesquisa"
+
+     - Individual:
+       id: STR
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de compartimentos"
+             sigla: "STR"
+             significado: "Sala de Trabalho"
+             categoria.revit: "OST_Rooms"
+             classe.ifc: "IfcSpace"
+             código.abnt: "-"
+             descrição: "Sala de Trabalho"
+
+     - Individual:
+       id: SVI
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tipos de compartimentos"
+             sigla: "SVI"
+             significado: "Sala de Vigilância"
+             categoria.revit: "OST_Rooms"
+             classe.ifc: "IfcSpace"
+             código.abnt: "-"
+             descrição: "Sala de Vigilância"
+
+     - Individual:
+       id: BIO
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Funcões acadêmicas"
+             sigla: "BIO"
+             significado: "Biologia"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "Biologia"
+             descrição: "Biologia"
+
+     - Individual:
+       id: ENT
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Funcões acadêmicas"
+             sigla: "ENT"
+             significado: "Entomologia"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "Entomologia"
+             descrição: "Entomologia"
+
+     - Individual:
+       id: FIS
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Funcões acadêmicas"
+             sigla: "FIS"
+             significado: "Física"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "Física"
+             descrição: "Física"
+
+     - Individual:
+       id: INF
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Funcões acadêmicas"
+             sigla: "INF"
+             significado: "Informática"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "Informática"
+             descrição: "Informática"
+
+     - Individual:
+       id: MAG
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Funcões acadêmicas"
+             sigla: "MAG"
+             significado: "Magnética"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "Magnética"
+             descrição: "Magnética"
+
+     - Individual:
+       id: MOL
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Funcões acadêmicas"
+             sigla: "MOL"
+             significado: "Biologia Molecular"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "Biologia molecular"
+             descrição: "Biologia molecular"
+
+     - Individual:
+       id: QUI
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Funcões acadêmicas"
+             sigla: "QUI"
+             significado: "Química"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "Química"
+             descrição: "Química"
+
+     - Individual:
+       id: QUP
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Funcões acadêmicas"
+             sigla: "QUP"
+             significado: "Química Em Pó"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "Química em pó"
+             descrição: "Química em pó"
+
+     - Individual:
+       id: SET
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Funcões acadêmicas"
+             sigla: "SET"
+             significado: "Setorial"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "Setorial"
+             descrição: "Setorial"
+
+     - Individual:
+       id: CEN
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Funcões acadêmicas"
+             sigla: "CEN"
+             significado: "Central"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro: "Central"
+             descrição: "Central"
+
+     - Individual:
+       id: 1PA
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Características de composição"
+             sigla: "1PA"
+             significado: "Com 1 Painel"
+             categoria.revit: "OST_Windows"
+             classe.ifc: "IfcWindow"
+             código.abnt: "-"
+             descrição: "Com 1 Painel"
+
+     - Individual:
+       id: 2PA
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Características de composição"
+             sigla: "2PA"
+             significado: "Com 2 Paineis"
+             categoria.revit: "OST_Windows"
+             classe.ifc: "IfcWindow"
+             código.abnt: "-"
+             descrição: "Com 2 Paineis"
+
+     - Individual:
+       id: 3PA
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Características de composição"
+             sigla: "3PA"
+             significado: "Com 3 Paineis"
+             categoria.revit: "OST_Windows"
+             classe.ifc: "IfcWindow"
+             código.abnt: "-"
+             descrição: "Com 3 Paineis"
+
+     - Individual:
+       id: 4PA
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Características de composição"
+             sigla: "4PA"
+             significado: "Com 4 Paineis"
+             categoria.revit: "OST_Windows"
+             classe.ifc: "IfcWindow"
+             código.abnt: "-"
+             descrição: "Com 4 Paineis"
+
+     - Individual:
+       id: 5PA
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Características de composição"
+             sigla: "5PA"
+             significado: "Com 5 Paineis"
+             categoria.revit: "OST_Windows"
+             classe.ifc: "IfcWindow"
+             código.abnt: "-"
+             descrição: "Com 5 Paineis"
+
+     - Individual:
+       id: 6PA
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Características de composição"
+             sigla: "6PA"
+             significado: "Com 6 Paineis"
+             categoria.revit: "OST_Windows"
+             classe.ifc: "IfcWindow"
+             código.abnt: "-"
+             descrição: "Com 6 Paineis"
+
+     - Individual:
+       id: 1PI
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Características de composição"
+             sigla: "1PI"
+             significado: "Com 1 Pia"
+             categoria.revit: "OST_PlumbingFixtures , OST_PlumbingEquipment"
+             classe.ifc: "IfcSanitaryTerminal"
+             código.abnt: "-"
+             parâmetro.numérico: 1
+             descrição: "Valor Módular"
+
+     - Individual:
+       id: 2PI
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Características de composição"
+             sigla: "2PI"
+             significado: "Com 2 Pias"
+             categoria.revit: "OST_PlumbingFixtures , OST_PlumbingEquipment"
+             classe.ifc: "IfcSanitaryTerminal"
+             código.abnt: "-"
+             parâmetro.numérico: 2
+             descrição: "Valor Módular"
+
+     - Individual:
+       id: 3PI
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Características de composição"
+             sigla: "3PI"
+             significado: "Com 3 Pias"
+             categoria.revit: "OST_PlumbingFixtures , OST_PlumbingEquipment"
+             classe.ifc: "IfcSanitaryTerminal"
+             código.abnt: "-"
+             parâmetro.numérico: 3
+             descrição: "Valor Módular"
+
+     - Individual:
+       id: 4PI
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Características de composição"
+             sigla: "4PI"
+             significado: "Com 4 Pias"
+             categoria.revit: "OST_PlumbingFixtures , OST_PlumbingEquipment"
+             classe.ifc: "IfcSanitaryTerminal"
+             código.abnt: "-"
+             parâmetro.numérico: 4
+             descrição: "Valor Módular"
+
+     - Individual:
+       id: MO1
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Características de composição modular"
+             sigla: "MO1"
+             significado: "Usa Modular Igual A 1"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro.numérico: 1
+             descrição: "Valor Módular"
+
+     - Individual:
+       id: MO2
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Características de composição modular"
+             sigla: "MO2"
+             significado: "Usa Modular Igual A 2"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro.numérico: 2
+             descrição: "Valor Módular"
+
+     - Individual:
+       id: MO3
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Características de composição modular"
+             sigla: "MO3"
+             significado: "Usa Modular Igual A 3"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro.numérico: 3
+             descrição: "Valor Módular"
+
+     - Individual:
+       id: MO4
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Características de composição modular"
+             sigla: "MO4"
+             significado: "Usa Modular Igual A 4"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro.numérico: 4
+             descrição: "Valor Módular"
+
+     - Individual:
+       id: MO5
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Características de composição modular"
+             sigla: "MO5"
+             significado: "Usa Modular Igual A 5"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro.numérico: 5
+             descrição: "Valor Módular"
+
+     - Individual:
+       id: MO6
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Características de composição modular"
+             sigla: "MO6"
+             significado: "Usa Modular Igual A 6"
+             categoria.revit: "-"
+             classe.ifc: "-"
+             código.abnt: "-"
+             parâmetro.numérico: 6
+             descrição: "Valor Módular"
+
+     - Individual:
+       id: CAR
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos simbólicos e documentais"
+             sigla: "CAR"
+             significado: "Carimbo"
+             categoria.revit: "OST_TitleBlocks"
+             classe.ifc: "IfcAnnotation"
+             código.abnt: "-"
+             descrição: "Carimbo"
+
+     - Individual:
+       id: CRT
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos simbólicos e documentais"
+             sigla: "CRT"
+             significado: "Símbolo de Corte"
+             categoria.revit: "OST_Sections"
+             classe.ifc: "IfcAnnotation"
+             código.abnt: "-"
+             descrição: "Símbolo de Corte"
+
+     - Individual:
+       id: DET
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos simbólicos e documentais"
+             sigla: "DET"
+             significado: "Símbolo de Chamada de Detalhe"
+             categoria.revit: "OST_Callouts"
+             classe.ifc: "IfcAnnotation"
+             código.abnt: "-"
+             descrição: "Símbolo de Chamada de Detalhe"
+
+     - Individual:
+       id: FOL
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos simbólicos e documentais"
+             sigla: "FOL"
+             significado: "Folha"
+             categoria.revit: "OST_Sheets"
+             classe.ifc: "IfcAnnotation"
+             código.abnt: "-"
+             descrição: "Folha"
+
+     - Individual:
+       id: LEG
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos simbólicos e documentais"
+             sigla: "LEG"
+             significado: "Legenda"
+             categoria.revit: "OST_TextNotes"
+             classe.ifc: "IfcAnnotation"
+             código.abnt: "-"
+             descrição: "Legenda"
+
+     - Individual:
+       id: NRT
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos simbólicos e documentais"
+             sigla: "NRT"
+             significado: "Símbolo de Norte"
+             categoria.revit: "OST_GenericAnnotation"
+             classe.ifc: "IfcAnnotation"
+             código.abnt: "-"
+             descrição: "Símbolo de Norte"
+
+     - Individual:
+       id: PRA
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos simbólicos e documentais"
+             sigla: "PRA"
+             significado: "Prancha"
+             categoria.revit: "OST_Sheets"
+             classe.ifc: "IfcAnnotation"
+             código.abnt: "-"
+             descrição: "Prancha"
+
+     - Individual:
+       id: REV
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos simbólicos e documentais"
+             sigla: "REV"
+             significado: "Revisões de Carimbo"
+             categoria.revit: "OST_Revisions"
+             classe.ifc: "IfcAnnotation"
+             código.abnt: "-"
+             descrição: "Revisões de Carimbo"
+
+     - Individual:
+       id: SIM
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos simbólicos e documentais"
+             sigla: "SIM"
+             significado: "Símbolo Geral"
+             categoria.revit: "OST_GenericAnnotation"
+             classe.ifc: "IfcAnnotation"
+             código.abnt: "-"
+             descrição: "Símbolo Geral"
+
+     - Individual:
+       id: TAG
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos simbólicos e documentais"
+             sigla: "TAG"
+             significado: "Símbolo de Etiqueta (Tag)"
+             categoria.revit: "OST_Tags"
+             classe.ifc: "IfcAnnotation"
+             código.abnt: "-"
+             descrição: "Símbolo de Etiqueta (Tag)"
+
+     - Individual:
+       id: TBL
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos simbólicos e documentais"
+             sigla: "TBL"
+             significado: "Tabelas de Quantitativos"
+             categoria.revit: "OST_Schedules"
+             classe.ifc: "IfcAnnotation"
+             código.abnt: "-"
+             descrição: "Tabelas de Quantitativos"
+
+     - Individual:
+       id: TXT
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos simbólicos e documentais"
+             sigla: "TXT"
+             significado: "Elemento de Anotação Textual"
+             categoria.revit: "OST_TextNotes"
+             classe.ifc: "IfcAnnotation"
+             código.abnt: "-"
+             descrição: "Elemento de Anotação Textual"
+
+     - Individual:
+       id: VIS
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Elementos simbólicos e documentais"
+             sigla: "VIS"
+             significado: "Símbolo de Vista de Elevação"
+             categoria.revit: "OST_Elev , OST_ElevationMarks"
+             classe.ifc: "IfcAnnotation"
+             código.abnt: "-"
+             descrição: "Símbolo de Vista de Elevação"
+
+     - Individual:
+       id: A0
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tamanhos de pranchas"
+             sigla: "A0"
+             significado: "Prancha de Desenho de Tamanho A0"
+             categoria.revit: "OST_TitleBlocks"
+             classe.ifc: "IfcAnnotation"
+             código.abnt: "-"
+             descrição: "Prancha de Desenho de Tamanho A0"
+
+     - Individual:
+       id: A1
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tamanhos de pranchas"
+             sigla: "A1"
+             significado: "Prancha de Desenho de Tamanho A1"
+             categoria.revit: "OST_TitleBlocks"
+             classe.ifc: "IfcAnnotation"
+             código.abnt: "-"
+             descrição: "Prancha de Desenho de Tamanho A1"
+
+     - Individual:
+       id: A2
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tamanhos de pranchas"
+             sigla: "A2"
+             significado: "Prancha de Desenho de Tamanho A2"
+             categoria.revit: "OST_TitleBlocks"
+             classe.ifc: "IfcAnnotation"
+             código.abnt: "-"
+             descrição: "Prancha de Desenho de Tamanho A2"
+
+     - Individual:
+       id: A3
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tamanhos de pranchas"
+             sigla: "A3"
+             significado: "Folha de Desenho de Tamanho A3"
+             categoria.revit: "OST_TitleBlocks"
+             classe.ifc: "IfcAnnotation"
+             código.abnt: "-"
+             descrição: "Folha de Desenho de Tamanho A3"
+
+     - Individual:
+       id: A4
+       type: Código.N3
+       Facts:
+             é.pertencente.a: UFRJ.CT
+             grupo: "Tamanhos de pranchas"
+             sigla: "A4"
+             significado: "Folha de Desenho de Tamanho A4"
+             categoria.revit: "OST_TitleBlocks"
+             classe.ifc: "IfcAnnotation"
+             código.abnt: "-"
+             descrição: "Folha de Desenho de Tamanho A4"
+
