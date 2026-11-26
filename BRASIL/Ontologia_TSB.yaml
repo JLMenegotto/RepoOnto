@@ -1,4 +1,525 @@
 
+Classes:
+     - Class:
+       id: Erro
+       subclasse.de: Erro.de.Preenchimento
+       subclasse.de: Erros.de.Preenchimento
+       subclasse.de: Errados
+       subclasse.de: Conceitos
+       definição: "Classe para acumular os erros."
+       definición: "Clase para acumular  los errores"
+       definition: "Class to accumulate errors"
+
+     - Class:
+       id: Norma
+       subclasse.de: Atos.Normativos
+       subclasse.de: Jurídicos
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Norma que fundamenta salvaguardas da TSB"
+       definición: "Norma que fundamenta salvaguardas da TSB"
+       definition: "Standard that underpins TSB safeguards"
+
+     - Class:
+       id: Instrução.Normativa
+       subclasse.de: Atos.Normativos
+       subclasse.de: Jurídicos
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Instrução Normativa que fundamenta salvaguardas da TSB"
+       definición: "Instrução Normativa que fundamenta salvaguardas da TSB"
+       definition: "Normative Instruction that underpins TSB safeguards"
+
+     - Class:
+       id: Regulamento
+       subclasse.de: Atos.Normativos
+       subclasse.de: Jurídicos
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Regulamento que fundamenta salvaguardas da TSB"
+       definición: "Regulamento que fundamenta salvaguardas da TSB"
+       definition: "Regulation that substantiates TSB safeguards"
+
+     - Class:
+       id: Resolução
+       subclasse.de: Atos.Normativos
+       subclasse.de: Jurídicos
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Resolução que fundamenta salvaguardas da TSB"
+       definición: "Resolução que fundamenta salvaguardas da TSB"
+       definition: "Resolution that substantiates TSB safeguards"
+
+     - Class:
+       id: Constituição.Nacional
+       subclasse.de: Códigos
+       subclasse.de: Jurídicos
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Constituição Nacional do Brasil"
+       definición: "Constituição Nacional do Brasil"
+       definition: "National Constitution of Brazil"
+
+     - Class:
+       id: Código.Penal
+       subclasse.de: Códigos
+       subclasse.de: Jurídicos
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Código Penal do Brasil"
+       definición: "Código Penal do Brasil"
+       definition: "Brazilian Penal Code"
+
+     - Class:
+       id: Código.Civil
+       subclasse.de: Códigos
+       subclasse.de: Jurídicos
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Código Civil do Brasil"
+       definición: "Código Civil do Brasil"
+       definition: "Civil Code of Brazil"
+
+     - Class:
+       id: Código.Florestal
+       subclasse.de: Códigos
+       subclasse.de: Jurídicos
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Código Florestal do Brasil"
+       definición: "Código Florestal do Brasil"
+       definition: "Forest Code of Brazil"
+
+     - Class:
+       id: Convenção.Internacional
+       subclasse.de: Convenções
+       subclasse.de: Jurídicos
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Convenção ou Tratado Internacional que fundamenta salvaguardas da TSB"
+       definición: "Convenção o Tratado Internacional que fundamenta salvaguardas da TSB"
+       definition: "International Convention or Treaty that underpins TSB safeguards"
+
+     - Class:
+       id: Boa.Prática
+       subclasse.de: Convenções
+       subclasse.de: Jurídicos
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Boa Prática que fundamenta salvaguardas da TSB"
+       definición: "Boa Prática que fundamenta salvaguardas da TSB"
+       definition: "Good Practice that underpins TSB safeguards"
+
+     - Class:
+       id: Lei
+       subclasse.de: Leis
+       subclasse.de: Jurídicos
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Lei que fundamenta salvaguardas da TSB"
+       definición: "Lei que fundamenta salvaguardas da TSB"
+       definition: "Law that underpins TSB safeguards"
+
+     - Class:
+       id: Decreto
+       subclasse.de: Leis
+       subclasse.de: Jurídicos
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Decreto ou Decreto Lei que fundamenta salvaguardas da TSB"
+       definición: "Decreto o Decreto Lei que fundamenta salvaguardas da TSB"
+       definition: "Decree or Decree Law that underlies safeguards of the TSB"
+
+     - Class:
+       id: Sigla
+       subclasse.de: Siglas
+       subclasse.de: Sustentabilidade.TSB
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Siglas usadas por la Taxonomía Sustentable Brasileña (TSB)"
+       definición: "Siglas usadas por la Taxonomía Sustentable Brasileña (TSB)"
+       definition: "Acronyms used by the Taxonomía Sustentable Brasileña (TSB)"
+
+     - Class:
+       id: Apoiador
+       subclasse.de: Participantes
+       subclasse.de: Sustentabilidade.TSB
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Instituições ou Pessoas que participaram na construção da Taxonomia Sustentável Brasileira (TSB)"
+       definición: "Instituições o Pessoas que participaram en la construção de la Taxonomía Sustentable Brasileña (TSB)"
+       definition: "Institutions or People who participated in the construction of the Brazilian Sustainable Taxonomy (TSB)"
+
+     - Class:
+       id: Comitê.Consultor
+       subclasse.de: Participantes
+       subclasse.de: Sustentabilidade.TSB
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Instituições ou Pessoas que formaram parte do Comitê Consultivo na construção da Taxonomia Sustentável Brasileira (TSB) "
+       definición: "Instituições o Pessoas que participaram en la construção de la Taxonomía Sustentable Brasileña (TSB)"
+       definition: "Institutions or Persons who were part of the Advisory Committee in the construction of the Brazilian Sustainable Taxonomy (TSB)"
+
+     - Class:
+       id: Comitê.Interinstitucional
+       subclasse.de: Participantes
+       subclasse.de: Sustentabilidade.TSB
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Instituições ou Pessoas que formaram parte do Comitê Interinstitucional para a construção da Taxonomia Sustentável Brasileira (TSB) "
+       definición: "Instituições o Pessoas que participaram en la construção de la Taxonomía Sustentable Brasileña (TSB)"
+       definition: "Institutions or Persons who were part of the Interinstitutional Committee for the construction of the Brazilian Sustainable Taxonomy (TSB)"
+
+     - Class:
+       id: Nota
+       subclasse.de: Notas
+       subclasse.de: Sustentabilidade.TSB
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Define uma nota explicativa da Taxonomia Sustentável Brasileira (TSB)"
+       definición: "Define uma nota explicativa de la Taxonomía Sustentable Brasileña (TSB)"
+       definition: "Defines an explanatory note of the Brazilian Sustainable Taxonomy (TSB)"
+
+     - Class:
+       id: Condição
+       subclasse.de: Critérios
+       subclasse.de: Sustentabilidade.TSB
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Condição para Elegíbilidade para a Taxonomia Sustentável Brasileira (TSB)"
+       definición: "Condição para Elegíbilidade para a Taxonomia Sustentável Brasileira (TSB)"
+       definition: "Condition for Eligibility for the Brazilian Sustainable Taxonomy (TSB)"
+
+     - Class:
+       id: Critério.Positivo
+       subclasse.de: Critérios
+       subclasse.de: Sustentabilidade.TSB
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Critérios positivos aportam ou contribuem substancialmente com melhorias para a sustentabilidade de acordo à Taxonomia Sustentável Brasileira (TSB)"
+       definición: "Critérios positivos aportam o contribuem substancialmente com melhorias para a sustentabilidade de acordo à Taxonomia Sustentável Brasileira (TSB)"
+       definition: "Positive criteria contribute or substantially contribute to improvements to sustainability according to the Brazilian Sustainable Taxonomy (TSB)"
+
+     - Class:
+       id: Critério.NPS
+       subclasse.de: Critérios
+       subclasse.de: Sustentabilidade.TSB
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Critérios tipo NPS (Não Prejudicar Significativamente) garantem que as atividades econômicas que contribuem substancialmente para pelo menos um dos objetivos não prejudiquem significativamente nenhum dos outros objetivos (climáticos, ambientais e econômico-sociais) definidos na taxonomia. Por exemplo, seguindo os objetivos priorizados na TSB de mitigação da mudança do clima é prejudicado significativamente por uma atividade que contribua substancialmente a um dos objetivos da taxonomia, mas leva a um aumento relevante nas emissões de GEE. Por outro lado, uma atividade que prejudique significativamente o objetivo de adaptação à mudança do clima leva a um aumento do impacto adverso no clima atual e futuro previsto sobre si mesma, às pessoas, à natureza ou aos ativos."
+       definición: "Critérios tipo NPS (Não Prejudicar Significativamente) garantem que as atividades econômicas que contribuem substancialmente para pelo menos um dos objetivos não prejudiquem significativamente nenhum dos outros objetivos (climáticos, ambientais e econômico-sociais) definidos en la taxonomia. Por ejemplo, seguindo os objetivos priorizados en la TSB de mitigação da mudança do clima es prejudicado significativamente por uma atividade que contribua substancialmente a un dos objetivos da taxonomia, mas leva a un aumento relevante nas emissões de GEE. Por outro lado, uma atividade que prejudique significativamente o objetivo de adaptação à mudança do clima leva a un aumento do impacto adverso no clima atual e futuro previsto sobre si mesma, às pessoas, à natureza o aos ativos."
+       definition: "NPS (Do No Significant Harm) criteria ensure that economic activities that contribute substantially to at least one of the objectives do not significantly harm any of the other objectives (climate, environmental, and economic-social) defined in the taxonomy. For example, following the objectives prioritized in the TSB of climate change mitigation is significantly impaired by an activity that contributes substantially to one of the objectives of the taxonomy, but leads to a relevant increase in GHG emissions. On the other hand, an activity that significantly undermines the objective of adaptation to climate change leads to an increase in the adverse impact on the current and predicted future climate on itself, people, nature or assets."
+
+     - Class:
+       id: Método.de.Avaliação
+       subclasse.de: Critérios
+       subclasse.de: Sustentabilidade.TSB
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Métodos de Avaliação de Medidas Sustentáveis da Taxonomia Sustentável Brasileira (TSB)"
+       definición: "Métodos de Avaliação de Medidas Sustentáveis de la Taxonomía Sustentable Brasileña (TSB)"
+       definition: "Methods for Evaluating Sustainable Measures of the Brazilian Sustainable Taxonomy (TSB)"
+
+     - Class:
+       id: Risco
+       subclasse.de: Critérios
+       subclasse.de: Sustentabilidade.TSB
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Tipo de Risco da Taxonomia Sustentável Brasileira (TSB)"
+       definición: "Tipo de riesgo de la Taxonomía Sostenible Brasileña (TSB)"
+       definition: "Type of Risk of the Brazilian Sustainable Taxonomy (TSB)"
+
+     - Class:
+       id: Ameaça
+       subclasse.de: Critérios
+       subclasse.de: Sustentabilidade.TSB
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Ameaça definida na Taxonomia Sustentável Brasileira (TSB)"
+       definición: "Amenaza definida en la Taxonomía Sostenible Brasileña (TSB)"
+       definition: "Threat defined in the Brazilian Sustainable Taxonomy (TSB)"
+
+     - Class:
+       id: Certificação
+       subclasse.de: Critérios
+       subclasse.de: Sustentabilidade.TSB
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Certificação admitida por la Taxonomía Sustentable Brasileña (TSB)"
+       definición: "Certificación aceptada por la Taxonomía Sustentable Brasileña (TSB)"
+       definition: "Certification accepted by the Taxonomía Sustentable Brasileña (TSB)"
+
+     - Class:
+       id: De.Edificio
+       subclasse.de: Tipificações
+       subclasse.de: Sustentabilidade.TSB
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Tipo de Edifício tratados por la Taxonomía Sustentable Brasileña (TSB)"
+       definición: "Tipo de edificio tratado por el Impuesto Brasileño sobre la Sostenibilidad (TSB)"
+       definition: "Type of Building treated by the Brazilian Sustainability Tax (TSB)"
+
+     - Class:
+       id: De.Empresa
+       subclasse.de: Tipificações
+       subclasse.de: Sustentabilidade.TSB
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Definições de Empresas da Taxonomia Sustentável Brasileira (TSB)"
+       definición: "Definiciones de las empresas en la Taxonomía Sostenible Brasileña (TSB)"
+       definition: "Definitions of Companies in the Brazilian Sustainable Taxonomy (TSB)"
+
+     - Class:
+       id: Eixo.Temático
+       subclasse.de: Temáticas
+       subclasse.de: Sustentabilidade.TSB
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Eixo temático da Nova Indústria Brasil"
+       definición: "Eje temático de la Nueva Industria Brasil"
+       definition: "Thematic axis of the New Industry Brazil"
+
+     - Class:
+       id: Área.Temática
+       subclasse.de: Temáticas
+       subclasse.de: Sustentabilidade.TSB
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Área temática da Taxonomia Sustentável Brasileira (TSB)"
+       definición: "Área temática de la Taxonomía Sostenible Brasileña (TSB)"
+       definition: "Thematic area of the Brazilian Sustainable Taxonomy (TSB)"
+
+     - Class:
+       id: Setor
+       subclasse.de: Temáticas
+       subclasse.de: Sustentabilidade.TSB
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Setor da Taxonomia Sustentável Brasileira (TSB)"
+       definición: "Sector de la Taxonomía Sostenible Brasileña (TSB)"
+       definition: "Brazilian Sustainable Taxonomy (TSB) Sector"
+
+     - Class:
+       id: Objetivo
+       subclasse.de: Objetivos
+       subclasse.de: Sustentabilidade.TSB
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Objetivo ou meta a ser alcançada na Taxonomia Sustentável Brasileira (TSB)"
+       definición: "Objetivo o meta a alcanzar en la Taxonomía Sostenible Brasileña (TSB)"
+       definition: "Objective or target to be achieved in the Brazilian Sustainable Taxonomy (TSB)"
+
+     - Class:
+       id: Objetivo.Estratégico
+       subclasse.de: Objetivos
+       subclasse.de: Sustentabilidade.TSB
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Objetivo Estratégico a ser alcançado na Taxonomia Sustentável Brasileira (TSB)"
+       definición: "Objetivo estratégico a alcanzar en la Taxonomía Sostenible Brasileña (TSB)"
+       definition: "Strategic Objective to be achieved in the Brazilian Sustainable Taxonomy (TSB)"
+
+     - Class:
+       id: Missão
+       subclasse.de: Princípios
+       subclasse.de: Sustentabilidade.TSB
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Meta ou missão a ser alcançada na Taxonomia Sustentável Brasileira (TSB)"
+       definición: "Meta o misión a cumplir en la Taxonomía Sostenible Brasileña (TSB)"
+       definition: "Goal or mission to be achieved in the Brazilian Sustainable Taxonomy (TSB)"
+
+     - Class:
+       id: Princípio
+       subclasse.de: Princípios
+       subclasse.de: Sustentabilidade.TSB
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Princípios da Taxonomia Sustentável Brasileira (TSB)"
+       definición: "Principios de la Taxonomía Sostenible Brasileña (TSB)"
+       definition: "Principles of the Brazilian Sustainable Taxonomy (TSB)"
+
+     - Class:
+       id: Diretriz
+       subclasse.de: Salvaguardas
+       subclasse.de: Sustentabilidade.TSB
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Indicador de conformidade Setorial da Taxonomia Sustentável Brasileira (TSB)"
+       definición: "Indicador de cumplimiento sectorial de la Taxonomía Sostenible Brasileña (TSB)"
+       definition: "Sectoral compliance indicator of the Brazilian Sustainable Taxonomy (TSB)"
+
+     - Class:
+       id: Salvaguarda
+       subclasse.de: Salvaguardas
+       subclasse.de: Sustentabilidade.TSB
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Salvaguardas Mínimas da Taxonomia Sustentável Brasileira (TSB). As Salvaguardas Mínimas visam assegurar o cumprimento de requisitos legais mínimos nas dimensões climática, ambiental e socioeconômica. Todos os usuários que busquem alinhar-se com a TSB devem atender a esse critério, fundamentado em legislações e normas brasileiras vigentes, bem como em convenções e diretrizes internacionais recepcionadas pelo ordenamento jurídico nacional. As SM contemplam áreas temáticas relacionadas a uma transição justa, incluindo 1)Direitos Humanos, 2)Direitos do Trabalho. 3)Direitos dos povos indígenas, quilombolas e outros povos e comunidades tradicionais. 4)Antidiscriminação e igualdade racial e de gênero. 5)Mudança do clima. 6)Ecossistemas e biodiversidade. 7)Combate à desertificação. 8)Poluição, resíduos e recursos hídricos. 9)Conformidade tributária. 10)Integridade. As SM aplicam-se à organização ou entidade responsável pela atividade ou projeto, seja pessoa física ou jurídica, utilizando um critério binário, ou seja, a organização está ou não em conformidade com as SM. Essa conformidade é avaliada por meio de uma seleção objetiva de indicadores de conformidade legal, que consistem em bases de dados públicas, certidões e outros documentos e que se aplicam de forma transversal a diferentes setores ou de maneira específica a determinado setor. Para mais detalhes, consulte os indivíduos de Salvaguardas Mínimas."
+       definición: "Salvaguardas mínimas de la Taxonomía Sostenible Brasileña (TSB). Las Salvaguardas Mínimas tienen como objetivo garantizar el cumplimiento de los requisitos legales mínimos en las dimensiones climática, medioambiental y socioeconómica. Todos los usuarios que deseen alinearse con la TSB deben cumplir este criterio, basándose en la legislación y normas brasileñas vigentes, así como en los convenios y directrices internacionales aceptados por el sistema jurídico nacional. El Debate Laboral contempla áreas temáticas relacionadas con una transición justa, incluyendo 1) Derechos Humanos, 2) Derechos Laborales. 3) Derechos de los pueblos indígenas, quilombolas y otros pueblos y comunidades tradicionales. 4) Antidiscriminación e igualdad racial y de género. 5) Cambio climático. 6) Ecosistemas y biodiversidad. 7) Combatir la desertificación. 8) Contaminación, residuos y recursos hídricos. 9) Cumplimiento fiscal. 10) Integridad. SM se aplica a la organización o entidad responsable de la actividad o proyecto, ya sea un individuo o una entidad jurídica, utilizando un criterio binario, es decir, si la organización cumple o no con SM. Este cumplimiento se evalúa mediante una selección objetiva de indicadores de cumplimiento legal, que consisten en bases de datos públicas, certificados y otros documentos y que se aplican a diferentes sectores o específicamente a un sector concreto. Para más detalles, consulte las personas de Salvaguardias Mínimas."
+       definition: "Minimum Safeguards of the Brazilian Sustainable Taxonomy (TSB). The Minimum Safeguards aim to ensure compliance with minimum legal requirements in the climate, environmental and socio-economic dimensions. All users who seek to align themselves with TSB must meet this criterion, based on current Brazilian legislation and standards, as well as international conventions and guidelines accepted by the national legal system. The MW contemplate thematic areas related to a just transition, including 1) Human Rights, 2) Labor Rights. 3) Rights of indigenous peoples, quilombolas and other traditional peoples and communities. 4) Anti-discrimination and racial and gender equality. 5)Climate change. 6) Ecosystems and biodiversity. 7) Combating desertification. 8) Pollution, waste and water resources. 9) Tax compliance. 10)Integrity. SM applies to the organization or entity responsible for the activity or project, whether an individual or a legal entity, using a binary criterion, i.e., the organization is or is not in compliance with SM. This compliance is assessed through an objective selection of legal compliance indicators, which consist of public databases, certificates, and other documents and which apply across different sectors or specifically to a particular sector. For more details, please refer to the Minimum Safeguards individuals."
+
+     - Class:
+       id: Indicador.Transversal
+       subclasse.de: Indicadores
+       subclasse.de: Sustentabilidade.TSB
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Indicador de conformidade transversal da Taxonomia Sustentável Brasileira (TSB)"
+       definición: "Indicador transversal de cumplimiento de la Taxonomía Sostenible Brasileña (TSB)"
+       definition: "Cross-cutting compliance indicator of the Brazilian Sustainable Taxonomy (TSB)"
+
+     - Class:
+       id: Indicador.Setorial
+       subclasse.de: Indicadores
+       subclasse.de: Sustentabilidade.TSB
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Indicador de conformidade Setorial da Taxonomia Sustentável Brasileira (TSB)"
+       definición: "Indicador de cumplimiento sectorial de la Taxonomía Sostenible Brasileña (TSB)"
+       definition: "Sectoral compliance indicator of the Brazilian Sustainable Taxonomy (TSB)"
+
+     - Class:
+       id: Indicador.PAES
+       subclasse.de: Indicadores
+       subclasse.de: Sustentabilidade.TSB
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Indicador PAES da Taxonomia Sustentável Brasileira (TSB). Significa Proporção de Atividades Econômicas Sustentáveis. Ele mensura a proporção das atividades econômicas alinhadas ou parcialmente alinhadas de uma empresa não financeira, com base em duas variáveis principais: receita (ou volume de negócios) e CAPEX (ou despesas de capital). Busca garantir 1)Comparabilidade entre setores econômicos, respeitando suas especificidades operacionais. 2)Rastreabilidade das atividades econômicas, a partir de contas auditáveis e passíveis de verificação independente. 3)Harmonização com referenciais internacionais, mantendo adaptações compatíveis com a realidade institucional e contábil brasileira."
+       definición: "Indicador PAES de la Taxonomía Sostenible Brasileña (TSB). Significa Proporción de Actividades Económicas Sostenibles. Mide la proporción de las actividades económicas alineadas o parcialmente alineadas de una empresa no financiera, basándose en dos variables principales: ingresos (o facturación) y CAPEX (o gastos de capital). Busca garantizar 1) la comparabilidad entre sectores económicos, respetando sus especificidades operativas. 2) Trazabilidad de las actividades económicas, basada en cuentas auditables que pueden ser verificadas de forma independiente. 3) Armonización con referencias internacionales, manteniendo adaptaciones compatibles con la realidad institucional y contable brasileña."
+       definition: "PAES Indicator of the Brazilian Sustainable Taxonomy (TSB). It stands for Proportion of Sustainable Economic Activities. It measures the proportion of a non-financial company's aligned or partially aligned economic activities, based on two main variables: revenue (or turnover) and CAPEX (or capital expenditures). It seeks to ensure 1) Comparability between economic sectors, respecting their operational specificities. 2) Traceability of economic activities, based on auditable accounts that can be independently verified. 3) Harmonization with international references, maintaining adaptations compatible with the Brazilian institutional and accounting reality."
+
+     - Class:
+       id: Atividade
+       subclasse.de: Atividades
+       subclasse.de: Sustentabilidade.TSB
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Atividade Elegível para a Taxonomia Sustentável Brasileira (TSB)"
+       definición: "Actividad elegible para la Taxonomía Sostenible Brasileña (TSB)"
+       definition: "Activity Eligible for the Brazilian Sustainable Taxonomy (TSB)"
+
+     - Class:
+       id: Medida
+       subclasse.de: Atividades
+       subclasse.de: Sustentabilidade.TSB
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Medida Adaptada torna a atividade econômica mais resiliente à mudança do clima. Por exemplo, a implementação ou uso de equipamentos de detecção de vazamentos (medida) por uma concessionária envolvida no abastecimento de água. Precisa cumprir critérios técnicos relevantes para poderem ser considerada alinhada (qualificada)."
+       definición: "La Medida Adaptada hace que la actividad económica sea más resiliente al cambio climático. Por ejemplo, la implementación o uso de equipos de detección de fugas (medición) por una empresa eléctrica involucrada en el suministro de agua. Debe cumplir criterios técnicos relevantes para considerarse alineado (cualificado)."
+       definition: "Adapted Measure makes economic activity more resilient to climate change. For example, the implementation or use of leak detection (measure) equipment by a utility involved in water supply. It needs to meet relevant technical criteria in order to be considered aligned (qualified)."
+
+     - Class:
+       id: Medida.Qualificada
+       subclasse.de: Atividades
+       subclasse.de: Sustentabilidade.TSB
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Medidas ou Atividades diretamente qualificadas que, por sua natureza, atendem à definição de contribuição substancial de acordo com o respectivo objetivo da taxonomia e não exigem nenhum requisito adicional. Em todos os casos, o impacto climático delas é tão baixo que atendem inequivocamente ao nível de ambição da taxonomia. Essa abordagem pode se aplicar a atividades inteiras ou a partes de atividades."
+       definición: "Medidas o actividades directamente calificadas que, por su naturaleza, cumplen la definición de contribución sustancial según el objetivo taxonomíco respectivo y que no requieran requisitos adicionales. En todos los casos, su impacto climático es tan bajo que cumplen inequívocamente el nivel de ambición de la taxonomía. Este enfoque puede aplicarse a actividades completas o a partes de ellas."
+       definition: "Directly qualified measures or activities that by their nature meet the definition of substantial contribution according to the respective taxonomy objective and do not require any additional requirements. In all cases, their climate impact is so low that they unequivocally meet the taxonomy's level of ambition. This approach can apply to entire activities or to parts of activities."
+
+     - Class:
+       id: Sistema.Estudado
+       subclasse.de: Sistemas
+       subclasse.de: Sustentabilidade.TSB
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Se refere a tipo de sistema ou objeto estudado para verificar condições de alinhamento com os objetivos da Taxonomia."
+       definición: "Se refiere al tipo de sistema u objeto estudiado para verificar las condiciones de alineación con los objetivos de la Taxonomía."
+       definition: "It refers to the type of system or object studied to verify conditions of alignment with the objectives of the Taxonomy."
+
+     - Class:
+       id: Atividade.Econômica
+       subclasse.de: Atividades.Econômicas
+       subclasse.de: Econômicos.CNAE
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Se refere a uma Atividade Econômica (CNAE) Classificada pela Comissão Nacional de Classificação (Concla)"
+       definición: "Se refiere a una actividad económica (CNAE) clasificada por la Comisión Nacional de Clasificación (Concla)"
+       definition: "Refers to an Economic Activity (CNAE) Classified by the National Classification Commission (Concla)"
+
+     - Class:
+       id: Divisão.Econômica
+       subclasse.de: Atividades.Econômicas
+       subclasse.de: Econômicos.CNAE
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Se refere a uma Divisão Econômica da Comissão Nacional de Classificação (CNAE)"
+       definición: "Se refiere a una División Económica de la Comisión Nacional de Clasificación (CNAE)"
+       definition: "Refers to an Economic Division of the National Classification Commission (CNAE)"
+
+     - Class:
+       id: Grupo.Econômico
+       subclasse.de: Atividades.Econômicas
+       subclasse.de: Econômicos.CNAE
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Se refere a um Grupo Econômico (CNAE) Classificado pela Comissão Nacional de Classificação (Concla)"
+       definición: "Se refiere a un Grupo Económico (CNAE) clasificado por la Comisión Nacional de Clasificación (Concla)"
+       definition: "Refers to an Economic Group (CNAE) Classified by the National Classification Commission (Concla)"
+
+     - Class:
+       id: Setor.Econômico
+       subclasse.de: Atividades.Econômicas
+       subclasse.de: Econômicos.CNAE
+       subclasse.de: Taxonômicos
+       subclasse.de: Conceitos
+       definição: "Se refere a um Setor da Economia (CNAE) Classificado pela Comissão Nacional de Classificação (Concla)"
+       definición: "Se refiere a un sector de la economía (CNAE) clasificado por la Comisión Nacional de Clasificación (Concla)"
+       definition: "Refers to a Sector of the Economy (CNAE) Classified by the National Classification Commission (Concla)"
+
+     - Class:
+       id: Função.Auxiliar
+       subclasse.de: API.Método
+       subclasse.de: API.Macros
+       subclasse.de: API.Plataforma
+       subclasse.de: API
+       definição: "Define uma Função Auxiliar (helper) numa aplicação"
+       definición: "Defina un rol de ayudante en una aplicación"
+       definition: "Define a Helper Role in an application"
+
+     - Class:
+       id: Função.Global
+       subclasse.de: API.Método
+       subclasse.de: API.Macros
+       subclasse.de: API.Plataforma
+       subclasse.de: API
+       definição: "Define uma Função Global numa aplicação"
+       definición: "Defina un rol global en una aplicación"
+       definition: "Define a Global Role in an application"
+
+     - Class:
+       id: Função.Local
+       subclasse.de: API.Método
+       subclasse.de: API.Macros
+       subclasse.de: API.Plataforma
+       subclasse.de: API
+       definição: "Define uma Função Local numa aplicação"
+       definición: "Defina un rol local en una aplicación"
+       definition: "Define a Local Role in an application"
+
+     - Class:
+       id: Função.Filtro
+       subclasse.de: API.Método
+       subclasse.de: API.Macros
+       subclasse.de: API.Plataforma
+       subclasse.de: API
+       definição: "Define uma Função para filtrar objetos numa aplicação"
+       definición: "Defina una función para filtrar objetos en una aplicación"
+       definition: "Define a Function to filter objects in an application"
+
+     - Class:
+       id: Bloco.de.Código
+       subclasse.de: API.Método.Visual
+       subclasse.de: API.Macros.Visuais
+       subclasse.de: API.Plataforma
+       subclasse.de: API
+       definição: "Define um Código escrito em sistemas de programação visual"
+       definición: "Define un código escrito en sistemas de programación visual"
+       definition: "Defines a Code written in visual programming systems"
+
 Individuals:
      - Individual:
        id: CNAE.2.0.2010
