@@ -24,7 +24,7 @@ Ontology:  <https://github.com/JLMenegotto/RepoOnto#GeoTécnico>
 	Annotations: rdfs:comment "Norma-Referência-02: -"@pt
 	Annotations: rdfs:comment "Norma-Referência-03: -"@pt
 	Annotations: rdfs:comment "Observações: Ontologia para descrever elementos de projeto GeoTécnico."@pt
-	Annotations: rdfs:comment "DataHora: 26/11/2026 16:47:15"@pt
+	Annotations: rdfs:comment "DataHora: 26/11/2026 17:09:57"@pt
 	Annotations: rdfs:comment "Advertência: Traduções ao espanhol e ao inglês incorporadas - As traduções devem ser constantemente revisadas"@pt
 	Annotations: rdfs:comment "Aviso: Traducciones integradas al español e inglés - Las traducciones deben revisarse constantemente"@es
 	Annotations: rdfs:comment "Alert: Built-in Spanish and English Translations - Translations must be constantly reviewed"@en
@@ -180,7 +180,7 @@ Class: bim:Erro.de.Preenchimento
 Class: bim:Erro
 	Annotations: rdfs:comment "Erro"@pt
 	Annotations: bim:Definição "Classe para acumular os erros."@pt
-	Annotations: bim:Definición "Clase para acumular  los errores"@es
+	Annotations: bim:Definición "Clase para acumular los errores"@es
 	Annotations: bim:Definition "Class to accumulate errors"@en
 	Annotations: bim:Natureza "Errados"@pt
 	Annotations: bim:Espécie "Erros de Preenchimento"@pt
@@ -883,7 +883,7 @@ Class: bim:Curva.de.10
 	Annotations: bim:Tema "Curvas.de.Nível"@pt
 	Annotations: bim:Disciplina "Geotécnica"@pt
 	Annotations: bim:Chave "Key-GEO-44"
-	Annotations: bim:CatRevit "[ OST_ToposolidSecondaryContours :  OST_SecondaryTopographyContours  ]"
+	Annotations: bim:CatRevit "[ OST_ToposolidSecondaryContours : OST_SecondaryTopographyContours ]"
 	Annotations: bim:ClasseIfc "[ IfcGeoslice ]"
 	Annotations: bim:CódigoABNT "[ 3E ]"
 	SubClassOf: bim:Curvas.de.Nível
@@ -899,7 +899,7 @@ Class: bim:Curva.de.05
 	Annotations: bim:Tema "Curvas.de.Nível"@pt
 	Annotations: bim:Disciplina "Geotécnica"@pt
 	Annotations: bim:Chave "Key-GEO-45"
-	Annotations: bim:CatRevit "[ OST_ToposolidSecondaryContours :  OST_SecondaryTopographyContours  ]"
+	Annotations: bim:CatRevit "[ OST_ToposolidSecondaryContours : OST_SecondaryTopographyContours ]"
 	Annotations: bim:ClasseIfc "[ IfcGeoslice ]"
 	Annotations: bim:CódigoABNT "[ 3E ]"
 	SubClassOf: bim:Curvas.de.Nível
@@ -48887,5 +48887,5 @@ DataProperty: bim:zona.pública
 
 #################################################################
 ##  Fim da Ontologia Geotecnica
-##  Criada em 26/11/2026 16:47:25
+##  Criada em 26/11/2026 17:10:07
 #################################################################
