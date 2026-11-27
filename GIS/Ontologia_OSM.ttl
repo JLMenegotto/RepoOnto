@@ -26,7 +26,7 @@
 	  rdfs:label "Norma-Referência-02: -"@pt ;
 	  rdfs:label "Norma-Referência-03: https://openinframap.org"@pt ;
 	  rdfs:label "Observações: Modelo de informação do Open Street Map Infrastruture."@pt ;
-	  rdfs:label "DataHora: 26/11/2026 16:48:05"@pt ;
+	  rdfs:label "DataHora: 27/11/2026 6:15:38"@pt ;
 	  rdfs:label "Advertência: Algumas traduções podem precisar de revisão - Traducción al español incorporada"@pt ;
 	  rdfs:label "Aviso: -"@pt ;
 	  rdfs:label "Alert: -"@pt ;
@@ -179,7 +179,7 @@ bim:Erro rdf:type  owl:Class  ;
       rdfs:subClassOf  bim:Erro.de.Preenchimento ;
       rdfs:label  "Erro"@pt ;
       bim:Definição   "Classe para acumular os erros."@pt ;
-      bim:Definición  "Clase para acumular  los errores"@es ;
+      bim:Definición  "Clase para acumular los errores"@es ;
       bim:Definition  "Class to accumulate errors"@en ;
       bim:Natureza    "Errados"@pt ;
       bim:Espécie     "Erros de Preenchimento"@pt ;
@@ -218,7 +218,7 @@ bim:Energia.Gerador rdf:type  owl:Class  ;
       bim:Tema        "Energia.Gerador"@pt ;
       bim:Disciplina  "Interoperabilidade"@pt ;
       bim:Chave       "Key-OSM-3"@pt ;
-      bim:CatRevit    "[ OST_Cable : OST_Conduit  : OST_ConduitCenterLine  : OST_ConduitDrop : OST_ConduitRiseDrop : OST_ConduitRun ]"   ;
+      bim:CatRevit    "[ OST_Cable : OST_Conduit : OST_ConduitCenterLine : OST_ConduitDrop : OST_ConduitRiseDrop : OST_ConduitRun ]"   ;
       bim:ClasseIfc   "[ IfcCableSegment ]"    . 
 
 
@@ -252,7 +252,7 @@ bim:Energia.Usina rdf:type  owl:Class  ;
       bim:Tema        "Energia.Usina"@pt ;
       bim:Disciplina  "Interoperabilidade"@pt ;
       bim:Chave       "Key-OSM-4"@pt ;
-      bim:CatRevit    "[ OST_Cable : OST_Conduit  : OST_ConduitCenterLine  : OST_ConduitDrop : OST_ConduitRiseDrop : OST_ConduitRun ]"   ;
+      bim:CatRevit    "[ OST_Cable : OST_Conduit : OST_ConduitCenterLine : OST_ConduitDrop : OST_ConduitRiseDrop : OST_ConduitRun ]"   ;
       bim:ClasseIfc   "[ IfcCableSegment ]"    . 
 
 
@@ -286,7 +286,7 @@ bim:Energia.Linha rdf:type  owl:Class  ;
       bim:Tema        "Energia.Linha"@pt ;
       bim:Disciplina  "Interoperabilidade"@pt ;
       bim:Chave       "Key-OSM-5"@pt ;
-      bim:CatRevit    "[ OST_Cable : OST_Conduit  : OST_ConduitCenterLine  : OST_ConduitDrop : OST_ConduitRiseDrop : OST_ConduitRun ]"   ;
+      bim:CatRevit    "[ OST_Cable : OST_Conduit : OST_ConduitCenterLine : OST_ConduitDrop : OST_ConduitRiseDrop : OST_ConduitRun ]"   ;
       bim:ClasseIfc   "[ IfcCableSegment ]"    . 
 
 
@@ -320,7 +320,7 @@ bim:Energia.Subestação rdf:type  owl:Class  ;
       bim:Tema        "Energia.Subestação"@pt ;
       bim:Disciplina  "Interoperabilidade"@pt ;
       bim:Chave       "Key-OSM-6"@pt ;
-      bim:CatRevit    "[ OST_Cable : OST_Conduit  : OST_ConduitCenterLine  : OST_ConduitDrop : OST_ConduitRiseDrop : OST_ConduitRun ]"   ;
+      bim:CatRevit    "[ OST_Cable : OST_Conduit : OST_ConduitCenterLine : OST_ConduitDrop : OST_ConduitRiseDrop : OST_ConduitRun ]"   ;
       bim:ClasseIfc   "[ IfcCableSegment ]"    . 
 
 
@@ -354,7 +354,7 @@ bim:Energia.Transformador rdf:type  owl:Class  ;
       bim:Tema        "Energia.Transformador"@pt ;
       bim:Disciplina  "Interoperabilidade"@pt ;
       bim:Chave       "Key-OSM-7"@pt ;
-      bim:CatRevit    "[ OST_Cable : OST_Conduit  : OST_ConduitCenterLine  : OST_ConduitDrop : OST_ConduitRiseDrop : OST_ConduitRun ]"   ;
+      bim:CatRevit    "[ OST_Cable : OST_Conduit : OST_ConduitCenterLine : OST_ConduitDrop : OST_ConduitRiseDrop : OST_ConduitRun ]"   ;
       bim:ClasseIfc   "[ IfcCableSegment ]"    . 
 
 
@@ -388,7 +388,7 @@ bim:Energia.Interruptor rdf:type  owl:Class  ;
       bim:Tema        "Energia.Interruptor"@pt ;
       bim:Disciplina  "Interoperabilidade"@pt ;
       bim:Chave       "Key-OSM-8"@pt ;
-      bim:CatRevit    "[ OST_Cable : OST_Conduit  : OST_ConduitCenterLine  : OST_ConduitDrop : OST_ConduitRiseDrop : OST_ConduitRun ]"   ;
+      bim:CatRevit    "[ OST_Cable : OST_Conduit : OST_ConduitCenterLine : OST_ConduitDrop : OST_ConduitRiseDrop : OST_ConduitRun ]"   ;
       bim:ClasseIfc   "[ IfcCableSegment ]"    . 
 
 
@@ -422,7 +422,7 @@ bim:Energia.Compensador rdf:type  owl:Class  ;
       bim:Tema        "Energia.Compensador"@pt ;
       bim:Disciplina  "Interoperabilidade"@pt ;
       bim:Chave       "Key-OSM-9"@pt ;
-      bim:CatRevit    "[ OST_Cable : OST_Conduit  : OST_ConduitCenterLine  : OST_ConduitDrop : OST_ConduitRiseDrop : OST_ConduitRun ]"   ;
+      bim:CatRevit    "[ OST_Cable : OST_Conduit : OST_ConduitCenterLine : OST_ConduitDrop : OST_ConduitRiseDrop : OST_ConduitRun ]"   ;
       bim:ClasseIfc   "[ IfcCableSegment ]"    . 
 
 
@@ -456,7 +456,7 @@ bim:Energia.Torre rdf:type  owl:Class  ;
       bim:Tema        "Energia.Torre"@pt ;
       bim:Disciplina  "Interoperabilidade"@pt ;
       bim:Chave       "Key-OSM-10"@pt ;
-      bim:CatRevit    "[ OST_Cable : OST_Conduit  : OST_ConduitCenterLine  : OST_ConduitDrop : OST_ConduitRiseDrop : OST_ConduitRun ]"   ;
+      bim:CatRevit    "[ OST_Cable : OST_Conduit : OST_ConduitCenterLine : OST_ConduitDrop : OST_ConduitRiseDrop : OST_ConduitRun ]"   ;
       bim:ClasseIfc   "[ IfcCableSegment ]"    . 
 
 
@@ -490,7 +490,7 @@ bim:Telecom.Edifício rdf:type  owl:Class  ;
       bim:Tema        "Telecom.Edifício"@pt ;
       bim:Disciplina  "Interoperabilidade"@pt ;
       bim:Chave       "Key-OSM-11"@pt ;
-      bim:CatRevit    "[ OST_Cable : OST_Conduit  : OST_ConduitCenterLine  : OST_ConduitDrop : OST_ConduitRiseDrop : OST_ConduitRun ]"   ;
+      bim:CatRevit    "[ OST_Cable : OST_Conduit : OST_ConduitCenterLine : OST_ConduitDrop : OST_ConduitRiseDrop : OST_ConduitRun ]"   ;
       bim:ClasseIfc   "[ IfcCableSegment ]"    . 
 
 
@@ -524,7 +524,7 @@ bim:Telecom.Cabo rdf:type  owl:Class  ;
       bim:Tema        "Telecom.Cabo"@pt ;
       bim:Disciplina  "Interoperabilidade"@pt ;
       bim:Chave       "Key-OSM-12"@pt ;
-      bim:CatRevit    "[ OST_Cable : OST_Conduit  : OST_ConduitCenterLine  : OST_ConduitDrop : OST_ConduitRiseDrop : OST_ConduitRun ]"   ;
+      bim:CatRevit    "[ OST_Cable : OST_Conduit : OST_ConduitCenterLine : OST_ConduitDrop : OST_ConduitRiseDrop : OST_ConduitRun ]"   ;
       bim:ClasseIfc   "[ IfcCableSegment ]"    . 
 
 
@@ -558,7 +558,7 @@ bim:Telecom.Mastro rdf:type  owl:Class  ;
       bim:Tema        "Telecom.Mastro"@pt ;
       bim:Disciplina  "Interoperabilidade"@pt ;
       bim:Chave       "Key-OSM-13"@pt ;
-      bim:CatRevit    "[ OST_Cable : OST_Conduit  : OST_ConduitCenterLine  : OST_ConduitDrop : OST_ConduitRiseDrop : OST_ConduitRun ]"   ;
+      bim:CatRevit    "[ OST_Cable : OST_Conduit : OST_ConduitCenterLine : OST_ConduitDrop : OST_ConduitRiseDrop : OST_ConduitRun ]"   ;
       bim:ClasseIfc   "[ IfcCableSegment ]"    . 
 
 
@@ -45481,5 +45481,5 @@ bim:zona.pública   rdf:type  owl:DatatypeProperty ;
 
 #################################################################
 ##  Fim da Ontologia OSM
-##  Criada em 26/11/2026 16:48:16
+##  Criada em 27/11/2026 6:15:50
 #################################################################
