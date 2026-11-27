@@ -26,7 +26,7 @@
 	  rdfs:label "Norma-Referência-02: -"@pt ;
 	  rdfs:label "Norma-Referência-03: -"@pt ;
 	  rdfs:label "Observações: Conceitos de elementos de materialidade."@pt ;
-	  rdfs:label "DataHora: 26/11/2026 16:49:40"@pt ;
+	  rdfs:label "DataHora: 27/11/2026 6:17:27"@pt ;
 	  rdfs:label "Advertência: A lista de maiteriais considera a norma ABNT 15965, tabela 0M"@pt ;
 	  rdfs:label "Aviso: La lista de materiales considera la norma ABNT 15965, tabla 0M"@es ;
 	  rdfs:label "Alert: The list of materials considers the ABNT 15965 standard, table 0M"@en ;
@@ -179,7 +179,7 @@ bim:Erro rdf:type  owl:Class  ;
       rdfs:subClassOf  bim:Erro.de.Preenchimento ;
       rdfs:label  "Erro"@pt ;
       bim:Definição   "Classe para acumular os erros."@pt ;
-      bim:Definición  "Clase para acumular  los errores"@es ;
+      bim:Definición  "Clase para acumular los errores"@es ;
       bim:Definition  "Class to accumulate errors"@en ;
       bim:Natureza    "Errados"@pt ;
       bim:Espécie     "Erros de Preenchimento"@pt ;
@@ -3570,7 +3570,7 @@ bim:Gases rdf:type  owl:Class  ;
 bim:HCFC-22 rdf:type  owl:Class  ;
       rdfs:subClassOf  bim:Gases ;
       rdfs:label  "HCFC-22"@pt ;
-      bim:Definição   "Clorodifluorometano  (HCFC-22)"@pt ;
+      bim:Definição   "Clorodifluorometano (HCFC-22)"@pt ;
       bim:Definición  "Clorodifluorometano (HCFC-22)"@es ;
       bim:Definition  "Chlorodifluoromethane (HCFC-22)"@en ;
       bim:Natureza    "De Materialidade"@pt ;
@@ -10158,7 +10158,7 @@ bim:Cola.Espuma rdf:type  owl:Class  ;
       bim:Tema        "Adesivos"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
       bim:Chave       "Key-MAT-287"@pt ;
-      bim:CatRevit    "[ OST_Materials : OST_Parts : OST_FloorsSubstrate : OST_WallsSubstrate : OST_CeilingsSubstrate  ]"   ;
+      bim:CatRevit    "[ OST_Materials : OST_Parts : OST_FloorsSubstrate : OST_WallsSubstrate : OST_CeilingsSubstrate ]"   ;
       bim:ClasseIfc   "[ IfcMaterial : IfcFastener ]"   ;
       bim:ABNT        "[ 0M ]"    . 
 
@@ -10193,7 +10193,7 @@ bim:Cola.Louça rdf:type  owl:Class  ;
       bim:Tema        "Adesivos"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
       bim:Chave       "Key-MAT-288"@pt ;
-      bim:CatRevit    "[ OST_Materials : OST_Parts : OST_FloorsSubstrate : OST_WallsSubstrate : OST_CeilingsSubstrate  ]"   ;
+      bim:CatRevit    "[ OST_Materials : OST_Parts : OST_FloorsSubstrate : OST_WallsSubstrate : OST_CeilingsSubstrate ]"   ;
       bim:ClasseIfc   "[ IfcMaterial : IfcFastener ]"   ;
       bim:ABNT        "[ 0M ]"    . 
 
@@ -10228,7 +10228,7 @@ bim:Cola.Madeira rdf:type  owl:Class  ;
       bim:Tema        "Adesivos"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
       bim:Chave       "Key-MAT-289"@pt ;
-      bim:CatRevit    "[ OST_Materials : OST_Parts : OST_FloorsSubstrate : OST_WallsSubstrate : OST_CeilingsSubstrate  ]"   ;
+      bim:CatRevit    "[ OST_Materials : OST_Parts : OST_FloorsSubstrate : OST_WallsSubstrate : OST_CeilingsSubstrate ]"   ;
       bim:ClasseIfc   "[ IfcMaterial : IfcFastener ]"   ;
       bim:ABNT        "[ 0M ]"    . 
 
@@ -10263,7 +10263,7 @@ bim:Cola.Metal rdf:type  owl:Class  ;
       bim:Tema        "Adesivos"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
       bim:Chave       "Key-MAT-290"@pt ;
-      bim:CatRevit    "[ OST_Materials : OST_Parts : OST_FloorsSubstrate : OST_WallsSubstrate : OST_CeilingsSubstrate  ]"   ;
+      bim:CatRevit    "[ OST_Materials : OST_Parts : OST_FloorsSubstrate : OST_WallsSubstrate : OST_CeilingsSubstrate ]"   ;
       bim:ClasseIfc   "[ IfcMaterial : IfcFastener ]"   ;
       bim:ABNT        "[ 0M ]"    . 
 
@@ -10298,7 +10298,7 @@ bim:Cola.Textil rdf:type  owl:Class  ;
       bim:Tema        "Adesivos"@pt ;
       bim:Disciplina  "Interdisciplinar"@pt ;
       bim:Chave       "Key-MAT-291"@pt ;
-      bim:CatRevit    "[ OST_Materials : OST_Parts : OST_FloorsSubstrate : OST_WallsSubstrate : OST_CeilingsSubstrate  ]"   ;
+      bim:CatRevit    "[ OST_Materials : OST_Parts : OST_FloorsSubstrate : OST_WallsSubstrate : OST_CeilingsSubstrate ]"   ;
       bim:ClasseIfc   "[ IfcMaterial : IfcFastener ]"   ;
       bim:ABNT        "[ 0M ]"    . 
 
@@ -11305,7 +11305,7 @@ bim:Isolantes rdf:type  owl:Class  ;
 bim:Borracha.Antivibratória rdf:type  owl:Class  ;
       rdfs:subClassOf  bim:Isolantes ;
       rdfs:label  "Borracha Antivibratória"@pt ;
-      bim:Definição   "Material construtivo usado para absorver vibrações  dos compressores e ventiladores. Colocado em cantoneiras, tirantes e suportes de fixação impedindo a transmissão de ruído para a estrutura do edifício."@pt ;
+      bim:Definição   "Material construtivo usado para absorver vibrações dos compressores e ventiladores. Colocado em cantoneiras, tirantes e suportes de fixação impedindo a transmissão de ruído para a estrutura do edifício."@pt ;
       bim:Definición  "Material de construcción utilizado para absorber las vibraciones de compresores y ventiladores. Se colocan en ángulos, barras de dirección y soportes de fijación para evitar la transmisión de ruido a la estructura del edificio."@es ;
       bim:Definition  "Construction material used to absorb vibrations from compressors and fans. Placed on angles, tie rods and fixing brackets preventing the transmission of noise to the building structure."@en ;
       bim:Natureza    "De Construção"@pt ;
@@ -11384,7 +11384,7 @@ bim:Aço.Estrutural rdf:type  owl:Class  ;
       bim:Disciplina  "Interdisciplinar"@pt ;
       bim:Chave       "Key-MAT-322"@pt ;
       bim:CatRevit    "[ OST_Materials : OST_Rebar : OST_AreaRein : OST_StructuralFoundation : OST_StructuralColumns : OST_StructuralFraming : OST_StructuralTendons : OST_StructuralStiffener : OST_StructuralTruss : OST_StructConnectionAnchors : OST_StructConnectionBolts : OST_StructConnectionPlates : OST_StructConnectionShearStuds : OST_HorizontalBracing : OST_VerticalBracing : OST_KickerBracing ]"   ;
-      bim:ClasseIfc   "[ IfcMaterial : IfcReinforcingBar : IfcStructuralSurfaceMember : IfcFooting : IfcColumn : IfcBeam : IfcMember : IfcElementAssembly  : IfcMechanicalFastener ]"   ;
+      bim:ClasseIfc   "[ IfcMaterial : IfcReinforcingBar : IfcStructuralSurfaceMember : IfcFooting : IfcColumn : IfcBeam : IfcMember : IfcElementAssembly : IfcMechanicalFastener ]"   ;
       bim:ABNT        "[ 0M ]"    . 
 
 
@@ -11419,7 +11419,7 @@ bim:Alumínio.Estrutural rdf:type  owl:Class  ;
       bim:Disciplina  "Interdisciplinar"@pt ;
       bim:Chave       "Key-MAT-323"@pt ;
       bim:CatRevit    "[ OST_Materials : OST_Rebar : OST_AreaRein : OST_StructuralFoundation : OST_StructuralColumns : OST_StructuralFraming : OST_StructuralTendons : OST_StructuralStiffener : OST_StructuralTruss : OST_StructConnectionAnchors : OST_StructConnectionBolts : OST_StructConnectionPlates : OST_StructConnectionShearStuds : OST_HorizontalBracing : OST_VerticalBracing : OST_KickerBracing ]"   ;
-      bim:ClasseIfc   "[ IfcMaterial : IfcReinforcingBar : IfcStructuralSurfaceMember : IfcFooting : IfcColumn : IfcBeam : IfcMember : IfcElementAssembly  : IfcMechanicalFastener ]"   ;
+      bim:ClasseIfc   "[ IfcMaterial : IfcReinforcingBar : IfcStructuralSurfaceMember : IfcFooting : IfcColumn : IfcBeam : IfcMember : IfcElementAssembly : IfcMechanicalFastener ]"   ;
       bim:ABNT        "[ 0M ]"    . 
 
 
@@ -57781,5 +57781,5 @@ bim:zona.pública   rdf:type  owl:DatatypeProperty ;
 
 #################################################################
 ##  Fim da Ontologia Materiais
-##  Criada em 26/11/2026 16:49:51
+##  Criada em 27/11/2026 6:17:39
 #################################################################
